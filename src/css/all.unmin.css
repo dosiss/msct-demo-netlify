@@ -5554,6 +5554,17 @@
      font-weight: 300;
      font-style: italic
 }
+@font-face {
+	font-family: Avenir;
+	src: url('../fonts/avenir-heavy.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/avenir-heavy.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/avenir-heavy.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/avenir-heavy.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/avenir-heavy.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/avenir-heavy.svg#avenirnextcyr-heavy') format('svg');
+    font-weight: 900;
+    font-style: normal /* Chrome < 4, Legacy iOS */
+}
  body {
      font-family: Avenir;
      overflow-x: hidden
@@ -5585,9 +5596,25 @@
      font-size: 18px;
      text-align: center;
 }
+.queenofspades .colored-btn, .threecorsairs .colored-btn, .prince .colored-btn, .hellsing-new .colored-btn, .myth .colored-btn {
+    background-color: #12FFE9;
+    color: #2E2933
+}
  .colored-btn:hover {
      background-color: #e6002d;
      color: #fff
+}
+.queenofspades .colored-btn:hover, .threecorsairs .colored-btn:hover, .prince .colored-btn:hover, .hellsing-new .colored-btn:hover, .myth .colored-btn:hover {
+    background-color: #A1FFF6;
+    color: #4E4656
+}
+.christmas .colored-btn, .robin .colored-btn, .riot .colored-btn, .venetian .colored-btn, .rite-new .colored-btn, .lions .colored-btn, .cancan .colored-btn, .ank .colored-btn, .fruitvegas .colored-btn, .bamboo .colored-btn, .horde .colored-btn {
+    background-color: #FFE912;
+    color: #2E2933
+}
+.christmas .colored-btn:hover, .robin .colored-btn:hover, .riot .colored-btn:hover, .venetian .colored-btn:hover, .rite-new .colored-btn:hover, .lions .colored-btn:hover, .ank .colored-btn:hover, .cancan .colored-btn:hover, .fruitvegas .colored-btn:hover, .bamboo .colored-btn:hover, .horde .colored-btn:hover {
+    background-color: #FFF6A3;
+    color: #4E4656
 }
  .transparent-btn {
      color: #fff;
@@ -5639,6 +5666,9 @@
  @media screen and (max-width:480px) {
      h3 {
          font-size: 28px
+    }
+    #games-types h3 {
+      font-size: 28px
     }
 }
  h4 {
@@ -7798,9 +7828,13 @@ width: 35px
      padding-top: 35px;
 }
  #ice-banner {
-     background-color: #261729;
-     padding-top: 145px;
-     padding-bottom: 145px;
+   background: #321627;
+    background: -moz-linear-gradient(top,  #321627 0%, #3c3253 100%);
+    background: -webkit-linear-gradient(top,  #321627 0%,#3c3253 100%);
+    background: linear-gradient(to bottom,  #321627 0%,#3c3253 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#321627', endColorstr='#3c3253',GradientType=0 );
+     padding-top: 58px;
+     padding-bottom: 58px;
      margin-top: 0;
      margin-bottom: 0;
      position: relative;
@@ -7830,21 +7864,40 @@ width: 35px
      margin: 0 auto;
 }
  .ice-banner__text-left {
-     font-weight: 600;
-     display: inline-block;
-     text-align: left;
-     padding-right: 35px;
-     border-right: 1px solid #707070;
+   padding-right: 0;
+       text-align: center;
+       border-right: none;
+       padding-bottom: 20px;
+       text-transform: uppercase;
+       font-weight: 900;
+}
+.ice-banner__company {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.ice-banner__stand {
+    font-size: 38px;
 }
  .ice-banner__text-right {
-     display: inline-block;
-     padding-left: 35px;
+   padding-left: 0;
+       padding-top: 20px;
+       display: block;
+       font-weight: 900;
+       border-top: 1px solid #707070;
+       max-width: fit-content;
+       margin: 0 auto;
+}
+.ice-banner__date {
+    font-size: 38px;
+}
+.ice-banner__place {
+    font-size: 28px;
 }
  .rekill4 {
      display: block;
      position: absolute;
      bottom: 0;
-     right: 248px;
+     right: 0;
      z-index: -1;
 }
  .rekill4-1366 {
@@ -7860,6 +7913,9 @@ width: 35px
   margin-top: 0;
   margin-bottom: 0
 }
+.main-partners.our-partners__logo-list {
+  align-items: center;
+}
 .our-partners__logo-list {
   padding: 45px 0 20px;
   align-items: end;
@@ -7868,26 +7924,96 @@ width: 35px
     flex-wrap: wrap;
 }
 .our-partners__logo-list img {
-  height: 41px;
+  height: 35px; /* 41px */
   padding: 0 15px;
   filter: grayscale();
   margin-bottom: 25px
 }
+#media {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.media-partners {
+  padding: 45px 0 20px;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.media-partners img {
+  height: 41px; /* 41px */
+  padding: 0 15px;
+  filter: grayscale();
+  margin-bottom: 25px
+}
+.media-partners.our-partners__logo-list img.contrast-logo {
+  filter: grayscale() contrast(.2)
+}
+.media-partners a:hover img {
+  filter: none;
+}
 .our-partners__logo-list .slots-777-logo {
-  height: 33px
+  height: 26px /* 33px */
+}
+.our-partners__logo-list .ocr-logo {
+  height: 30px
+}
+.our-partners__logo-list .gamblerspick-logo {
+  height: 32px
+}
+.our-partners__logo-list .slotcatalog-logo {
+  height: 32px
+}
+.our-partners__logo-list .slotscalendar-logo {
+  height: 38px
 }
 .our-partners__logo-list .slotspot-logo {
   height: initial
 }
 .our-partners__logo-list .vegas-slots-logo {
-  height: 46px
+  height: 39px /* 46px */
 }
 .our-partners__logo-list .patagonia-logo {
-  height: 46px
+  height: 39px /* 46px */
 }
 .our-partners__logo-list .supercasinosites-logo {
   height: 50px;
   margin-bottom: 16px
+}
+.our-partners__logo-list .casinoscout-logo {
+  height: 32px /* 35px */
+}
+.our-partners__logo-list .casinorating-logo {
+  height: 29px;
+}
+.our-partners__logo-list .extralong-logo {
+  height: 33px;
+}
+.our-partners__logo-list .short-logo {
+  height: 43px
+}
+.our-partners__logo-list .very-short-logo {
+  height: 70px;
+  margin-bottom: 15px
+}
+.our-partners__logo-list .short-logo {
+  height: 49px
+}
+.main-partners.our-partners__logo-list .wide-logo {
+  height: 42px
+}
+.main-partners.our-partners__logo-list .extra-wide-logo {
+  height: 38px
+}
+.main-partners.our-partners__logo-list .medium-logo {
+  height: 34px
+}
+.main-partners.our-partners__logo-list .short-logo {
+  height: 59px
+}
+.main-partners.our-partners__logo-list .very-short-logo {
+  height: 74px
 }
 .our-partners__logo-list a:hover img {
   filter: none;
@@ -7896,6 +8022,9 @@ width: 35px
   opacity: .6;
 }
 .our-partners__logo-list a:hover .ocr-logo {
+  opacity: .6;
+}
+.our-partners__logo-list a:hover .black-logo {
   opacity: .6;
 }
  .feedback .colored-btn {
@@ -8459,6 +8588,89 @@ max-width: 850px;
      margin-left: 244px;
      margin-right: 244px
 }
+#games-types {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    border-top: 1px solid #e3e3e3;
+}
+.games-types__item {
+    text-align: center;
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+.games-types__item-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 355px;
+    padding: 0 35px;
+}
+.games-types__item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.games-types__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 53px;
+    letter-spacing: -1px;
+}
+.games-types__title img {
+    margin-right: 10px;
+}
+.games-types__item p {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 10px
+}
+#games-types h3 {
+    margin: 0;
+    color: #0a050e;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+@media screen and (max-width:480px) {
+   #games-types h3 {
+     font-size: 28px
+   }
+}
+.games-types__subtitle {
+    font-size: 21px;
+    font-weight: 900;
+    max-width: 400px;
+    margin: 0 auto 7px;
+}
+.single-blog-section .games-types__item p {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+    line-height: 24px
+}
+.games-types__wrap .games-types__item:nth-child(2) p {
+    flex-grow: 2;
+    padding-top: 30px;
+}
+.link-to-games-wrapper {
+    display: flex;
+    align-items: baseline;
+    padding-top: 30px;
+    justify-content: center;
+}
+.link-to-games-wrapper a {
+    line-height: 20px;
+    padding: 0;
+    font-size: 21px;
+}
+.link-to-games-wrapper svg {
+    height: 17px;
+    margin-left: 10px;
+    fill: #E11737;
+}
  footer {
      background: #231326;
      background: -moz-linear-gradient(top, #231326 0%, #31221e 100%);
@@ -8617,7 +8829,7 @@ ul.socials-block li:nth-child(2) a img {
      display: block
 }
 .gaming-labs-logo {
-  display: block;
+  display: none;
 }
 .gaming-labs-logo img {
   height: 44px;
@@ -8962,7 +9174,7 @@ ul.socials-block li:nth-child(2) a img {
  .northernheat {
      background: url(../images/img_game_northernheat_bg.jpg) no-repeat center top #09040d
 }
- .lions {
+ /*.lions {
      background: #175b52;
      background: -moz-linear-gradient(top, #175b52 0%, #342b0f 35%, #141309 67%, #231326 100%);
      background: -webkit-linear-gradient(top, #175b52 0%,#342b0f 35%,#141309 67%,#231326 100%);
@@ -8982,7 +9194,7 @@ background: -moz-linear-gradient(top, #521907 0%, #310d12 35%, #4d1f0a 67%, #231
 background: -webkit-linear-gradient(top, #521907 0%,#310d12 35%,#4d1f0a 67%,#231326 100%);
 background: linear-gradient(to bottom, #521907 0%,#310d12 35%,#4d1f0a 67%,#231326 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#521907', endColorstr='#231326',GradientType=0 );
-}
+}*/
 .hellsing-new {
   background: #282b3c;
 background: -moz-linear-gradient(top, #282b3c 0%, #513b47 35%, #29232d 67%, #231326 100%);
@@ -8997,6 +9209,7 @@ background: -webkit-linear-gradient(top, #347aa2 0%,#368ad6 35%,#064564 67%,#231
 background: linear-gradient(to bottom, #347aa2 0%,#368ad6 35%,#064564 67%,#231326 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#347aa2', endColorstr='#231326',GradientType=0 );
 }
+/*
 .rekill-new {
   background: #30543e;
 background: -moz-linear-gradient(top, #30543e 0%, #182024 35%, #181b18 67%, #231326 100%);
@@ -9004,13 +9217,14 @@ background: -webkit-linear-gradient(top, #30543e 0%,#182024 35%,#181b18 67%,#231
 background: linear-gradient(to bottom, #30543e 0%,#182024 35%,#181b18 67%,#231326 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30543e', endColorstr='#231326',GradientType=0 );
 }
+
 .rite-new {
   background: #191106;
 background: -moz-linear-gradient(top, #191106 0%, #554217 35%, #271b05 67%, #231326 100%);
 background: -webkit-linear-gradient(top, #191106 0%,#554217 35%,#271b05 67%,#231326 100%);
 background: linear-gradient(to bottom, #191106 0%,#554217 35%,#271b05 67%,#231326 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191106', endColorstr='#231326',GradientType=0 );
-}
+}*/
 .thetomb-new {
   background: #462208;
 background: -moz-linear-gradient(top, #462208 0%, #2a1809 35%, #35260e 67%, #231326 100%);
@@ -9025,7 +9239,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#462208', end
   background: linear-gradient(to bottom, #725fb1 0%,#7f4291 20%,#494371 40%,#494371 40%,#02596d 61%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#725fb1', endColorstr='#231326',GradientType=0 );
 }
-.bamboo {
+/*.bamboo {
   background: #3b2f00;
 background: -moz-linear-gradient(top, #3b2f00 0%, #3d3c10 33%, #1c1803 66%, #231326 100%);
 background: -webkit-linear-gradient(top, #3b2f00 0%,#3d3c10 33%,#1c1803 66%,#231326 100%);
@@ -9045,7 +9259,7 @@ background: -moz-linear-gradient(top, #BA8905 0%, #A76F00 20%, #912207 40%, #3E1
 background: -webkit-linear-gradient(top, #BA8905 0%, #A76F00 20%, #912207 40%, #3E180D 60%,#231326 100%);
 background: linear-gradient(to bottom, #BA8905 0%, #A76F00 20%, #912207 40%, #3E180D 60%,#231326 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', endColorstr='#231326',GradientType=0 );
-}
+}*/
 .purplepills {
   background: #906EFF;
   background: -moz-linear-gradient(top, #906EFF 0%, #3F1391 33%, #181B18 66%, #231326 100%);
@@ -9095,13 +9309,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background: linear-gradient(to bottom, #0088B0 0%, #2E5720 50%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088B0', endColorstr='#231326',GradientType=0 );
 }
-.horde {
+/*.horde {
   background: #575901;
   background: -moz-linear-gradient(top, #575901 0%, #191500 50%, #231326 100%);
   background: -webkit-linear-gradient(top, #575901 0%, #191500 50%,#231326 100%);
   background: linear-gradient(to bottom, #575901 0%, #191500 50%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#575901', endColorstr='#231326',GradientType=0 );
-}
+}*/
 .gemz {
   background: #A07E00;
   background: -moz-linear-gradient(top, #A07E00 0%, #825782 50%, #231326 100%);
@@ -9116,7 +9330,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background: linear-gradient(to bottom, #0E6F50 0%, #7F2C7F 50%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0E6F50', endColorstr='#231326',GradientType=0 );
 }
-.riot {
+/*.riot {
   background: #6C747A;
   background: -moz-linear-gradient(top, #6C747A 0%, #513924 50%, #231326 100%);
   background: -webkit-linear-gradient(top, #6C747A 0%, #513924 50%,#231326 100%);
@@ -9128,6 +9342,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background: -moz-linear-gradient(top, #696406 0%, #4C5F1A 50%, #231326 100%);
   background: -webkit-linear-gradient(top, #696406 0%, #4C5F1A 50%,#231326 100%);
   background: linear-gradient(to bottom, #696406 0%, #4C5F1A 50%,#231326 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696406', endColorstr='#231326',GradientType=0 );
+}*/
+.macau {
+  background: #663338;
+  background: -moz-linear-gradient(top, #663338 0%, #392349 50%, #231326 100%);
+  background: -webkit-linear-gradient(top, #663338 0%, #392349 50%,#231326 100%);
+  background: linear-gradient(to bottom, #663338 0%, #392349 50%,#231326 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#663338', endColorstr='#231326',GradientType=0 );
+}
+.monaco {
+  background: #452E86;
+  background: -moz-linear-gradient(top, #452E86 0%, #1B3740 50%, #231326 100%);
+  background: -webkit-linear-gradient(top, #452E86 0%, #1B3740 50%,#231326 100%);
+  background: linear-gradient(to bottom, #452E86 0%, #1B3740 50%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696406', endColorstr='#231326',GradientType=0 );
 }
  .legioner {
@@ -9151,6 +9379,174 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
  .rekill {
      background: url(../images/img_game_rekill_bg.jpg) no-repeat center top #09040d
 }
+/*
+.keno {
+  background: url('../images/back_amaterasu-keno.jpg') no-repeat bottom
+}
+.ank {
+  background: url('../images/back_anksunamun.jpg') no-repeat bottom
+}
+.blackjack {
+  background: url('../images/back_baccarat-blackjack-holdem.jpg') no-repeat bottom
+}
+.bamboo {
+  background: url('../images/back_bamboo.jpg') no-repeat bottom
+}
+.benny {
+  background: url('../images/back_bennys-the-biggest-game.jpg') no-repeat bottom
+}
+.cancan {
+  background: url('../images/back_cancan.jpg') no-repeat bottom
+}
+.fruitvegas {
+  background: url('../images/back_fruit-vegas.jpg') no-repeat bottom
+}
+.macau {
+  background: url('../images/back_fruits-macau.jpg') no-repeat bottom
+}
+.monaco {
+  background: url('../images/back_fruits-monaco.jpg') no-repeat bottom
+}
+.gemz {
+  background: url('../images/back_gemz-grow.jpg') no-repeat bottom
+}
+.gryphon {
+  background: url('../images/back_gryphons-castle.jpg') no-repeat bottom
+}
+.hellsing-new {
+  background: url('../images/back_hellsing.jpg') no-repeat bottom
+}
+.horde {
+  background: url('../images/back_horde.jpg') no-repeat bottom
+}
+.legioner-new {
+  background: url('../images/back_legioner.jpg') no-repeat bottom
+}
+.lions {
+  background: url('../images/back_lions-pride.jpg') no-repeat bottom
+}
+.merlin {
+  background: url('../images/back_merlin-tower.jpg') no-repeat bottom
+}
+.mermaid {
+  background: url('../images/back_mermaids-bay.jpg') no-repeat bottom
+}
+.nheat-new {
+  background: url('../images/back_northern-heat.jpg') no-repeat bottom
+}
+.purplepills {
+  background: url('../images/back_purple-pills.jpg') no-repeat bottom
+}
+*/
+.horde {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_horde.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.fruitvegas {
+  background: url('../images/back_fruit-vegas.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.bamboo {
+  background: url('../images/back_bamboo.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.cancan {
+  background: url('../images/back_cancan.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.ank {
+  background: url('../images/back_anksunamun.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.lions {
+  background: url('../images/back_lions-pride.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.rite-new {
+  background: url('../images/back_rite.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.venetian {
+  background: url('../images/back_venetian.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.riot {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_riot.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.robin {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_robin-of-loxley.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.rekill-new {
+  background: url('../images/back_rekill.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.queenofspades {
+  background: url('../images/back_queen-of-spades.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.threecorsairs {
+  background: url('../images/back_3-corsairs.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.christmas {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_merry-scary-christmas.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.prince {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_prince.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.hellsing-new {
+  /*background: url('../images/back_hellsing.jpg') no-repeat bottom;*/
+  background: url('../images/back_hellsing.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.myth {
+  /* background: url('../images/back_myth.jpg') no-repeat bottom */
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_myth.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+/*
+.riot {
+  background: url('../images/back_riot.jpg') no-repeat bottom
+}
+.rite-new {
+  background: url('../images/back_rite.jpg') no-repeat bottom
+}
+.robin {
+  background: url('../images/back_robin-of-loxley.jpg') no-repeat bottom
+}
+.thetomb-new {
+  background: url('../images/back_the-tomb.jpg') no-repeat bottom
+}
+.venetian {
+  background: url('../images/back_venetian.jpg') no-repeat bottom
+}
+.wildspirit {
+  background: url('../images/back_wild-spirit.jpg') no-repeat bottom
+}
+*/
+
+
  .previous-game {
      float: left
 }
@@ -9389,7 +9785,9 @@ justify-content: center;
  .single_game_feature_item .single_game_feature_descr {
      font-size: 18px;
      color: rgba(255, 255, 255, .7);
-     line-height: 1.7
+     line-height: 1.7;
+     /* background: rgb(0 0 0 / 30%);
+     padding: 10px; */
 }
  @media (max-width:992px) {
      .single_game_feature_item {
@@ -9405,9 +9803,14 @@ justify-content: center;
       height: auto;
     }
 }
- .single_game-wrapper {
+
+.single_game-wrapper {
      padding-bottom: 5px;
      background-size: auto
+}
+.rekill-new.single_game-wrapper, .queenofspades.single_game-wrapper, .threecorsairs.single_game-wrapper, .christmas.single_game-wrapper, .prince.single_game-wrapper, .robin.single_game-wrapper, .riot.single_game-wrapper, .venetian.single_game-wrapper, .rite-new.single_game-wrapper, .lions.single_game-wrapper, .horde.single_game-wrapper, .cancan.single_game-wrapper, .bamboo.single_game-wrapper, .fruitvegas.single_game-wrapper, .ank.single_game-wrapper, .hellsing-new.single_game-wrapper, .myth.single_game-wrapper  {
+  background-attachment: fixed;
+  background-size: cover;
 }
  .single_game-wrapper .game-description-wrapper {
      margin-bottom: 0
@@ -10025,16 +10428,16 @@ justify-content: center;
      margin-top: 50px;
      margin-bottom: 0
 }
- .single-blog-section .container>div:last-of-type {
+/*  .single-blog-section .container>div:last-of-type {
      margin-bottom: 30px
-}
+} */
  .single-blog-section .text-block {
      margin-bottom: 30px
 }
  .single-blog-section .text-block ul, .single-blog-section .text-block ol {
    font-size: 18px;
     line-height: 36px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
  }
  .text-indented {
    padding-left: 20px
@@ -10052,7 +10455,7 @@ justify-content: center;
      margin: 0;
      margin-bottom: 30px
 }
- .single-blog-section p a {
+ .single-blog-section p a, .single-blog-section li a {
      color: #ff0032;
      font-weight: 700;
      display: inline-block;
@@ -10066,6 +10469,10 @@ justify-content: center;
  .single-blog-section .text-block-img {
      display: block;
      margin: 0 auto;
+}
+p.blog-subtitle {
+  opacity: .6;
+  font-size: 16px;
 }
  .blog-img-wrap {
      background-color: #39222C;
@@ -10085,6 +10492,12 @@ justify-content: center;
 }
 .blog-img-wrap#back_6 {
     background-color: #535957;
+}
+.blog-img-wrap.in-text {
+    background-color: transparent
+}
+.blog-img-wrap.in-text img {
+  max-height: 300px
 }
  .single-blog-section .text-block-img.image-right {
      float: right;
@@ -10433,30 +10846,32 @@ justify-content: center;
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d2126', endColorstr='#16161a',GradientType=0 );
 }
  .toolbar-wrap {
-     width: 1136px;
+     width: 1200px; /* 2 rows 1000px */
      margin: 0 auto;
 }
  .toolbar {
      display: flex;
-     justify-content: space-between;
+     justify-content: space-between; /* 2 rows: center */
      color: #fff;
      overflow-x: auto;
      padding-top: 30px;
-     padding-bottom: 50px
+     padding-bottom: 50px;  /* 2 rows: 20px */
+     /* flex-wrap: wrap; /* 2 rows */
 }
  .portfolio-wrap, .comingsoon-games {
      margin-left: 104px;
      margin-right: 104px
 }
  .btn.fil-cat {
-     min-width: 150px;   /* previous max-width:205px */
+     min-width: 140px;   /* 2rows: 180px */
      text-transform: uppercase;
-     font-size: 14px;   /* previous font-size: 18px */
+     font-size: 12px;   /* 2 rows: 15px */
      font-weight: 600;
      padding: 17px 0;
      border: 1px solid #fff;
      border-radius: 50px;
      background-color: transparent;
+     /* margin: 10px  /* 2 rows */
 }
  .btn.fil-cat:hover {
      background-color: #fff;
@@ -10702,23 +11117,11 @@ justify-content: center;
 .ank .c {
   stroke: #FFD70E
 }
-.rite-new .b {
-  fill: #FFCC00
-}
-.rite-new .c {
-  stroke: #FFCC00
-}
 .rekill-new .b {
   fill: #0AFFB4
 }
 .rekill-new .c {
   stroke: #0AFFB4
-}
-.venetian .b {
-  fill: #FF78D2
-}
-.venetian .c {
-  stroke: #FF78D2
 }
 .bamboo .b {
   fill: #FFEF0A
@@ -10732,24 +11135,18 @@ justify-content: center;
 .mermaid .c {
   stroke: #0ACDFF
 }
-.cancan .b {
-  fill: #49F26B
-}
-.cancan .c {
-  stroke: #49F26B
-}
 .thetomb-new .b {
   fill: #FFB300
 }
 .thetomb-new .c {
   stroke: #FFB300
 }
-.hellsing-new .b {
+/*.hellsing-new .b {
   fill: #C480FF
 }
 .hellsing-new .c {
   stroke: #C480FF
-}
+} */
 .terms-links-wrapper a {
   display: inline-block;
 }
@@ -10799,18 +11196,49 @@ margin: 40px auto;
 .gemz .video-wrap {
   pointer-events: none;
 }
-.robin .play-btn {
+.macau .play-btn {
   display: none;
 }
-.robin .video-wrap {
+.macau .video-wrap {
   pointer-events: none;
 }
-.locaton-block.single-contact-item {
-  display: none
-}
-.contacts-content .footer-contacts p {
+.monaco .play-btn {
   display: none;
 }
+.monaco .video-wrap {
+  pointer-events: none;
+}
+.rekill-new .play-btn {
+  display: none;
+}
+.rekill-new .video-wrap {
+  pointer-events: none;
+}
+.threecorsairs .play-btn {
+  display: none;
+}
+.threecorsairs .video-wrap {
+  pointer-events: none;
+}
+.prince .play-btn {
+  display: none;
+}
+.prince .video-wrap {
+  pointer-events: none;
+}
+.hellsing-new .play-btn {
+  display: none;
+}
+.hellsing-new .video-wrap {
+  pointer-events: none;
+}
+.myth .play-btn {
+  display: none;
+}
+.myth .video-wrap {
+  pointer-events: none;
+}
+
 /****************** /TEMP ********************/
 
 
@@ -10859,18 +11287,6 @@ margin: 40px auto;
     .igb-logo {
       left: 124px
     }
-     .ice-banner__text-left {
-         padding-right: 0;
-         text-align: center;
-         border-right: none;
-         border-bottom: 1px solid #707070;
-         padding-bottom: 30px
-    }
-     .ice-banner__text-right {
-         padding-left: 0;
-         padding-top: 30px;
-         display: block;
-    }
      .rekill4 {
          display: none;
     }
@@ -10882,7 +11298,7 @@ margin: 40px auto;
          display: block;
          position: absolute;
          bottom: 0;
-         right: 124px;
+         right: 0;
          z-index: -1;
     }
      .footer-form-wrapper {
@@ -10990,6 +11406,17 @@ margin: 40px auto;
       width: auto;
     }
 }
+@media only screen and (min-width: 1625px) {
+  .games-types__item-inner {
+    min-height: 326px;
+  }
+  .single-blog-section #games-types .games-types__item-inner {
+    min-height: 355px
+  }
+  .single-product-wrapper #games-types .games-types__item-inner {
+    min-height: 355px
+  }
+}
  @media only screen and (max-width:1400px) {
 
 
@@ -11076,6 +11503,9 @@ margin: 40px auto;
          font-size: 14px;
     }
     */
+    .btn.fil-cat {
+        margin-right: 20px;
+   }
      .toolbar-wrap {
          width: unset;
          margin-left: 124px;
@@ -11106,7 +11536,17 @@ margin: 40px auto;
          display: none;
     }
 }
+ @media only screen and (max-width:1290px) {
+   .games-types__title h3 {
+     font-size: 28px;
+     text-align: left;
+   }
+ }
  @media only screen and (max-width:1200px) {
+   .games-types__title h3 {
+     text-align: left;
+     max-width: 195px
+   }
    .single_game_info .video-wrap, .game-slide-links-wrapper {
      max-width: 500px
    }
@@ -11253,7 +11693,7 @@ margin: 40px auto;
     }
     .igb-logo {
       left: 48px;
-      max-width: 160px;
+      max-width: 130px;
     }
      .container-custom, .container-custom.games {
          margin-right: 48px;
@@ -11263,10 +11703,10 @@ margin: 40px auto;
          margin-right: 20px;
     }
     .top-row-games .tile .game-overlay__btn .colored-btn, .top-row-games .tile.tile-big .game-overlay__btn .colored-btn {
-padding-top: 15px;
-padding-bottom: 15px;
-font-size: 18px;
-}
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    }
   .next-game, .previous-game {
     padding-top: 0;
     padding-bottom: 30px
@@ -11283,6 +11723,22 @@ font-size: 18px;
       margin-left: 48px;
       margin-right: unset
  }
+ /* 2 rows
+ .toolbar {
+   flex-wrap: nowrap;
+   padding-bottom: 50px;
+   justify-content: space-between;
+   margin: 0
+ } */
+ .games-types__wrap .games-types__item:first-child {
+    margin-bottom: 70px;
+  }
+  .games-types__item-inner {
+    min-height: unset;
+  }
+  .games-types__item {
+      width: 100%;
+  }
 }
  @media only screen and (max-width:769px) {
      #header-text {
@@ -11393,8 +11849,7 @@ font-size: 18px;
     }
      .single-blog-section .share-wrapper p {
          margin: 0;
-        /* margin-right: 35px;
-         */
+         margin-right: 5px;
          align-self: center;
          color: #050505;
          font-size: 30px;
@@ -11739,6 +12194,10 @@ font-size: 18px;
     #our-partners h2 {
         font-size: 42px
    }
+    #media h2 {
+      font-size: 42px;
+      padding-top: 40px
+   }
      .about-numbers {
          margin-top: 30px;
          margin-bottom: 30px
@@ -11756,6 +12215,16 @@ font-size: 18px;
          margin-bottom: 30px;
          padding-top: 10px;
     }
+    .games-types__item-inner {
+      min-height: unset;
+    }
+    .single-blog-section .games-types__item-inner {
+      padding-left: 20px;
+      padding-right: 20px
+    }
+    .main-partners.our-partners__logo-list a {
+      width: 100%
+    }
      .share-wrapper p {
          margin-bottom: 10px;
          padding-right: 0
@@ -11765,7 +12234,7 @@ font-size: 18px;
     }
      #ice-banner {
          padding-top: 230px;
-         padding-bottom: 340px;
+         padding-bottom: 240px;
          padding-left: 20px;
          padding-right: 20px;
     }
@@ -11775,15 +12244,14 @@ font-size: 18px;
     }
     .igb-logo {
       left: 50%;
-      margin-left: -80px;
+      margin-left: -65px;
     }
-     .rekill4, .rekill4-1366 {
+     .rekill4-1024, .rekill4-1366 {
          display: none;
     }
-     .rekill4-1024 {
+     .rekill4 {
        display: block;
-      max-height: 329px;
-      right: 25%
+       max-width: 320px
     }
     .our-partners__logo-list img {
       height: 40px;
@@ -11798,6 +12266,9 @@ font-size: 18px;
     }
     .hellsing-new .game-slide-img-title img {
       max-width: 60%
+    }
+    .our-partners__logo-list .xbet-logo {
+      margin-top: 15px;
     }
      .container-custom, .container-custom.games {
          margin-right: 20px;
@@ -11840,6 +12311,12 @@ font-size: 18px;
          padding-top: 24px;
          padding-bottom: 24px
     }
+    .games-types__item {
+        width: 100%;
+    }
+    .games-types__wrap .games-types__item:first-child {
+    margin-bottom: 50px;
+    }
      .next-game a .icon-game, .previous-game a .icon-game {
          width: 40px;
          height: 40px
@@ -11869,7 +12346,7 @@ font-size: 18px;
      .single_game_info .play-btn {
          margin-top: -40px;
     }
-     .lions {
+    /* .lions {
          background: #175b52;
          background: -moz-linear-gradient(top, #175b52 0%, #342b0f 50%, #141309 75%, #231326 100%);
          background: -webkit-linear-gradient(top, #175b52 0%,#342b0f 50%,#141309 75%,#231326 100%);
@@ -11882,7 +12359,7 @@ font-size: 18px;
       background: -webkit-linear-gradient(top, #27492e 0%,#3c5434 50%,#393623 100%);
       background: linear-gradient(to bottom, #27492e 0%,#3c5434 50%,#393623 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27492e', endColorstr='#393623',GradientType=0 );
-    }
+    }*/
      .features-list, .features-subtitle {
          font-size: 16px
     }

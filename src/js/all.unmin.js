@@ -5845,9 +5845,9 @@ $(function() {
     dots: true,
     dotsClass: 'games-slick-dots',
     infinite: true,
-    arrows: true,
-    prevArrow:"<button type='button' class='slick-prev'><img src='images/icn_arrow_previous.png' alt=''></button>",
-    nextArrow:"<button type='button' class='slick-next'><img src='images/icn_arrow_next.png' alt=''></button>"
+    arrows: false,
+    //prevArrow:"<button type='button' class='slick-prev'><img src='images/icn_arrow_previous.png' alt=''></button>",
+    //nextArrow:"<button type='button' class='slick-next'><img src='images/icn_arrow_next.png' alt=''></button>"
   });
 });
 $(function() {
@@ -5937,7 +5937,7 @@ $(function() {
 	});
 });
 $(function () {
-  var thePath = 'https://play.mascot.games/';  //production:  https://play.mascot.games/  *****  test: http://demo-mascotgames.devlab.red/
+  var thePath = 'https://play.mascot.games/';  //production:  https://play.mascot.games/  *****  test: http://demo-mascotgames.devlab.bar/
   $(".colored-btn").click(function() {
   var btnClassName = $(this).attr("class");
   if (btnClassName.indexOf('anks') >= 0) {
@@ -6075,6 +6075,41 @@ $(function () {
       return thePath + 'robin.html';
     });
   }
+  if (btnClassName.indexOf('mac') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'fruit-macau.html';
+    });
+  }
+  if (btnClassName.indexOf('mon') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'fruit-monaco.html';
+    });
+  }
+  if (btnClassName.indexOf('qos') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'queen-of-spades.html';
+    });
+  }
+  if (btnClassName.indexOf('cor') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'three-corsairs.html';
+    });
+  }
+  if (btnClassName.indexOf('msc') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'merry-scary-christmas.html';
+    });
+  }
+  if (btnClassName.indexOf('pri') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'prince-of-persia.html';
+    });
+  }
+  if (btnClassName.indexOf('mth') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'the-myth.html';
+    });
+  }
   });
 });
 $(function () {
@@ -6132,6 +6167,43 @@ $(document).ready(function () {
    $('.meet-us__links a[href^="blog-ice-london.html"]').click(function() {
      gtag('event', 'icelondon-tab-click', { 'event_category': 'icelondon-tab', 'event_label': 'icelondon giveaway' });
    });
+
+   if(window.location.href.indexOf("riskandbuy") !== -1) {
+    setTimeout(function() {
+     $('[data-rel="riskandbuy"]').trigger("click");
+     },1000);
+    }
+   if(window.location.href.indexOf("profitgames") !== -1) {
+    setTimeout(function() {
+     $('[data-rel="profitgames"]').trigger("click");
+     },1000);
+    }
+    if(window.location.href.indexOf("trafficgames") !== -1) {
+   setTimeout(function() {
+     $('[data-rel="trafficgames"]').trigger("click");
+     },1000);
+   }
+     if(window.location.href.indexOf("tablegames") !== -1) {
+    setTimeout(function() {
+      $('[data-rel="tablegames"]').trigger("click");
+      },1000);
+    }
+    if(window.location.href.indexOf("lotteries") !== -1) {
+    setTimeout(function() {
+     $('[data-rel="lotteries"]').trigger("click");
+     },1000);
+    }
+     if(window.location.href.indexOf("videoslots") !== -1) {
+    setTimeout(function() {
+      $('[data-rel="videoslots"]').trigger("click");
+      },1000);
+    }
+    if(window.location.href.indexOf("topgames") !== -1) {
+    setTimeout(function() {
+     $('[data-rel="topgames"]').trigger("click");
+     },1000);
+    }
+
 });
 (function($){
 
@@ -6211,3 +6283,99 @@ if (( phone === true || tablet === true) && $(window).innerWidth() < 1025 )
   videoSrc.setAttribute("src", "");
   });
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  const slider = document.querySelector(".regular-partners__wrap, #media .regular-partners__wrap");
+     const preventClick = (e) => {
+       e.preventDefault();
+       e.stopImmediatePropagation();
+     }
+     let isDown = false;
+     let isDragged = false;
+     let startX;
+     let scrollLeft;
+
+     slider.addEventListener("mousedown", e => {
+       isDown = true;
+       slider.classList.add("active");
+       startX = e.pageX - slider.offsetLeft;
+       scrollLeft = slider.scrollLeft;
+     });
+     slider.addEventListener("mouseleave", () => {
+       isDown = false;
+       slider.classList.remove("active");
+     });
+     slider.addEventListener("mouseup", (e) => {
+       isDown = false;
+       const elements = document.querySelectorAll("a");
+       if(isDragged){
+           for(let i = 0; i<elements.length; i++){
+                 elements[i].addEventListener("click", preventClick);
+           }
+       }
+       else{
+           for(let i = 0; i<elements.length; i++){
+                 elements[i].removeEventListener("click", preventClick);
+           }
+       }
+       slider.classList.remove("active");
+       isDragged =  false;
+     });
+     slider.addEventListener("mousemove", e => {
+       if (!isDown) return;
+       isDragged =  true;
+       e.preventDefault();
+       const x = e.pageX - slider.offsetLeft;
+       const walk = (x - startX) * 2;
+       slider.scrollLeft = scrollLeft - walk;
+       console.log(walk);
+     });
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  const slider = document.querySelector("#media .regular-partners__wrap");
+     const preventClick = (e) => {
+       e.preventDefault();
+       e.stopImmediatePropagation();
+     }
+     let isDown = false;
+     let isDragged = false;
+     let startX;
+     let scrollLeft;
+
+     slider.addEventListener("mousedown", e => {
+       isDown = true;
+       slider.classList.add("active");
+       startX = e.pageX - slider.offsetLeft;
+       scrollLeft = slider.scrollLeft;
+     });
+     slider.addEventListener("mouseleave", () => {
+       isDown = false;
+       slider.classList.remove("active");
+     });
+     slider.addEventListener("mouseup", (e) => {
+       isDown = false;
+       const elements = document.querySelectorAll("a");
+       if(isDragged){
+           for(let i = 0; i<elements.length; i++){
+                 elements[i].addEventListener("click", preventClick);
+           }
+       }
+       else{
+           for(let i = 0; i<elements.length; i++){
+                 elements[i].removeEventListener("click", preventClick);
+           }
+       }
+       slider.classList.remove("active");
+       isDragged =  false;
+     });
+     slider.addEventListener("mousemove", e => {
+       if (!isDown) return;
+       isDragged =  true;
+       e.preventDefault();
+       const x = e.pageX - slider.offsetLeft;
+       const walk = (x - startX) * 2;
+       slider.scrollLeft = scrollLeft - walk;
+       console.log(walk);
+     });
+});
