@@ -8098,6 +8098,22 @@ width: 35px
   flex: 1 0 100%;
   margin-bottom: 31px;
 }
+.big-partners__wrap {
+  overflow-x: auto;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+.big-partners__wrap::-webkit-scrollbar {
+    width: 0px; /* For Chrome, Safari, and Opera */
+}
+.big-partners__list {
+  width: 2800px;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 15px
+}
 .regular-partners__wrap {
   overflow-x: auto;
   scrollbar-width: none; /* For Firefox */
@@ -8113,6 +8129,11 @@ width: 35px
   flex-wrap: wrap;
   align-items: center;
   padding-top: 15px
+}
+.main-partners.our-partners__logo-list .regular-partners__list img {
+  transform: scale(.7);
+    padding: 0;
+    margin-bottom: 0;
 }
 #media .regular-partners__list {
   width: 1950px
@@ -8207,17 +8228,29 @@ width: 35px
 .main-partners.our-partners__logo-list .wide-logo {
   height: 45px
 }
+.main-partners.our-partners__logo-list .big-partners__list .wide-logo {
+  height: 48px
+}
 .main-partners.our-partners__logo-list .extra-wide-logo {
   height: 38px
 }
+.main-partners.our-partners__logo-list .big-partners__list .extra-wide-logo {
+  height: 42px
+}
 .main-partners.our-partners__logo-list .medium-logo {
   height: 34px
+}
+.main-partners.our-partners__logo-list .big-partners__list .medium-logo {
+  height: 38px
 }
 .main-partners.our-partners__logo-list .medium-short-logo {
   height: 31px
 }
 .main-partners.our-partners__logo-list .short-logo {
   height: 59px
+}
+.main-partners.our-partners__logo-list .big-partners__list .short-logo {
+  height: 54px
 }
 .main-partners.our-partners__logo-list .very-short-logo {
   height: 74px
