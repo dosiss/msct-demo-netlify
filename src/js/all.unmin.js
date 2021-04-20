@@ -6110,6 +6110,11 @@ $(function () {
       return thePath + 'the-myth.html';
     });
   }
+  if (btnClassName.indexOf('bas') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'bastet.html';
+    });
+  }
   });
 });
 $(function () {

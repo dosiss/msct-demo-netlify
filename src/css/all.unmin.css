@@ -5604,15 +5604,15 @@
      background-color: #e6002d;
      color: #fff
 }
-.queenofspades .colored-btn:hover, .threecorsairs .colored-btn:hover, .prince .colored-btn:hover, .hellsing-new .colored-btn:hover, .myth .colored-btn:hover {
+.queenofspades .colored-btn:hover, .threecorsairs .colored-btn:hover, .prince .colored-btn:hover, .hellsing-new .colored-btn:hover, .myth .colored-btn:hover, .bastet .colored-btn:hover {
     background-color: #A1FFF6;
     color: #4E4656
 }
-.christmas .colored-btn, .robin .colored-btn, .riot .colored-btn, .venetian .colored-btn, .rite-new .colored-btn, .lions .colored-btn, .cancan .colored-btn, .ank .colored-btn, .fruitvegas .colored-btn, .bamboo .colored-btn, .horde .colored-btn {
+.christmas .colored-btn, .robin .colored-btn, .riot .colored-btn, .venetian .colored-btn, .rite-new .colored-btn, .lions .colored-btn, .cancan .colored-btn, .ank .colored-btn, .fruitvegas .colored-btn, .bamboo .colored-btn, .horde .colored-btn, .bastet .colored-btn {
     background-color: #FFE912;
     color: #2E2933
 }
-.christmas .colored-btn:hover, .robin .colored-btn:hover, .riot .colored-btn:hover, .venetian .colored-btn:hover, .rite-new .colored-btn:hover, .lions .colored-btn:hover, .ank .colored-btn:hover, .cancan .colored-btn:hover, .fruitvegas .colored-btn:hover, .bamboo .colored-btn:hover, .horde .colored-btn:hover {
+.christmas .colored-btn:hover, .robin .colored-btn:hover, .riot .colored-btn:hover, .venetian .colored-btn:hover, .rite-new .colored-btn:hover, .lions .colored-btn:hover, .ank .colored-btn:hover, .cancan .colored-btn:hover, .fruitvegas .colored-btn:hover, .bamboo .colored-btn:hover, .horde .colored-btn:hover, .bastet .colored-btn:hover {
     background-color: #FFF6A3;
     color: #4E4656
 }
@@ -9525,6 +9525,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.bastet {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_bastet.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -9808,7 +9813,7 @@ justify-content: center;
      padding-bottom: 5px;
      background-size: auto
 }
-.rekill-new.single_game-wrapper, .queenofspades.single_game-wrapper, .threecorsairs.single_game-wrapper, .christmas.single_game-wrapper, .prince.single_game-wrapper, .robin.single_game-wrapper, .riot.single_game-wrapper, .venetian.single_game-wrapper, .rite-new.single_game-wrapper, .lions.single_game-wrapper, .horde.single_game-wrapper, .cancan.single_game-wrapper, .bamboo.single_game-wrapper, .fruitvegas.single_game-wrapper, .ank.single_game-wrapper, .hellsing-new.single_game-wrapper, .myth.single_game-wrapper  {
+.rekill-new.single_game-wrapper, .queenofspades.single_game-wrapper, .threecorsairs.single_game-wrapper, .christmas.single_game-wrapper, .prince.single_game-wrapper, .robin.single_game-wrapper, .riot.single_game-wrapper, .venetian.single_game-wrapper, .rite-new.single_game-wrapper, .lions.single_game-wrapper, .horde.single_game-wrapper, .cancan.single_game-wrapper, .bamboo.single_game-wrapper, .fruitvegas.single_game-wrapper, .ank.single_game-wrapper, .hellsing-new.single_game-wrapper, .myth.single_game-wrapper, .bastet.single_game-wrapper  {
   background-attachment: fixed;
   background-size: cover;
 }
@@ -11232,8 +11237,6 @@ margin: 40px auto;
 .hellsing-new .video-wrap {
   pointer-events: none;
 }
-
-
 /****************** /TEMP ********************/
 
 
