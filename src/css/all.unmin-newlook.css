@@ -8107,7 +8107,7 @@ width: 35px
     width: 0px; /* For Chrome, Safari, and Opera */
 }
 .big-partners__list {
-  width: 3200px;
+  width: 3500px;
   justify-content: flex-start;
   display: flex;
   flex-wrap: wrap;
@@ -8266,7 +8266,9 @@ width: 35px
 .our-partners__logo-list .black-logo {
   opacity: .75;
 }
-
+.our-partners__logo-list .bright-logo {
+  filter: brightness(15%);
+}
 /*
 .our-partners__logo-list a:hover .vegas-slots-logo {
   opacity: .6;
