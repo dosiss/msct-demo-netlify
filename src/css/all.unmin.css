@@ -5596,7 +5596,7 @@
      font-size: 18px;
      text-align: center;
 }
-.queenofspades .colored-btn, .threecorsairs .colored-btn, .prince .colored-btn, .hellsing-new .colored-btn, .myth .colored-btn {
+.queenofspades .colored-btn, .threecorsairs .colored-btn, .prince .colored-btn, .hellsing-new .colored-btn, .myth .colored-btn, .colored-btn.btn-blue {
     background-color: #12FFE9;
     color: #2E2933
 }
@@ -5604,15 +5604,15 @@
      background-color: #e6002d;
      color: #fff
 }
-.queenofspades .colored-btn:hover, .threecorsairs .colored-btn:hover, .prince .colored-btn:hover, .hellsing-new .colored-btn:hover, .myth .colored-btn:hover, .bastet .colored-btn:hover {
+.queenofspades .colored-btn:hover, .threecorsairs .colored-btn:hover, .prince .colored-btn:hover, .hellsing-new .colored-btn:hover, .myth .colored-btn:hover, .bastet .colored-btn:hover, .colored-btn.btn-blue:hover {
     background-color: #A1FFF6;
     color: #4E4656
 }
-.christmas .colored-btn, .robin .colored-btn, .riot .colored-btn, .venetian .colored-btn, .rite-new .colored-btn, .lions .colored-btn, .cancan .colored-btn, .ank .colored-btn, .fruitvegas .colored-btn, .bamboo .colored-btn, .horde .colored-btn, .bastet .colored-btn {
+.christmas .colored-btn, .robin .colored-btn, .riot .colored-btn, .venetian .colored-btn, .rite-new .colored-btn, .lions .colored-btn, .cancan .colored-btn, .ank .colored-btn, .fruitvegas .colored-btn, .bamboo .colored-btn, .horde .colored-btn, .bastet .colored-btn, .colored-btn.btn-yellow {
     background-color: #FFE912;
     color: #2E2933
 }
-.christmas .colored-btn:hover, .robin .colored-btn:hover, .riot .colored-btn:hover, .venetian .colored-btn:hover, .rite-new .colored-btn:hover, .lions .colored-btn:hover, .ank .colored-btn:hover, .cancan .colored-btn:hover, .fruitvegas .colored-btn:hover, .bamboo .colored-btn:hover, .horde .colored-btn:hover, .bastet .colored-btn:hover {
+.christmas .colored-btn:hover, .robin .colored-btn:hover, .riot .colored-btn:hover, .venetian .colored-btn:hover, .rite-new .colored-btn:hover, .lions .colored-btn:hover, .ank .colored-btn:hover, .cancan .colored-btn:hover, .fruitvegas .colored-btn:hover, .bamboo .colored-btn:hover, .horde .colored-btn:hover, .bastet .colored-btn:hover, .colored-btn.btn-yellow:hover {
     background-color: #FFF6A3;
     color: #4E4656
 }
@@ -9194,7 +9194,7 @@ background: -moz-linear-gradient(top, #521907 0%, #310d12 35%, #4d1f0a 67%, #231
 background: -webkit-linear-gradient(top, #521907 0%,#310d12 35%,#4d1f0a 67%,#231326 100%);
 background: linear-gradient(to bottom, #521907 0%,#310d12 35%,#4d1f0a 67%,#231326 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#521907', endColorstr='#231326',GradientType=0 );
-}*/
+}
 .hellsing-new {
   background: #282b3c;
 background: -moz-linear-gradient(top, #282b3c 0%, #513b47 35%, #29232d 67%, #231326 100%);
@@ -9208,7 +9208,7 @@ background: -moz-linear-gradient(top, #347aa2 0%, #368ad6 35%, #064564 67%, #231
 background: -webkit-linear-gradient(top, #347aa2 0%,#368ad6 35%,#064564 67%,#231326 100%);
 background: linear-gradient(to bottom, #347aa2 0%,#368ad6 35%,#064564 67%,#231326 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#347aa2', endColorstr='#231326',GradientType=0 );
-}
+}*/
 /*
 .rekill-new {
   background: #30543e;
@@ -9225,21 +9225,22 @@ background: -webkit-linear-gradient(top, #191106 0%,#554217 35%,#271b05 67%,#231
 background: linear-gradient(to bottom, #191106 0%,#554217 35%,#271b05 67%,#231326 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191106', endColorstr='#231326',GradientType=0 );
 }*/
-.thetomb-new {
+/*.thetomb-new {
   background: #462208;
 background: -moz-linear-gradient(top, #462208 0%, #2a1809 35%, #35260e 67%, #231326 100%);
 background: -webkit-linear-gradient(top, #462208 0%,#2a1809 35%,#35260e 67%,#231326 100%);
 background: linear-gradient(to bottom, #462208 0%,#2a1809 35%,#35260e 67%,#231326 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#462208', endColorstr='#231326',GradientType=0 );
-}
-.mermaid {
+}*/
+/*.mermaid {
   background: #725fb1;
   background: -moz-linear-gradient(top, #725fb1 0%, #7f4291 20%, #494371 40%, #494371 40%, #02596d 61%, #231326 100%);
   background: -webkit-linear-gradient(top, #725fb1 0%,#7f4291 20%,#494371 40%,#494371 40%,#02596d 61%,#231326 100%);
   background: linear-gradient(to bottom, #725fb1 0%,#7f4291 20%,#494371 40%,#494371 40%,#02596d 61%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#725fb1', endColorstr='#231326',GradientType=0 );
-}
-/*.bamboo {
+}*/
+/*
+.bamboo {
   background: #3b2f00;
 background: -moz-linear-gradient(top, #3b2f00 0%, #3d3c10 33%, #1c1803 66%, #231326 100%);
 background: -webkit-linear-gradient(top, #3b2f00 0%,#3d3c10 33%,#1c1803 66%,#231326 100%);
@@ -9260,14 +9261,14 @@ background: -webkit-linear-gradient(top, #BA8905 0%, #A76F00 20%, #912207 40%, #
 background: linear-gradient(to bottom, #BA8905 0%, #A76F00 20%, #912207 40%, #3E180D 60%,#231326 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', endColorstr='#231326',GradientType=0 );
 }*/
-.purplepills {
+/*.purplepills {
   background: #906EFF;
   background: -moz-linear-gradient(top, #906EFF 0%, #3F1391 33%, #181B18 66%, #231326 100%);
   background: -webkit-linear-gradient(top, #906EFF 0%, #3F1391 33%, #181B18 66%,#231326 100%);
   background: linear-gradient(to bottom, #906EFF 0%, #3F1391 33%, #181B18 66%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#906EFF', endColorstr='#231326',GradientType=0 );
-}
-.merlin {
+}*/
+/*.merlin {
     background: #C16CFF;
     background: -moz-linear-gradient(top, #C16CFF 0%, #1B3265 33%, #2E380E 66%, #231326 100%);
     background: -webkit-linear-gradient(top, #C16CFF 0%, #1B3265 33%, #2E380E 66%,#231326 100%);
@@ -9287,28 +9288,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background: -webkit-linear-gradient(top, #007E74 0%, #285302 33%, #2C2807 66%,#231326 100%);
   background: linear-gradient(to bottom, #007E74 0%, #285302 33%, #2C2807 66%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007E74', endColorstr='#231326',GradientType=0 );
-}
-.blackjack {
+}*/
+/*.blackjack {
   background: #368EA3;
   background: -moz-linear-gradient(top, #368EA3 0%, #143C4B 33%, #0D293E 66%, #231326 100%);
   background: -webkit-linear-gradient(top, #368EA3 0%, #143C4B 33%, #0D293E 66%,#231326 100%);
   background: linear-gradient(to bottom, #368EA3 0%, #143C4B 33%, #0D293E 66%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#368EA3', endColorstr='#231326',GradientType=0 );
-}
-.gryphon {
+}*/
+/*.gryphon {
   background: #1610B4;
   background: -moz-linear-gradient(top, #1610B4 0%, #4B371C 33%, #3E1E0D 66%, #231326 100%);
   background: -webkit-linear-gradient(top, #1610B4 0%, #4B371C 33%, #3E1E0D 66%,#231326 100%);
   background: linear-gradient(to bottom, #1610B4 0%, #4B371C 33%, #3E1E0D 66%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1610B4', endColorstr='#231326',GradientType=0 );
-}
-.benny {
+}*/
+/*.benny {
   background: #0088B0;
   background: -moz-linear-gradient(top, #0088B0 0%, #2E5720 50%, #231326 100%);
   background: -webkit-linear-gradient(top, #0088B0 0%, #2E5720 50%,#231326 100%);
   background: linear-gradient(to bottom, #0088B0 0%, #2E5720 50%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088B0', endColorstr='#231326',GradientType=0 );
-}
+}*/
 /*.horde {
   background: #575901;
   background: -moz-linear-gradient(top, #575901 0%, #191500 50%, #231326 100%);
@@ -9316,20 +9317,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background: linear-gradient(to bottom, #575901 0%, #191500 50%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#575901', endColorstr='#231326',GradientType=0 );
 }*/
-.gemz {
+/*.gemz {
   background: #A07E00;
   background: -moz-linear-gradient(top, #A07E00 0%, #825782 50%, #231326 100%);
   background: -webkit-linear-gradient(top, #A07E00 0%, #825782 50%,#231326 100%);
   background: linear-gradient(to bottom, #A07E00 0%, #825782 50%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A07E00', endColorstr='#231326',GradientType=0 );
-}
-.keno {
+}*/
+/*.keno {
   background: #0E6F50;
   background: -moz-linear-gradient(top, #0E6F50 0%, #7F2C7F 50%, #231326 100%);
   background: -webkit-linear-gradient(top, #0E6F50 0%, #7F2C7F 50%,#231326 100%);
   background: linear-gradient(to bottom, #0E6F50 0%, #7F2C7F 50%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0E6F50', endColorstr='#231326',GradientType=0 );
-}
+}*/
 /*.riot {
   background: #6C747A;
   background: -moz-linear-gradient(top, #6C747A 0%, #513924 50%, #231326 100%);
@@ -9344,7 +9345,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background: linear-gradient(to bottom, #696406 0%, #4C5F1A 50%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696406', endColorstr='#231326',GradientType=0 );
 }*/
-.macau {
+/*.macau {
   background: #663338;
   background: -moz-linear-gradient(top, #663338 0%, #392349 50%, #231326 100%);
   background: -webkit-linear-gradient(top, #663338 0%, #392349 50%,#231326 100%);
@@ -9357,7 +9358,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background: -webkit-linear-gradient(top, #452E86 0%, #1B3740 50%,#231326 100%);
   background: linear-gradient(to bottom, #452E86 0%, #1B3740 50%,#231326 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#696406', endColorstr='#231326',GradientType=0 );
-}
+}*/
  .legioner {
      background: url(../images/img_game_legioner_bg.jpg) no-repeat center top #09040d
 }
@@ -9438,6 +9439,81 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background: url('../images/back_purple-pills.jpg') no-repeat bottom
 }
 */
+.hellsing-new {
+  background: url('../images/back_hellsing.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.wildspirit {
+  background: url('../images/back_wild-spirit.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.thetomb-new {
+  background: url('../images/back_the-tomb.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.purplepills {
+  background: url('../images/back_purple-pills.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.nheat-new {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_northern-heat.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.mermaid {
+  background: url('../images/back_mermaids-bay.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.merlin {
+  background: url('../images/back_merlin-tower.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.legioner-new {
+  background: url('../images/back_legioner.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.gryphon {
+  background: url('../images/back_gryphons-castle.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.gemz {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_gemz-grow.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.macau {
+  background: url('../images/back_fruits-macau.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.monaco {
+  background: url('../images/back_fruits-monaco.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.blackjack {
+  background: url('../images/back_baccarat-blackjack-holdem.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.keno {
+  background: url('../images/back_amaterasu-keno.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.benny {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_bennys-the-biggest-game.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 .horde {
   background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_horde.jpg');
   background-repeat: no-repeat;
@@ -9813,7 +9889,7 @@ justify-content: center;
      padding-bottom: 5px;
      background-size: auto
 }
-.rekill-new.single_game-wrapper, .queenofspades.single_game-wrapper, .threecorsairs.single_game-wrapper, .christmas.single_game-wrapper, .prince.single_game-wrapper, .robin.single_game-wrapper, .riot.single_game-wrapper, .venetian.single_game-wrapper, .rite-new.single_game-wrapper, .lions.single_game-wrapper, .horde.single_game-wrapper, .cancan.single_game-wrapper, .bamboo.single_game-wrapper, .fruitvegas.single_game-wrapper, .ank.single_game-wrapper, .hellsing-new.single_game-wrapper, .myth.single_game-wrapper, .bastet.single_game-wrapper  {
+.single_game-wrapper  {
   background-attachment: fixed;
   background-size: cover;
 }
@@ -11110,41 +11186,17 @@ p.blog-subtitle {
 .slider-games__rite .c {
   stroke: #0AFFB4
 }
-.nheat-new .b {
-  fill: #0AE6FF
-}
-.nheat-new .c {
-  stroke: #0AE6FF
-}
 .ank .b {
   fill: #FFD70E
 }
 .ank .c {
   stroke: #FFD70E
 }
-.rekill-new .b {
-  fill: #0AFFB4
-}
-.rekill-new .c {
-  stroke: #0AFFB4
-}
 .bamboo .b {
   fill: #FFEF0A
 }
 .bamboo .c {
   stroke: #FFEF0A
-}
-.mermaid .b {
-  fill: #0ACDFF
-}
-.mermaid .c {
-  stroke: #0ACDFF
-}
-.thetomb-new .b {
-  fill: #FFB300
-}
-.thetomb-new .c {
-  stroke: #FFB300
 }
 /*.hellsing-new .b {
   fill: #C480FF
