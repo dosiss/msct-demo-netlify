@@ -8123,7 +8123,7 @@ width: 35px
     width: 0px; /* For Chrome, Safari, and Opera */
 }
 .regular-partners__list {
-  width: 4800px;
+  width: 5000px;
   justify-content: flex-start;
   display: flex;
   flex-wrap: wrap;

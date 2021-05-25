@@ -6115,6 +6115,11 @@ $(function () {
       return thePath + 'bastet.html';
     });
   }
+  if (btnClassName.indexOf('boo') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'the-book-of-amaterasu.html';
+    });
+  }
   });
 });
 $(function () {

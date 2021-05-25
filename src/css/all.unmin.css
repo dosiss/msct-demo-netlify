@@ -9606,6 +9606,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.book-amaterasu {
+  background: url('../images/back_book-of-amaterasu.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -11287,6 +11292,12 @@ margin: 40px auto;
   display: none;
 }
 .hellsing-new .video-wrap {
+  pointer-events: none;
+}
+.book-amaterasu .play-btn {
+  display: none;
+}
+.book-amaterasu .video-wrap {
   pointer-events: none;
 }
 /****************** /TEMP ********************/
