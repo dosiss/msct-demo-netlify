@@ -8107,7 +8107,7 @@ width: 35px
     width: 0px; /* For Chrome, Safari, and Opera */
 }
 .big-partners__list {
-  width: 3500px;
+  width: 3800px;
   justify-content: flex-start;
   display: flex;
   flex-wrap: wrap;
