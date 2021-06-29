@@ -9611,6 +9611,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.zeus {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_zeus.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -11292,6 +11297,12 @@ margin: 40px auto;
   display: none;
 }
 .hellsing-new .video-wrap {
+  pointer-events: none;
+}
+.zeus .play-btn {
+  display: none;
+}
+.zeus .video-wrap {
   pointer-events: none;
 }
 /****************** /TEMP ********************/

@@ -6120,6 +6120,11 @@ $(function () {
       return thePath + 'the-book-of-amaterasu.html';
     });
   }
+  if (btnClassName.indexOf('zeu') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'zeus-the-thunderer.html';
+    });
+  }
   });
 });
 $(function () {
