@@ -8123,7 +8123,7 @@ width: 35px
     width: 0px; /* For Chrome, Safari, and Opera */
 }
 .regular-partners__list {
-  width: 5500px;
+  width: 5800px;
   justify-content: flex-start;
   display: flex;
   flex-wrap: wrap;
@@ -12633,7 +12633,7 @@ font-size: 18px;
       margin-right: 0
     }
     .regular-partners__list {
-      width: 5500px
+      width: 5800px
     }
      footer {
          padding-top: 30px;
