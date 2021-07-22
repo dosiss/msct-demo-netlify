@@ -9616,6 +9616,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.luxor {
+  background: url('../images/back_luxor.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.olymp {
+  background: url('../images/back_olymp.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -11303,6 +11313,18 @@ margin: 40px auto;
   display: none;
 }
 .zeus .video-wrap {
+  pointer-events: none;
+}
+.luxor .play-btn {
+  display: none;
+}
+.luxor .video-wrap {
+  pointer-events: none;
+}
+.olymp .play-btn {
+  display: none;
+}
+.olymp .video-wrap {
   pointer-events: none;
 }
 /****************** /TEMP ********************/

@@ -6125,6 +6125,16 @@ $(function () {
       return thePath + 'zeus-the-thunderer.html';
     });
   }
+  if (btnClassName.indexOf('lux') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'fruits-of-luxor.html';
+    });
+  }
+  if (btnClassName.indexOf('oly') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'twin-fruits-of-olympus.html';
+    });
+  }
   });
 });
 $(function () {
