@@ -11309,12 +11309,6 @@ margin: 40px auto;
 .hellsing-new .video-wrap {
   pointer-events: none;
 }
-.zeus .play-btn {
-  display: none;
-}
-.zeus .video-wrap {
-  pointer-events: none;
-}
 .luxor .play-btn {
   display: none;
 }
