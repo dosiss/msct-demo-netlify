@@ -8123,7 +8123,7 @@ width: 35px
     width: 0px; /* For Chrome, Safari, and Opera */
 }
 .regular-partners__list {
-  width: 6000px;
+  width: 6200px;
   justify-content: flex-start;
   display: flex;
   flex-wrap: wrap;
@@ -8136,7 +8136,7 @@ width: 35px
     margin-bottom: 0;
 }
 #media .regular-partners__list {
-  width: 2000px
+  width: 2100px
 }
 .top-partners .softgaming-logo {
   height: 100px;
@@ -12633,7 +12633,7 @@ font-size: 18px;
       margin-right: 0
     }
     .regular-partners__list {
-      width: 6000px
+      width: 6200px
     }
      footer {
          padding-top: 30px;
