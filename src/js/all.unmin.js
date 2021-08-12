@@ -6135,6 +6135,11 @@ $(function () {
       return thePath + 'twin-fruits-of-olympus.html';
     });
   }
+  if (btnClassName.indexOf('drgn') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'dragons-nest.html';
+    });
+  }
   });
 });
 $(function () {
