@@ -11920,7 +11920,7 @@ margin: 40px auto;
     }
     .igb-logo {
       left: 48px;
-      max-width: 130px;
+      max-width: 200px;
     }
      .container-custom, .container-custom.games {
          margin-right: 48px;
@@ -12598,14 +12598,15 @@ font-size: 18px;
     }
     .igb-logo {
       left: 50%;
-      margin-left: -65px;
+      margin-left: -100px;
     }
      .rekill4-1024, .rekill4-1366 {
          display: none;
     }
      .rekill4 {
        display: block;
-      max-width: 320px;
+      max-width: 190px;
+      right: 20%
     }
     .our-partners__logo-list img {
       height: 40px;
