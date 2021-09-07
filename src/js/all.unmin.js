@@ -6140,6 +6140,11 @@ $(function () {
       return thePath + 'dragons-nest.html';
     });
   }
+  if (btnClassName.indexOf('pin') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'pinup-dolls.html';
+    });
+  }
   });
 });
 $(function () {
