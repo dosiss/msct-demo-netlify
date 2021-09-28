@@ -6145,6 +6145,11 @@ $(function () {
       return thePath + 'pinup-dolls.html';
     });
   }
+  if (btnClassName.indexOf('evl') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'evil-bet.html';
+    });
+  }
   });
 });
 $(function () {
