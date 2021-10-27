@@ -6150,6 +6150,11 @@ $(function () {
       return thePath + 'evil-bet.html';
     });
   }
+  if (btnClassName.indexOf('alo') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'aloha-tiki-bar.html';
+    });
+  }
   });
 });
 $(function () {
