@@ -6160,6 +6160,11 @@ $(function () {
       return thePath + 'primal-bet-rockways.html';
     });
   }
+  if (btnClassName.indexOf('fai') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'fairytale-coven.html';
+    });
+  }
   });
 });
 $(function () {

@@ -8830,9 +8830,7 @@ ul.socials-block li:nth-child(2) a img {
  .footer-contacts .single-contact-item span {
      display: block
 }
-.gaming-labs-logo {
-  display: none;
-}
+
 .gaming-labs-logo img {
   height: 44px;
   margin-top: 30px
@@ -9650,6 +9648,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
 }
 .primalbet {
   background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../images/back_primalbet.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.fairytale {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_fairytale.jpg');
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -11358,6 +11361,12 @@ margin: 40px auto;
   display: none;
 }
 .primalbet .video-wrap {
+  pointer-events: none;
+}
+.fairytale .play-btn {
+  display: none;
+}
+.fairytale .video-wrap {
   pointer-events: none;
 }
 
