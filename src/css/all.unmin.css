@@ -8830,7 +8830,9 @@ ul.socials-block li:nth-child(2) a img {
  .footer-contacts .single-contact-item span {
      display: block
 }
-
+.footer-middle-row .gaming-labs-logo img {
+  margin-right: 15px
+}
 .gaming-labs-logo img {
   height: 44px;
   margin-top: 30px
@@ -11339,30 +11341,7 @@ margin: 40px auto;
 .hellsing-new .video-wrap {
   pointer-events: none;
 }
-.pinup .play-btn {
-  display: none;
-}
-.pinup .video-wrap {
-  pointer-events: none;
-}
-.evilbet .play-btn {
-  display: none;
-}
-.evilbet .video-wrap {
-  pointer-events: none;
-}
-.aloha .play-btn {
-  display: none;
-}
-.aloha .video-wrap {
-  pointer-events: none;
-}
-.primalbet .play-btn {
-  display: none;
-}
-.primalbet .video-wrap {
-  pointer-events: none;
-}
+
 .fairytale .play-btn {
   display: none;
 }
@@ -11965,9 +11944,13 @@ margin: 40px auto;
      .footer-contacts {
          text-align: center;
     }
+    .footer-middle-row {
+      text-align: center;
+    }
     .gaming-labs-logo img {
       margin: 30px auto 0;
       display: block;
+      margin-right: 10px;
     }
      .locaton-block.single-contact-item {
          background: none;

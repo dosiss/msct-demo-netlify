@@ -7911,6 +7911,11 @@ width: 35px
      vertical-align: bottom;
      font-weight: 900
 }
+.slider-games__lionpride .slider-footer__icons-item span.text-big {
+  max-width: 95px;
+display: inline-block;
+font-size: 18px;
+}
 .slider-footer__btn .colored-btn.lpd {
   background-color: #70BB00
 }
@@ -9075,7 +9080,9 @@ ul.socials-block li:nth-child(2) a img {
  .footer-contacts .single-contact-item span {
      display: block
 }
-
+.footer-middle-row .gaming-labs-logo img {
+  margin-right: 15px
+}
 .gaming-labs-logo img {
   height: 44px;
   margin-top: 30px
@@ -11311,10 +11318,10 @@ h2.game-sub-info__title {
   stroke: #C480FF
 }
 .slider-games__rite .b {
-  fill: #0AFFB4
+  fill: #F1E8DD
 }
 .slider-games__rite .c {
-  stroke: #0AFFB4
+  stroke: #F1E8DD
 }
 .nheat-new .b {
   fill: #0AE6FF
@@ -12126,6 +12133,7 @@ font-size: 18px;
     .gaming-labs-logo img {
       margin: 30px auto 0;
       display: block;
+      margin-right: 10px;
     }
      .locaton-block.single-contact-item {
          background: none;
@@ -12654,7 +12662,8 @@ font-size: 18px;
          padding-bottom: 30px
     }
      .footer-middle-row {
-         margin-top: 0
+         margin-top: 0;
+         text-align: center;
     }
      .inline-feedback .colored-btn {
          padding-left: 0;
