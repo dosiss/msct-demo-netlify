@@ -9658,6 +9658,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.santa {
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../images/back_santa.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.cleo {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_cleo.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -11348,6 +11358,18 @@ margin: 40px auto;
 .fairytale .video-wrap {
   pointer-events: none;
 }
+.santa .play-btn {
+  display: none;
+}
+.santa .video-wrap {
+  pointer-events: none;
+}
+.cleo .play-btn {
+  display: none;
+}
+.cleo .video-wrap {
+  pointer-events: none;
+}
 
 /****************** /TEMP ********************/
 
@@ -11514,6 +11536,9 @@ margin: 40px auto;
     .game-slide-img-title img {
       max-height: 180px;
       width: auto;
+    }
+    .cleo .game-slide-img-title img {
+      max-height: 110px;
     }
 }
 @media only screen and (min-width: 1625px) {

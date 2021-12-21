@@ -6165,6 +6165,16 @@ $(function () {
       return thePath + 'fairytale-coven.html';
     });
   }
+  if (btnClassName.indexOf('san') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'twin-fruits-of-santa.html';
+    });
+  }
+  if (btnClassName.indexOf('cle') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'cleopatras-gems-rockways.html';
+    });
+  }
   });
 });
 $(function () {
