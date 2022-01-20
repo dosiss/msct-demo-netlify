@@ -6175,6 +6175,11 @@ $(function () {
       return thePath + 'cleopatras-gems-rockways.html';
     });
   }
+  if (btnClassName.indexOf('rea') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'for-the-realm.html';
+    });
+  }
   });
 });
 $(function () {
