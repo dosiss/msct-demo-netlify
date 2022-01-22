@@ -101,12 +101,12 @@
   <meta content='summary_large_image' name='twitter:card' />
   <meta name="twitter:title" content="Mascot Gaming - casino games provider" />
   <meta name="twitter:description" content="We are a team of like-minded people who worked in gambling sphere for many years. We love our work and respect your business. Explore our history!" />
-  <meta name="twitter:image" content="https://mascot.games/images/img_timeline.jpg" />
+  <meta name="twitter:image" content="https://mascot.games/images/img_share_bg.jpg" />
 
   <meta property="og:title" content="Mascot Gaming - casino games provider" />
   <meta property="og:description" content="We are a team of like-minded people who worked in gambling sphere for many years. We love our work and respect your business. Explore our history!" />
   <meta property="og:url" content="https://mascot.games/about.html" />
-  <meta property="og:image" content="https://mascot.games/images/img_timeline.jpg" />
+  <meta property="og:image" content="https://mascot.games/images/img_share_bg.jpg" />
 </head>
 
 <body>
@@ -217,7 +217,7 @@
     <div class="container">
         <div class="about_us-inner-block">
             <h3 class="inner-title__margin">The point is math</h3>
-            <p>It's all began 9 years ago, when two coders decided to create their own online-casino. Platform, games, operating, communication with players, promotion - everything did from scratch on their own.</p>
+            <p>It's all began <span id="years"></span> years ago, when two coders decided to create their own online-casino. Platform, games, operating, communication with players, promotion - everything did from scratch on their own.</p>
             <p>Learning all things thoroughly has required two years, dozen computers, limitless enthusiasm and desire for being the best. It was really complicated but the results improved in geometric progression.</p>
             <p>Time passed, our team grew up, multiplied by new units, always adding new ones to our team of like-minded associates. We earned respect and trust of market, we are known as reliable developer of high quality soft, but we think that our task isn't solved. We are perfectionists, that's why our equation is infinite and achieved results are always considered not as the set limits, but as a basis for further improvement and enhancement.</p>
         </div>
@@ -378,6 +378,19 @@
         <p class="ty-text"></p>
     </div>
 </div>
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+  let d1 = Date.now();
+  let d2 = new Date(2015, 0).getTime();
+
+  let date1 = new Date(d1);
+  let date2 = new Date(d2);
+  let yearsDiff =  date1.getFullYear() - date2.getFullYear();
+  document.getElementById('years').innerHTML = yearsDiff;
+});
+
+</script>
 </body>
 
 </html>
