@@ -8143,7 +8143,7 @@ font-size: 18px;
     margin-bottom: 0;
 }
 #media .regular-partners__list {
-  width: 2500px
+  width: 3000px
 }
 .top-partners .softgaming-logo {
   height: 100px;
@@ -12645,6 +12645,9 @@ font-size: 18px;
     }
     .regular-partners__list {
       width: 7500px
+    }
+    #media .regular-partners__list {
+    width: 1700px;
     }
      footer {
          padding-top: 30px;
