@@ -6180,6 +6180,11 @@ $(function () {
       return thePath + 'for-the-realm.html';
     });
   }
+  if (btnClassName.indexOf('can') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'candy-crush.html';
+    });
+  }
   });
 });
 $(function () {
