@@ -9791,6 +9791,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
      margin-bottom: 45px;
      margin-top: 10px
 }
+.keno .single_game_info {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+}
  .single_game_title {
      text-transform: none;
      font-weight: 500
@@ -9813,6 +9816,9 @@ justify-content: center;
 padding: 50px 0;
 border-bottom: 1px solid rgba(255, 255, 255, 0.28);
 }
+.keno .key-feature__wrap.bottom-row {
+    border-bottom: none
+}
 .key-feature__item {
   display: flex;
 align-items: center;
@@ -9822,8 +9828,9 @@ justify-content: center;
 .key-feature__wrap .key-feature__item:first-child {
   margin-right: 60px
 }
-.keno .key-feature__wrap .key-feature__item:first-child {
-  margin-right: 0
+.keno .key-feature__wrap.bottom-row .key-feature__item:first-child {
+  margin-right: 0;
+
 }
 .key-feature__info {
   text-align: left;
