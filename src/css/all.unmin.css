@@ -9678,6 +9678,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.universe {
+  background: url('../images/back_universe.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -11399,7 +11404,12 @@ margin: 40px auto;
 .candycrush .video-wrap {
   pointer-events: none;
 }
-
+.universe .play-btn {
+  display: none;
+}
+.universe .video-wrap {
+  pointer-events: none;
+}
 /****************** /TEMP ********************/
 
 

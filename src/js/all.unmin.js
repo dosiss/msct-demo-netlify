@@ -6185,6 +6185,11 @@ $(function () {
       return thePath + 'candy-crush.html';
     });
   }
+  if (btnClassName.indexOf('uni') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'across-the-universe.html';
+    });
+  }
   });
 });
 $(function () {
