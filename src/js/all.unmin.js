@@ -6155,7 +6155,7 @@ $(function () {
       return thePath + 'aloha-tiki-bar.html';
     });
   }
-  if (btnClassName.indexOf('pri') >= 0) {
+  if (btnClassName.indexOf('prm') >= 0) {
     $(this).attr('href', function() {
       return thePath + 'primal-bet-rockways.html';
     });
