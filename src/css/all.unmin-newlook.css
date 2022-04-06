@@ -8114,12 +8114,16 @@ font-size: 18px;
     width: 0px; /* For Chrome, Safari, and Opera */
 }
 .big-partners__list {
-  width: 3800px;
-  justify-content: flex-start;
+  /* width: 3800px;
+  justify-content: flex-start; */
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   padding-top: 15px
+}
+.our-partners__logo-list img.logo-vertical-shift {
+  margin-bottom: 20px
 }
 .regular-partners__wrap {
   overflow-x: auto;
@@ -8263,8 +8267,12 @@ font-size: 18px;
   height: 74px
 }
 .main-partners.our-partners__logo-list .softgaming-logo {
-  height: 70px;
-  margin-top: -20px
+  /* height: 70px;
+  margin-top: -20px; */
+  height: 90px;
+}
+.main-partners.our-partners__logo-list a.logo-shift {
+  margin-bottom: 35px
 }
 .our-partners__logo-list a:hover img {
   filter: none;
@@ -12340,6 +12348,9 @@ font-size: 18px;
    }
    .our-partners__logo-list img {
      margin: 10px 0
+   }
+   .main-partners.our-partners__logo-list a.logo-shift {
+     margin-bottom: 0
    }
 }
  @media only screen and (max-width: 650px) {
