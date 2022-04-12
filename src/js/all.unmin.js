@@ -6190,6 +6190,11 @@ $(function () {
       return thePath + 'across-the-universe.html';
     });
   }
+  if (btnClassName.indexOf('may') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'mayan-riches-rockways.html';
+    });
+  }
   });
 });
 $(function () {
