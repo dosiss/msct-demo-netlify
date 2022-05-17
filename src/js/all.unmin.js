@@ -6195,6 +6195,11 @@ $(function () {
       return thePath + 'mayan-riches-rockways.html';
     });
   }
+  if (btnClassName.indexOf('rio2') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'riot-2-blow-and-burn.html';
+    });
+  }
   });
 });
 $(function () {

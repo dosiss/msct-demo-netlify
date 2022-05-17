@@ -9688,6 +9688,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.riot2 {
+  background: url('../images/back_riot2.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -11419,6 +11424,12 @@ margin: 40px auto;
   display: none;
 }
 .mayan .video-wrap {
+  pointer-events: none;
+}
+.riot2 .play-btn {
+  display: none;
+}
+.riot2 .video-wrap {
   pointer-events: none;
 }
 /****************** /TEMP ********************/
