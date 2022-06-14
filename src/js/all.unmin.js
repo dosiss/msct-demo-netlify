@@ -6200,6 +6200,11 @@ $(function () {
       return thePath + 'riot-2-blow-and-burn.html';
     });
   }
+  if (btnClassName.indexOf('frd') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'fruit-disco-megastacks.html';
+    });
+  }
   });
 });
 $(function () {

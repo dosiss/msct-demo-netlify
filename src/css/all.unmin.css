@@ -9693,6 +9693,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.fruitdisco {
+  background: url('../images/back_fruitdisco.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -11430,6 +11435,12 @@ margin: 40px auto;
   display: none;
 }
 .riot2 .video-wrap {
+  pointer-events: none;
+}
+.fruitdisco .play-btn {
+  display: none;
+}
+.fruitdisco .video-wrap {
   pointer-events: none;
 }
 /****************** /TEMP ********************/
