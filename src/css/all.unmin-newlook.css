@@ -9093,7 +9093,12 @@ ul.socials-block li:nth-child(2) a img {
 }
 .gaming-labs-logo img {
   height: 44px;
-  margin-top: 30px
+  margin-top: 15px
+}
+.globalabs-logo img {
+  height: 44px;
+width: auto;
+margin-top: 15px;
 }
  @media (max-width:992px) {
      .footer-middle-row {
@@ -12119,7 +12124,8 @@ font-size: 18px;
          justify-content: center;
     }
      .footer-middle-row {
-         margin-left: 0
+         margin-left: 0;
+         text-align: center;
     }
      .footer-bottom-row {
          text-align: center;
