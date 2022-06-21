@@ -9703,6 +9703,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.dtfruits {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_dtfruits.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -11333,6 +11338,9 @@ margin: 40px auto;
 .game-slide-img-title img {
   margin-bottom: 20px
 }
+.dtfruits .game-slide-img-title img {
+  max-height: 100px
+}
 .blackjack .play-btn {
   display: none;
 }
@@ -11446,6 +11454,12 @@ margin: 40px auto;
   display: none;
 }
 .fruitdisco .video-wrap {
+  pointer-events: none;
+}
+.dtfruits .play-btn {
+  display: none;
+}
+.dtfruits .video-wrap {
   pointer-events: none;
 }
 /****************** /TEMP ********************/

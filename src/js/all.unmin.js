@@ -6205,6 +6205,11 @@ $(function () {
       return thePath + 'fruit-disco-megastacks.html';
     });
   }
+  if (btnClassName.indexOf('dtfr') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'double-triple-fruits.html';
+    });
+  }
   });
 });
 $(function () {
