@@ -6210,6 +6210,11 @@ $(function () {
       return thePath + 'double-triple-fruits.html';
     });
   }
+  if (btnClassName.indexOf('1xf') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + '1x-fruits.html';
+    });
+  }
   });
 });
 $(function () {
