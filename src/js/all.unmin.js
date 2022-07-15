@@ -6321,7 +6321,7 @@ $(document).ready(function () {
 		var act = action || 'init';
 
 		function createDiv(){
-			$('body').append($("<div>").attr('id','cookie-law').addClass('cc-bar').html('<a href="#null" class="cc-btn colored-btn">Agree and continue</a><p class="cc-msg">COOKIE POLICY</br>We use cookies to ensure that we give you the best experience on our website. By using the website you agree to our use of cookies. <a class="cc_more_info" href="privacypolicy.html" rel="nofollow" title="Privacy &amp; Cookies Policy">Read more</a></p>'));
+			$('body').append($("<div>").attr('id','cookie-law').addClass('cc-bar').html('<a href="" class="cc-btn colored-btn">Agree and continue</a><p class="cc-msg">COOKIE POLICY</br>We use cookies to ensure that we give you the best experience on our website. By using the website you agree to our use of cookies. <a class="cc_more_info" href="privacypolicy.html" rel="nofollow" title="Privacy &amp; Cookies Policy">Read more</a></p>'));
 			$('#cookie-law .cc-btn').on('click', function() {
 				$(window).cookieConsent('accept');
 			});
