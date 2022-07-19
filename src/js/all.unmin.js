@@ -6215,6 +6215,11 @@ $(function () {
       return thePath + '1x-fruits.html';
     });
   }
+  if (btnClassName.indexOf('prin') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'the-princess-and-dwarfs-rockways.html';
+    });
+  }
   });
 });
 $(function () {
