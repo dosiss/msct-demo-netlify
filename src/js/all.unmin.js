@@ -6260,7 +6260,7 @@ $(document).ready(function () {
     $("#ice-banner").hover(function () {
         window.status = $(this).find("a:first").attr("href");
     }, function () {
-        window.status = "www.igblive.com";
+        window.status = "sigma.world/ru/cis/";
     });
 
     $(window).scroll(function(){
