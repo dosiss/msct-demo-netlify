@@ -6220,6 +6220,11 @@ $(function () {
       return thePath + 'the-princess-and-dwarfs-rockways.html';
     });
   }
+  if (btnClassName.indexOf('tra') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'loot-the-train.html';
+    });
+  }
   });
 });
 $(function () {
