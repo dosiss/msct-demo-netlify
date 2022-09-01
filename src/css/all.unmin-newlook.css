@@ -8029,7 +8029,8 @@ font-size: 18px;
     position: absolute;
     top: 60px;
     /* top: 0; */
-    max-width: 180px;
+    /*max-width: 180px;*/
+    max-width: 220px;
     left: 248px;
     height: initial;
   }
@@ -11940,8 +11941,8 @@ margin: 40px auto;
     }
     .igb-logo {
       left: 48px;
-      /*max-width: 200px;*/
-      max-width: 130px
+      max-width: 200px;
+      /*max-width: 130px*/
     }
      .container-custom, .container-custom.games {
          margin-right: 48px;
@@ -12624,8 +12625,8 @@ font-size: 18px;
     }
     .igb-logo {
       left: 50%;
-      /*margin-left: -100px;*/
-      margin-left: -65px
+      margin-left: -100px;
+      /*margin-left: -65px*/
     }
      .rekill4-1024, .rekill4-1366 {
          display: none;
