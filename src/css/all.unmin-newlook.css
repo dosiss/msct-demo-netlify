@@ -9095,6 +9095,11 @@ ul.socials-block li:nth-child(2) a img {
   height: 44px;
   margin-top: 30px
 }
+.globalabs-logo img {
+  height: 44px;
+width: auto;
+margin-top: 15px;
+}
  @media (max-width:992px) {
      .footer-middle-row {
          margin-top: 50px
