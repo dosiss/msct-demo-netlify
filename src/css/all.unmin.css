@@ -7852,8 +7852,8 @@ width: 35px
  }
   .igb-logo {
     position: absolute;
-    /*top: 60px;*/
-    top: 0;
+    top: 60px;
+    /* top: 0; */
     max-width: 180px;
     left: 248px;
     height: initial;
@@ -8835,7 +8835,12 @@ ul.socials-block li:nth-child(2) a img {
 }
 .gaming-labs-logo img {
   height: 44px;
-  margin-top: 30px
+  margin-top: 15px
+}
+.globalabs-logo img {
+  height: 44px;
+width: auto;
+margin-top: 15px;
 }
  @media (max-width:992px) {
      .footer-middle-row {
@@ -9695,6 +9700,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
 }
 .fruitdisco {
   background: url('../images/back_fruitdisco.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.dtfruits {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_dtfruits.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.onexfruits {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_1xfruits.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.princess {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_princess.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.train {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_train.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.deepsea {
+  background: url('../images/back_deepsea.jpg');
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -11043,9 +11073,9 @@ p.blog-subtitle {
      margin-right: 104px
 }
  .btn.fil-cat {
-     min-width: 140px;   /* 2rows: 180px */
+     min-width: 120px;   /* 2rows: 180px */
      text-transform: uppercase;
-     font-size: 12px;   /* 2 rows: 15px */
+     font-size: 11px;   /* 2 rows: 15px */
      font-weight: 600;
      padding: 17px 0;
      border: 1px solid #fff;
@@ -11328,6 +11358,9 @@ margin: 40px auto;
 .game-slide-img-title img {
   margin-bottom: 20px
 }
+.dtfruits .game-slide-img-title img {
+  max-height: 100px
+}
 .blackjack .play-btn {
   display: none;
 }
@@ -11441,6 +11474,36 @@ margin: 40px auto;
   display: none;
 }
 .fruitdisco .video-wrap {
+  pointer-events: none;
+}
+.dtfruits .play-btn {
+  display: none;
+}
+.dtfruits .video-wrap {
+  pointer-events: none;
+}
+.onexfruits .play-btn {
+  display: none;
+}
+.onexfruits .video-wrap {
+  pointer-events: none;
+}
+.princess .play-btn {
+  display: none;
+}
+.princess .video-wrap {
+  pointer-events: none;
+}
+.train .play-btn {
+  display: none;
+}
+.train .video-wrap {
+  pointer-events: none;
+}
+.deepsea .play-btn {
+  display: none;
+}
+.deepsea .video-wrap {
   pointer-events: none;
 }
 /****************** /TEMP ********************/
@@ -12022,7 +12085,8 @@ margin: 40px auto;
          justify-content: center;
     }
      .footer-middle-row {
-         margin-left: 0
+         margin-left: 0;
+         text-align: center;
     }
      .footer-bottom-row {
          text-align: center;

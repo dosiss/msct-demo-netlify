@@ -8027,9 +8027,10 @@ font-size: 18px;
  }
   .igb-logo {
     position: absolute;
-    /*top: 60px;*/
-    top: 0;
-    max-width: 180px;
+    top: 60px;
+    /* top: 0; */
+    /*max-width: 180px;*/
+    max-width: 220px;
     left: 248px;
     height: initial;
   }
@@ -9093,7 +9094,12 @@ ul.socials-block li:nth-child(2) a img {
 }
 .gaming-labs-logo img {
   height: 44px;
-  margin-top: 30px
+  margin-top: 15px
+}
+.globalabs-logo img {
+  height: 44px;
+width: auto;
+margin-top: 15px;
 }
 .globalabs-logo img {
   height: 44px;
@@ -11940,8 +11946,8 @@ margin: 40px auto;
     }
     .igb-logo {
       left: 48px;
-      /*max-width: 200px;*/
-      max-width: 130px
+      max-width: 200px;
+      /*max-width: 130px*/
     }
      .container-custom, .container-custom.games {
          margin-right: 48px;
@@ -12124,7 +12130,8 @@ font-size: 18px;
          justify-content: center;
     }
      .footer-middle-row {
-         margin-left: 0
+         margin-left: 0;
+         text-align: center;
     }
      .footer-bottom-row {
          text-align: center;
@@ -12623,8 +12630,8 @@ font-size: 18px;
     }
     .igb-logo {
       left: 50%;
-      /*margin-left: -100px;*/
-      margin-left: -65px
+      margin-left: -100px;
+      /*margin-left: -65px*/
     }
      .rekill4-1024, .rekill4-1366 {
          display: none;

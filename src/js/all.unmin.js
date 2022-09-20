@@ -6205,6 +6205,31 @@ $(function () {
       return thePath + 'fruit-disco-megastacks.html';
     });
   }
+  if (btnClassName.indexOf('dtfr') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'double-triple-fruits.html';
+    });
+  }
+  if (btnClassName.indexOf('1xf') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + '1x-fruits.html';
+    });
+  }
+  if (btnClassName.indexOf('prin') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'the-princess-and-dwarfs-rockways.html';
+    });
+  }
+  if (btnClassName.indexOf('tra') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'loot-the-train.html';
+    });
+  }
+  if (btnClassName.indexOf('dee') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'deepsea-riches.html';
+    });
+  }
   });
 });
 $(function () {
@@ -6245,7 +6270,7 @@ $(document).ready(function () {
     $("#ice-banner").hover(function () {
         window.status = $(this).find("a:first").attr("href");
     }, function () {
-        window.status = "www.igblive.com";
+        window.status = "sigma.world/ru/cis/";
     });
 
     $(window).scroll(function(){
@@ -6311,7 +6336,7 @@ $(document).ready(function () {
 		var act = action || 'init';
 
 		function createDiv(){
-			$('body').append($("<div>").attr('id','cookie-law').addClass('cc-bar').html('<a href="#null" class="cc-btn colored-btn">Agree and continue</a><p class="cc-msg">COOKIE POLICY</br>We use cookies to ensure that we give you the best experience on our website. By using the website you agree to our use of cookies. <a class="cc_more_info" href="privacypolicy.html" rel="nofollow" title="Privacy &amp; Cookies Policy">Read more</a></p>'));
+			$('body').append($("<div>").attr('id','cookie-law').addClass('cc-bar').html('<a href="" class="cc-btn colored-btn">Agree and continue</a><p class="cc-msg">COOKIE POLICY</br>We use cookies to ensure that we give you the best experience on our website. By using the website you agree to our use of cookies. <a class="cc_more_info" href="privacypolicy.html" rel="nofollow" title="Privacy &amp; Cookies Policy">Read more</a></p>'));
 			$('#cookie-law .cc-btn').on('click', function() {
 				$(window).cookieConsent('accept');
 			});
