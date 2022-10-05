@@ -12638,8 +12638,12 @@ font-size: 18px;
     }
      .rekill4 {
        display: block;
-      max-width: 190px;
+      max-width: 267px; /*190px*/
       right: 20%
+    }
+    .ice-banner__place {
+      max-width: 220px;
+      margin: 0 auto;
     }
     .our-partners__logo-list img {
       height: 40px;
