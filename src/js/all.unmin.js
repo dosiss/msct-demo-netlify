@@ -6230,6 +6230,11 @@ $(function () {
       return thePath + 'deepsea-riches.html';
     });
   }
+  if (btnClassName.indexOf('hyd') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'hydras-lair.html';
+    });
+  }
   });
 });
 $(function () {

@@ -9728,6 +9728,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.hydra {
+  background: url('../images/back_hydra.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -11504,6 +11509,12 @@ margin: 40px auto;
   display: none;
 }
 .deepsea .video-wrap {
+  pointer-events: none;
+}
+.hydra .play-btn {
+  display: none;
+}
+.hydra .video-wrap {
   pointer-events: none;
 }
 /****************** /TEMP ********************/
