@@ -1,0 +1,411 @@
+<template>
+
+  <div>
+    <MainHeader />
+    <div>
+      <div class="container-outer">
+        <div class="container container-custom container-filter">
+          <div class="games-filter__outer">
+            <div class="games-filter__wrap">
+              <button :class="{ active: gameFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'all'">All</button>
+              <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'top'">Тор Games</button>
+              <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'videoslots'">Video Slots</button>
+              <button :class="{ active: gameFilterKey == 'lotteries' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'lotteries'">Lotteries</button>
+              <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">Profit Games</button>
+              <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'traffic'">Traffic Games</button>
+              <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'risknbuy'">Risk&amp;Buy</button>
+              <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'branded'">Branded</button>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+
+            <div class="top-games__head">
+              <h1 class="top-games__head-title">{{title}}</h1>
+              <nuxt-link to="#" class="inner-link link-yellow">
+                <span>{{$device.isMobile ? "All" : "See all partners & media"}}</span>
+                <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </nuxt-link>
+            </div>
+        </div>
+        <div class="container container-custom">
+          <div class="top-games__list-outer">
+            <div class="top-games__list">
+              <div v-for="(game, idx) in topGames" :key="idx" class="game-thumbnail">
+
+                  <div class="game-thumbnail__outer">
+                    <div class="game-thumbnail__inner">
+                    <img :src="`images/${game.thumbUrl}`" >
+                    <div class="game-content__wrap">
+                      <div class="game-content__buttns">
+                        <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? "More" : "Learn more" }}</NuxtLink>
+                        <button v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
+                          Play for free
+                          <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                        </button>
+                        <button v-else :href="`https://play.mascot.games/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                          Play for free
+                          <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="all-games">
+          <div class="all-games__content">
+            <div v-for="(game, idx) in gamesFilter" :key="idx" class="game-thumbnail">
+                <div class="game-thumbnail__outer">
+                  <div class="game-thumbnail__inner">
+                  <img :src="`images/${game.thumbUrl}`" >
+                  <div class="game-content__wrap">
+                    <div class="game-content__buttns">
+                      <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? "More" : "Learn more" }}</NuxtLink>
+                      <button v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
+                        Play for free
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </button>
+                      <button v-else :href="`https://play.mascot.games/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                        Play for free
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+    <SharingButtons />
+    <AdBanner />
+    <MainFooter />
+  </div>
+
+</template>
+
+<script>
+import allGames from '../static/data/games.json'
+
+export default {
+
+
+  data() {
+
+
+    return {
+      title: 'Top Games',
+      gamesList: allGames,
+      gameFilterKey: 'all',
+
+
+    }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'games page description'
+        }
+      ]
+    }
+  },
+
+  computed: {
+      topGames() {
+        return allGames.filter(val => (val.topGame !== false)).slice(0,3)
+      },
+      gamesFilter() {
+    	  return this[this.gameFilterKey]
+     },
+      all() {
+        return allGames
+      },
+      top() {
+        return allGames.filter((game) => game.topGame === true)
+      },
+      videoslots() {
+        return allGames.filter((game) => game.theme === "video slot")
+      },
+      lotteries() {
+        return allGames.filter((game) => game.theme === "lottery game")
+      },
+      profit() {
+        return allGames.filter((game) => game.type === "profit")
+      },
+      traffic() {
+        return allGames.filter((game) => game.type === "traffic")
+      },
+      risknbuy() {
+        return allGames.filter((game) => game.risknbuy === true)
+      },
+      branded() {
+        return allGames.filter((game) => game.branded === true)
+      },
+  },
+
+  mounted() {
+        if(this.$route.query.type === "trafficgames") {
+          this.gameFilterKey = "traffic"
+        };
+        if(this.$route.query.type === "profitgames") {
+          this.gameFilterKey = "profit"
+        };
+  },
+}
+
+</script>
+
+<style lang="scss" scoped>
+.container-outer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px
+}
+.container {
+  &.container-custom {
+    @media (max-width: 1200px) {
+      padding: 0;
+    }
+  }
+  &.container-filter {
+    @media (max-width: 650px) {
+      order: 2
+    }
+  }
+  .games-filter__outer {
+    @media (max-width: 1200px) {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+  }
+}
+.games-filter__outer::-webkit-scrollbar {
+  display: none
+}
+  .games-filter__wrap {
+    display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    @media (max-width: 1200px) {
+      padding-left: 35px;
+      justify-content: flex-start;
+      width: 165%;
+    }
+    @media (max-width: 650px) {
+      width: 300%;
+      margin-bottom: 10px;
+      margin-top: 20px
+    }
+
+    .buttn {
+      width: 90px;
+      &:not(:first-child) {
+        width: 130px
+      }
+      @media (max-width: 1200px) {
+        margin-right: 20px
+      }
+    }
+  }
+  .top-games__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    .top-games__head-title {
+      font-size: 3.75rem;
+      text-transform: uppercase;
+      @media (max-width: 650px) {
+        font-size: 1.75rem
+      }
+    }
+  }
+  .top-games__list-outer {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .top-games__list-outer::-webkit-scrollbar {
+    display: none
+  }
+  .top-games__list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    @media (max-width: 1200px) {
+      width: 165%;
+      justify-content: center;
+    }
+    @media (max-width: 850px) {
+      padding-bottom: 0;
+      border: none
+    }
+    @media (max-width: 650px) {
+      width: 230%
+    }
+    .game-thumbnail {
+      border-radius: 12px;
+      flex: 0 1 32%;
+      &:first-child {
+        .game-thumbnail__outer {
+          padding-left: 20px
+        }
+      }
+      &:nth-child(2) {
+        .game-thumbnail__outer {
+          padding-right: 10px;
+          padding-left: 10px
+        }
+      }
+      &:last-child {
+        .game-thumbnail__outer {
+          padding-right: 20px
+        }
+      }
+      .game-thumbnail__outer {
+        padding: 20px 0;
+        @media (max-width: 1200px) {
+          margin-right: 20px
+        }
+        .game-thumbnail__inner {
+          position: relative;
+          img {
+            border-radius: 12px
+          }
+        }
+      }
+      .game-content__wrap {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        opacity: 0;
+        &:before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 116px;
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+        }
+        .game-content__buttns {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          z-index: 1;
+          margin: 0 10px 10px
+        }
+      }
+      &:hover {
+        .game-thumbnail__inner {
+          transform: scale(1.1);
+          z-index: 1;
+          transition: all .2s ease-in-out;
+          .game-content__wrap {
+            opacity: 1;
+            transition: .5s ease;
+          }
+        }
+      }
+    }
+  }
+  .all-games {
+    padding: 60px 0 0;
+    max-width: 1690px;
+    margin: 0 auto;
+    @media (max-width: 850px) {
+      padding-top: 10px;
+
+    }
+    .all-games__content {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      .game-thumbnail {
+        border-radius: 12px;
+        flex: 0 1 24%;
+        @media (max-width: 1200px) {
+          flex-basis: 32%
+        }
+        @media (max-width: 850px) {
+          flex-basis: 49%
+        }
+        @media (max-width: 650px) {
+          flex-basis: 90%
+        }
+        .game-thumbnail__outer {
+          padding: 10px;
+          .game-thumbnail__inner {
+            position: relative;
+            img {
+              border-radius: 12px
+            }
+          }
+        }
+        .game-content__wrap {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: flex-end;
+          opacity: 0;
+          &:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 116px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+          }
+          .game-content__buttns {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            z-index: 1;
+            margin: 0 10px 10px
+          }
+        }
+        &:hover {
+          .game-thumbnail__inner {
+            transform: scale(1.1);
+            z-index: 1;
+            transition: all .2s ease-in-out;
+            .game-content__wrap {
+              opacity: 1;
+              transition: .5s ease;
+            }
+          }
+        }
+      }
+    }
+  }
+</style>

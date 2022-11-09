@@ -1,0 +1,562 @@
+<template>
+  <div>
+    <MainHeader />
+    <header class="header-area">
+      <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.backUrl})` }">
+        <div class="game-title__wrap container">
+          <div class="game-title__left">
+            <h1 class="game-title">{{ currentGame.name }}</h1>
+          </div>
+          <div class="game-title__right">
+            <div class="game-title__right-content">
+              <div class="button-wrap">
+                <button :href="`https://play.mascot.games/${currentGame.slug}`" class="buttn buttn-colored buttn-xl">Play demo</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main">
+      <div class="screenshots-carousel__wrap">
+
+        <div v-swiper:mySwiper3="swiperOption">
+          <div id="lightgallery" class="swiper-wrapper">
+            <div class="swiper-slide game-thumbnail" :data-src="`/images/${currentGame.features[0].imgUrl}`">
+              <img :src="`/images/${currentGame.features[0].imgUrl}`" >
+              <div class="game-content__wrap" >
+              </div>
+            </div>
+
+              <div id="galleryVideo" style="display:none;" >
+                  <video class="lg-video-object lg-html5" controls preload="none">
+                      <source src="https://mascot.games/videos/video_book-of-amaterasu.mp4" type="video/mp4">
+                       Your browser does not support HTML5 video.
+                  </video>
+              </div>
+              <div  v-if="currentGame.videoUrl" class="swiper-slide game-thumbnail slide-video" :data-poster="`/images/${currentGame.placeholderUrl}`" data-sub-html="" data-html="#galleryVideo" >
+                  <img :src="`/images/${currentGame.placeholderUrl}`" />
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 81 80"><rect width="80" height="80" x=".906" fill="#FFCF24" rx="40"/><path fill="#1F1F1F" d="M54.914 36.672 36.125 24.146c-2.658-1.772-6.219.133-6.219 3.328v25.052c0 3.195 3.56 5.1 6.219 3.328l18.789-12.526c2.375-1.583 2.375-5.073 0-6.656Z"/></svg>
+              </div>
+
+            <div v-for="(feature, idx) in currentGame.features.slice(1)" :key="idx" class="swiper-slide game-thumbnail" :data-src="`/images/${feature.imgUrl}`"  >
+                <img :src="`/images/${feature.imgUrl}`" >
+                <div class="game-content__wrap" >
+                </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+      <div class="game-meta__outer container">
+        <div class="game-meta__wrap">
+          <div class="hairline"></div>
+          <div class="icons__outer">
+            <div class="icons__wrap">
+            <div v-if="currentGame.stats.rtp !== null" class="slider-footer__icons-item">
+              <div class="icon-inner">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M30.5 50.928c11.046 0 20-8.954 20-20s-8.954-20-20-20-20 8.954-20 20 8.954 20 20 20Zm-7-11h14"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21.5 24.928 2 10h14l2-10-5 5-4-7-4 7-5-5Z"/></svg>
+                <span>{{currentGame.stats.rtp}}</span>
+              </div>
+              <div class="slider-footer__icons-itemname">RTP</div>
+            </div>
+            <div v-if="currentGame.stats.hitrate !== null" class="slider-footer__icons-item">
+              <div class="icon-inner">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><path stroke="#fff" stroke-width="2" d="M32.836 11.767c-1.538.128-2.942 1.484-3.452 2.147-.51-.663-1.915-2.02-3.452-2.147-1.922-.159-5.453 1.074-5.296 5.089.126 3.212 5.884 8.971 8.748 11.45 2.864-2.479 8.622-8.238 8.748-11.45.157-4.015-3.374-5.248-5.296-5.089Z"/><path stroke="#fff" stroke-width="2" d="M45.924 31.757c-.127-1.537-1.484-2.942-2.147-3.452.663-.51 2.02-1.914 2.147-3.452.16-1.922-1.073-5.453-5.088-5.296-3.213.126-8.972 5.885-11.45 8.748 2.478 2.864 8.237 8.623 11.45 8.748 4.015.157 5.247-3.373 5.088-5.296Z"/><path stroke="#fff" stroke-width="2" d="M32.836 44.843c-1.538-.127-2.942-1.484-3.452-2.147-.51.663-1.915 2.02-3.452 2.147-1.922.16-5.453-1.073-5.296-5.089.126-3.212 5.884-8.97 8.748-11.449 2.864 2.478 8.622 8.237 8.748 11.45.157 4.015-3.374 5.247-5.296 5.088Z"/><path stroke="#fff" stroke-width="2" d="M12.847 31.757c.128-1.537 1.485-2.942 2.147-3.452-.662-.51-2.02-1.914-2.147-3.452-.159-1.922 1.074-5.453 5.089-5.296 3.212.126 8.971 5.885 11.45 8.748-2.479 2.864-8.238 8.623-11.45 8.748-4.015.157-5.248-3.373-5.089-5.296Z"/><path stroke="#fff" stroke-width="3" d="m29.465 28.066 8.355 8.515c3.064 2.652 8.658 9.174 6.525 14.044"/></svg>
+                  <span>{{currentGame.stats.hitrate}}%</span>
+                </div>
+                <div class="slider-footer__icons-itemname">Hit Rate</div>
+            </div>
+            <div v-if="currentGame.stats.reels !== null" class="slider-footer__icons-item">
+              <div class="icon-inner">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><defs><mask id="f" fill="#fff"><rect width="12" height="12" x="6.166" y="24.928" rx="1"/></mask></defs><mask id="a" fill="#fff"><rect width="8" height="36" x="8.168" y="12.928" rx="1"/></mask><rect width="8" height="36" x="8.168" y="12.928" stroke="#fff" stroke-width="4" mask="url(#a)" rx="1" transform="translate(.559 .699)"/><mask id="b" fill="#fff"><rect width="12" height="12" x="6.166" y="24.928" rx="1"/></mask><rect width="12" height="12" x="6.166" y="24.928" fill="#FFCF24" stroke="#fff" stroke-width="4" mask="url(#b)" rx="1"/><mask id="c" fill="#fff"><rect width="8" height="36" x="26.189" y="12.928" rx="1"/></mask><rect width="8" height="36" x="26.189" y="12.928" stroke="#fff" stroke-width="4" mask="url(#c)" rx="1"/><mask id="d" fill="#fff"><rect width="13" height="13" rx="1" transform="rotate(44.966 -11.31 47.647)"/></mask><rect width="13" height="13" fill="#FFCF24" stroke="#fff" stroke-width="4" mask="url(#d)" rx="1" transform="rotate(44.966 -11.31 47.647)"/><mask id="e" fill="#fff"><rect width="8" height="36" x="44.211" y="12.928" rx="1"/></mask><rect width="8" height="36" x="44.211" y="12.928" stroke="#fff" stroke-width="4" mask="url(#e)" rx="1"/><rect width="12" height="12" x="42.166" y="24.928" fill="#FFCF24" stroke="#fff" stroke-width="2" rx="6"/><rect width="12" height="12" x="6.166" y="24.928" fill="#ffcf24" stroke="#fff" stroke-width="4" mask="url(#f)" rx="1" transform="rotate(45.077 21.88 52.582)"/></svg>
+                  <span>{{currentGame.stats.reels}}</span>
+                </div>
+              <div class="slider-footer__icons-itemname">Reels</div>
+            </div>
+            <div v-if="currentGame.stats.rows !== null" class="slider-footer__icons-item">
+              <div class="icon-inner">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61">
+                      <rect width="6" height="34" x="47.5" y="12.928" stroke="#fff" stroke-width="2" rx="1" transform="rotate(90 47.5 12.928)"/>
+                      <rect width="8" height="34" x="47.5" y="26.928" fill="#FFCF24" stroke="#fff" stroke-width="2" rx="1" transform="rotate(90 47.5 26.928)"/>
+                      <rect width="6" height="34" x="47.5" y="42.928" stroke="#fff" stroke-width="2" rx="1" transform="rotate(90 47.5 42.928)"/>
+                    </svg>
+                    <span>{{currentGame.stats.rows}}</span>
+                  </div>
+                  <div class="slider-footer__icons-itemname">Rows</div>
+                </div>
+                  <div v-if="currentGame.stats.volatility !== null" class="slider-footer__icons-item">
+                    <div class="icon-inner">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><rect width="8" height="20" x="12.334" y="28.928" fill="#fff" rx="1"/><rect width="8" height="36" x="26.334" y="12.928" fill="#fff" rx="1"/><rect width="8" height="26" x="40.334" y="22.928" fill="#fff" rx="1"/></svg>
+                      <span>{{currentGame.stats.volatility}}</span>
+                    </div>
+                  <div class="slider-footer__icons-itemname">Volatility</div>
+                </div>
+            <div v-if="currentGame.stats.paylines !== null" class="slider-footer__icons-item">
+              <div class="icon-inner">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><path stroke="#fff" stroke-width="4" d="M3.666 12.928h14.858l12.605 33.95a1 1 0 0 0 1.814.133l10.96-19.96h13.763"/></svg>
+                <span>{{currentGame.stats.paylines}}</span>
+              </div>
+              <div class="slider-footer__icons-itemname">Pay lines</div>
+            </div>
+            <div v-if="currentGame.stats.payways !== null" class="slider-footer__icons-item">
+              <div class="icon-inner">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><path stroke="#fff" stroke-width="4" d="M3.666 12.928h14.858l12.605 33.95a1 1 0 0 0 1.814.133l10.96-19.96h13.763"/></svg>
+                <span class="payways-value">{{currentGame.stats.payways}}</span>
+              </div>
+              <div class="slider-footer__icons-itemname">Pay ways</div>
+            </div>
+            <div v-if="currentGame.stats.html5 === true" class="slider-footer__icons-item">
+              <div class="icon-inner">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 60 61"><path fill="#fff" fill-rule="evenodd" d="M16.997 45.742 14 11.928h32.914l-3.002 33.817L30.457 49.5l-13.46-3.758Zm13.46-22.756h9.956l.367-4.145H20.131l1.115 12.542h14.287l-.48 5.38-4.596 1.247-.005.002-4.591-1.247-.308-3.456h-4.138l.59 6.662 8.445 2.357.007-.002 8.45-2.355 1.13-12.737H25.014l-.376-4.248h5.819Z" clip-rule="evenodd"/></svg>
+              </div>
+              <div class="slider-footer__icons-itemname">HTML</div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <PlayWithPartners />
+      <div class="features__outer container">
+        <div class="features__wrap">
+          <h2 class="features__head game-subtitle">Game Features</h2>
+          <div class="features__content-wrap">
+            <div class="features__content">
+              <div v-for="(feature, idx) in currentGame.features" :key="idx" class="features-card">
+                <h3 class="features-title">{{feature.name}}</h3>
+                <p class="features-description">{{feature.descr}}</p>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="game-details__wrap container">
+        <div class="game-details">
+          <h2 class="game-details__head">Game details</h2>
+          <div class="game-details__content">
+            <div class="game-details__content-inner">
+              <ul class="details-list">
+                <li v-if="currentGame.stats.rows && currentGame.stats.rows !== null" class="details-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 6.928v18"/><path fill="#000" stroke="#fff" stroke-linejoin="round" stroke-width="2" d="m9.121 12.514 3.536 3.535-3.536 3.536-3.536-3.536z"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 6.928v18m6-18v18"/><rect width="5" height="5" x="21.121" y="12.514" fill="#000" stroke="#fff" stroke-linejoin="round" stroke-width="2" rx="2.5" transform="rotate(45 21.121 12.514)"/></svg>
+                  <span class="details-name">Reels</span>
+                  <span class="lead-line"></span>
+                  <div class="details-value">{{currentGame.stats.reels}}<span>*</span>{{currentGame.stats.rows}}</div>
+                </li>
+                <li v-if="currentGame.stats.paylines && currentGame.stats.paylines !== null" class="details-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M25 15.928h-4l-3 9-6-18H6"/></svg>
+                  <span class="details-name">Pay Lines</span>
+                  <span class="lead-line"></span>
+                  <div class="details-value">{{currentGame.stats.paylines}}</div>
+                </li>
+                <li v-if="currentGame.stats.payways && currentGame.stats.payways !== null" class="details-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M25 15.928h-4l-3 9-6-18H6"/></svg>
+                  <span class="details-name">Pay ways</span>
+                  <span class="lead-line"></span>
+                  <div class="details-value">{{currentGame.stats.payways}}</div>
+                </li>
+                <li v-if="currentGame.stats.volatility && currentGame.stats.volatility !== null" class="details-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 6.928v18h18m-3-4v-8m-5 8v-12m-5 12v-3"/></svg>
+                  <span class="details-name">Volatility</span>
+                  <span class="lead-line"></span>
+                  <div class="details-value">{{currentGame.stats.volatility}}</div>
+                </li>
+                <li v-if="currentGame.stats.type && currentGame.type !== null" class="details-item item-no-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path /></svg>
+                  <span class="details-name">Game Type</span>
+                  <span class="lead-line"></span>
+                  <div class="details-value">{{currentGame.type}} game</div>
+                </li>
+              </ul>
+              <ul class="details-list">
+                <li v-if="currentGame.stats.rtp && currentGame.stats.rtp" class="details-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17.928a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm10.09-3.63a6.001 6.001 0 1 1-7.75 7.63"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9.928h1v4m8.71 3.88.7.71-2.82 2.82"/></svg>
+                  <span class="details-name">RTP</span>
+                  <span class="lead-line"></span>
+                  <div class="details-value">{{currentGame.stats.rtp}}</div>
+                </li>
+                <li v-if="currentGame.stats.hitrate && currentGame.stats.hitrate" class="details-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.813 7.728a2.7 2.7 0 0 1 3.81 0l.4.38.4-.4a2.7 2.7 0 0 1 3.82 0c1.04 1.07 1.1 2.86-.23 4.22l-4 4-4-4c-1.33-1.36-1.27-3.15-.2-4.2Z"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.012 11.928c1.36-1.33 3.15-1.27 4.2-.2a2.7 2.7 0 0 1 0 3.81l-.38.4.4.4a2.7 2.7 0 0 1 0 3.82c-1.07 1.04-2.86 1.1-4.22-.23m-8 0c-1.36 1.33-3.15 1.27-4.2.2a2.7 2.7 0 0 1 0-3.81l.38-.4-.4-.4a2.7 2.7 0 0 1 0-3.82c1.07-1.04 2.86-1.1 4.22.23"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.211 24.128a2.7 2.7 0 0 1-3.81 0l-.4-.38-.4.4a2.702 2.702 0 0 1-3.82 0c-1.06-1.06-1.12-2.85.21-4.21l4-4 4 4c1.33 1.36 1.27 3.15.2 4.2l.02-.01Zm.801-3.2 5 5"/></svg>
+                  <span class="details-name">HIT%</span>
+                  <span class="lead-line"></span>
+                  <div class="details-value">{{currentGame.stats.hitrate}}</div>
+                </li>
+                <li v-if="currentGame.releaseDate && currentGame.releaseDate" class="details-item">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 17.928v-8a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8m3-20v4m-8-4v4m-5 4h18m-5 10 2 2 4-4"/></svg>
+                  <span class="details-name">Release Date</span>
+                  <span class="lead-line"></span>
+                  <div class="details-value">{{currentGame.releaseDate}}</div>
+                </li>
+
+              </ul>
+            </div>
+            <nuxt-img :src="`images/${currentGame.detailsImgUrl}`" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <SharingButtons />
+  <MainFooter />
+  </div>
+</template>
+
+<script>
+
+import allGames from '../static/data/games.json';
+
+
+
+
+export default {
+
+
+    data() {
+      return {
+        id: this.$route.params.game,
+        gamesList: allGames,
+
+
+        swiperOption: {
+          preventClicks: false,
+          // touchMoveStopPropagation: true,
+          followFinger: false,
+          preventClicksPropagation: false,
+          spaceBetween: 10,
+          slidesPerView: 1.2,
+          a11y: false,
+          breakpoints: {
+            '640': {
+              slidesPerView: 1.2,
+              spaceBetween: 10,
+            },
+            '768': {
+              slidesPerView: 2.5,
+              spaceBetween: 17,
+            },
+            '1024': {
+              slidesPerView: 4,
+              spaceBetween: 17,
+            },
+          }
+        }
+      };
+
+
+    },
+
+
+ computed: {
+   currentGame() {
+     return this.gamesList.slice().find((element) => element.slug === this.id);
+
+  }
+ },
+
+ created() {
+//   const test = 'funct called';
+//       console.log (test);
+//    return test;
+
+
+ },
+
+ mounted() {
+
+   const el = document.getElementById('lightgallery')
+   window.lightGallery(el, {
+    selector: '.game-thumbnail',
+    download: false,
+//    plugins: [lgVideo],
+  });
+  //   console.log('output:', test)
+   // this.mySwiper.slideTo(3, 1000, false)
+ },
+
+//  currentGame() {
+//  return this.gamesList
+//    .slice()
+//    .find((el) => el.slug === this.$route.params.el);
+// },
+
+}
+
+
+</script>
+
+<style lang="scss" scoped>
+  .top-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+    position: relative;
+    &:before {
+      position: absolute;
+      content: '';
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 250px;
+      background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    }
+    &:after {
+      position: absolute;
+      content: '';
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 250px;
+      background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 100%);
+
+    }
+    .game-title__wrap {
+      height: 900px;
+      display: flex;
+      align-items: flex-end;
+      position: relative;
+      z-index: 1;
+      justify-content: space-between;
+      @media (max-width: 850px) {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+      }
+      .game-title__left {
+        flex: 0 1 40%;
+        @media (max-width: 850px) {
+          flex-basis: auto;
+          margin-bottom: 30px
+        }
+        .game-title {
+          font-size: 3.75rem;
+          text-transform: uppercase;
+          @media (max-width: 650px) {
+            font-size: 1.75rem
+          }
+        }
+      }
+      .game-title__right {
+        @media (max-width: 650px) {
+          width: 100%
+        }
+        .buttn {
+          @media (max-width: 650px) {
+            justify-content: center;
+            width: 100%
+          }
+        }
+      }
+    }
+  }
+  .header-area {
+    padding-bottom: 90px
+  }
+  .swiper-container {
+    padding-left: 245px;
+    @media (max-width: 1200px) {
+      padding-left: 35px
+    }
+    .slide-video {
+      svg {
+        height: 80px;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(40px, -40px);
+      }
+    }
+    .game-thumbnail {
+      img {
+        border-radius: 12px
+      }
+    }
+  }
+  .game-meta__wrap {
+    padding-top: 90px;
+    .icons__outer {
+      @media (max-width: 850px) {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+    }
+    .icons__outer::-webkit-scrollbar {
+      display: none
+    }
+    .icons__wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+      padding-bottom: 45px;
+      @media (max-width: 850px) {
+        width: 150%
+      }
+      @media (max-width: 650px) {
+        width: 270%
+      }
+      .slider-footer__icons-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .icon-inner {
+          display: flex;
+          align-items: center;
+          span {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-left: 4px;
+          }
+          .payways-value {
+            max-width: 140px
+          }
+          svg {
+            height: 60px;
+            width: auto;
+          }
+        }
+        .slider-footer__icons-itemname {
+          font-size: .94rem;
+          margin-top: 10px
+        }
+      }
+
+    }
+  }
+  .features__wrap {
+    padding-top: 100px;
+    .features__head {
+      font-size: 2.12rem;
+      text-transform: uppercase;
+      @media (max-width: 850px) {
+      text-align: center;
+      }
+      @media (max-width: 650px) {
+        font-size: 1.75rem
+      }
+    }
+    .features__content-wrap {
+      margin-top: 40px;
+      .features__content {
+        display: grid;
+        justify-items: start;
+        grid-template-columns: repeat(3,32%);
+        gap: 20px;
+        @media (max-width: 850px) {
+              grid-template-columns: repeat(2, 49%);
+        }
+        @media (max-width: 550px) {
+          grid-template-columns: 1fr;
+        }
+        .features-card {
+          padding: 30px 35px 50px;
+          background: #121212;
+          border-radius: 12px;
+          @media (max-width: 550px) {
+            justify-self: stretch;
+          }
+          .features-title {
+            font-size: 1.75rem;
+            margin-bottom: 12px
+          }
+          .features-description {
+            font-size: 1.25rem;
+            line-height: 1.5
+          }
+        }
+      }
+    }
+  }
+  .game-details {
+    padding-top: 100px;
+    .game-details__head {
+      font-size: 2.12rem;
+      text-transform: uppercase;
+      @media (max-width: 850px) {
+        text-align: center;
+      }
+      @media (max-width: 650px) {
+        font-size: 1.75rem
+      }
+    }
+    .game-details__content {
+      background: #121212;
+      padding: 30px 35px;
+      border-radius: 12px;
+      position: relative;
+      margin-top: 40px;
+      @media (max-width: 650px) {
+        background: transparent;
+        padding: 0
+      }
+      .game-details__content-inner {
+        max-width: 70%;
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 850px) {
+          max-width: 100%;
+          flex-direction: column;
+        }
+        @media (max-width: 650px) {
+          flex-direction: column;
+        }
+        .details-list {
+          list-style: none;
+          flex: 0 1 46%;
+          .details-item {
+            display: flex;
+            align-items: flex-end;
+            font-size: 1.25rem;
+            margin-bottom: 12px;
+            .details-name {
+              margin-left: 10px;
+            }
+            .lead-line {
+              flex: 1 0 auto;
+              border-bottom: 1px solid rgba(255,255,255,.5);
+              margin: 0 10px;
+            }
+            svg {
+              width: 30px;
+              height: auto;
+            }
+            .details-value {
+
+            }
+            &.item-no-icon {
+              .details-name {
+                margin-left: 0;
+              }
+              svg {
+                height: 30px;
+                width: 0
+              }
+            }
+          }
+        }
+      }
+      img {
+        max-width: 390px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        @media (max-width: 1200px) {
+          right: -35px
+        }
+        @media (max-width: 850px) {
+          display: none
+        }
+      }
+    }
+  }
+footer {
+  border-top: 1px solid rgba(255,255,255,.25)
+}
+</style>
