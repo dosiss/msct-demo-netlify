@@ -9,7 +9,7 @@
           <div class="container">
               <div class="top-header__wrap">
                     <h1 class="top-header__title">Feel the<br>Gaming Thrill</h1>
-                    <button class="buttn buttn-primary buttn-xl" href="//play.mascot.games">Play our games</button>
+                    <a class="buttn buttn-primary buttn-xl" href="//play.mascot.games">Play our games</a>
               </div>
           </div>
 

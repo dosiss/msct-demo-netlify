@@ -12,24 +12,24 @@
     <div class="partners__content-wrap">
       <div class="partners__content">
       <div class="partners-card">
-        <div class="partner-logo"><img src="images/partner_logo_favb.png" srcset="images/partner_logo_favb@2x.png 2x" alt="Favbet" /></div>
+        <div class="partner-logo"><nuxt-img src="images/partner_logo_favb.png" alt="Favbet" /></div>
         <div class="partner-offer">Deposit with $100 and Play with $200 + Free Spins</div>
-        <button href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</button>
+        <a href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</a>
       </div>
       <div class="partners-card">
-        <div class="partner-logo"><img src="images/partner_logo_parimatch.png" srcset="images/partner_logo_parimatch@2x.png 2x" alt="PariMatch" /></div>
+        <div class="partner-logo"><nuxt-img src="images/partner_logo_parimatch.png"  alt="PariMatch" /></div>
         <div class="partner-offer">Deposit with $100 and Play with $200 + Free Spins</div>
-        <button href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</button>
+        <a href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</a>
       </div>
       <div class="partners-card">
-        <div class="partner-logo"><img src="images/partner_logo_pinup.jpg" alt="PinUp Casino" /></div>
+        <div class="partner-logo"><nuxt-img src="images/partner_logo_pinup.jpg" alt="PinUp Casino" /></div>
         <div class="partner-offer">Deposit with $100 and Play with $200 + Free Spins</div>
-        <button href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</button>
+        <a href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</a>
       </div>
       <div class="partners-card">
-        <div class="partner-logo"><img src="images/partner_logo_softswiss.png" srcset="images/partner_logo_softswiss@2x.png 2x" alt="Softswiss" /></div>
+        <div class="partner-logo"><nuxt-img src="images/partner_logo_softswiss.png" alt="Softswiss" /></div>
         <div class="partner-offer">Deposit with $100 and Play with $200 + Free Spins</div>
-        <button href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</button>
+        <a href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</a>
       </div>
     </div>
     </div>
@@ -127,8 +127,9 @@
       }
       .buttn-sm {
         padding: 15px;
-        min-width: 200px;
+        max-width: 200px;
         font-size: 1.05rem;
+        margin: 0 auto
       }
     }
   }
