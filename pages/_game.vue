@@ -10,7 +10,8 @@
           <div class="game-title__right">
             <div class="game-title__right-content">
               <div class="button-wrap">
-                <button :href="`https://play.mascot.games/${currentGame.slug}`" class="buttn buttn-colored buttn-xl">Play demo</button>
+                <a v-if="$device.isMobile" :href="`https://${currentGame.linkToDemo}`" class="buttn buttn-colored buttn-xl">Play demo</a>
+                <a v-else :href="`https://play.mascot.games/${currentGame.slug}`" class="buttn buttn-colored buttn-xl">Play demo</a>
               </div>
             </div>
           </div>
@@ -245,11 +246,30 @@ export default {
           }
         }
       };
-
-
     },
 
+    head() {
+      return {
+        title: this.currentGame.meta.title,
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.currentGame.meta.descr
+          },
+          { property: 'og:title', hid: "og:title", content: this.currentGame.meta.title },
+          { property: 'og:description', hid: 'og:description', content: this.currentGame.meta.descr },
+          { property: 'og:url', hid:'og:url', content: `https://mascot.games/${this.currentGame.slug}` },
+          { property: 'og:image', hid:'og:image', content: `https://mascot.games/images/${this.currentGame.thumbUrl}` },
 
+          { name: 'twitter:card', hid: 'twitter:card', content: 'summary_large_image' },
+          { name: 'twitter:title', hid:'twitter:title', content: this.currentGame.meta.title },
+          { name: 'twitter:description', hid:'twitter:description', content: this.currentGame.meta.descr },
+          { name: 'twitter:image', hid:'twitter:image', content: `https://mascot.games/images/${this.currentGame.thumbUrl}` },
+
+        ]
+      }
+   },
  computed: {
    currentGame() {
      return this.gamesList.slice().find((element) => element.slug === this.id);

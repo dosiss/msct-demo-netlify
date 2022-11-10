@@ -11,7 +11,8 @@
                   </NuxtLink>
                 </div>
                 <div class="featured-header__buttn">
-                    <button class="buttn buttn-primary buttn-m" :href="`https://${ backgroundGameData.linkToDemo }`">Play demo</button>
+                    <a v-if="$device.isMobile" :href="`https://${backgroundGameData.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                    <a v-else :href="`https://play.mascot.games/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m">Play demo</a>
                 </div>
               </div>
           </div>

@@ -214,6 +214,9 @@
         right: 0;
         top: 0;
         background: #000;
+        @media (max-width: 650px) {
+          width: 100%
+        }
         .mobile-menu__dropdown-header {
           display: flex;
           justify-content: space-between;

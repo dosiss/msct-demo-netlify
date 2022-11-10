@@ -41,18 +41,18 @@
                     <div class="game-content__wrap">
                       <div class="game-content__buttns">
                         <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? "More" : "Learn more" }}</NuxtLink>
-                        <button v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
+                        <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
                           Play for free
                           <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                           </svg>
-                        </button>
-                        <button v-else :href="`https://play.mascot.games/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                        </a>
+                        <a v-else :href="`https://play.mascot.games/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
                           Play for free
                           <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                           </svg>
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -72,18 +72,18 @@
                   <div class="game-content__wrap">
                     <div class="game-content__buttns">
                       <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? "More" : "Learn more" }}</NuxtLink>
-                      <button v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
+                      <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
                         Play for free
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                      </button>
-                      <button v-else :href="`https://play.mascot.games/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                      </a>
+                      <a v-else :href="`https://play.mascot.games/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
                         Play for free
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>

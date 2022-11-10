@@ -112,21 +112,32 @@
   background-color: #000;
   width: 600px;
   height: fit-content;
-  margin-top: 10%;
+  margin-top: 10vh;
   padding: 40px;
   border-radius: 12px;
   border: 1px solid #00F0FF;
   position: relative;
+  @media (max-width: 650px) {
+    width: 90%;
+    padding: 20px
+  }
   .contact-modal__title {
     font-size: 2.7rem;
     font-weight: 700;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    @media (max-width: 650px) {
+      font-size: 1.75rem
+    }
   }
   .contact-modal__close {
     position: absolute;
     top: 45px;
     cursor: pointer;
     right: 45px;
+    @media (max-width: 650px) {
+      top: 20px;
+      right: 20px
+    }
     svg {
       width: 18px;
       height: auto;
