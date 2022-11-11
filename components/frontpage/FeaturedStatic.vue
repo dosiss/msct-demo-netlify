@@ -1,5 +1,28 @@
 <template>
-  <div class="featured-static__wrap">
+  <div v-if="$device.isMobile" class="featured-static__wrap mobile">
+
+          <div class="slider-outer">
+          <div v-swiper:mySwiper4="swiperOptionMobile">
+            <div class="swiper-wrapper">
+              <div v-for="(game, idx) in gamesFeatured" :key="idx"  :class="{ 'selected': idx === 0 }" class="swiper-slide game-hero" :data-name="`${game.slug}`" @click="toggleGame" >
+                <div class="game-hero__outer" :style="{ backgroundImage: `url(/images/${game.heroUrl})` }">
+                  <div class="game-hero__inner">
+                    <NuxtLink :to="`${game.slug}`">
+                      <img :src="`/images/${game.logoUrl}`" class="game-logo" :alt="`${game.name}`" />
+                    </NuxtLink>
+                    <a  :href="`https://${game.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div slot="pagination" class="swiper-pagination"></div>
+
+          </div>
+        </div>
+      </div>
+
+  </div>
+  <div v-else class="featured-static__wrap">
 
       <div class="featured-static__background" :style="{ backgroundImage: `url(/images/${backgroundGameData.backgroundUrl})` }"> <!-- :style="{ backgroundImage: `url(${backgroundUrl})` }" -->
           <div class="container">
@@ -17,15 +40,6 @@
               </div>
           </div>
 
-          <!-- <div v-swiper:mySwiper="swiperOption">
-            <div class="swiper-wrapper">
-              <div v-for="banner in banners" :key="banner" class="swiper-slide">
-                <img :src="banner">
-
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div> -->
           <div class="slider-outer">
           <div v-swiper:mySwiper2="swiperOption">
             <div class="swiper-wrapper">
@@ -94,7 +108,20 @@ import allGames from '../../static/data/games.json'
               spaceBetween: 17,
             },
           }
+        },
+        swiperOptionMobile: {
+          preventClicks: false,
+          // touchMoveStopPropagation: true,
+          followFinger: false,
+          preventClicksPropagation: false,
+          slidesPerView: 1,
+          a11y: false,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+          }
         }
+
       }
     },
 
@@ -114,7 +141,7 @@ import allGames from '../../static/data/games.json'
 
       this.backgroundGameData.name = firstGame.name;
       this.backgroundGameData.slug = firstGame.slug;
-      this.backgroundGameData.backgroundUrl = firstGame.backUrl;
+      this.backgroundGameData.backgroundUrl = firstGame.heroUrl;
       this.backgroundGameData.logoUrl = firstGame.logoUrl;
       this.backgroundGameData.descr = firstGame.descr;
       this.backgroundGameData.linkToDemo = firstGame.linkToDemo;
@@ -138,7 +165,7 @@ import allGames from '../../static/data/games.json'
   //   console.log('slug:'+selectedGame.slug);
    this.backgroundGameData.name = selectedGame.name;
    this.backgroundGameData.slug = selectedGame.slug;
-   this.backgroundGameData.backgroundUrl = selectedGame.backUrl;
+   this.backgroundGameData.backgroundUrl = selectedGame.heroUrl;
    this.backgroundGameData.logoUrl = selectedGame.logoUrl;
    this.backgroundGameData.descr = selectedGame.descr;
    this.backgroundGameData.linkToDemo = selectedGame.linkToDemo;
@@ -180,9 +207,11 @@ import allGames from '../../static/data/games.json'
     padding-top: 170px;
     height: 950px;
     background-size: cover;
+    background-position: center;
     @media (max-width: 850px) {
       height: 760px;
-      padding-top: 60px
+      padding-top: 60px;
+      background-position: center;
     }
   }
   .featured-header__wrap {
@@ -226,13 +255,19 @@ import allGames from '../../static/data/games.json'
 }
 
 .slider-outer {
-  padding-bottom: 160px
+  padding-bottom: 160px;
+  @media (max-width: 650px) {
+    padding-bottom: 0
+  }
 }
 .swiper-container {
   padding-left: 245px;
   z-index: 3;
   @media (max-width: 1200px) {
     padding-left: 35px
+  }
+  @media (max-width: 650px) {
+    padding-left: 0
   }
   .swiper-wrapper {
     padding-bottom: 20px
@@ -267,7 +302,50 @@ import allGames from '../../static/data/games.json'
       border-radius: 10px;
     }
 }
+.swiper-slide {
+  &.game-hero {
+    .game-hero__outer {
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 500px;
+      background-position: center;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      &:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 75px;
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      }
+      &:after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 75px;
+        background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 100%);
 
+      }
+      .game-hero__inner {
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        a {
+          display: block;
+          margin-bottom: 30px;
+          img {
+            max-width: 200px
+          }
+        }
+      }
+    }
+  }
+}
 
 
 </style>

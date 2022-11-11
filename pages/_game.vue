@@ -1,8 +1,23 @@
 <template>
   <div>
     <MainHeader />
-    <header class="header-area">
-      <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.backUrl})` }">
+    <header v-if="$device.isMobile" class="header-area">
+      <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.heroUrl})` }"></div>
+      <div class="game-title__wrap container">
+        <div class="game-title__left">
+          <h1 class="game-title">{{ currentGame.name }}</h1>
+        </div>
+        <div class="game-title__right">
+          <div class="game-title__right-content">
+            <div class="button-wrap">
+              <a :href="`https://${currentGame.linkToDemo}`" class="buttn buttn-colored buttn-xl">Play demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header v-else class="header-area">
+      <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.heroUrl})` }">
         <div class="game-title__wrap container">
           <div class="game-title__left">
             <h1 class="game-title">{{ currentGame.name }}</h1>
@@ -10,8 +25,7 @@
           <div class="game-title__right">
             <div class="game-title__right-content">
               <div class="button-wrap">
-                <a v-if="$device.isMobile" :href="`https://${currentGame.linkToDemo}`" class="buttn buttn-colored buttn-xl">Play demo</a>
-                <a v-else :href="`https://play.mascot.games/${currentGame.slug}`" class="buttn buttn-colored buttn-xl">Play demo</a>
+                <a  :href="`https://play.mascot.games/${currentGame.slug}`" class="buttn buttn-colored buttn-xl">Play demo</a>
               </div>
             </div>
           </div>
@@ -315,6 +329,10 @@ export default {
     background-position: center;
     height: 900px;
     position: relative;
+    @media (max-width: 650px) {
+      height: 320px;
+      margin-top: 60px
+    }
     &:before {
       position: absolute;
       content: '';
@@ -323,6 +341,9 @@ export default {
       width: 100%;
       height: 250px;
       background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      @media (max-width: 650px) {
+        height: 61px;
+      }
     }
     &:after {
       position: absolute;
@@ -332,7 +353,9 @@ export default {
       width: 100%;
       height: 250px;
       background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 100%);
-
+      @media (max-width: 650px) {
+        height: 61px;
+      }
     }
     .game-title__wrap {
       height: 900px;
@@ -352,29 +375,39 @@ export default {
           flex-basis: auto;
           margin-bottom: 30px
         }
-        .game-title {
-          font-size: 3.75rem;
-          text-transform: uppercase;
-          @media (max-width: 650px) {
-            font-size: 1.75rem
-          }
-        }
+
       }
       .game-title__right {
         @media (max-width: 650px) {
           width: 100%
         }
         .buttn {
-          @media (max-width: 650px) {
-            justify-content: center;
-            width: 100%
-          }
+
         }
       }
     }
   }
+  .game-title {
+    font-size: 3.75rem;
+    text-transform: uppercase;
+    @media (max-width: 650px) {
+      font-size: 1.75rem;
+      margin-bottom: 20px
+    }
+  }
+  .game-title__right {
+    .buttn {
+      @media (max-width: 650px) {
+        justify-content: center;
+        width: 100%
+      }
+    }
+  }
   .header-area {
-    padding-bottom: 90px
+    padding-bottom: 90px;
+    @media (max-width: 650px) {
+      padding-bottom: 40px
+    }
   }
   .swiper-container {
     padding-left: 245px;
@@ -399,6 +432,9 @@ export default {
   }
   .game-meta__wrap {
     padding-top: 90px;
+    @media (max-width: 650px) {
+      padding-top: 60px
+    }
     .icons__outer {
       @media (max-width: 850px) {
         overflow-x: scroll;
@@ -420,7 +456,7 @@ export default {
         width: 150%
       }
       @media (max-width: 650px) {
-        width: 270%
+        width: 245%
       }
       .slider-footer__icons-item {
         display: flex;
@@ -496,6 +532,9 @@ export default {
   }
   .game-details {
     padding-top: 100px;
+    @media (max-width: 650px) {
+      padding-top: 60px;
+    }
     .game-details__head {
       font-size: 2.12rem;
       text-transform: uppercase;

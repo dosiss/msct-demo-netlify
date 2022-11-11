@@ -51,6 +51,9 @@
 <style lang="scss">
 .playpartners__wrap {
   padding-top: 100px;
+  @media (max-width: 650px) {
+    padding-top: 60px
+  }
   .inner-link {
     &.link-desktop {
       display: flex;

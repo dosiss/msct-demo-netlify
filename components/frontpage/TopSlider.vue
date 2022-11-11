@@ -11,7 +11,7 @@
   <div class="slider-outer">
   <div v-swiper:mySwiper="swiperOption">
     <div class="swiper-wrapper">
-      <div v-for="(data, idx) in $options.gamesList" :key="idx" class="swiper-slide game-thumbnail">
+      <div v-for="(data, idx) in gamesTop" :key="idx" class="swiper-slide game-thumbnail">
         <div class="game-thumbnail__outer">
           <div class="game-thumbnail__inner">
           <img :src="`images/${data.thumbUrl}`" >
@@ -44,11 +44,11 @@
 import allGames from '../../static/data/games.json'
   export default {
 
-    gamesList: allGames,
 
     data () {
       return {
 
+        gamesList: allGames,
         // banners: [ 'images/game_deepsea.jpg', 'images/game_deepsea2.jpg', 'images/game_deepsea3.jpg', 'images/game_deepsea4.jpg' ],
         swiperOption: {
           preventClicks: false,
@@ -68,6 +68,14 @@ import allGames from '../../static/data/games.json'
           }
         }
       }
+    },
+    computed: {
+        gamesTop() {
+        return allGames.filter(val => (val.topGame !== false))
+      }
+
+
+
     },
     mounted() {
 
