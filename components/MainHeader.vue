@@ -114,15 +114,16 @@
 
         const windowY = window.scrollY;
 
-              if (windowY < this.startY) {
-                this.showNav = true
-              } else {
-                this.showNav = false
-              }
+        if (windowY > 100) {
+          if (windowY < this.startY) {
+            this.showNav = true
+          } else {
+            this.showNav = false
+          }
 
-          this.startY = windowY;
-//          console.log( 'windowY: ' + windowY)
+      this.startY = windowY;
         }
+      }
 
     },
 

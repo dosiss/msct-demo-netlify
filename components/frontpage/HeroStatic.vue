@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .static-background {
   position: relative;
   background: url('@/static/images/img-hero-static_desktop.jpg') center top no-repeat;

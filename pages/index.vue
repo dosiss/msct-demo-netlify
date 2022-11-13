@@ -2,8 +2,8 @@
 
   <div>
     <MainHeader />
-    <!-- <HeroVideo /> -->
-    <HeroStatic />
+    <HeroVideo />
+    <!-- <HeroStatic /> -->
     <section id="top-slider">
       <div class="top-slider__wrap">
         <TopSlider />
@@ -84,5 +84,10 @@ export default {
     z-index: 1
   }
 
+}
+#getgames {
+  @media (min-width: 1980px) {
+    margin-top: 80px
+  }
 }
 </style>

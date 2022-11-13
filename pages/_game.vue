@@ -17,15 +17,41 @@
       </div>
     </header>
     <header v-else class="header-area">
-      <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.heroUrl})` }">
-        <div class="game-title__wrap container">
-          <div class="game-title__left">
-            <h1 class="game-title">{{ currentGame.name }}</h1>
-          </div>
-          <div class="game-title__right">
-            <div class="game-title__right-content">
-              <div class="button-wrap">
-                <a  :href="`https://play.mascot.games/${currentGame.slug}`" class="buttn buttn-colored buttn-xl">Play demo</a>
+      <div v-if="currentGame.videoUrl !== null && currentGame.videoEnabled">
+        <div class="video-wrapper">
+            <div class="video-background">
+              <div class="vid">
+                <video id="bgvideo" playsinline autoplay muted loop :poster="`/images/${currentGame.heroUrl}`"  width="1920" height="1080">
+                  <source id="video-src" :src="`/videos/${currentGame.videoUrl}`"  type="video/mp4">
+                </video>
+              </div>
+              <div class="game-title__wrap container">
+                <div class="game-title__left">
+                  <h1 class="game-title">{{ currentGame.name }}</h1>
+                </div>
+                <div class="game-title__right">
+                  <div class="game-title__right-content">
+                    <div class="button-wrap">
+                      <a  :href="`https://play.mascot.games/${currentGame.slug}`" class="buttn buttn-colored buttn-xl">Play demo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </div>
+      <div v-else >
+        <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.heroUrl})` }">
+          <div class="game-title__wrap container">
+            <div class="game-title__left">
+              <h1 class="game-title">{{ currentGame.name }}</h1>
+            </div>
+            <div class="game-title__right">
+              <div class="game-title__right-content">
+                <div class="button-wrap">
+                  <a  :href="`https://play.mascot.games/${currentGame.slug}`" class="buttn buttn-colored buttn-xl">Play demo</a>
+                </div>
               </div>
             </div>
           </div>
@@ -357,33 +383,33 @@ export default {
         height: 61px;
       }
     }
-    .game-title__wrap {
-      height: 900px;
-      display: flex;
-      align-items: flex-end;
-      position: relative;
-      z-index: 1;
-      justify-content: space-between;
+  }
+  .game-title__wrap {
+    height: 900px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+    @media (max-width: 850px) {
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+    }
+    .game-title__left {
+      flex: 0 1 40%;
       @media (max-width: 850px) {
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-start;
+        flex-basis: auto;
+        margin-bottom: 30px
       }
-      .game-title__left {
-        flex: 0 1 40%;
-        @media (max-width: 850px) {
-          flex-basis: auto;
-          margin-bottom: 30px
-        }
 
+    }
+    .game-title__right {
+      @media (max-width: 650px) {
+        width: 100%
       }
-      .game-title__right {
-        @media (max-width: 650px) {
-          width: 100%
-        }
-        .buttn {
+      .buttn {
 
-        }
       }
     }
   }
@@ -407,6 +433,48 @@ export default {
     padding-bottom: 90px;
     @media (max-width: 650px) {
       padding-bottom: 40px
+    }
+  }
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    #bgvideo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+      background-color: #000;
+    }
+    &:before {
+      position: absolute;
+      content: '';
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 250px;
+      background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      @media (max-width: 650px) {
+        height: 61px;
+      }
+    }
+    &:after {
+      position: absolute;
+      content: '';
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 250px;
+      background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      @media (max-width: 650px) {
+        height: 61px;
+      }
     }
   }
   .swiper-container {

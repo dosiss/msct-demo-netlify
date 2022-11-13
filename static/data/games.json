@@ -1,5 +1,129 @@
 [
   {
+    "name": "Hydra's Lair",
+    "slug": "hydras-lair",
+    "linkToDemo": "demo.mascot.games/run/hydras_lair",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "Slay the Hydra's head, be rich, the bravest lad!",
+    "thumbUrl": "game_hydra.jpg",
+    "heroUrl": "hero_hydra.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_hydra.jpg",
+    "logoUrl": "logo_hydra.png",
+    "backUrl": "back_hydra.jpg",
+    "detailsImgUrl": "details_hydra.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.19,
+      "hitrate": 40.1
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_hydra-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_hydra-1.jpg"
+      },
+      {
+        "name": "The Hydra Feature",
+        "descr": "Hydra turns all adjacent symbols into Wild Symbols with multipliers up to x5",
+        "imgUrl": "img-feat_hydra-2.jpg"
+      },
+      {
+        "name": "Infinite Free Spins",
+        "descr": "The series of Free Spins continues until a combination of Scatter Symbols that triggered it appears on the screen",
+        "imgUrl": "img-feat_hydra-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Hydra's Lair video slot game by Mascot Gaming",
+      "descr": "Hydra's Lair by Mascot Gaming is a video slot with infinite Free Spins and Risk&Buy feature."
+    }
+  },
+  {
+    "name": "Deepsea Riches",
+    "slug": "deepsea-riches",
+    "linkToDemo": "demo.mascot.games/run/deepsea_riches",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "Dive into the deep sea and don't let your treasures flee!",
+    "thumbUrl": "game_deepsea.jpg",
+    "heroUrl": "hero_deepsea.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_deepsea.jpg",
+    "logoUrl": "logo_deepsea.png",
+    "backUrl": "back_deepsea.jpg",
+    "detailsImgUrl": "details_deepsea.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.23,
+      "hitrate": 31.4
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_deepsea-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_deepsea-1.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "Winning combinations vanish from the screen replaced with new symbols, increasing the winnings",
+        "imgUrl": "img-feat_deepsea-2.jpg"
+      },
+      {
+        "name": "Rockfall Multipliers",
+        "descr": "Each new Rockfall in the series increases the multiplier up to x10 in the regular game and up to x25 during Free Spins",
+        "imgUrl": "img-feat_deepsea-3.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Combination of 3, 4 or 5 Scatter Symbols gives a series of 10, 15 or 30 Free Spins accordingly",
+        "imgUrl": "img-feat_deepsea-4.jpg"
+      },
+      {
+        "name": "Extra Free Spins",
+        "descr": "Extra Free Spins can be won during current Free Spin series",
+        "imgUrl": "img-feat_deepsea-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "DEEPSEA RICHES 3d slot game by Mascot Gaming",
+      "descr": "DEEPSEA RICHES by Mascot Gaming is a 3d video slot with Rockfall mechanics and a legendary Risk&Buy Feature."
+    }
+  },
+  {
     "name": "Loot the Train!",
     "slug": "loot-the-train",
     "linkToDemo": "demo.mascot.games/run/loot_the_train",
@@ -8,12 +132,13 @@
     "risknbuy": true,
     "releaseDate": "10.10.22",
     "featured": false,
-    "topGame": false,
+    "topGame": true,
     "branded": false,
     "descr": "Hurry up, feed your brain! Be the winner, loot the train!",
     "thumbUrl": "game_train.jpg",
     "heroUrl": "hero_train.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_train.jpg",
     "logoUrl": "logo_train.png",
     "backUrl": "back_train.jpg",
@@ -47,12 +172,602 @@
       {
         "name": "New screen animation",
         "descr": "Each cell on the screen rolls as separate reel",
-        "imgUrl": "img-feat_train-2.jpg"
+        "imgUrl": "img-feat_train-3.jpg"
       }
     ],
     "meta": {
       "title": "Loot The Train! Slot game by Mascot Gaming",
       "descr": "Loot The Train! By Mascot Gaming is a video slot with Bonus Game and famous Risk&Buy feature."
+    }
+  },
+  {
+    "name": "The Princess & Dwarfs: Rockways",
+    "slug": "the-princess-and-dwarfs-rockways",
+    "linkToDemo": "demo.mascot.games/run/princess_and_dwarfs_rockways",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "Dwarfs and princess, hidden riches – go down the mine, to the treasure mistress!",
+    "thumbUrl": "game_princess.jpg",
+    "heroUrl": "hero_princess.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_princess.jpg",
+    "logoUrl": "logo_princess.png",
+    "backUrl": "back_princess.jpg",
+    "detailsImgUrl": "details_princess.png",
+    "stats": {
+      "reels": 6,
+      "rows": 6,
+      "volatility": "High",
+      "paylines": null,
+      "payways": "from 64 to 46656",
+      "html5": true,
+      "rtp": 95.19,
+      "hitrate": 32.2
+    },
+    "features": [
+      {
+        "name": "Rockways Feature",
+        "descr": "Each reel has a different height during each spin – from 2 to 6 symbols. It provides different pay ways number for each spin – from 64 to 46656",
+        "imgUrl": "img-feat_princess-0.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "Each new Rockfall in the series increases multiplier up to x5 in a regular game and up to x15 during Free Spins",
+        "imgUrl": "img-feat_princess-1.jpg"
+      },
+      {
+        "name": "Rockfall Multipliers",
+        "descr": "Each win increases the win multiplier for the next spin from x1 to x5",
+        "imgUrl": "img-feat_princess-2.jpg"
+      },
+      {
+        "name": "Bonus Game with Bonus Rockfall Feature",
+        "descr": "A bonus game in which the player collects a bet multiplier or accumulates Free Spins",
+        "imgUrl": "img-feat_princess-3.jpg"
+      },
+      {
+        "name": "Free Spins with Wild Reels Feature",
+        "descr": "Wild Symbol forms Wild Reel during Free Spin series and it gives multiple combinations with each winning symbol",
+        "imgUrl": "img-feat_princess-4.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_princess-5.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_princess-6.jpg"
+      }
+    ],
+    "meta": {
+      "title": "The Princess & Dwarfs: Rockways slot game by Mascot Gaming",
+      "descr": "The Princess & Dwarfs: Rockways from Mascot Gaming is a video slot with Bonus Game and Rockways and Rockfall mechanics."
+    }
+  },
+  {
+    "name": "1X Fruits",
+    "slug": "1x-fruits",
+    "linkToDemo": "demo.mascot.games/run/1x_fruits",
+    "theme": "video slot",
+    "type": null,
+    "risknbuy": false,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": false,
+    "branded": true,
+    "descr": "Cherry, lemon, watermelon. Take your juicy winning, fella!",
+    "thumbUrl": "game_1xfruits.jpg",
+    "heroUrl": "hero_1xfruits.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_1xfruits.jpg",
+    "logoUrl": "logo_1xfruits.png",
+    "backUrl": "back_1xfruits.jpg",
+    "detailsImgUrl": "details_1xfruits.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.1,
+      "hitrate": 22.8
+    },
+    "features": [
+      {
+        "name": "Both Way Pays",
+        "descr": "Payments on the rows are made from both leftmost to the right and rightmost to the left",
+        "imgUrl": "img-feat_1xfruits-0.jpg"
+      },
+      {
+        "name": "Expanding Wilds",
+        "descr": "Wild symbol expands to cover the entire reel and increases the winning combination",
+        "imgUrl": "img-feat_1xfruits-1.jpg"
+      },
+      {
+        "name": "Free Respin Feature",
+        "descr": "Expanding Wild symbols start the series of re-spins which will last as long as new Wilds appear on the screen. Expanding Wilds become Sticky during the whole re-spins series",
+        "imgUrl": "img-feat_1xfruits-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "1X Fruits: video slot game from Mascot Gaming",
+      "descr": "1X Fruits is our new video slot with the atmosphere of the good old Vegas."
+    }
+  },
+  {
+    "name": "Double Triple Fruits",
+    "slug": "double-triple-fruits",
+    "linkToDemo": "demo.mascot.games/run/double_triple_fruits",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Double joy, triple fresh – join our fruity flash!",
+    "thumbUrl": "game_dtfruits.jpg",
+    "heroUrl": "hero_dtfruits.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_dtfruits.jpg",
+    "logoUrl": "logo_dtfruits.png",
+    "backUrl": "back_dtfruits.jpg",
+    "detailsImgUrl": "details_dtfruits.png",
+    "stats": {
+      "reels": 3,
+      "rows": 5,
+      "volatility": "Low",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.23,
+      "hitrate": 54.7
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "Reel of identical symbols increases the number of winning combinations for 1 spin",
+        "imgUrl": "img-feat_dtfruits-0.jpg"
+      },
+      {
+        "name": "Double-Triple feature",
+        "descr": "During each spin, the symbols can become double or triple, significantly increasing a chance to win",
+        "imgUrl": "img-feat_dtfruits-1.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "Each win increases the win multiplier for the next spin from x1 to x5",
+        "imgUrl": "img-feat_dtfruits-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "DOUBLE TRIPLE FRUITS: video slot game by Mascot Gaming",
+      "descr": "DOUBLE TRIPLE FRUITS is our new video slot with Double-Triple feature and Win multiplier."
+    }
+  },
+  {
+    "name": "Fruit Disco: Megastacks",
+    "slug": "fruit-disco-megastacks",
+    "linkToDemo": "demo.mascot.games/run/fruit_disco_ms",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Old school rhythms and disco fruits – let's dance together this summer!",
+    "thumbUrl": "game_fruitdisco.jpg",
+    "heroUrl": "hero_fruitdisco.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fruitdisco.jpg",
+    "logoUrl": "logo_fruitdisco.png",
+    "backUrl": "back_fruitdisco.jpg",
+    "detailsImgUrl": "details_fruitdisco.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.42,
+      "hitrate": 23.3
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "Reel of identical symbols increases the number of winning combinations for 1 spins",
+        "imgUrl": "img-feat_fruitdisco-0.jpg"
+      },
+      {
+        "name": "Fruit Disco Mega Stacks feature",
+        "descr": "From 2 to 5 neighboring reels are filled with stacks of identical symbols every single spin, significantly increasing a chance to win",
+        "imgUrl": "img-feat_fruitdisco-1.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "Each win increases the win multiplier for the next spin from x1 to x10",
+        "imgUrl": "img-feat_fruitdisco-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "FRUIT DISCO: MEGASTACKS: video slot game by Mascot Gaming",
+      "descr": "FRUIT DISCO: MEGASTACKS is our new video slot with Stacked Symbols feature."
+    }
+  },
+  {
+    "name": "Riot 2: Blow and Burn",
+    "slug": "riot-2-blow-and-burn",
+    "linkToDemo": "demo.mascot.games/run/riot_2_bnb",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "A new challenge. A new struggle. New villains against old heroes. Who will you join? The sequel of the legendary slot game is here!",
+    "thumbUrl": "game_riot2.jpg",
+    "heroUrl": "hero_riot2.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_riot2.jpg",
+    "logoUrl": "logo_riot2.png",
+    "backUrl": "back_riot2.jpg",
+    "detailsImgUrl": "details_riot2.png",
+    "stats": {
+      "reels": 6,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 25,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.38,
+      "hitrate": 43.1
+    },
+    "features": [
+      {
+        "name": "Rockfall Feature",
+        "descr": "Winning combinations vanish from the screen replaced by new symbols and increase winnings",
+        "imgUrl": "img-feat_riot2-0.jpg"
+      },
+      {
+        "name": "Scatter symbols",
+        "descr": "A certain number of scatters of one of 2 kinds gives 1 of 2 kinds of Free Spins in “tug of war” mode",
+        "imgUrl": "img-feat_riot2-1.jpg"
+      },
+      {
+        "name": "Blow! Free Spins and Blow! Feature",
+        "descr": "Dynamite symbols remain on the screen until they turn into Wild symbols each of which adds a certain amount of additional Wilds",
+        "imgUrl": "img-feat_riot2-2.jpg"
+      },
+      {
+        "name": "Burn! Free Spins and Burn! Feature",
+        "descr": "Barrel symbols stay on the screen until they form a stack, which becomes a Wild Reel symbol",
+        "imgUrl": "img-feat_riot2-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_riot2-4.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_riot2-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Riot 2: Blow and Burn slot game by Mascot Gaming",
+      "descr": "Riot 2: Blow and Burn from Mascot Gaming is a video slot game with RockFall mechanics and the famous Risk & Buy feature."
+    }
+  },
+  {
+    "name": "Mayan Riches Rockways",
+    "slug": "mayan-riches-rockways",
+    "linkToDemo": "demo.mascot.games/run/mayan_riches_rockways",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "They say this land is full of gold and treasures… Will you dare to go looking for them?",
+    "thumbUrl": "game_mayan.jpg",
+    "heroUrl": "hero_mayan.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_mayan.jpg",
+    "logoUrl": "logo_mayan.png",
+    "backUrl": "back_mayan.jpg",
+    "detailsImgUrl": "details_mayan.png",
+    "stats": {
+      "reels": 6,
+      "rows": 6,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": "from 64 to 46656",
+      "html5": true,
+      "rtp": 95.1,
+      "hitrate": 20.1
+    },
+    "features": [
+      {
+        "name": "Rockways Feature",
+        "descr": "Each reel has a different height during each spin – from 2 to 6 symbols. It provides different pay ways number for each spin – from 64 to 46656",
+        "imgUrl": "img-feat_mayan-0.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "Winning combinations vanish from the screen replaced by new symbols and increase winnings",
+        "imgUrl": "img-feat_mayan-1.jpg"
+      },
+      {
+        "name": "Rockfall Multipliers",
+        "descr": "Each new rockfall in the series increases multiplier up to x5 in a regular game and up to x15 during Free Spins",
+        "imgUrl": "img-feat_mayan-2.jpg"
+      },
+      {
+        "name": "Free Spins with Scatter Symbol",
+        "descr": "Combination of five Scatter Symbols triggers a series of 25 Free Spins + 5 Free Spins for each additional drop of the Scatter Symbol during this combination",
+        "imgUrl": "img-feat_mayan-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_mayan-4.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_mayan-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "MAYAN RICHES ROCKWAYS slot game by Mascot Gaming",
+      "descr": "MAYAN RICHES ROCKWAYS by Mascot Gaming is a video slot with RockWays and RockFall mechanics."
+    }
+  },
+  {
+    "name": "Across the Universe",
+    "slug": "across-the-universe",
+    "linkToDemo": "demo.mascot.games/run/across_the_universe",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Space – so far away, so beautiful, so alluring. Enjoy your trip!",
+    "thumbUrl": "game_universe.jpg",
+    "heroUrl": "hero_universe.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_universe.jpg",
+    "logoUrl": "logo_universe.png",
+    "backUrl": "back_universe.jpg",
+    "detailsImgUrl": "details_universe.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 94.9,
+      "hitrate": 38.2
+    },
+    "features": [
+      {
+        "name": "Guaranteed Free Spins",
+        "descr": "When the Free Spins Scale fills up, the player receives that number of Free Spins that is displayed on the screen during the current spin. All winnings are tripled during Free Spins series.",
+        "imgUrl": "img-feat_universe-0.jpg"
+      },
+      {
+        "name": "Guaranteed Bonus",
+        "descr": "When the Instant Win Scale fills up, the player receives that amount of winnings that is displayed on the screen during the current spin.",
+        "imgUrl": "img-feat_universe-1.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_universe-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_universe-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "ACROSS THE UNIVERSE slot game by Mascot Gaming",
+      "descr": "ACROSS THE UNIVERSE by Mascot Gaming is a video slot with guaranteed Free Spins and Bonus Winnings."
+    }
+  },
+  {
+    "name": "The Candy Crush",
+    "slug": "candy-crush",
+    "linkToDemo": "demo.mascot.games/run/candy_crush",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Sweet like candy, are you ready? Donuts, pretzels and marshmallow wait for you and send you hello!",
+    "thumbUrl": "game_candycrush.jpg",
+    "heroUrl": "hero_candycrush.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_candycrush.jpg",
+    "logoUrl": "logo_candycrush.png",
+    "backUrl": "back_candycrush.jpg",
+    "detailsImgUrl": "details_candycrush.png",
+    "stats": {
+      "reels": 6,
+      "rows": 5,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 15625,
+      "html5": true,
+      "rtp": 95.2,
+      "hitrate": 26.6
+    },
+    "features": [
+      {
+        "name": "Random Feature",
+        "descr": "Up to 4 of one of the special symbols (Wild, Scatter or Bonus) will randomly appear on the screen during a regular game. During Free Spins each spin gives 1 to 4 of each special symbol",
+        "imgUrl": "img-feat_candycrush-0.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "Winning combinations vanish from the screen replaced by new symbols and increase winnings",
+        "imgUrl": "img-feat_candycrush-1.jpg"
+      },
+      {
+        "name": "Free Spins & Extra Free Spins",
+        "descr": "Five or more Scatter Symbols give you at least 10 Free Spins, in which you can win extra Free Spins",
+        "imgUrl": "img-feat_candycrush-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_candycrush-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_candycrush-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "THE CANDY CRUSH slot game by Mascot Gaming",
+      "descr": "HE CANDY CRUSH by Mascot Gaming is a video slot with Random, Rockfall and Risk&Buy features."
+    }
+  },
+  {
+    "name": "For the Realm",
+    "slug": "for-the-realm",
+    "linkToDemo": "demo.mascot.games/run/for_the_realm",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "The battle for a fantasy realm is on its rise! Which side will you choose?",
+    "thumbUrl": "game_fortherealm.jpg",
+    "heroUrl": "hero_fortherealm.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fortherealm.jpg",
+    "logoUrl": "logo_fortherealm.png",
+    "backUrl": "back_fortherealm.jpg",
+    "detailsImgUrl": "details_fortherealm.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.4,
+      "hitrate": 31.3
+    },
+    "features": [
+      {
+        "name": "Freedom Alliance Feature",
+        "descr": "The winning combination of 4 and more Freedom Alliance Symbols awards the Freedom Alliance feature with x3 multiplier",
+        "imgUrl": "img-feat_fortherealm-0.jpg"
+      },
+      {
+        "name": "Dark Horde Feature",
+        "descr": "A series of 10 Free Spins. Each Dark Horde Symbol becomes Sticky Wild Symbol when appear",
+        "imgUrl": "img-feat_fortherealm-1.jpg"
+      },
+      {
+        "name": "Underworld Menace Feature",
+        "descr": "A series of 10 Free Spins. Demon Symbol becomes Wild Reel when it appears anywhere on the screen and starts Free Respin",
+        "imgUrl": "img-feat_fortherealm-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_fortherealm-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_fortherealm-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "For The Realm video slot game by Mascot Gaming",
+      "descr": "For The Realm is a fantasy slot game by Mascot Gaming with three different Free Spins series and exclusive Risk&Buy feature."
+    }
+  },
+  {
+    "name": "Twin Fruits of Santa",
+    "slug": "twin-fruits-of-santa",
+    "linkToDemo": "demo.mascot.games/run/twin_fruits_of_santa",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "We wish you a Merry Christmas, we wish you a Merry Christmas, we wish you a Merry Christmas and Р° juicy fruit bunch!",
+    "thumbUrl": "game_santa.jpg",
+    "heroUrl": "hero_santa.jpg",
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_santa.jpg",
+    "logoUrl": "logo_santa.png",
+    "backUrl": "back_santa.jpg",
+    "detailsImgUrl": "details_santa.png",
+    "stats": {
+      "reels": 4,
+      "rows": 5,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 1024,
+      "html5": true,
+      "rtp": 95.5,
+      "hitrate": 39.2
+    },
+    "features": [
+      {
+        "name": "1024 Pay Ways feature",
+        "descr": "1024 pay ways gives even more winning combinations on the screen!",
+        "imgUrl": "img-feat_santa-0.jpg"
+      },
+      {
+        "name": "Twin Reels feature",
+        "descr": "From 2 to 5 neighbouring reels become “twins” every single spin, significantly increasing a chance to win at every spin",
+        "imgUrl": "img-feat_santa-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "TWIN FRUITS OF SANTA: video slot game by Mascot Gaming",
+      "descr": "TWIN FRUITS OF SANTA is our new video slot with Tween Reels feature and 1024 Pay Ways."
     }
   },
   {
@@ -70,6 +785,7 @@
     "thumbUrl": "game_cleo.jpg",
     "heroUrl": "hero_cleo.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_cleo.jpg",
     "logoUrl": "logo_cleo.png",
     "backUrl": "back_cleo.jpg",
@@ -103,17 +819,17 @@
       {
         "name": "Free Spins with Scatter Symbol",
         "descr": "Combination of five Scatter Symbols triggers a series of 25 Free Spins + 5 Free Spins for each additional drop of the Scatter Symbol during this combination",
-        "imgUrl": "img-feat_cleo-2.jpg"
+        "imgUrl": "img-feat_cleo-3.jpg"
       },
       {
         "name": "Risk & Buy feature: Risk",
         "descr": "A player can Risk his winning and get one of the Free Spins series instead",
-        "imgUrl": "img-feat_cleo-3.jpg"
+        "imgUrl": "img-feat_cleo-4.jpg"
       },
       {
         "name": "Risk & Buy feature: Buy",
         "descr": "For non–winning bets, a player can Buy Free Spin series",
-        "imgUrl": "img-feat_cleo-4.jpg"
+        "imgUrl": "img-feat_cleo-5.jpg"
       }
     ],
     "meta": {
@@ -136,6 +852,7 @@
     "thumbUrl": "game_fairytale.jpg",
     "heroUrl": "hero_fairytale.jpg",
     "videoUrl": "video_fairytale.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_fairytale.jpg",
     "logoUrl": "logo_fairytale.png",
     "backUrl": "back_fairytale.jpg",
@@ -197,6 +914,7 @@
     "thumbUrl": "game_primalbet.jpg",
     "heroUrl": "hero_primalbet.jpg",
     "videoUrl": "video_primalbet.mp4",
+    "videoEnabled": true,
     "placeholderUrl": "video_primalbet.jpg",
     "logoUrl": "logo_primalbet.png",
     "backUrl": "back_primalbet.jpg",
@@ -235,12 +953,12 @@
       {
         "name": "Risk & Buy feature: Risk",
         "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
-        "imgUrl": "img-feat_primalbet-3.jpg"
+        "imgUrl": "img-feat_primalbet-4.jpg"
       },
       {
         "name": "Risk & Buy feature: Buy",
         "descr": "For non–winning bets, a player can Buy Free Spin series",
-        "imgUrl": "img-feat_primalbet-4.jpg"
+        "imgUrl": "img-feat_primalbet-5.jpg"
       }
     ],
     "meta": {
@@ -263,6 +981,7 @@
     "thumbUrl": "game_aloha.jpg",
     "heroUrl": "hero_aloha.jpg",
     "videoUrl": "video_aloha.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_aloha.jpg",
     "logoUrl": "logo_aloha.png",
     "backUrl": "back_aloha.jpg",
@@ -314,6 +1033,7 @@
     "thumbUrl": "game_evilbet.jpg",
     "heroUrl": "hero_evilbet.jpg",
     "videoUrl": "video_evilbet.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_evilbet.jpg",
     "logoUrl": "logo_evilbet.png",
     "backUrl": "back_evilbet.jpg",
@@ -375,6 +1095,7 @@
     "thumbUrl": "game_pinup.jpg",
     "heroUrl": "hero_pinup.jpg",
     "videoUrl": "video_pinup.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_pinup.jpg",
     "logoUrl": "logo_pinup.png",
     "backUrl": "back_pinup.jpg",
@@ -441,6 +1162,7 @@
     "thumbUrl": "game_dragonsnest.jpg",
     "heroUrl": "hero_dragonsnest.jpg",
     "videoUrl": "video_dragonsnest.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_dragonsnest.jpg",
     "logoUrl": "logo_dragonsnest.png",
     "backUrl": "back_dragonsnest.jpg",
@@ -512,6 +1234,7 @@
     "thumbUrl": "game_luxor.jpg",
     "heroUrl": "hero_luxor.jpg",
     "videoUrl": "video_luxor.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_luxor.jpg",
     "logoUrl": "logo_luxor.png",
     "backUrl": "back_luxor.jpg",
@@ -558,6 +1281,7 @@
     "thumbUrl": "game_olymp.jpg",
     "heroUrl": "hero_olymp.jpg",
     "videoUrl": "video_olymp.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_olymp.jpg",
     "logoUrl": "logo_olymp.png",
     "backUrl": "back_olymp.jpg",
@@ -604,6 +1328,7 @@
     "thumbUrl": "game_zeus.jpg",
     "heroUrl": "hero_zeus.jpg",
     "videoUrl": "video_zeus.mp4",
+    "videoEnabled": true,
     "placeholderUrl": "video_zeus.jpg",
     "logoUrl": "logo_zeus.png",
     "backUrl": "back_zeus.jpg",
@@ -670,6 +1395,7 @@
     "thumbUrl": "game_book-of-amaterasu.jpg",
     "heroUrl": "hero_book-of-amaterasu.jpg",
     "videoUrl": "video_book-of-amaterasu.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_book-of-amaterasu.jpg",
     "logoUrl": "logo_book-of-amaterasu.png",
     "backUrl": "back_book-of-amaterasu.jpg",
@@ -731,6 +1457,7 @@
     "thumbUrl": "game_bastet.jpg",
     "heroUrl": "hero_bastet.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_bastet.jpg",
     "logoUrl": "logo_bastet.png",
     "backUrl": "back_bastet.jpg",
@@ -797,6 +1524,7 @@
     "thumbUrl": "game_myth.jpg",
     "heroUrl": "hero_myth.jpg",
     "videoUrl": "video_myth.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_myth.jpg",
     "logoUrl": "logo_myth.png",
     "backUrl": "back_myth.jpg",
@@ -863,6 +1591,7 @@
     "thumbUrl": "game_prince.jpg",
     "heroUrl": "hero_prince.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_prince.jpg",
     "logoUrl": "logo_prince.png",
     "backUrl": "back_prince.jpg",
@@ -929,6 +1658,7 @@
     "thumbUrl": "game_merry-scary-christmas.jpg",
     "heroUrl": "hero_merry-scary-christmas.jpg",
     "videoUrl": "videos/video_merry-scary-christmas.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_merry-scary-christmas.jpg",
     "logoUrl": "logo_merry-scary-christmas.png",
     "backUrl": "back_merry-scary-christmas.jpg",
@@ -1000,6 +1730,7 @@
     "thumbUrl": "game_threecorsairs.jpg",
     "heroUrl": "hero_threecorsairs.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_threecorsairs.jpg",
     "logoUrl": "logo_threecorsairs.png",
     "backUrl": "back_threecorsairs.jpg",
@@ -1061,6 +1792,7 @@
     "thumbUrl": "game_queenofspades.jpg",
     "heroUrl": "hero_queen-of-spades.jpg",
     "videoUrl": "video_queenofspades.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_queenofspades.jpg",
     "logoUrl": "logo_queenofspades.png",
     "backUrl": "back_queen-of-spades.jpg",
@@ -1127,6 +1859,7 @@
     "thumbUrl": "game_rekill-rerun.jpg",
     "heroUrl": "hero_rekill-rerun.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_rekill-rerun.jpg",
     "logoUrl": "logo_rekill-rerun.png",
     "backUrl": "back_rekill.jpg",
@@ -1188,6 +1921,7 @@
     "thumbUrl": "game_macau.jpg",
     "heroUrl": "hero_macau.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_macau.jpg",
     "logoUrl": "logo_macau.png",
     "backUrl": "back_macau.jpg",
@@ -1239,6 +1973,7 @@
     "thumbUrl": "game_monaco.jpg",
     "heroUrl": "hero_monaco.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_monaco.jpg",
     "logoUrl": "logo_monaco.png",
     "backUrl": "back_monaco.jpg",
@@ -1290,6 +2025,7 @@
     "thumbUrl": "game_fruitvegas.jpg",
     "heroUrl": "hero_fruitvegas.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_fruitvegas.jpg",
     "logoUrl": "logo_fruitvegas.png",
     "backUrl": "back_fruitvegas.jpg",
@@ -1308,17 +2044,17 @@
       {
         "name": "Both Way Pays",
         "descr": "Payments on the rows are made from both leftmost to right and rightmost to left",
-        "imgUrl": "images/rekill_feat_risk.jpg"
+        "imgUrl": "img-feat_fruitvegas-0.jpg"
       },
       {
         "name": "Expanding Wilds",
         "descr": "Wild symbol expands to cover the entire reel and increases the winning combination",
-        "imgUrl": "images/rekill_feat_buy.jpg"
+        "imgUrl": "img-feat_fruitvegas-1.jpg"
       },
       {
         "name": "Free Respin Feature",
         "descr": "Expanding Wild symbols start the series of re-spins which will last as long as new Wilds appear on the screen. Expanding Wilds become Sticky during the whole re-spins series",
-        "imgUrl": "images/rekill_feat_wildreels.jpg"
+        "imgUrl": "img-feat_fruitvegas-2.jpg"
       }
     ],
     "meta": {
@@ -1341,6 +2077,7 @@
     "thumbUrl": "game_robin.jpg",
     "heroUrl": "hero_robin.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_robin.jpg",
     "logoUrl": "logo_robin.png",
     "backUrl": "back_robin.jpg",
@@ -1402,6 +2139,7 @@
     "thumbUrl": "game_riot.jpg",
     "heroUrl": "hero_riot.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_riot.jpg",
     "logoUrl": "logo_riot.png",
     "backUrl": "back_riot.jpg",
@@ -1463,6 +2201,7 @@
     "thumbUrl": "game_gemz.jpg",
     "heroUrl": "hero_gemz.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_gemz.jpg",
     "logoUrl": "logo_gemz.png",
     "backUrl": "back_gemz.jpg",
@@ -1524,6 +2263,7 @@
     "thumbUrl": "game_horde.jpg",
     "heroUrl": "hero_horde.jpg",
     "videoUrl": "videos/video_horde.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_horde.jpg",
     "logoUrl": "logo_horde.png",
     "backUrl": "back_horde.jpg",
@@ -1575,6 +2315,7 @@
     "thumbUrl": "game_gryphon.jpg",
     "heroUrl": "hero_gryphon.jpg",
     "videoUrl": "videos/video_gryphon.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_gryphon.jpg",
     "logoUrl": "logo_gryphon.png",
     "backUrl": "back_gryphon.jpg",
@@ -1626,6 +2367,7 @@
     "thumbUrl": "game_keno.jpg",
     "heroUrl": "hero_keno.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_keno.jpg",
     "logoUrl": "logo_keno.png",
     "backUrl": "back_keno.jpg",
@@ -1672,6 +2414,7 @@
     "thumbUrl": "game_merlin.jpg",
     "heroUrl": "hero_merlin.jpg",
     "videoUrl": "videos/video_merlin.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_merlin.jpg",
     "logoUrl": "logo_merlin.png",
     "backUrl": "back_merlin.jpg",
@@ -1723,6 +2466,7 @@
     "thumbUrl": "game_benny.jpg",
     "heroUrl": "hero_benny.jpg",
     "videoUrl": "videos/video_benny.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_benny.jpg",
     "logoUrl": "logo_benny.png",
     "backUrl": "back_benny.jpg",
@@ -1789,6 +2533,7 @@
     "thumbUrl": "game_legioner.jpg",
     "heroUrl": "hero_legioner.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_legioner.jpg",
     "logoUrl": "logo_legioner.png",
     "backUrl": "back_legioner.jpg",
@@ -1845,6 +2590,7 @@
     "thumbUrl": "game_purplepills.jpg",
     "heroUrl": "hero_purplepills.jpg",
     "videoUrl": "videos/video_purplepills.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_purplepills.jpg",
     "logoUrl": "logo_purplepills.png",
     "backUrl": "back_purplepills.jpg",
@@ -1896,6 +2642,7 @@
     "thumbUrl": "game_wildspirit.jpg",
     "heroUrl": "hero_wildspirit.jpg",
     "videoUrl": "videos/video_wildspirit.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_wildspirit.jpg",
     "logoUrl": "logo_wildspirit.png",
     "backUrl": "back_wildspirit.jpg",
@@ -1947,6 +2694,7 @@
     "thumbUrl": "game_blackjack.jpg",
     "heroUrl": "hero_blackjack.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_blackjack.jpg",
     "logoUrl": "logo_blackjack.png",
     "backUrl": "back_blackjack.jpg",
@@ -1993,6 +2741,7 @@
     "thumbUrl": "game_baccarat.jpg",
     "heroUrl": "hero_baccarat.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_baccarat.jpg",
     "logoUrl": "logo_baccarat.png",
     "backUrl": "back_baccarat.jpg",
@@ -2039,6 +2788,7 @@
     "thumbUrl": "game_holdem.jpg",
     "heroUrl": "hero_holdem.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_holdem.jpg",
     "logoUrl": "logo_holdem.png",
     "backUrl": "back_holdem.jpg",
@@ -2085,6 +2835,7 @@
     "thumbUrl": "game_hellsing.jpg",
     "heroUrl": "hero_hellsing.jpg",
     "videoUrl": null,
+    "videoEnabled": false,
     "placeholderUrl": "video_hellsing.jpg",
     "logoUrl": "logo_hellsing.png",
     "backUrl": "back_hellsing.jpg",
@@ -2141,6 +2892,7 @@
     "thumbUrl": "game_anksunamun.jpg",
     "heroUrl": "hero_anksunamun.jpg",
     "videoUrl": "video_anksunamun.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_anksunamun.jpg",
     "logoUrl": "logo_anksunamun.png",
     "backUrl": "back_anksunamun.jpg",
@@ -2197,6 +2949,7 @@
     "thumbUrl": "game_nheat.jpg",
     "heroUrl": "hero_nheat.jpg",
     "videoUrl": "video_nheat.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_nheat.jpg",
     "logoUrl": "logo_nheat.png",
     "backUrl": "back_nheat.jpg",
@@ -2248,6 +3001,7 @@
     "thumbUrl": "game_cancan.jpg",
     "heroUrl": "hero_cancan.jpg",
     "videoUrl": "video_cancan.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_cancan.jpg",
     "logoUrl": "logo_cancan.png",
     "backUrl": "back_cancan.jpg",
@@ -2304,6 +3058,7 @@
     "thumbUrl": "game_lionspride.jpg",
     "heroUrl": "hero_lionspride.jpg",
     "videoUrl": "video_lionspride.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_lionspride.jpg",
     "logoUrl": "logo_lions.png",
     "backUrl": "back_lionspride.jpg",
@@ -2355,6 +3110,7 @@
     "thumbUrl": "game_rite.jpg",
     "heroUrl": "hero_rite.jpg",
     "videoUrl": "video_rite.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_rite.jpg",
     "logoUrl": "logo_rite.png",
     "backUrl": "back_rite.jpg",
@@ -2411,6 +3167,7 @@
     "thumbUrl": "game_tomb.jpg",
     "heroUrl": "hero_tomb.jpg",
     "videoUrl": "video_tomb.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_tomb.jpg",
     "logoUrl": "logo_tomb.png",
     "backUrl": "back_tomb.jpg",
@@ -2472,6 +3229,7 @@
     "thumbUrl": "game_mermaid.jpg",
     "heroUrl": "hero_mermaid.jpg",
     "videoUrl": "video_mermaid.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_mermaid.jpg",
     "logoUrl": "logo_mermaid.png",
     "backUrl": "back_mermaid.jpg",
@@ -2528,6 +3286,7 @@
     "thumbUrl": "game_venetian.jpg",
     "heroUrl": "hero_venetian.jpg",
     "videoUrl": "video_venetian.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_venetian.jpg",
     "logoUrl": "logo_venetian.png",
     "backUrl": "back_venetian.jpg",
@@ -2574,6 +3333,7 @@
     "thumbUrl": "game_bamboo.jpg",
     "heroUrl": "hero_bamboo.jpg",
     "videoUrl": "video_bamboo.mp4",
+    "videoEnabled": false,
     "placeholderUrl": "video_bamboo.jpg",
     "logoUrl": "logo_bamboo.png",
     "backUrl": "back_bamboo.jpg",
