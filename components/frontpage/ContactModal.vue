@@ -5,9 +5,7 @@
       <div class="contact-modal__content">
         <div v-if="success">Your message has been successfully sent. We'll contact you soon</div>
         <form v-else class="contact-form" @submit.prevent="sendMessage" >
-          <div v-if="errored" class="error-msg">
-            omething went wrong. Please try again later.
-          </div>
+
           <div class="form-group">
             <div class="form-item">
               <label for="user-name">Your Name*</label>
@@ -31,6 +29,9 @@
             class="buttn buttn-colored buttn-submit buttn-l">
             {{ loading ? "Sending Message..." : "Get in touch" }}
           </button>
+          <div v-if="errored" class="error-msg">
+            Something went wrong. Please try again later.
+          </div>
         </form>
       </div>
       <div class="contact-modal__close" @click="$emit('close-modal')">

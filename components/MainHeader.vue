@@ -25,7 +25,7 @@
             </ul>
           </nav>
           <div class="main-menu__contact">
-            <button @click="showModal = true">
+            <button @click="showContactModal">
               <svg id="contact-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 14">
                 <path fill="#fff" d="m2.415.97-.53-.53L.825 1.5l.53.53L2.414.97Zm-.03.78h14V.25h-14v1.5Zm14.25.25v10h1.5V2h-1.5Zm-.25 10.25h-14v1.5h14v-1.5ZM2.135 12V2h-1.5v10h1.5Zm.25.25a.25.25 0 0 1-.25-.25h-1.5c0 .966.783 1.75 1.75 1.75v-1.5Zm14.25-.25a.25.25 0 0 1-.25.25v1.5a1.75 1.75 0 0 0 1.75-1.75h-1.5Zm-.25-10.25a.25.25 0 0 1 .25.25h1.5a1.75 1.75 0 0 0-1.75-1.75v1.5Zm-14-1.5A1.75 1.75 0 0 0 .635 2h1.5a.25.25 0 0 1 .25-.25V.25ZM8.5 7.055 2.415.97l-1.06 1.06L7.44 8.116l1.06-1.06ZM16.354.97 10.27 7.055l1.06 1.061 6.086-6.086-1.06-1.06ZM7.44 8.116a2.75 2.75 0 0 0 3.89 0l-1.061-1.06a1.25 1.25 0 0 1-1.768 0l-1.06 1.06Zm-5.575 4.96 6-5-.96-1.152-6 5 .96 1.152Zm16-1.152-6-5-.96 1.152 6 5 .96-1.152Z"/>
               </svg>
@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="mobile-menu">
-          <button @click="showDropdown = true">
+          <button @click="showMobileMenu">
             <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <rect width="30" height="2.86957" fill="white"/>
               <rect y="9.56543" width="30" height="2.86957" fill="white"/>
@@ -53,7 +53,7 @@
                 </svg>
                 <span class="site-name">Mascot Gaming</span>
               </div>
-              <button class="dropdown-close" @click="showDropdown = false">
+              <button class="dropdown-close" @click="hideMobileMenu">
                 <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect x="0.384766" y="23.5234" width="33.2678" height="3.50188" transform="rotate(-45 0.384766 23.5234)" fill="white"/>
                   <rect width="33.2678" height="3.50188" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 26.3848 23.5234)" fill="white"/>
@@ -63,11 +63,11 @@
             <div class="mobile-menu__dropdown-main">
               <nav class="mobile-menu__pages">
                 <ul>
-                  <li><NuxtLink to="/games">Games</NuxtLink></li>
-                  <li><NuxtLink to="/blog">Blog</NuxtLink></li>
-                  <li><NuxtLink to="/contacts">Contacts</NuxtLink></li>
-                  <li><NuxtLink to="/about">About Us</NuxtLink></li>
-                  <li><NuxtLink to="/careers">Careers</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink to="/games">Games</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink to="/blog">Blog</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink to="/contacts">Contacts</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink to="/about">About Us</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink to="/careers">Careers</NuxtLink></li>
                 </ul>
               </nav>
             </div>
@@ -79,7 +79,7 @@
     </div>
   </div>
 </transition>
-  <ContactModal v-show="showModal" @close-modal="showModal = false"/>
+  <ContactModal v-show="showModal" @close-modal="hideContactModal"/>
 </div>
 </template>
 <script>
@@ -123,11 +123,29 @@
 
       this.startY = windowY;
         }
+      },
+
+      showMobileMenu() {
+        this.showDropdown = true
+        document.body.classList.add("modal-open");
+      },
+
+      hideMobileMenu() {
+        this.showDropdown = false;
+        document.body.classList.remove("modal-open");
+      },
+
+      showContactModal() {
+        this.showModal = true
+        document.body.classList.add("modal-open");
+      },
+
+      hideContactModal() {
+        this.showModal = false;
+        document.body.classList.remove("modal-open");
       }
 
     },
-
-
 
   }
 </script>
@@ -222,7 +240,7 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
-          padding: 9px 25px;
+          padding: 13px 25px;
           .dropdown-logo {
             display: flex;
             align-items: center;

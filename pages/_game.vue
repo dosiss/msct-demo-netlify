@@ -72,7 +72,7 @@
 
               <div id="galleryVideo" style="display:none;" >
                   <video class="lg-video-object lg-html5" controls preload="none">
-                      <source src="https://mascot.games/videos/video_book-of-amaterasu.mp4" type="video/mp4">
+                      <source :src="`/videos/${currentGame.videoUrl}`" type="video/mp4">
                        Your browser does not support HTML5 video.
                   </video>
               </div>
@@ -396,11 +396,17 @@ export default {
       justify-content: flex-end;
       align-items: flex-start;
     }
+    @media (max-width: 650px) {
+      height: unset
+    }
     .game-title__left {
       flex: 0 1 40%;
       @media (max-width: 850px) {
         flex-basis: auto;
         margin-bottom: 30px
+      }
+      @media (max-width: 650px) {
+        margin-bottom: 0
       }
 
     }
