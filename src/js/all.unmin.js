@@ -6235,6 +6235,11 @@ $(function () {
       return thePath + 'hydras-lair.html';
     });
   }
+  if (btnClassName.indexOf('wli') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'wildlife-riches.html';
+    });
+  }
   });
 });
 $(function () {
