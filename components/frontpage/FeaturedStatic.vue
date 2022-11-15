@@ -218,7 +218,8 @@ import allGames from '../../static/data/games.json'
     height: 450px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
     margin-bottom: 50px;
     @media (max-width: 850px) {
       flex-direction: column;
@@ -335,9 +336,16 @@ import allGames from '../../static/data/games.json'
         text-align: center;
         position: relative;
         z-index: 2;
+        @media (max-width: 650px) {
+          width: 100%;
+          margin: 0 25px;
+        }
         a {
           display: block;
           margin-bottom: 30px;
+          @media (max-width: 650px) {
+            width: 100%;
+          }
           img {
             max-width: 200px
           }

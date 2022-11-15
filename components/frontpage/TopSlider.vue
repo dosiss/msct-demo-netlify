@@ -90,6 +90,9 @@ import allGames from '../../static/data/games.json'
     @media (max-width: 1200px) {
       padding-left: 35px
     }
+    @media (max-width: 650px) {
+      padding-left: 25px
+    }
   }
   .swiper-slide {
     &.game-thumbnail {

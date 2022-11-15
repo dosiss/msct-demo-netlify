@@ -165,7 +165,7 @@
   background: rgba(0, 0, 0, 0.6);
   opacity: .8;
   backdrop-filter: blur(11px);
-  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   position: fixed;
   width: 100%;
   top: 0;

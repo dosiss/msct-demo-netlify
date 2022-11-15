@@ -86,7 +86,7 @@ export default {
 
 }
 #getgames {
-  @media (min-width: 1980px) {
+  @media (min-width: 1680px) {
     margin-top: 80px
   }
 }

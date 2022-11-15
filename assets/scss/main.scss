@@ -95,10 +95,12 @@ p {
     font-weight: 700;
     &.buttn-xl {
       font-size: 1.6rem;
-      padding: 17px 40px;
+      line-height: 1;
+      padding: 22px 0;
       text-transform: uppercase;
-      border-radius: 18px;
+      border-radius: 12px;
       width: 313px;
+      text-align: center;
       @media (max-width: 650px) {
         font-size: 1.06rem;
         padding-top: 14px;
@@ -109,8 +111,9 @@ p {
     &.buttn-m {
       width: 290px;
       text-align: center;
-      padding: 20px;
+      padding: 22px 0;
       font-size: 1.5rem;
+      line-height: 1;
       text-transform: uppercase;
       border-radius: 12px;
       @media (max-width: 650px) {

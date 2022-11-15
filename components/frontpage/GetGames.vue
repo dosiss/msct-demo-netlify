@@ -220,7 +220,7 @@ export default {
   }
   picture {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     right: 0;
     z-index: -1;
     max-width: 40%;
