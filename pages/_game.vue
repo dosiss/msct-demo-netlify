@@ -234,6 +234,7 @@
                 </li>
 
               </ul>
+              <ul class="details-list"></ul>
             </div>
             <nuxt-img :src="`images/${currentGame.detailsImgUrl}`" alt="" />
           </div>
@@ -630,7 +631,7 @@ export default {
         padding: 0
       }
       .game-details__content-inner {
-        max-width: 70%;
+        max-width: 100%;
         display: flex;
         justify-content: space-between;
         @media (max-width: 850px) {
@@ -642,12 +643,13 @@ export default {
         }
         .details-list {
           list-style: none;
-          flex: 0 1 46%;
+          flex: 0 1 31%;
           .details-item {
             display: flex;
             align-items: flex-end;
             font-size: 1.25rem;
             margin-bottom: 12px;
+            padding-right: 25px;
             .details-name {
               margin-left: 10px;
             }
@@ -655,6 +657,7 @@ export default {
               flex: 1 0 auto;
               border-bottom: 1px solid rgba(255,255,255,.5);
               margin: 0 10px;
+
             }
             svg {
               width: 30px;
