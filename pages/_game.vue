@@ -489,6 +489,9 @@ export default {
     @media (max-width: 1200px) {
       padding-left: 35px
     }
+    @media (max-width: 650px) {
+      padding-left: 25px
+    }
     .slide-video {
       svg {
         height: 80px;
@@ -650,6 +653,9 @@ export default {
             font-size: 1.25rem;
             margin-bottom: 12px;
             padding-right: 25px;
+            @media (max-width: 650px) {
+              padding-right: 10px
+            }
             .details-name {
               margin-left: 10px;
             }

@@ -230,7 +230,7 @@ export default {
     }
     @media (max-width: 650px) {
       max-width: 100%;
-      bottom:45px;
+      bottom: 35px;
     }
   }
 }
