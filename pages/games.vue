@@ -22,12 +22,12 @@
 
             <div class="top-games__head">
               <h1 class="top-games__head-title">{{title}}</h1>
-              <nuxt-link to="#" class="inner-link link-yellow">
+            <!-- <nuxt-link to="#" class="inner-link link-yellow">
                 <span>{{$device.isMobile ? "All" : "See all partners & media"}}</span>
                 <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
                 </svg>
-              </nuxt-link>
+              </nuxt-link> -->
             </div>
         </div>
         <div class="container container-custom">

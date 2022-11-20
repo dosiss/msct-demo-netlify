@@ -163,7 +163,7 @@
 #main-header {
   height: 61px;
   background: rgba(0, 0, 0, 0.6);
-  opacity: .8;
+/*  opacity: .8; */
   backdrop-filter: blur(11px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
   position: fixed;
@@ -233,8 +233,13 @@
         right: 0;
         top: 0;
         background: #000;
+         opacity: .8;
+        @media (max-width: 850px) {
+          height: 100vh
+        }
         @media (max-width: 650px) {
-          width: 100%
+          width: 100%;
+           opacity: 1;
         }
         .mobile-menu__dropdown-header {
           display: flex;
