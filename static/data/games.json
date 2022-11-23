@@ -1,5 +1,63 @@
 [
   {
+    "name": "Wildlife Riches",
+    "slug": "wildlife-riches",
+    "linkToDemo": "demo.mascot.games/run/wildlife_riches",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "Meet the bear, find the fox, explore the canyons, look for gold!",
+    "thumbUrl": "game_wildlife.jpg",
+    "heroUrl": "hero_wildlife.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_wildlife.jpg",
+    "logoUrl": "logo_wildlife.png",
+    "backUrl": "back_wildlife.jpg",
+    "detailsImgUrl": "details_wildlife.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": null,
+      "payways": 1024,
+      "html5": true,
+      "rtp": 95.4,
+      "hitrate": 34.1
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get Bonus Game instead",
+        "imgUrl": "img-feat_wildlife-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Bonus Game",
+        "imgUrl": "img-feat_wildlife-1.jpg"
+      },
+      {
+        "name": "Wild Feature",
+        "descr": "When a Wild Symbol appears on the screen, it moves across the reels from left to right with each spin",
+        "imgUrl": "img-feat_wildlife-2.jpg"
+      },
+      {
+        "name": "Bonus Game",
+        "descr": "A Bonus Game in a “up to 3 losses” mode. A player collects a Bet Multiplier as well as Multiplier Modifier, and could extend Bonus Game",
+        "imgUrl": "img-feat_wildlife-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Wildlife Riches video slot game by Mascot Gaming",
+      "descr": "Wildlife Riches by Mascot Gaming is a video slot with Risk&Buy feature."
+    }
+  },
+  {
     "name": "Hydra's Lair",
     "slug": "hydras-lair",
     "linkToDemo": "demo.mascot.games/run/hydras_lair",

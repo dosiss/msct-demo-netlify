@@ -208,6 +208,9 @@ export default {
     display: flex;
     margin-bottom: 60px;
     justify-content: space-between;
+    @media (min-width: 1980px) {
+      width: 1490px
+    }
     @media (max-width: 1200px) {
       padding-left: 35px;
       justify-content: flex-start;
@@ -233,6 +236,9 @@ export default {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    @media (min-width: 1980px) {
+      width: 1490px
+    }
     .top-games__head-title {
       font-size: 3.75rem;
       text-transform: uppercase;

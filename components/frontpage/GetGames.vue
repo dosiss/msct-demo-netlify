@@ -81,7 +81,7 @@
       <div class="partners__content-data">
         <div class="partners-number">150+</div>
         <div class="partners-descr">Partners &amp; Media</div>
-        <nuxt-link to="#" class="inner-link link-yellow">
+        <nuxt-link to="partners" class="inner-link link-yellow">
           <span>See all partners &amp; media</span>
           <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
@@ -101,7 +101,7 @@
           <nuxt-img src="/images/img-partners-mob.jpg"  />
         </div>
       </div>
-      <nuxt-link to="#" class="inner-link link-yellow">
+      <nuxt-link to="partners" class="inner-link link-yellow">
         <span>See all partners &amp; media</span>
         <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
