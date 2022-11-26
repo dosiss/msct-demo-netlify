@@ -15,6 +15,20 @@
     font-weight: 400;
     font-style: normal
 }
+@font-face {
+    font-family: Lora;
+    src: url(../fonts/lora-regular.eot);
+    src: url(../fonts/lora-regular.woff2) format("woff2"), url(../fonts/lora-regular.woff) format("woff"), url(../fonts/lora-regular.ttf) format("truetype"), url(../fonts/lora-regular.svg#lora-regular) format("svg"), url(../fonts/lora-regular.eot?#iefix) format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: Lora;
+    src: url(../fonts/lora-bold.eot);
+    src: url(../fonts/lora-bold.woff2) format("woff2"), url(../fonts/lora-bold.woff) format("woff"), url(../fonts/lora-bold.ttf) format("truetype"), url(../fonts/lora-bold.svg#lora-bold) format("svg"), url(../fonts/lora-bold.eot?#iefix) format("embedded-opentype");
+    font-weight: 700;
+    font-style: normal
+}
 
 
 body {

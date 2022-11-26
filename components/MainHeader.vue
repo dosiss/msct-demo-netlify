@@ -1,7 +1,7 @@
 <template>
   <div>
   <transition name="slide">
-  <div v-if="showNav" id="main-header">
+  <div v-if="showNav" id="main-header" :class="{'background-black': backgroundBlack == true}">
     <div class="container">
       <div class="header__wrap">
         <NuxtLink to="/" class="logo-link">
@@ -91,6 +91,12 @@
     components: {
       ContactModal
     },
+    props: {
+      backgroundBlack: {
+        type: Boolean,
+        default: false
+      }
+    },
 
     data() {
       return {
@@ -171,6 +177,9 @@
   top: 0;
   z-index: 4;
 /*  transition: visibility 1s ease-in-out 2s; */
+  &.background-black {
+    background: #000
+  }
   .header__wrap {
     display: flex;
     justify-content: space-between;

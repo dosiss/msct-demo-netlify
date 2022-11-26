@@ -1,5 +1,5 @@
 <template>
-  <div class="share__wrap">
+  <div class="share__wrap" :class="{'white-page': whitePage == true}">
     <div class="share-title">Share experience</div>
     <div class="share-content">
       <a class="share-link fb-share" href="http://www.facebook.com/share.php?u=" rel="nofollow">
@@ -32,7 +32,12 @@
 
 <script>
  export default {
-
+   props: {
+     whitePage: {
+       type: Boolean,
+       default: false
+     }
+   },
 }
 </script>
 
@@ -49,7 +54,9 @@
   }
   .share-content {
     a {
-      padding: 0 10px
+      padding: 0 10px;
+      display: inline-flex;
+      cursor: pointer;
     }
   }
 }

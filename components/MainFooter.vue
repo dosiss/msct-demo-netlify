@@ -16,6 +16,12 @@
                     </li>
                     <li>
                         <a href="https://www.instagram.com/play.mascot.games" target="_blank">
+                          <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="22" cy="22" r="22" fill="#E1306C"/>
+                          <rect x="11" y="11" width="22" height="22" rx="3" stroke="white" stroke-width="2"/>
+                          <rect x="16.5" y="16.5" width="11" height="11" rx="5.5" stroke="white" stroke-width="2"/>
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M11 14C11 12.3431 12.3431 11 14 11H30C31.6569 11 33 12.3431 33 14V22H27.5C27.5 18.9624 25.0376 16.5 22 16.5C18.9624 16.5 16.5 18.9624 16.5 22H11V14ZM29.7 12.1C28.485 12.1 27.5 13.085 27.5 14.3C27.5 15.515 28.485 16.5 29.7 16.5C30.915 16.5 31.9 15.515 31.9 14.3C31.9 13.085 30.915 12.1 29.7 12.1Z" fill="white"/>
+                          </svg>
                         </a>
                     </li>
                     <li>
