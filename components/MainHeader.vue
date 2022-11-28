@@ -79,7 +79,7 @@
     </div>
   </div>
 </transition>
-  <ContactModal v-show="showModal" @close-modal="hideContactModal"/>
+  <ContactModal v-show="showModal" :modal-white = "modalWhite"  @close-modal="hideContactModal"/>
 </div>
 </template>
 <script>
@@ -95,7 +95,11 @@
       backgroundBlack: {
         type: Boolean,
         default: false
-      }
+      },
+      modalWhite: {
+        type: Boolean,
+        default: false
+      },
     },
 
     data() {
@@ -244,7 +248,9 @@
         background: #000;
          opacity: .8;
         @media (max-width: 850px) {
-          height: 100vh
+          height: 100vh;
+          width: 100%;
+          opacity: 1;
         }
         @media (max-width: 650px) {
           width: 100%;
@@ -255,6 +261,12 @@
           justify-content: space-between;
           align-items: center;
           padding: 13px 25px;
+          @media (max-width: 850px) {
+            padding: 13px 35px
+          }
+          @media (max-width: 650px) {
+            padding: 13px 25px
+          }
           .dropdown-logo {
             display: flex;
             align-items: center;
@@ -269,7 +281,15 @@
               background: url('../assets/img/mobile-menu-decor.png') no-repeat;
               background-size: contain;
               padding: 26px 0 46px;
-              margin-bottom: 25px
+              margin-bottom: 25px;
+              @media (max-width: 850px) {
+                background: url('../assets/img/tablet-menu-decor.png') no-repeat;
+                background-size: 100%;
+              }
+              @media (max-width: 650px) {
+                background: url('../assets/img/mobile-menu-decor.png') no-repeat;
+                background-size: contain;
+              }
             }
             a {
               font-size: 1.4rem;

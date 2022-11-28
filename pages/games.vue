@@ -21,7 +21,7 @@
         <div class="container">
 
             <div class="top-games__head">
-              <h1 class="top-games__head-title">{{title}}</h1>
+              <h1 class="top-games__head-title">Top games</h1>
             <!-- <nuxt-link to="#" class="inner-link link-yellow">
                 <span>{{$device.isMobile ? "All" : "See all partners & media"}}</span>
                 <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -110,7 +110,9 @@ export default {
 
 
     return {
-      title: 'Top Games',
+      title: 'Exciting games for online casino. Feel the gaming thrill',
+      description: 'Meet our diverse set of video slots for online casino. We develop a variety of unique games with different features and bonuses. Check it out.',
+
       gamesList: allGames,
       gameFilterKey: 'all',
 
@@ -124,8 +126,18 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'games page description'
-        }
+          content: this.description
+        },
+        { property: 'og:title', hid: "og:title", content: this.title },
+        { property: 'og:description', hid: 'og:description', content: this.description },
+        { property: 'og:url', hid:'og:url', content: `https://mascot.games/games` },
+        { property: 'og:image', hid:'og:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
+        { name: 'twitter:card', hid: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', hid:'twitter:title', content: this.title },
+        { name: 'twitter:description', hid:'twitter:description', content: this.description },
+        { name: 'twitter:image', hid:'twitter:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
       ]
     }
   },

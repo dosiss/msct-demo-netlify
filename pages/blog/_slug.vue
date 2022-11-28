@@ -1,6 +1,6 @@
 <template>
   <div>
-  <MainHeader :background-black = "true"/>
+  <MainHeader :background-black = "true" :modal-white = "true" />
   <main class="blog-article">
     <div class="container container-narrow">
       <article>
@@ -13,7 +13,7 @@
 
         <SharingButtons :white-page = "true" />
 
-        <PrevNext :prev="prev" :next="next" />
+        <PrevNext v-if="$device.isMobile == false" :prev="prev" :next="next" />
       </article>
     </div>
   </main>
@@ -43,7 +43,7 @@ import PrevNext from '~/components/PrevNext'
 
     const [prev, next] = await $content('articles')
       .only(['title', 'slug', 'img', 'archiveDate'])
-      .sortBy('createdAt', 'asc')
+      .sortBy('archiveDate', 'asc')
       .surround(params.slug)
       .fetch()
 
@@ -114,14 +114,29 @@ import PrevNext from '~/components/PrevNext'
   color: #000;
   padding-top: 120px;
   padding-bottom: 100px;
+  @media (max-width: 650px) {
+    padding-top: 80px;
+    padding-bottom: 20px
+  }
+  img {
+    border-radius: 12px
+  }
   h1 {
     font-size: 2.13rem;
     margin-top: 40px;
     margin-bottom: 30px;
     text-transform: uppercase;
+    @media (max-width: 650px) {
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+      margin-top: 20px
+    }
   }
   .created-date {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    @media (max-width: 650px) {
+      margin-bottom:20px
+    }
   }
 }
 .nuxt-content {
@@ -144,6 +159,7 @@ import PrevNext from '~/components/PrevNext'
   strong {
     font-weight: 700
   }
+
 
 }
 .share__wrap {
