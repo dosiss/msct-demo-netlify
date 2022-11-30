@@ -8237,6 +8237,9 @@ font-size: 18px;
 .our-partners__logo-list .flat-logo {
   height: 15px
 }
+.main-partners.our-partners__logo-list .med-logo {
+  height: 60px
+}
 .main-partners.our-partners__logo-list .wide-logo {
   height: 45px
 }
@@ -12644,6 +12647,9 @@ font-size: 18px;
     .ice-banner__place {
       max-width: 220px;
       margin: 0 auto;
+    }
+    .big-partners__list.partners__list a {
+      min-width: 300px
     }
     .our-partners__logo-list img {
       height: 40px;
