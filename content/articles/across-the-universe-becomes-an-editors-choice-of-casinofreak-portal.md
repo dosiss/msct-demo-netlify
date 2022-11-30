@@ -1,8 +1,8 @@
 ---
-title: Across the Universe – slot from Mascot Gaming receives Editor’s Choice award
+title: 'Across the Universe – slot from Mascot Gaming receives Editor`s Choice award'
 description: Find out how Across the Universe received an award from CasinoFreak portal. Discover the most relevant information about the slot’s features that make it stand out among the rest of releases from Mascot Gaming.
 img: img_blog_edchoice-main.jpg
-heading: Across the Universe becomes an Editor's Choice of CasinoFreak portal in April 2022
+heading: Across the Universe becomes an Editor`s Choice of CasinoFreak portal in April 2022
 shortDescr: Find out how Across the Universe received an award from CasinoFreak portal. Discover the most relevant information about the slot's features that make it stand out among the rest of releases from Mascot Gaming.
 archiveDate: 2022-04-08T10:58:51.640Z
 ---
