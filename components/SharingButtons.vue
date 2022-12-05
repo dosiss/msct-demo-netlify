@@ -50,7 +50,8 @@
   }
   .share-title {
     font-size: .94rem;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    margin-top: -2px
   }
   .share-content {
     a {

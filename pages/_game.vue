@@ -64,14 +64,14 @@
 
         <div v-swiper:mySwiper3="swiperOption">
           <div id="lightgallery" class="swiper-wrapper">
-            <div class="swiper-slide game-thumbnail" :data-src="`/images/${currentGame.features[0].imgUrl}`">
+            <div class="swiper-slide game-thumbnail" :data-src="`/images/${currentGame.features[0].imgUrl}`" :data-sub-html="`${currentGame.features[0].name}`">
               <img :src="`/images/${currentGame.features[0].imgUrl}`" >
               <div class="game-content__wrap" >
               </div>
             </div>
 
               <div id="galleryVideo" style="display:none;" >
-                  <video class="lg-video-object lg-html5" controls preload="none">
+                  <video v-if="currentGame.videoUrl" class="lg-video-object lg-html5" controls preload="none">
                       <source :src="`/videos/${currentGame.videoUrl}`" type="video/mp4">
                        Your browser does not support HTML5 video.
                   </video>
@@ -81,7 +81,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 81 80"><rect width="80" height="80" x=".906" fill="#FFCF24" rx="40"/><path fill="#1F1F1F" d="M54.914 36.672 36.125 24.146c-2.658-1.772-6.219.133-6.219 3.328v25.052c0 3.195 3.56 5.1 6.219 3.328l18.789-12.526c2.375-1.583 2.375-5.073 0-6.656Z"/></svg>
               </div>
 
-            <div v-for="(feature, idx) in currentGame.features.slice(1)" :key="idx" class="swiper-slide game-thumbnail" :data-src="`/images/${feature.imgUrl}`"  >
+            <div v-for="(feature, idx) in currentGame.features.slice(1)" :key="idx" class="swiper-slide game-thumbnail" :data-src="`/images/${feature.imgUrl}`" :data-sub-html="`${feature.name}`" >
                 <img :src="`/images/${feature.imgUrl}`" >
                 <div class="game-content__wrap" >
                 </div>

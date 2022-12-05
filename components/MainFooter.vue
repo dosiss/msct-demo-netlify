@@ -93,10 +93,22 @@
       <div class="copyright text-muted">Mascot Gaming - All Rights Reserved 2020</div>
     </div>
   </div>
+  <client-only>
+    <vue-cookies-consent background-window="#000000" color-title="#ffffff" color-description="#ffffff" background-button="#DB001D" background-button-hover="#840712" :border-radius="12">
+      <template #title>Cookie policy</template>
+      <template #description>
+        <p>We use cookies to ensure that we give you the best experience on our website. By using the website you agree to our use of cookies.</p>
+      </template>
+      <template #button>Agree and continue</template>
+    </vue-cookies-consent>
+  </client-only>
 </footer>
 </template>
 <script>
+
+
   export default {
+
     data() {
       return {
         loading: false,
@@ -311,6 +323,19 @@
         @media (max-width: 650px) {
           text-align: center;
         }
+      }
+    }
+  }
+  .vcc-window {
+    z-index: 9999;
+    button {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: 'Avenir', sans-serif;
+    }
+    .vcc-window__action {
+      @media (max-width: 650px) {
+        text-align: center;
       }
     }
   }

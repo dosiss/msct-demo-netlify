@@ -212,18 +212,27 @@ p {
       }
     }
     &.buttn-blue {
-      background: #12FFE9
+      background: #12FFE9;
+      &:hover {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), #12FFE9;
+        transition: .2s ease-in .2s;
+        cursor: pointer;
+        /* svg {
+          path {
+            stroke: #5f5f5f
+          }
+        } */
+      }
     }
     &:hover {
-      background: #1f1f1f;
-      color: #5f5f5f;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), #FFCF24;
       transition: .2s ease-in .2s;
       cursor: pointer;
-      svg {
+      /* svg {
         path {
           stroke: #5f5f5f
         }
-      }
+      } */
     }
     &.buttn-icon {
       svg {

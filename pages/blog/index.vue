@@ -5,7 +5,7 @@
     <div class="container container-narrow">
       <h1>Mascot Blog</h1>
       <ul>
-        <li v-for="article of articles" :key="article.slug">
+        <li v-for="article of visibleArticles" :key="article.slug">
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
             <div v-if="$device.isMobile" class="article-date date-mobile">{{ formatDate(article.archiveDate) }}</div>
             <div class="article-img"><img :src="`../../images/${article.img}`" alt="" /></div>
@@ -18,6 +18,7 @@
           </NuxtLink>
         </li>
       </ul>
+      <div class="show-more-button"><button v-if="articlesVisible < articles.length" @click="articlesVisible += step" >Show more</button></div>
     </div>
   </main>
   <SharingButtons :white-page = "true" />
@@ -35,9 +36,18 @@
         .fetch()
 
       return {
-        articles
+        articles,
+        articlesVisible: 5,
+        step: 5,
       }
     },
+
+    computed: {
+       visibleArticles() {
+         return this.articles.slice(0, this.articlesVisible)
+       }
+     },
+
     methods: {
 
      formatDate(date) {
@@ -51,6 +61,7 @@
       }
 
    }
+
   }
 </script>
 
@@ -61,7 +72,7 @@
   background: #fff;
   color: #000;
   padding-top: 120px;
-  padding-bottom: 55px;
+  padding-bottom: 60px;
   @media (max-width: 650px) {
     padding-top: 80px
   }
@@ -127,6 +138,15 @@
           }
         }
       }
+    }
+  }
+  .show-more-button {
+    text-align: center;
+    margin-top: 30px;
+    button {
+      font-size: 1.12rem;
+      text-transform: uppercase;
+      cursor: pointer;
     }
   }
 }

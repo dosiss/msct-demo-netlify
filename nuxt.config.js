@@ -11,7 +11,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'msct_nuxt',
+    title: 'Explore the new world of exciting casino games!',
     htmlAttrs: {
       lang: 'en',
     },
@@ -20,11 +20,16 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!'
+      }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
   {
-    src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
+//    src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
   }
 ]
   },
@@ -35,7 +40,8 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [ { src: '~/plugins/swiper', mode: 'client' },
               { src: '~/plugins/lightgallery', mode: 'client' },
-              { src: '~/plugins/lgvideo', mode: 'client' }
+              { src: '~/plugins/lgvideo', mode: 'client' },
+              { src: '~/plugins/vue-cookies-consent.js', mode:'client'}
 
 
   ],
