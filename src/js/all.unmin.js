@@ -6240,6 +6240,11 @@ $(function () {
       return thePath + 'wildlife-riches.html';
     });
   }
+  if (btnClassName.indexOf('fie') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'el-fiesta-de-muertos.html';
+    });
+  }
   });
 });
 $(function () {
