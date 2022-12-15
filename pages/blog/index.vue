@@ -48,6 +48,10 @@
        }
      },
 
+     mounted() {
+  //     console.log(JSON.parse(JSON.stringify(this.articles)))
+    },
+
     methods: {
 
      formatDate(date) {
@@ -61,6 +65,8 @@
       }
 
    }
+
+
 
   }
 </script>

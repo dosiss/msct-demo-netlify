@@ -32,7 +32,7 @@
                 <div class="game-title__right">
                   <div class="game-title__right-content">
                     <div class="button-wrap">
-                      <a  :href="`https://play.mascot.games/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">Play demo</a>
+                      <a  :href="`https://keen-sherbet-cd2c63.netlify.app/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">Play demo</a>
                     </div>
                   </div>
                 </div>
@@ -50,7 +50,7 @@
             <div class="game-title__right">
               <div class="game-title__right-content">
                 <div class="button-wrap">
-                  <a  :href="`https://play.mascot.games/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">Play demo</a>
+                  <a  :href="`https://keen-sherbet-cd2c63.netlify.app/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">Play demo</a>
                 </div>
               </div>
             </div>
@@ -240,6 +240,22 @@
           </div>
         </div>
       </div>
+      <div v-if="relatedArticles.length" class="related-posts container">
+        <h2 class="related-posts__head">Media</h2>
+        <div class="related-posts__wrap">
+        <div v-for="article in relatedArticles" :key="article.slug" class="related-post__item">
+          <div class="related-post__item-inner">
+            <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+              <div class="related-post__content">
+                <div class="content-head">{{ article.heading }}</div>
+                <div class="content-img" :style="{ backgroundImage: `url(/images/${article.img})` }"></div>
+              </div>
+              <h3>{{ article.heading}}</h3>
+            </NuxtLink>
+          </div>
+        </div>
+      </div>
+      </div>
     </div>
 
     <SharingButtons />
@@ -262,6 +278,7 @@ export default {
         id: this.$route.params.game,
         gamesList: allGames,
 
+        articles: [],
 
         swiperOption: {
           preventClicks: false,
@@ -289,6 +306,14 @@ export default {
       };
     },
 
+    async fetch() {
+       this.articles = await this.$content('articles')
+         .only(['slug', 'img', 'archiveDate', 'heading'])
+         .where( {slug  : {$contains: this.id}} )
+         .sortBy('archiveDate', 'desc')
+       .fetch()
+     },
+
     head() {
       return {
         title: this.currentGame.meta.title,
@@ -311,11 +336,19 @@ export default {
         ]
       }
    },
+
+
+
  computed: {
    currentGame() {
      return this.gamesList.slice().find((element) => element.slug === this.id);
 
+  },
+
+  relatedArticles() {
+    return this.articles.slice(0, 2)
   }
+
  },
 
  created() {
@@ -694,6 +727,76 @@ export default {
         }
         @media (max-width: 850px) {
           display: none
+        }
+      }
+    }
+  }
+  .related-posts {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    @media (max-width: 650px) {
+      padding-top: 60px;
+      padding-bottom: 0;
+    }
+    .related-posts__head {
+      font-size: 2.12rem;
+      text-transform: uppercase;
+      @media (max-width: 850px) {
+        text-align: center;
+      }
+      @media (max-width: 650px) {
+        font-size: 1.75rem
+      }
+    }
+    .related-posts__wrap {
+      display: flex;
+      margin-top: 40px;
+      @media (max-width: 850px) {
+        justify-content: space-between;
+      }
+      @media (max-width: 650px) {
+        flex-direction: column;
+      }
+      .related-post__item {
+        flex: 0 1 450px;
+        height: 300px;
+        margin-right: 40px;
+        @media (max-width: 850px) {
+          flex-basis: 46%;
+          margin-right: 0
+        }
+        @media (max-width: 650px) {
+          flex-basis: 100%;
+          margin-bottom: 20px
+        }
+        .related-post__content {
+          position: relative;
+          background: #fff;
+          padding: 20px 20px 0;
+          margin-bottom: 20px;
+          border-radius: 12px;
+          .content-head {
+            color: #000;
+            margin-bottom: 15px;
+            font-weight: 700;
+          }
+          .content-img {
+            height: 250px;
+            background-size: cover;
+          }
+          &:before {
+            position: absolute;
+            content: '';
+            top: 0;
+            right: -1px;
+            height: 101%;
+            width: 102%;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+          }
+        }
+        h3 {
+          font-size: 1.25rem;
+          font-weight: 400
         }
       }
     }

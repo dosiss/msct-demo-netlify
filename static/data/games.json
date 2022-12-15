@@ -988,7 +988,7 @@
     "heroUrl": "hero_primalbet.jpg",
     "blueButtn": true,
     "videoUrl": "video_primalbet.mp4",
-    "videoEnabled": true,
+    "videoEnabled": false,
     "placeholderUrl": "video_primalbet.jpg",
     "logoUrl": "logo_primalbet.png",
     "backUrl": "back_primalbet.jpg",

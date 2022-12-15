@@ -64,7 +64,7 @@
                 <ul>
                   <li @click.capture="hideMobileMenu"><NuxtLink to="/games">Games</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink to="/blog">Blog</NuxtLink></li>
-                  <li @click.capture="hideMobileMenu"><NuxtLink to="/contacts">Contact</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink to="/contacts">Contacts</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink to="/about">About Us</NuxtLink></li>
                 </ul>
               </nav>

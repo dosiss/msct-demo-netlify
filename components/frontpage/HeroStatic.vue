@@ -4,7 +4,7 @@
           <div class="container">
               <div class="top-header__wrap">
                     <h1 class="top-header__title">Feel the<br>Gaming Thrill</h1>
-                    <a class="buttn buttn-primary buttn-xl" href="//play.mascot.games">Play our games</a>
+                    <a class="buttn buttn-primary buttn-xl" href="https://keen-sherbet-cd2c63.netlify.app">Play our games</a>
               </div>
           </div>
       </div>

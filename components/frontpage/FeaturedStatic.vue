@@ -1,4 +1,5 @@
 <template>
+  <div>
   <div v-if="$device.isMobile" class="featured-static__wrap mobile">
 
           <div class="slider-outer">
@@ -10,7 +11,7 @@
                     <NuxtLink :to="`${game.slug}`">
                       <img :src="`/images/${game.logoUrl}`" class="game-logo" :alt="`${game.name}`" />
                     </NuxtLink>
-                    <a  :href="`https://${game.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                    <a  :href="`https://keen-sherbet-cd2c63.netlify.app/${game.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
                 </div>
               </div>
               </div>
@@ -21,10 +22,55 @@
         </div>
       </div>
 
-  </div>
   <div v-else class="featured-static__wrap">
 
-      <div class="featured-static__background" :style="{ backgroundImage: `url(/images/${backgroundGameData.backgroundUrl})` }"> <!-- :style="{ backgroundImage: `url(${backgroundUrl})` }" -->
+    <div v-if="backgroundGameData.videoUrl !== null && backgroundGameData.videoEnabled">
+      <div class="video-wrapper">
+          <div class="video-background">
+            <div class="vid">
+              <video id="bgvideo" playsinline autoplay muted loop :poster="`/images/${backgroundGameData.backgroundUrl}`"  width="1920" height="1080">
+                <source id="video-src" :src="`/videos/${backgroundGameData.videoUrl}`"  type="video/mp4">
+              </video>
+            </div>
+            <div class="container">
+                <div class="featured-header__wrap">
+                  <div class="featured-header__content">
+                    <NuxtLink :to="`${backgroundGameData.slug}`">
+                      <img :src="`/images/${backgroundGameData.logoUrl}`" class="game-logo" :alt="`${backgroundGameData.name}`" />
+                      <p class="game-description">{{ backgroundGameData.descr }}</p>
+                    </NuxtLink>
+                  </div>
+                  <div class="featured-header__buttn">
+                      <a v-if="$device.isMobile" :href="`https://${backgroundGameData.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                      <a v-else :href="`https://keen-sherbet-cd2c63.netlify.app/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                  </div>
+                </div>
+            </div>
+            <div class="slider-outer">
+            <div v-swiper:mySwiper2="swiperOption">
+              <div class="swiper-wrapper">
+                <div v-for="(game, idx) in gamesFeatured" :key="idx"  :class="{ 'selected': idx === 0 }" class="swiper-slide game-thumbnail" :data-name="`${game.slug}`" @click="toggleGame" >
+                  <div class="game-thumbnail__outer">
+                    <div class="game-thumbnail__inner">
+                    <img :src="`images/${game.thumbUrl}`" >
+                    <div class="game-content__wrap" >
+
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div slot="pagination" class="swiper-pagination"></div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+      <div v-else class="featured-static__background" :style="{ backgroundImage: `url(/images/${backgroundGameData.backgroundUrl})` }"> <!-- :style="{ backgroundImage: `url(${backgroundUrl})` }" -->
           <div class="container">
               <div class="featured-header__wrap">
                 <div class="featured-header__content">
@@ -35,7 +81,7 @@
                 </div>
                 <div class="featured-header__buttn">
                     <a v-if="$device.isMobile" :href="`https://${backgroundGameData.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
-                    <a v-else :href="`https://play.mascot.games/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                    <a v-else :href="`https://keen-sherbet-cd2c63.netlify.app/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m">Play demo</a>
                 </div>
               </div>
           </div>
@@ -61,6 +107,7 @@
       </div>
 
   </div>
+</div>
 </template>
 
 <script>
@@ -81,6 +128,8 @@ import allGames from '../../static/data/games.json'
           logoUrl: '',
           descr: '',
           linkToDemo: '',
+          videoUrl: '',
+          videoEnabled: ''
           // isSelected: false
         },
 
@@ -145,6 +194,9 @@ import allGames from '../../static/data/games.json'
       this.backgroundGameData.logoUrl = firstGame.logoUrl;
       this.backgroundGameData.descr = firstGame.descr;
       this.backgroundGameData.linkToDemo = firstGame.linkToDemo;
+      this.backgroundGameData.videoUrl = firstGame.videoUrl;
+      this.backgroundGameData.videoEnabled = firstGame.videoEnabled;
+
       // this.backgroundGameData.isSelected = true;
 
     // console.log('Current Swiper instance object', this.mySwiper2)
@@ -169,6 +221,8 @@ import allGames from '../../static/data/games.json'
    this.backgroundGameData.logoUrl = selectedGame.logoUrl;
    this.backgroundGameData.descr = selectedGame.descr;
    this.backgroundGameData.linkToDemo = selectedGame.linkToDemo;
+   this.backgroundGameData.videoUrl = selectedGame.videoUrl;
+   this.backgroundGameData.videoEnabled = selectedGame.videoEnabled;
    // this.backgroundGameData.isSelected = true;
 
       }
@@ -252,7 +306,49 @@ import allGames from '../../static/data/games.json'
       }
     }
   }
-
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 950px;
+    padding-top: 170px;
+    overflow: hidden;
+    #bgvideo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+      background-color: #000;
+    }
+    &:before {
+      position: absolute;
+      content: '';
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 250px;
+      background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      @media (max-width: 650px) {
+        height: 61px;
+      }
+    }
+    &:after {
+      position: absolute;
+      content: '';
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 250px;
+      background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      @media (max-width: 650px) {
+        height: 61px;
+      }
+    }
+  }
 }
 
 .slider-outer {
@@ -293,6 +389,7 @@ import allGames from '../../static/data/games.json'
             width: 100%;
             height: 100%;
             background: rgba(0,0,0,.5);
+            border-radius: 12px
           }
 
 

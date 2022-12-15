@@ -24,7 +24,7 @@
                 <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </a>
-              <a v-else :href="`https://play.mascot.games/${data.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+              <a v-else :href="`https://keen-sherbet-cd2c63.netlify.app/${data.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
                 Play demo
                 <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
