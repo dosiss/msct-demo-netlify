@@ -281,6 +281,7 @@ export default {
         articles: [],
 
         swiperOption: {
+          mousewheel: true,
           preventClicks: false,
           // touchMoveStopPropagation: true,
           followFinger: false,

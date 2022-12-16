@@ -134,6 +134,7 @@ import allGames from '../../static/data/games.json'
         },
 
         swiperOption: {
+          mousewheel: true,
           preventClicks: false,
           // touchMoveStopPropagation: true,
           followFinger: false,

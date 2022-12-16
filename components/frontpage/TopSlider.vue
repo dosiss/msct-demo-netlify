@@ -49,8 +49,8 @@ import allGames from '../../static/data/games.json'
       return {
 
         gamesList: allGames,
-        // banners: [ 'images/game_deepsea.jpg', 'images/game_deepsea2.jpg', 'images/game_deepsea3.jpg', 'images/game_deepsea4.jpg' ],
         swiperOption: {
+          mousewheel: true,
           preventClicks: false,
           preventClicksPropagation: false,
           spaceBetween: 10,

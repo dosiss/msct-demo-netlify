@@ -75,6 +75,7 @@
        articles: [],
 
        swiperOptionArticles: {
+         mousewheel: true,
          preventClicks: false,
          preventClicksPropagation: false,
          followFinger: false,
