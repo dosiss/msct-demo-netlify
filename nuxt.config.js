@@ -41,7 +41,8 @@ export default {
   plugins: [ { src: '~/plugins/swiper', mode: 'client' },
               { src: '~/plugins/lightgallery', mode: 'client' },
               { src: '~/plugins/lgvideo', mode: 'client' },
-              { src: '~/plugins/vue-cookies-consent.js', mode:'client'}
+              { src: '~/plugins/vue-cookies-consent.js', mode:'client'},
+
 
 
   ],

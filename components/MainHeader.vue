@@ -250,11 +250,12 @@
         background: #000;
          opacity: .8;
         @media (max-width: 850px) {
-          height: 100vh;
+          height: auto;
           width: 100%;
           opacity: 1;
         }
         @media (max-width: 650px) {
+          height: 100vh;
           width: 100%;
            opacity: 1;
         }

@@ -25,7 +25,7 @@
 
             <div class="getgames-title">
               <h2 class="section-title">Get our games</h2>
-              <p class="section-description">Multiple solutions for the online casino development. Affordable, high&ndash;quality, fast.</p>
+              <p class="section-description">We ensure not only the perfect gaming set, but the full promotional strategy that helps to attract new players and hold the existing ones.</p>
             </div>
             <div class="getgames-buttn">
                 <button class="buttn buttn-primary buttn-m" @click="showModal = true">Get in touch</button>
@@ -79,7 +79,7 @@
         </div>
       </div>
       <div class="partners__content-data">
-        <div class="partners-number">150+</div>
+        <div class="partners-number">500+</div>
         <div class="partners-descr">Partners &amp; Media</div>
         <nuxt-link to="partners" class="inner-link link-yellow">
           <span>See all partners &amp; media</span>
@@ -93,7 +93,7 @@
   <div class="partners__wrap mobile">
     <div class="partners__content">
       <div class="partners__content-data">
-        <div class="partners-number">150+</div>
+        <div class="partners-number">500+</div>
         <div class="partners-descr">Partners &amp; Media</div>
       </div>
       <div class="partners__content-img">

@@ -29,20 +29,6 @@ export default {
 
   name: 'IndexPage',
 
-  methods: {
-        setWindowSize() {
-        const windowWidth = window.innerWidth;
-        if (windowWidth < 768) {
-          this.windowSize = "mobile";
-        } else if (windowWidth < 1205) {
-          this.windowSize = "tablet";
-        } else {
-          this.windowSize = "desktop";
-        }
-      },
-    }
-
-
 }
 </script>
 

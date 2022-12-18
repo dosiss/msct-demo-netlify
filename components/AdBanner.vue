@@ -1,17 +1,17 @@
 <template>
 <section id="ad-banner">
   <div class="ad-banner__wrap">
-    <a href="https://sigma.world/europe" target="_blank" title="https://sigma.world/europe">
+    <a href="https://sigma.world/asia" target="_blank" title="https://sigma.world/asia">
       <div class="ad-banner__inner">
-        <nuxt-img src="images/sigma-logo-new.png" class="ad-banner__logo"  alt="SIGMA Europe" />
+        <nuxt-img src="images/sigma-logo-new.png" class="ad-banner__logo"  alt="SIGMA ASIA" />
         <div class="ad-banner__text">
           <div class="ad-banner__text-left">
             <div class="ad-banner__company">Mascot Gaming</div>
-            <div class="ad-banner__stand">Stand S78</div>
+            <div class="ad-banner__stand">Stand BR12</div>
           </div>
           <div class="ad-banner__text-right">
-            <div class="ad-banner__date">14 – 18 Nov, 2022</div>
-            <div class="ad-banner__place">MALTA, MFCC (NORTH GATE)</div>
+            <div class="ad-banner__date">19 – 22 July, 2023</div>
+            <div class="ad-banner__place">MANILA, THE PHILIPPINES</div>
           </div>
         </div>
         <nuxt-img src="images/img-adbanner-decor.png" class="ad-banner__decor"  alt="" />

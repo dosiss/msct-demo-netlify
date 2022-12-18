@@ -240,6 +240,9 @@
           </div>
         </div>
       </div>
+      
+      <SupportedLanguages />
+
       <div v-if="relatedArticles.length" class="related-posts container">
         <h2 class="related-posts__head">Media</h2>
         <div class="related-posts__wrap">
@@ -257,7 +260,6 @@
       </div>
       </div>
     </div>
-
     <SharingButtons />
   <MainFooter />
   </div>

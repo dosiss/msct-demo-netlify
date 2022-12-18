@@ -232,8 +232,8 @@
     justify-content: flex-end;
     &:before {
       content: '';
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.87) 100%);
-      height: 60%;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.87) 100%);
+      height: 100%;
       width: 100%;
       bottom: 0;
       position: absolute;
