@@ -140,7 +140,11 @@ import PrevNext from '~/components/PrevNext'
   }
 }
 .nuxt-content {
-
+  a {
+    color: #219CF6;
+    border-bottom: 1px solid #219CF6;
+    white-space: nowrap;
+  }
   p, ul, ol {
     font-family: 'Lora', serif;
     font-size: 1.25rem;

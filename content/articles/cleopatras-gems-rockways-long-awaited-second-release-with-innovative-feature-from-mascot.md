@@ -6,7 +6,7 @@ heading: 'Cleopatra`s Gems Rockways - the peak of slot machine game development'
 shortDescr: 'Strictly positive feedback on the Primal Bet. Rockways slot, which was the first release to feature RockWays mechanics, was the main reason why Mascot Gaming created Cleopatra`s Gems Rockways. Read the game review here.'
 archiveDate: 2022-01-14
 ---
-Strictly positive feedback on the PRIMAL BET. ROCKWAYS slot, which was the first release to feature RockWays mechanics, was the main reason why Mascot Gaming created Cleopatra's Gems Rockways. It is already possible to enjoy the long-awaited release as a [demo](https://play.mascot.games/cleopatras-gems-rockways.html) on our website or get straight into real-money gambling on any partner casino website.
+Strictly positive feedback on the PRIMAL BET. ROCKWAYS slot, which was the first release to feature RockWays mechanics, was the main reason why Mascot Gaming created Cleopatra's Gems Rockways. It is already possible to enjoy the long-awaited release as a [demo](https://play.mascot.games/cleopatras-gems-rockways) on our website or get straight into real-money gambling on any partner casino website.
 
 This time slot offers up to 46656 due to improved RockWays feature as well as RockFall feature with special multipliers. However, instead of fighting prehistoric creatures you get to explore secrets of the ancient Egyptian queen and her gems – the bellowed setting of the gamblers.
 

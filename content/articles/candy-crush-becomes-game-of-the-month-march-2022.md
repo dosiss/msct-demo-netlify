@@ -12,4 +12,4 @@ The Slot of the Month award is given monthly to slot games that show a lot of po
 
 [![SlotsMate badge March 2022](../../images/SlotsMate-Badge_March_2022.png)](https://www.slotsmate.com/blog/slot-of-the-month-march-2022-the-candy-crush-by-mascot-gaming)
 
-**The full review of The Candy Crush is available on the [SlotMate website](https://www.slotsmate.com/blog/slot-of-the-month-march-2022-the-candy-crush-by-mascot-gaming). The demo version of the game can be found [here](https://play.mascot.games/candy-crush.html).**
+**The full review of The Candy Crush is available on the [SlotMate website](https://www.slotsmate.com/blog/slot-of-the-month-march-2022-the-candy-crush-by-mascot-gaming). The demo version of the game can be found [here](https://play.mascot.games/candy-crush).**

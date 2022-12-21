@@ -11,7 +11,7 @@ The renowned Mascot Gaming takes you way below the ocean's surface to see if you
 
 The game is visually well-made. All the characters, starting with the diver in an old-fashioned diving helmet that keeps balance in the water and ending with the intricately displayed sea creatures, have been woven into the gameplay in a unique way that makes everything look almost too alive!
 
-Deepsea Riches, by one of the most prominent [slot game providers](https://mascot.games/blog-the-red-horde-review.html), Mascot Gaming, is sure to become an instant success for its high-quality artwork and exciting engine.
+Deepsea Riches, by one of the most prominent [slot game providers](https://mascot.games/blog/the-red-horde-review), Mascot Gaming, is sure to become an instant success for its high-quality artwork and exciting engine.
 
 ![](../../images/img_blog_deepsea-1.jpg)
 
@@ -33,7 +33,7 @@ Deepsea Riches also has a wild symbol, pictured via a treasure chest. Its main f
 
 **Deepsea Riches: Theme and Design of the Slot**
 
-The depths of the ocean are actually investigated less than the moon's surface, which has always been a fascinating subject. A lot of [slot game providers](https://mascot.games/blog-the-red-horde-review.html) have tried creating slots depicting the underwater world. Still, the serenity of the deep sea and the temptation you feel when seeing the sunken treasures were perfectly transferred, particularly by this 3D video slot by Mascot Gaming!
+The depths of the ocean are actually investigated less than the moon's surface, which has always been a fascinating subject. A lot of [slot game providers](https://mascot.games/blog/the-red-horde-review) have tried creating slots depicting the underwater world. Still, the serenity of the deep sea and the temptation you feel when seeing the sunken treasures were perfectly transferred, particularly by this 3D video slot by Mascot Gaming!
 
 Once you launch the game, you are already on the bottom of the dark sea. This background is enhanced with constantly rising air bubbles and the game symbols swaying with the water. When you spin the reels, the symbols float up from the bottom with a bubbling sound. The funny music playing in the background (you can always switch it off) tunes the player to a mysterious and engaging journey into the deep dark waters of the ocean. And every spin you make sounds like a huge water wave sweeping the transparent reels.
 
@@ -43,7 +43,7 @@ Mascot Gaming has outdone itself with the superb graphics and animations of the 
 
 **Special Features of Deepsea Treasures**
 
-Mascot Gaming is one of those rare [slot game providers](https://mascot.games/blog-the-red-horde-review.html) that perfectly keeps the balance between engaging but not overwhelming gameplay and stunning visual effects that don't annoy the player.
+Mascot Gaming is one of those rare [slot game providers](https://mascot.games/blog/the-red-horde-review) that perfectly keeps the balance between engaging but not overwhelming gameplay and stunning visual effects that don't annoy the player.
 
 Mascot's brand Rockfall and Risk'N'Buy features are still there, but the gameplay feels light and engaging.
 

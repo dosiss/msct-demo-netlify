@@ -9,7 +9,7 @@ archiveDate: 2022-09-08T10:58:51.640Z
 Mascot Gaming welcomes gambling enthusiasts on board the train packed with gold sacks and a safe with hidden treasures. Will you just ride or try to loop it in the game Loot The Train?!
 
 
-Set in the heart of the Wild West in the blazing sun and accompanied by typical Western music, the video slot immediately creates an adventurous mood. The skillfully chosen symbols lean into the stereotypes of characters that seem to belong to the world of Western movies. They lurk in the reels every time you spin them looking mysterious as if they know what's in the safe. This only triggers you to acquire a ticket into the Old West with the Loot The Train video slot recently developed by Mascot Gaming [iGaming software solutions](https://mascot.games/blog-anksunamun-the-queen-of-egypt-from-mascot-gaming.html)!
+Set in the heart of the Wild West in the blazing sun and accompanied by typical Western music, the video slot immediately creates an adventurous mood. The skillfully chosen symbols lean into the stereotypes of characters that seem to belong to the world of Western movies. They lurk in the reels every time you spin them looking mysterious as if they know what's in the safe. This only triggers you to acquire a ticket into the Old West with the Loot The Train video slot recently developed by Mascot Gaming [iGaming software solutions](https://mascot.games/blog/anksunamun-the-queen-of-egypt-from-mascot-gaming)!
 
 **Technical Information**
 
@@ -44,7 +44,7 @@ These were the standard symbols. As you know, Mascot Gaming does never suffice w
 
 Reels arrive dramatically on the old-fashioned rattling train car. The latter, as well as the charming American desert background, are animated with intriguing details. While you play, you will instantly notice new design elements passing the screen, such as cactuses, rocks, the smoke from the engine, or bushes. Moreover, the delicate metalwork on the train presumes it belongs to a rich man. Consequently, the safe and the gold sacks are there to grab.
 
-The soundtrack of Loot The Train is a bouncing Western rhythm that perfectly befits a train journey in the desert. Overall, Mascot Gaming [iGaming software solutions](https://mascot.games/blog-anksunamun-the-queen-of-egypt-from-mascot-gaming.html) have perfectly captured Wild West's feel and effectively transferred it through the Loot The Train new video slot.
+The soundtrack of Loot The Train is a bouncing Western rhythm that perfectly befits a train journey in the desert. Overall, Mascot Gaming [iGaming software solutions](https://mascot.games/blog/anksunamun-the-queen-of-egypt-from-mascot-gaming) have perfectly captured Wild West's feel and effectively transferred it through the Loot The Train new video slot.
 
 **Special Features of Loot The Train**
 

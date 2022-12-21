@@ -6,13 +6,13 @@ heading: 'Mayan Riches Rockways - new release from Mascot Gaming'
 shortDescr: 'Mascot Gaming has proven to take igaming software development to new heights by exploring new mechanics and making its releases exciting for all online gamblers. This time operator pleases them with an addition to the lineup of games with a signature RockWays feature. Read on to get a hang of every other feature of the new release.'
 archiveDate: 2022-04-21
 ---
-Mascot Gaming has proven to take [igaming software development](https://mascot.games/blog-anksunamun-the-queen-of-egypt-from-mascot-gaming.html) to new heights by exploring new mechanics and making its releases exciting for all online gamblers. This time operator pleases them with an addition to the lineup of games with a signature RockWays feature. Mayan Riches Rockways is the long-awaited third release with mentioned mechanics; the reels of the slot include up to 46656 paylines because of it.
+Mascot Gaming has proven to take [igaming software development](https://mascot.games/blog/anksunamun-the-queen-of-egypt-from-mascot-gaming) to new heights by exploring new mechanics and making its releases exciting for all online gamblers. This time operator pleases them with an addition to the lineup of games with a signature RockWays feature. Mayan Riches Rockways is the long-awaited third release with mentioned mechanics; the reels of the slot include up to 46656 paylines because of it.
 
-Read on to get a hang of every other feature of the new release. Its [demo](https://play.mascot.games/mayan-riches-rockways.html) version is available on our website, while it is also already possible to play for real money in any partner casino.
+Read on to get a hang of every other feature of the new release. Its [demo](https://play.mascot.games/mayan-riches-rockways) version is available on our website, while it is also already possible to play for real money in any partner casino.
 
 **Technical information**
 
-Mayan Riches Rockways can be launched via any HTML5 browser; this [igaming software solution](https://mascot.games/blog-anksunamun-the-queen-of-egypt-from-mascot-gaming.html) allows for great accessibility and performance of the slot. The game has quite a unique layout of 6 reels in 6 rows. As for the payways, their number can fluctuate from 64 to staggering 46656 due to Rockways mechanics. Combined with Hit rate of 20.1% and RTP rate of 95.1% this provides a great chance of winning for every punter. Video slot features a medium level of volatility, which keeps a perfect balance between risks and rewards.
+Mayan Riches Rockways can be launched via any HTML5 browser; this [igaming software solution](https://mascot.games/blog/anksunamun-the-queen-of-egypt-from-mascot-gaming) allows for great accessibility and performance of the slot. The game has quite a unique layout of 6 reels in 6 rows. As for the payways, their number can fluctuate from 64 to staggering 46656 due to Rockways mechanics. Combined with Hit rate of 20.1% and RTP rate of 95.1% this provides a great chance of winning for every punter. Video slot features a medium level of volatility, which keeps a perfect balance between risks and rewards.
 
 ![](../../images/img_blog_mayan-1.jpg)
 
@@ -38,7 +38,7 @@ Just like with all of their releases, with its new hit Mascot Gaming makes sure 
 
 **Special features of Mayan Riches Rockways**
 
-One of the key aspects of [igaming software development](https://mascot.games/blog-anksunamun-the-queen-of-egypt-from-mascot-gaming.html) by Mascot Gaming is the attention to providing top-notch gameplay in every release. This time around, you will definitely not be disappointed as Mayan Riches Rockways is packed with exciting mechanics.
+One of the key aspects of [igaming software development](https://mascot.games/blog/anksunamun-the-queen-of-egypt-from-mascot-gaming) by Mascot Gaming is the attention to providing top-notch gameplay in every release. This time around, you will definitely not be disappointed as Mayan Riches Rockways is packed with exciting mechanics.
 
 ![](../../images/img_blog_mayan-3.jpg)
 

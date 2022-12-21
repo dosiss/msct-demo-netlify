@@ -6,10 +6,10 @@ heading: 'Across The Universe - your new favorite video slot'
 shortDescr: 'Mascot Gaming never ceases to deliver top-tier games to its clients. This time, a new release from the casino slots developer takes players to the distant unknown space and offers experiencing well-known gameplay of classic online slots but with some pleasant additions. If it is not enough to make you interested, read on to find out what makes this release so special.'
 archiveDate: 2022-04-07
 ---
-Mascot Gaming never ceases to deliver top–tier games to its clients. This time, a new release from the [casino slots developer](https://mascot.games/blog-fruit-slots-by-top-casino-slot-developer-double-review.html) takes players to the distant unknown space and offers experiencing well–known gameplay of classic online slots but with some pleasant additions. Apart from great fun, it guarantees Free Spins and Bonuses that are possible to claim by filling respective scales.
+Mascot Gaming never ceases to deliver top–tier games to its clients. This time, a new release from the [casino slots developer](https://mascot.games/blog/fruit-slots-by-top-casino-slot-developer-double-review) takes players to the distant unknown space and offers experiencing well–known gameplay of classic online slots but with some pleasant additions. Apart from great fun, it guarantees Free Spins and Bonuses that are possible to claim by filling respective scales.
 
 
-If it is not enough to make you interested, read on to find out what makes this release so special or tune in for testing [casino slots developer demo](https://mascot.games/blog-fruit-slots-by-top-casino-slot-developer-double-review.html) versions of the game on our website. The release is also available in partner casinos for real money gambling.
+If it is not enough to make you interested, read on to find out what makes this release so special or tune in for testing [casino slots developer demo](https://mascot.games/blog/fruit-slots-by-top-casino-slot-developer-double-review) versions of the game on our website. The release is also available in partner casinos for real money gambling.
 
 **Technical information**
 
@@ -34,7 +34,7 @@ The symbols on the list are located from highest- to lowest-paying ones, which m
 
 **Across The Universe: theme of the release**
 
-As it comes from the name of the game, this time Mascot [casino slots developer](https://mascot.games/blog-fruit-slots-by-top-casino-slot-developer-double-review.html) gives players the opportunity of exploring the far unknown of distant space. Sharp visuals on pair with beautiful artwork on symbols make the process quite addictive. Distinctive sound queues and animations always accompany hitting winning combinations or special symbols. It is also impossible to go by the soundtrack that was created exclusively for Across The Universe slot to take its atmosphere to the next level.
+As it comes from the name of the game, this time Mascot [casino slots developer](https://mascot.games/blog/fruit-slots-by-top-casino-slot-developer-double-review) gives players the opportunity of exploring the far unknown of distant space. Sharp visuals on pair with beautiful artwork on symbols make the process quite addictive. Distinctive sound queues and animations always accompany hitting winning combinations or special symbols. It is also impossible to go by the soundtrack that was created exclusively for Across The Universe slot to take its atmosphere to the next level.
 
 **Special features of the Across The Universe slot**
 

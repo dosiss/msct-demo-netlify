@@ -36,7 +36,7 @@ As always, Mascot Gaming has chosen a perfectly fitting soundtrack for the game 
 
 **Special Features of Fruit Disco: Mega Stacks**
 
-Mascot Gaming, one of the most notorious [gambling software developers](https://mascot.games/blog-the-red-horde-review.html) in the market, carefully schemed the gameplay in every new release. And Fruit Disco: Mega Stacks! was not an exception! It comes jam-packed with some unique features aimed at making the game even more engaging. 
+Mascot Gaming, one of the most notorious [gambling software developers](https://mascot.games/blog/the-red-horde-review) in the market, carefully schemed the gameplay in every new release. And Fruit Disco: Mega Stacks! was not an exception! It comes jam-packed with some unique features aimed at making the game even more engaging. 
 
 ****Stacked Symbols****
 
@@ -54,4 +54,4 @@ Fruit Disco: Mega Stacks features a multiplier scale with x1 to x10. Every time 
 
 **Conclusion**
 
-This video slot is a fantastic option if you are seeking classic thrills and disco-style excitement. With this game, Mascot Gaming has reached an ideal balance of simplicity and excitement. It’s really worth the title of one of the innovative [gambling software developers](https://mascot.games/blog-the-red-horde-review.html) nowadays! The slot comes with flashy graphics, delicious-looking fruit symbols, and exciting new features!
+This video slot is a fantastic option if you are seeking classic thrills and disco-style excitement. With this game, Mascot Gaming has reached an ideal balance of simplicity and excitement. It’s really worth the title of one of the innovative [gambling software developers](https://mascot.games/blog/the-red-horde-review) nowadays! The slot comes with flashy graphics, delicious-looking fruit symbols, and exciting new features!

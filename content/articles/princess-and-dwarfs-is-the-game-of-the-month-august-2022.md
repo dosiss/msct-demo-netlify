@@ -20,4 +20,4 @@ Personally, this game never stops making our team smile. It’s a perfect balanc
 
 We would like to thank NonStopBonus for giving such a supportive and detailed review, and naming The Princess and Dwarfs the game of the month. To have such warm feedback from the industry and the players is a reward in itself.
 
-Find out what makes this game so special by [playing the demo.](https://play.mascot.games/the-princess-and-dwarfs-rockways.html)
+Find out what makes this game so special by [playing the demo.](https://play.mascot.games/the-princess-and-dwarfs-rockways)

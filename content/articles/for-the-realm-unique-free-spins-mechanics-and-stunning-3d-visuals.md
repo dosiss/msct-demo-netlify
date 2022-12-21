@@ -6,13 +6,13 @@ heading: 'Signature features and 3D graphics - new FOR THE REALM release from Ma
 shortDescr: 'Starting 2022 year strong, Mascot Gaming releases FOR THE REALM, online slot that features three unique series of free spins as well as 3D visuals with fantasy/medieval theme. Stick around to find out what else this exciting release has to offer.'
 archiveDate: 2022-02-17
 ---
-Mascot Gaming is one of the [gambling software developers](https://mascot.games/blog-the-red-horde-review.html) that never ceases to regularly deliver games of top-notch quality. Starting 2022 year strong, it releases FOR THE REALM, online slot that features three unique series of free spins as well as 3D visuals with fantasy/medieval theme. You can already try out a free [demo version](https://play.mascot.games/for-the-realm.html) on our website or tune into any of the partner casinos and start gambling for real money.
+Mascot Gaming is one of the [gambling software developers](https://mascot.games/blog/the-red-horde-review) that never ceases to regularly deliver games of top-notch quality. Starting 2022 year strong, it releases FOR THE REALM, online slot that features three unique series of free spins as well as 3D visuals with fantasy/medieval theme. You can already try out a free [demo version](https://play.mascot.games/for-the-realm) on our website or tune into any of the partner casinos and start gambling for real money.
 
 Stick around to find out what else this exciting release has to offer.
 
 **Technical information**
 
-As all leading [gambling software developers](https://mascot.games/blog-the-red-horde-review.html) Mascot Gaming makes sure that its games are accessible on the wide range of devices. FOR THE REALM is no exception as you can launch it via any HTML5 browser. It has a classic layout of 5 reels in 3 rows with 15 paylines, which makes it similar to original fruit machines in terms of mechanics. Medium volatility provides a perfect balance between the level of risk and rewards for taking it. The slot features an RTP rate of 95.4% as well as hit rate of 31.3% so every player has decent chances to win.
+As all leading [gambling software developers](https://mascot.games/blog/the-red-horde-review) Mascot Gaming makes sure that its games are accessible on the wide range of devices. FOR THE REALM is no exception as you can launch it via any HTML5 browser. It has a classic layout of 5 reels in 3 rows with 15 paylines, which makes it similar to original fruit machines in terms of mechanics. Medium volatility provides a perfect balance between the level of risk and rewards for taking it. The slot features an RTP rate of 95.4% as well as hit rate of 31.3% so every player has decent chances to win.
 
 ![](../../images/img_blog-realm-1.jpg)
 
@@ -41,7 +41,7 @@ Join the Freedom Alliance to protect the magical medieval universe against the D
 
 **Special features of FOR THE REALM slot**
 
-One of the main reasons why Mascot Gaming is the list of [gambling software developers](https://mascot.games/blog-the-red-horde-review.html) that successfully deliver top-tier products with every single release is high attention to quality of the gameplay. Multiple unique features that differ from game to game make every slot special.
+One of the main reasons why Mascot Gaming is the list of [gambling software developers](https://mascot.games/blog/the-red-horde-review) that successfully deliver top-tier products with every single release is high attention to quality of the gameplay. Multiple unique features that differ from game to game make every slot special.
 
 **Freedom Alliance free spins**
 

@@ -14,7 +14,7 @@ Available across all HTML5 platforms, The Princess & Dwarfs: Rockways ensures an
 
 ![](../../images/img_blog_princess-1.jpg)
 
-The Princess & Dwarfs: Rockways by remarkable [iGaming software solutions](https://mascot.games/blog-anksunamun-the-queen-of-egypt-from-mascot-gaming.html) Mascot Gaming takes place in a cave with precious gemstones already dug out. The grid gets filled with accurately pictured symbols. Winning combinations are formed of three to six matching symbols along any of the reels. Values of symbol payouts differ:
+The Princess & Dwarfs: Rockways by remarkable [iGaming software solutions](https://mascot.games/blog/anksunamun-the-queen-of-egypt-from-mascot-gaming) Mascot Gaming takes place in a cave with precious gemstones already dug out. The grid gets filled with accurately pictured symbols. Winning combinations are formed of three to six matching symbols along any of the reels. Values of symbol payouts differ:
 
 *   Purple and Blue gemstones payout 0.01 to 0.10 per three to six identical icons;
 *   Red and Green gemstones payout 0.02 to 0.15 per three to six symbols;
@@ -45,7 +45,7 @@ The soundtrack adds to the magic of this video slot with its light bells and tri
 
 **Special Features of The Princess & Dwarfs: Rockways**
 
-All releases by Mascot [iGaming software solutions](https://mascot.games/blog-anksunamun-the-queen-of-egypt-from-mascot-gaming.html) stand out for their mind-blowing innovative features that make gambling more immersive! And here, too, the developer welcomes its fans with a bunch of unique features.
+All releases by Mascot [iGaming software solutions](https://mascot.games/blog/anksunamun-the-queen-of-egypt-from-mascot-gaming) stand out for their mind-blowing innovative features that make gambling more immersive! And here, too, the developer welcomes its fans with a bunch of unique features.
 
 **Rockways Feature**
 

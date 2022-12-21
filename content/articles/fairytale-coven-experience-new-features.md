@@ -3,10 +3,10 @@ title: 'Three types of free spins series and magical atmosphere in new FAIRYTALE
 description: 'Discover unique features of three free spins series of the new release from Mascot Gaming to enjoy FAIRYTALE COVEN to its fullest potential.'
 img: img_blog_coven-main.jpg
 heading: 'FAIRYTALE COVEN: experience new features and exceptional atmosphere'
-shortDescr: 'Mascot Gaming continues to expand the range of their top&ndash;notch igaming software on the market by releasing FAIRYTALE COVEN video slot. Check out the game review here.'
+shortDescr: 'Mascot Gaming continues to expand the range of their top-notch igaming software on the market by releasing FAIRYTALE COVEN video slot. Check out the game review here.'
 archiveDate: 2021-12-27
 ---
-Mascot Gaming continues to expand the range of their top-notch [igaming software](https://mascot.games/blog-anksunamun-the-queen-of-egypt-from-mascot-gaming.html) on the market by releasing FAIRYTALE COVEN video slots. You can already try out a [demo version](https://play.mascot.games/fairytale-coven.html) of the game on our website as well as gamble for real money on every partner platform.
+Mascot Gaming continues to expand the range of their top-notch [igaming software](https://mascot.games/blog/anksunamun-the-queen-of-egypt-from-mascot-gaming) on the market by releasing FAIRYTALE COVEN video slots. You can already try out a [demo version](https://play.mascot.games/fairytale-coven) of the game on our website as well as gamble for real money on every partner platform.
 
 The most interesting feature of the new release is the availability of three different free spins series that have unique design, bonuses and fairy symbols. Combined with other well-known features, the slot provides a truly magical gambling experience.
 
@@ -39,7 +39,7 @@ The theme of the release is based around the magical forest that serves as a hom
 
 **Special features**
 
-It is not a secret that [igaming software](https://mascot.games/blog-anksunamun-the-queen-of-egypt-from-mascot-gaming.html) from Mascot Gaming always pleases its players with exciting mechanics and special bonuses. This time, the team of the developers also prepared something extremely interesting for its clients.
+It is not a secret that [igaming software](https://mascot.games/blog/anksunamun-the-queen-of-egypt-from-mascot-gaming) from Mascot Gaming always pleases its players with exciting mechanics and special bonuses. This time, the team of the developers also prepared something extremely interesting for its clients.
 
 **Dark Magic feature**
 
@@ -67,4 +67,4 @@ This feature allows obtaining free spins after every round regardless of its out
 
 **Conclusion**
 
-FAIRYTALE COVEN is a new amazing [igaming software](https://mascot.games/blog-anksunamun-the-queen-of-egypt-from-mascot-gaming.html) release from Mascot Gaming with beautiful magical design as well as unique features of multiple series of free spins. Try it out to discover new mechanics and the amazing atmosphere of a magical forest.
+FAIRYTALE COVEN is a new amazing [igaming software](https://mascot.games/blog/anksunamun-the-queen-of-egypt-from-mascot-gaming) release from Mascot Gaming with beautiful magical design as well as unique features of multiple series of free spins. Try it out to discover new mechanics and the amazing atmosphere of a magical forest.

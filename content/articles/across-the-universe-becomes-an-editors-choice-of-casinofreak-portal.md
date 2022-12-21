@@ -4,10 +4,10 @@ description: Find out how Across the Universe received an award from CasinoFreak
 img: img_blog_edchoice-main.jpg
 heading: Across the Universe becomes an Editor`s Choice of CasinoFreak portal in April 2022
 shortDescr: Find out how Across the Universe received an award from CasinoFreak portal. Discover the most relevant information about the slot's features that make it stand out among the rest of releases from Mascot Gaming.
-archiveDate: 2022-04-08T10:58:51.640Z
+archiveDate: 2022-04-08
 ---
 
-Released in March of 2022 by Mascot Gaming, [Across the Universe](https://play.mascot.games/across-the-universe.html) slot has once again proven the proficiency of providers in making banger releases. The game quickly established itself as a new fan favorite among gamblers and continued gaining traction. Now, we are glad to inform you that it has won its first award out of many more to come!
+Released in March of 2022 by Mascot Gaming, [Across the Universe](https://play.mascot.games/across-the-universe) slot has once again proven the proficiency of providers in making banger releases. The game quickly established itself as a new fan favorite among gamblers and continued gaining traction. Now, we are glad to inform you that it has won its first award out of many more to come!
 
 On April 6, 2022, only a month after the launch of Across the Universe, CasinoFreak portal picked it as an Editor’s Choice. The value of this title is difficult to overestimate as a lot of aspects including visuals, gameplay mechanics and technical execution of features have to be considered beforehand. CasinoFreak itself is a reputable gambling resource that has been helping players to find best online casinos, games and promotions since 2014. Thus, receiving such an attention from it is an important milestone for Across the Universe slot in particular as well as for Mascot Gaming company overall.
 

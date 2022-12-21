@@ -8,7 +8,7 @@ archiveDate: 2022-03-02
 ---
 As the long-awaited addition to Mascot’s slots with Rockfall mechanics, The Candy Crush is here to please the gamblers all over the world. When you might have thought it cannot get more exciting, prepare yourself as the new release not only offers old features in a new design but also introduces Random features that cannot be found in any other Mascot Gaming slot yet.
 
-Crisp and colorful graphics, 15 625 paylines, Rockfall mechanics, Random feature, Free spins, Scatters and more are already available for your exploration in the [demo version](https://play.mascot.games/candy-crush.html) on the website. You can also play it for real money in every partner online casino of Mascot Gaming.
+Crisp and colorful graphics, 15 625 paylines, Rockfall mechanics, Random feature, Free spins, Scatters and more are already available for your exploration in the [demo version](https://play.mascot.games/candy-crush) on the website. You can also play it for real money in every partner online casino of Mascot Gaming.
 
 **Technical information**
 
