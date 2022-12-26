@@ -62,7 +62,7 @@
             <div v-for="(game, idx) in gamesFilter" :key="idx" class="game-thumbnail">
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
-                  <img :src="`images/${game.thumbUrl}`" >
+                  <lazy-img :src="`images/${game.thumbUrl}`" :placeholder="`images/${game.thumbUrl}`" :blur='30' class="game-thumbnail__img" />
                   <div class="game-content__wrap">
                     <div class="game-content__buttns">
                       <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? "More" : "Learn more" }}</NuxtLink>
@@ -382,7 +382,7 @@ export default {
           padding: 10px;
           .game-thumbnail__inner {
             position: relative;
-            img {
+            .game-thumbnail__img {
               border-radius: 12px
             }
           }
@@ -403,6 +403,7 @@ export default {
             width: 100%;
             height: 116px;
             background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+            z-index: 1
           }
           .game-content__buttns {
             display: flex;
@@ -419,7 +420,7 @@ export default {
             transition: all .2s ease-in-out;
             .game-content__wrap {
               opacity: 1;
-              transition: .5s ease;
+              transition: .2s ease-in-out;
             }
           }
         }

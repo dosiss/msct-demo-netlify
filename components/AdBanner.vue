@@ -11,7 +11,7 @@
           </div>
           <div class="ad-banner__text-right">
             <div class="ad-banner__date">19 – 22 July, 2023</div>
-            <div class="ad-banner__place">MANILA, THE PHILIPPINES</div>
+            <div class="ad-banner__place">MANILA, THE&nbsp;PHILIPPINES</div>
           </div>
         </div>
         <nuxt-img src="images/img-adbanner-decor.png" class="ad-banner__decor"  alt="" />

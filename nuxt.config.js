@@ -42,6 +42,8 @@ export default {
               { src: '~/plugins/lightgallery', mode: 'client' },
               { src: '~/plugins/lgvideo', mode: 'client' },
               { src: '~/plugins/vue-cookies-consent.js', mode:'client'},
+              { src: '~/plugins/img-loading.js', mode:'client'},
+
 
 
 
