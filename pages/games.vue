@@ -62,7 +62,7 @@
             <div v-for="(game, idx) in gamesFilter" :key="idx" class="game-thumbnail">
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
-                  <lazy-img :src="`images/${game.thumbUrl}`" :placeholder="`images/${game.thumbUrl}`" :blur='30' class="game-thumbnail__img" />
+                  <v-lazy-image :src="`images/${game.thumbUrl}`" src-placeholder="images/game_placeholder.jpg" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
                   <div class="game-content__wrap">
                     <div class="game-content__buttns">
                       <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? "More" : "Learn more" }}</NuxtLink>
@@ -95,10 +95,15 @@
 </template>
 
 <script>
+import VLazyImage from "v-lazy-image/v2";
+
 import allGames from '../static/data/games.json'
 
 export default {
 
+  components: {
+    VLazyImage
+  },
 
   data() {
 
@@ -383,7 +388,20 @@ export default {
           .game-thumbnail__inner {
             position: relative;
             .game-thumbnail__img {
-              border-radius: 12px
+              border-radius: 12px;
+              -webkit-mask-image: -webkit-radial-gradient(white, black);
+
+              img {
+                border-radius: 12px;
+                -webkit-mask-image: -webkit-radial-gradient(white, black);
+              }
+              &.v-lazy-image {
+                filter: blur(10px);
+                transition: filter 0.7s;
+              }
+              &.v-lazy-image-loaded {
+                filter: blur(0);
+              }
             }
           }
         }
@@ -420,7 +438,7 @@ export default {
             transition: all .2s ease-in-out;
             .game-content__wrap {
               opacity: 1;
-              transition: .2s ease-in-out;
+              transition: opacity .2s ease-in-out;
             }
           }
         }

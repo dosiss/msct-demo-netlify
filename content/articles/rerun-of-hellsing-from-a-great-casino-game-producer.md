@@ -1,9 +1,9 @@
 ---
-title: 'Check Out the Updated Version of HELL'SING'
-description: 'Mascot Gaming has fully updated the HELL'SING slot by replacing old features with new ones. Find out more info about this game and the changes.'
+title: 'Check Out the Updated Version of HELL`SING'
+description: 'Mascot Gaming has fully updated the HELL`SING slot by replacing old features with new ones. Find out more info about this game and the changes.'
 img: img_blog_hellsing-rerun-main.jpg
-heading: 'Rerun of the Top Game HELL'SING from a Great Casino Game Producer'
-shortDescr: Last year Mascot Gaming started updating some of their already released slots to bring even more excitement from gaming experience to players. The first one to update was Re_Kill video slot and the results of this rerun have proved that such renovation definitely makes sense. This time the choice fell on HELL`SING game - already popular, but with a potential to be even better.
+heading: 'Rerun of the Top Game HELL`SING from a Great Casino Game Producer'
+shortDescr: 'Last year Mascot Gaming started updating some of their already released slots to bring even more excitement from gaming experience to players. The first one to update was Re_Kill video slot and the results of this rerun have proved that such renovation definitely makes sense. This time the choice fell on HELL`SING game - already popular, but with a potential to be even better.'
 archiveDate: 2021-02-26
 ---
 Mascot Gaming strives to be one of the leading [iGaming software providers](blog-fruit-slots-by-top-casino-slot-developer-double-review), and the right way to go to achieve this goal is to offer amazing and [unique casino games](services). Not only does this casino game producer keep constantly releasing new interesting slots, but also makes the existing ones ideal. Based on the analytical data, it is possible to conclude how to please players even more.
