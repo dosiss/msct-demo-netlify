@@ -70,6 +70,16 @@
     "logoUrl": "partner_blueocean.png"
   },
   {
+    "name": "Fortune Coins",
+    "type": "partner",
+    "top": true,
+    "casino": false,
+    "paltform": false,
+    "new": false,
+    "url": "https://www.fortunecoins.com/",
+    "logoUrl": "partner_fortunecoins.png"
+  },
+  {
     "name": "Slots-777",
     "type": "media",
     "top": false,
@@ -270,13 +280,33 @@
     "logoUrl": "partner_slotcatalog.png"
   },
   {
-    "name": "SoftGamings",
-    "type": "partner",
-    "top": true,
+    "name": "Playcasino.com",
+    "type": "media",
+    "top": false,
     "casino": false,
-    "platform": false,
+    "paltform": false,
     "new": false,
-    "url": "https://www.softgamings.com/online-gambling-software-providers/mascot-gaming",
-    "logoUrl": "partner_softgamings.png"
+    "url": "https://www.playcasino.com/casino-software/mascot-gaming",
+    "logoUrl": "partner_playcasino.png"
+  },
+  {
+    "name": "Dansker Casino",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "paltform": false,
+    "new": false,
+    "url": "https://danskercasino.com/",
+    "logoUrl": "partner_dansker.png"
+  },
+  {
+    "name": "BoomAff",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "paltform": false,
+    "new": false,
+    "url": "https://boomaff.com/partners/mascot-gaming/",
+    "logoUrl": "partner_boomaff.png"
   }
 ]

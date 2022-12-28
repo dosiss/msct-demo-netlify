@@ -2,8 +2,8 @@
 
   <div>
     <MainHeader />
-    <!-- <HeroVideo /> -->
-    <HeroStatic />
+    <HeroVideo />
+    <!-- <HeroStatic /> -->
     <section id="top-slider">
       <div class="top-slider__wrap">
         <TopSlider />

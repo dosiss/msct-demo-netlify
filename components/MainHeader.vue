@@ -288,6 +288,7 @@
               @media (max-width: 850px) {
                 background: url('../assets/img/tablet-menu-decor.png') no-repeat;
                 background-size: 100%;
+                margin-bottom: 10px;
               }
               @media (max-width: 650px) {
                 background: url('../assets/img/mobile-menu-decor.png') no-repeat;

@@ -88,7 +88,8 @@
             </div>
           </div>
         </div>
-
+        <div slot="button-prev" class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 23 1 12 12 1"/></svg></div>
+        <div slot="button-next" class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 11 11L1 23"/></svg></div>
       </div>
 
 
@@ -240,7 +241,7 @@
           </div>
         </div>
       </div>
-      
+
       <SupportedLanguages />
 
       <div v-if="relatedArticles.length" class="related-posts container">
@@ -301,8 +302,12 @@ export default {
               spaceBetween: 17,
             },
             '1024': {
-              slidesPerView: 4,
+              slidesPerView: 3.5,
               spaceBetween: 17,
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+              },
             },
           }
         }
@@ -517,6 +522,63 @@ export default {
       background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 100%);
       @media (max-width: 650px) {
         height: 61px;
+      }
+    }
+  }
+  .screenshots-carousel__wrap {
+    position: relative;
+    .swiper-button-prev {
+      width: 60px;
+      height: 60px;
+      left: 60px;
+      top: unset;
+      bottom: 41%;
+      background: rgba(0, 0, 0, 0.01);
+      backdrop-filter: blur(5px);
+      border-radius: 20rem;
+      @media (max-width: 850px) {
+        display: none
+      }
+      &:after {
+        content: '';
+      }
+      svg {
+        width: 11px;
+        height: 60px;
+        @media (max-width: 850px) {
+
+        }
+      }
+      &.swiper-button-disabled {
+        opacity: 0;
+        cursor: none
+      }
+    }
+    .swiper-button-next {
+      width: 60px;
+      height: 60px;
+      right: 60px;
+      top: unset;
+      bottom: 41%;
+      background: rgba(0, 0, 0, 0.01);
+      backdrop-filter: blur(5px);
+      border-radius: 20rem;
+      @media (max-width: 850px) {
+        display: none
+      }
+      &:after {
+        content: '';
+      }
+      svg {
+        width: 11px;
+        height: 60px;
+        @media (max-width: 850px) {
+
+        }
+      }
+      &.swiper-button-disabled {
+        opacity: 0;
+        cursor: none
       }
     }
   }
