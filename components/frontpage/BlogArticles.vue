@@ -88,7 +88,7 @@
              spaceBetween: 20,
            },
            '1024': {
-             slidesPerView: 3,
+             slidesPerView: 3.2,
              spaceBetween: 30,
            }
          }
@@ -130,7 +130,7 @@
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .blog-articles__wrap {
   padding-top: 120px;
   @media (max-width: 650px) {

@@ -36,7 +36,11 @@
       </div>
       </div>
     </div>
+    <div slot="pagination" class="swiper-pagination"></div>
   </div>
+  <div slot="button-prev" class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 23 1 12 12 1"/></svg></div>
+  <div slot="button-next" class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 11 11L1 23"/></svg></div>
+
 </div>
 </template>
 
@@ -57,13 +61,29 @@ import allGames from '../../static/data/games.json'
           slidesPerView: 1.2,
           a11y: false,
           breakpoints: {
+            '320': {
+              spaceBetween: 10,
+              slidesPerView: 1.2,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+              }
+            },
             '640': {
               slidesPerView: 1.7,
               spaceBetween: 20,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+              }
             },
             '1024': {
-              slidesPerView: 3,
+              slidesPerView: 3.2,
               spaceBetween: 30,
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+              },
             },
           }
         }
@@ -92,6 +112,9 @@ import allGames from '../../static/data/games.json'
     @media (max-width: 1200px) {
       padding-left: 35px
     }
+    @media (max-width: 1024px) {
+      padding-bottom: 30px
+    }
     @media (max-width: 650px) {
       padding-left: 25px
     }
@@ -99,7 +122,7 @@ import allGames from '../../static/data/games.json'
   .swiper-slide {
     &.game-thumbnail {
       .game-thumbnail__outer {
-        padding: 20px 0;
+        padding: 8px 0;
         .game-thumbnail__inner {
           position: relative;
         }
@@ -131,7 +154,7 @@ import allGames from '../../static/data/games.json'
       }
       &:hover {
         .game-thumbnail__inner {
-          transform: scale(1.1);
+          transform: scale(1.05);
           z-index: 1;
           transition: all .2s ease-in-out;
           .game-content__wrap {
@@ -146,5 +169,68 @@ import allGames from '../../static/data/games.json'
         width: 100%
       }
   }
+  .slider-outer {
+    position: relative;
+    .swiper-button-prev {
+      width: 60px;
+      height: 60px;
+      left: 60px;
+      top: unset;
+      bottom: 41%;
+      background: rgba(0, 0, 0, 0.01);
+      backdrop-filter: blur(5px);
+      border-radius: 20rem;
+      @media (max-width: 850px) {
+        display: none
+      }
+      &:after {
+        content: '';
+      }
+      svg {
+        width: 11px;
+        height: 60px;
+        @media (max-width: 850px) {
+
+        }
+      }
+      &.swiper-button-disabled {
+        opacity: 0;
+        cursor: none
+      }
+    }
+    .swiper-button-next {
+      width: 60px;
+      height: 60px;
+      right: 60px;
+      top: unset;
+      bottom: 41%;
+      background: rgba(0, 0, 0, 0.01);
+      backdrop-filter: blur(5px);
+      border-radius: 20rem;
+      @media (max-width: 850px) {
+        display: none
+      }
+      &:after {
+        content: '';
+      }
+      svg {
+        width: 11px;
+        height: 60px;
+        @media (max-width: 850px) {
+
+        }
+      }
+      &.swiper-button-disabled {
+        opacity: 0;
+        cursor: none
+      }
+    }
+    .swiper-pagination {
+      @media (min-width: 1024px) {
+        display: none
+      }
+    }
+  }
+
 
 </style>
