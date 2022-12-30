@@ -55,7 +55,7 @@
         <div class="game-types__item">
           <div class="game-types__item-content">
             <h3 class="item-title">Traffic games</h3>
-            <p class="section-description">Cost&ndash;optimised way to attract new players to your online casino!</p>
+            <p class="section-description">Attract new players to your online casino!</p>
             <nuxt-link to="/games?type=trafficgames" class="inner-link link-blue">
               <span>See all traffic games</span>
               <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">

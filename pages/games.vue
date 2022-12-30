@@ -9,10 +9,10 @@
             <div class="games-filter__wrap">
               <button :class="{ active: gameFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'all'">All</button>
               <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'top'">Тор Games</button>
+              <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'traffic'">Traffic Games</button>
+              <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">Profit Games</button>
               <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'videoslots'">Video Slots</button>
               <button :class="{ active: gameFilterKey == 'lotteries' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'lotteries'">Lotteries</button>
-              <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">Profit Games</button>
-              <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'traffic'">Traffic Games</button>
               <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'risknbuy'">Risk&amp;Buy</button>
               <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'branded'">Branded</button>
             </div>
@@ -59,6 +59,7 @@
       </div>
       <div class="all-games">
           <div class="all-games__content">
+            <TransitionGroup name="fade" tag="div">
             <div v-for="(game, idx) in gamesFilter" :key="idx" class="game-thumbnail">
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
@@ -83,6 +84,7 @@
                 </div>
               </div>
             </div>
+          </TransitionGroup>
           </div>
       </div>
 
@@ -187,6 +189,29 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.fade-enter {
+	transform: scale(0.5) translateY(-80px);
+	opacity:0;
+}
+
+.fade-leave-to{
+	transform: translateY(30px);
+	opacity:0;
+}
+
+.fade-leave-active {
+
+    transition: all 100ms ease-in;
+
+	position: absolute;
+	z-index:-1;
+}
+
+  .fade-enter-active {
+    transition: all 400ms ease-out 600ms;
+  }
+
+
 .container-outer {
   display: flex;
   flex-direction: column;
@@ -367,11 +392,14 @@ export default {
       padding-top: 10px;
 
     }
-    .all-games__content {
+    .all-games__content > div {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
       .game-thumbnail {
+        
+        transition: all .5s ease-in-out;
+
         border-radius: 12px;
         flex: 0 1 24%;
         @media (max-width: 1200px) {
