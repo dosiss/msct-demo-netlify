@@ -386,10 +386,10 @@ p {
   bottom: 20px
 }
 */
-.page-enter-active,
-.page-leave-active {
+.page-enter-active {
   transition: opacity 0.5s;
 }
+
 .page-enter,
 .page-leave-to {
   opacity: 0;
