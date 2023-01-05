@@ -4,7 +4,16 @@
     <div class="footer__wrap">
       <div class="footer-content">
         <div class="footer-content__social">
-          <div class="footer-content__social-title">Mascot gaming</div>
+          <div class="footer-content__social-wrap">
+            <div class="footer-content__social-title">Mascot gaming</div>
+            <ul class="footer-menu">
+              <li><NuxtLink to="/games">Games</NuxtLink></li>
+              <li><NuxtLink to="/about">About Us</NuxtLink></li>
+              <li><NuxtLink to="/blog">Blog</NuxtLink></li>
+              <li><NuxtLink to="/partners">Partners</NuxtLink></li>
+              <li><NuxtLink to="/contacts">Contacts</NuxtLink></li>
+            </ul>
+          </div>
           <ul class="footer-content__social-links">
                     <li>
                         <a href="https://www.facebook.com/mascotgaming" target="_blank">
@@ -176,6 +185,24 @@
           display: flex;
         }
         .footer-content__social {
+          .footer-content__social-wrap {
+
+            @media (max-width: 850px) {
+              display: flex;
+              align-items: flex-start;
+              justify-content: space-between;
+            }
+
+          }
+          .footer-menu {
+            display: flex;
+            width: 477px;
+            margin-bottom: 35px;
+            justify-content: space-between;
+            @media (max-width: 650px) {
+              display: none;
+            }
+          }
           .footer-content__social-title {
             font-size: 1.25rem;
             font-weight: 700;

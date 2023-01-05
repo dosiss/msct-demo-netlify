@@ -6,6 +6,7 @@
       <div class="container container-narrow">
         <h1>About us</h1>
         <article>
+          <nuxt-img src="/images/img_team.jpg" sizes="sm:480px md:998px" alt="" />
           <p>Mascot Gaming is more than just a casino software developer, it is a team of enthusiastic professionals that strive to deliver an outstanding gambling experience to the clients.</p>
           <p>Since 2015 Mascot Gaming has been devoted to the perfection of playing experience. Every spin makes you feel - your pleasure is our passion. Down the road we stick to a rather conservative approach in introduction of new projects. Not to dilute the qualities of our famous and well received games is more beneficial for us than pursuing multiple business opportunities. We introduce carefully but steadily new nevertheless well-tested mechanisms and features. In the future, we see ourselves as the market leaders in segment and the industry headliners.</p>
           <p>iGaming evolves and transforms continuously as all other software branches. We at Mascot strongly believe in getting the overall best at what matters most. And that is players’ involvement and viability of the business for our partners. Our efforts are heading into the polishing visual appearance, exploring new gaming mechanics and social aspects of gaming.</p>
@@ -72,7 +73,14 @@
       @media (max-width: 650px) {
       margin-top: 30px
       }
-
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+        @media (max-width: 650px) {
+        margin-bottom: 30px
+        }
+      }
       h2 {
         font-size: 1.63rem;
         margin-bottom: 10px;
