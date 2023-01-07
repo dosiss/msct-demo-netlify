@@ -1,11 +1,56 @@
 [
   {
+    "name": "Pinup casino",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Deposit with $100 and Play with $200 + Free Spins",
+    "url": "https://www.softswiss.com/games",
+    "logoUrl": "partner_logo_pinup.jpg"
+  },
+  {
+    "name": "PariMatch",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Deposit with $100 and Play with $200 + Free Spins",
+    "url": "https://www.softswiss.com/games",
+    "logoUrl": "partner_logo_parimatch.png"
+  },
+  {
+    "name": "Favbet",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Deposit with $100 and Play with $200 + Free Spins",
+    "url": "https://www.softswiss.com/games",
+    "logoUrl": "partner_logo_favb.png"
+  },
+  {
+    "name": "Softswiss",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Deposit with $100 and Play with $200 + Free Spins",
+    "url": "https://www.softswiss.com/games",
+    "logoUrl": "partner_logo_softswiss.png"
+  },
+  {
     "name": "SoftGamings",
     "type": "partner",
     "top": true,
     "casino": false,
     "platform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.softgamings.com/online-gambling-software-providers/mascot-gaming",
     "logoUrl": "partner_softgamings.png"
   },
@@ -15,7 +60,8 @@
     "top": true,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.softswiss.com/games",
     "logoUrl": "partner_softswiss.png"
   },
@@ -25,7 +71,8 @@
     "top": true,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": null,
     "logoUrl": "partner_1xbet.png"
   },
@@ -35,7 +82,8 @@
     "top": true,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://everymatrix.com/partners/mascot-gaming",
     "logoUrl": "partner_everymatrix.png"
   },
@@ -45,7 +93,8 @@
     "top": true,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.betconstruct.com",
     "logoUrl": "partner_betconstruct.png"
   },
@@ -55,7 +104,8 @@
     "top": true,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://slotegrator.pro/game_developers/mascot-gaming.html",
     "logoUrl": "partner_slotegrator.png"
   },
@@ -65,7 +115,8 @@
     "top": true,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://blueoceangaming.com",
     "logoUrl": "partner_blueocean.png"
   },
@@ -75,7 +126,8 @@
     "top": true,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.fortunecoins.com/",
     "logoUrl": "partner_fortunecoins.png"
   },
@@ -85,7 +137,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "http://www.slots-777.com",
     "logoUrl": "partner_slots777.png"
   },
@@ -95,7 +148,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://latestcasinobonuses.mobi/?s=Mascot&post_type=any&submit=",
     "logoUrl": "partner_4luck.png"
   },
@@ -105,7 +159,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.slotscalendar.com/software-providers/mascot-games",
     "logoUrl": "partner_slotscalendar.png"
   },
@@ -115,7 +170,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://casinoscout.nl/software/mascot-gaming/",
     "logoUrl": "partner_casinoscout.png"
   },
@@ -125,7 +181,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://chipy.com",
     "logoUrl": "partner_chipy.png"
   },
@@ -135,7 +192,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.casinofreak.com",
     "logoUrl": "partner_casinofreak.png"
   },
@@ -145,7 +203,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.casinoslists.com",
     "logoUrl": "partner_casinoslists.png"
   },
@@ -155,7 +214,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://gamblescope.com/casino/software-providers/mascot-gaming.html",
     "logoUrl": "partner_gamblescope.png"
   },
@@ -165,7 +225,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.machineslotonline.it/slot/mascot-gaming",
     "logoUrl": "partner_machineslotonline.png"
   },
@@ -175,7 +236,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://darmowekasyno.pl/producent-gry/mascot-gaming",
     "logoUrl": "partner_darmowekasyno.png"
   },
@@ -185,7 +247,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://casinodaddy.com/game-providers/mascot-gaming-online-casinos/#introduction-to-mascot-gaming-online-casinos",
     "logoUrl": "partner_casinodaddy.png"
   },
@@ -195,7 +258,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://casinomentor.com/softwares/mascot-gaming",
     "logoUrl": "partner_casinomentor.png"
   },
@@ -205,7 +269,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://casinohex.se/online-casinon/mascot-gaming",
     "logoUrl": "partner_casinohex.png"
   },
@@ -215,7 +280,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://gamblorium.se/online-casinon/mascot-gaming",
     "logoUrl": "partner_gamblorium.png"
   },
@@ -225,7 +291,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.pokcas.com/interview-mascot-gaming",
     "logoUrl": "partner_pokcas.png"
   },
@@ -235,7 +302,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.nonstopbonus.com/games/mascot-gaming",
     "logoUrl": "partner_nonstopbonus.png"
   },
@@ -245,7 +313,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.casinosites.org/blog/top-6-mascot-slots-games",
     "logoUrl": "partner_casinosites.png"
   },
@@ -255,7 +324,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.slotsmate.com/software/mascot-gaming",
     "logoUrl": "partner_slotsmate.png"
   },
@@ -265,7 +335,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.casino2k.com/elenco-casino/mascot",
     "logoUrl": "partner_casino2k.png"
   },
@@ -275,7 +346,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://slotcatalog.com",
     "logoUrl": "partner_slotcatalog.png"
   },
@@ -285,7 +357,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://www.playcasino.com/casino-software/mascot-gaming",
     "logoUrl": "partner_playcasino.png"
   },
@@ -295,7 +368,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://danskercasino.com/",
     "logoUrl": "partner_dansker.png"
   },
@@ -305,7 +379,8 @@
     "top": false,
     "casino": false,
     "paltform": false,
-    "new": false,
+    "promo": false,
+    "promoText": null,
     "url": "https://boomaff.com/partners/mascot-gaming/",
     "logoUrl": "partner_boomaff.png"
   }

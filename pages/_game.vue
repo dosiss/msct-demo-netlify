@@ -231,7 +231,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 17.928v-8a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8m3-20v4m-8-4v4m-5 4h18m-5 10 2 2 4-4"/></svg>
                   <span class="details-name">Release Date</span>
                   <span class="lead-line"></span>
-                  <div class="details-value">{{currentGame.releaseDate}}</div>
+                  <div class="details-value">{{formatDate(currentGame.releaseDate)}}</div>
                 </li>
 
               </ul>
@@ -378,6 +378,15 @@ export default {
   //   console.log('output:', test)
    // this.mySwiper.slideTo(3, 1000, false)
  },
+
+ methods: {
+
+  formatDate(date) {
+    const options = { year: 'numeric', month: 'numeric', day: 'numeric' }
+    return new Date(date).toLocaleDateString('ro-RO', options)
+  },
+
+}
 
 //  currentGame() {
 //  return this.gamesList

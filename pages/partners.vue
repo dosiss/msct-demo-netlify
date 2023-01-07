@@ -18,20 +18,25 @@
               <button :class="{ active: partnerFilterKey == 'media' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'media'">Media</button>
               <button :class="{ active: partnerFilterKey == 'casino' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'casino'">Casino</button>
               <button :class="{ active: partnerFilterKey == 'platform' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'platform'">Platform</button>
-              <button :class="{ active: partnerFilterKey == 'newPartner' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'newPartner'">New</button>
+              <button :class="{ active: partnerFilterKey == 'promo' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'promo'">Promo</button>
             </div>
           </div>
         </div>
 
 
       </div>
-      <div class="container container-narrow">
+      <div class="container ">
         <div class="all-partners">
             <div class="all-partners__content">
-              <div v-for="(partner, idx) in partnersFilter" :key="idx" class="partner__wrap">
-                <a :href="`${partner.url}`" target="_blank" rel="nofollow noreferrer">
+              <div v-for="(partner, idx) in partnersFilter" :key="idx" :class="{ promopartner: partnerFilterKey == 'promo' }" class="partner__wrap">
+                <a v-if="partnerFilterKey !== 'promo'" :href="`${partner.url}`" target="_blank" rel="nofollow noreferrer">
                     <img :src="`images/${partner.logoUrl}`" :alt="`${partner.name}`" >
                 </a>
+                <div v-else class="partners-card">
+                  <div class="partner-logo"><img :src="`images/${partner.logoUrl}`" :alt="`${partner.name}`" /></div>
+                  <div class="partner-offer">{{partner.promoText}}</div>
+                  <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm">Claim Bonus</a>
+                </div>
               </div>
             </div>
         </div>
@@ -68,7 +73,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'games page description'
+          content: ''
         }
       ]
     }
@@ -80,7 +85,7 @@ export default {
     	  return this[this.partnerFilterKey]
      },
       all() {
-        return allPartners
+        return allPartners.filter((partner) => partner.promo === false)
       },
       top() {
         return allPartners.filter((partner) => partner.top === true)
@@ -94,8 +99,8 @@ export default {
       platform() {
         return allPartners.filter((partner) => partner.platform === true)
       },
-      newPartner() {
-        return allPartners.filter((partner) => partner.new === true)
+      promo() {
+        return allPartners.filter((partner) => partner.promo === true)
       },
   },
 
@@ -105,6 +110,9 @@ export default {
         };
         if(this.$route.query.type === "profitgames") {
           this.partnerFilterKey = "profit"
+        };
+        if(this.$route.query.type === "promo") {
+          this.partnerFilterKey = "promo"
         };
   },
 }
@@ -224,6 +232,47 @@ export default {
         }
         a {
           display: block;
+        }
+        &.promopartner {
+          margin: 10px;
+          width: 23%;
+          @media (max-width: 850px) {
+            width: 45%
+          }
+          @media (max-width: 650px) {
+            width: 100%
+          }
+          .partners-card {
+
+            background: #fff;
+            border-radius: 7px;
+            text-align: center;
+            padding: 15px 15px 25px;
+            @media (max-width: 550px) {
+              justify-self: stretch;
+            }
+            .partner-logo {
+              height: 120px;
+              display: flex;
+              align-items: center;
+              img {
+                width: 100%;
+              }
+            }
+            .partner-offer {
+              font-size: 1.12rem;
+              line-height: 25px;
+              margin-top: 40px;
+              margin-bottom: 20px;
+              color: #000
+            }
+            .buttn-sm {
+              padding: 15px;
+              max-width: 200px;
+              font-size: 1.05rem;
+              margin: 0 auto
+            }
+          }
         }
       }
     }

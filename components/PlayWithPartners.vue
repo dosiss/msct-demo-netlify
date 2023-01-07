@@ -1,8 +1,8 @@
 <template>
-  <div class="playpartners__wrap container">
+  <div v-if="hasPromoPartners" class="playpartners__wrap container">
     <div class="partners__head">
       <h2 class="partners__head-title game-subtitle">Play with our Partners</h2>
-      <nuxt-link to="#" class="inner-link link-yellow link-desktop">
+      <nuxt-link to="/partners?type=promo" class="inner-link link-yellow link-desktop">
         <span>More selected casino offerings</span>
         <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
@@ -11,29 +11,16 @@
     </div>
     <div class="partners__content-wrap">
       <div class="partners__content">
-      <div class="partners-card">
-        <div class="partner-logo"><nuxt-img src="images/partner_logo_favb.png" alt="Favbet" /></div>
-        <div class="partner-offer">Deposit with $100 and Play with $200 + Free Spins</div>
-        <a href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</a>
-      </div>
-      <div class="partners-card">
-        <div class="partner-logo"><nuxt-img src="images/partner_logo_parimatch.png"  alt="PariMatch" /></div>
-        <div class="partner-offer">Deposit with $100 and Play with $200 + Free Spins</div>
-        <a href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</a>
-      </div>
-      <div class="partners-card">
-        <div class="partner-logo"><nuxt-img src="images/partner_logo_pinup.jpg" alt="PinUp Casino" /></div>
-        <div class="partner-offer">Deposit with $100 and Play with $200 + Free Spins</div>
-        <a href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</a>
-      </div>
-      <div class="partners-card">
-        <div class="partner-logo"><nuxt-img src="images/partner_logo_softswiss.png" alt="Softswiss" /></div>
-        <div class="partner-offer">Deposit with $100 and Play with $200 + Free Spins</div>
-        <a href="#" class="buttn buttn-primary buttn-sm">Claim Bonus</a>
+        <div v-for="(partner, idx) in promoPartners" :key="idx" class="partner__wrap promopartner">
+          <div class="partners-card">
+            <div class="partner-logo"><img :src="`images/${partner.logoUrl}`" :alt="`${partner.name}`" /></div>
+            <div class="partner-offer">{{partner.promoText}}</div>
+            <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm">Claim Bonus</a>
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-    <nuxt-link to="#" class="inner-link link-yellow link-mobile">
+    <nuxt-link to="/partners?type=promo" class="inner-link link-yellow link-mobile">
       <span>{{ $device.isMobile ? "More offerings" : "More selected casino offerings" }}</span>
       <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
@@ -43,7 +30,35 @@
 </template>
 
 <script>
+ import allPartners from '../static/data/partners.json'
+
  export default {
+
+   data() {
+     return {
+     hasPromoPartners: false,
+      partnersList: allPartners,
+      promoPartners: []
+     }
+
+   },
+
+   mounted() {
+     const promoPartners = allPartners.filter(val => (val.promo !== false)).slice(0,4);
+
+     if( promoPartners.length ) {
+       this.hasPromoPartners = true;
+       this.promoPartners = promoPartners
+
+     }
+   },
+
+
+   // computed: {
+   //     promoPartners() {
+   //     return allPartners.filter(val => (val.promo !== false)).slice(0,4)
+   //   }
+   // },
 
 }
 </script>
