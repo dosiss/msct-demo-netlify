@@ -8,12 +8,13 @@
         <li v-for="article of visibleArticles" :key="article.slug">
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
             <div v-if="$device.isMobile" class="article-date date-mobile">{{ formatDate(article.archiveDate) }}</div>
-            <div class="article-img"><img :src="`../../images/${article.img}`" alt="" /></div>
+            <div class="article-img">
+              <nuxt-img :src="`../../images/${article.img}`" :alt="`${article.heading}`" sizes="xs:340px sm:450px lg:450px" placeholder  />
+            </div>
             <div class="article-content">
               <div v-if="$device.isMobile == false" class="article-date">{{ formatDate(article.archiveDate) }}</div>
               <h2>{{ article.heading }}</h2>
               <div v-if="$device.isDesktop" class="article-excerpt">{{ truncateStr(article.shortDescr) }}</div>
-
             </div>
           </NuxtLink>
         </li>
@@ -28,7 +29,9 @@
 </template>
 
 <script>
+
   export default {
+
     async asyncData({ $content, params }) {
       const articles = await $content('articles')
         .only(['slug', 'img', 'archiveDate', 'heading', 'shortDescr'])

@@ -4,7 +4,7 @@
   <main class="blog-article">
     <div class="container container-narrow">
       <article>
-         <img :src="`../../images/${article.img}`" alt="" />
+         <v-lazy-image :src="`../../images/${article.img}`" alt="" />
          <h1>{{ article.heading }}</h1>
     <!--    <div v-if="article.archiveDate === null " class="created-date">{{ formatDate(article.createdAt) }}</div>
         <div v-else class="created-date">{{ formatDate(article.archiveDate) }}</div> -->
@@ -23,12 +23,14 @@
 </template>
 
 <script>
+import VLazyImage from "v-lazy-image/v2";
 
 import PrevNext from '~/components/PrevNext'
 
   export default {
 
     components: {
+      VLazyImage,
       PrevNext
     },
 

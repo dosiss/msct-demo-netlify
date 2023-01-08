@@ -397,7 +397,7 @@ export default {
       justify-content: center;
       flex-wrap: wrap;
       .game-thumbnail {
-        
+
         transition: all .5s ease-in-out;
 
         border-radius: 12px;

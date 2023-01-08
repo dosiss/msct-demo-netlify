@@ -65,7 +65,7 @@
         <div v-swiper:mySwiper3="swiperOption">
           <div id="lightgallery" class="swiper-wrapper">
             <div class="swiper-slide game-thumbnail" :data-src="`/images/${currentGame.features[0].imgUrl}`" :data-sub-html="`${currentGame.features[0].name}`">
-              <img :src="`/images/${currentGame.features[0].imgUrl}`" >
+              <nuxt-img :src="`/images/${currentGame.features[0].imgUrl}`" :alt="`${currentGame.features[0].name}`" sizes="sm:350px lg:440px" />
               <div class="game-content__wrap" >
               </div>
             </div>
@@ -77,12 +77,12 @@
                   </video>
               </div>
               <div  v-if="currentGame.videoUrl" class="swiper-slide game-thumbnail slide-video" :data-poster="`/images/${currentGame.placeholderUrl}`" data-sub-html="" data-html="#galleryVideo" >
-                  <img :src="`/images/${currentGame.placeholderUrl}`" />
+                  <nuxt-img :src="`/images/${currentGame.placeholderUrl}`" alt="" sizes="sm:350px lg:440px" />
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 81 80"><rect width="80" height="80" x=".906" fill="#FFCF24" rx="40"/><path fill="#1F1F1F" d="M54.914 36.672 36.125 24.146c-2.658-1.772-6.219.133-6.219 3.328v25.052c0 3.195 3.56 5.1 6.219 3.328l18.789-12.526c2.375-1.583 2.375-5.073 0-6.656Z"/></svg>
               </div>
 
             <div v-for="(feature, idx) in currentGame.features.slice(1)" :key="idx" class="swiper-slide game-thumbnail" :data-src="`/images/${feature.imgUrl}`" :data-sub-html="`${feature.name}`" >
-                <img :src="`/images/${feature.imgUrl}`" >
+                <nuxt-img :src="`/images/${feature.imgUrl}`" :alt="`${feature.name}`" sizes="sm:350px lg:440px" />
                 <div class="game-content__wrap" >
                 </div>
             </div>
