@@ -269,12 +269,22 @@
                 color: #b6b6b7;
                 border-radius: 6px;
                 margin-top: 15px;
+                @media (max-width: 850px) {
+                  width: 465px;
+                }
                 @media (max-width: 650px) {
                   width: 100%;
                 }
               }
               .submit-wrapper {
                 margin-left: 15px;
+                @media (max-width: 850px) {
+                  flex: 1 0 auto;
+                  .buttn {
+                    width: 100%;
+                    text-align: center;
+                  }
+                }
                 @media (max-width: 650px) {
                   margin-left: 0;
                   width: 100%;

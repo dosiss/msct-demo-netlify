@@ -30,10 +30,10 @@
             <div class="all-partners__content">
               <div v-for="(partner, idx) in partnersFilter" :key="idx" :class="{ promopartner: partnerFilterKey == 'promo' }" class="partner__wrap">
                 <a v-if="partnerFilterKey !== 'promo'" :href="`${partner.url}`" target="_blank" rel="nofollow noreferrer">
-                    <img :src="`images/${partner.logoUrl}`" :alt="`${partner.name}`" >
+                    <img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" >
                 </a>
                 <div v-else class="partners-card">
-                  <div class="partner-logo"><img :src="`images/${partner.logoUrl}`" :alt="`${partner.name}`" /></div>
+                  <div class="partner-logo"><img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" /></div>
                   <div class="partner-offer">{{partner.promoText}}</div>
                   <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm">Claim Bonus</a>
                 </div>
