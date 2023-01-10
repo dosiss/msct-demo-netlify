@@ -9,7 +9,7 @@
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
             <div v-if="$device.isMobile" class="article-date date-mobile">{{ formatDate(article.archiveDate) }}</div>
             <div class="article-img">
-              <nuxt-img :src="`../../images/${article.img}`" :alt="`${article.heading}`" sizes="xs:340px sm:450px lg:450px" placeholder  />
+              <nuxt-img :src="`../../images/${article.img}`" :alt="`${article.heading}`" sizes="sm:400px lg:450px" placeholder="../../images/img_blog_placeholder.jpg" />
             </div>
             <div class="article-content">
               <div v-if="$device.isMobile == false" class="article-date">{{ formatDate(article.archiveDate) }}</div>
