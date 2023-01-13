@@ -232,6 +232,9 @@ export default {
         }
         a {
           display: block;
+          img {
+            border-radius: 6px
+          }
         }
         &.promopartner {
           margin: 10px;
