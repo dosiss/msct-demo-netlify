@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import allPartners from '../static/data/partners.json'
+import allPartners from '../static/data/partners_full.json'
 
 export default {
 
