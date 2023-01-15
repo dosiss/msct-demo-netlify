@@ -63,7 +63,7 @@
             <div v-for="(game, idx) in gamesFilter" :key="idx" class="game-thumbnail">
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
-                  <v-lazy-image :src="`images/${game.thumbUrl}`" src-placeholder="images/game_placeholder.jpg" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
+                  <v-lazy-image :src="`images/${game.thumbUrl}`" :src-placeholder="`images/lowres/${game.thumbUrl}`" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
                   <div class="game-content__wrap">
                     <div class="game-content__buttns">
                       <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? "More" : "Learn more" }}</NuxtLink>
@@ -89,9 +89,9 @@
       </div>
 
     </div>
-    <SharingButtons />
-    <AdBanner />
-    <MainFooter />
+      <SharingButtons />
+      <AdBanner />
+      <MainFooter />
   </div>
 
 </template>
@@ -99,12 +99,12 @@
 <script>
 import VLazyImage from "v-lazy-image/v2";
 
-import allGames from '../static/data/games.json'
+import allGames from '../static/data/games-webp.json'
 
 export default {
 
   components: {
-    VLazyImage
+    VLazyImage,
   },
 
   data() {
@@ -425,7 +425,7 @@ export default {
               }
               &.v-lazy-image {
                 filter: blur(10px);
-                transition: filter 0.7s;
+                transition: filter 0.5s;
               }
               &.v-lazy-image-loaded {
                 filter: blur(0);

@@ -14,7 +14,7 @@
       <div v-for="(data, idx) in gamesList.slice(0,7)" :key="idx" class="swiper-slide game-thumbnail">
         <div class="game-thumbnail__outer">
           <div class="game-thumbnail__inner">
-          <img :src="`images/${data.thumbUrl}`" >
+          <v-lazy-image :src="`images/${data.thumbUrl}`" :src-placeholder="`images/lowres/${data.thumbUrl}`" :alt="`${data.name}`" />
           <div class="game-content__wrap">
             <div class="game-content__buttns">
               <NuxtLink :to="data.slug" class="buttn buttn-secondary buttn-sm">Learn more</NuxtLink>
@@ -45,9 +45,14 @@
 </template>
 
 <script>
-import allGames from '../../static/data/games.json'
+import VLazyImage from "v-lazy-image/v2";
+
+import allGames from '../../static/data/games-webp.json'
   export default {
 
+    components: {
+      VLazyImage
+    },
 
     data () {
       return {

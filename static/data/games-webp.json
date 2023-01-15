@@ -1,0 +1,3547 @@
+[
+  {
+    "name": "La Fiesta De Muertos",
+    "slug": "la-fiesta-de-muertos",
+    "linkToDemo": "demo.mascot.games/run/la_fiesta_de_muertos",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2022-12-20",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Bring your masks and calaveras, and may the dead repay you with great treasures!",
+    "thumbUrl": "game_fiesta.webp",
+    "heroUrl": "hero_fiesta.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fiesta.jpg",
+    "logoUrl": "logo_fiesta.png",
+    "backUrl": "back_fiesta.jpg",
+    "detailsImgUrl": "details_fiesta.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Low",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.22,
+      "hitrate": 43.4
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get Bonus Game instead",
+        "imgUrl": "img-feat_fiesta-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Bonus Game",
+        "imgUrl": "img-feat_fiesta-1.jpg"
+      },
+      {
+        "name": "Bonus Game",
+        "descr": "A Bonus Game in a “up to 3 losses” mode. A player collects a Bet Multiplier as well as Multiplier Modifier, and could extend Bonus Game",
+        "imgUrl": "img-feat_fiesta-2.jpg"
+      },
+      {
+        "name": "Sticky Respin",
+        "descr": "Any winning combination remains on the reels and triggers a series of Free Respins",
+        "imgUrl": "img-feat_fiesta-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "La Fiesta De Muertos video slot by Mascot Gaming",
+      "descr": "La Fiesta De Muertos by Mascot Gaming is a video slot with Bonus Game and Sticky Respin feature."
+    }
+  },
+  {
+    "name": "Wildlife Riches",
+    "slug": "wildlife-riches",
+    "linkToDemo": "demo.mascot.games/run/wildlife_riches",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2022-11-22",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Meet the bear, find the fox, explore the canyons, look for gold!",
+    "thumbUrl": "game_wildlife.webp",
+    "heroUrl": "hero_wildlife.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_wildlife.jpg",
+    "logoUrl": "logo_wildlife.png",
+    "backUrl": "back_wildlife.jpg",
+    "detailsImgUrl": "details_wildlife.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": null,
+      "payways": 1024,
+      "html5": true,
+      "rtp": 95.4,
+      "hitrate": 34.1
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get Bonus Game instead",
+        "imgUrl": "img-feat_wildlife-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Bonus Game",
+        "imgUrl": "img-feat_wildlife-1.jpg"
+      },
+      {
+        "name": "Wild Feature",
+        "descr": "When a Wild Symbol appears on the screen, it moves across the reels from left to right with each spin",
+        "imgUrl": "img-feat_wildlife-2.jpg"
+      },
+      {
+        "name": "Bonus Game",
+        "descr": "A Bonus Game in a “up to 3 losses” mode. A player collects a Bet Multiplier as well as Multiplier Modifier, and could extend Bonus Game",
+        "imgUrl": "img-feat_wildlife-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Wildlife Riches video slot game by Mascot Gaming",
+      "descr": "Wildlife Riches by Mascot Gaming is a video slot with Risk&Buy feature."
+    }
+  },
+  {
+    "name": "Hydra's Lair",
+    "slug": "hydras-lair",
+    "linkToDemo": "demo.mascot.games/run/hydras_lair",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2022-10-25",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "Slay the Hydra's head, be rich, the bravest lad!",
+    "thumbUrl": "game_hydra.webp",
+    "heroUrl": "hero_hydra.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_hydra.jpg",
+    "logoUrl": "logo_hydra.png",
+    "backUrl": "back_hydra.jpg",
+    "detailsImgUrl": "details_hydra.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.19,
+      "hitrate": 40.1
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_hydra-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_hydra-1.jpg"
+      },
+      {
+        "name": "The Hydra Feature",
+        "descr": "Hydra turns all adjacent symbols into Wild Symbols with multipliers up to x5",
+        "imgUrl": "img-feat_hydra-2.jpg"
+      },
+      {
+        "name": "Infinite Free Spins",
+        "descr": "The series of Free Spins continues until a combination of Scatter Symbols that triggered it appears on the screen",
+        "imgUrl": "img-feat_hydra-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Hydra's Lair video slot game by Mascot Gaming",
+      "descr": "Hydra's Lair by Mascot Gaming is a video slot with infinite Free Spins and Risk&Buy feature."
+    }
+  },
+  {
+    "name": "Deepsea Riches",
+    "slug": "deepsea-riches",
+    "linkToDemo": "demo.mascot.games/run/deepsea_riches",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2022-09-27",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Dive into the deep sea and don't let your treasures flee!",
+    "thumbUrl": "game_deepsea.webp",
+    "heroUrl": "hero_deepsea.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_deepsea.jpg",
+    "logoUrl": "logo_deepsea.png",
+    "backUrl": "back_deepsea.jpg",
+    "detailsImgUrl": "details_deepsea.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.23,
+      "hitrate": 31.4
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_deepsea-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_deepsea-1.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "Winning combinations vanish from the screen replaced with new symbols, increasing the winnings",
+        "imgUrl": "img-feat_deepsea-2.jpg"
+      },
+      {
+        "name": "Rockfall Multipliers",
+        "descr": "Each new Rockfall in the series increases the multiplier up to x10 in the regular game and up to x25 during Free Spins",
+        "imgUrl": "img-feat_deepsea-3.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Combination of 3, 4 or 5 Scatter Symbols gives a series of 10, 15 or 30 Free Spins accordingly",
+        "imgUrl": "img-feat_deepsea-4.jpg"
+      },
+      {
+        "name": "Extra Free Spins",
+        "descr": "Extra Free Spins can be won during current Free Spin series",
+        "imgUrl": "img-feat_deepsea-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "DEEPSEA RICHES 3d slot game by Mascot Gaming",
+      "descr": "DEEPSEA RICHES by Mascot Gaming is a 3d video slot with Rockfall mechanics and a legendary Risk&Buy Feature."
+    }
+  },
+  {
+    "name": "Loot the Train!",
+    "slug": "loot-the-train",
+    "linkToDemo": "demo.mascot.games/run/loot_the_train",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2022-08-30",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "Hurry up, feed your brain! Be the winner, loot the train!",
+    "thumbUrl": "game_train.webp",
+    "heroUrl": "hero_train.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_train.jpg",
+    "logoUrl": "logo_train.png",
+    "backUrl": "back_train.jpg",
+    "detailsImgUrl": "details_train.png",
+    "stats": {
+      "reels": 6,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.02,
+      "hitrate": 38.8
+    },
+    "features": [
+      {
+        "name": "Bonus Game",
+        "descr": "A Bonus Game in a “up to 3 losses” mode. A player collects a Bet Multiplier as well as Multiplier Modifier, and could extend Bonus Game",
+        "imgUrl": "img-feat_train-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get Bonus Game with a random number of Starting Bonus Symbols instead",
+        "imgUrl": "img-feat_train-1.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Bonus Game with a random number of Starting Bonus Symbols",
+        "imgUrl": "img-feat_train-2.jpg"
+      },
+      {
+        "name": "New screen animation",
+        "descr": "Each cell on the screen rolls as separate reel",
+        "imgUrl": "img-feat_train-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Loot The Train! Slot game by Mascot Gaming",
+      "descr": "Loot The Train! By Mascot Gaming is a video slot with Bonus Game and famous Risk&Buy feature."
+    }
+  },
+  {
+    "name": "The Princess & Dwarfs: Rockways",
+    "slug": "the-princess-and-dwarfs-rockways",
+    "linkToDemo": "demo.mascot.games/run/princess_and_dwarfs_rockways",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2022-07-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Dwarfs and princess, hidden riches – go down the mine, to the treasure mistress!",
+    "thumbUrl": "game_princess.webp",
+    "heroUrl": "hero_princess.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_princess.jpg",
+    "logoUrl": "logo_princess.png",
+    "backUrl": "back_princess.jpg",
+    "detailsImgUrl": "details_princess.png",
+    "stats": {
+      "reels": 6,
+      "rows": 6,
+      "volatility": "High",
+      "paylines": null,
+      "payways": "from 64 to 46656",
+      "html5": true,
+      "rtp": 95.19,
+      "hitrate": 32.2
+    },
+    "features": [
+      {
+        "name": "Rockways Feature",
+        "descr": "Each reel has a different height during each spin – from 2 to 6 symbols. It provides different pay ways number for each spin – from 64 to 46656",
+        "imgUrl": "img-feat_princess-0.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "Each new Rockfall in the series increases multiplier up to x5 in a regular game and up to x15 during Free Spins",
+        "imgUrl": "img-feat_princess-1.jpg"
+      },
+      {
+        "name": "Rockfall Multipliers",
+        "descr": "Each win increases the win multiplier for the next spin from x1 to x5",
+        "imgUrl": "img-feat_princess-2.jpg"
+      },
+      {
+        "name": "Bonus Game with Bonus Rockfall Feature",
+        "descr": "A bonus game in which the player collects a bet multiplier or accumulates Free Spins",
+        "imgUrl": "img-feat_princess-3.jpg"
+      },
+      {
+        "name": "Free Spins with Wild Reels Feature",
+        "descr": "Wild Symbol forms Wild Reel during Free Spin series and it gives multiple combinations with each winning symbol",
+        "imgUrl": "img-feat_princess-4.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_princess-5.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_princess-6.jpg"
+      }
+    ],
+    "meta": {
+      "title": "The Princess & Dwarfs: Rockways slot game by Mascot Gaming",
+      "descr": "The Princess & Dwarfs: Rockways from Mascot Gaming is a video slot with Bonus Game and Rockways and Rockfall mechanics."
+    }
+  },
+  {
+    "name": "1X Fruits",
+    "slug": "1x-fruits",
+    "linkToDemo": "demo.mascot.games/run/1x_fruits",
+    "theme": "video slot",
+    "type": null,
+    "risknbuy": false,
+    "releaseDate": "10.10.22",
+    "featured": false,
+    "topGame": false,
+    "branded": true,
+    "descr": "Cherry, lemon, watermelon. Take your juicy winning, fella!",
+    "thumbUrl": "game_1xfruits.webp",
+    "heroUrl": "hero_1xfruits.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_1xfruits.jpg",
+    "logoUrl": "logo_1xfruits.png",
+    "backUrl": "back_1xfruits.jpg",
+    "detailsImgUrl": "details_1xfruits.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.1,
+      "hitrate": 22.8
+    },
+    "features": [
+      {
+        "name": "Both Way Pays",
+        "descr": "Payments on the rows are made from both leftmost to the right and rightmost to the left",
+        "imgUrl": "img-feat_1xfruits-0.jpg"
+      },
+      {
+        "name": "Expanding Wilds",
+        "descr": "Wild symbol expands to cover the entire reel and increases the winning combination",
+        "imgUrl": "img-feat_1xfruits-1.jpg"
+      },
+      {
+        "name": "Free Respin Feature",
+        "descr": "Expanding Wild symbols start the series of re-spins which will last as long as new Wilds appear on the screen. Expanding Wilds become Sticky during the whole re-spins series",
+        "imgUrl": "img-feat_1xfruits-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "1X Fruits: video slot game from Mascot Gaming",
+      "descr": "1X Fruits is our new video slot with the atmosphere of the good old Vegas."
+    }
+  },
+  {
+    "name": "Double Triple Fruits",
+    "slug": "double-triple-fruits",
+    "linkToDemo": "demo.mascot.games/run/double_triple_fruits",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2022-06-21",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Double joy, triple fresh – join our fruity flash!",
+    "thumbUrl": "game_dtfruits.webp",
+    "heroUrl": "hero_dtfruits.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_dtfruits.jpg",
+    "logoUrl": "logo_dtfruits.png",
+    "backUrl": "back_dtfruits.jpg",
+    "detailsImgUrl": "details_dtfruits.png",
+    "stats": {
+      "reels": 3,
+      "rows": 5,
+      "volatility": "Low",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.23,
+      "hitrate": 54.7
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "Reel of identical symbols increases the number of winning combinations for 1 spin",
+        "imgUrl": "img-feat_dtfruits-0.jpg"
+      },
+      {
+        "name": "Double-Triple feature",
+        "descr": "During each spin, the symbols can become double or triple, significantly increasing a chance to win",
+        "imgUrl": "img-feat_dtfruits-1.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "Each win increases the win multiplier for the next spin from x1 to x5",
+        "imgUrl": "img-feat_dtfruits-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "DOUBLE TRIPLE FRUITS: video slot game by Mascot Gaming",
+      "descr": "DOUBLE TRIPLE FRUITS is our new video slot with Double-Triple feature and Win multiplier."
+    }
+  },
+  {
+    "name": "Fruit Disco: Megastacks",
+    "slug": "fruit-disco-megastacks",
+    "linkToDemo": "demo.mascot.games/run/fruit_disco_ms",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2022-07-05",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Old school rhythms and disco fruits – let's dance together this summer!",
+    "thumbUrl": "game_fruitdisco.webp",
+    "heroUrl": "hero_fruitdisco.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fruitdisco.jpg",
+    "logoUrl": "logo_fruitdisco.png",
+    "backUrl": "back_fruitdisco.jpg",
+    "detailsImgUrl": "details_fruitdisco.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.42,
+      "hitrate": 23.3
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "Reel of identical symbols increases the number of winning combinations for 1 spins",
+        "imgUrl": "img-feat_fruitdisco-0.jpg"
+      },
+      {
+        "name": "Fruit Disco Mega Stacks feature",
+        "descr": "From 2 to 5 neighboring reels are filled with stacks of identical symbols every single spin, significantly increasing a chance to win",
+        "imgUrl": "img-feat_fruitdisco-1.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "Each win increases the win multiplier for the next spin from x1 to x10",
+        "imgUrl": "img-feat_fruitdisco-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "FRUIT DISCO: MEGASTACKS: video slot game by Mascot Gaming",
+      "descr": "FRUIT DISCO: MEGASTACKS is our new video slot with Stacked Symbols feature."
+    }
+  },
+  {
+    "name": "Riot 2: Blow and Burn",
+    "slug": "riot-2-blow-and-burn",
+    "linkToDemo": "demo.mascot.games/run/riot_2_bnb",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2022-05-24",
+    "featured": true,
+    "topGame": true,
+    "branded": false,
+    "descr": "A new challenge. A new struggle. New villains against old heroes. Who will you join? The sequel of the legendary slot game is here!",
+    "thumbUrl": "game_riot2.webp",
+    "heroUrl": "hero_riot2.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_riot2.jpg",
+    "logoUrl": "logo_riot2.png",
+    "backUrl": "back_riot2.jpg",
+    "detailsImgUrl": "details_riot2.png",
+    "stats": {
+      "reels": 6,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 25,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.38,
+      "hitrate": 43.1
+    },
+    "features": [
+      {
+        "name": "Rockfall Feature",
+        "descr": "Winning combinations vanish from the screen replaced by new symbols and increase winnings",
+        "imgUrl": "img-feat_riot2-0.jpg"
+      },
+      {
+        "name": "Scatter symbols",
+        "descr": "A certain number of scatters of one of 2 kinds gives 1 of 2 kinds of Free Spins in “tug of war” mode",
+        "imgUrl": "img-feat_riot2-1.jpg"
+      },
+      {
+        "name": "Blow! Free Spins and Blow! Feature",
+        "descr": "Dynamite symbols remain on the screen until they turn into Wild symbols each of which adds a certain amount of additional Wilds",
+        "imgUrl": "img-feat_riot2-2.jpg"
+      },
+      {
+        "name": "Burn! Free Spins and Burn! Feature",
+        "descr": "Barrel symbols stay on the screen until they form a stack, which becomes a Wild Reel symbol",
+        "imgUrl": "img-feat_riot2-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_riot2-4.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_riot2-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Riot 2: Blow and Burn slot game by Mascot Gaming",
+      "descr": "Riot 2: Blow and Burn from Mascot Gaming is a video slot game with RockFall mechanics and the famous Risk & Buy feature."
+    }
+  },
+  {
+    "name": "Mayan Riches Rockways",
+    "slug": "mayan-riches-rockways",
+    "linkToDemo": "demo.mascot.games/run/mayan_riches_rockways",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2021-04-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "They say this land is full of gold and treasures… Will you dare to go looking for them?",
+    "thumbUrl": "game_mayan.webp",
+    "heroUrl": "hero_mayan.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_mayan.jpg",
+    "logoUrl": "logo_mayan.png",
+    "backUrl": "back_mayan.jpg",
+    "detailsImgUrl": "details_mayan.png",
+    "stats": {
+      "reels": 6,
+      "rows": 6,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": "from 64 to 46656",
+      "html5": true,
+      "rtp": 95.1,
+      "hitrate": 20.1
+    },
+    "features": [
+      {
+        "name": "Rockways Feature",
+        "descr": "Each reel has a different height during each spin – from 2 to 6 symbols. It provides different pay ways number for each spin – from 64 to 46656",
+        "imgUrl": "img-feat_mayan-0.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "Winning combinations vanish from the screen replaced by new symbols and increase winnings",
+        "imgUrl": "img-feat_mayan-1.jpg"
+      },
+      {
+        "name": "Rockfall Multipliers",
+        "descr": "Each new rockfall in the series increases multiplier up to x5 in a regular game and up to x15 during Free Spins",
+        "imgUrl": "img-feat_mayan-2.jpg"
+      },
+      {
+        "name": "Free Spins with Scatter Symbol",
+        "descr": "Combination of five Scatter Symbols triggers a series of 25 Free Spins + 5 Free Spins for each additional drop of the Scatter Symbol during this combination",
+        "imgUrl": "img-feat_mayan-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_mayan-4.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_mayan-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "MAYAN RICHES ROCKWAYS slot game by Mascot Gaming",
+      "descr": "MAYAN RICHES ROCKWAYS by Mascot Gaming is a video slot with RockWays and RockFall mechanics."
+    }
+  },
+  {
+    "name": "Across the Universe",
+    "slug": "across-the-universe",
+    "linkToDemo": "demo.mascot.games/run/across_the_universe",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2022-03-22",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Space – so far away, so beautiful, so alluring. Enjoy your trip!",
+    "thumbUrl": "game_universe.webp",
+    "heroUrl": "hero_universe.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_universe.jpg",
+    "logoUrl": "logo_universe.png",
+    "backUrl": "back_universe.jpg",
+    "detailsImgUrl": "details_universe.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 94.9,
+      "hitrate": 38.2
+    },
+    "features": [
+      {
+        "name": "Guaranteed Free Spins",
+        "descr": "When the Free Spins Scale fills up, the player receives that number of Free Spins that is displayed on the screen during the current spin. All winnings are tripled during Free Spins series.",
+        "imgUrl": "img-feat_universe-0.jpg"
+      },
+      {
+        "name": "Guaranteed Bonus",
+        "descr": "When the Instant Win Scale fills up, the player receives that amount of winnings that is displayed on the screen during the current spin.",
+        "imgUrl": "img-feat_universe-1.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_universe-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_universe-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "ACROSS THE UNIVERSE slot game by Mascot Gaming",
+      "descr": "ACROSS THE UNIVERSE by Mascot Gaming is a video slot with guaranteed Free Spins and Bonus Winnings."
+    }
+  },
+  {
+    "name": "The Candy Crush",
+    "slug": "candy-crush",
+    "linkToDemo": "demo.mascot.games/run/candy_crush",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2022-02-22",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "Sweet like candy, are you ready? Donuts, pretzels and marshmallow wait for you and send you hello!",
+    "thumbUrl": "game_candycrush.webp",
+    "heroUrl": "hero_candycrush.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_candycrush.jpg",
+    "logoUrl": "logo_candycrush.png",
+    "backUrl": "back_candycrush.jpg",
+    "detailsImgUrl": "details_candycrush.png",
+    "stats": {
+      "reels": 6,
+      "rows": 5,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 15625,
+      "html5": true,
+      "rtp": 95.2,
+      "hitrate": 26.6
+    },
+    "features": [
+      {
+        "name": "Random Feature",
+        "descr": "Up to 4 of one of the special symbols (Wild, Scatter or Bonus) will randomly appear on the screen during a regular game. During Free Spins each spin gives 1 to 4 of each special symbol",
+        "imgUrl": "img-feat_candycrush-0.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "Winning combinations vanish from the screen replaced by new symbols and increase winnings",
+        "imgUrl": "img-feat_candycrush-1.jpg"
+      },
+      {
+        "name": "Free Spins & Extra Free Spins",
+        "descr": "Five or more Scatter Symbols give you at least 10 Free Spins, in which you can win extra Free Spins",
+        "imgUrl": "img-feat_candycrush-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_candycrush-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_candycrush-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "THE CANDY CRUSH slot game by Mascot Gaming",
+      "descr": "HE CANDY CRUSH by Mascot Gaming is a video slot with Random, Rockfall and Risk&Buy features."
+    }
+  },
+  {
+    "name": "For the Realm",
+    "slug": "for-the-realm",
+    "linkToDemo": "demo.mascot.games/run/for_the_realm",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2022-01-25",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "The battle for a fantasy realm is on its rise! Which side will you choose?",
+    "thumbUrl": "game_fortherealm.webp",
+    "heroUrl": "hero_fortherealm.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fortherealm.jpg",
+    "logoUrl": "logo_fortherealm.png",
+    "backUrl": "back_fortherealm.jpg",
+    "detailsImgUrl": "details_fortherealm.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.4,
+      "hitrate": 31.3
+    },
+    "features": [
+      {
+        "name": "Freedom Alliance Feature",
+        "descr": "The winning combination of 4 and more Freedom Alliance Symbols awards the Freedom Alliance feature with x3 multiplier",
+        "imgUrl": "img-feat_fortherealm-0.jpg"
+      },
+      {
+        "name": "Dark Horde Feature",
+        "descr": "A series of 10 Free Spins. Each Dark Horde Symbol becomes Sticky Wild Symbol when appear",
+        "imgUrl": "img-feat_fortherealm-1.jpg"
+      },
+      {
+        "name": "Underworld Menace Feature",
+        "descr": "A series of 10 Free Spins. Demon Symbol becomes Wild Reel when it appears anywhere on the screen and starts Free Respin",
+        "imgUrl": "img-feat_fortherealm-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_fortherealm-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_fortherealm-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "For The Realm video slot game by Mascot Gaming",
+      "descr": "For The Realm is a fantasy slot game by Mascot Gaming with three different Free Spins series and exclusive Risk&Buy feature."
+    }
+  },
+  {
+    "name": "Twin Fruits of Santa",
+    "slug": "twin-fruits-of-santa",
+    "linkToDemo": "demo.mascot.games/run/twin_fruits_of_santa",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2021-12-21",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "We wish you a Merry Christmas, we wish you a Merry Christmas, we wish you a Merry Christmas and Р° juicy fruit bunch!",
+    "thumbUrl": "game_santa.webp",
+    "heroUrl": "hero_santa.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_santa.jpg",
+    "logoUrl": "logo_santa.png",
+    "backUrl": "back_santa.jpg",
+    "detailsImgUrl": "details_santa.png",
+    "stats": {
+      "reels": 4,
+      "rows": 5,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 1024,
+      "html5": true,
+      "rtp": 95.5,
+      "hitrate": 39.2
+    },
+    "features": [
+      {
+        "name": "1024 Pay Ways feature",
+        "descr": "1024 pay ways gives even more winning combinations on the screen!",
+        "imgUrl": "img-feat_santa-0.jpg"
+      },
+      {
+        "name": "Twin Reels feature",
+        "descr": "From 2 to 5 neighbouring reels become “twins” every single spin, significantly increasing a chance to win at every spin",
+        "imgUrl": "img-feat_santa-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "TWIN FRUITS OF SANTA: video slot game by Mascot Gaming",
+      "descr": "TWIN FRUITS OF SANTA is our new video slot with Tween Reels feature and 1024 Pay Ways."
+    }
+  },
+  {
+    "name": "Cleopatra's Gems Rockways",
+    "slug": "cleopatras-gems-rockways",
+    "linkToDemo": "demo.mascot.games/run/cleopatras_gems_rockways",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2021-12-21",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "Beautiful Queen rules these sandy ancient lands. Guess which gems Cleopatra is hiding!",
+    "thumbUrl": "game_cleo.webp",
+    "heroUrl": "hero_cleo.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_cleo.jpg",
+    "logoUrl": "logo_cleo.png",
+    "backUrl": "back_cleo.jpg",
+    "detailsImgUrl": "details_cleo.png",
+    "stats": {
+      "reels": 6,
+      "rows": 6,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": "from 64 to 46656",
+      "html5": true,
+      "rtp": 95.1,
+      "hitrate": 20.1
+    },
+    "features": [
+      {
+        "name": "Rockways Feature",
+        "descr": "Each reel has a different height during each spin – from 2 to 6 symbols. It provides different pay ways number for each spin – from 64 to 46656",
+        "imgUrl": "img-feat_cleo-0.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "Winning combinations vanish from the screen replaced by new symbols and increase winnings",
+        "imgUrl": "img-feat_cleo-1.jpg"
+      },
+      {
+        "name": "Rockfall Multipliers",
+        "descr": "Each new rockfall in the series increases multiplier up to x5 in a regular game and up to x15 during Free Spins",
+        "imgUrl": "img-feat_cleo-2.jpg"
+      },
+      {
+        "name": "Free Spins with Scatter Symbol",
+        "descr": "Combination of five Scatter Symbols triggers a series of 25 Free Spins + 5 Free Spins for each additional drop of the Scatter Symbol during this combination",
+        "imgUrl": "img-feat_cleo-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_cleo-4.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_cleo-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "CLEOPATRA'S GEMS ROCKWAYS slot game by Mascot Gaming",
+      "descr": "CLEOPATRA'S GEMS ROCKWAYS by Mascot Gaming is a video slot with RockWays and RockFall mechanics."
+    }
+  },
+  {
+    "name": "Fairytale Coven",
+    "slug": "fairytale-coven",
+    "linkToDemo": "demo.mascot.games/run/fairytale_coven",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2021-12-07",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Imperious fairies coven reins these enchanting lands. Feel the power of beauty and magic!",
+    "thumbUrl": "game_fairytale.webp",
+    "heroUrl": "hero_fairytale.jpg",
+    "blueButtn": true,
+    "videoUrl": "video_fairytale.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_fairytale.jpg",
+    "logoUrl": "logo_fairytale.png",
+    "backUrl": "back_fairytale.jpg",
+    "detailsImgUrl": "details_fairytale.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.4,
+      "hitrate": 31.3
+    },
+    "features": [
+      {
+        "name": "Aerial Magic Feature",
+        "descr": "The winning combination of 4 and more Aerial Fairy Symbols awards the Aerial Free Spins feature with x3 multiplier",
+        "imgUrl": "img-feat_fairytale-0.jpg"
+      },
+      {
+        "name": "Nature Magic Feature",
+        "descr": "A series of 10 Free Spins. Each Nature Fairy Symbol becomes Sticky Wild Symbol when appear",
+        "imgUrl": "img-feat_fairytale-1.jpg"
+      },
+      {
+        "name": "Dark Magic Feature",
+        "descr": "A series of 10 Free Spins. Dark Fairy Symbol becomes Wild Reel when it appears anywhere on the screen",
+        "imgUrl": "img-feat_fairytale-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_fairytale-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_fairytale-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Fairytale Coven video slot game by Mascot Gaming",
+      "descr": "Fairytale Coven is a magical slot game by Mascot Gaming with three different Free Spins series and exclusive Risk&Buy feature."
+    }
+  },
+  {
+    "name": "Primal Bet. Rockways",
+    "slug": "primal-bet-rockways",
+    "linkToDemo": "demo.mascot.games/run/primal_bet_rockways",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2021-11-23",
+    "featured": true,
+    "topGame": false,
+    "branded": false,
+    "descr": "Primal beasts, beloved by all of us as children, with an old–school vibe. Hear the roar of dinosaurs!",
+    "thumbUrl": "game_primalbet.webp",
+    "heroUrl": "hero_primalbet.jpg",
+    "blueButtn": true,
+    "videoUrl": "video_primalbet.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_primalbet.jpg",
+    "logoUrl": "logo_primalbet.png",
+    "backUrl": "back_primalbet.jpg",
+    "detailsImgUrl": "details_primalbet.png",
+    "stats": {
+      "reels": 6,
+      "rows": 6,
+      "volatility": "High",
+      "paylines": null,
+      "payways": "from 64 to 46656",
+      "html5": true,
+      "rtp": 95.27,
+      "hitrate": 33.2
+    },
+    "features": [
+      {
+        "name": "Rockways Feature",
+        "descr": "Each reel has a different height during each spin – from 2 to 6 symbols. It provides different pay ways number for each spin – from 64 to 46656",
+        "imgUrl": "img-feat_primalbet-0.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "Winning combinations vanish from the screen replaced by new symbols and increase winnings",
+        "imgUrl": "img-feat_primalbet-1.jpg"
+      },
+      {
+        "name": "Rockfall Multipliers",
+        "descr": "Each new rockfall in the series increases multiplier up to x5 in a regular game and up to x10 during Free Spins",
+        "imgUrl": "img-feat_primalbet-2.jpg"
+      },
+      {
+        "name": "Free Spins with Wild Reels Feature",
+        "descr": "Wild Symbol forms Wild Reel during Free Spin Series and it gives multiple combinations with each winning symbol",
+        "imgUrl": "img-feat_primalbet-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_primalbet-4.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_primalbet-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Primal Bet. Rockways slot game by Mascot Gaming",
+      "descr": "Primal Bet. Rockways from Mascot Gaming is a video slot with RockWays and Rockfall mechanics."
+    }
+  },
+  {
+    "name": "Aloha Tiki Bar",
+    "slug": "aloha-tiki-bar",
+    "linkToDemo": "demo.mascot.games/run/aloha_tiki_bar",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2021-11-02",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Missing summer already? Then come to the Tiki Bar and get the hottest and juiciest experience ever! Aloha!",
+    "thumbUrl": "game_aloha.webp",
+    "heroUrl": "hero_aloha.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_aloha.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_aloha.jpg",
+    "logoUrl": "logo_aloha.png",
+    "backUrl": "back_aloha.jpg",
+    "detailsImgUrl": "details_aloha.png",
+    "stats": {
+      "reels": 6,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": null,
+      "payways": 3600,
+      "html5": true,
+      "rtp": 95.2,
+      "hitrate": 23.4
+    },
+    "features": [
+      {
+        "name": "3600 Pay Ways",
+        "descr": "3600 pay ways gives even more winning combinations on the screen!",
+        "imgUrl": "img-feat_aloha-0.jpg"
+      },
+      {
+        "name": "Expanding Wilds",
+        "descr": "Wild symbol expands to cover the entire reel and increases the winning combination",
+        "imgUrl": "img-feat_aloha-1.jpg"
+      },
+      {
+        "name": "Free Respin Feature",
+        "descr": "Expanding Wild symbol become Sticky and start the 1 free Respin. Wild symbol may start 1 free Respin up to 4 times",
+        "imgUrl": "img-feat_aloha-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "ALOHA TIKI BAR: video slot game by Mascot Gaming",
+      "descr": "ALOHA TIKI BAR is our new video slot on 3600 pay ways."
+    }
+  },
+  {
+    "name": "Evil bet",
+    "slug": "evil-bet",
+    "linkToDemo": "demo.mascot.games/run/the_evil_bet",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2021-09-28",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Bloody hell! Somewhere in the woods sinister creatures are up to crawl out the ground and make some noise. It's time to treat them with an old good chainsaw!",
+    "thumbUrl": "game_evilbet.webp",
+    "heroUrl": "hero_evilbet.jpg",
+    "blueButtn": true,
+    "videoUrl": "video_evilbet.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_evilbet.jpg",
+    "logoUrl": "logo_evilbet.png",
+    "backUrl": "back_evilbet.jpg",
+    "detailsImgUrl": "details_evilbet.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.5,
+      "hitrate": 35.6
+    },
+    "features": [
+      {
+        "name": "Game Modifiers",
+        "descr": "Each non–winning spin activates gaming modifiers which work together or separately, including additional Wild and Stacked Wild Symbols as well as Winning Multipliers up to x5",
+        "imgUrl": "img-feat_evilbet-0.jpg"
+      },
+      {
+        "name": "7 Different Free Spins",
+        "descr": "Free Spins play with modifiers that are actual at the moment of Free Spins winning. It gives up to 7 different types of Free Spins and diversifies player's game experience offering a variety of winnings",
+        "imgUrl": "img-feat_evilbet-1.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "Extra Free Games can be won as often as their initial combinations appear",
+        "imgUrl": "img-feat_evilbet-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_evilbet-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_evilbet-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "EVIL BET, video slot by Mascot Gaming",
+      "descr": "EVIL BET is a video slot by Mascot Gaming with Risk&Buy feature and game modifiers."
+    }
+  },
+  {
+    "name": "PinUp Dolls",
+    "slug": "pinup-dolls",
+    "linkToDemo": "demo.mascot.games/run/pinup_dolls",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2021-09-15",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "It's getting hot in here! Meet gorgeous ladies and take your prizes at our pin up cafe!",
+    "thumbUrl": "game_pinup.webp",
+    "heroUrl": "hero_pinup.jpg",
+    "blueButtn": true,
+    "videoUrl": "video_pinup.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_pinup.jpg",
+    "logoUrl": "logo_pinup.png",
+    "backUrl": "back_pinup.jpg",
+    "detailsImgUrl": "details_pinup.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Low",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.7,
+      "hitrate": 46.5
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_pinup-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_pinup-1.jpg"
+      },
+      {
+        "name": "Free Spins feature",
+        "descr": "A set of up to 10 Free Games in which at least 2 reels turn into Wild Reels",
+        "imgUrl": "img-feat_pinup-2.jpg"
+      },
+      {
+        "name": "Pinup Cafe bonus feature",
+        "descr": "Pinup Cafe Bonus will award a player with prize coins, increase current win or give Free Spins",
+        "imgUrl": "img-feat_pinup-3.jpg"
+      },
+      {
+        "name": "Wild Reels feature",
+        "descr": "From 1 to 5 random reels turn into Wild Reels every spin in a regular game",
+        "imgUrl": "img-feat_pinup-4.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "Extra free games can be won as often as their initial combinations appear",
+        "imgUrl": "img-feat_pinup-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Pinup Dolls video slot game by Mascot Gaming",
+      "descr": "Pinup Dolls by Mascot Gaming is a video slot with Wild Reels and unique Risk&Buy feature."
+    }
+  },
+  {
+    "name": "Dragon's Nest",
+    "slug": "dragons-nest",
+    "linkToDemo": "demo.mascot.games/run/dragons_nest",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2021-08-17",
+    "featured": true,
+    "topGame": false,
+    "branded": false,
+    "descr": "In a faraway castle a Great Dragon guards his precious eggs like the apple of an eye. Try to grab this treasured trophy from him!",
+    "thumbUrl": "game_dragonsnest.webp",
+    "heroUrl": "hero_dragonsnest.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_dragonsnest.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_dragonsnest.jpg",
+    "logoUrl": "logo_dragonsnest.png",
+    "backUrl": "back_dragonsnest.jpg",
+    "detailsImgUrl": "details_dragonsnest.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.2,
+      "hitrate": 27.3
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_dragonsnest-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_dragonsnest-1.jpg"
+      },
+      {
+        "name": "Dragon's Eggs Feature",
+        "descr": "A combination of 5 different Egg Symbols randomly turns into a money prize for each Egg Symbol on the screen",
+        "imgUrl": "img-feat_dragonsnest-2.jpg"
+      },
+      {
+        "name": "Dragon's Eggs Feature",
+        "descr": "A combination of 5 different Egg Symbols randomly turns into Wild Symbol with up to x5 multiplier",
+        "imgUrl": "img-feat_dragonsnest-3.jpg"
+      },
+      {
+        "name": "Dragon's Eggs Feature",
+        "descr": "A combination of 5 different Egg Symbols randomly turns into different Free Spins for each Egg Symbol on the screen",
+        "imgUrl": "img-feat_dragonsnest-4.jpg"
+      },
+      {
+        "name": "Free Spins with Extra Eggs",
+        "descr": "Free Spin series where each round adds a random number of Egg Symbols to the screen that forms even more combinations for Dragon's Eggs Feature",
+        "imgUrl": "img-feat_dragonsnest-5.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "Extra Free Spins can be won according to the regular rules of Dragon's Eggs Feature",
+        "imgUrl": "img-feat_dragonsnest-6.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Dragon's Nest video slot game by Mascot Gaming",
+      "descr": "Dragon's Nest by Mascot Gaming is a video slot with a lot of different prizes and unique Risk&Buy feature."
+    }
+  },
+  {
+    "name": "Fruits of Luxor",
+    "slug": "fruits-of-luxor",
+    "linkToDemo": "demo.mascot.games/run/fruits_of_luxor",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2021-07-27",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Juicy splash in the sands of the Ancient World. Enjoy a fresh adventure to marvelous Luxor!",
+    "thumbUrl": "game_luxor.webp",
+    "heroUrl": "hero_luxor.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_luxor.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_luxor.jpg",
+    "logoUrl": "logo_luxor.png",
+    "backUrl": "back_luxor.jpg",
+    "detailsImgUrl": "details_luxor.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Low",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.0,
+      "hitrate": 46.3
+    },
+    "features": [
+      {
+        "name": "Two Way Pays",
+        "descr": "The winning combinations are counted both left to the right and right to the left",
+        "imgUrl": "img-feat_luxor-0.jpg"
+      },
+      {
+        "name": "Sticky Wilds & Respin feature",
+        "descr": "When appearing, Wild Symbols become Sticky and start Respin series which last until new Wild Symbols appear",
+        "imgUrl": "img-feat_luxor-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "FRUITS OF LUXOR: video slot game from Mascot Gaming",
+      "descr": "FRUITS OF LUXOR is our new video slot with Sticky Wilds & Respin feature."
+    }
+  },
+  {
+    "name": "Twin fruits of Olympus",
+    "slug": "twin-fruits-of-olympus",
+    "linkToDemo": "demo.mascot.games/run/twin_fruits_of_olympus",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2021-07-27",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "The Olympus mountain is all covered with divine fruits. What are the gods up to? Take your chance and grab all the godsents in a new slot game!",
+    "thumbUrl": "game_olymp.webp",
+    "heroUrl": "hero_olymp.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_olymp.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_olymp.jpg",
+    "logoUrl": "logo_olymp.png",
+    "backUrl": "back_olymp.jpg",
+    "detailsImgUrl": "details_olymp.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 1024,
+      "html5": true,
+      "rtp": 95.5,
+      "hitrate": 39.2
+    },
+    "features": [
+      {
+        "name": "1024 Pay Ways feature",
+        "descr": "1024 pay ways gives even more winning combinations on the screen!",
+        "imgUrl": "img-feat_olymp-0.jpg"
+      },
+      {
+        "name": "Twin Reels feature",
+        "descr": "From 2 to 5 neighbouring reels become “twins” every single spin, significantly increasing a chance to win at every spin",
+        "imgUrl": "img-feat_olymp-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "TWIN FRUITS OF OLYMPUS: video slot game from Mascot Gaming",
+      "descr": "TWIN FRUITS OF OLYMPUS is our new video slot with twin reels feature"
+    }
+  },
+  {
+    "name": "Zeus the Thunderer",
+    "slug": "zeus-the-thunderer",
+    "linkToDemo": "demo.mascot.games/run/zeus_the_thunderer",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2021-06-29",
+    "featured": true,
+    "topGame": true,
+    "branded": false,
+    "descr": "Do you hear the thunder? Now your destiny is in the hands of the Greatest Olympic Gods! Beautiful Aphrodite, powerful Zeus and mysterious Hades are waiting for you in the new outstanding game.",
+    "thumbUrl": "game_zeus.webp",
+    "heroUrl": "hero_zeus.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_zeus.mp4",
+    "videoEnabled": true,
+    "placeholderUrl": "video_zeus.jpg",
+    "logoUrl": "logo_zeus.png",
+    "backUrl": "back_zeus.jpg",
+    "detailsImgUrl": "details_zeus.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Low",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.3,
+      "hitrate": 46.06
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the three Free Spins series with a Sticky Symbol instead",
+        "imgUrl": "img-feat_zeus-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy one of the three Free Spin series with a Sticky Symbol",
+        "imgUrl": "img-feat_zeus-1.jpg"
+      },
+      {
+        "name": "Zeus Free Spins",
+        "descr": "Free Spins series where all Zeus Symbols become Sticky until the end of the current Free Spin series or until they match a winning combination",
+        "imgUrl": "img-feat_zeus-2.jpg"
+      },
+      {
+        "name": "Hades Free Spins",
+        "descr": "Free Spins series where all Hades Symbols become Sticky until the end of the current Free Spin series or until they match a winning combination",
+        "imgUrl": "img-feat_zeus-3.jpg"
+      },
+      {
+        "name": "Aphrodite Free Spins",
+        "descr": "Free Spins series where all Aphrodite Symbols become Sticky until the end of the current Free Spin series or until they match a winning combination",
+        "imgUrl": "img-feat_zeus-4.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "Additional Free Spins can be won – one for each Scatter Symbol which appears on the screen",
+        "imgUrl": "img-feat_zeus-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Zeus The Thunderer video slot from Mascot Gaming",
+      "descr": "Zeus The Thunderer from Mascot Gaming is a beautiful video slot with three types of Free Spins."
+    }
+  },
+  {
+    "name": "The Book of Amaterasu",
+    "slug": "the-book-of-amaterasu",
+    "linkToDemo": "demo.mascot.games/run/book_of_amaterasu",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2021-06-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "The great goddes of the Sun Amaterasu is shining in the sky. Look, she's opened her book in front of you! Now your fate is in your hands.",
+    "thumbUrl": "game_book-of-amaterasu.webp",
+    "heroUrl": "hero_book-of-amaterasu.jpg",
+    "blueButtn": true,
+    "videoUrl": "video_book-of-amaterasu.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_book-of-amaterasu.jpg",
+    "logoUrl": "logo_book-of-amaterasu.png",
+    "backUrl": "back_book-of-amaterasu.jpg",
+    "detailsImgUrl": "details_book-of-amaterasu.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.0,
+      "hitrate": 28.09
+    },
+    "features": [
+      {
+        "name": "Free Spins with Special Expanding Symbol",
+        "descr": "Free Games series where a random symbol becomes Special and pays by the Scatter rules additionally to regular winnings",
+        "imgUrl": "img-feat_book-amaterasu-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series with Special Expanding Symbol instead",
+        "imgUrl": "img-feat_book-amaterasu-1.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non-winning bets, a player can Buy Free Spin series with Special Expanding Symbol",
+        "imgUrl": "img-feat_book-amaterasu-2.jpg"
+      },
+      {
+        "name": "Mystery Symbol",
+        "descr": "Two-in-one symbol which replaces any symbol and forms a Scatter combination on the screen",
+        "imgUrl": "img-feat_book-amaterasu-3.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "Extra free games can be won as often as their initial combinations appear",
+        "imgUrl": "img-feat_book-amaterasu-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Book of Amaterasu video slot from Mascot Gaming",
+      "descr": "Book of Amaterasu from Mascot Gaming is a charming video slot with Free Spins with special expanding symbol"
+    }
+  },
+  {
+    "name": "Bastet and Cats",
+    "slug": "bastet",
+    "linkToDemo": "demo.mascot.games/run/bastet_and_cats",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2021-04-20",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Endless golden sands, pyramids and… cats. It's time to go to Ancient Egypt! Bastet, the goddess of joy, fun and richness will bring you luck. Meow!",
+    "thumbUrl": "game_bastet.webp",
+    "heroUrl": "hero_bastet.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_bastet.jpg",
+    "logoUrl": "logo_bastet.png",
+    "backUrl": "back_bastet.jpg",
+    "detailsImgUrl": "details_bastet.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Low",
+      "paylines": 40,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.0,
+      "hitrate": 46.9
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_bastet-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non-winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_bastet-1.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "Winning combinations vanish from the screen replaced with new symbols, increasing the winnings",
+        "imgUrl": "img-feat_bastet-2.jpg"
+      },
+      {
+        "name": "Rockfall Multipliers",
+        "descr": "Each new rockfall in the series increases the multiplier up to x5 in the base game and up to x15 during Free Spins",
+        "imgUrl": "img-feat_bastet-3.jpg"
+      },
+      {
+        "name": "Scatter Feature",
+        "descr": "When the feature is activated, each Scatter on the screen gives a random amount of Free Spins or credits, forming impressive prizes and long Free Spin series",
+        "imgUrl": "img-feat_bastet-4.jpg"
+      },
+      {
+        "name": "Free Spins & Extra Free Spins",
+        "descr": "Free Spins are triggered according to the general rules. They can be retriggered",
+        "imgUrl": "img-feat_bastet-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Bastet and Cats 3d slot game from Mascot Gaming",
+      "descr": "Bastet and Cats from Mascot Gaming is a 3d video slot with Rockfall mechanics and unique Risk&Buy feature. Meow!"
+    }
+  },
+  {
+    "name": "The myth",
+    "slug": "the-myth",
+    "linkToDemo": "demo.mascot.games/run/the_myth",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2021-03-16",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Do you believe in myths of dragon's treasures? Go on an adventure trip with powerful vikings then!",
+    "thumbUrl": "game_myth.webp",
+    "heroUrl": "hero_myth.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_myth.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_myth.jpg",
+    "logoUrl": "logo_myth.png",
+    "backUrl": "back_myth.jpg",
+    "detailsImgUrl": "details_myth.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 94.8,
+      "hitrate": 25.8
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of 4 Free Spins series instead",
+        "imgUrl": "img-feat_myth-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For no-winning bets, a player can Buy in one of 4 Free Spin features",
+        "imgUrl": "img-feat_myth-1.jpg"
+      },
+      {
+        "name": "Dragon Free Spins",
+        "descr": "A Free Spins series that can be re-triggered. A Wild Dragon rune appears per Free Spin, and then all Wild symbols turn into the Wild Reel",
+        "imgUrl": "img-feat_myth-2.jpg"
+      },
+      {
+        "name": "Viking Free Spins",
+        "descr": "Regular symbols located on all adjacent positions around the Wild Viking symbol replace with Wild Viking runes creating 3x3 blocks. Free Spins can be re-triggered",
+        "imgUrl": "img-feat_myth-3.jpg"
+      },
+      {
+        "name": "Skadi Free Spins",
+        "descr": "While the Wild Skadi Rune remains on the screen, you get additional Free Spins, during which Skadi moves from right to left, from reel to reel. Free Spins are re\\-triggerable",
+        "imgUrl": "img-feat_myth-4.jpg"
+      },
+      {
+        "name": "Wolf Free Spins",
+        "descr": "Three Wild Wolf runes are added every Free Spin to ensure the creation of winning combos. Free Spins are re-triggerable. Every Free Spin is winning!",
+        "imgUrl": "img-feat_myth-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "The Myth video slot game from Mascot Gaming",
+      "descr": "The Myth from Mascot Gaming is a video slot with unique Risk&Buy feature. Go on an adventure with powerful Vikings!"
+    }
+  },
+  {
+    "name": "Prince of Persia: the Gems of Persepolis",
+    "slug": "prince-of-persia",
+    "linkToDemo": "demo.mascot.games/run/prince_of_persia_tgop",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2021-02-02",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Oh, the marvelous and mysterious East, the land of fairy-tales, rich in gold and gems&hellip; Let's take an adventure together with Prince of Persia and hunt the legendary treasures!",
+    "thumbUrl": "game_prince.webp",
+    "heroUrl": "hero_prince.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_prince.jpg",
+    "logoUrl": "logo_prince.png",
+    "backUrl": "back_prince.jpg",
+    "detailsImgUrl": "details_prince.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.1,
+      "hitrate": 20.1
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_prince-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non-winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_prince-1.jpg"
+      },
+      {
+        "name": "2 Wild Symbols",
+        "descr": "2 Wild Symbols enable frequent and increasing winnings",
+        "imgUrl": "img-feat_prince-2.jpg"
+      },
+      {
+        "name": "Gold Wild Symbol",
+        "descr": "Gold Wild Symbol substitutes all symbols, including Wild and Scatter. Takes part of a combination which starts Free Spins",
+        "imgUrl": "img-feat_prince-3.jpg"
+      },
+      {
+        "name": "Free Spins feature with Sticky Wilds",
+        "descr": "Free Spins with additional Gold Wild symbols which transform into Sticky Wild during the time of a Free Spins series",
+        "imgUrl": "img-feat_prince-4.jpg"
+      },
+      {
+        "name": "3 Extra Free Spins with guaranteed winnings",
+        "descr": "3 middle reels of identical Gold Wild symbols promise big winnings for additional Free Spins",
+        "imgUrl": "img-feat_prince-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Prince of Persia video slot game from Mascot Gaming",
+      "descr": "Prince of Persia from Mascot Gaming is a video slot with unique Risk&Buy feature. Oh, the marvelous and mysterious East!"
+    }
+  },
+  {
+    "name": "Merry Scary Christmas",
+    "slug": "merry-scary-christmas",
+    "linkToDemo": "demo.mascot.games/run/merry_scary_christmas",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2020-12-22",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Ho Ho Ho Christmas is coming! It's a most wonderful time of the year... but wait, who stole all the gifts? Bad Santa wants to ruin the celebration - don't let him take your winnings! It's gonna be Scary Merry Christmas!",
+    "thumbUrl": "game_merry-scary-christmas.webp",
+    "heroUrl": "hero_merry-scary-christmas.jpg",
+    "blueButtn": false,
+    "videoUrl": "videos/video_merry-scary-christmas.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_merry-scary-christmas.jpg",
+    "logoUrl": "logo_merry-scary-christmas.png",
+    "backUrl": "back_merry-scary-christmas.jpg",
+    "detailsImgUrl": "details_merry-scary-christmas.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.2,
+      "hitrate": 27.3
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_christmas-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non-winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_christmas-1.jpg"
+      },
+      {
+        "name": "Santa's Gift Feature",
+        "descr": "A combination of 5 different Gifts randomly turns into a money prize for each Gift on the screen",
+        "imgUrl": "img-feat_christmas-2.jpg"
+      },
+      {
+        "name": "Santa's Gift Feature",
+        "descr": "A combination of 5 different Gifts randomly turns into Wild Symbol with up to x5 multiplier",
+        "imgUrl": "img-feat_christmas-3.jpg"
+      },
+      {
+        "name": "Santa's Gift Feature",
+        "descr": "A combination of 5 different Gifts randomly turns into different Free Spins for each Gift on the screen",
+        "imgUrl": "img-feat_christmas-4.jpg"
+      },
+      {
+        "name": "Free Spins with Extra Gifts",
+        "descr": "Free Spin series where each round adds a random number of Gifts to the screen that forms even more combinations for Santa's Gift Feature",
+        "imgUrl": "img-feat_christmas-5.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "Extra Free Spins can be won according to the regular rules of Santa's Gift Feature",
+        "imgUrl": "img-feat_christmas-6.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Merry Scary Christmas video slot game from Mascot Gaming",
+      "descr": "Merry Scary Christmas from Mascot Gaming is a video slot with unique Risk&Buy feature. Ho Ho Ho Christmas is coming!"
+    }
+  },
+  {
+    "name": "Three corsairs",
+    "slug": "three-corsairs",
+    "linkToDemo": "demo.mascot.games/run/three_corsairs",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2020-11-24",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Fair winds and following seas! Find the treasure map together with courageous corsairs, ahoy!",
+    "thumbUrl": "game_threecorsairs.webp",
+    "heroUrl": "hero_threecorsairs.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_threecorsairs.jpg",
+    "logoUrl": "logo_threecorsairs.png",
+    "backUrl": "back_threecorsairs.jpg",
+    "detailsImgUrl": "details_threecorsairs.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 40,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.5,
+      "hitrate": 37.8
+    },
+    "features": [
+      {
+        "name": "The Treasure Map bonus feature",
+        "descr": "Win-win bonus game with a chance to win Free Spin series or huge winning with up to x10 multiplier",
+        "imgUrl": "img-feat_corsairs-0.jpg"
+      },
+      {
+        "name": "Free Spins feature",
+        "descr": "Classic Scatter symbol combination pays up to 30 Free Spins at a time",
+        "imgUrl": "img-feat_corsairs-1.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "A player can get extra free games as often as its initial combination appears",
+        "imgUrl": "img-feat_corsairs-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_corsairs-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non-winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_corsairs-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Three Corsairs video slot game from Mascot Gaming",
+      "descr": "Three Corsairs from Mascot Gaming is a video slot with unique Risk&Buy feature. Find the treasure map together with courageous corsairs!"
+    }
+  },
+  {
+    "name": "Queen of Spades",
+    "slug": "queen-of-spades",
+    "linkToDemo": "demo.mascot.games/run/queen_of_spades",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2020-11-17",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Cards never lie, are you ready to risk to know your fate? Queen of Spades is waiting for you in her castle!",
+    "thumbUrl": "game_queenofspades.webp",
+    "heroUrl": "hero_queen-of-spades.jpg",
+    "blueButtn": true,
+    "videoUrl": "video_queenofspades.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_queenofspades.jpg",
+    "logoUrl": "logo_queenofspades.png",
+    "backUrl": "back_queen-of-spades.jpg",
+    "detailsImgUrl": "details_queen-of-spades.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Low",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.1,
+      "hitrate": 27.6
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_queen-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non-winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_queen-1.jpg"
+      },
+      {
+        "name": "Guaranteed Bonus",
+        "descr": "A Bonus Game is launched when a player collects 5 Q cards appearing one at a time without waiting for a complicated symbol combination on the screen",
+        "imgUrl": "img-feat_queen-2.jpg"
+      },
+      {
+        "name": "Queen feature",
+        "descr": "Win-win Click me bonus where a player collects a combination of 3xK or 3xQ symbols to get guaranteed Free Spin series",
+        "imgUrl": "img-feat_queen-3.jpg"
+      },
+      {
+        "name": "Queen Free Spins feature",
+        "descr": "Free Spins series where all Q symbols become Sticky Wilds till the end of the series",
+        "imgUrl": "img-feat_queen-4.jpg"
+      },
+      {
+        "name": "King Free Spins feature",
+        "descr": "Free Spins series in which up to 5 Wild Symbols appear at a random place on the screen before every Free Spin, thus forming expensive winning combinations",
+        "imgUrl": "img-feat_queen-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Queen of Spades video slot game from Mascot Gaming",
+      "descr": "Queen of Spades from Mascot Gaming is a video slot with a unique Risk&Buy feature. Are you ready to risk to know your fate?"
+    }
+  },
+  {
+    "name": "Rekill",
+    "slug": "rekill",
+    "linkToDemo": "demo.mascot.games/run/re_kill",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2020-10-27",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Do you really think it's not possible? Look around, they are here! Zombie apocalypse has come and only the strongest will survive. If you brave enough try to stay alive...or say good bye to some of your body parts. Yummy!",
+    "thumbUrl": "game_rekill-rerun.webp",
+    "heroUrl": "hero_rekill-rerun.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_rekill-rerun.jpg",
+    "logoUrl": "logo_rekill-rerun.png",
+    "backUrl": "back_rekill.jpg",
+    "detailsImgUrl": "details_rekill-rerun.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Low",
+      "paylines": 40,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.9,
+      "hitrate": 30.8
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_rekill-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non-winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_rekill-1.jpg"
+      },
+      {
+        "name": "Random Wild Reels feature",
+        "descr": "With a certain probability, up to 5 random reels in the base game can be transformed into Wild Reels",
+        "imgUrl": "img-feat_rekill-2.jpg"
+      },
+      {
+        "name": "Free Spins feature with Transforming Wilds",
+        "descr": "Free Spins series, where Wild Zombie symbol turns all hero pictures into Wild Zombie Symbol",
+        "imgUrl": "img-feat_rekill-3.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "Extra free games can be won as often as their initial combinations appear",
+        "imgUrl": "img-feat_rekill-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "REKILL, video slot game from Mascot Gaming",
+      "descr": "REKILL is a video slot game on 5 reels full of zombies. If you brave enough try to stay alive...or say good bye to some of your body parts. Yummy!"
+    }
+  },
+  {
+    "name": "Fruit Macau",
+    "slug": "fruit-macau",
+    "linkToDemo": "demo.mascot.games/run/fruit_macau",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2020-09-30",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Nobody loves fruits as much as slot lovers. Our superhit fruits started their opulent voyage in Vegas. Ready, steady... and we are in fabulous Macau! Juicy fruits, immersive music, plenty of new thrilling features – open the second chapter of Mascot Gaming Fruit Trilogy. The next stop is Monaco!",
+    "thumbUrl": "game_macau.webp",
+    "heroUrl": "hero_macau.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_macau.jpg",
+    "logoUrl": "logo_macau.png",
+    "backUrl": "back_macau.jpg",
+    "detailsImgUrl": "details_macau.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 9,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.0,
+      "hitrate": 36.5
+    },
+    "features": [
+      {
+        "name": "Adjacent Pays",
+        "descr": "Winnings are paid for combinations of 3 or more adjacent symbols in any position on the bet line",
+        "imgUrl": "img-feat_macau-0.jpg"
+      },
+      {
+        "name": "Free spins with up to x5 pays",
+        "descr": "Scatter combinations launch Free Spins with various multipliers up to x5",
+        "imgUrl": "img-feat_macau-1.jpg"
+      },
+      {
+        "name": "Additional free spins",
+        "descr": "Extra free games can be won as often as their initial combinations appear",
+        "imgUrl": "img-feat_macau-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "FRUIT MACAU: video slot game from Mascot Gaming",
+      "descr": "FRUIT MACAU is our new game with juicy fruits and plenty of new thrilling features. Open the second chapter of Mascot Gaming Fruit Trilogy!"
+    }
+  },
+  {
+    "name": "Fruit Monaco",
+    "slug": "fruit-monaco",
+    "linkToDemo": "demo.mascot.games/run/fruit_monaco",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2020-09-30",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "From Vegas to Macau, from Macau to Monaco: our fruit tour of casino capitals is making a real blast. Feel the royal vibe, play like a king, enjoy your juicy victory in a classic fruit game!",
+    "thumbUrl": "game_monaco.webp",
+    "heroUrl": "hero_monaco.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_monaco.jpg",
+    "logoUrl": "logo_monaco.png",
+    "backUrl": "back_monaco.jpg",
+    "detailsImgUrl": "details_monaco.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.45,
+      "hitrate": 34.7
+    },
+    "features": [
+      {
+        "name": "Free Spins with up to x5 Wild multiplier",
+        "descr": "During Free Spins series Wild symbol multiplies winning combination up to 5 times",
+        "imgUrl": "img-feat_monaco-0.jpg"
+      },
+      {
+        "name": "Transforming Wilds",
+        "descr": "During Free Spins series Wild Symbol transforms Kings and Queens into Wild Symbols",
+        "imgUrl": "img-feat_monaco-1.jpg"
+      },
+      {
+        "name": "Additional free spins",
+        "descr": "Extra free games can be won as often as their initial combinations appear",
+        "imgUrl": "img-feat_monaco-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "FRUIT MONACO: video slot game from Mascot Gaming",
+      "descr": "FRUIT MONACO is our new video slot game - a homage to the luxurious gambling principality and iconic slot theme."
+    }
+  },
+  {
+    "name": "Fruit Vegas",
+    "slug": "fruitvegas",
+    "linkToDemo": "demo.mascot.games/run/fruit_vegas",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2019-07-01",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "We all love the atmosphere of the good old Vegas. A bright cocktail made of colourful fruits, funny music and favourite features is waiting for you. Let yourself drain into a fresh, juicy world!",
+    "thumbUrl": "game_fruitvegas.webp",
+    "heroUrl": "hero_fruitvegas.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fruitvegas.jpg",
+    "logoUrl": "logo_fruitvegas.png",
+    "backUrl": "back_fruitvegas.jpg",
+    "detailsImgUrl": "details_fruitvegas.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.1,
+      "hitrate": 22.8
+    },
+    "features": [
+      {
+        "name": "Both Way Pays",
+        "descr": "Payments on the rows are made from both leftmost to right and rightmost to left",
+        "imgUrl": "img-feat_fruitvegas-0.jpg"
+      },
+      {
+        "name": "Expanding Wilds",
+        "descr": "Wild symbol expands to cover the entire reel and increases the winning combination",
+        "imgUrl": "img-feat_fruitvegas-1.jpg"
+      },
+      {
+        "name": "Free Respin Feature",
+        "descr": "Expanding Wild symbols start the series of re-spins which will last as long as new Wilds appear on the screen. Expanding Wilds become Sticky during the whole re-spins series",
+        "imgUrl": "img-feat_fruitvegas-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "FRUIT VEGAS: video slot game from Mascot Gaming",
+      "descr": "FRUIT VEGAS is our new video slot with the atmosphere of the good old Vegas."
+    }
+  },
+  {
+    "name": "Robin of Loxley",
+    "slug": "robin",
+    "linkToDemo": "demo.mascot.games/run/robin_of_loxley",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2020-08-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Get your bow and arrows ready! Go on the great adventure with a legendary and heroic outlaw Robin of Loxley!",
+    "thumbUrl": "game_robin.webp",
+    "heroUrl": "hero_robin.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_robin.jpg",
+    "logoUrl": "logo_robin.png",
+    "backUrl": "back_robin.jpg",
+    "detailsImgUrl": "details_robin.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.1,
+      "hitrate": 31.1
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_robin-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_robin-1.jpg"
+      },
+      {
+        "name": "Click-me feature",
+        "descr": "This feature precedes Free Spin series and determines its rules – a number of Free Spins and a multiplier of winnings",
+        "imgUrl": "img-feat_robin-2.jpg"
+      },
+      {
+        "name": "Free spins with up to x5 pays",
+        "descr": "Duration and the actual multiplier of Free Spins series will be determined by a player's lucky choice in Click–me feature",
+        "imgUrl": "img-feat_robin-3.jpg"
+      },
+      {
+        "name": "Additional free spins",
+        "descr": "Extra free games can be won when each Scatter symbol appears on the screen",
+        "imgUrl": "img-feat_robin-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Robin of Loxley video slot game from Mascot Gaming",
+      "descr": "Robin of Loxley from Mascot Gaming is a video slot with a unique Risk&Buy feature. Get your bow and arrows ready!"
+    }
+  },
+  {
+    "name": "Riot",
+    "slug": "riot",
+    "linkToDemo": "demo.mascot.games/run/riot",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2020-02-01",
+    "featured": true,
+    "topGame": false,
+    "branded": false,
+    "descr": "Dystopian end of the world theme and unique Risk and Buy feature deliver excitement, anticipation and trills. Are you ready for the Riot?",
+    "thumbUrl": "game_riot.webp",
+    "heroUrl": "hero_riot.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_riot.jpg",
+    "logoUrl": "logo_riot.png",
+    "backUrl": "back_riot.jpg",
+    "detailsImgUrl": "details_riot.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.7,
+      "hitrate": 31.9
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_riot-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_riot-1.jpg"
+      },
+      {
+        "name": "Raze! Rave! feature",
+        "descr": "Raze! Rave! feature is a series of 10 Free Spins. Each Raze gang character during Raze! Rave! feature becomes Sticky Wild symbol when appear",
+        "imgUrl": "img-feat_riot-2.jpg"
+      },
+      {
+        "name": "Base camp feature",
+        "descr": "Base camp feature is a series of 10 Free Spins. Soldier of The Law gang in Base camp feature, becomes Wild Reel, when appear anywhere on the screen",
+        "imgUrl": "img-feat_riot-3.jpg"
+      },
+      {
+        "name": "The survivors free spins",
+        "descr": "The winning combination of 4 and more the Survivors gang character symbols awards The Survivors Free Spins feature with amount of Free Spins according to the paytable",
+        "imgUrl": "img-feat_riot-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Riot video slot game from Mascot Gaming",
+      "descr": "Check out Riot, a new medium volatility 5×3, 15 payline slot with exclusive Risk&Buy feature from Mascot Gaming."
+    }
+  },
+  {
+    "name": "Gemz Grow",
+    "slug": "gemz",
+    "linkToDemo": "demo.mascot.games/run/riot",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": false,
+    "releaseDate": "2019-12-15",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "The enchanting melody sounds in the mountains. This is a magical place where the sun shines and gems are hidden. Immerse yourself in this atmosphere and take your gems!",
+    "thumbUrl": "game_gemz.webp",
+    "heroUrl": "hero_gemz.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_gemz.jpg",
+    "logoUrl": "logo_gemz.png",
+    "backUrl": "back_gemz.jpg",
+    "detailsImgUrl": "details_gemz.png",
+    "stats": {
+      "reels": 5,
+      "rows": "vary",
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 3125,
+      "html5": true,
+      "rtp": 96.7,
+      "hitrate": 46.1
+    },
+    "features": [
+      {
+        "name": "Game on Bet Ways",
+        "descr": "Bet Ways win when matching symbols appear anywhere on adjacent reels. Up to 3125 bet ways are available depending on current gaming feature",
+        "imgUrl": "img-feat_gemz-0.jpg"
+      },
+      {
+        "name": "4 Free Games features with up to x5 multipliers",
+        "descr": "Scatters combinations launch various Free Spins with different number of Free Games and various winning multipliers up to x5!",
+        "imgUrl": "img-feat_gemz-1.jpg"
+      },
+      {
+        "name": "Raze! Rave! feature",
+        "descr": "Raze! Rave! feature is a series of 10 Free Spins. Each Raze gang character during Raze! Rave! feature becomes Sticky Wild symbol when appear",
+        "imgUrl": "img-feat_gemz-2.jpg"
+      },
+      {
+        "name": "Transforming reels",
+        "descr": "All the gaming features run on gaming screens of different formats which helps to form more winning combinations",
+        "imgUrl": "img-feat_gemz-3.jpg"
+      },
+      {
+        "name": "Additional and floating free spins",
+        "descr": "The game lets a player go from one Free Spin feature to another while obtaining additional Free Spins",
+        "imgUrl": "img-feat_gemz-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "GEMZ GROW: video slot game from Mascot Gaming",
+      "descr": "GEMZ GROW is a video slot with 3125 pay ways and enchanting music. Immerse yourself in this atmosphere and take your gemz!"
+    }
+  },
+  {
+    "name": "Red Horde",
+    "slug": "horde",
+    "linkToDemo": "demo.mascot.games/run/red_horde",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": false,
+    "releaseDate": "2019-12-15",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Red goblin horde attacks! Protect your village from nasty creatures and get a gold reward! Secrets hidden in trunks gonna help you increase the winning.",
+    "thumbUrl": "game_horde.webp",
+    "heroUrl": "hero_horde.jpg",
+    "blueButtn": false,
+    "videoUrl": "videos/video_horde.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_horde.jpg",
+    "logoUrl": "logo_horde.png",
+    "backUrl": "back_horde.jpg",
+    "detailsImgUrl": "details_horde.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.5,
+      "hitrate": 35.6
+    },
+    "features": [
+      {
+        "name": "Game modifiers",
+        "descr": "Each non-winning spin activates gaming modifiers which work together or separately, including additional Wild and Stacked Wild symbols as well as Winning Multipliers up to x5",
+        "imgUrl": "img-feat_horde-0.jpg"
+      },
+      {
+        "name": "7 different free spins",
+        "descr": "Free spins play with modifiers that are actual at the moment of free spins winning. It gives up to 7 different variants of free spins and diversifies player's game experience offering a variety of winnings",
+        "imgUrl": "img-feat_horde-1.jpg"
+      },
+      {
+        "name": "Additional free spins",
+        "descr": "Extra free games can be won as often as their initial combinations appear",
+        "imgUrl": "img-feat_horde-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "RED HORDE, video slot from Mascot Gaming",
+      "descr": "RED HORDE is a funny video slot full of extraordinary features. Protect your village from nasty creatures and get a gold reward!"
+    }
+  },
+  {
+    "name": "Gryphon's Castle",
+    "slug": "gryphon",
+    "linkToDemo": "demo.mascot.games/run/gryphons_castle",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2019-07-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Noble Gryphon guards a castle full of treasures. Will you dare to take them? Your bravery deserves a great reward!",
+    "thumbUrl": "game_gryphon.webp",
+    "heroUrl": "hero_gryphon.jpg",
+    "blueButtn": false,
+    "videoUrl": "videos/video_gryphon.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_gryphon.jpg",
+    "logoUrl": "logo_gryphon.png",
+    "backUrl": "back_gryphon.jpg",
+    "detailsImgUrl": "details_gryphon.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.6,
+      "hitrate": 27.2
+    },
+    "features": [
+      {
+        "name": "Gryphon's wild & wild reel Symbols",
+        "descr": "Wild and Wild Reel symbols combinations make various winning combinations bigger than ever",
+        "imgUrl": "img-feat_gryphon-0.jpg"
+      },
+      {
+        "name": "Free spins with x3 pays",
+        "descr": "15 Free Spins where all the winnings are multiplied x3",
+        "imgUrl": "img-feat_gryphon-1.jpg"
+      },
+      {
+        "name": "Additional free spins",
+        "descr": "Extra free games can be won as often as their initial combinations appear",
+        "imgUrl": "img-feat_gryphon-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "GRYPHON'S CASTLE: video slot game from Mascot Gaming",
+      "descr": "GRYPHON'S CASTLE is an exciting video slot with RTP 96.6 and high volatility. Noble creature guards a castle full of treasures. Will you dare to take them?"
+    }
+  },
+  {
+    "name": "Amaterasu keno",
+    "slug": "keno",
+    "linkToDemo": "demo.mascot.games/run/gryphons_castle",
+    "theme": "lottery game",
+    "type": null,
+    "risknbuy": false,
+    "releaseDate": "2022-02-17",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Famous lottery game, popular from the ancient time.",
+    "thumbUrl": "game_keno.webp",
+    "heroUrl": "hero_keno.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_keno.jpg",
+    "logoUrl": "logo_keno.png",
+    "backUrl": "back_keno.jpg",
+    "detailsImgUrl": "details_keno.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.7,
+      "hitrate": 16.3
+    },
+    "features": [
+      {
+        "name": "Lucky Number feature",
+        "descr": "3 random numbers are selected by the game and enable a total win multiplier up to x10!",
+        "imgUrl": "img-feat_keno-0.jpg"
+      },
+      {
+        "name": "Free Games feature",
+        "descr": "Free games can be won by the player according to the Last Number rule",
+        "imgUrl": "img-feat_keno-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "AMATERASU KENO, lottery game from Mascot Gaming",
+      "descr": "AMATERASU KENO is a famous lottery game, popular from the ancient time."
+    }
+  },
+  {
+    "name": "Merlin's Tower",
+    "slug": "merlin",
+    "linkToDemo": "demo.mascot.games/run/merlins_tower",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": false,
+    "releaseDate": "2019-07-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Far far away in the woods stands the Tower. White-haired wizard Merlin is doing his miracles here. Magic potion brings luck to everyone who comes here. Let’s go for a wonders and treasures!",
+    "thumbUrl": "game_merlin.webp",
+    "heroUrl": "hero_merlin.jpg",
+    "blueButtn": true,
+    "videoUrl": "videos/video_merlin.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_merlin.jpg",
+    "logoUrl": "logo_merlin.png",
+    "backUrl": "back_merlin.jpg",
+    "detailsImgUrl": "details_merlin.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": 40,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.9,
+      "hitrate": 31.2
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "Reel of identical symbols increases the number of winning combinations for 1 spin",
+        "imgUrl": "img-feat_merlin-0.jpg"
+      },
+      {
+        "name": "Infinite Free Spins feature",
+        "descr": "Free bonus games will continue as long as its initial combination will not appear on the screen",
+        "imgUrl": "img-feat_merlin-1.jpg"
+      },
+      {
+        "name": "Expanding Wilds feature",
+        "descr": "During free games Wild turns into Expanding Wild and always covers the entire reel",
+        "imgUrl": "img-feat_merlin-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "MERLIN'S TOWER video slot game from Mascot Gaming",
+      "descr": "MERLIN’S TOWER is a video slot based on famous wizard story. Magic potion brings luck to everyone who comes here."
+    }
+  },
+  {
+    "name": "Benny's the Biggest Game",
+    "slug": "benny",
+    "linkToDemo": "demo.mascot.games/run/bennys_the_biggest_game",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2019-09-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "It's time to try our amusing video slot with juicy cartoon graphics and exciting features. Multiply your winnings with Benny's Shoot Me bonus and catch Elephant's free spins game with up to x125 multiplier Wilds. Thrilling jungle adventure has never been so funny!",
+    "thumbUrl": "game_benny.webp",
+    "heroUrl": "hero_benny.jpg",
+    "blueButtn": false,
+    "videoUrl": "videos/video_benny.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_benny.jpg",
+    "logoUrl": "logo_benny.png",
+    "backUrl": "back_benny.jpg",
+    "detailsImgUrl": "details_benny.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.4,
+      "hitrate": 32.2
+    },
+    "features": [
+      {
+        "name": "Scatter Symbols",
+        "descr": "3 different Scatter Symbols in a regular game result in bonuses and award winnings in combinations out of pay lines",
+        "imgUrl": "img-feat_benny-0.jpg"
+      },
+      {
+        "name": "Click Me bonus game",
+        "descr": "Bonus game where player can win prize coins or multiply bonus winnings by several times",
+        "imgUrl": "img-feat_benny-1.jpg"
+      },
+      {
+        "name": "Elephant's Next World Free Spins feature",
+        "descr": "A Free Spin Feature where each Wild Symbol increases the Free Spins multiplier by 1 (up to x25) when it appears",
+        "imgUrl": "img-feat_benny-2.jpg"
+      },
+      {
+        "name": "Extra Free Spins",
+        "descr": "Additional Free Spins can be won for each Scatter Symbol on the screen",
+        "imgUrl": "img-feat_benny-3.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_benny-4.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_benny-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "BENNY'S THE BIGGEST GAME, video slot from Mascot Gaming",
+      "descr": "BENNY'S THE BIGGEST GAME from Mascot Gaming is an amusing video slot with juicy cartoon graphics and exciting features."
+    }
+  },
+  {
+    "name": "Legioner",
+    "slug": "legioner",
+    "linkToDemo": "demo.mascot.games/run/legioner",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2019-07-15",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Once again the Emperor sends his legions to conquer new lands. Will the great Roman Empire be even more powerful? Join the Legioner for the sake of immortal victory!",
+    "thumbUrl": "game_legioner.webp",
+    "heroUrl": "hero_legioner.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_legioner.jpg",
+    "logoUrl": "logo_legioner.png",
+    "backUrl": "back_legioner.jpg",
+    "detailsImgUrl": "details_legioner.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 25,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.0,
+      "hitrate": 46.3
+    },
+    "features": [
+      {
+        "name": "Wild Symbols with 3 Legion's Flag Wild features",
+        "descr": "Legion General Symbol randomly transforms into one out of 3 different symbols that award a player with a multiplier, wild reel or respin with Sticky Wild Reel features",
+        "imgUrl": "img-feat_legioner-0.jpg"
+      },
+      {
+        "name": "Free Spins feature with Legion's Flags Wilds",
+        "descr": "Up to 25 free bonus games with a possibility of extra free games winnings and 3 new different Legion's Flags Wild features",
+        "imgUrl": "img-feat_legioner-1.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series with Special Expanding Symbol instead",
+        "imgUrl": "img-feat_legioner-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series with Special Expanding Symbol",
+        "imgUrl": "img-feat_legioner-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "LEGIONER: video slot game from Mascot Gaming",
+      "descr": "LEGIONER is an exciting video slot based on Ancient Rome history. Join the Legioner for the sake of immortal victory!"
+    }
+  },
+  {
+    "name": "Purple Pills",
+    "slug": "purplepills",
+    "linkToDemo": "demo.mascot.games/run/purple_pills",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2019-07-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Are you bored? We have a remedy for you! Without a doctor’s prescription.",
+    "thumbUrl": "game_purplepills.webp",
+    "heroUrl": "hero_purplepills.jpg",
+    "blueButtn": false,
+    "videoUrl": "videos/video_purplepills.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_purplepills.jpg",
+    "logoUrl": "logo_purplepills.png",
+    "backUrl": "back_purplepills.jpg",
+    "detailsImgUrl": "details_purplepills.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.1,
+      "hitrate": 22.8
+    },
+    "features": [
+      {
+        "name": "Both Way Pays",
+        "descr": "Payments on the rows are made from both leftmost to right and rightmost to left",
+        "imgUrl": "img-feat_pills-0.jpg"
+      },
+      {
+        "name": "Expanding Wilds",
+        "descr": "Wild symbol expands to cover the entire reel and increases the winning combination",
+        "imgUrl": "img-feat_pills-1.jpg"
+      },
+      {
+        "name": "Free Respin Feature",
+        "descr": "Expanding Wild symbols start the series of re-spins which will last as long as new Wilds appear on the screen. Expanding Wilds become Sticky during the whole re-spins series",
+        "imgUrl": "img-feat_pills-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "PURPLE PILLS video slot game from Mascot Gaming",
+      "descr": "No one remain indifferent to this funny video slot. Check PURPLE PILLS - our homage to the old rap song."
+    }
+  },
+  {
+    "name": "Wild Spirit",
+    "slug": "wildspirit",
+    "linkToDemo": "demo.mascot.games/run/purple_pills",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2019-07-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Have you ever heard the wolf singing to the moon? Open your mind to the wild spirit of beautiful savage lands.",
+    "thumbUrl": "game_wildspirit.webp",
+    "heroUrl": "hero_wildspirit.jpg",
+    "blueButtn": false,
+    "videoUrl": "videos/video_wildspirit.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_wildspirit.jpg",
+    "logoUrl": "logo_wildspirit.png",
+    "backUrl": "back_wildspirit.jpg",
+    "detailsImgUrl": "details_wildspirit.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": 40,
+      "payways": null,
+      "html5": true,
+      "rtp": 97.0,
+      "hitrate": 31.2
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "Reel of identical symbols increases quantity of winning combinations for 1 spin",
+        "imgUrl": "img-feat_wildspirit-0.jpg"
+      },
+      {
+        "name": "Massive pay feature",
+        "descr": "All reels of identical symbols double big winning",
+        "imgUrl": "img-feat_wildspirit-1.jpg"
+      },
+      {
+        "name": "Free Spins feature with Extra Wilds stacks",
+        "descr": "Free bonus games with stacked Wild Symbols that increase every free spin",
+        "imgUrl": "img-feat_wildspirit-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "WILD SPIRIT: video slot game from Mascot Gaming",
+      "descr": "WILD SPIRIT is our new mysterious video slot. Open your mind to the wild spirit of beautiful savage lands"
+    }
+  },
+  {
+    "name": "Blackjack",
+    "slug": "blackjack",
+    "linkToDemo": "demo.mascot.games/run/blackjack_mg",
+    "theme": "table/cards",
+    "type": null,
+    "risknbuy": false,
+    "releaseDate": "2019-07-15",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "What’s the first thing that comes to your mind when you think about casino? Of course, it’s Blackjack – a classic card game, popular all over the world. We made it as accessible as possible – sit at the virtual table, enjoy good music and play!",
+    "thumbUrl": "game_blackjack.webp",
+    "heroUrl": "hero_blackjack.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_blackjack.jpg",
+    "logoUrl": "logo_blackjack.png",
+    "backUrl": "back_blackjack.jpg",
+    "detailsImgUrl": "details_blackjack.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.4,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "One hand mobile game",
+        "descr": "Convenient interface in “book” format for mobile devices",
+        "imgUrl": "img-feat_blackjack-0.jpg"
+      },
+      {
+        "name": "3 hands table game",
+        "descr": "Player can make up to 3 bets in one dealing, which allows trying various strategies as if at a real casino table",
+        "imgUrl": "img-feat_blackjack-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "BLACKJACK: a new game from Mascot Gaming",
+      "descr": "BLACKJACK is a classic card game, popular all over the world."
+    }
+  },
+  {
+    "name": "Baccarat",
+    "slug": "baccarat",
+    "linkToDemo": "demo.mascot.games/run/baccarat_mg",
+    "theme": "table/cards",
+    "type": null,
+    "risknbuy": false,
+    "releaseDate": "2019-09-15",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Baccarat historically was the favorite entertainment of aristocratic high society, in the original version secret agent 007 James Bond played exactly this game. Try your luck not wearing a tuxedo – you are invited to our virtual table!",
+    "thumbUrl": "game_baccarat.webp",
+    "heroUrl": "hero_baccarat.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_baccarat.jpg",
+    "logoUrl": "logo_baccarat.png",
+    "backUrl": "back_baccarat.jpg",
+    "detailsImgUrl": "details_baccarat.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": 98.9,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "One hand mobile game",
+        "descr": "Convenient interface in “book” format for mobile devices",
+        "imgUrl": "img-feat_baccarat-0.jpg"
+      },
+      {
+        "name": "Classic Baccarat card game",
+        "descr": "A player plays against the casino trying to guess whose hand – player's or dealer's – will be better hand or to predict the tie",
+        "imgUrl": "img-feat_baccarat-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "BACCARAT: a new card game from Mascot Gaming",
+      "descr": "BACCARAT is a card game from Mascot Gaming, popular all over the world."
+    }
+  },
+  {
+    "name": "Casino Hold'em",
+    "slug": "holdem",
+    "linkToDemo": "demo.mascot.games/run/holdem_mg",
+    "theme": "table/cards",
+    "type": null,
+    "risknbuy": false,
+    "releaseDate": "2019-09-15",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Feel the Las Vegas vibe and try your luck against the casino! Enjoy our classical interpretation of Texas Casino Hold'em – the most popular sort of poker game.",
+    "thumbUrl": "game_holdem.webp",
+    "heroUrl": "hero_holdem.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_holdem.jpg",
+    "logoUrl": "logo_holdem.png",
+    "backUrl": "back_holdem.jpg",
+    "detailsImgUrl": "details_holdem.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": 99.3,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "One hand mobile game",
+        "descr": "Convenient interface in “book” format for mobile devices",
+        "imgUrl": "img-feat_holdem-0.jpg"
+      },
+      {
+        "name": "Classic Casino Hold'em card game",
+        "descr": "Player plays against casino using classic poker 5 card combinations",
+        "imgUrl": "img-feat_holdem-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "CASINO HOLD'EM: a new card game from Mascot Gaming",
+      "descr": "CASINO HOLD'EM is a card game from Mascot Gaming, popular all over the world."
+    }
+  },
+  {
+    "name": "Hell'sing",
+    "slug": "hellsing",
+    "linkToDemo": "demo.mascot.games/run/hellsing",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": true,
+    "releaseDate": "2021-02-09",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "In the mountains of Transylvania danger awaits you at every step - insidious vampires, savage werewolves, scary monsters. Are you brave enough for this creepy adventure? Legendary monster hunter Van Helsing will definitely appreciate your help by generous reward!",
+    "thumbUrl": "game_hellsing.webp",
+    "heroUrl": "hero_hellsing.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_hellsing.jpg",
+    "logoUrl": "logo_hellsing.png",
+    "backUrl": "back_hellsing.jpg",
+    "detailsImgUrl": "details_hellsing.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 40,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.3,
+      "hitrate": 32.7
+    },
+    "features": [
+      {
+        "name": "Vampire Hunt Free Spins feature",
+        "descr": "Free Spins series in which Vampire Symbols appear at a random place on the screen before every Free Spin, thus forming expensive winning combinations. Additional Vampire Hunt Free Spins can be won in the current feature according to the general rules.",
+        "imgUrl": "img-feat_hellsing-0.jpg"
+      },
+      {
+        "name": "Werewolf Hunt Free Spins feature",
+        "descr": "Free Spins series where a Werewolf Symbol becomes Special and pays by the scatter rules additionally to general winnings. Additional Werewolf Hunt Free Spins can be won in the current feature according to the general rules.",
+        "imgUrl": "img-feat_hellsing-1.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series instead",
+        "imgUrl": "img-feat_hellsing-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_hellsing-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "HELLSING, video slot game from Mascot Gaming",
+      "descr": "HELLSING is a classic 5 reels video slot game from Mascot Gaming. Creepy characters and bloodcurdling soundtrack will not leave indifferent any fan of horror stories!"
+    }
+  },
+  {
+    "name": "Anksunamun: the queen of Egypt",
+    "slug": "anksunamun",
+    "linkToDemo": "demo.mascot.games/run/anksunamun",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": false,
+    "releaseDate": "2019-02-01",
+    "featured": true,
+    "topGame": true,
+    "branded": false,
+    "descr": "Beautiful queen Anksunamun, Nefertiti daughter, will help you unravel the mystery of pharaoh's tomb. Are you ready for a thrilling adventure? Great treasures, severe gods, pharaohs and pyramids - enjoy the breathtaking world of Ancient Egypt!",
+    "thumbUrl": "game_anksunamun.webp",
+    "heroUrl": "hero_anksunamun.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_anksunamun.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_anksunamun.jpg",
+    "logoUrl": "logo_anksunamun.png",
+    "backUrl": "back_anksunamun.jpg",
+    "detailsImgUrl": "details_anksunamun.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.6,
+      "hitrate": 21.5
+    },
+    "features": [
+      {
+        "name": "2 Wild Symbols",
+        "descr": "2 Wild Symbols enable frequent and increasing winnings",
+        "imgUrl": "img-feat_anksunamun-0.jpg"
+      },
+      {
+        "name": "Gold Wild Symbol",
+        "descr": "Gold Wild Symbol substitutes all symbols, including Wild and Scatter. Takes part of a combination which starts free games",
+        "imgUrl": "img-feat_anksunamun-1.jpg"
+      },
+      {
+        "name": "Free Spins feature with Sticky Wilds",
+        "descr": "Free games with additional Gold Wild symbols which transform into Sticky Wild during the time of a free game",
+        "imgUrl": "img-feat_anksunamun-2.jpg"
+      },
+      {
+        "name": "3 Extra Free Spins with guaranteed winnings",
+        "descr": "3 middle reels of identical Gold Wild symbols promise big winnings for additional free games",
+        "imgUrl": "img-feat_anksunamun-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "ANKSUNAMUN THE QUEEN OF EGYPT, video slot game from Mascot Gaming",
+      "descr": "ANKSUNAMUN THE QUEEN OF EGYPT - video slot based on exciting ancient world. Great treasures, pharaohs and pyramids - enjoy the breathtaking adventure"
+    }
+  },
+  {
+    "name": "Northern Heat",
+    "slug": "northernheat",
+    "linkToDemo": "demo.mascot.games/run/northern_heat",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": false,
+    "releaseDate": "2019-02-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Frosty, freezy, cool! It's time to explore the spectacular Northern Pole. Follow the footsteps of gorgeous arctic animals and find a big winning!",
+    "thumbUrl": "game_nheat.webp",
+    "heroUrl": "hero_nheat.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_nheat.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_nheat.jpg",
+    "logoUrl": "logo_nheat.png",
+    "backUrl": "back_nheat.jpg",
+    "detailsImgUrl": "details_nheat.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 40,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.9,
+      "hitrate": 31.2
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "Reel of identical symbols increases the number of winning combinations for 1 spin",
+        "imgUrl": "img-feat_nheat-0.jpg"
+      },
+      {
+        "name": "Infinite Free Spins feature",
+        "descr": "Free bonus games will continue as long as its initial combination will not appear on the screen",
+        "imgUrl": "img-feat_nheat-1.jpg"
+      },
+      {
+        "name": "Expanding Wilds feature",
+        "descr": "During free games Wild turns into Expanding Wild and always covers the entire reel",
+        "imgUrl": "img-feat_nheat-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "NORTHERN HEAT, video slot game from Mascot Gaming",
+      "descr": "NORTHERN HEAT is an exciting video slot on 5 reels with nice soundtrack. Follow the footsteps of gorgeous arctic animals and find a big winning!"
+    }
+  },
+  {
+    "name": "Cancan Saloon",
+    "slug": "cancansaloon",
+    "linkToDemo": "demo.mascot.games/run/cancan_saloon",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": false,
+    "releaseDate": "2019-02-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "We are going straight to the Wild Wild West: hey cowboy, do not pass by our wild saloon! Keep your wits sharp, your heart open, and your gun loaded. Hot girls and desperado guys wanted!",
+    "thumbUrl": "game_cancan.webp",
+    "heroUrl": "hero_cancan.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_cancan.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_cancan.jpg",
+    "logoUrl": "logo_cancan.png",
+    "backUrl": "back_cancan.jpg",
+    "detailsImgUrl": "details_cancan.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Low",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.7,
+      "hitrate": 46.5
+    },
+    "features": [
+      {
+        "name": "Wild Reels feature",
+        "descr": "From 1 to 5 random reels turn into Wild Reels every spin in a base game",
+        "imgUrl": "img-feat_cancan-0.jpg"
+      },
+      {
+        "name": "Twin Wilds free spins",
+        "descr": "A set of up to 10 free games in which at least 2 reels turn into Wild Reels",
+        "imgUrl": "img-feat_cancan-1.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "Extra free games can be won as often as their initial combinations appear",
+        "imgUrl": "img-feat_cancan-2.jpg"
+      },
+      {
+        "name": "Shooting Bonus feature",
+        "descr": "Shooting Bonus will award a player with prize coins, increase current win or give Free Spins",
+        "imgUrl": "img-feat_cancan-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "CANCAN SALOON, video slot game from Mascot Gaming",
+      "descr": "CANCAN SALOON is a 5 reel video slot game, based on classical Wild West theme. Keep your wits sharp, your heart open, and your gun loaded."
+    }
+  },
+  {
+    "name": "Lion's Pride",
+    "slug": "lionspride",
+    "linkToDemo": "demo.mascot.games/run/lions_pride",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2019-02-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Since the beginning of time wild animal world was lead by a strong lion and his pride. What role will you choose - predator or prey? Hear the roar of animal king!",
+    "thumbUrl": "game_lionspride.webp",
+    "heroUrl": "hero_lionspride.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_lionspride.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_lionspride.jpg",
+    "logoUrl": "logo_lions.png",
+    "backUrl": "back_lionspride.jpg",
+    "detailsImgUrl": "details_lionspride.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": 40,
+      "payways": null,
+      "html5": true,
+      "rtp": 97.0,
+      "hitrate": 31.2
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "Reel of identical symbols increases quantity of winning combinations for 1 spin",
+        "imgUrl": "img-feat_lionspride-0.jpg"
+      },
+      {
+        "name": "Massive pay feature",
+        "descr": "All reels of identical symbols double big winning",
+        "imgUrl": "img-feat_lionspride-1.jpg"
+      },
+      {
+        "name": "Free Spins feature with Extra Wilds stacks",
+        "descr": "Free bonus games with stacked Wild Symbols that increase every free spin",
+        "imgUrl": "img-feat_lionspride-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "LION'S PRIDE, video slot game from Mascot Gaming",
+      "descr": "Enjoy colourful jungle! LION'S PRIDE from Mascot Gaming is a video slot with beautiful graphics. 5 reels, 4 rows, as many as 40 pay lines."
+    }
+  },
+  {
+    "name": "The Rite",
+    "slug": "rite",
+    "linkToDemo": "demo.mascot.games/run/the_rite",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": false,
+    "releaseDate": "2019-02-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Voodoo doll can protect from evil or destroy your enemies - what side do you choose? Mystery rites came here from Africa. Shaman hits the drum, performing his ritual...Spooky!",
+    "thumbUrl": "game_rite.webp",
+    "heroUrl": "hero_rite.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_rite.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_rite.jpg",
+    "logoUrl": "logo_rite.png",
+    "backUrl": "back_rite.jpg",
+    "detailsImgUrl": "details_rite.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 40,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.1,
+      "hitrate": 30.1
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "A reel of identical symbols increases a quantity of winning combinations for 1 spin",
+        "imgUrl": "img-feat_rite-0.jpg"
+      },
+      {
+        "name": "The Voodoo Rite Bonus feature",
+        "descr": "2nd screen bonus game can award a player with prize coins or free games, as well as multiply current winning by several times",
+        "imgUrl": "img-feat_rite-1.jpg"
+      },
+      {
+        "name": "Free Spins feature",
+        "descr": "Free games set can be won by Scatters on reels combination or by Voodoo bonus results",
+        "imgUrl": "img-feat_rite-2.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "Extra free games can be won as often as its initial combination appear",
+        "imgUrl": "img-feat_rite-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "THE RITE, video slot game from Mascot Gaming",
+      "descr": "THE RITE is a classic video slot on 5 reels with 40 winning lines and free games. Don’t be scared, appearing of Voodoo bonus will bring magic winning!"
+    }
+  },
+  {
+    "name": "The Tomb",
+    "slug": "thetomb",
+    "linkToDemo": "demo.mascot.games/run/the_tomb_det",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2019-02-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Bewitched by a sorceress, ruthless Chinese Dragon Emperor has no mercy. His countless army turned into terracotta warriors. Who is brave enough to face the immortal army and unravel the riddle of Emperors' tomb? The adventure full of danger awaits you on the road to the treasure!",
+    "thumbUrl": "game_tomb.webp",
+    "heroUrl": "hero_tomb.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_tomb.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_tomb.jpg",
+    "logoUrl": "logo_tomb.png",
+    "backUrl": "back_tomb.jpg",
+    "detailsImgUrl": "details_tomb.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.8,
+      "hitrate": 35.1
+    },
+    "features": [
+      {
+        "name": "Free Spins with Special Expanding Symbol feature",
+        "descr": "Free Games series where a random symbol becomes Special and pays by the Scatter rules additionally to regular winnings",
+        "imgUrl": "img-feat_tomb-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series with Special Expanding Symbol instead",
+        "imgUrl": "img-feat_tomb-1.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series with Special Expanding Symbol",
+        "imgUrl": "img-feat_tomb-2.jpg"
+      },
+      {
+        "name": "Mystery Symbol",
+        "descr": "Two–in–one symbol which replaces any symbol and forms a Scatter combination on the screen",
+        "imgUrl": "img-feat_tomb-3.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "Extra free games can be won as often as their initial combinations appear",
+        "imgUrl": "img-feat_tomb-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "THE TOMB: DRAGON EMPEROR'S TREASURE, video slot game from Mascot Gaming",
+      "descr": "Take your treasures with this video slot from Mascot Gaming: 5 reels, 3 rows, 10 paylines. Who is brave enough to unravel the riddle of Emperors' tomb?"
+    }
+  },
+  {
+    "name": "Mermaid's Bay",
+    "slug": "mermaid",
+    "linkToDemo": "demo.mascot.games/run/mermaids_bay",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2019-02-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "The magical underwater world hides incredible treasures, but only the most courageous will get them. Beautiful mermaids will reveal the secret of the deep sea to you!",
+    "thumbUrl": "game_mermaid.webp",
+    "heroUrl": "hero_mermaid.jpg",
+    "blueButtn": true,
+    "videoUrl": "video_mermaid.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_mermaid.jpg",
+    "logoUrl": "logo_mermaid.png",
+    "backUrl": "back_mermaid.jpg",
+    "detailsImgUrl": "details_mermaid.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 25,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.0,
+      "hitrate": 46.3
+    },
+    "features": [
+      {
+        "name": "Wild Symbols with 3 Mermaid's Wilds features",
+        "descr": "Mermaid's Wild Symbol will be randomly transformed into one of 3 different kinds that will award a player with a multiplier, wild reel or respin with Sticky Wild Reel features",
+        "imgUrl": "img-feat_mermaid-0.jpg"
+      },
+      {
+        "name": "Free Spins feature with Mermaids Wilds",
+        "descr": "Up to 25 free bonus games with a possibility of extra free games winnings and new 3 different Mermaid's Wild features",
+        "imgUrl": "img-feat_mermaid-1.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the expensive Free Spins series with Special Expanding Symbol instead",
+        "imgUrl": "img-feat_mermaid-2.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series with Special Expanding Symbol",
+        "imgUrl": "img-feat_mermaid-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "MERMAID'S BAY, video slot game from Mascot Gaming",
+      "descr": "MERMAID’S BAY - atmospheric video slot on 5 reels. Beautiful mermaids will reveal the secret of the deep sea to you!"
+    }
+  },
+  {
+    "name": "Venetian Magic",
+    "slug": "venetian",
+    "linkToDemo": "demo.mascot.games/run/venetian_magic",
+    "theme": "video slot",
+    "type": "traffic",
+    "risknbuy": false,
+    "releaseDate": "2019-02-01",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Elegant women and gentlemen in masks, endless canals and songs of gondoliers - join the magnificent Venice carnival! Oh, Bella Italia!",
+    "thumbUrl": "game_venetian.webp",
+    "heroUrl": "hero_venetian.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_venetian.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_venetian.jpg",
+    "logoUrl": "logo_venetian.png",
+    "backUrl": "back_venetian.jpg",
+    "detailsImgUrl": "details_venetian.png",
+    "stats": {
+      "reels": 6,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 50,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.7,
+      "hitrate": 52.4
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "A reel of identical symbols increases a number of winning combinations for 1 spin",
+        "imgUrl": "img-feat_venetian-0.jpg"
+      },
+      {
+        "name": "Respins with Sailing Wild feature",
+        "descr": "A series of free respins continues as long as at least one Wild Symbol floats across the screen",
+        "imgUrl": "img-feat_venetian-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "VENETIAN MAGIC, video slot game from Mascot Gaming",
+      "descr": "VENETIAN MAGIC is a beautiful atmospheric video slot from Mascot Gaming. Join the magnificent Venice carnival!"
+    }
+  },
+  {
+    "name": "Bamboo Bear",
+    "slug": "bamboo",
+    "linkToDemo": "demo.mascot.games/run/bamboo_bear",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2019-02-01",
+    "featured": false,
+    "topGame": true,
+    "branded": false,
+    "descr": "The smooth rustle of bamboo stalks, the murmur of a cool mountain stream... Tranquility and peace reign in the Chinese garden. Like Yin and Yang, game excitement and spiritual balance inevitably meet each other. Find your harmony with a bamboo bear!",
+    "thumbUrl": "game_bamboo.webp",
+    "heroUrl": "hero_bamboo.jpg",
+    "blueButtn": false,
+    "videoUrl": "video_bamboo.mp4",
+    "videoEnabled": false,
+    "placeholderUrl": "video_bamboo.jpg",
+    "logoUrl": "logo_bamboo.png",
+    "backUrl": "back_bamboo.jpg",
+    "detailsImgUrl": "details_bamboo.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 243,
+      "html5": true,
+      "rtp": 97.2,
+      "hitrate": 31.2
+    },
+    "features": [
+      {
+        "name": "Game on Bet Ways",
+        "descr": "Bet Ways win when matching symbols appear anywhere on adjacent reels",
+        "imgUrl": "img-feat_bamboo-0.jpg"
+      },
+      {
+        "name": "Free Spins feature",
+        "descr": "Up to 25 free bonus games according to general rules",
+        "imgUrl": "img-feat_bamboo-1.jpg"
+      },
+      {
+        "name": "Additional free spins",
+        "descr": "Extra free games can be won as often as their initial combinations appear",
+        "imgUrl": "img-feat_bamboo-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "BAMBOO BEAR, video slot game from Mascot Gaming",
+      "descr": "Like Yin and Yang, game excitement and spiritual balance inevitably meet each other in video slot BAMBOO BEAR from Mascot Gaming. Find your harmony here"
+    }
+  }
+]

@@ -52,7 +52,7 @@
                 <div v-for="(game, idx) in gamesFeatured" :key="idx"  :class="{ 'selected': idx === 0 }" class="swiper-slide game-thumbnail" :data-name="`${game.slug}`" @click="toggleGame" >
                   <div class="game-thumbnail__outer">
                     <div class="game-thumbnail__inner">
-                    <img :src="`images/${game.thumbUrl}`" >
+                    <img :src="`images/${game.thumbUrl}`" :alt="`${game.name}`" />
                     <div class="game-content__wrap" >
 
                     </div>
@@ -93,7 +93,7 @@
               <div v-for="(game, idx) in gamesFeatured" :key="idx"  :class="{ 'selected': idx === 0 }" class="swiper-slide game-thumbnail" :data-name="`${game.slug}`" @click="toggleGame" >
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
-                  <img :src="`images/${game.thumbUrl}`" >
+                  <img :src="`images/${game.thumbUrl}`" :alt="`${game.name}`" />
                   <div class="game-content__wrap" >
 
                   </div>
@@ -113,7 +113,7 @@
 </template>
 
 <script>
-import allGames from '../../static/data/games.json'
+import allGames from '../../static/data/games-webp.json'
 
   export default {
 

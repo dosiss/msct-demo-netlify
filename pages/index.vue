@@ -15,11 +15,10 @@
     <section id="getgames">
       <GetGames />
     </section>
-    <BlogArticles />
-    <SharingButtons />
-    <AdBanner />
-    <MainFooter />
-
+      <BlogArticles />
+      <SharingButtons />
+      <AdBanner />
+      <MainFooter />
   </div>
 
 </template>
