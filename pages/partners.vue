@@ -30,7 +30,7 @@
             <div class="all-partners__content">
               <div v-for="(partner, idx) in partnersFilter" :key="idx" :class="{ promopartner: partnerFilterKey == 'promo' }" class="partner__wrap">
                 <a v-if="partnerFilterKey !== 'promo'" :href="`${partner.url}`" target="_blank" rel="nofollow noreferrer">
-                    <img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" >
+                    <v-lazy-image :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" loading="lazy" />
                 </a>
                 <div v-else class="partners-card">
                   <div class="partner-logo"><img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" loading="lazy" /></div>
@@ -50,10 +50,16 @@
 </template>
 
 <script>
-import allPartners from '../static/data/partners_full.json'
+import VLazyImage from "v-lazy-image/v2";
+
+import allPartners from '../static/data/partners_full.json';
+
 
 export default {
 
+  components: {
+    VLazyImage,
+  },
 
   data() {
 
@@ -233,7 +239,14 @@ export default {
         a {
           display: block;
           img {
-            border-radius: 6px
+            border-radius: 6px;
+            &.v-lazy-image {
+              filter: blur(10px);
+              transition: filter 0.5s;
+            }
+            &.v-lazy-image-loaded {
+              filter: blur(0);
+            }
           }
         }
         &.promopartner {

@@ -41,7 +41,7 @@
                           <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                           </svg>
                         </a>
-                        <a v-else :href="`https://keen-sherbet-cd2c63.netlify.app/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                        <a v-else :href="`${demoUrl}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
                           Play demo
                           <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -73,7 +73,7 @@
                         <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                       </a>
-                      <a v-else :href="`https://keen-sherbet-cd2c63.netlify.app/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                      <a v-else :href="`${demoUrl}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
                         Play demo
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -90,7 +90,7 @@
 
     </div>
       <SharingButtons />
-      <AdBanner />
+      <vue-lazy-load><AdBanner /></vue-lazy-load>
       <MainFooter />
   </div>
 
@@ -99,17 +99,18 @@
 <script>
 import VLazyImage from "v-lazy-image/v2";
 
+import VueLazyLoad from '@voorhoede/vue-lazy-load';
+
 import allGames from '../static/data/games-webp.json'
 
 export default {
 
   components: {
     VLazyImage,
+    VueLazyLoad
   },
 
   data() {
-
-
     return {
       title: 'Exciting games for online casino. Feel the gaming thrill',
       description: 'Meet our diverse set of video slots for online casino. We develop a variety of unique games with different features and bonuses. Check it out.',
@@ -117,7 +118,7 @@ export default {
       gamesList: allGames,
       gameFilterKey: 'all',
 
-
+      demoUrl: this.$config.demoUrl,
     }
   },
   head() {

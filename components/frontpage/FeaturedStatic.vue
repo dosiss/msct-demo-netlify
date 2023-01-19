@@ -11,7 +11,7 @@
                     <NuxtLink :to="`${game.slug}`">
                       <img :src="`/images/${game.logoUrl}`" class="game-logo" :alt="`${game.name}`" />
                     </NuxtLink>
-                    <a  :href="`https://keen-sherbet-cd2c63.netlify.app/${game.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                    <a :href="`${demoUrl}/${game.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
                 </div>
               </div>
               </div>
@@ -42,7 +42,7 @@
                   </div>
                   <div class="featured-header__buttn">
                       <a v-if="$device.isMobile" :href="`https://${backgroundGameData.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
-                      <a v-else :href="`https://keen-sherbet-cd2c63.netlify.app/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                      <a v-else :href="`${demoUrl}/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m">Play demo</a>
                   </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="featured-header__buttn">
                     <a v-if="$device.isMobile" :href="`https://${backgroundGameData.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
-                    <a v-else :href="`https://keen-sherbet-cd2c63.netlify.app/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                    <a v-else :href="`${demoUrl}/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m">Play demo</a>
                 </div>
               </div>
           </div>
@@ -122,6 +122,7 @@ import allGames from '../../static/data/games-webp.json'
 
         gamesList: allGames,
 
+        demoUrl: this.$config.demoUrl,
 
         backgroundGameData: {
           name: '',

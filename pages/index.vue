@@ -15,18 +15,25 @@
     <section id="getgames">
       <GetGames />
     </section>
-      <BlogArticles />
-      <SharingButtons />
-      <AdBanner />
-      <MainFooter />
+      <vue-lazy-load><BlogArticles /></vue-lazy-load>
+      <LazySharingButtons />
+      <vue-lazy-load><AdBanner /></vue-lazy-load>
+      <LazyMainFooter />
   </div>
 
 </template>
 
 <script>
+
+import VueLazyLoad from '@voorhoede/vue-lazy-load'
+
 export default {
 
   name: 'IndexPage',
+
+  components: {
+    VueLazyLoad
+  }
 
 }
 </script>

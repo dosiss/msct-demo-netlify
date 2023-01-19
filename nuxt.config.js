@@ -9,10 +9,13 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  publicRuntimeConfig: {
+    demoUrl: process.env.DEMO_URL,
+  },
+
   loading: {
     color: 'red',
     height: '5px',
-    throttle: 0
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head

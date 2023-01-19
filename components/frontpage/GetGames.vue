@@ -251,6 +251,9 @@ export default {
       border-radius: 9px;
       text-align: center;
       flex: 0 1 48%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       @media (max-width: 850px) {
         margin-bottom: 40px;
       }

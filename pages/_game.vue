@@ -32,7 +32,7 @@
                 <div class="game-title__right">
                   <div class="game-title__right-content">
                     <div class="button-wrap">
-                      <a  :href="`https://keen-sherbet-cd2c63.netlify.app/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">Play demo</a>
+                      <a :href="`${demoUrl}/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">Play demo</a>
                     </div>
                   </div>
                 </div>
@@ -50,7 +50,7 @@
             <div class="game-title__right">
               <div class="game-title__right-content">
                 <div class="button-wrap">
-                  <a  :href="`https://keen-sherbet-cd2c63.netlify.app/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">Play demo</a>
+                  <a  :href="`${demoUrl}/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">Play demo</a>
                 </div>
               </div>
             </div>
@@ -279,6 +279,8 @@ export default {
     data() {
       return {
         id: this.$route.params.game,
+        demoUrl: this.$config.demoUrl,
+
         gamesList: allGames,
 
         articles: [],

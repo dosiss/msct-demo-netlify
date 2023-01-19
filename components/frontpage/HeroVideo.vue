@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="top-header__wrap">
                       <h1 class="top-header__title">Feel the<br>Gaming Thrill</h1>
-                      <a class="buttn buttn-primary buttn-xl" href="https://keen-sherbet-cd2c63.netlify.app">Play our games</a>
+                      <a :href="`${demoUrl}`" class="buttn buttn-primary buttn-xl">Play our games</a>
                 </div>
             </div>
         </div>
@@ -13,14 +13,15 @@
     <div v-else class="video-wrapper">
         <div class="video-background">
           <div class="vid">
-            <video id="bgvideo" playsinline autoplay muted loop poster="images/head_bastet_video.jpg"  width="1920" height="1080">
-              <source id="video-src" src="~/assets/img/frontpage/headvideo-bastet.mp4"  type="video/mp4">
+            <video id="bgvideo" playsinline autoplay muted loop poster="/images/head_bastet_video.jpg"  width="1920" height="1080">
+              <source id="video-src" src="/videos/headvideo-bastet.mp4"  type="video/mp4">
+              <!-- <source id="video-src" src="~/assets/img/frontpage/headvideo-bastet.mp4"  type="video/mp4"> -->
             </video>
           </div>
           <div class="container">
               <div class="top-header__wrap">
                     <h1 class="top-header__title">Feel the<br>Gaming Thrill</h1>
-                    <a class="buttn buttn-primary buttn-xl" href="https://keen-sherbet-cd2c63.netlify.app">Play our games</a>
+                    <a :href="`${demoUrl}`" class="buttn buttn-primary buttn-xl">Play our games</a>
               </div>
           </div>
 
@@ -31,6 +32,13 @@
 
 <script>
 export default {
+
+  data() {
+    return {
+      demoUrl: this.$config.demoUrl,
+
+    }
+  }
 
 }
 </script>
