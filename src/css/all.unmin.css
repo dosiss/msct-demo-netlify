@@ -9743,6 +9743,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.candykeno {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_candykeno.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -11537,6 +11542,12 @@ margin: 40px auto;
   display: none;
 }
 .fiesta .video-wrap {
+  pointer-events: none;
+}
+.candykeno .play-btn {
+  display: none;
+}
+.candykeno .video-wrap {
   pointer-events: none;
 }
 /****************** /TEMP ********************/

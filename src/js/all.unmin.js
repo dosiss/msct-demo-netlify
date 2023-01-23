@@ -6245,6 +6245,11 @@ $(function () {
       return thePath + 'la-fiesta-de-muertos.html';
     });
   }
+  if (btnClassName.indexOf('cke') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'the-candy-keno.html';
+    });
+  }
   });
 });
 $(function () {
