@@ -375,6 +375,11 @@ p {
 .lg-toolbar {
   background: transparent
 }
+.lg-sub-html {
+  @media (max-width: 650px) {
+    bottom: 25vh
+  }
+}
 /*.swiper-pagination-bullet-active {
      background-color: #fff !important;
 }

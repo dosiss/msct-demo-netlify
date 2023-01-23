@@ -9,8 +9,19 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  googleAnalytics: {
+    id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
+    debug: {
+      enabled: false,
+//      sendHitTask: true
+    },
+    dev: true
+  },
   publicRuntimeConfig: {
     demoUrl: process.env.DEMO_URL,
+    googleAnalytics: {
+      id: process.env.GOOGLE_ANALYTICS_ID
+    }
   },
 
   loading: {
@@ -72,7 +83,8 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/style-resources',
     '@nuxt/image',
-    '@nuxtjs/device'
+    '@nuxtjs/device',
+    '@nuxtjs/google-analytics'
   ],
   device: {
     refreshOnResize: true,
@@ -107,4 +119,5 @@ export default {
   generate: {
   routes: dynamicRoutes
   },
+
 }

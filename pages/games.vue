@@ -101,7 +101,7 @@ import VLazyImage from "v-lazy-image/v2";
 
 import VueLazyLoad from '@voorhoede/vue-lazy-load';
 
-import allGames from '../static/data/games-webp.json'
+import allGames from '../static/data/games.json'
 
 export default {
 

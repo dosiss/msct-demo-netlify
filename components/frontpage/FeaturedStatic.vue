@@ -113,7 +113,7 @@
 </template>
 
 <script>
-import allGames from '../../static/data/games-webp.json'
+import allGames from '../../static/data/games.json'
 
   export default {
 
