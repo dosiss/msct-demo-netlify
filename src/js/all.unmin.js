@@ -6250,6 +6250,11 @@ $(function () {
       return thePath + 'the-candy-keno.html';
     });
   }
+  if (btnClassName.indexOf('ggr') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'greedy-greenskins-rockways.html';
+    });
+  }
   });
 });
 $(function () {
