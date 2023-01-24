@@ -1,5 +1,73 @@
 [
   {
+    "name": "Greedy Greenskins Rockways",
+    "slug": "greedy-greenskins-rockways",
+    "linkToDemo": "demo.mascot.games/run/greedy_greenskins_rockways",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2023-01-24",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Goblins and gold go hand in hand,\nSearching for riches in the mountain land!",
+    "thumbUrl": "game_greenskins.webp",
+    "heroUrl": "hero_greenskins.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_greenskins.jpg",
+    "logoUrl": "logo_greenskins.png",
+    "backUrl": "back_greenskins.jpg",
+    "detailsImgUrl": "details_greenskins.png",
+    "stats": {
+      "reels": 6,
+      "rows": 6,
+      "volatility": "High",
+      "paylines": null,
+      "payways": "64 to 46,656",
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk his winning and get one of the Free Spins series instead",
+        "imgUrl": "img-feat_greenskins-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Free Spin series",
+        "imgUrl": "img-feat_greenskins-1.jpg"
+      },
+      {
+        "name": "Rockfall feature",
+        "descr": "All winning symbols are removed from the screen and replaced with new ones",
+        "imgUrl": "img-feat_greenskins-2.jpg"
+      },
+      {
+        "name": "Rockfall Multiplier",
+        "descr": "The winning multiplier increases with each new Rockfall up to x5, and up to x25 in Free Spins",
+        "imgUrl": "img-feat_greenskins-3.jpg"
+      },
+      {
+        "name": "Free Spins Feature",
+        "descr": "Free Spins can be won in the main game with a combination of Scatter Symbols",
+        "imgUrl": "img-feat_greenskins-4.jpg"
+      },
+      {
+        "name": "Rockways feature",
+        "descr": "Each spin can bring up to 6 symbols on each reel. Each spin can bring up to 46,656 ways to win",
+        "imgUrl": "img-feat_greenskins-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "GREEDY GREENSKINS ROCKWAYS slot game by Mascot Gaming",
+      "descr": "GREEDY GREENSKINS ROCKWAYS by Mascot Gaming is a video slot with RockWays mechanics and famous Risk&Buy feature"
+    }
+  },
+  {
     "name": "The Candy Keno",
     "slug": "the-candy-keno",
     "linkToDemo": "demo.mascot.games/run/the_candy_keno",

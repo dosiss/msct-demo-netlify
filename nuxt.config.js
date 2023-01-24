@@ -117,7 +117,8 @@ export default {
   },
 
   generate: {
-  routes: dynamicRoutes
+  routes: dynamicRoutes,
+  fallback: '404.html'
   },
 
 }

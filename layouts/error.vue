@@ -7,8 +7,13 @@
 </template>
 
 <script>
-  export default {
-    props: ['error'],
-    layout: 'error' // you can set a custom layout for the error page
-  }
+export default {
+  layout: 'empty',
+   props: {
+     error: {
+       type: Object,
+       default: null
+     },
+   },
+};
 </script>

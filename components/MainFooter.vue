@@ -82,7 +82,7 @@
                           </div>
                         </div>
                         <div v-if="errored" class="error-msg">
-                          Bummer, Something went wrong. Did you fill out all of the fields?
+                          Something went wrong. Please try again later.
                         </div>
           </form>
         </div>
@@ -99,7 +99,7 @@
         <NuxtLink to="/terms" class="footer-bottom__link">Terms of use</NuxtLink>
         <NuxtLink to="/privacy" class="footer-bottom__link">Privacy policy</NuxtLink>
       </div>
-      <div class="copyright text-muted">Mascot Gaming - All Rights Reserved 2020</div>
+      <div class="copyright text-muted">Mascot Gaming - All Rights Reserved 2023</div>
     </div>
   </div>
   <client-only>
