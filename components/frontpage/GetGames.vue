@@ -72,15 +72,12 @@
     </div>
   </div>
   <div class="partners__wrap desktop">
-    <div class="partners__content">
-      <div class="partners__content-img">
-        <div class="partners-content-img-inner">
-          <nuxt-img src="/images/img-partners.jpg"  />
-        </div>
-      </div>
+    <div class="partners__content container">
       <div class="partners__content-data">
-        <div class="partners-number">500+</div>
-        <div class="partners-descr">Partners &amp; Media</div>
+        <div class="partners-heading">
+          <div class="partners-number">500+</div>
+          <div class="partners-descr">Partners &amp; Media</div>
+        </div>
         <nuxt-link to="partners" class="inner-link link-yellow">
           <span>See all partners &amp; media</span>
           <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -88,13 +85,18 @@
           </svg>
         </nuxt-link>
       </div>
+      <div class="partners__content-img">
+        <div class="partners-content-img-inner">
+          <nuxt-img src="/images/img-partners-front.jpg" alt="partners"  />
+        </div>
+      </div>
     </div>
   </div>
   <div class="partners__wrap mobile">
     <div class="partners__content">
       <div class="partners__content-data">
-        <div class="partners-number">500+</div>
-        <div class="partners-descr">Partners &amp; Media</div>
+          <div class="partners-number">500+</div>
+          <div class="partners-descr">Partners &amp; Media</div>
       </div>
       <div class="partners__content-img">
         <div class="partners-content-img-inner">
@@ -313,33 +315,31 @@ export default {
 .partners__wrap {
   padding: 120px 0;
   .partners__content-img {
-    display: inline-block;
-    width: 55%;
     position: relative;
     vertical-align: top;
     .partners-content-img-inner {
-      position: absolute;
-      right: 0;
       img  {
-        width: 1187px;
-        max-width: 1187px
+        max-width: 100%
       }
     }
   }
   .partners__content-data {
-    display: inline-block;
-    vertical-align: top;
-    padding: 70px 0 20px 115px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    .partners-heading {
+      display: flex;
+      align-items: center;
+    }
     .partners-number {
       font-size: 4.6rem;
       font-weight: 700;
-
     }
     .partners-descr {
       font-size: 2.12rem;
       font-weight: 700;
       text-transform: uppercase;
-      margin: 20px 0 60px;
+      margin-left: 30px
     }
   }
   &.mobile {
@@ -347,22 +347,25 @@ export default {
     @media (max-width: 650px) {
       padding: 50px 0;
     }
+    .partners__content {
+      overflow: hidden;
+    }
     .partners__content-img {
       display: block;
-      width: 100%;
+      width: 120%;
       .partners-content-img-inner {
         position: relative;
         right: 0;
         img  {
-          width: 100%;
-          max-width: 100%
+          left: -70px;
+          position: relative;
         }
       }
     }
     .partners__content-data {
       display: block;
-      padding: 0;
       text-align: center;
+      margin-bottom: 40px;
       .partners-number {
         font-size: 4.6rem;
         font-weight: 700;
@@ -373,8 +376,9 @@ export default {
       .partners-descr {
         font-size: 2.12rem;
         font-weight: 700;
-        text-transform: uppercase;
         margin: 20px 0 60px;
+
+        text-transform: uppercase;
         @media (max-width: 650px) {
           font-size: 1.31rem;
           margin: 10px 0 10px

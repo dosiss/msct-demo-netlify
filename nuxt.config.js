@@ -5,6 +5,17 @@ let dynamicRoutes = () => {
   })
 }
 
+// const createSitemapRoutes = async () => {
+//   let routes = [];
+//   const { $content } = require('@nuxt/content')
+//   if (posts === null || posts.length === 0)
+//     posts = await $content('articles').fetch();
+//   for (const post of posts) {
+//     routes.push(`blog/${post.slug}`);
+//   }
+//   return routes;
+// }
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -84,7 +95,7 @@ export default {
     '@nuxtjs/style-resources',
     '@nuxt/image',
     '@nuxtjs/device',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
   ],
   device: {
     refreshOnResize: true,
@@ -101,7 +112,22 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/axios',
+    '@nuxtjs/sitemap'
   ],
+
+   sitemap: {
+  //  hostname: 'http://localhost:3000',
+      exclude: [
+        '/articles'
+      ],
+      routes: dynamicRoutes,
+      defaults: {
+        changefreq: 'monthly',
+        priority: 1,
+        lastmod: new Date()
+      }
+
+   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
