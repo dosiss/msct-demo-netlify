@@ -157,7 +157,10 @@ import allGames from '../../static/data/games.json'
           justify-content: space-between;
           width: 100%;
           z-index: 1;
-          margin: 0 40px 40px /* 0 10px 10px buttons v1 */
+          margin: 0 40px 40px /* 0 10px 10px buttons v1 */;
+          @media (max-width: 650px) {
+            margin: 0 10px 10px
+          }
         }
       }
       &:hover {
