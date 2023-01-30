@@ -202,7 +202,7 @@ export default {
 
 .fade-leave-active {
 
-    transition: all 100ms ease-in;
+    transition: all 400ms ease-in 200ms; /* all 100ms ease-in */
 
 	position: absolute;
 	z-index:-1;
@@ -369,7 +369,7 @@ export default {
           justify-content: space-between;
           width: 100%;
           z-index: 1;
-          margin: 0 10px 10px
+          margin: 0 40px 40px /* 0 10px 10px buttons v1 */
         }
       }
       &:hover {
@@ -457,7 +457,7 @@ export default {
             justify-content: space-between;
             width: 100%;
             z-index: 1;
-            margin: 0 10px 10px
+            margin: 0 40px 40px /* 0 10px 10px buttons v1 */
           }
         }
         &:hover {

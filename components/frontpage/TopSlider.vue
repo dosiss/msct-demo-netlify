@@ -157,7 +157,7 @@ import allGames from '../../static/data/games.json'
           justify-content: space-between;
           width: 100%;
           z-index: 1;
-          margin: 0 10px 10px
+          margin: 0 40px 40px /* 0 10px 10px buttons v1 */
         }
       }
       &:hover {
@@ -185,8 +185,9 @@ import allGames from '../../static/data/games.json'
       left: 60px;
       top: unset;
       bottom: 41%;
-      background: rgba(0, 0, 0, 0.01);
-      backdrop-filter: blur(5px);
+      /* background: rgba(0, 0, 0, 0.01);
+      backdrop-filter: blur(5px); */
+      background: #1f1f1f;
       border-radius: 20rem;
       @media (max-width: 850px) {
         display: none
@@ -212,8 +213,9 @@ import allGames from '../../static/data/games.json'
       right: 60px;
       top: unset;
       bottom: 41%;
-      background: rgba(0, 0, 0, 0.01);
-      backdrop-filter: blur(5px);
+      /* background: rgba(0, 0, 0, 0.01);
+      backdrop-filter: blur(5px); */
+      background: #1f1f1f;
       border-radius: 20rem;
       @media (max-width: 850px) {
         display: none

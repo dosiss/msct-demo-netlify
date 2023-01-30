@@ -544,8 +544,9 @@ export default {
       left: 60px;
       top: unset;
       bottom: 41%;
-      background: rgba(0, 0, 0, 0.01);
-      backdrop-filter: blur(5px);
+      /* background: rgba(0, 0, 0, 0.01);
+      backdrop-filter: blur(5px); */
+      background: #1f1f1f;
       border-radius: 20rem;
       @media (max-width: 850px) {
         display: none
@@ -571,8 +572,9 @@ export default {
       right: 60px;
       top: unset;
       bottom: 41%;
-      background: rgba(0, 0, 0, 0.01);
-      backdrop-filter: blur(5px);
+      /* background: rgba(0, 0, 0, 0.01);
+      backdrop-filter: blur(5px); */
+      background: #1f1f1f;
       border-radius: 20rem;
       @media (max-width: 850px) {
         display: none
