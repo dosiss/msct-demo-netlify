@@ -449,6 +449,7 @@ import allGames from '../../static/data/games.json'
       padding: 8px 0;
       .game-thumbnail__inner {
         position: relative;
+        cursor: pointer;
       }
     }
 

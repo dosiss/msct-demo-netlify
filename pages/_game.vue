@@ -615,7 +615,8 @@ export default {
     }
     .game-thumbnail {
       img {
-        border-radius: 12px
+        border-radius: 12px;
+        cursor: pointer;
       }
     }
   }

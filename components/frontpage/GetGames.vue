@@ -5,19 +5,19 @@
             <div class="getgames-stats__wrap">
               <div class="getgames-stats__item">
                 <div class="getgames-stats__item-numbers">
-                  <img src="/images/icon-crown.png" srcset="/images/icon-crown@2x.png 2x" alt="" /><span>12</span>
+                  <nuxt-img src="/images/icon-crown@2x.png" alt="" /><span>12</span>
                 </div>
                 <div class="getgames-stats__item-descr">Games<br />Per Year</div>
               </div>
               <div class="getgames-stats__item">
                 <div class="getgames-stats__item-numbers">
-                  <img src="/images/icon-bolt.png" srcset="/images/icon-bolt@2x.png 2x" alt="" /><span>4</span>
+                  <img src="/images/icon-bolt@2x.png" alt="" /><span>4</span>
                 </div>
                 <div class="getgames-stats__item-descr">Prototypes in Production<br />at the Same Time</div>
               </div>
               <div class="getgames-stats__item">
                 <div class="getgames-stats__item-numbers">
-                  <img src="/images/icon-diamond.png" srcset="/images/icon-diamond@2x.png 2x" alt="" /><span>30</span>
+                  <img src="/images/icon-diamond@2x.png" alt="" /><span>30</span>
                 </div>
                 <div class="getgames-stats__item-descr">Concepts Awaiting<br />Their Turn</div>
               </div>
@@ -31,7 +31,7 @@
                 <button class="buttn buttn-primary buttn-m" @click="showModal = true">Get in touch</button>
             </div>
           </div>
-          <nuxt-picture src="/images/img-getgames.png" :img-attrs="{class:'getgames-decor'}" sizes="sm:100vw" />
+          <nuxt-picture src="/images/img-getgames@2x.png" :img-attrs="{class:'getgames-decor'}" />
   </div>
   <div class="game-types__wrap">
     <div class="container-wide">
