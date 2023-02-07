@@ -9753,6 +9753,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#BA8905', end
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+.cleogems {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/back_cleogems.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
 /*
 .riot {
   background: url('../images/back_riot.jpg') no-repeat bottom
@@ -11386,6 +11391,9 @@ margin: 40px auto;
 .dtfruits .game-slide-img-title img {
   max-height: 100px
 }
+.cleogems .game-slide-img-title img {
+  max-height: 100px
+}
 .blackjack .play-btn {
   display: none;
 }
@@ -11559,6 +11567,12 @@ margin: 40px auto;
   display: none;
 }
 .greenskins .video-wrap {
+  pointer-events: none;
+}
+.cleogems .play-btn {
+  display: none;
+}
+.cleogems .video-wrap {
   pointer-events: none;
 }
 /****************** /TEMP ********************/

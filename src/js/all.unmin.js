@@ -6255,6 +6255,11 @@ $(function () {
       return thePath + 'greedy-greenskins-rockways.html';
     });
   }
+  if (btnClassName.indexOf('cge') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'cleopatras-gems-bingo.html';
+    });
+  }
   });
 });
 $(function () {
