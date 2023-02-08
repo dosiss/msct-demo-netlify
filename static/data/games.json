@@ -1,5 +1,53 @@
 [
   {
+    "name": "Cleopatra's gems bingo",
+    "slug": "cleopatras_gems_bingo",
+    "linkToDemo": "demo.mascot.games/run/cleopatras_gems_bingo",
+    "theme": "lottery game",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2023-02-07",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Play the bingo game and see\nHow the numbers align to be!",
+    "thumbUrl": "game_cleogems.jpeg",
+    "heroUrl": "hero_cleogems.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_cleogems.jpg",
+    "logoUrl": "logo_cleogems.png",
+    "backUrl": "back_cleogems.jpg",
+    "detailsImgUrl": "details_cleogems.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "High",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.0,
+      "hitrate": 28.5
+    },
+    "features": [
+      {
+        "name": null,
+        "descr": "Classic bingo game with 4 cards for 60 balls. The highest combination on each card wins",
+        "imgUrl": "img-feat_cleogems-0.jpg"
+      },
+      {
+        "name": "Extra balls feature",
+        "descr": "The player can buy extra balls, therefore, get the chance to increase the winnings",
+        "imgUrl": "img-feat_cleogems-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "CLEOPATRA'S GEMS BINGO, new bingo game from Mascot Gaming",
+      "descr": "CLEOPATRA'S GEMS BINGO by Mascot Gaming, classic bingo game in a Egypt style."
+    }
+  },
+  {
     "name": "Greedy Greenskins Rockways",
     "slug": "greedy-greenskins-rockways",
     "linkToDemo": "demo.mascot.games/run/greedy_greenskins_rockways",
