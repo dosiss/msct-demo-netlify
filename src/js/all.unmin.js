@@ -6260,6 +6260,11 @@ $(function () {
       return thePath + 'cleopatras-gems-bingo.html';
     });
   }
+  if (btnClassName.indexOf('tru') >= 0) {
+    $(this).attr('href', function() {
+      return thePath + 'trump-card-queen.html';
+    });
+  }
   });
 });
 $(function () {
