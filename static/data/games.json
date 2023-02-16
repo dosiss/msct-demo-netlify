@@ -1,5 +1,68 @@
 [
   {
+    "name": "Trump Card Queen",
+    "slug": "trump-card-queen",
+    "linkToDemo": "demo.mascot.games/run/trump_card_queen",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": true,
+    "releaseDate": "2023-02-12",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Shuffle the cards, shuffle some more,\nTake the rabbit out of the hole!",
+    "thumbUrl": "game_trump.jpeg",
+    "heroUrl": "hero_trump.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_trump.jpg",
+    "logoUrl": "logo_trump.png",
+    "backUrl": "back_trump.jpg",
+    "detailsImgUrl": "details_trump.png",
+    "stats": {
+      "reels": 6,
+      "rows": 3,
+      "volatility": "Low",
+      "paylines": 25,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.2,
+      "hitrate": 62.8
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "A player can Risk their winning and get a Bonus Game instead",
+        "imgUrl": "img-feat_trump-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "For non–winning bets, a player can Buy Bonus Game",
+        "imgUrl": "img-feat_trump-1.jpg"
+      },
+      {
+        "name": "Bonus Game",
+        "descr": "Bonus Game starts with 1 Bonus Spin to accumulate Sticky Wilds. Each new Wild Symbol adds a Bonus Spin",
+        "imgUrl": "img-feat_trump-2.jpg"
+      },
+      {
+        "name": "Super Bonus Game",
+        "descr": "Super Bonus Game starts with 3 Bonus Spins with accumulated Sticky Wilds from the Bonus Game. Each new Wild Symbol updates the counter of Bonus Spins",
+        "imgUrl": "img-feat_trump-3.jpg"
+      },
+      {
+        "name": "Extra Bonus Feature",
+        "descr": "If the entire screen is filled with Sticky Wilds in the Bonus or Super Bonus Game, the bonus ends and the player receives a prize equal to the payout for the most expensive symbol on all lines, multiplied by the number of remaining Bonus Spins",
+        "imgUrl": "img-feat_trump-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Trump Card Queen video slot by Mascot Gaming",
+      "descr": "Trump Card Queen by Mascot Gaming is a video slot with Super Bonus Game and Risk&Buy Feature"
+    }
+  },
+  {
     "name": "Cleopatra's gems bingo",
     "slug": "cleopatras_gems_bingo",
     "linkToDemo": "demo.mascot.games/run/cleopatras_gems_bingo",
@@ -75,8 +138,8 @@
       "paylines": null,
       "payways": "64 to 46,656",
       "html5": true,
-      "rtp": null,
-      "hitrate": null
+      "rtp": 95.08,
+      "hitrate": 32.2
     },
     "features": [
       {
