@@ -21,17 +21,32 @@ export default {
   target: 'static',
 
   googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
+    // Dev setting:
+    // id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
+    // Prod setting:
+    id: 'UA-102575233-2', // Use as fallback if no runtime config is provided
+
     debug: {
       enabled: false,
 //      sendHitTask: true
     },
-    dev: true
+    // Dev setting:
+    // dev: true
+    //Prod setting:
+    dev: false
   },
   publicRuntimeConfig: {
-    demoUrl: process.env.DEMO_URL,
+    // Dev setting:
+    // demoUrl: process.env.DEMO_URL,
+    //Prod setting:
+    demoUrl: 'https://play.mascot.games',
+
     googleAnalytics: {
-      id: process.env.GOOGLE_ANALYTICS_ID
+      // Dev setting:
+      // id: process.env.GOOGLE_ANALYTICS_ID,
+      // Prod setting:
+      id: 'UA-102575233-2'
+
     }
   },
 
