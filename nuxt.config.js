@@ -21,10 +21,7 @@ export default {
   target: 'static',
 
   googleAnalytics: {
-    // Dev setting:
      id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
-    // Prod setting:
-    // id: 'UA-102575233-2', // Use as fallback if no runtime config is provided
 
     debug: {
       enabled: false,
@@ -36,16 +33,10 @@ export default {
     // dev: false
   },
   publicRuntimeConfig: {
-    // Dev setting:
      demoUrl: process.env.DEMO_URL,
-    //Prod setting:
-    // demoUrl: 'https://play.mascot.games',
 
     googleAnalytics: {
-      // Dev setting:
        id: process.env.GOOGLE_ANALYTICS_ID,
-      // Prod setting:
-      // id: 'UA-102575233-2'
 
     }
   },
