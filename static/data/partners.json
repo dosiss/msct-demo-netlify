@@ -5,7 +5,7 @@
     "top": false,
     "casino": false,
     "platform": false,
-    "promo": true,
+    "promo": false,
     "promoText": "Deposit with $100 and Play with $200 + Free Spins",
     "url": "https://www.softswiss.com/games",
     "logoUrl": "partner_logo_pinup.jpg"
@@ -16,7 +16,7 @@
     "top": false,
     "casino": false,
     "platform": false,
-    "promo": true,
+    "promo": false,
     "promoText": "Deposit with $100 and Play with $200 + Free Spins",
     "url": "https://www.softswiss.com/games",
     "logoUrl": "partner_logo_parimatch.png"
@@ -27,7 +27,7 @@
     "top": false,
     "casino": false,
     "platform": false,
-    "promo": true,
+    "promo": false,
     "promoText": "Deposit with $100 and Play with $200 + Free Spins",
     "url": "https://www.softswiss.com/games",
     "logoUrl": "partner_logo_favb.png"
@@ -38,7 +38,7 @@
     "top": false,
     "casino": false,
     "platform": false,
-    "promo": true,
+    "promo": false,
     "promoText": "Deposit with $100 and Play with $200 + Free Spins",
     "url": "https://www.softswiss.com/games",
     "logoUrl": "partner_logo_softswiss.png"
