@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow:
-Sitemap: https://play.mascot.games/sitemap.xml
+Sitemap: https://mascot.games/sitemap.xml
 Crawl-delay: 0.4
