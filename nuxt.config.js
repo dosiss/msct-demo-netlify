@@ -28,9 +28,9 @@ export default {
 //      sendHitTask: true
     },
     // Dev setting:
-     dev: true
+    // dev: true
     //Prod setting:
-    // dev: false
+     dev: false
   },
   publicRuntimeConfig: {
      demoUrl: process.env.DEMO_URL,
