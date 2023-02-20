@@ -2134,7 +2134,7 @@
     "thumbUrl": "game_merry-scary-christmas.jpeg",
     "heroUrl": "hero_merry-scary-christmas.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_merry-scary-christmas.mp4",
+    "videoUrl": "video_merry-scary-christmas.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_merry-scary-christmas.jpg",
     "logoUrl": "logo_merry-scary-christmas.png",
@@ -2268,7 +2268,7 @@
     "branded": false,
     "descr": "Cards never lie, are you ready to risk to know your fate? Queen of Spades is waiting for you in her castle!",
     "thumbUrl": "game_queenofspades.jpeg",
-    "heroUrl": "hero_queen-of-spades.jpg",
+    "heroUrl": "hero_queenofspades.jpg",
     "blueButtn": true,
     "videoUrl": "video_queenofspades.mp4",
     "videoEnabled": false,
@@ -2661,19 +2661,14 @@
         "imgUrl": "img-feat_gemz-1.jpg"
       },
       {
-        "name": "Raze! Rave! feature",
-        "descr": "Raze! Rave! feature is a series of 10 Free Spins. Each Raze gang character during Raze! Rave! feature becomes Sticky Wild symbol when appear",
-        "imgUrl": "img-feat_gemz-2.jpg"
-      },
-      {
         "name": "Transforming reels",
         "descr": "All the gaming features run on gaming screens of different formats which helps to form more winning combinations",
-        "imgUrl": "img-feat_gemz-3.jpg"
+        "imgUrl": "img-feat_gemz-2.jpg"
       },
       {
         "name": "Additional and floating free spins",
         "descr": "The game lets a player go from one Free Spin feature to another while obtaining additional Free Spins",
-        "imgUrl": "img-feat_gemz-4.jpg"
+        "imgUrl": "img-feat_gemz-3.jpg"
       }
     ],
     "meta": {
@@ -2696,7 +2691,7 @@
     "thumbUrl": "game_horde.jpeg",
     "heroUrl": "hero_horde.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_horde.mp4",
+    "videoUrl": "video_horde.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_horde.jpg",
     "logoUrl": "logo_horde.png",
@@ -2845,7 +2840,7 @@
     "thumbUrl": "game_benny.jpeg",
     "heroUrl": "hero_benny.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_benny.mp4",
+    "videoUrl": "video_benny.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_benny.jpg",
     "logoUrl": "logo_benny.png",
@@ -3072,7 +3067,7 @@
     "thumbUrl": "game_gryphon.jpeg",
     "heroUrl": "hero_gryphon.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_gryphon.mp4",
+    "videoUrl": "video_gryphon.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_gryphon.jpg",
     "logoUrl": "logo_gryphon.png",
@@ -3125,7 +3120,7 @@
     "thumbUrl": "game_merlin.jpeg",
     "heroUrl": "hero_merlin.jpg",
     "blueButtn": true,
-    "videoUrl": "videos/video_merlin.mp4",
+    "videoUrl": "video_merlin.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_merlin.jpg",
     "logoUrl": "logo_merlin.png",
@@ -3178,7 +3173,7 @@
     "thumbUrl": "game_purplepills.jpeg",
     "heroUrl": "hero_purplepills.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_purplepills.mp4",
+    "videoUrl": "video_purplepills.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_purplepills.jpg",
     "logoUrl": "logo_purplepills.png",
@@ -3231,7 +3226,7 @@
     "thumbUrl": "game_wildspirit.jpeg",
     "heroUrl": "hero_wildspirit.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_wildspirit.mp4",
+    "videoUrl": "video_wildspirit.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_wildspirit.jpg",
     "logoUrl": "logo_wildspirit.png",

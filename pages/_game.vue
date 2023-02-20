@@ -611,6 +611,7 @@ export default {
         top: 50%;
         right: 50%;
         transform: translate(40px, -40px);
+        cursor: pointer;
       }
     }
     .game-thumbnail {
