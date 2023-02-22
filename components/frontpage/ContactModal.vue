@@ -4,7 +4,7 @@
       <div class="contact-modal__title">Get in touch</div>
       <div class="contact-modal__content">
         <div v-if="success">Your message has been successfully sent. We'll contact you soon</div>
-        <form v-else class="contact-form" @submit.prevent="sendMessage" >
+        <form v-else id="contactForm" class="contact-form" @submit.prevent="sendMessage" >
 
           <div class="form-group">
             <div class="form-item" :class="{ 'focused': focusedName }">
@@ -70,38 +70,68 @@
 
 
     methods: {
-    sendMessage() {
-      let jsonrpcId = 0;
-      this.loading = true;
-      this.$axios
-        .post("https://eform.casinomodule.org/handler", {
-          id: jsonrpcId++,
-          jsonrpc: "2.0",
-          method: "Email.Send",
-          params: {
-            Clientid: this.ClientId,
-            name: this.name,
-            email: this.email,
-            phone: this.phone,
-            message: this.message
-          }
-        }, {
-          headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json"
+    // sendMessage() {
+    //   let jsonrpcId = 0;
+    //   this.loading = true;
+    //   this.$axios
+    //     .post("https://eform.casinomodule.org/handler", {
+    //       id: jsonrpcId++,
+    //       jsonrpc: "2.0",
+    //       method: "Email.Send",
+    //       params: {
+    //         Clientid: this.ClientId,
+    //         name: this.name,
+    //         email: this.email,
+    //         phone: this.phone,
+    //         message: this.message
+    //       }
+    //     }, {
+    //       headers: {
+    //       Accept: "application/json",
+    //       "Content-Type": "application/json"
+    //     },
+    //   })
+    //   .then(response => {
+    //       this.success = true
+    //       this.errored =false
+    //     })
+    //     .catch(() => {
+    //       this.errored = true
+    //     })
+    //     .finally(() => {
+    //       this.loading = false
+    //     });
+    //   },
+      sendMessage() {
+        this.loading = true;
+        const bodyFormData = new FormData();
+        bodyFormData.append('name', this.name);
+        bodyFormData.append('email', this.email);
+        bodyFormData.append('phone', this.phone);
+        bodyFormData.append('message', this.message);
+
+        bodyFormData.append('service_id', 'service_tr5r6fw');
+        bodyFormData.append('template_id', 'template_t3rkppg');
+        bodyFormData.append('user_id', 'eE5PNrtIqLmZkFQ2r');
+           this.$axios
+             .post("https://api.emailjs.com/api/v1.0/email/send-form",
+             bodyFormData
+             , {
+               headers: {
+               "Content-Type": "multipart/form-data"
+             },
+           })
+           .then(response => {
+               this.success = true
+               this.errored =false
+             })
+             .catch(() => {
+               this.errored = true
+             })
+             .finally(() => {
+               this.loading = false
+             });
         },
-      })
-      .then(response => {
-          this.success = true
-          this.errored =false
-        })
-        .catch(() => {
-          this.errored = true
-        })
-        .finally(() => {
-          this.loading = false
-        });
-      },
     }
   }
 </script>

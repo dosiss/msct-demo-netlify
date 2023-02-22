@@ -950,7 +950,7 @@
   {
     "name": "Amaterasu keno",
     "slug": "keno",
-    "linkToDemo": "demo.mascot.games/run/gryphons_castle",
+    "linkToDemo": "demo.mascot.games/run/amaterasu_keno",
     "theme": "lottery game",
     "type": null,
     "risknbuy": false,

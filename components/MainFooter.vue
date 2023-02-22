@@ -99,7 +99,7 @@
         </div>
       </div>
       <div class="footer-badges">
-        <a href="https://gamemc.by/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert2.jpg" srcset="/images/img_cert2@2x.jpg 2x" title="View Certificate" alt="РњРѕРЅРёС‚РѕСЂРёРЅРіРѕРІС‹Р№ С†РµРЅС‚СЂ РїРѕ РёРіРѕСЂРЅРѕРјСѓ Р±РёР·РЅРµСЃСѓ" /></a>
+        <a href="https://gamemc.by/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert2.jpg" srcset="/images/img_cert2@2x.jpg 2x" title="View Certificate" alt="gamemc.by" /></a>
         <a href="https://access.gaminglabs.com/certificate/index?i=338" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img-gaming-labs-cert-white.jpg" srcset="/images/img-gaming-labs-cert-white@2x.jpg 2x" title="View Certificate" alt="Gaming Labs Certified" /></a>
         <a href="https://access.gaminglabs.com/certificate/index?i=338" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_globalab.jpg" srcset="/images/img_globalab@2x.jpg 2x" alt="GlobaLab" /></a>
       </div>

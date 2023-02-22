@@ -122,7 +122,7 @@ export default {
   ],
 
    sitemap: {
-    hostname: 'https://effortless-faloodeh-fc052d.netlify.app',
+    hostname: 'https://mascot.games',
       exclude: [
         '/articles'
       ],
@@ -150,7 +150,7 @@ export default {
 
   generate: {
   routes: dynamicRoutes,
-  fallback: '404.html'
+//  fallback: true
   },
 
 }
