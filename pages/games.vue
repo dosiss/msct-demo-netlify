@@ -13,49 +13,12 @@
               <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">Profit Games</button>
               <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'videoslots'">Video Slots</button>
               <button :class="{ active: gameFilterKey == 'lotteries' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'lotteries'">Lotteries</button>
+              <button :class="{ active: gameFilterKey == 'tablegames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'tablegames'">Table games</button>
               <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'risknbuy'">Risk&amp;Buy</button>
               <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'branded'">Branded</button>
             </div>
           </div>
         </div>
-        <!-- <div class="container">
-
-            <div class="top-games__head">
-              <h1 class="top-games__head-title">Top games</h1>
-            </div>
-        </div>
-        <div class="container container-custom">
-          <div class="top-games__list-outer">
-            <div class="top-games__list">
-              <div v-for="(game, idx) in topGames" :key="idx" class="game-thumbnail">
-
-                  <div class="game-thumbnail__outer">
-                    <div class="game-thumbnail__inner">
-                    <img :src="`images/${game.thumbUrl}`" >
-                    <div class="game-content__wrap">
-                      <div class="game-content__buttns">
-                        <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? "More" : "Learn more" }}</NuxtLink>
-                        <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
-                          Play demo
-                          <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </a>
-                        <a v-else :href="`${demoUrl}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
-                          Play demo
-                          <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div> -->
       </div>
       <div class="all-games">
           <div class="all-games__content">
@@ -162,6 +125,9 @@ export default {
       },
       lotteries() {
         return allGames.filter((game) => game.theme === "lottery game")
+      },
+      tablegames() {
+        return allGames.filter((game) => game.theme === "table/cards")
       },
       profit() {
         return allGames.filter((game) => game.type === "profit")
@@ -270,8 +236,8 @@ export default {
       &:not(:first-child) {
         width: 130px
       }
-      @media (max-width: 1200px) {
-        margin-right: 20px
+      @media (max-width: 1650px) {
+        margin-right: 10px
       }
     }
   }
