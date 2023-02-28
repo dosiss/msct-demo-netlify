@@ -66,7 +66,10 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
   {
-//    src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
+    id: 'hs-script-loader',
+    async: true,
+    defer: true,
+    src: '//js-eu1.hs-scripts.com/26083518.js',
   }
 ]
   },
