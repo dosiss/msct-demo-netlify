@@ -27,8 +27,8 @@
       "paylines": 20,
       "payways": null,
       "html5": true,
-      "rtp": null,
-      "hitrate": null
+      "rtp": 95.3,
+      "hitrate": 20.9
     },
     "features": [
       {
