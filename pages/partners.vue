@@ -91,7 +91,7 @@ export default {
     	  return this[this.partnerFilterKey]
      },
       all() {
-        return allPartners.filter((partner) => partner.promo === false)
+        return allPartners.filter((partner) => partner.promo === false && partner.type !== "promopartner")
       },
       top() {
         return allPartners.filter((partner) => partner.top === true)
@@ -106,7 +106,7 @@ export default {
         return allPartners.filter((partner) => partner.platform === true)
       },
       promo() {
-        return allPartners.filter((partner) => partner.promo === true)
+        return allPartners.filter((partner) => partner.promo === true && partner.type === "promopartner")
       },
   },
 

@@ -99,16 +99,16 @@
         </div>
       </div>
       <div class="footer-badges">
-        <a href="https://gamemc.by/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert2.jpg" srcset="/images/img_cert2@2x.jpg 2x" title="View Certificate" alt="РњРѕРЅРёС‚РѕСЂРёРЅРіРѕРІС‹Р№ С†РµРЅС‚СЂ РїРѕ РёРіРѕСЂРЅРѕРјСѓ Р±РёР·РЅРµСЃСѓ" /></a>
+        <a href="https://gamemc.by/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert2.jpg" srcset="/images/img_cert2@2x.jpg 2x" title="View Certificate" alt="gamemc.by" /></a>
         <a href="https://access.gaminglabs.com/certificate/index?i=338" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img-gaming-labs-cert-white.jpg" srcset="/images/img-gaming-labs-cert-white@2x.jpg 2x" title="View Certificate" alt="Gaming Labs Certified" /></a>
-        <div class="footer-badges__item"><img src="/images/img_globalab.jpg" srcset="/images/img_globalab@2x.jpg 2x" alt="GlobaLab" /></div>
-
+        <a href="https://access.gaminglabs.com/certificate/index?i=338" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_globalab.jpg" srcset="/images/img_globalab@2x.jpg 2x" alt="GlobaLab" /></a>
       </div>
     </div>
     <div class="footer-bottom__wrap">
       <div class="bottom-links">
         <NuxtLink to="/terms" class="footer-bottom__link">Terms of use</NuxtLink>
         <NuxtLink to="/privacy" class="footer-bottom__link">Privacy policy</NuxtLink>
+        <NuxtLink to="/responsible-gaming" class="footer-bottom__link">Responsible gaming</NuxtLink>
       </div>
       <div class="copyright text-muted">Mascot Gaming - All Rights Reserved 2023</div>
     </div>

@@ -1,5 +1,58 @@
 [
   {
+    "name": "Fruit Machine X25",
+    "slug": "fruit-machine-x25",
+    "linkToDemo": "demo.mascot.games/run/fruitmachine_card_queen",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2023-03-14",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "Shuffle the cards, shuffle some more,\nTake the rabbit out of the hole!",
+    "thumbUrl": "game_fruitmachine.jpeg",
+    "heroUrl": "hero_fruitmachine.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fruitmachine.jpg",
+    "logoUrl": "logo_fruitmachine.png",
+    "backUrl": "back_fruitmachine.jpg",
+    "detailsImgUrl": "details_fruitmachine.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "Wild Symbol with Multiplier",
+        "descr": "Combinations with Wild Symbol are paid with a multiplier of x2",
+        "imgUrl": "img-feat_fruitmachine-0.jpg"
+      },
+      {
+        "name": "Free Spins Feature",
+        "descr": "Free Spin Series with additional free spins, with multipliers from x3 to x25!",
+        "imgUrl": "img-feat_fruitmachine-1.jpg"
+      },
+      {
+        "name": "Extra Free Spins",
+        "descr": "Extra Free Spins can be won during the current series of Free Spins according to the general rules of the payout table",
+        "imgUrl": "img-feat_fruitmachine-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "FRUIT MACHINE X25: video slot game by Mascot Gaming",
+      "descr": "FRUIT MACHINE X25 is our new video slot with multipliers up to x25"
+    }
+  },
+  {
     "name": "Trump Card Queen",
     "slug": "trump-card-queen",
     "linkToDemo": "demo.mascot.games/run/trump_card_queen",
@@ -950,7 +1003,7 @@
   {
     "name": "Amaterasu keno",
     "slug": "keno",
-    "linkToDemo": "demo.mascot.games/run/gryphons_castle",
+    "linkToDemo": "demo.mascot.games/run/amaterasu_keno",
     "theme": "lottery game",
     "type": null,
     "risknbuy": false,
@@ -2134,7 +2187,7 @@
     "thumbUrl": "game_merry-scary-christmas.jpeg",
     "heroUrl": "hero_merry-scary-christmas.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_merry-scary-christmas.mp4",
+    "videoUrl": "video_merry-scary-christmas.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_merry-scary-christmas.jpg",
     "logoUrl": "logo_merry-scary-christmas.png",
@@ -2195,7 +2248,7 @@
   {
     "name": "Three corsairs",
     "slug": "three-corsairs",
-    "linkToDemo": "demo.mascot.games/run/three_corsairs",
+    "linkToDemo": "demo.mascot.games/run/3_corsairs",
     "theme": "video slot",
     "type": "profit",
     "risknbuy": false,
@@ -2268,7 +2321,7 @@
     "branded": false,
     "descr": "Cards never lie, are you ready to risk to know your fate? Queen of Spades is waiting for you in her castle!",
     "thumbUrl": "game_queenofspades.jpeg",
-    "heroUrl": "hero_queen-of-spades.jpg",
+    "heroUrl": "hero_queenofspades.jpg",
     "blueButtn": true,
     "videoUrl": "video_queenofspades.mp4",
     "videoEnabled": false,
@@ -2621,7 +2674,7 @@
   {
     "name": "Gemz Grow",
     "slug": "gemz",
-    "linkToDemo": "demo.mascot.games/run/riot",
+    "linkToDemo": "demo.mascot.games/run/gemz_grow",
     "theme": "video slot",
     "type": "traffic",
     "risknbuy": false,
@@ -2661,19 +2714,14 @@
         "imgUrl": "img-feat_gemz-1.jpg"
       },
       {
-        "name": "Raze! Rave! feature",
-        "descr": "Raze! Rave! feature is a series of 10 Free Spins. Each Raze gang character during Raze! Rave! feature becomes Sticky Wild symbol when appear",
-        "imgUrl": "img-feat_gemz-2.jpg"
-      },
-      {
         "name": "Transforming reels",
         "descr": "All the gaming features run on gaming screens of different formats which helps to form more winning combinations",
-        "imgUrl": "img-feat_gemz-3.jpg"
+        "imgUrl": "img-feat_gemz-2.jpg"
       },
       {
         "name": "Additional and floating free spins",
         "descr": "The game lets a player go from one Free Spin feature to another while obtaining additional Free Spins",
-        "imgUrl": "img-feat_gemz-4.jpg"
+        "imgUrl": "img-feat_gemz-3.jpg"
       }
     ],
     "meta": {
@@ -2696,7 +2744,7 @@
     "thumbUrl": "game_horde.jpeg",
     "heroUrl": "hero_horde.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_horde.mp4",
+    "videoUrl": "video_horde.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_horde.jpg",
     "logoUrl": "logo_horde.png",
@@ -2845,7 +2893,7 @@
     "thumbUrl": "game_benny.jpeg",
     "heroUrl": "hero_benny.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_benny.mp4",
+    "videoUrl": "video_benny.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_benny.jpg",
     "logoUrl": "logo_benny.png",
@@ -3072,7 +3120,7 @@
     "thumbUrl": "game_gryphon.jpeg",
     "heroUrl": "hero_gryphon.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_gryphon.mp4",
+    "videoUrl": "video_gryphon.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_gryphon.jpg",
     "logoUrl": "logo_gryphon.png",
@@ -3125,7 +3173,7 @@
     "thumbUrl": "game_merlin.jpeg",
     "heroUrl": "hero_merlin.jpg",
     "blueButtn": true,
-    "videoUrl": "videos/video_merlin.mp4",
+    "videoUrl": "video_merlin.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_merlin.jpg",
     "logoUrl": "logo_merlin.png",
@@ -3178,7 +3226,7 @@
     "thumbUrl": "game_purplepills.jpeg",
     "heroUrl": "hero_purplepills.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_purplepills.mp4",
+    "videoUrl": "video_purplepills.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_purplepills.jpg",
     "logoUrl": "logo_purplepills.png",
@@ -3219,7 +3267,7 @@
   {
     "name": "Wild Spirit",
     "slug": "wildspirit",
-    "linkToDemo": "demo.mascot.games/run/purple_pills",
+    "linkToDemo": "demo.mascot.games/run/wild_spirit",
     "theme": "video slot",
     "type": "profit",
     "risknbuy": false,
@@ -3231,7 +3279,7 @@
     "thumbUrl": "game_wildspirit.jpeg",
     "heroUrl": "hero_wildspirit.jpg",
     "blueButtn": false,
-    "videoUrl": "videos/video_wildspirit.mp4",
+    "videoUrl": "video_wildspirit.mp4",
     "videoEnabled": false,
     "placeholderUrl": "video_wildspirit.jpg",
     "logoUrl": "logo_wildspirit.png",
@@ -3711,11 +3759,6 @@
         "name": "Mystery Symbol",
         "descr": "Two–in–one symbol which replaces any symbol and forms a Scatter combination on the screen",
         "imgUrl": "img-feat_tomb-3.jpg"
-      },
-      {
-        "name": "Additional Free Spins",
-        "descr": "Extra free games can be won as often as their initial combinations appear",
-        "imgUrl": "img-feat_tomb-4.jpg"
       }
     ],
     "meta": {

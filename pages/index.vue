@@ -15,7 +15,7 @@
     <section id="getgames">
       <GetGames />
     </section>
-      <vue-lazy-load><BlogArticles /></vue-lazy-load>
+      <BlogArticles />
       <LazySharingButtons />
       <vue-lazy-load><AdBanner /></vue-lazy-load>
       <LazyMainFooter />

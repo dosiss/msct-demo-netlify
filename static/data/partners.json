@@ -1,7 +1,7 @@
 [
   {
     "name": "Pinup casino",
-    "type": "partner",
+    "type": "promopartner",
     "top": false,
     "casino": false,
     "platform": false,
@@ -12,7 +12,7 @@
   },
   {
     "name": "PariMatch",
-    "type": "partner",
+    "type": "promopartner",
     "top": false,
     "casino": false,
     "platform": false,
@@ -23,7 +23,7 @@
   },
   {
     "name": "Favbet",
-    "type": "partner",
+    "type": "promopartner",
     "top": false,
     "casino": false,
     "platform": false,
@@ -34,7 +34,7 @@
   },
   {
     "name": "Softswiss",
-    "type": "partner",
+    "type": "promopartner",
     "top": false,
     "casino": false,
     "platform": false,

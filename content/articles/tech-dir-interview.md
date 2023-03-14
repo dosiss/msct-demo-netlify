@@ -7,7 +7,7 @@ shortDescr: 'Mascot Gaming is bringing 10 brand new games to iGB Live! 2019 – 
 archiveDate: 2019-07-08
 ---
 
-Mascot Gaming is bringing 10 brand new [games](games.html) to iGB Live! 2019 – 9 video slots and one table game. The new set will be of favour to players of different tastes – there are both classical slots and something not met before, like Purple Pills (a funny game, peculiar homage to D12’s old rap song) or Hell’sing in gothic setting.
+Mascot Gaming is bringing 10 brand new [games](/games) to iGB Live! 2019 – 9 video slots and one table game. The new set will be of favour to players of different tastes – there are both classical slots and something not met before, like Purple Pills (a funny game, peculiar homage to D12’s old rap song) or Hell’sing in gothic setting.
 
 In connection with this huge release, we decided to talk to our Chief Technical Director Dmitriy M.
 
