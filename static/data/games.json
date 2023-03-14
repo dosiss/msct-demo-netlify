@@ -2,7 +2,7 @@
   {
     "name": "Fruit Machine X25",
     "slug": "fruit-machine-x25",
-    "linkToDemo": "demo.mascot.games/run/fruitmachine_card_queen",
+    "linkToDemo": "demo.mascot.games/run/fruit_machine_x25",
     "theme": "video slot",
     "type": "profit",
     "risknbuy": false,
@@ -10,7 +10,7 @@
     "featured": false,
     "topGame": false,
     "branded": false,
-    "descr": "Shuffle the cards, shuffle some more,\nTake the rabbit out of the hole!",
+    "descr": "Fruit reels spinning, catch your winning!",
     "thumbUrl": "game_fruitmachine.jpeg",
     "heroUrl": "hero_fruitmachine.jpg",
     "blueButtn": true,
