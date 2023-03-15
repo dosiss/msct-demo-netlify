@@ -156,6 +156,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+/*
 .fade-enter {
 	transform: scale(0.5) translateY(-80px);
 	opacity:0;
@@ -168,7 +169,7 @@ export default {
 
 .fade-leave-active {
 
-    transition: all 400ms ease-in 200ms; /* all 100ms ease-in */
+    transition: all 400ms ease-in 200ms; /* all 100ms ease-in
 
 	position: absolute;
 	z-index:-1;
@@ -177,7 +178,7 @@ export default {
   .fade-enter-active {
     transition: all 400ms ease-out 600ms;
   }
-
+*/
 
 .container-outer {
   display: flex;
