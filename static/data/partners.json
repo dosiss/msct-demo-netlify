@@ -1,14 +1,14 @@
 [
   {
-    "name": "Pinup casino",
+    "name": "1Win",
     "type": "promopartner",
     "top": false,
     "casino": false,
     "platform": false,
-    "promo": false,
-    "promoText": "Deposit with $100 and Play with $200 + Free Spins",
-    "url": "https://www.softswiss.com/games",
-    "logoUrl": "partner_logo_pinup.jpg"
+    "promo": true,
+    "promoText": "NEW CHALLENGE ALERT! 1000€!",
+    "url": "https://1wijne.top/bonuses?modal=%7B%22name%22%3A%22modal-bonus-universal%22,%22props%22%3A%7B%22bonusId%22%3A429%7D%7D",
+    "logoUrl": "partner_1win.png"
   },
   {
     "name": "PariMatch",
