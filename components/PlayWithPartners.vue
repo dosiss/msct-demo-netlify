@@ -30,7 +30,7 @@
 </template>
 
 <script>
- import allPartners from '../static/data/partners-test.json'
+ import allPartners from '../static/data/partners.json'
 
  export default {
 
