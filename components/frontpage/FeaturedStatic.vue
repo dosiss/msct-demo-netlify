@@ -11,7 +11,7 @@
                     <NuxtLink :to="`${game.slug}`">
                       <img :src="`/images/${game.logoUrl}`" class="game-logo" :alt="`${game.name}`" />
                     </NuxtLink>
-                    <a :href="`${demoUrl}/${game.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                    <a :href="`https://${game.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
                 </div>
               </div>
               </div>
@@ -24,7 +24,7 @@
 
   <div v-else class="featured-static__wrap">
 
-    <div v-if="backgroundGameData.videoUrl !== null && backgroundGameData.videoEnabled">
+    <div v-if="backgroundGameData.videoUrl !== null && backgroundGameData.videoEnabled && $device.isDesktop">
       <div class="video-wrapper">
           <div class="video-background">
             <div class="vid">
@@ -81,8 +81,8 @@
                   </NuxtLink>
                 </div>
                 <div class="featured-header__buttn">
-                    <a v-if="$device.isMobile" :href="`https://${backgroundGameData.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
-                    <a v-else :href="`${demoUrl}/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                    <a v-if="$device.isMobile" :href="`https://${backgroundGameData.linkToDemo}`" class="buttn buttn-primary buttn-m link-mobil">Play demo</a>
+                    <a v-else :href="`${demoUrl}/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m link-dsktop">Play demo</a>
                 </div>
               </div>
           </div>
