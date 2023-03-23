@@ -5,7 +5,7 @@
     "top": false,
     "casino": false,
     "platform": false,
-    "promo": true,
+    "promo": false,
     "promoText": "NEW CHALLENGE ALERT! 1000€!",
     "url": "https://1wijne.top/bonuses?modal=%7B%22name%22%3A%22modal-bonus-universal%22,%22props%22%3A%7B%22bonusId%22%3A429%7D%7D",
     "logoUrl": "partner_1win.png"
@@ -1714,5 +1714,16 @@
     "promoText": null,
     "url": "https://www.grandcasino.by/slots#/?providers=MST",
     "logoUrl": "partner_grandcasinoby.png"
+  },
+  {
+    "name": "lcb.org",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://lcb.org/casinos/software/mascot-gaming",
+    "logoUrl": "partner_lcb.png"
   }
 ]
