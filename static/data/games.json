@@ -1,5 +1,58 @@
 [
   {
+    "name": "Easter Luck",
+    "slug": "easter-luck",
+    "linkToDemo": "demo.mascot.games/run/easter_luck",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2023-03-29",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": null,
+    "thumbUrl": "game_easter.jpeg",
+    "heroUrl": "hero_easter.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_easter.jpg",
+    "logoUrl": "logo_easter.png",
+    "backUrl": "back_easter.jpg",
+    "detailsImgUrl": "details_easter.png",
+    "stats": {
+      "reels": 6,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": null,
+      "payways": 3600,
+      "html5": true,
+      "rtp": 95.2,
+      "hitrate": 23.4
+    },
+    "features": [
+      {
+        "name": "3600 Pay Ways",
+        "descr": "3600 pay ways gives even more winning combinations on the screen!",
+        "imgUrl": "img-feat_easter-0.jpg"
+      },
+      {
+        "name": "Expanding Wilds",
+        "descr": "Wild symbol expands to cover the entire reel and increases the winning combination",
+        "imgUrl": "img-feat_easter-1.jpg"
+      },
+      {
+        "name": "Free Respin Feature",
+        "descr": "Expanding Wild symbol become Sticky and start the 1 free Respin. Wild symbol may start 1 free Respin up to 4 times",
+        "imgUrl": "img-feat_easter-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "EASTER LUCK: video slot game by Mascot Gaming",
+      "descr": "EASTER LUCK is our new video slot on 3600 pay ways."
+    }
+  },
+  {
     "name": "Fruit Machine X25",
     "slug": "fruit-machine-x25",
     "linkToDemo": "demo.mascot.games/run/fruit_machine_x25",
