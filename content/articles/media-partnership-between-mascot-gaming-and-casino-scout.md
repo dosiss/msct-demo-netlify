@@ -11,9 +11,9 @@ Dutch [online casino website CasinoScout.nl](https://casinoscout.nl) and Mascot 
 
 The Mascot Gaming community is growing rapidly across Europe, and we are thrilled to work with CasinoScout.nl as a media partner supporting our organisation and our growth. Live in +100 online casinos all over the world, the Netherlands is one of our focus markets in Europe where we continue to make significant strides in the next months.
 
-_We are very excited to announce that we have formed a media partnership with Mascot Gaming. Through daily news and in-depth game reviews, we can provide extra exposure in the Netherlands with a full coverage of premium content and extensive slot reviews._
+<div style="font-style:italic;margin-bottom:15px;">We are very excited to announce that we have formed a media partnership with Mascot Gaming. Through daily news and in-depth game reviews, we can provide extra exposure in the Netherlands with a full coverage of premium content and extensive slot reviews.</div>
 
-<div align="right">**CasinoScout.nl**</div>
+<div style="text-align:right;font-weight:600;margin-bottom:30px;">CasinoScout.nl</div>
 
 The media partnership between Mascot and CasinoScout.nl will see both parties work together in the field of online content, which includes in-depth slot reviews. CasinoScout’s platform features over 2400 online slot reviews with new reviews published every day.
 
