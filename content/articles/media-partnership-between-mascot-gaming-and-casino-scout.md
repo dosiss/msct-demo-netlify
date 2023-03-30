@@ -3,7 +3,7 @@ title: 'Media partnership between Mascot Gaming and Casino Scout'
 description: 'Dutch online casino website CasinoScout.nl and Mascot Gaming are excited to announce a media partnership.'
 img: img_blog_casinoscout-main.jpg
 heading: 'Online casino CasinoScout.nl and Mascot Gaming Bundle Forces in Dutch Media Partnership'
-shortDescr: 'Find out how Across the Universe received an award from CasinoFreak portal. Discover the most relevant information about the slot`s features that make it stand out among the rest of releases from Mascot Gaming.'
+shortDescr: 'Dutch online casino website CasinoScout.nl and Mascot Gaming are excited to announce a media partnership. As part of the strategic partnership, CasinoScout.nl will provide media services for all events including latest developments of Mascot Gaming and slot releases.'
 archiveDate: 2023-03-29
 ---
 
@@ -19,6 +19,4 @@ The media partnership between Mascot and CasinoScout.nl will see both parties wo
 
 **About CasinoScout.nl**
 
-CasinoScout.nl is an online casino website that is based in the Netherlands. With thousands of visitors each day, CasinoScout.nl is one of the most popular online platforms for Dutch gambling fans with an interest in both slots and table games. CasinoScout.nl has a strong focus on online casinos and providers that hold a licence to operate on the Dutch market. Online gambling has been legal in the Netherlands since October 2021 and is known as one
-
-of the most dynamic markets of Europe allowing both domestic and international companies to enter the market after obtaining a licence from the Dutch regulator.
+CasinoScout.nl is an online casino website that is based in the Netherlands. With thousands of visitors each day, CasinoScout.nl is one of the most popular online platforms for Dutch gambling fans with an interest in both slots and table games. CasinoScout.nl has a strong focus on online casinos and providers that hold a licence to operate on the Dutch market. Online gambling has been legal in the Netherlands since October 2021 and is known as one of the most dynamic markets of Europe allowing both domestic and international companies to enter the market after obtaining a licence from the Dutch regulator.
