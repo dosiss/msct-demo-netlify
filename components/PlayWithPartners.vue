@@ -134,6 +134,7 @@
         align-items: center;
         img {
           width: 100%;
+          border-radius: 8px
         }
       }
       .partner-offer {
