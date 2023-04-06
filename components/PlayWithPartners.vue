@@ -15,7 +15,7 @@
           <div class="partners-card">
             <div class="partner-logo"><img :src="`images/${partner.logoUrl}`" :alt="`${partner.name}`" /></div>
             <div class="partner-offer">{{partner.promoText}}</div>
-            <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm">Take part</a>
+            <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm">Claim bonus</a>
           </div>
         </div>
       </div>

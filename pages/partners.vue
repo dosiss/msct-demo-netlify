@@ -35,7 +35,7 @@
                 <div v-else class="partners-card">
                   <div class="partner-logo"><img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" loading="lazy" /></div>
                   <div class="partner-offer">{{partner.promoText}}</div>
-                  <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm">Take part</a>
+                  <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm">Claim bonus</a>
                 </div>
               </div>
             </div>
