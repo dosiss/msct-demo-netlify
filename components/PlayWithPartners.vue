@@ -142,7 +142,8 @@
         line-height: 25px;
         margin-top: 40px;
         margin-bottom: 20px;
-        color: #000
+        color: #000;
+        white-space: pre-wrap
       }
       .buttn-sm {
         padding: 15px;
