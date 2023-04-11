@@ -64,6 +64,11 @@
 </script>
 
 <style lang="scss">
+.partners__content {
+  .partner__wrap:nth-child(2) {
+    display: none;
+  }
+}
 .playpartners__wrap {
   padding-top: 100px;
   @media (max-width: 650px) {
