@@ -52,7 +52,7 @@
 <script>
 import VLazyImage from "v-lazy-image/v2";
 
-import allPartners from '../static/data/partners-test.json';
+import allPartners from '../static/data/partners.json';
 
 
 export default {
