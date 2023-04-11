@@ -14,7 +14,9 @@
               <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'videoslots'">Video Slots</button>
               <button :class="{ active: gameFilterKey == 'lotteries' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'lotteries'">Lotteries</button>
               <button :class="{ active: gameFilterKey == 'tablegames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'tablegames'">Table games</button>
+              <button :class="{ active: gameFilterKey == 'shooting' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'shooting'">Shooting</button>
               <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'risknbuy'">Risk&amp;Buy</button>
+              <button :class="{ active: gameFilterKey == 'rockways' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'rockways'">Rockways</button>
               <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'branded'">Branded</button>
             </div>
           </div>
@@ -138,6 +140,12 @@ export default {
       risknbuy() {
         return allGames.filter((game) => game.risknbuy === true)
       },
+      rockways() {
+        return allGames.filter((game) => game.rockways === true)
+      },
+      shooting() {
+        return allGames.filter((game) => game.theme === "shooting")
+      },
       branded() {
         return allGames.filter((game) => game.branded === true)
       },
@@ -198,12 +206,18 @@ export default {
     }
   }
   &.container-filter {
+    @media (max-width: 1900px) {
+      padding: 0 100px
+    }
+    @media (max-width: 1450px) {
+      padding: 0 35px
+    }
     @media (max-width: 650px) {
       order: 2
     }
   }
   .games-filter__outer {
-    @media (max-width: 1200px) {
+    @media (max-width: 1350px) {
       overflow-x: scroll;
       overflow-y: hidden;
       -ms-overflow-style: none;  /* IE and Edge */
@@ -221,13 +235,13 @@ export default {
     @media (min-width: 1980px) {
       width: 1490px
     }
-    @media (max-width: 1200px) {
+    @media (max-width: 1350px) {
       padding-left: 35px;
       justify-content: flex-start;
-      width: 165%;
+      width: 190%;
     }
     @media (max-width: 650px) {
-      width: 300%;
+      width: 480%;
       margin-bottom: 10px;
       margin-top: 20px
     }

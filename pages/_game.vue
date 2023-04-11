@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :class="`game_${currentGame.slug}`">
     <MainHeader />
     <header v-if="$device.isMobile" class="header-area">
       <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.heroUrl})` }"></div>
@@ -182,7 +182,7 @@
           <h2 class="game-details__head">Game details</h2>
           <div class="game-details__content">
             <div class="game-details__content-inner">
-              <ul class="details-list">
+              <ul class="details-list column-1">
                 <li v-if="currentGame.stats.rows && currentGame.stats.rows !== null" class="details-item">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 6.928v18"/><path fill="#000" stroke="#fff" stroke-linejoin="round" stroke-width="2" d="m9.121 12.514 3.536 3.535-3.536 3.536-3.536-3.536z"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 6.928v18m6-18v18"/><rect width="5" height="5" x="21.121" y="12.514" fill="#000" stroke="#fff" stroke-linejoin="round" stroke-width="2" rx="2.5" transform="rotate(45 21.121 12.514)"/></svg>
                   <span class="details-name">Reels</span>
@@ -214,7 +214,7 @@
                   <div class="details-value">{{currentGame.type}} game</div>
                 </li>
               </ul>
-              <ul class="details-list">
+              <ul class="details-list column-2">
                 <li v-if="currentGame.stats.rtp && currentGame.stats.rtp" class="details-item">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17.928a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm10.09-3.63a6.001 6.001 0 1 1-7.75 7.63"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9.928h1v4m8.71 3.88.7.71-2.82 2.82"/></svg>
                   <span class="details-name">RTP</span>
@@ -384,11 +384,14 @@ export default {
  methods: {
 
   formatDate(date) {
-    const options = { year: 'numeric', month: 'numeric', day: 'numeric' }
-    return new Date(date).toLocaleDateString('ro-RO', options)
-  },
-
-}
+    if (date !== 'coming soon') {
+        const options = { year: 'numeric', month: 'numeric', day: 'numeric' }
+        return new Date(date).toLocaleDateString('ro-RO', options)
+    } else {
+      return 'coming soon'
+    }
+  }
+},
 
 //  currentGame() {
 //  return this.gamesList
@@ -402,6 +405,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .game_hook-up-fishing-wars {
+    .game-meta__outer {
+      display: none
+    }
+    .details-list {
+      &.column-1 {
+        display: none
+      }
+    }
+  }
   .top-img {
     background-size: cover;
     background-repeat: no-repeat;
