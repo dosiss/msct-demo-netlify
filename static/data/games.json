@@ -1,12 +1,77 @@
 [
   {
+    "name": "Hook Up! Fishing Wars",
+    "slug": "hook-up-fishing-wars",
+    "linkToDemo": "play.mascot.games/coming-soon",
+    "theme": "shooting",
+    "type": null,
+    "risknbuy": false,
+    "rockways": false,
+    "releaseDate": "coming soon",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "In Hook Up! Fishing Wars, the ocean is your game, Cast your line, shoot with aim!",
+    "thumbUrl": "game_fishing.jpeg",
+    "heroUrl": "hero_fishing.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fishing.jpg",
+    "logoUrl": "logo_fishing.png",
+    "backUrl": "back_fishing.jpg",
+    "detailsImgUrl": "details_fishing.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": false,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": " ",
+        "descr": "Freezing and Free Shots for killing special characters",
+        "imgUrl": "img-feat_fishing-0.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Free Shots for catching the Cannon symbol",
+        "imgUrl": "img-feat_fishing-1.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Two bosses with huge winnings",
+        "imgUrl": "img-feat_fishing-2.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Chests with big winnings and special symbols",
+        "imgUrl": "img-feat_fishing-3.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Bonus game with expensive fish",
+        "imgUrl": "img-feat_fishing-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Hook Up! Fishing Wars is a first action game by Mascot Gaming",
+      "descr": "Hook Up! Fishing Wars by Mascot Gaming is a shooting game, that combines arcade and casino gameplay mechanics"
+    }
+  },
+  {
     "name": "Easter Luck",
     "slug": "easter-luck",
     "linkToDemo": "demo.mascot.games/run/easter_luck",
     "theme": "video slot",
     "type": "profit",
     "risknbuy": false,
-    "releaseDate": "2023-03-29",
+    "rockways": false,
+    "releaseDate": "2023-04-04",
     "featured": false,
     "topGame": false,
     "branded": false,
@@ -103,7 +168,8 @@
     "meta": {
       "title": "FRUIT MACHINE X25: video slot game by Mascot Gaming",
       "descr": "FRUIT MACHINE X25 is our new video slot with multipliers up to x25"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Trump Card Queen",
@@ -166,7 +232,8 @@
     "meta": {
       "title": "Trump Card Queen video slot by Mascot Gaming",
       "descr": "Trump Card Queen by Mascot Gaming is a video slot with Super Bonus Game and Risk&Buy Feature"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Cleopatra's gems bingo",
@@ -201,7 +268,7 @@
     },
     "features": [
       {
-        "name": null,
+        "name": " ",
         "descr": "Classic bingo game with 4 cards for 60 balls. The highest combination on each card wins",
         "imgUrl": "img-feat_cleogems-0.jpg"
       },
@@ -214,7 +281,8 @@
     "meta": {
       "title": "CLEOPATRA'S GEMS BINGO, new bingo game from Mascot Gaming",
       "descr": "CLEOPATRA'S GEMS BINGO by Mascot Gaming, classic bingo game in a Egypt style."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Greedy Greenskins Rockways",
@@ -282,7 +350,8 @@
     "meta": {
       "title": "GREEDY GREENSKINS ROCKWAYS slot game by Mascot Gaming",
       "descr": "GREEDY GREENSKINS ROCKWAYS by Mascot Gaming is a video slot with RockWays mechanics and famous Risk&Buy feature"
-    }
+    },
+    "rockways": true
   },
   {
     "name": "The Candy Keno",
@@ -330,7 +399,8 @@
     "meta": {
       "title": "THE CANDY KENO new lottery game from Mascot Gaming",
       "descr": "THE CANDY KENO by Mascot Gaming the lottery game in a favourite candy style."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "La Fiesta De Muertos",
@@ -388,7 +458,8 @@
     "meta": {
       "title": "La Fiesta De Muertos video slot by Mascot Gaming",
       "descr": "La Fiesta De Muertos by Mascot Gaming is a video slot with Bonus Game and Sticky Respin feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Wildlife Riches",
@@ -446,7 +517,8 @@
     "meta": {
       "title": "Wildlife Riches video slot game by Mascot Gaming",
       "descr": "Wildlife Riches by Mascot Gaming is a video slot with Risk&Buy feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Hydra's Lair",
@@ -504,7 +576,8 @@
     "meta": {
       "title": "Hydra's Lair video slot game by Mascot Gaming",
       "descr": "Hydra's Lair by Mascot Gaming is a video slot with infinite Free Spins and Risk&Buy feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "1X Fruits",
@@ -557,7 +630,8 @@
     "meta": {
       "title": "1X Fruits: video slot game from Mascot Gaming",
       "descr": "1X Fruits is our new video slot with the atmosphere of the good old Vegas."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Deepsea Riches",
@@ -625,7 +699,8 @@
     "meta": {
       "title": "DEEPSEA RICHES 3d slot game by Mascot Gaming",
       "descr": "DEEPSEA RICHES by Mascot Gaming is a 3d video slot with Rockfall mechanics and a legendary Risk&Buy Feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Loot the Train!",
@@ -683,7 +758,8 @@
     "meta": {
       "title": "Loot The Train! Slot game by Mascot Gaming",
       "descr": "Loot The Train! By Mascot Gaming is a video slot with Bonus Game and famous Risk&Buy feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "The Princess & Dwarfs: Rockways",
@@ -756,7 +832,8 @@
     "meta": {
       "title": "The Princess & Dwarfs: Rockways slot game by Mascot Gaming",
       "descr": "The Princess & Dwarfs: Rockways from Mascot Gaming is a video slot with Bonus Game and Rockways and Rockfall mechanics."
-    }
+    },
+    "rockways": true
   },
   {
     "name": "Fruit Disco: Megastacks",
@@ -809,7 +886,8 @@
     "meta": {
       "title": "FRUIT DISCO: MEGASTACKS: video slot game by Mascot Gaming",
       "descr": "FRUIT DISCO: MEGASTACKS is our new video slot with Stacked Symbols feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Double Triple Fruits",
@@ -862,7 +940,8 @@
     "meta": {
       "title": "DOUBLE TRIPLE FRUITS: video slot game by Mascot Gaming",
       "descr": "DOUBLE TRIPLE FRUITS is our new video slot with Double-Triple feature and Win multiplier."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Riot 2: Blow and Burn",
@@ -930,7 +1009,8 @@
     "meta": {
       "title": "Riot 2: Blow and Burn slot game by Mascot Gaming",
       "descr": "Riot 2: Blow and Burn from Mascot Gaming is a video slot game with RockFall mechanics and the famous Risk & Buy feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Across the Universe",
@@ -988,7 +1068,8 @@
     "meta": {
       "title": "ACROSS THE UNIVERSE slot game by Mascot Gaming",
       "descr": "ACROSS THE UNIVERSE by Mascot Gaming is a video slot with guaranteed Free Spins and Bonus Winnings."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "The Candy Crush",
@@ -1051,7 +1132,8 @@
     "meta": {
       "title": "THE CANDY CRUSH slot game by Mascot Gaming",
       "descr": "HE CANDY CRUSH by Mascot Gaming is a video slot with Random, Rockfall and Risk&Buy features."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Amaterasu keno",
@@ -1099,7 +1181,8 @@
     "meta": {
       "title": "AMATERASU KENO, lottery game from Mascot Gaming",
       "descr": "AMATERASU KENO is a famous lottery game, popular from the ancient time."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "For the Realm",
@@ -1162,7 +1245,8 @@
     "meta": {
       "title": "For The Realm video slot game by Mascot Gaming",
       "descr": "For The Realm is a fantasy slot game by Mascot Gaming with three different Free Spins series and exclusive Risk&Buy feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Cleopatra's Gems Rockways",
@@ -1230,7 +1314,8 @@
     "meta": {
       "title": "CLEOPATRA'S GEMS ROCKWAYS slot game by Mascot Gaming",
       "descr": "CLEOPATRA'S GEMS ROCKWAYS by Mascot Gaming is a video slot with RockWays and RockFall mechanics."
-    }
+    },
+    "rockways": true
   },
   {
     "name": "Twin Fruits of Santa",
@@ -1278,7 +1363,8 @@
     "meta": {
       "title": "TWIN FRUITS OF SANTA: video slot game by Mascot Gaming",
       "descr": "TWIN FRUITS OF SANTA is our new video slot with Tween Reels feature and 1024 Pay Ways."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Fairytale Coven",
@@ -1341,7 +1427,8 @@
     "meta": {
       "title": "Fairytale Coven video slot game by Mascot Gaming",
       "descr": "Fairytale Coven is a magical slot game by Mascot Gaming with three different Free Spins series and exclusive Risk&Buy feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Primal Bet. Rockways",
@@ -1409,7 +1496,8 @@
     "meta": {
       "title": "Primal Bet. Rockways slot game by Mascot Gaming",
       "descr": "Primal Bet. Rockways from Mascot Gaming is a video slot with RockWays and Rockfall mechanics."
-    }
+    },
+    "rockways": true
   },
   {
     "name": "Aloha Tiki Bar",
@@ -1462,7 +1550,8 @@
     "meta": {
       "title": "ALOHA TIKI BAR: video slot game by Mascot Gaming",
       "descr": "ALOHA TIKI BAR is our new video slot on 3600 pay ways."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Evil bet",
@@ -1525,7 +1614,8 @@
     "meta": {
       "title": "EVIL BET, video slot by Mascot Gaming",
       "descr": "EVIL BET is a video slot by Mascot Gaming with Risk&Buy feature and game modifiers."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "PinUp Dolls",
@@ -1593,7 +1683,8 @@
     "meta": {
       "title": "Pinup Dolls video slot game by Mascot Gaming",
       "descr": "Pinup Dolls by Mascot Gaming is a video slot with Wild Reels and unique Risk&Buy feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Dragon's Nest",
@@ -1666,7 +1757,8 @@
     "meta": {
       "title": "Dragon's Nest video slot game by Mascot Gaming",
       "descr": "Dragon's Nest by Mascot Gaming is a video slot with a lot of different prizes and unique Risk&Buy feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Fruits of Luxor",
@@ -1714,7 +1806,8 @@
     "meta": {
       "title": "FRUITS OF LUXOR: video slot game from Mascot Gaming",
       "descr": "FRUITS OF LUXOR is our new video slot with Sticky Wilds & Respin feature."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Twin fruits of Olympus",
@@ -1762,7 +1855,8 @@
     "meta": {
       "title": "TWIN FRUITS OF OLYMPUS: video slot game from Mascot Gaming",
       "descr": "TWIN FRUITS OF OLYMPUS is our new video slot with twin reels feature"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Zeus the Thunderer",
@@ -1830,7 +1924,8 @@
     "meta": {
       "title": "Zeus The Thunderer video slot from Mascot Gaming",
       "descr": "Zeus The Thunderer from Mascot Gaming is a beautiful video slot with three types of Free Spins."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "The Book of Amaterasu",
@@ -1893,7 +1988,8 @@
     "meta": {
       "title": "Book of Amaterasu video slot from Mascot Gaming",
       "descr": "Book of Amaterasu from Mascot Gaming is a charming video slot with Free Spins with special expanding symbol"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Mayan Riches Rockways",
@@ -1961,7 +2057,8 @@
     "meta": {
       "title": "MAYAN RICHES ROCKWAYS slot game by Mascot Gaming",
       "descr": "MAYAN RICHES ROCKWAYS by Mascot Gaming is a video slot with RockWays and RockFall mechanics."
-    }
+    },
+    "rockways": true
   },
   {
     "name": "Bastet and Cats",
@@ -2029,7 +2126,8 @@
     "meta": {
       "title": "Bastet and Cats 3d slot game from Mascot Gaming",
       "descr": "Bastet and Cats from Mascot Gaming is a 3d video slot with Rockfall mechanics and unique Risk&Buy feature. Meow!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "The myth",
@@ -2097,7 +2195,8 @@
     "meta": {
       "title": "The Myth video slot game from Mascot Gaming",
       "descr": "The Myth from Mascot Gaming is a video slot with unique Risk&Buy feature. Go on an adventure with powerful Vikings!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Hell'sing",
@@ -2155,7 +2254,8 @@
     "meta": {
       "title": "HELLSING, video slot game from Mascot Gaming",
       "descr": "HELLSING is a classic 5 reels video slot game from Mascot Gaming. Creepy characters and bloodcurdling soundtrack will not leave indifferent any fan of horror stories!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Prince of Persia: the Gems of Persepolis",
@@ -2223,7 +2323,8 @@
     "meta": {
       "title": "Prince of Persia video slot game from Mascot Gaming",
       "descr": "Prince of Persia from Mascot Gaming is a video slot with unique Risk&Buy feature. Oh, the marvelous and mysterious East!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Merry Scary Christmas",
@@ -2296,7 +2397,8 @@
     "meta": {
       "title": "Merry Scary Christmas video slot game from Mascot Gaming",
       "descr": "Merry Scary Christmas from Mascot Gaming is a video slot with unique Risk&Buy feature. Ho Ho Ho Christmas is coming!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Three corsairs",
@@ -2359,7 +2461,8 @@
     "meta": {
       "title": "Three Corsairs video slot game from Mascot Gaming",
       "descr": "Three Corsairs from Mascot Gaming is a video slot with unique Risk&Buy feature. Find the treasure map together with courageous corsairs!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Queen of Spades",
@@ -2427,7 +2530,8 @@
     "meta": {
       "title": "Queen of Spades video slot game from Mascot Gaming",
       "descr": "Queen of Spades from Mascot Gaming is a video slot with a unique Risk&Buy feature. Are you ready to risk to know your fate?"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Rekill",
@@ -2490,7 +2594,8 @@
     "meta": {
       "title": "REKILL, video slot game from Mascot Gaming",
       "descr": "REKILL is a video slot game on 5 reels full of zombies. If you brave enough try to stay alive...or say good bye to some of your body parts. Yummy!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Fruit Macau",
@@ -2543,7 +2648,8 @@
     "meta": {
       "title": "FRUIT MACAU: video slot game from Mascot Gaming",
       "descr": "FRUIT MACAU is our new game with juicy fruits and plenty of new thrilling features. Open the second chapter of Mascot Gaming Fruit Trilogy!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Fruit Monaco",
@@ -2596,7 +2702,8 @@
     "meta": {
       "title": "FRUIT MONACO: video slot game from Mascot Gaming",
       "descr": "FRUIT MONACO is our new video slot game - a homage to the luxurious gambling principality and iconic slot theme."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Robin of Loxley",
@@ -2659,7 +2766,8 @@
     "meta": {
       "title": "Robin of Loxley video slot game from Mascot Gaming",
       "descr": "Robin of Loxley from Mascot Gaming is a video slot with a unique Risk&Buy feature. Get your bow and arrows ready!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Riot",
@@ -2722,7 +2830,8 @@
     "meta": {
       "title": "Riot video slot game from Mascot Gaming",
       "descr": "Check out Riot, a new medium volatility 5×3, 15 payline slot with exclusive Risk&Buy feature from Mascot Gaming."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Gemz Grow",
@@ -2780,7 +2889,8 @@
     "meta": {
       "title": "GEMZ GROW: video slot game from Mascot Gaming",
       "descr": "GEMZ GROW is a video slot with 3125 pay ways and enchanting music. Immerse yourself in this atmosphere and take your gemz!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Red Horde",
@@ -2833,7 +2943,8 @@
     "meta": {
       "title": "RED HORDE, video slot from Mascot Gaming",
       "descr": "RED HORDE is a funny video slot full of extraordinary features. Protect your village from nasty creatures and get a gold reward!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Baccarat",
@@ -2881,7 +2992,8 @@
     "meta": {
       "title": "BACCARAT: a new card game from Mascot Gaming",
       "descr": "BACCARAT is a card game from Mascot Gaming, popular all over the world."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Casino Hold'em",
@@ -2929,7 +3041,8 @@
     "meta": {
       "title": "CASINO HOLD'EM: a new card game from Mascot Gaming",
       "descr": "CASINO HOLD'EM is a card game from Mascot Gaming, popular all over the world."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Benny's the Biggest Game",
@@ -2997,7 +3110,8 @@
     "meta": {
       "title": "BENNY'S THE BIGGEST GAME, video slot from Mascot Gaming",
       "descr": "BENNY'S THE BIGGEST GAME from Mascot Gaming is an amusing video slot with juicy cartoon graphics and exciting features."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Blackjack",
@@ -3045,7 +3159,8 @@
     "meta": {
       "title": "BLACKJACK: a new game from Mascot Gaming",
       "descr": "BLACKJACK is a classic card game, popular all over the world."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Legioner",
@@ -3103,7 +3218,8 @@
     "meta": {
       "title": "LEGIONER: video slot game from Mascot Gaming",
       "descr": "LEGIONER is an exciting video slot based on Ancient Rome history. Join the Legioner for the sake of immortal victory!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Fruit Vegas",
@@ -3156,7 +3272,8 @@
     "meta": {
       "title": "FRUIT VEGAS: video slot game from Mascot Gaming",
       "descr": "FRUIT VEGAS is our new video slot with the atmosphere of the good old Vegas."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Gryphon's Castle",
@@ -3209,7 +3326,8 @@
     "meta": {
       "title": "GRYPHON'S CASTLE: video slot game from Mascot Gaming",
       "descr": "GRYPHON'S CASTLE is an exciting video slot with RTP 96.6 and high volatility. Noble creature guards a castle full of treasures. Will you dare to take them?"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Merlin's Tower",
@@ -3262,7 +3380,8 @@
     "meta": {
       "title": "MERLIN'S TOWER video slot game from Mascot Gaming",
       "descr": "MERLIN’S TOWER is a video slot based on famous wizard story. Magic potion brings luck to everyone who comes here."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Purple Pills",
@@ -3315,7 +3434,8 @@
     "meta": {
       "title": "PURPLE PILLS video slot game from Mascot Gaming",
       "descr": "No one remain indifferent to this funny video slot. Check PURPLE PILLS - our homage to the old rap song."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Wild Spirit",
@@ -3368,12 +3488,13 @@
     "meta": {
       "title": "WILD SPIRIT: video slot game from Mascot Gaming",
       "descr": "WILD SPIRIT is our new mysterious video slot. Open your mind to the wild spirit of beautiful savage lands"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Anksunamun: the queen of Egypt",
     "slug": "anksunamun",
-    "linkToDemo": "demo.mascot.games/run/anksunamun",
+    "linkToDemo": "demo.mascot.games/run/anksunamun_tqoe",
     "theme": "video slot",
     "type": "traffic",
     "risknbuy": false,
@@ -3426,7 +3547,8 @@
     "meta": {
       "title": "ANKSUNAMUN THE QUEEN OF EGYPT, video slot game from Mascot Gaming",
       "descr": "ANKSUNAMUN THE QUEEN OF EGYPT - video slot based on exciting ancient world. Great treasures, pharaohs and pyramids - enjoy the breathtaking adventure"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Bamboo Bear",
@@ -3479,7 +3601,8 @@
     "meta": {
       "title": "BAMBOO BEAR, video slot game from Mascot Gaming",
       "descr": "Like Yin and Yang, game excitement and spiritual balance inevitably meet each other in video slot BAMBOO BEAR from Mascot Gaming. Find your harmony here"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Cancan Saloon",
@@ -3537,7 +3660,8 @@
     "meta": {
       "title": "CANCAN SALOON, video slot game from Mascot Gaming",
       "descr": "CANCAN SALOON is a 5 reel video slot game, based on classical Wild West theme. Keep your wits sharp, your heart open, and your gun loaded."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Lion's Pride",
@@ -3590,7 +3714,8 @@
     "meta": {
       "title": "LION'S PRIDE, video slot game from Mascot Gaming",
       "descr": "Enjoy colourful jungle! LION'S PRIDE from Mascot Gaming is a video slot with beautiful graphics. 5 reels, 4 rows, as many as 40 pay lines."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Mermaid's Bay",
@@ -3648,7 +3773,8 @@
     "meta": {
       "title": "MERMAID'S BAY, video slot game from Mascot Gaming",
       "descr": "MERMAID’S BAY - atmospheric video slot on 5 reels. Beautiful mermaids will reveal the secret of the deep sea to you!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Northern Heat",
@@ -3701,7 +3827,8 @@
     "meta": {
       "title": "NORTHERN HEAT, video slot game from Mascot Gaming",
       "descr": "NORTHERN HEAT is an exciting video slot on 5 reels with nice soundtrack. Follow the footsteps of gorgeous arctic animals and find a big winning!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "The Rite",
@@ -3759,7 +3886,8 @@
     "meta": {
       "title": "THE RITE, video slot game from Mascot Gaming",
       "descr": "THE RITE is a classic video slot on 5 reels with 40 winning lines and free games. Don’t be scared, appearing of Voodoo bonus will bring magic winning!"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "The Tomb",
@@ -3817,7 +3945,8 @@
     "meta": {
       "title": "THE TOMB: DRAGON EMPEROR'S TREASURE, video slot game from Mascot Gaming",
       "descr": "Take your treasures with this video slot from Mascot Gaming: 5 reels, 3 rows, 10 paylines. Who is brave enough to unravel the riddle of Emperors' tomb?"
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Venetian Magic",
@@ -3865,6 +3994,7 @@
     "meta": {
       "title": "VENETIAN MAGIC, video slot game from Mascot Gaming",
       "descr": "VENETIAN MAGIC is a beautiful atmospheric video slot from Mascot Gaming. Join the magnificent Venice carnival!"
-    }
+    },
+    "rockways": false
   }
 ]

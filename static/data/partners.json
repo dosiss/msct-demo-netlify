@@ -1,14 +1,14 @@
 [
   {
-    "name": "1Win",
+    "name": "Gama",
     "type": "promopartner",
     "top": false,
     "casino": false,
     "platform": false,
-    "promo": false,
-    "promoText": "NEW CHALLENGE ALERT! 1000€!",
-    "url": "https://1wijne.top/bonuses?modal=%7B%22name%22%3A%22modal-bonus-universal%22,%22props%22%3A%7B%22bonusId%22%3A429%7D%7D",
-    "logoUrl": "partner_1win.png"
+    "promo": true,
+    "promoText": "Mascot - no Deposit 50 FS \n50 Free Spins in RIOT! \nPromo code: MASCOT",
+    "url": "https://gama.casino/en/play/899/riot?demo=false",
+    "logoUrl": "partner_gama.png"
   },
   {
     "name": "PariMatch",

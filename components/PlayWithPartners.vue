@@ -15,7 +15,7 @@
           <div class="partners-card">
             <div class="partner-logo"><img :src="`images/${partner.logoUrl}`" :alt="`${partner.name}`" /></div>
             <div class="partner-offer">{{partner.promoText}}</div>
-            <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm">Take part</a>
+            <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm" target="_blank">Claim bonus</a>
           </div>
         </div>
       </div>
@@ -118,6 +118,7 @@
     }
     @media (max-width: 550px) {
       grid-template-columns: 1fr;
+      justify-items: center
     }
     .partners-card {
 
@@ -134,6 +135,7 @@
         align-items: center;
         img {
           width: 100%;
+          border-radius: 8px
         }
       }
       .partner-offer {
@@ -141,7 +143,8 @@
         line-height: 25px;
         margin-top: 40px;
         margin-bottom: 20px;
-        color: #000
+        color: #000;
+        white-space: pre-wrap
       }
       .buttn-sm {
         padding: 15px;
