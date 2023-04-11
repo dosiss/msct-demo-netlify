@@ -163,7 +163,7 @@
         </div>
         </div>
       </div>
-      <PlayWithPartners v-if="currentGame.name == 'Riot'"/>
+      <PlayWithPartners />
       <div class="features__outer container">
         <div class="features__wrap">
           <h2 class="features__head game-subtitle">Game Features</h2>

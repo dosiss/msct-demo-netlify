@@ -1,5 +1,16 @@
 [
   {
+    "name": "Slottica",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Mascot Spring Tournament",
+    "url": "https://slottica.com/ru/promo",
+    "logoUrl": "partner_slottica.png"
+  },
+  {
     "name": "Gama",
     "type": "promopartner",
     "top": false,

@@ -15,7 +15,7 @@
           <div class="partners-card">
             <div class="partner-logo"><img :src="`images/${partner.logoUrl}`" :alt="`${partner.name}`" /></div>
             <div class="partner-offer">{{partner.promoText}}</div>
-            <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm" target="_blank">Claim bonus</a>
+            <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm" target="_blank">{{ `${partner.name}` == 'Gama' ? "Claim bonus" : "Take part" }}</a>
           </div>
         </div>
       </div>
@@ -85,6 +85,11 @@
       }
     }
   }
+  .partner__wrap {
+    &.promopartner {
+      width: 100%
+    }
+  }
   .partners__head {
     display: flex;
     justify-content: space-between;
@@ -126,6 +131,10 @@
       border-radius: 7px;
       text-align: center;
       padding: 15px 15px 25px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       @media (max-width: 550px) {
         justify-self: stretch;
       }
@@ -150,7 +159,8 @@
         padding: 15px;
         max-width: 200px;
         font-size: 1.05rem;
-        margin: 0 auto
+        margin: 0 auto;
+        width: 200px
       }
     }
   }
