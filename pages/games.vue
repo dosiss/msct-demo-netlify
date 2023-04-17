@@ -107,14 +107,11 @@
 </template>
 
 <script>
-
-// import { ref } from "vue";
-
 import VLazyImage from "v-lazy-image/v2";
 
 import VueLazyLoad from '@voorhoede/vue-lazy-load';
 
-import allGames from '../static/data/games.json';
+import allGames from '../static/data/games.json'
 
 export default {
 
@@ -201,9 +198,6 @@ export default {
         return allGames.filter((game) => game.branded === true)
       },
       searchList() {
-        // return allGames.filter((game) =>
-        //   game.name.toLowerCase().includes(this.input.toLowerCase())
-        // );
         return allGames.filter((game) => {
           return game.name.toLowerCase().includes(this.input.toLowerCase())
         })
@@ -218,19 +212,12 @@ export default {
         if(this.$route.query.type === "profitgames") {
           this.gameFilterKey = "profit"
         };
-  //      this.focusInput();
-  //      console.log(this.$refs.searchField)
-  //        this.$refs.searchField.focus()
-
   },
   methods: {
     showSearchPanel() {
       this.gameFilterKey = "search"
       this.searchPanel = true;
-    },
-    // focusInput() {
-    //   this.$refs.searchField.focus();
-    // }
+    }
   }
 }
 
