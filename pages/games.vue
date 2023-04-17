@@ -8,6 +8,10 @@
           <div class="games-filter__outer">
             <div class="games-filter__wrap">
               <button :class="{ active: gameFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'all'">All</button>
+              <button :class="{ active: gameFilterKey == 'search' }" class="buttn buttn-rounded buttn-sm buttn-search" @click="showSearchPanel">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 18"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8.875 14.25a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm7.5 1.5-3.263-3.263"/></svg>
+                <span>Search</span>
+              </button>
               <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'top'">Тор Games</button>
               <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'traffic'">Traffic Games</button>
               <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">Profit Games</button>
@@ -23,6 +27,47 @@
         </div>
       </div>
       <div class="all-games">
+        <div v-if="gameFilterKey == 'search'">
+          <div class="search__wrap">
+            <div class="search-field-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18"><path stroke="#DADADA" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 14.25a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm7.5 1.5-3.263-3.263"/></svg>
+            </div>
+            <input ref="searchField" v-model="input" type="text" />
+            <button class="search-field-buttn" @click="input = ''"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18"><circle cx="9" cy="9" r="7.5" fill="#DADADA"/><path stroke="#121212" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 12 6 6m0 6 6-6"/></svg>
+            </button>
+          </div>
+          <div class="all-games__content">
+            <div>
+              <div v-for="(game, idx) in searchList" :key="idx" class="game-thumbnail">
+                <div class="game-thumbnail__outer">
+                  <div class="game-thumbnail__inner">
+                  <v-lazy-image :src="`images/${game.thumbUrl}`" :src-placeholder="`images/lowres/${game.thumbUrl}`" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
+                  <div class="game-content__wrap">
+                    <div class="game-content__buttns">
+                      <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? "More" : "Learn more" }}</NuxtLink>
+                      <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
+                        Play demo
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </a>
+                      <a v-else :href="`${demoUrl}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                        Play demo
+                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div v-if="input && !searchList.length" class="search-error">
+            <p>No results found for <span>&ldquo;{{input}}&rdquo;</span></p>
+          </div>
+        </div>
           <div class="all-games__content">
             <TransitionGroup name="fade" tag="div">
             <div v-for="(game, idx) in gamesFilter" :key="idx" class="game-thumbnail">
@@ -62,11 +107,14 @@
 </template>
 
 <script>
+
+// import { ref } from "vue";
+
 import VLazyImage from "v-lazy-image/v2";
 
 import VueLazyLoad from '@voorhoede/vue-lazy-load';
 
-import allGames from '../static/data/games.json'
+import allGames from '../static/data/games.json';
 
 export default {
 
@@ -82,6 +130,9 @@ export default {
 
       gamesList: allGames,
       gameFilterKey: 'all',
+
+      searchPanel: false,
+      input: '',
 
       demoUrl: this.$config.demoUrl,
     }
@@ -149,6 +200,15 @@ export default {
       branded() {
         return allGames.filter((game) => game.branded === true)
       },
+      searchList() {
+        // return allGames.filter((game) =>
+        //   game.name.toLowerCase().includes(this.input.toLowerCase())
+        // );
+        return allGames.filter((game) => {
+          return game.name.toLowerCase().includes(this.input.toLowerCase())
+        })
+      }
+
   },
 
   mounted() {
@@ -158,7 +218,20 @@ export default {
         if(this.$route.query.type === "profitgames") {
           this.gameFilterKey = "profit"
         };
+  //      this.focusInput();
+  //      console.log(this.$refs.searchField)
+  //        this.$refs.searchField.focus()
+
   },
+  methods: {
+    showSearchPanel() {
+      this.gameFilterKey = "search"
+      this.searchPanel = true;
+    },
+    // focusInput() {
+    //   this.$refs.searchField.focus();
+    // }
+  }
 }
 
 </script>
@@ -206,18 +279,19 @@ export default {
     }
   }
   &.container-filter {
-    @media (max-width: 1900px) {
+    @media (max-width: 1950px) {
       padding: 0 100px
     }
-    @media (max-width: 1450px) {
+    @media (max-width: 1770px) {
       padding: 0 35px
     }
     @media (max-width: 650px) {
-      order: 2
+      order: 2;
+      padding: 0 20px
     }
   }
   .games-filter__outer {
-    @media (max-width: 1350px) {
+    @media (max-width: 1450px) {
       overflow-x: scroll;
       overflow-y: hidden;
       -ms-overflow-style: none;  /* IE and Edge */
@@ -235,10 +309,13 @@ export default {
     @media (min-width: 1980px) {
       width: 1490px
     }
-    @media (max-width: 1350px) {
+    @media (max-width: 1450px) {
       padding-left: 35px;
       justify-content: flex-start;
-      width: 190%;
+      width: 200%;
+    }
+    @media (max-width: 850px) {
+      padding-left: 0
     }
     @media (max-width: 650px) {
       width: 480%;
@@ -251,8 +328,99 @@ export default {
       &:not(:first-child) {
         width: 130px
       }
-      @media (max-width: 1650px) {
+      @media (max-width: 1850px) {
         margin-right: 10px
+      }
+      &.buttn-search {
+        display: flex;
+        justify-content: center;
+        svg {
+          height: 18px;
+          width: auto
+        }
+        span {
+          margin-left: 5px
+        }
+        &:hover {
+          svg {
+            path {
+              stroke: #5f5f5f;
+              transition: 0.2s ease-in;
+            }
+          }
+        }
+        &.active {
+          svg {
+            path {
+              stroke: #000
+            }
+          }
+        }
+      }
+    }
+  }
+  .search__wrap {
+    margin-bottom: 30px;
+    margin-left: 45px;
+    @media (max-width: 850px) {
+      margin: 20px 15px
+    }
+    input {
+      border: 1px solid #5f5f5f;
+      border-radius: 6px;
+      background: #121212;
+      padding: 8px 8px 8px 35px;
+      width: 580px;
+      @media (max-width: 850px) {
+        width: 100%
+      }
+    }
+    .search-field-icon {
+      svg {
+        width: 18px;
+        height: auto;
+        position: absolute;
+        margin: 10px;
+      }
+    }
+    .search-field-buttn {
+      position: relative;
+      cursor: pointer;
+      @media (max-width: 850px) {
+        width: 100%
+      }
+      svg {
+        width: 18px;
+        height: auto;
+        position: absolute;
+        right: 16px;
+        bottom: -3px;
+        @media (max-width: 850px) {
+          bottom: 25px
+        }
+      }
+    }
+  }
+  .search-error {
+    margin-top: 20px;
+    margin-left: 45px;
+    @media (max-width: 850px) {
+      text-align: center;
+      margin: 0 auto;
+    }
+    @media (max-width: 650px) {
+      margin: 0 40px;
+    }
+    p {
+      font-size: 1.8rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      @media (max-width: 650px) {
+        font-size: 1.2rem;
+        text-transform: inherit;
+      }
+      span {
+        color: #FFCF24
       }
     }
   }
@@ -373,7 +541,7 @@ export default {
     }
   }
   .all-games {
-    padding: 60px 0 0;
+    padding: 30px 0 0;
     max-width: 1690px;
     margin: 0 auto;
     @media (max-width: 850px) {

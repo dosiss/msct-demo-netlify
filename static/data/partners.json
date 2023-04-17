@@ -1,5 +1,16 @@
 [
   {
+    "name": "Mbit",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Tournament Prize pool 1 BTC",
+    "url": "https://www.mbitcasino.io/mbit-races",
+    "logoUrl": "partner_mbit.png"
+  },
+  {
     "name": "1win",
     "type": "promopartner",
     "top": false,

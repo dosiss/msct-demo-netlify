@@ -65,13 +65,13 @@
 
 <style lang="scss">
 .partners__content {
-  .partner__wrap:nth-child(3) {
+  .partner__wrap:nth-child(4) {
     display: none;
   }
 }
 .game_riot {
 .partners__content {
-  .partner__wrap:nth-child(3) {
+  .partner__wrap:nth-child(4) {
     display: block;
   }
 }
