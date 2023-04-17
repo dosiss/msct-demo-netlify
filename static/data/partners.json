@@ -1,5 +1,27 @@
 [
   {
+    "name": "Mbit",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Tournament Prize pool 1 BTC",
+    "url": "https://www.mbitcasino.io/mbit-races",
+    "logoUrl": "partner_mbit.png"
+  },
+  {
+    "name": "1win",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "NEW CHALLENGE ALERT! 1000€",
+    "url": "https://1wdqwh.top/bonuses?modal=%7B%22name%22%3A%22modal-bonus-universal%22,%22props%22%3A%7B%22bonusId%22%3A440%7D%7D",
+    "logoUrl": "partner_1win.png"
+  },
+  {
     "name": "Slottica",
     "type": "promopartner",
     "top": false,
