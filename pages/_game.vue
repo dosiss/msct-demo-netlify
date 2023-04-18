@@ -405,6 +405,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
   .game_hook-up-fishing-wars {
     .game-meta__outer {
       display: none
@@ -415,6 +416,7 @@ export default {
       }
     }
   }
+
   .game_riot {
   .partners__content {
     .partner__wrap:nth-child(3) {
