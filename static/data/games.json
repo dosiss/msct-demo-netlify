@@ -1,8 +1,62 @@
 [
   {
+    "name": "Rocket Chimp Jackpot",
+    "slug": "rocket-chimp-jackpot",
+    "linkToDemo": "demo.mascot.games/run/rocket_chimp_jackpot",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "rockways": false,
+    "releaseDate": "2023-04-25",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "descr": "With Rocket Chimp Jackpot, the sky's the limit, A chance to win big, go ahead and spin it.",
+    "thumbUrl": "game_rocketchimp.jpeg",
+    "heroUrl": "hero_rocketchimp.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_rocketchimp.jpg",
+    "logoUrl": "logo_rocketchimp.png",
+    "backUrl": "back_rocketchimp.jpg",
+    "detailsImgUrl": "details_rocketchimp.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 243,
+      "html5": true,
+      "rtp": 95.19,
+      "hitrate": 42.3
+    },
+    "features": [
+      {
+        "name": "Scatter Feature",
+        "descr": "Each Scatter Symbol adds Free Spins to the free spins accumulation scale or increases the jackpot prize multiplier",
+        "imgUrl": "img-feat_rocketchimp-0.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "When the accumulation scale fills up, the player receives Free Spins with the Jackpot Feature",
+        "imgUrl": "img-feat_rocketchimp-1.jpg"
+      },
+      {
+        "name": "Jackpot Feature",
+        "descr": "Scatter Symbols during Free Spins can give a jackpot prize up to x10000",
+        "imgUrl": "img-feat_rocketchimp-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Rocket Chimp Jackpot: video slot game by Mascot Gaming",
+      "descr": "Rocket Chimp Jackpot is a new Mascot Gaming slot with jackpot prize up to x10000"
+    }
+  },
+  {
     "name": "Hook Up! Fishing Wars",
     "slug": "hook-up-fishing-wars",
-    "linkToDemo": "play.mascot.games/coming-soon",
+    "linkToDemo": "demo.mascot.games/run/hook_up_fishing_wars",
     "theme": "shooting",
     "type": null,
     "risknbuy": false,
