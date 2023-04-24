@@ -44,7 +44,7 @@
    },
 
    mounted() {
-     const promoPartners = allPartners.filter(val => (val.promo !== false)).slice(0,4);
+     const promoPartners = allPartners.filter(val => (val.promo !== false)).slice(0,8);
 
      if( promoPartners.length ) {
        this.hasPromoPartners = true;
@@ -65,13 +65,13 @@
 
 <style lang="scss">
 .partners__content {
-  .partner__wrap:nth-child(4) {
+  .partner__wrap:nth-child(6) {
     display: none;
   }
 }
 .game_riot {
 .partners__content {
-  .partner__wrap:nth-child(4) {
+  .partner__wrap:nth-child(6) {
     display: block;
   }
 }
@@ -99,7 +99,8 @@
   }
   .partner__wrap {
     &.promopartner {
-      width: 100%
+      width: 100%;
+      min-height: 321px
     }
   }
   .partners__head {
