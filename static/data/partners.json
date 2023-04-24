@@ -1,5 +1,38 @@
 [
   {
+    "name": "Meridianbet",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Mascot Spring Tournament \nPrize pool: €1000",
+    "url": "https://meridianbet.pe/",
+    "logoUrl": "partner_meridianbet.png"
+  },
+  {
+    "name": "Playlive",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Mascot Long Tournament \nPrize pool: R15K ZAR",
+    "url": "https://playlive.co.za/tournaments",
+    "logoUrl": "partner_playlive.png"
+  },
+  {
+    "name": "Riobet",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Fruit rush tournament \nPrize pool 3000€",
+    "url": "https://riobet.com/en/tournaments/13380684967",
+    "logoUrl": "partner_riobet.png"
+  },
+  {
     "name": "Mbit",
     "type": "promopartner",
     "top": false,
@@ -20,17 +53,6 @@
     "promoText": "NEW CHALLENGE ALERT! 1000€",
     "url": "https://1wdqwh.top/bonuses?modal=%7B%22name%22%3A%22modal-bonus-universal%22,%22props%22%3A%7B%22bonusId%22%3A440%7D%7D",
     "logoUrl": "partner_1win.png"
-  },
-  {
-    "name": "Slottica",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Mascot Spring Tournament",
-    "url": "https://slottica.com/ru/promo",
-    "logoUrl": "partner_slottica.png"
   },
   {
     "name": "Gama",
