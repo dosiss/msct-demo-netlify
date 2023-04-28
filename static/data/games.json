@@ -1,320 +1,5 @@
 [
   {
-    "name": "Fruits of mBit",
-    "slug": "fruits-of-mbit",
-    "linkToDemo": "demo.mascot.games/run/fruits_of_mbit",
-    "theme": "video slot",
-    "type": "profit",
-    "risknbuy": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": true,
-    "custom": false,
-    "descr": null,
-    "thumbUrl": "game_mbit.jpeg",
-    "heroUrl": "hero_mbit.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_mbit.jpg",
-    "logoUrl": "logo_mbit.png",
-    "backUrl": "back_mbit.jpg",
-    "detailsImgUrl": "details_mbit.png",
-    "stats": {
-      "reels": 5,
-      "rows": 3,
-      "volatility": "Low",
-      "paylines": 15,
-      "payways": null,
-      "html5": true,
-      "rtp": 95.0,
-      "hitrate": 46.3
-    },
-    "features": [
-      {
-        "name": "Two Way Pays",
-        "descr": "The winning combinations are counted both left to the right and right to the left",
-        "imgUrl": "img-feat_mbit-0.jpg"
-      },
-      {
-        "name": "Sticky Wilds & Respin feature",
-        "descr": "When appearing, Wild Symbols become Sticky and start Respin series which last until new Wild Symbols appear",
-        "imgUrl": "img-feat_mbit-1.jpg"
-      }
-    ],
-    "meta": {
-      "title": "FRUITS OF mBit: video slot game from Mascot Gaming",
-      "descr": "FRUITS OF mBit is our new video slot with Sticky Wilds & Respin feature."
-    },
-    "rockways": false
-  },
-  {
-    "name": "Dice Vegas",
-    "slug": "dice-vegas",
-    "linkToDemo": "demo.mascot.games/run/dice_vegas",
-    "theme": "video slot",
-    "type": "profit",
-    "risknbuy": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": true,
-    "descr": "We all love the atmosphere of the good old Vegas. A bright cocktail made of colourful fruits, funny music and favourite features is waiting for you. Let yourself drain into a fresh, juicy world!",
-    "thumbUrl": "game_dicevegas.jpeg",
-    "heroUrl": "hero_dicevegas.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_dicevegas.jpg",
-    "logoUrl": "logo_dicevegas.png",
-    "backUrl": "back_dicevegas.jpg",
-    "detailsImgUrl": "details_dicevegas.png",
-    "stats": {
-      "reels": 5,
-      "rows": 3,
-      "volatility": "Med",
-      "paylines": 10,
-      "payways": null,
-      "html5": true,
-      "rtp": 96.1,
-      "hitrate": 22.8
-    },
-    "features": [
-      {
-        "name": "Both Way Pays",
-        "descr": "Payments on the rows are made from both leftmost to right and rightmost to left",
-        "imgUrl": "img-feat_dicevegas-0.jpg"
-      },
-      {
-        "name": "Expanding Wilds",
-        "descr": "Wild symbol expands to cover the entire reel and increases the winning combination",
-        "imgUrl": "img-feat_dicevegas-1.jpg"
-      },
-      {
-        "name": "Free Respin Feature",
-        "descr": "Expanding Wild symbols start the series of re-spins which will last as long as new Wilds appear on the screen. Expanding Wilds become Sticky during the whole re-spins series",
-        "imgUrl": "img-feat_dicevegas-2.jpg"
-      }
-    ],
-    "meta": {
-      "title": "DICE VEGAS: video slot game from Mascot Gaming",
-      "descr": "DICE VEGAS is our new video slot with the atmosphere of the good old Vegas."
-    },
-    "rockways": false
-  },
-  {
-    "name": "Dice of Luxor",
-    "slug": "dice-of-luxor",
-    "linkToDemo": "demo.mascot.games/run/dice_of_luxor",
-    "theme": "video slot",
-    "type": "profit",
-    "risknbuy": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": true,
-    "descr": "Juicy splash in the sands of the Ancient World. Enjoy a fresh adventure to marvelous Luxor!",
-    "thumbUrl": "game_diceluxor.jpeg",
-    "heroUrl": "hero_diceluxor.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_diceluxor.jpg",
-    "logoUrl": "logo_diceluxor.png",
-    "backUrl": "back_diceluxor.jpg",
-    "detailsImgUrl": "details_diceluxor.png",
-    "stats": {
-      "reels": 5,
-      "rows": 3,
-      "volatility": "Low",
-      "paylines": 15,
-      "payways": null,
-      "html5": true,
-      "rtp": 95.0,
-      "hitrate": 46.3
-    },
-    "features": [
-      {
-        "name": "Two Way Pays",
-        "descr": "The winning combinations are counted both left to the right and right to the left",
-        "imgUrl": "img-feat_diceluxor-0.jpg"
-      },
-      {
-        "name": "Sticky Wilds & Respin feature",
-        "descr": "When appearing, Wild Symbols become Sticky and start Respin series which last until new Wild Symbols appear",
-        "imgUrl": "img-feat_diceluxor-1.jpg"
-      }
-    ],
-    "meta": {
-      "title": "DICE OF LUXOR: video slot game from Mascot Gaming",
-      "descr": "DICE OF LUXOR is our new video slot with Sticky Wilds & Respin feature."
-    },
-    "rockways": false
-  },
-  {
-    "name": "Twin Dice of Olympus",
-    "slug": "twin-dice-of-olympus",
-    "linkToDemo": "demo.mascot.games/run/twin_dice_of_olympus",
-    "theme": "video slot",
-    "type": "profit",
-    "risknbuy": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": true,
-    "descr": "The Olympus mountain is all covered with divine fruits. What are the gods up to? Take your chance and grab all the godsents in a new slot game!",
-    "thumbUrl": "game_diceolymp.jpeg",
-    "heroUrl": "hero_diceolymp.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_diceolymp.jpg",
-    "logoUrl": "logo_diceolymp.png",
-    "backUrl": "back_diceolymp.jpg",
-    "detailsImgUrl": "details_diceolymp.png",
-    "stats": {
-      "reels": 5,
-      "rows": 4,
-      "volatility": "Med",
-      "paylines": null,
-      "payways": 1024,
-      "html5": true,
-      "rtp": 95.5,
-      "hitrate": 39.2
-    },
-    "features": [
-      {
-        "name": "1024 Pay Ways feature",
-        "descr": "1024 pay ways gives even more winning combinations on the screen!",
-        "imgUrl": "img-feat_diceolymp-0.jpg"
-      },
-      {
-        "name": "Twin Reels feature",
-        "descr": "From 2 to 5 neighbouring reels become “twins” every single spin, significantly increasing a chance to win at every spin",
-        "imgUrl": "img-feat_diceolymp-1.jpg"
-      }
-    ],
-    "meta": {
-      "title": "TWIN DICE OF OLYMPUS: video slot game from Mascot Gaming",
-      "descr": "TWIN DICE OF OLYMPUS is our new video slot with twin reels feature"
-    },
-    "rockways": false
-  },
-  {
-    "name": "Dice Disco Mega Stacks",
-    "slug": "dice-disco-mega-stacks",
-    "linkToDemo": "demo.mascot.games/run/dice_disco_ms",
-    "theme": "video slot",
-    "type": "profit",
-    "risknbuy": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": true,
-    "descr": "Old school rhythms and disco fruits – let's dance together this summer!",
-    "thumbUrl": "game_dicedisco.jpeg",
-    "heroUrl": "hero_dicedisco.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_dicedisco.jpg",
-    "logoUrl": "logo_dicedisco.png",
-    "backUrl": "back_dicedisco.jpg",
-    "detailsImgUrl": "details_dicedisco.png",
-    "stats": {
-      "reels": 5,
-      "rows": 4,
-      "volatility": "Med",
-      "paylines": 20,
-      "payways": null,
-      "html5": true,
-      "rtp": 95.42,
-      "hitrate": 23.3
-    },
-    "features": [
-      {
-        "name": "Stacked Symbols",
-        "descr": "Reel of identical symbols increases the number of winning combinations for 1 spins",
-        "imgUrl": "img-feat_dicedisco-0.jpg"
-      },
-      {
-        "name": "Fruit Disco Mega Stacks feature",
-        "descr": "From 2 to 5 neighboring reels are filled with stacks of identical symbols every single spin, significantly increasing a chance to win",
-        "imgUrl": "img-feat_dicedisco-1.jpg"
-      },
-      {
-        "name": "Win Multiplier",
-        "descr": "Each win increases the win multiplier for the next spin from x1 to x10",
-        "imgUrl": "img-feat_dicedisco-2.jpg"
-      }
-    ],
-    "meta": {
-      "title": "DICE DISCO MEGA STACKS: video slot game by Mascot Gaming",
-      "descr": "DICE DISCO MEGA STACKS is our new video slot with Stacked Symbols feature."
-    },
-    "rockways": false
-  },
-  {
-    "name": "Aloha Tiki Bar Dice",
-    "slug": "aloha-tiki-bar-dice",
-    "linkToDemo": "demo.mascot.games/run/aloha_tiki_bar_dice",
-    "theme": "video slot",
-    "type": "profit",
-    "risknbuy": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": true,
-    "descr": "Missing summer already? Then come to the Tiki Bar and get the hottest and juiciest experience ever! Aloha!",
-    "thumbUrl": "game_alohadice.jpeg",
-    "heroUrl": "hero_alohadice.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_alohadice.jpg",
-    "logoUrl": "logo_alohadice.png",
-    "backUrl": "back_alohadice.jpg",
-    "detailsImgUrl": "details_alohadice.png",
-    "stats": {
-      "reels": 6,
-      "rows": 3,
-      "volatility": "High",
-      "paylines": null,
-      "payways": 3600,
-      "html5": true,
-      "rtp": 95.2,
-      "hitrate": 23.4
-    },
-    "features": [
-      {
-        "name": "3600 Pay Ways",
-        "descr": "3600 pay ways gives even more winning combinations on the screen!",
-        "imgUrl": "img-feat_alohadice-0.jpg"
-      },
-      {
-        "name": "Expanding Wilds",
-        "descr": "Wild symbol expands to cover the entire reel and increases the winning combination",
-        "imgUrl": "img-feat_alohadice-1.jpg"
-      },
-      {
-        "name": "Free Respin Feature",
-        "descr": "Expanding Wild symbol become Sticky and start the 1 free Respin. Wild symbol may start 1 free Respin up to 4 times",
-        "imgUrl": "img-feat_alohadice-2.jpg"
-      }
-    ],
-    "meta": {
-      "title": "ALOHA TIKI BAR DICE: video slot game by Mascot Gaming",
-      "descr": "ALOHA TIKI BAR DICE is our new video slot on 3600 pay ways."
-    },
-    "rockways": false
-  },
-  {
     "name": "Rocket Chimp Jackpot",
     "slug": "rocket-chimp-jackpot",
     "linkToDemo": "demo.mascot.games/run/rocket_chimp_jackpot",
@@ -4431,6 +4116,322 @@
     "meta": {
       "title": "VENETIAN MAGIC, video slot game from Mascot Gaming",
       "descr": "VENETIAN MAGIC is a beautiful atmospheric video slot from Mascot Gaming. Join the magnificent Venice carnival!"
+    },
+    "rockways": false
+  },
+  {
+    "name": "Fruits of mBit",
+    "slug": "fruits-of-mbit",
+    "linkToDemo": "demo.mascot.games/run/fruits_of_mbit",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": true,
+    "custom": false,
+    "descr": null,
+    "thumbUrl": "game_mbit.jpeg",
+    "heroUrl": "hero_mbit.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_mbit.jpg",
+    "logoUrl": "logo_mbit.png",
+    "backUrl": "back_mbit.jpg",
+    "detailsImgUrl": "details_mbit.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Low",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.0,
+      "hitrate": 46.3
+    },
+    "features": [
+      {
+        "name": "Two Way Pays",
+        "descr": "The winning combinations are counted both left to the right and right to the left",
+        "imgUrl": "img-feat_mbit-0.jpg"
+      },
+      {
+        "name": "Sticky Wilds & Respin feature",
+        "descr": "When appearing, Wild Symbols become Sticky and start Respin series which last until new Wild Symbols appear",
+        "imgUrl": "img-feat_mbit-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "FRUITS OF mBit: video slot game from Mascot Gaming",
+      "descr": "FRUITS OF mBit is our new video slot with Sticky Wilds & Respin feature."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Dice Vegas",
+    "slug": "dice-vegas",
+    "linkToDemo": "demo.mascot.games/run/dice_vegas",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": true,
+    "descr": "We all love the atmosphere of the good old Vegas. A bright cocktail made of colourful fruits, funny music and favourite features is waiting for you. Let yourself drain into a fresh, juicy world!",
+    "thumbUrl": "game_dicevegas.jpeg",
+    "heroUrl": "hero_dicevegas.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_dicevegas.jpg",
+    "logoUrl": "logo_dicevegas.png",
+    "backUrl": "back_dicevegas.jpg",
+    "detailsImgUrl": "details_dicevegas.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.1,
+      "hitrate": 22.8
+    },
+    "features": [
+      {
+        "name": "Both Way Pays",
+        "descr": "Payments on the rows are made from both leftmost to right and rightmost to left",
+        "imgUrl": "img-feat_dicevegas-0.jpg"
+      },
+      {
+        "name": "Expanding Wilds",
+        "descr": "Wild symbol expands to cover the entire reel and increases the winning combination",
+        "imgUrl": "img-feat_dicevegas-1.jpg"
+      },
+      {
+        "name": "Free Respin Feature",
+        "descr": "Expanding Wild symbols start the series of re-spins which will last as long as new Wilds appear on the screen. Expanding Wilds become Sticky during the whole re-spins series",
+        "imgUrl": "img-feat_dicevegas-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "DICE VEGAS: video slot game from Mascot Gaming",
+      "descr": "DICE VEGAS is our new video slot with the atmosphere of the good old Vegas."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Dice of Luxor",
+    "slug": "dice-of-luxor",
+    "linkToDemo": "demo.mascot.games/run/dice_of_luxor",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": true,
+    "descr": "Juicy splash in the sands of the Ancient World. Enjoy a fresh adventure to marvelous Luxor!",
+    "thumbUrl": "game_diceluxor.jpeg",
+    "heroUrl": "hero_diceluxor.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_diceluxor.jpg",
+    "logoUrl": "logo_diceluxor.png",
+    "backUrl": "back_diceluxor.jpg",
+    "detailsImgUrl": "details_diceluxor.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Low",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.0,
+      "hitrate": 46.3
+    },
+    "features": [
+      {
+        "name": "Two Way Pays",
+        "descr": "The winning combinations are counted both left to the right and right to the left",
+        "imgUrl": "img-feat_diceluxor-0.jpg"
+      },
+      {
+        "name": "Sticky Wilds & Respin feature",
+        "descr": "When appearing, Wild Symbols become Sticky and start Respin series which last until new Wild Symbols appear",
+        "imgUrl": "img-feat_diceluxor-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "DICE OF LUXOR: video slot game from Mascot Gaming",
+      "descr": "DICE OF LUXOR is our new video slot with Sticky Wilds & Respin feature."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Twin Dice of Olympus",
+    "slug": "twin-dice-of-olympus",
+    "linkToDemo": "demo.mascot.games/run/twin_dice_of_olympus",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": true,
+    "descr": "The Olympus mountain is all covered with divine fruits. What are the gods up to? Take your chance and grab all the godsents in a new slot game!",
+    "thumbUrl": "game_diceolymp.jpeg",
+    "heroUrl": "hero_diceolymp.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_diceolymp.jpg",
+    "logoUrl": "logo_diceolymp.png",
+    "backUrl": "back_diceolymp.jpg",
+    "detailsImgUrl": "details_diceolymp.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 1024,
+      "html5": true,
+      "rtp": 95.5,
+      "hitrate": 39.2
+    },
+    "features": [
+      {
+        "name": "1024 Pay Ways feature",
+        "descr": "1024 pay ways gives even more winning combinations on the screen!",
+        "imgUrl": "img-feat_diceolymp-0.jpg"
+      },
+      {
+        "name": "Twin Reels feature",
+        "descr": "From 2 to 5 neighbouring reels become ",
+        "twins": " every single spin, significantly increasing a chance to win at every spin",
+        "imgUrl": "img-feat_diceolymp-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "TWIN DICE OF OLYMPUS: video slot game from Mascot Gaming",
+      "descr": "TWIN DICE OF OLYMPUS is our new video slot with twin reels feature"
+    },
+    "rockways": false
+  },
+  {
+    "name": "Dice Disco Mega Stacks",
+    "slug": "dice-disco-mega-stacks",
+    "linkToDemo": "demo.mascot.games/run/dice_disco_ms",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": true,
+    "descr": "Old school rhythms and disco fruits – let's dance together this summer!",
+    "thumbUrl": "game_dicedisco.jpeg",
+    "heroUrl": "hero_dicedisco.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_dicedisco.jpg",
+    "logoUrl": "logo_dicedisco.png",
+    "backUrl": "back_dicedisco.jpg",
+    "detailsImgUrl": "details_dicedisco.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.42,
+      "hitrate": 23.3
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "Reel of identical symbols increases the number of winning combinations for 1 spins",
+        "imgUrl": "img-feat_dicedisco-0.jpg"
+      },
+      {
+        "name": "Fruit Disco Mega Stacks feature",
+        "descr": "From 2 to 5 neighboring reels are filled with stacks of identical symbols every single spin, significantly increasing a chance to win",
+        "imgUrl": "img-feat_dicedisco-1.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "Each win increases the win multiplier for the next spin from x1 to x10",
+        "imgUrl": "img-feat_dicedisco-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "DICE DISCO MEGA STACKS: video slot game by Mascot Gaming",
+      "descr": "DICE DISCO MEGA STACKS is our new video slot with Stacked Symbols feature."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Aloha Tiki Bar Dice",
+    "slug": "aloha-tiki-bar-dice",
+    "linkToDemo": "demo.mascot.games/run/aloha_tiki_bar_dice",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": true,
+    "descr": "Missing summer already? Then come to the Tiki Bar and get the hottest and juiciest experience ever! Aloha!",
+    "thumbUrl": "game_alohadice.jpeg",
+    "heroUrl": "hero_alohadice.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_alohadice.jpg",
+    "logoUrl": "logo_alohadice.png",
+    "backUrl": "back_alohadice.jpg",
+    "detailsImgUrl": "details_alohadice.png",
+    "stats": {
+      "reels": 6,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": null,
+      "payways": 3600,
+      "html5": true,
+      "rtp": 95.2,
+      "hitrate": 23.4
+    },
+    "features": [
+      {
+        "name": "3600 Pay Ways",
+        "descr": "3600 pay ways gives even more winning combinations on the screen!",
+        "imgUrl": "img-feat_alohadice-0.jpg"
+      },
+      {
+        "name": "Expanding Wilds",
+        "descr": "Wild symbol expands to cover the entire reel and increases the winning combination",
+        "imgUrl": "img-feat_alohadice-1.jpg"
+      },
+      {
+        "name": "Free Respin Feature",
+        "descr": "Expanding Wild symbol become Sticky and start the 1 free Respin. Wild symbol may start 1 free Respin up to 4 times",
+        "imgUrl": "img-feat_alohadice-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "ALOHA TIKI BAR DICE: video slot game by Mascot Gaming",
+      "descr": "ALOHA TIKI BAR DICE is our new video slot on 3600 pay ways."
     },
     "rockways": false
   }
