@@ -1,5 +1,16 @@
 [
   {
+    "name": "Crocoslots",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Jungle Slots Jamboree \nPrize pool: €4000",
+    "url": "https://www.crocoslots.com/games/all/mascot",
+    "logoUrl": "partner_crocoslots.png"
+  },
+  {
     "name": "Meridianbet",
     "type": "promopartner",
     "top": false,
@@ -20,17 +31,6 @@
     "promoText": "Mascot Long Tournament \nPrize pool: R15K ZAR",
     "url": "https://playlive.co.za/tournaments",
     "logoUrl": "partner_playlive.png"
-  },
-  {
-    "name": "Riobet",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Fruit rush tournament \nPrize pool 3000€",
-    "url": "https://riobet.com/en/tournaments/13380684967",
-    "logoUrl": "partner_riobet.png"
   },
   {
     "name": "Mbit",
@@ -735,6 +735,17 @@
     "promoText": null,
     "url": "https://pariplayltd.com/",
     "logoUrl": "partner_pariplay.png"
+  },
+  {
+    "name": "Reevo",
+    "type": "partner",
+    "top": true,
+    "casino": false,
+    "platform": true,
+    "promo": false,
+    "promoText": null,
+    "url": "https://reevotech.com/",
+    "logoUrl": "partner_reevo.png"
   },
   {
     "name": "Bitstarz",
