@@ -4,7 +4,7 @@
     <MainHeader />
     <div>
       <div class="container-outer">
-        <div class="container container-custom container-filter">
+        <div class="container-wide container-custom container-filter">
           <div class="games-filter__outer">
             <div class="games-filter__wrap">
               <button :class="{ active: gameFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'all'">All</button>
@@ -22,6 +22,7 @@
               <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'risknbuy'">Risk&amp;Buy</button>
               <button :class="{ active: gameFilterKey == 'rockways' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'rockways'">Rockways</button>
               <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'branded'">Branded</button>
+              <button :class="{ active: gameFilterKey == 'custom' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'custom'">Custom</button>
             </div>
           </div>
         </div>
@@ -197,6 +198,9 @@ export default {
       branded() {
         return allGames.filter((game) => game.branded === true)
       },
+      custom() {
+        return allGames.filter((game) => game.custom === true)
+      },
       searchList() {
         return allGames.filter((game) => {
           return game.name.toLowerCase().includes(this.input.toLowerCase())
@@ -259,14 +263,14 @@ export default {
     margin-top: 80px;
   }
 }
-.container {
+.container-wide {
   &.container-custom {
     @media (max-width: 1200px) {
       padding: 0;
     }
   }
   &.container-filter {
-    @media (max-width: 1950px) {
+    @media (max-width: 2150px) {
       padding: 0 100px
     }
     @media (max-width: 1770px) {
@@ -278,7 +282,7 @@ export default {
     }
   }
   .games-filter__outer {
-    @media (max-width: 1450px) {
+    @media (max-width: 1520px) {
       overflow-x: scroll;
       overflow-y: hidden;
       -ms-overflow-style: none;  /* IE and Edge */
@@ -296,10 +300,10 @@ export default {
     @media (min-width: 1980px) {
       width: 1490px
     }
-    @media (max-width: 1450px) {
+    @media (max-width: 1520px) {
       padding-left: 35px;
       justify-content: flex-start;
-      width: 200%;
+      width: 220%;
     }
     @media (max-width: 850px) {
       padding-left: 0
@@ -312,11 +316,18 @@ export default {
 
     .buttn {
       width: 90px;
+      margin-right: 10px;
       &:not(:first-child) {
-        width: 130px
+        width: 120px
       }
-      @media (max-width: 1850px) {
-        margin-right: 10px
+      &:last-child {
+        margin-right: 0
+      }
+      &.buttn-rounded {
+        &.buttn-sm {
+          font-size: .75rem;
+          padding: 11px 12px
+        }
       }
       &.buttn-search {
         display: flex;
@@ -326,7 +337,8 @@ export default {
           width: auto
         }
         span {
-          margin-left: 5px
+          margin-left: 5px;
+          line-height: 1.5
         }
         &:hover {
           svg {

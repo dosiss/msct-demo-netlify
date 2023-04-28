@@ -11,7 +11,7 @@
   <div class="slider-outer">
   <div v-swiper:mySwiper="swiperOption">
     <div class="swiper-wrapper">
-      <div v-for="(data, idx) in gamesList.slice(0,7)" :key="idx" class="swiper-slide game-thumbnail">
+      <div v-for="(data, idx) in gamesTopSlider.slice(0,7)" :key="idx" class="swiper-slide game-thumbnail">
         <div class="game-thumbnail__outer">
           <div class="game-thumbnail__inner">
           <v-lazy-image :src="`images/${data.thumbUrl}`" :src-placeholder="`images/lowres/${data.thumbUrl}`" :alt="`${data.name}`" />
@@ -103,8 +103,9 @@ import allGames from '../../static/data/games.json'
 //        return allGames.silce(0,5)
 
 //      }
-
-
+    gamesTopSlider() {
+      return allGames.filter(val => (val.custom !== true))
+    }
 
     },
     mounted() {
