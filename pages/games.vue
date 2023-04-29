@@ -303,7 +303,7 @@ export default {
     @media (max-width: 1520px) {
       padding-left: 35px;
       justify-content: flex-start;
-      width: 220%;
+      width: 1700px;
     }
     @media (max-width: 850px) {
       padding-left: 0
