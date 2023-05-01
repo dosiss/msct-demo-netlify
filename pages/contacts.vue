@@ -103,7 +103,7 @@
     </div>
   </div>
   <SharingButtons />
-    <AdBanner />
+    <AdBannerCBeats />
     <MainFooter />
   </div>
 </template>
