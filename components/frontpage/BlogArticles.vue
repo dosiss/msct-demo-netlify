@@ -9,12 +9,12 @@
           <div v-for="article in topArticlesMobile" :key="article.slug" class="swiper-slide game-thumbnail">
             <div class="article-slide">
               <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-                <div v-if="$device.isMobile" class="article-date">{{ formatDate(article.archiveDate) }}</div>
                 <div class="article-img" :style="{ backgroundImage: `url(/images/${article.img})` }"></div>
                 <div class="article-content">
                   <div class="article-content__inner">
                     <div v-if="$device.isTablet" class="article-date">{{ formatDate(article.archiveDate) }}</div>
                     <h3>{{ article.heading }}</h3>
+                    <div v-if="$device.isMobile" class="article-date">{{ formatDate(article.archiveDate) }}</div>
                   </div>
                 </div>
               </NuxtLink>
@@ -265,13 +265,14 @@
       margin-bottom: 25px
     }
     @media (max-width: 650px) {
-      margin-bottom: 20px
+      margin-bottom: 50px
     }
     .article-date {
       font-size: .94rem;
       margin-bottom: 10px;
       @media (max-width: 650px) {
-        margin-bottom: 5px
+        margin-bottom: 5px;
+        margin-top: 5px
       }
     }
     .article-img {

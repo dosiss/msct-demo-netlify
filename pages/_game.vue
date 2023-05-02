@@ -82,8 +82,9 @@
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 81 80"><rect width="80" height="80" x=".906" fill="#FFCF24" rx="40"/><path fill="#1F1F1F" d="M54.914 36.672 36.125 24.146c-2.658-1.772-6.219.133-6.219 3.328v25.052c0 3.195 3.56 5.1 6.219 3.328l18.789-12.526c2.375-1.583 2.375-5.073 0-6.656Z"/></svg>
               </div>
 
-            <div v-for="(feature, idx) in currentGame.features.slice(1)" :key="idx" class="swiper-slide game-thumbnail" :data-src="`/images/${feature.imgUrl}`" :data-sub-html="`${feature.name}`" >
+            <div v-for="(feature, idx) in currentGame.features.slice(1)" :key="idx" class="swiper-slide game-thumbnail slide-static" :data-src="`/images/${feature.imgUrl}`" :data-sub-html="`${feature.name}`" >
                 <nuxt-img :src="`/images/${feature.imgUrl}`" :alt="`${feature.name}`" sizes="sm:350px lg:440px" />
+                <svg width="81" height="80" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x=".906" width="80" height="80" rx="40" fill="#FFCF24"/><path d="M40.823 56.583c9.205 0 16.667-7.462 16.667-16.666 0-9.205-7.462-16.667-16.667-16.667-9.205 0-16.667 7.462-16.667 16.667 0 9.204 7.462 16.666 16.667 16.666ZM61.656 60.75l-9.062-9.063M40.822 33.666v12.5M34.572 39.916h12.5" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 <div class="game-content__wrap" >
                 </div>
             </div>
