@@ -64,8 +64,9 @@
 
         <div v-swiper:mySwiper3="swiperOption">
           <div id="lightgallery" class="swiper-wrapper">
-            <div class="swiper-slide game-thumbnail" :data-src="`/images/${currentGame.features[0].imgUrl}`" :data-sub-html="`${currentGame.features[0].name}`">
+            <div class="swiper-slide game-thumbnail slide-static" :data-src="`/images/${currentGame.features[0].imgUrl}`" :data-sub-html="`${currentGame.features[0].name}`">
               <nuxt-img :src="`/images/${currentGame.features[0].imgUrl}`" :alt="`${currentGame.features[0].name}`" sizes="sm:350px lg:440px" />
+              <svg width="81" height="80" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x=".906" width="80" height="80" rx="40" fill="#FFCF24"/><path d="M40.823 56.583c9.205 0 16.667-7.462 16.667-16.666 0-9.205-7.462-16.667-16.667-16.667-9.205 0-16.667 7.462-16.667 16.667 0 9.204 7.462 16.666 16.667 16.666ZM61.656 60.75l-9.062-9.063M40.822 33.666v12.5M34.572 39.916h12.5" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
               <div class="game-content__wrap" >
               </div>
             </div>
@@ -634,6 +635,24 @@ export default {
         right: 50%;
         transform: translate(40px, -40px);
         cursor: pointer;
+      }
+    }
+    .slide-static {
+      svg {
+        opacity: 0;
+        height: 80px;
+        width: auto;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate(40px, -40px);
+        cursor: pointer;
+      }
+      &:hover {
+        svg {
+          opacity: 1;
+          transition: .2s ease-in .2s
+        }
       }
     }
     .game-thumbnail {
