@@ -748,6 +748,17 @@
     "logoUrl": "partner_reevo.png"
   },
   {
+    "name": "Salsa Technology",
+    "type": "partner",
+    "top": true,
+    "casino": false,
+    "platform": true,
+    "promo": false,
+    "promoText": null,
+    "url": "https://salsatechnology.com/",
+    "logoUrl": "partner_salsa.png"
+  },
+  {
     "name": "Bitstarz",
     "type": "partner",
     "top": true,
