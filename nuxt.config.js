@@ -20,25 +20,25 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  googleAnalytics: {
-     id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
-
-    debug: {
-      enabled: false,
-//      sendHitTask: true
-    },
-    // Dev setting:
-    // dev: true
-    //Prod setting:
-     dev: false
-  },
+//   googleAnalytics: {
+//      id: process.env.GOOGLE_ANALYTICS_ID, // Use as fallback if no runtime config is provided
+//
+//     debug: {
+//       enabled: false,
+// //      sendHitTask: true
+//     },
+//     // Dev setting:
+//     // dev: true
+//     //Prod setting:
+//      dev: false
+//   },
   publicRuntimeConfig: {
      demoUrl: process.env.DEMO_URL,
 
-    googleAnalytics: {
-       id: process.env.GOOGLE_ANALYTICS_ID,
-
-    }
+    // googleAnalytics: {
+    //    id: process.env.GOOGLE_ANALYTICS_ID,
+    //
+    // }
   },
 
   loading: {
@@ -70,9 +70,21 @@ export default {
     async: true,
     defer: true,
     src: '//js-eu1.hs-scripts.com/26083518.js',
-  }
-]
   },
+  {
+    hid: 'gtm-script',
+    innerHtml: `
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-57S7B6N');
+    `,
+    type: 'text/javascript',
+    charset: 'utf-8'
+  }
+    ]
+      },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [ '@/assets/scss/main.scss'],
