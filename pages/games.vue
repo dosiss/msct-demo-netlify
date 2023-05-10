@@ -216,6 +216,33 @@ export default {
         if(this.$route.query.type === "profitgames") {
           this.gameFilterKey = "profit"
         };
+        if(this.$route.query.type === "top") {
+          this.gameFilterKey = "top"
+        };
+        if(this.$route.query.type === "videoslots") {
+          this.gameFilterKey = "videoslots"
+        };
+        if(this.$route.query.type === "lotteries") {
+          this.gameFilterKey = "lotteries"
+        };
+        if(this.$route.query.type === "tablegames") {
+          this.gameFilterKey = "tablegames"
+        };
+        if(this.$route.query.type === "shooting") {
+          this.gameFilterKey = "shooting"
+        };
+        if(this.$route.query.type === "risknbuy") {
+          this.gameFilterKey = "risknbuy"
+        };
+        if(this.$route.query.type === "rockways") {
+          this.gameFilterKey = "rockways"
+        };
+        if(this.$route.query.type === "branded") {
+          this.gameFilterKey = "branded"
+        };
+        if(this.$route.query.type === "custom") {
+          this.gameFilterKey = "custom"
+        };
   },
   methods: {
     showSearchPanel() {

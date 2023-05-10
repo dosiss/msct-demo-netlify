@@ -1,5 +1,16 @@
 [
   {
+    "name": "Riobet",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Monster weekend \nPrize pool: €3000",
+    "url": "https://riobet.com/en/tournaments/13606313811",
+    "logoUrl": "partner_riobet.png"
+  },
+  {
     "name": "Crocoslots",
     "type": "promopartner",
     "top": false,
@@ -757,6 +768,17 @@
     "promoText": null,
     "url": "https://salsatechnology.com/",
     "logoUrl": "partner_salsa.png"
+  },
+  {
+    "name": "Alea play",
+    "type": "partner",
+    "top": true,
+    "casino": false,
+    "platform": true,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.alea.com/en/games/mascot/",
+    "logoUrl": "partner_alea.png"
   },
   {
     "name": "Bitstarz",
