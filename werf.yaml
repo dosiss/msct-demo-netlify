@@ -1,0 +1,46 @@
+{{ $projectName := "mascot" }}
+---
+
+project: {{ $projectName }}
+configVersion: 1
+---
+
+artifact: app
+from: node:16.10.0-alpine
+shell:
+  install:
+    - cd /app
+    - npm install
+  beforeSetup:
+    - cd /app
+    - npm run generate
+git:
+  - add: /
+    to: /app
+    stageDependencies:
+      install:
+        - package.json
+        - package-lock.json
+      beforeSetup:
+        - "**/*.js"
+---
+
+image: {{ $projectName }}
+from: nginx:stable-alpine
+docker:
+  WORKDIR: /usr/share/nginx/html
+  USER: nginx
+  EXPOSE: "8080"
+shell:
+  beforeInstall:
+    chmod a+rw /var/cache/nginx /var/run
+git:
+  - add: /docker/nginx.conf
+    to: /etc/nginx/nginx.conf
+import:
+  - artifact: app
+    add: /app/dist
+    to: /usr/share/nginx/html
+    owner: nginx
+    group: nginx
+    before: setup
