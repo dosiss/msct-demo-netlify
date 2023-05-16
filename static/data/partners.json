@@ -1,5 +1,16 @@
 [
   {
+    "name": "Champion casino",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Mascot in the Arena \nPrize pool: 170 000 RUB",
+    "url": "https://slots-champion.biz/producers/mascot",
+    "logoUrl": "partner_champion.png"
+  },
+  {
     "name": "Riobet",
     "type": "promopartner",
     "top": false,
@@ -22,28 +33,6 @@
     "logoUrl": "partner_crocoslots.png"
   },
   {
-    "name": "Meridianbet",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Mascot Spring Tournament \nPrize pool: €1000",
-    "url": "https://meridianbet.pe/",
-    "logoUrl": "partner_meridianbet.png"
-  },
-  {
-    "name": "Playlive",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Mascot Long Tournament \nPrize pool: R15K ZAR",
-    "url": "https://playlive.co.za/tournaments",
-    "logoUrl": "partner_playlive.png"
-  },
-  {
     "name": "Mbit",
     "type": "promopartner",
     "top": false,
@@ -53,17 +42,6 @@
     "promoText": "Tournament Prize pool 1 BTC",
     "url": "https://www.mbitcasino.io/mbit-races",
     "logoUrl": "partner_mbit.png"
-  },
-  {
-    "name": "1win",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "NEW CHALLENGE ALERT! 1000€",
-    "url": "https://1wdqwh.top/bonuses?modal=%7B%22name%22%3A%22modal-bonus-universal%22,%22props%22%3A%7B%22bonusId%22%3A456%7D%7D",
-    "logoUrl": "partner_1win.png"
   },
   {
     "name": "Gama",
