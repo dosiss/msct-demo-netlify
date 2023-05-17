@@ -3,7 +3,7 @@
   <div class="ad-banner__wrap">
     <a href="https://sbcevents.com/casinobeats-summit/" target="_blank" title="https://sbcevents.com/casinobeats-summit">
       <div class="ad-banner__inner">
-        <nuxt-img src="images/cbeats-logo-new.png" class="ad-banner__logo"  alt="CasinoBeats Summit" />
+        <nuxt-img src="images/cbeats-logo-new2.png" class="ad-banner__logo"  alt="CasinoBeats Summit" />
         <div class="ad-banner__text">
           <div class="ad-banner__text-left">
             <div class="ad-banner__company">Mascot Gaming</div>
@@ -41,11 +41,13 @@
             position: absolute;
             top: 125px;
             left: 150px;
+            max-width: 280px;
+            height: auto;
             @media (max-width: 1200px) {
               left: 35px
             }
             @media (max-width: 850px) {
-              max-width: 280px;
+
               top: 20px
             }
             @media (max-width: 650px) {
