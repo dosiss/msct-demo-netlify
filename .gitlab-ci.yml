@@ -1,0 +1,29 @@
+stages:
+  - build
+  - deploy
+  - cleanup
+
+variables:
+  WERF_LOG_TERMINAL_WIDTH: 200
+  GIT_DEPTH: 1
+
+Build:
+  stage: build
+  script:
+    - set -x
+    - type trdl && source $(trdl use werf 1.2 ea)
+    - type werf && source $(werf ci-env gitlab --as-file --verbose)
+    - werf build
+  except: [schedules]
+  tags: [werf-runner]
+
+Cleanup:
+  stage: cleanup
+  script:
+    - set -x
+    - type trdl && source $(trdl use werf 1.2 ea)
+    - type werf && source $(werf ci-env gitlab --as-file --verbose)
+    - docker login -u nobody -p ${WERF_IMAGES_CLEANUP_PASSWORD} ${WERF_REPO}
+    - werf cleanup
+  only: [schedules]
+  tags: [werf-runner]
