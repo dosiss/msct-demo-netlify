@@ -1,5 +1,16 @@
 [
   {
+    "name": "24x17",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Mascot Tournament - No Wager \nPrize pool: 5 000 RUB",
+    "url": "https://tournaments.24x17.ru/tournament/244",
+    "logoUrl": "partner_24xbet.png"
+  },
+  {
     "name": "Champion casino",
     "type": "promopartner",
     "top": false,
@@ -9,17 +20,6 @@
     "promoText": "Mascot in the Arena \nPrize pool: 170 000 RUB",
     "url": "https://slots-champion.biz/producers/mascot",
     "logoUrl": "partner_champion2.png"
-  },
-  {
-    "name": "Riobet",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Monster weekend \nPrize pool: €3000",
-    "url": "https://riobet.com/en/tournaments/13606313811",
-    "logoUrl": "partner_riobet.png"
   },
   {
     "name": "Crocoslots",
