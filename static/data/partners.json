@@ -1,5 +1,16 @@
 [
   {
+    "name": "Realslots",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Mascot gaming tournament \nPrize pool: 150 000 RUB",
+    "url": " https://realslots.app/main-page?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=site",
+    "logoUrl": "partner_realslots.png"
+  },
+  {
     "name": "24x17",
     "type": "promopartner",
     "top": false,
