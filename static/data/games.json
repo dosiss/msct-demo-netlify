@@ -1,5 +1,60 @@
 [
   {
+    "name": "Fruit Machine Megabonus",
+    "slug": "fruit-machine-megabonus",
+    "linkToDemo": "demo.mascot.games/run/fruit_machine_megabonus",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "rockways": false,
+    "releaseDate": "2023-05-30",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_fmmegabonus.jpeg",
+    "heroUrl": "hero_fmmegabonus.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fmmegabonus.jpg",
+    "logoUrl": "logo_fmmegabonus.png",
+    "backUrl": "back_fmmegabonus.jpg",
+    "detailsImgUrl": "details_fmmegabonus.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Adjacent pays",
+        "descr": "Payouts for combinations of any adjacent symbols",
+        "imgUrl": "img-feat_fmmegabonus-0.jpg"
+      },
+      {
+        "name": "Bonus game",
+        "descr": "Bonus game with up to 3, 4, or 5 misses",
+        "imgUrl": "img-feat_fmmegabonus-1.jpg"
+      },
+      {
+        "name": "Extra reel",
+        "descr": "Big winnings with an extra reel in the bonus game",
+        "imgUrl": "img-feat_fmmegabonus-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "FRUIT MACHINE MEGABONUS: video slot game by Mascot Gaming",
+      "descr": "FRUIT MACHINE MEGABONUS is our new video slot with bonus game with up to 3, 4, or 5 misses."
+    }
+  },
+  {
     "name": "Rocket Chimp Jackpot",
     "slug": "rocket-chimp-jackpot",
     "linkToDemo": "demo.mascot.games/run/rocket_chimp_jackpot",
