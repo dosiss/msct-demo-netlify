@@ -19,7 +19,7 @@
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_fmmegabonus.jpg",
-    "logoUrl": "logo_fmmegabonus.png",
+    "logoUrl": "logo_fmmegabonus2.png",
     "backUrl": "back_fmmegabonus.jpg",
     "detailsImgUrl": "details_fmmegabonus.png",
     "stats": {
@@ -29,8 +29,8 @@
       "paylines": 10,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": 95.33,
+      "hitrate": 37.9
     },
     "features": [
       {

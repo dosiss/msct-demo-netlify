@@ -22,17 +22,6 @@
     "logoUrl": "partner_24xbet.png"
   },
   {
-    "name": "Champion casino",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Mascot in the Arena \nPrize pool: 170 000 RUB",
-    "url": "https://slots-champion.biz/producers/mascot",
-    "logoUrl": "partner_champion2.png"
-  },
-  {
     "name": "Crocoslots",
     "type": "promopartner",
     "top": false,
