@@ -1,7 +1,7 @@
 ---
 title: 'All Mascot Gaming games are now licensed for Romania'
 description: 'We are excited to announce that all our games are now officially licensed for the jurisdiction of Romania.'
-img: licensed-romania.png
+img: licensed-romania.jpg
 heading: 'Our first European license in Romania!'
 shortDescr: 'Mascot Gaming has successfully obtained the license from the regulator in Romania. We have been working for quite some time to achieve this, and we couldn`t be happier with the outcome.'
 archiveDate: 2023-05-30
