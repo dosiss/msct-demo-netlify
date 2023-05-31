@@ -8,7 +8,7 @@ archiveDate: 2023-05-31
 ---
 Play Fruit Machine: Megabonus from Mascot Gaming and enjoy the dazzling combination of a retro design and innovative features! Hit high-paying combinations with wild sevens to grab a big win and launch the bonus round with a couple of Bonus symbols. Aside from hot wins, the firework of colored fruits and the background chilling soundtrack make the Fruit Machine: Megabonus an exciting gambling journey.
 
-With Fruit Machine: Megabonus, Mascot Gaming has done a great job joining the best of two worlds - the classic slot design and the most enthralling features of[innovative slots](https://mascot.games/blog/riot-by-mascot-casino-games-try-demo-and-enjoy). Would you like to get deeper into its gameplay and structure? Let's review all ins and outs of the recently launched video slot.
+With Fruit Machine: Megabonus, Mascot Gaming has done a great job joining the best of two worlds - the classic slot design and the most enthralling features of [innovative slots](https://mascot.games/blog/riot-by-mascot-casino-games-try-demo-and-enjoy). Would you like to get deeper into its gameplay and structure? Let's review all ins and outs of the recently launched video slot.
 
 **Technical Information**
 
