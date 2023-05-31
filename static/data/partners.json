@@ -11,17 +11,6 @@
     "logoUrl": "partner_realslots.png"
   },
   {
-    "name": "24x17",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Mascot Tournament - No Wager \nPrize pool: 5 000 RUB",
-    "url": "https://tournaments.24x17.ru/tournament/244",
-    "logoUrl": "partner_24xbet.png"
-  },
-  {
     "name": "Crocoslots",
     "type": "promopartner",
     "top": false,
@@ -1791,6 +1780,17 @@
     "promoText": null,
     "url": "https://www.grandcasino.by/slots#/?providers=MST",
     "logoUrl": "partner_grandcasinoby.png"
+  },
+  {
+    "name": "coins.game",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://coins.game/?provider=Mascot",
+    "logoUrl": "partner_coinsgame.png"
   },
   {
     "name": "lcb.org",
