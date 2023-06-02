@@ -1,14 +1,25 @@
 [
   {
-    "name": "Realslots",
+    "name": "Goldfishka",
     "type": "promopartner",
     "top": false,
     "casino": false,
     "platform": false,
     "promo": true,
-    "promoText": "Mascot gaming tournament \nPrize pool: 150 000 RUB",
-    "url": " https://realslots.app/main-page?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=site",
-    "logoUrl": "partner_realslots.png"
+    "promoText": "Juicy Tournament by Mascot \nPrize pool: €1500",
+    "url": "https://goldfishka166.com/ru/tournaments",
+    "logoUrl": "partner_goldfishka.png"
+  },
+  {
+    "name": "Pan Kasyno",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Mascot Fruits Summer Tournament \nPrize pool: 3000 PLN",
+    "url": "https://pankasyno.website/en/tournaments",
+    "logoUrl": "partner_pancasino.png"
   },
   {
     "name": "Crocoslots",
