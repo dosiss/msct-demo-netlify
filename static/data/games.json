@@ -139,7 +139,7 @@
       "paylines": null,
       "payways": null,
       "html5": false,
-      "rtp": null,
+      "rtp": 0.955,
       "hitrate": null
     },
     "features": [

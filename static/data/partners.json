@@ -1,38 +1,5 @@
 [
   {
-    "name": "Goldfishka",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Juicy Tournament by Mascot \nPrize pool: €1500",
-    "url": "https://goldfishka166.com/ru/tournaments",
-    "logoUrl": "partner_goldfishka.png"
-  },
-  {
-    "name": "Pan Kasyno",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Mascot Fruits Summer Tournament \nPrize pool: 3000 PLN",
-    "url": "https://pankasyno.website/en/tournaments",
-    "logoUrl": "partner_pancasino.png"
-  },
-  {
-    "name": "Crocoslots",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Jungle Slots Jamboree \nPrize pool: €4000",
-    "url": "https://www.crocoslots.com/games/all/mascot",
-    "logoUrl": "partner_crocoslots.png"
-  },
-  {
     "name": "Mbit",
     "type": "promopartner",
     "top": false,
