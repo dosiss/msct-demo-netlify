@@ -1782,6 +1782,17 @@
     "logoUrl": "partner_coinsgame.png"
   },
   {
+    "name": "Bet and play",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.betandplay.com/en-NZ/games/all/mascot",
+    "logoUrl": "partner_betandplay.png"
+  },
+  {
     "name": "lcb.org",
     "type": "media",
     "top": false,

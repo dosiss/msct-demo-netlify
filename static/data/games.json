@@ -1,5 +1,60 @@
 [
   {
+    "name": "Ben Gunn Robinson",
+    "slug": "ben-gunn-robinson",
+    "linkToDemo": "demo.mascot.games/run/ben_gunn_robinson",
+    "theme": "video slot",
+    "type": "profit",
+    "risknbuy": false,
+    "rockways": false,
+    "releaseDate": "2023-07-05",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_bengunn.jpeg",
+    "heroUrl": "hero_bengunn.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_bengunn.jpg",
+    "logoUrl": "logo_bengunn.png",
+    "backUrl": "back_bengunn.jpg",
+    "detailsImgUrl": "details_bengunn.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": " ",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Bonus & Super Bonus games",
+        "descr": "Winnings from x1 to x50 to total bet are hidden on the map",
+        "imgUrl": "img-feat_bengunn-0.jpg"
+      },
+      {
+        "name": "Payouts in both ways",
+        "descr": "Winnings are paid on lines starting from the 1st reel, from the right or from the left",
+        "imgUrl": "img-feat_bengunn-1.jpg"
+      },
+      {
+        "name": "Gamble",
+        "descr": "The player can try to guess the higher card to double their winnings",
+        "imgUrl": "img-feat_bengunn-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Ben Gunn Robinson: video slot game by Mascot Gaming",
+      "descr": "Ben Gunn Robinson is a new Mascot Gaming slot with Super Bonus and Gamble features."
+    }
+  },
+  {
     "name": "Fruit Machine Megabonus",
     "slug": "fruit-machine-megabonus",
     "linkToDemo": "demo.mascot.games/run/fruit_machine_megabonus",
