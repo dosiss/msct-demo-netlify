@@ -1,5 +1,16 @@
 [
   {
+"name": "Casino Intense",
+"type": "promopartner",
+"top": false,
+"casino": false,
+"platform": false,
+"promo": true,
+"promoText": "THE MYTH CHALLENGE \nPrize pool 1000 EUR",
+"url": "https://www.casinointense.com/en/",
+"logoUrl": "partner_intense.png"
+},
+  {
     "name": "24xBet",
     "type": "promopartner",
     "top": false,

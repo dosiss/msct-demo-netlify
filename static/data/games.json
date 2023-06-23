@@ -25,12 +25,12 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": " ",
+      "volatility": "Med",
       "paylines": 10,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": 95.06,
+      "hitrate": 34.5
     },
     "features": [
       {
