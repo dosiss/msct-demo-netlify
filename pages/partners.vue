@@ -8,6 +8,7 @@
         <div class="container container-narrow">
             <div class="partners__head">
               <h1 class="partners__head-title">{{title}}</h1>
+              <a class="buttn buttn-primary buttn-m" @click="showModal = true">Become a partner</a>
             </div>
         </div>
         <div class="container container-filter container-narrow">
@@ -46,6 +47,8 @@
     <SharingButtons />
     <AdBannerSAsia />
     <MainFooter />
+    <ContactModal v-show="showModal" @close-modal="showModal = false"/>
+
   </div>
 
 </template>
@@ -54,12 +57,15 @@
 import VLazyImage from "v-lazy-image/v2";
 
 import allPartners from '../static/data/partners.json';
+import ContactModal from '~/components/frontpage/ContactModal'
+
 
 
 export default {
 
   components: {
     VLazyImage,
+    ContactModal
   },
 
   data() {
@@ -69,6 +75,7 @@ export default {
       title: 'Partners',
       partnersList: allPartners,
       partnerFilterKey: 'all',
+      showModal: false
 
 
     }
@@ -198,17 +205,37 @@ export default {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    align-items: center;
     @media (min-width: 1980px) {
       width: 1490px
     }
     @media (max-width: 650px) {
-      margin-bottom: 0
+      margin-bottom: 0;
+      flex-direction: column;
     }
     .partners__head-title {
       font-size: 3.75rem;
       text-transform: uppercase;
       @media (max-width: 650px) {
         font-size: 1.75rem
+      }
+    }
+    .buttn {
+      &.buttn-primary {
+        &.buttn-m {
+          font-size: 17px;
+          font-weight: 600;
+          line-height: 1.3;
+          padding: 14px 15px;
+          width: 230px;
+          @media (max-width: 650px) {
+            padding: 11px 0;
+            margin-top: 23px;
+            margin-bottom: 20px;
+            width: 100%;
+            font-size: 15px;
+          }
+        }
       }
     }
   }
