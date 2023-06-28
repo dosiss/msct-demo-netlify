@@ -164,6 +164,11 @@
           </div>
         </div>
         </div>
+        <div v-if="currentGame.mgacertified !== null" class="cert-info__wrap">
+          <img src="/images/img_mga-logo.png" srcset="/images/img_mga-logo@2x.png 2x" alt="mga logo" />
+          <span v-if="currentGame.mgacertified">Certified for <strong>MGA</strong> and the <strong>UK</strong></span>
+          <span v-else>Coming soon for <strong>MGA</strong></span>
+        </div>
       </div>
       <PlayWithPartners />
       <div class="features__outer container">
@@ -660,6 +665,43 @@ export default {
       img {
         border-radius: 12px;
         cursor: pointer;
+      }
+    }
+  }
+  .game-meta__outer {
+    .cert-info__wrap {
+      margin: 35px 0;
+      padding: 25px 20px;
+      border-radius: 12px;
+      background: #121212;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        height: 56px;
+        width: auto;
+        @media (max-width: 650px) {
+          height: 45px
+        }
+      }
+      span {
+        font-size: 2rem;
+        font-weight: 500;
+        /* text-transform: uppercase; */
+        margin-left: 15px;
+        letter-spacing: .1px;
+        font-variant: all-small-caps;
+        @media (max-width: 650px) {
+          margin-left: 0;
+          text-align: center;
+          font-size: 1.6rem;
+        }
+        strong {
+          font-weight: 600
+        }
+      }
+      @media (max-width: 650px) {
+        flex-direction: column;
       }
     }
   }

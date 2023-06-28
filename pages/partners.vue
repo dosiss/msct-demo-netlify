@@ -8,6 +8,7 @@
         <div class="container container-narrow">
             <div class="partners__head">
               <h1 class="partners__head-title">{{title}}</h1>
+              <a class="buttn buttn-primary buttn-m" @click="showModal = true">Become a partner</a>
             </div>
         </div>
         <div class="container container-filter container-narrow">
@@ -18,6 +19,7 @@
               <button :class="{ active: partnerFilterKey == 'media' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'media'">Media</button>
               <button :class="{ active: partnerFilterKey == 'casino' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'casino'">Casino</button>
               <button :class="{ active: partnerFilterKey == 'platform' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'platform'">Platform</button>
+              <button :class="{ active: partnerFilterKey == 'streamers' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'streamers'">Streamers</button>
               <button :class="{ active: partnerFilterKey == 'promo' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'promo'">Promo</button>
             </div>
           </div>
@@ -45,6 +47,8 @@
     <SharingButtons />
     <AdBannerSAsia />
     <MainFooter />
+    <ContactModal v-show="showModal" @close-modal="showModal = false"/>
+
   </div>
 
 </template>
@@ -53,12 +57,15 @@
 import VLazyImage from "v-lazy-image/v2";
 
 import allPartners from '../static/data/partners.json';
+import ContactModal from '~/components/frontpage/ContactModal'
+
 
 
 export default {
 
   components: {
     VLazyImage,
+    ContactModal
   },
 
   data() {
@@ -68,6 +75,7 @@ export default {
       title: 'Partners',
       partnersList: allPartners,
       partnerFilterKey: 'all',
+      showModal: false
 
 
     }
@@ -104,6 +112,9 @@ export default {
       },
       platform() {
         return allPartners.filter((partner) => partner.platform === true)
+      },
+      streamers() {
+        return allPartners.filter((partner) => partner.type === "streamers")
       },
       promo() {
         return allPartners.filter((partner) => partner.promo === true && partner.type === "promopartner")
@@ -160,7 +171,6 @@ export default {
   .partners-filter__wrap {
     display: flex;
     margin-bottom: 60px;
-    justify-content: space-between;
     @media (min-width: 1980px) {
       width: 1490px
     }
@@ -169,18 +179,25 @@ export default {
       width: 125%;
     }
     @media (max-width: 650px) {
-      width: 300%;
+      width: 285%;
       margin-bottom: 10px;
       margin-top: 20px
     }
 
     .buttn {
       width: 90px;
+      margin-right: 20px;
       &:not(:first-child) {
-        width: 130px
-      }
-      @media (max-width: 1200px) {
-        margin-right: 20px
+        width: 130px;
+        @media (max-width: 1650px) {
+          width: 110px
+        }
+        @media (max-width: 1500px) {
+          width: 100px
+        }
+        @media (max-width: 650px) {
+          width: 120px
+        }
       }
     }
   }
@@ -188,17 +205,37 @@ export default {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    align-items: center;
     @media (min-width: 1980px) {
       width: 1490px
     }
     @media (max-width: 650px) {
-      margin-bottom: 0
+      margin-bottom: 0;
+      flex-direction: column;
     }
     .partners__head-title {
       font-size: 3.75rem;
       text-transform: uppercase;
       @media (max-width: 650px) {
         font-size: 1.75rem
+      }
+    }
+    .buttn {
+      &.buttn-primary {
+        &.buttn-m {
+          font-size: 17px;
+          font-weight: 600;
+          line-height: 1.3;
+          padding: 14px 15px;
+          width: 230px;
+          @media (max-width: 650px) {
+            padding: 11px 0;
+            margin-top: 23px;
+            margin-bottom: 20px;
+            width: 100%;
+            font-size: 15px;
+          }
+        }
       }
     }
   }

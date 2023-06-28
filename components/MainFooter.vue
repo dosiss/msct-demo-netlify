@@ -71,7 +71,7 @@
           </ul>
         </div>
         <div class="footer-content__address">
-          <p>S.C. MNG Production S.R.L. 1 MAI street, 24, 1–st floor, Rasnov, Brasov, Romania</p>
+          <p>S.C. MNG Entertainment S.R.L. 1 MAI street, 24, 1–st floor, Rasnov, Brasov, Romania</p>
           <a href="mailto:contact@mascot.games">
             <svg id="contact-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 14">
               <path fill="#fff" d="m2.415.97-.53-.53L.825 1.5l.53.53L2.414.97Zm-.03.78h14V.25h-14v1.5Zm14.25.25v10h1.5V2h-1.5Zm-.25 10.25h-14v1.5h14v-1.5ZM2.135 12V2h-1.5v10h1.5Zm.25.25a.25.25 0 0 1-.25-.25h-1.5c0 .966.783 1.75 1.75 1.75v-1.5Zm14.25-.25a.25.25 0 0 1-.25.25v1.5a1.75 1.75 0 0 0 1.75-1.75h-1.5Zm-.25-10.25a.25.25 0 0 1 .25.25h1.5a1.75 1.75 0 0 0-1.75-1.75v1.5Zm-14-1.5A1.75 1.75 0 0 0 .635 2h1.5a.25.25 0 0 1 .25-.25V.25ZM8.5 7.055 2.415.97l-1.06 1.06L7.44 8.116l1.06-1.06ZM16.354.97 10.27 7.055l1.06 1.061 6.086-6.086-1.06-1.06ZM7.44 8.116a2.75 2.75 0 0 0 3.89 0l-1.061-1.06a1.25 1.25 0 0 1-1.768 0l-1.06 1.06Zm-5.575 4.96 6-5-.96-1.152-6 5 .96 1.152Zm16-1.152-6-5-.96 1.152 6 5 .96-1.152Z"/>
@@ -99,6 +99,7 @@
         </div>
       </div>
       <div class="footer-badges">
+        <a href="https://onjn.gov.ro/licentiati-clasa-a-ii-a/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert-onjn.png" title="View Certificate" alt="ONJN certificate" /></a>
         <a href="https://gamemc.by/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert2.jpg" srcset="/images/img_cert2@2x.jpg 2x" title="View Certificate" alt="gamemc.by" /></a>
         <a href="https://access.gaminglabs.com/certificate/index?i=338" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img-gaming-labs-cert-white.jpg" srcset="/images/img-gaming-labs-cert-white@2x.jpg 2x" title="View Certificate" alt="Gaming Labs Certified" /></a>
         <a href="https://access.gaminglabs.com/certificate/index?i=338" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_globalab.jpg" srcset="/images/img_globalab@2x.jpg 2x" alt="GlobaLab" /></a>
@@ -350,7 +351,7 @@
             margin-top: 50px;
           }
           img {
-            height: 52px
+            height: 45px
           }
         }
       }

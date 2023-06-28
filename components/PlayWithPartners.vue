@@ -77,9 +77,9 @@
 }
 }
 .playpartners__wrap {
-  padding-top: 100px;
+  padding-top: 0;
   @media (max-width: 650px) {
-    padding-top: 60px
+    padding-top: 0
   }
   .inner-link {
     &.link-desktop {
