@@ -21,6 +21,7 @@
               <li><NuxtLink to="/blog">Blog</NuxtLink></li>
               <li><NuxtLink to="/contacts">Contacts</NuxtLink></li>
               <li><NuxtLink to="/about">About Us</NuxtLink></li>
+              <li><NuxtLink to="/partners">Partners</NuxtLink></li>
             </ul>
           </nav>
           <div class="main-menu__contact">
@@ -66,6 +67,7 @@
                   <li @click.capture="hideMobileMenu"><NuxtLink to="/blog">Blog</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink to="/contacts">Contacts</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink to="/about">About Us</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink to="/partners">Partners</NuxtLink></li>
                 </ul>
               </nav>
             </div>
