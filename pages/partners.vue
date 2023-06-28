@@ -18,6 +18,7 @@
               <button :class="{ active: partnerFilterKey == 'media' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'media'">Media</button>
               <button :class="{ active: partnerFilterKey == 'casino' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'casino'">Casino</button>
               <button :class="{ active: partnerFilterKey == 'platform' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'platform'">Platform</button>
+              <button :class="{ active: partnerFilterKey == 'streamers' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'streamers'">Streamers</button>
               <button :class="{ active: partnerFilterKey == 'promo' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'promo'">Promo</button>
             </div>
           </div>
@@ -105,6 +106,9 @@ export default {
       platform() {
         return allPartners.filter((partner) => partner.platform === true)
       },
+      streamers() {
+        return allPartners.filter((partner) => partner.type === "streamers")
+      },
       promo() {
         return allPartners.filter((partner) => partner.promo === true && partner.type === "promopartner")
       },
@@ -160,7 +164,6 @@ export default {
   .partners-filter__wrap {
     display: flex;
     margin-bottom: 60px;
-    justify-content: space-between;
     @media (min-width: 1980px) {
       width: 1490px
     }
@@ -169,18 +172,25 @@ export default {
       width: 125%;
     }
     @media (max-width: 650px) {
-      width: 300%;
+      width: 285%;
       margin-bottom: 10px;
       margin-top: 20px
     }
 
     .buttn {
       width: 90px;
+      margin-right: 20px;
       &:not(:first-child) {
-        width: 130px
-      }
-      @media (max-width: 1200px) {
-        margin-right: 20px
+        width: 130px;
+        @media (max-width: 1650px) {
+          width: 110px
+        }
+        @media (max-width: 1500px) {
+          width: 100px
+        }
+        @media (max-width: 650px) {
+          width: 120px
+        }
       }
     }
   }
