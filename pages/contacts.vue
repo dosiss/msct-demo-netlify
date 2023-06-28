@@ -60,7 +60,7 @@
             </a>
             <div class="contact-address">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 16"><path stroke="#fff" d="M2.108 2.074A5.585 5.585 0 0 1 6 .5a5.585 5.585 0 0 1 3.892 1.574A5.285 5.285 0 0 1 11.5 5.85c0 1.49-.563 3.334-1.584 5.117C8.953 12.65 7.604 14.24 6 15.391c-1.604-1.152-2.953-2.741-3.916-4.423C1.063 9.185.5 7.34.5 5.851a5.285 5.285 0 0 1 1.608-3.777Zm0 0-.349-.358m.35.358-.35-.358m0 0A5.785 5.785 0 0 0 0 5.85h12a5.785 5.785 0 0 0-1.76-4.135A6.085 6.085 0 0 0 6 0a6.085 6.085 0 0 0-4.24 1.716Z"/><path stroke="#fff" d="M8.62 5.894c0 1.392-1.16 2.542-2.62 2.542-1.458 0-2.62-1.15-2.62-2.542C3.38 4.5 4.543 3.35 6 3.35c1.46 0 2.62 1.15 2.62 2.543Z"/></svg>
-              <span>S.C. MNG Production S.R.L.<br />1 MAI street, 24, 1–st floor,<br />Rasnov, Brasov, Romania</span>
+              <span>S.C. MNG Entertainment S.R.L.<br />1 MAI street, 24, 1–st floor,<br />Rasnov, Brasov, Romania</span>
             </div>
           </div>
         </div>
