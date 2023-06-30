@@ -440,28 +440,6 @@
     "logoUrl": "partner_casinodaddy.png"
   },
   {
-    "name": "Gamblorium",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://gamblorium.se/online-casinon/mascot-gaming",
-    "logoUrl": "partner_gamblorium.png"
-  },
-  {
-    "name": "Pokcas",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://www.pokcas.com/interview-mascot-gaming",
-    "logoUrl": "partner_pokcas.png"
-  },
-  {
     "name": "Nonstopbonus.com",
     "type": "media",
     "top": false,
@@ -1824,5 +1802,115 @@
     "promoText": null,
     "url": "https://lcb.org/casinos/software/mascot-gaming",
     "logoUrl": "partner_lcb.png"
+  },
+  {
+    "name": "Small Lui",
+    "type": "streamers",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": " ",
+    "logoUrl": "partner_smalllui.png"
+  },
+  {
+    "name": "Mr.BigSpin",
+    "type": "streamers",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://mrbigspin.com/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=site",
+    "logoUrl": "partner_mrbigspint.png"
+  },
+  {
+    "name": "MAMINTR",
+    "type": "streamers",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://t.me/MAMINTR44",
+    "logoUrl": "partner_mamintr.png"
+  },
+  {
+    "name": "Nezhenka Pirozhenka",
+    "type": "streamers",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://t.me/fartandudacha",
+    "logoUrl": "partner_nezhenka.png"
+  },
+  {
+    "name": "Gera Casino",
+    "type": "streamers",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://t.me/GeraGRN",
+    "logoUrl": "partner_geracasino.png"
+  },
+  {
+    "name": "Fedya BOT",
+    "type": "streamers",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://t.me/ludogizn",
+    "logoUrl": "partner_fedyabot.png"
+  },
+  {
+    "name": "ZanoSonya",
+    "type": "streamers",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.twitch.tv/zanosonya",
+    "logoUrl": "partner_zanosonya.png"
+  },
+  {
+    "name": "Lord",
+    "type": "streamers",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.youtube.com/channel/UCrd9QMMsrgMYv8ynEYag6bg",
+    "logoUrl": "partner_lord.png"
+  },
+  {
+    "name": "AccbuyerTV",
+    "type": "streamers",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "http://twitch.tv/AccbuyerTV",
+    "logoUrl": "partner_accbuyertv.png"
+  },
+  {
+    "name": "Realslots",
+    "type": "streamers",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://realslots.fun/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=site",
+    "logoUrl": "partner_realslots2.png"
   }
 ]
