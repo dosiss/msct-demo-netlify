@@ -7,22 +7,22 @@
         <div class="container-wide container-custom container-filter">
           <div class="games-filter__outer">
             <div class="games-filter__wrap">
-              <button :class="{ active: gameFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'all'">All</button>
+              <button :class="{ active: gameFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'all'">All - {{gamesList.length}}</button>
               <button :class="{ active: gameFilterKey == 'search' }" class="buttn buttn-rounded buttn-sm buttn-search" @click="showSearchPanel">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 18"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8.875 14.25a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm7.5 1.5-3.263-3.263"/></svg>
                 <span>Search</span>
               </button>
-              <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'top'">Тор Games</button>
-              <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'traffic'">Traffic Games</button>
-              <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">Profit Games</button>
-              <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'videoslots'">Video Slots</button>
-              <button :class="{ active: gameFilterKey == 'lotteries' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'lotteries'">Lotteries</button>
-              <button :class="{ active: gameFilterKey == 'tablegames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'tablegames'">Table games</button>
-              <button :class="{ active: gameFilterKey == 'shooting' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'shooting'">Shooting</button>
-              <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'risknbuy'">Risk&amp;Buy</button>
-              <button :class="{ active: gameFilterKey == 'rockways' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'rockways'">Rockways</button>
-              <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'branded'">Branded</button>
-              <button :class="{ active: gameFilterKey == 'custom' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'custom'">Custom</button>
+              <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'top'">Тор Games - {{gamesCountItem("topGame")}}</button>
+              <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'traffic'">Traffic Games - {{gamesCountType("traffic")}}</button>
+              <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">Profit Games - {{gamesCountType("profit")}}</button>
+              <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'videoslots'">Video Slots - {{gamesCountTheme("video slot")}}</button>
+              <button :class="{ active: gameFilterKey == 'lotteries' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'lotteries'">Lotteries - {{gamesCountTheme("lottery game")}}</button>
+              <button :class="{ active: gameFilterKey == 'tablegames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'tablegames'">Table games - {{gamesCountTheme("table/cards")}}</button>
+              <button :class="{ active: gameFilterKey == 'shooting' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'shooting'">Shooting - {{gamesCountTheme("shooting")}}</button>
+              <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'risknbuy'">Risk&amp;Buy - {{gamesCountItem("risknbuy")}}</button>
+              <button :class="{ active: gameFilterKey == 'rockways' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'rockways'">Rockways - {{gamesCountItem("rockways")}}</button>
+              <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'branded'">Branded - {{gamesCountItem("branded")}}</button>
+              <button :class="{ active: gameFilterKey == 'custom' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'custom'">Custom - {{gamesCountItem("custom")}}</button>
             </div>
           </div>
         </div>
@@ -248,6 +248,15 @@ export default {
     showSearchPanel() {
       this.gameFilterKey = "search"
       this.searchPanel = true;
+    },
+    gamesCountTheme(item) {
+      return allGames.filter((game) => game.theme === item).length
+    },
+    gamesCountType(item) {
+      return allGames.filter((game) => game.type === item).length
+    },
+    gamesCountItem(item) {
+      return allGames.filter((game) => game[item] === true).length
     }
   }
 }
@@ -309,7 +318,7 @@ export default {
     }
   }
   .games-filter__outer {
-    @media (max-width: 1520px) {
+    @media (max-width: 1560px) {
       overflow-x: scroll;
       overflow-y: hidden;
       -ms-overflow-style: none;  /* IE and Edge */
@@ -327,16 +336,16 @@ export default {
     @media (min-width: 1980px) {
       width: 1490px
     }
-    @media (max-width: 1520px) {
+    @media (max-width: 1560px) {
       padding-left: 35px;
       justify-content: flex-start;
-      width: 1700px;
+      width: 1530px;
     }
     @media (max-width: 850px) {
       padding-left: 0
     }
     @media (max-width: 650px) {
-      width: 480%;
+      width: 1530px;
       margin-bottom: 10px;
       margin-top: 20px
     }
@@ -345,7 +354,7 @@ export default {
       width: 90px;
       margin-right: 10px;
       &:not(:first-child) {
-        width: 120px
+        width: fit-content
       }
       &:last-child {
         margin-right: 0
