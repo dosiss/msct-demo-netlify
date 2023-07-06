@@ -47,7 +47,7 @@
     <SharingButtons />
     <AdBannerSAsia />
     <MainFooter />
-    <ContactModal v-show="showModal" @close-modal="showModal = false"/>
+    <ContactModalPartner v-show="showModal" @close-modal="showModal = false"/>
 
   </div>
 
@@ -57,7 +57,7 @@
 import VLazyImage from "v-lazy-image/v2";
 
 import allPartners from '../static/data/partners.json';
-import ContactModal from '~/components/frontpage/ContactModal'
+import ContactModalPartner from '~/components/frontpage/ContactModalPartner'
 
 
 
@@ -65,7 +65,7 @@ export default {
 
   components: {
     VLazyImage,
-    ContactModal
+    ContactModalPartner
   },
 
   data() {

@@ -5,18 +5,23 @@
       <div class="contact-modal__content">
         <div v-if="success">Your message has been successfully sent. We'll contact you soon</div>
         <form v-else id="contactForm" class="contact-form" @submit.prevent="sendMessage" >
+          <div class="form-subtitle-big">I am:</div>
           <div class="form-group-radio">
             <div class="form-item">
-              <input id="user-type-1" v-model="usertype" name="usertype" value="Player" type="radio" class="form-item__field" />
-              <label for="user-type-1">I'm a player</label>
+              <input id="user-type-1" v-model="usertype" name="usertype" value="Online Casino" type="radio" class="form-item__field" />
+              <label for="user-type-1">Online casino</label>
             </div>
             <div class="form-item">
-              <input id="user-type-2" v-model="usertype" checked="checked" name="usertype" value="Operator" type="radio" class="form-item__field" />
-              <label for="user-type-2">I'm the operator</label>
+              <input id="user-type-2" v-model="usertype" checked="checked" name="usertype" value="Platform" type="radio" class="form-item__field" />
+              <label for="user-type-2">Platform</label>
             </div>
             <div class="form-item">
-              <input id="user-type-3" v-model="usertype" name="usertype" value="Other" type="radio" class="form-item__field" />
-              <label for="user-type-3">Other</label>
+              <input id="user-type-3" v-model="usertype" name="usertype" value="Media" type="radio" class="form-item__field" />
+              <label for="user-type-3">Media</label>
+            </div>
+            <div class="form-item">
+              <input id="user-type-4" v-model="usertype" name="usertype" value="Streamer" type="radio" class="form-item__field" />
+              <label for="user-type-4">Streamer</label>
             </div>
           </div>
           <div class="form-group">
@@ -36,6 +41,25 @@
            <div class="form-item" :class="{ 'focused': focusedMsg }">
              <label for="user-message">Message</label>
              <textarea id="user-message" v-model="message" name="message"  class="form-item__field" rows="4" @focus="focusedMsg = true" @blur="focusedMsg = false"></textarea>
+            </div>
+            <div class="form-subtitle">Preferred method of contact</div>
+            <div class="form-group-radio">
+              <div class="form-item">
+                <input id="contact-type-1" v-model="contacttype" name="contacttype" value="E-mail" type="radio" class="form-item__field" />
+                <label for="user-type-1">E-mail</label>
+              </div>
+              <div class="form-item">
+                <input id="contact-type-2" v-model="contacttype" checked="checked" name="contacttype" value="Phone Call" type="radio" class="form-item__field" />
+                <label for="user-type-2">Phone Call</label>
+              </div>
+              <div class="form-item">
+                <input id="contact-type-3" v-model="contacttype" name="contacttype" value="Telegram" type="radio" class="form-item__field" />
+                <label for="user-type-3">Telegram</label>
+              </div>
+              <div class="form-item">
+                <input id="contact-type-4" v-model="contacttype" name="contacttype" value="Whatsapp" type="radio" class="form-item__field" />
+                <label for="user-type-4">Whatsapp</label>
+              </div>
             </div>
             <button
             type="submit"
@@ -76,7 +100,8 @@
         email: "",
         phone: "",
         message: "",
-        usertype: "Operator",
+        usertype: "Platform",
+        contacttype: "Phone Call",
         ClientId: "GP6i6Jhflgf3CbuPYk2AcDssrN4W3h"
       };
     },
@@ -124,6 +149,7 @@
         bodyFormData.append('phone', this.phone);
         bodyFormData.append('message', this.message);
         bodyFormData.append('usertype', this.usertype);
+        bodyFormData.append('contacttype', this.contacttype);
 
 
         bodyFormData.append('service_id', 'service_tr5r6fw');
@@ -178,7 +204,9 @@
   position: relative;
   @media (max-width: 650px) {
     width: 90%;
-    padding: 20px
+    padding: 20px;
+    overflow-y: scroll;
+    max-height: 70vh;
   }
   .contact-modal__title {
     font-size: 2.7rem;
@@ -264,6 +292,21 @@
         }
       }
     }
+  }
+  .form-subtitle-big {
+    text-align: left;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    @media (max-width: 650px) {
+      font-size: 1.3rem
+    }
+  }
+  .form-subtitle {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 30px;
+
   }
 }
 
