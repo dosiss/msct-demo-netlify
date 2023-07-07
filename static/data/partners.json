@@ -1,36 +1,14 @@
 [
   {
-"name": "Casino Intense",
-"type": "promopartner",
-"top": false,
-"casino": false,
-"platform": false,
-"promo": true,
-"promoText": "THE MYTH CHALLENGE \nPrize pool 1000 EUR",
-"url": "https://www.casinointense.com/en/",
-"logoUrl": "partner_intense.png"
-},
-  {
-    "name": "24xBet",
+    "name": "Atlantis slots",
     "type": "promopartner",
     "top": false,
     "casino": false,
     "platform": false,
     "promo": true,
-    "promoText": "Mascot Tournament - No Wager \nPrize pool 15 000 RUB",
-    "url": "https://tournaments.24x17.ru/tournament/249?siteURL=https://24x17.ru",
-    "logoUrl": "partner_24xbet.png"
-  },
-  {
-    "name": "1win",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Mascot Fruits Summer Tournament \nPrize pool 1000 EUR",
-    "url": "https://clck.ru/34imgv",
-    "logoUrl": "partner_1win.png"
+    "promoText": "THE TOMB CHALLENGE \nPrize pool 1000 Euro",
+    "url": "https://www.atlantisslots.com/de/",
+    "logoUrl": "partner_atlantis.png"
   },
   {
     "name": "Mbit",
