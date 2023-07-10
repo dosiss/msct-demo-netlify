@@ -150,10 +150,17 @@
         bodyFormData.append('message', this.message);
         bodyFormData.append('usertype', this.usertype);
         bodyFormData.append('contacttype', this.contacttype);
-
+        if (this.usertype === 'Online Casino' || this.usertype === 'Platform') {
+          bodyFormData.append('template_id', 'template_j7x74aq');
+        } else if (this.usertype === 'Media') {
+          bodyFormData.append('template_id', 'template_qybwdwa');
+        } else if (this.usertype ==='Streamer') {
+          bodyFormData.append('template_id', 'template_p5745og');
+        } else {
+          bodyFormData.append('template_id', 'template_t3rkppg');
+        }
 
         bodyFormData.append('service_id', 'service_tr5r6fw');
-        bodyFormData.append('template_id', 'template_t3rkppg');
         bodyFormData.append('user_id', 'eE5PNrtIqLmZkFQ2r');
            this.$axios
              .post("https://api.emailjs.com/api/v1.0/email/send-form",
@@ -202,6 +209,8 @@
   border-radius: 12px;
   border: 1px solid #00F0FF;
   position: relative;
+  max-height: 85vh;
+  overflow-y: scroll;
   @media (max-width: 650px) {
     width: 90%;
     padding: 20px;
