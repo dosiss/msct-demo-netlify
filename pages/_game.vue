@@ -414,7 +414,7 @@ export default {
 <style lang="scss" scoped>
 
   .game_hook-up-fishing-wars {
-    .game-meta__outer {
+    .game-meta__wrap {
       display: none
     }
     .details-list {
@@ -423,10 +423,27 @@ export default {
       }
     }
   }
+  .game_paper-lanterns-crash-game {
+    .game-meta__wrap {
+      display: none
+    }
+    .details-list {
+      &.column-1 {
+        display: none
+      }
+    }
+    .game-details {
+      .game-details__content {
+        img {
+          bottom: -140px
+        }
+      }
+    }
+  }
 
   .game_riot {
   .partners__content {
-    .partner__wrap:nth-child(4) {
+    .partner__wrap:nth-child(5) {
       display: block;
     }
   }
@@ -790,6 +807,7 @@ export default {
           padding: 30px 35px 50px;
           background: #121212;
           border-radius: 12px;
+          min-width: 100%;
           @media (max-width: 550px) {
             justify-self: stretch;
           }

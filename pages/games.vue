@@ -19,6 +19,7 @@
               <button :class="{ active: gameFilterKey == 'lotteries' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'lotteries'">Lotteries - {{gamesCountTheme("lottery game")}}</button>
               <button :class="{ active: gameFilterKey == 'tablegames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'tablegames'">Table games - {{gamesCountTheme("table/cards")}}</button>
               <button :class="{ active: gameFilterKey == 'shooting' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'shooting'">Shooting - {{gamesCountTheme("shooting")}}</button>
+              <button :class="{ active: gameFilterKey == 'crashgames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'crashgames'">Crash games - {{gamesCountTheme("crash")}}</button>
               <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'risknbuy'">Risk&amp;Buy - {{gamesCountItem("risknbuy")}}</button>
               <button :class="{ active: gameFilterKey == 'rockways' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'rockways'">Rockways - {{gamesCountItem("rockways")}}</button>
               <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'branded'">Branded - {{gamesCountItem("branded")}}</button>
@@ -195,6 +196,9 @@ export default {
       shooting() {
         return allGames.filter((game) => game.theme === "shooting")
       },
+      crashgames() {
+        return allGames.filter((game) => game.theme === "crash")
+      },
       branded() {
         return allGames.filter((game) => game.branded === true)
       },
@@ -233,6 +237,9 @@ export default {
         };
         if(this.$route.query.type === "risknbuy") {
           this.gameFilterKey = "risknbuy"
+        };
+        if(this.$route.query.type === "crashgames") {
+          this.gameFilterKey = "crashgames"
         };
         if(this.$route.query.type === "rockways") {
           this.gameFilterKey = "rockways"
@@ -307,7 +314,7 @@ export default {
   }
   &.container-filter {
     @media (max-width: 2150px) {
-      padding: 0 100px
+      padding: 0 35px
     }
     @media (max-width: 1770px) {
       padding: 0 35px
@@ -318,7 +325,7 @@ export default {
     }
   }
   .games-filter__outer {
-    @media (max-width: 1560px) {
+    @media (max-width: 1700px) {
       overflow-x: scroll;
       overflow-y: hidden;
       -ms-overflow-style: none;  /* IE and Edge */
@@ -334,18 +341,18 @@ export default {
     margin-bottom: 0;
     justify-content: space-between;
     @media (min-width: 1980px) {
-      width: 1490px
+      width: 1660px
     }
-    @media (max-width: 1560px) {
+    @media (max-width: 1700px) {
       padding-left: 35px;
       justify-content: flex-start;
-      width: 1530px;
+      width: 1660px;
     }
     @media (max-width: 850px) {
       padding-left: 0
     }
     @media (max-width: 650px) {
-      width: 1530px;
+      width: 1660px;
       margin-bottom: 10px;
       margin-top: 20px
     }

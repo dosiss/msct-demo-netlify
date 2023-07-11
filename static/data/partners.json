@@ -1,5 +1,16 @@
 [
   {
+  "name": "BetandPlay challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Fruit Machine - Slot of the week \nPrize pool 2000 FS",
+  "url": "https://www.betandplay.com/en-NZ/slot-of-the-week",
+  "logoUrl": "partner_betandplay.png"
+  },
+  {
   "name": "1win challenge",
   "type": "promopartner",
   "top": false,
