@@ -1,5 +1,16 @@
 [
   {
+  "name": "1win challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Mystical challenge by Mascot Gaming \nPrize pool 1000 Euro",
+  "url": "https://1win.pro/bonuses?modal=%7B%22name%22%3A%22modal-bonus-universal%22,%22props%22%3A%7B%22bonusId%22%3A499%7D%7D",
+  "logoUrl": "partner_1win.png"
+  },
+  {
     "name": "Atlantis slots",
     "type": "promopartner",
     "top": false,
