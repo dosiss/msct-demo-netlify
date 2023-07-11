@@ -1,5 +1,61 @@
 [
   {
+    "name": "Paper Lanterns Crash Game",
+    "slug": "paper-lanterns-crash-game",
+    "linkToDemo": "demo.mascot.games/run/paper_lanterns_crash_game",
+    "theme": "crash",
+    "type": "profit",
+    "mgacertified": false,
+    "risknbuy": false,
+    "rockways": false,
+    "releaseDate": "coming soon",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_lantern.jpeg",
+    "heroUrl": "hero_lantern.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_lantern.jpg",
+    "logoUrl": "logo_lantern.png",
+    "backUrl": "back_lantern.jpg",
+    "detailsImgUrl": "details_lantern.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": null,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": " ",
+        "descr": "From 1 to 5 bets simultaneously",
+        "imgUrl": "img-feat_lantern-0.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Increasing winning coefficient up to x10,000",
+        "imgUrl": "img-feat_lantern-1.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Up to 5 free bets with each launch",
+        "imgUrl": "img-feat_lantern-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Paper Lanterns Crash Game is a first crash game by Mascot Gaming",
+      "descr": "Paper Lanterns Crash Game by Mascot Gaming is crash game that allows players to launch several paper lanterns, therefor making from 1 to 5 bets simultaneously."
+    }
+  },
+  {
     "name": "Ben Gunn Robinson",
     "slug": "ben-gunn-robinson",
     "linkToDemo": "demo.mascot.games/run/ben_gunn_robinson",
