@@ -3,3 +3,7 @@ config:
   stapel:
     mount:
       allowBuildDir: true
+
+helm:
+  allowUncommittedFiles:
+    - ".helm/Chart.lock"

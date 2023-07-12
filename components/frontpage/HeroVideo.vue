@@ -35,10 +35,20 @@ export default {
 
   data() {
     return {
-      demoUrl: this.$config.demoUrl,
+      demoUrl: '',
 
     }
-  }
+  },
+
+  async mounted() {
+    try {
+      await  this.$axios.get("/config.json")
+        .then(response => {this.demoUrl = response.data.demoURL})
+    } catch(ex) {
+      this.demoUrl = this.$config.demositeURL
+    }
+  },
+
 
 }
 </script>

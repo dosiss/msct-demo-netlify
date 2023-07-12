@@ -1,0 +1,5 @@
+apiVersion: v2
+dependencies:
+  - name: helm-snippets
+    repository: "oci://registry.casinomodule.org/infra"
+    version: 0.0.1

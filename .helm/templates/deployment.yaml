@@ -1,0 +1,82 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Chart.Name }}
+  labels:
+    service: {{ .Chart.Name }}
+spec:
+  replicas: {{ pluck .Values.werf.env .Values.replicas | first | default .Values.replicas._default }}
+  selector:
+    matchLabels:
+      service: {{ .Chart.Name }}
+  template:
+    metadata:
+      labels:
+        service: {{ .Chart.Name }}
+      annotations:
+        checksum/config: {{ include (print $.Template.BasePath "/nginx-cm.yaml") . | sha256sum }}
+        checksum/config-json: {{ include (print $.Template.BasePath "/config-json-cm.yaml") . | sha256sum }}
+    spec:
+{{- include "nodeselector" . | indent 6}}
+{{- include "tolerations" . | indent 6}}
+{{- include "affinity" . | indent 6}}
+      terminationGracePeriodSeconds: 120
+      imagePullSecrets:
+        - name: registrysecret
+      volumes:
+        - name: nginx-conf
+          configMap:
+            name: {{ .Chart.Name }}-nginx
+        - name: config-json
+          configMap:
+            name: {{ .Chart.Name }}-config-json
+      containers:
+        - name: {{ .Chart.Name }}
+          image: {{ first (pluck .Chart.Name .Values.werf.image) }}
+          command: ["/usr/sbin/nginx", "-g", "daemon off;"]
+          lifecycle:
+            preStop:
+              exec:
+                command: ["/usr/sbin/nginx", "-s", "quit"]
+          volumeMounts:
+            - name: nginx-conf
+              mountPath: /etc/nginx/nginx.conf
+              subPath: nginx.conf
+            - name: config-json
+              mountPath: /usr/share/nginx/html/config.json
+              subPath: config.json
+          ports:
+            - name: http
+              containerPort: {{ pluck .Values.werf.env .Values.ports.http | first | default .Values.ports.http._default }}
+              protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /healthz
+              port: {{ pluck .Values.werf.env .Values.ports.http | first | default .Values.ports.http._default }}
+              scheme: HTTP
+            initialDelaySeconds: 10
+          livenessProbe:
+            failureThreshold: 3
+            httpGet:
+              path: /healthz
+              port: {{ pluck .Values.werf.env .Values.ports.http | first | default .Values.ports.http._default }}
+              scheme: HTTP
+            initialDelaySeconds: 10
+          resources:
+{{- include "resources" . | indent 10}}
+
+{{- if hasPrefix "prod-" .Values.werf.env }}
+---
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: {{ .Chart.Name }}
+  labels:
+    service: {{ .Chart.Name }}
+spec:
+  minAvailable: 1
+  selector:
+    matchLabels:
+      service: {{ .Chart.Name }}
+{{- end }}

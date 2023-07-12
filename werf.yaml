@@ -1,11 +1,13 @@
-{{ $projectName := "mascot" }}
+{{ $projectName := "sites-mascot" }}
 ---
 
 project: {{ $projectName }}
 configVersion: 1
+deploy:
+  helmRelease: {{ $projectName }}
 ---
 
-artifact: app
+image: app
 from: node:16.10.0-alpine
 shell:
   install:
@@ -30,15 +32,11 @@ from: nginx:stable-alpine
 docker:
   WORKDIR: /usr/share/nginx/html
   USER: nginx
-  EXPOSE: "8080"
 shell:
   beforeInstall:
     chmod a+rw /var/cache/nginx /var/run
-git:
-  - add: /docker/nginx.conf
-    to: /etc/nginx/nginx.conf
 import:
-  - artifact: app
+  - image: app
     add: /app/dist
     to: /usr/share/nginx/html
     owner: nginx

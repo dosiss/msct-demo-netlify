@@ -1,0 +1,54 @@
+replicas:
+  _default: 1
+  dev: 2
+  test: 2
+  prod-mascot: 3
+
+resources:
+  cpu:
+    _default: 1m
+  memory:
+    _default: 100Mi
+  max_unavailable:
+    _default: 1
+  max_surge:
+    _default: 1
+
+node_selector:
+  _default: worker
+  dev: dev
+  test: dev
+  prod-mascot: worker-prod-mascot
+
+ports:
+  http:
+    _default: 8080
+
+ingress:
+  class:
+    _default: nginx-dev
+    dev: nginx
+    test: nginx
+    prod-mascot: nginx-prod-mascot
+  host:
+    _default:
+      - domain: mascot.local
+        secret_name: fake
+    dev:
+      - domain: mascot.dev.c27.games
+        secret_name: dev-c27-games-wildcard-tls
+    test:
+      - domain: mascot.test.c27.games
+        secret_name: test-c27-games-wildcard-tls
+    prod-mascot:
+      - domain: mascot.games
+        secret_name: prod-mascot-mascot-games-wildcard-tls
+  path:
+    _default: /
+  service_port:
+    _default: http
+
+demoURL:
+  _default: https://play.mascot.games
+  test: https://mascot-demo.test.c27.games
+  dev: https://mascot-demo.dev.c27.games

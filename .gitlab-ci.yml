@@ -17,6 +17,40 @@ Build:
   except: [schedules]
   tags: [werf-runner]
 
+.base_deploy: &base_deploy
+  stage: deploy
+  script:
+    - set -x
+    - type trdl && source $(trdl use werf 1.2 ea)
+    - type werf && source $(werf ci-env gitlab --as-file --verbose)
+    - werf helm dependency update .helm
+    - werf converge --skip-build --namespace ${CI_ENVIRONMENT_SLUG} --env ${CI_ENVIRONMENT_SLUG} --set "global.env_url=$(echo ${CI_ENVIRONMENT_URL} | cut -d / -f 3)"
+  dependencies:
+    - Build
+  except: [schedules]
+  tags: [werf-runner]
+
+Deploy to Test:
+  <<: *base_deploy
+  environment:
+    name: test
+    url: http://mascot.test.c27.games
+  when: manual
+
+Deploy to Dev:
+  <<: *base_deploy
+  environment:
+    name: dev
+    url: http://mascot.dev.c27.games
+  when: manual
+
+Deploy to Production:
+  <<: *base_deploy
+  environment:
+    name: prod-mascot
+    url: http://mascot.games
+  when: manual
+
 Cleanup:
   stage: cleanup
   script:
@@ -25,5 +59,8 @@ Cleanup:
     - type werf && source $(werf ci-env gitlab --as-file --verbose)
     - docker login -u nobody -p ${WERF_IMAGES_CLEANUP_PASSWORD} ${WERF_REPO}
     - werf cleanup
-  only: [schedules]
+  only:
+    refs: [schedules]
+    variables:
+      - $CLEANUP == "true"
   tags: [werf-runner]

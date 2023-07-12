@@ -122,7 +122,7 @@ import allGames from '../../static/data/games.json'
 
         gamesList: allGames,
 
-        demoUrl: this.$config.demoUrl,
+        demoUrl: '',
 
         backgroundGameData: {
           name: '',
@@ -190,7 +190,14 @@ import allGames from '../../static/data/games.json'
 
 
     },
-    mounted() {
+    async mounted() {
+
+      try {
+        await  this.$axios.get("/config.json")
+          .then(response => {this.demoUrl = response.data.demoURL})
+      } catch(ex) {
+          this.demoUrl = this.$config.demositeURL
+      }
 
       const firstGame = allGames.filter(val => (val.featured !== false))[0];
 
