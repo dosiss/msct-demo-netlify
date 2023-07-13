@@ -66,3 +66,9 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+# Хранение videos в minio
+
+/videos хранится в [minio](https://git.casinomodule.org/infra/minio)
+
+В `.helm/templates/nginx-cm.yaml` происходит перенаправление на `https://minio-api.mascot.games/mascot-videos`
