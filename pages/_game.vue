@@ -429,6 +429,13 @@ export default {
         display: none
       }
     }
+    .game-details {
+      .game-details__content {
+        img {
+          bottom: -140px
+        }
+      }
+    }
   }
   .game_paper-lanterns-crash-game {
     .game-meta__wrap {
