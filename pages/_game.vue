@@ -286,7 +286,7 @@ export default {
     data() {
       return {
         id: this.$route.params.game,
-        demoUrl: this.$config.demoUrl,
+        demoUrl: '',
 
         gamesList: allGames,
 
@@ -376,7 +376,14 @@ export default {
 
  },
 
- mounted() {
+ async mounted() {
+
+   try {
+     await  this.$axios.get("/config.json")
+       .then(response => {this.demoUrl = response.data.demoURL})
+   } catch(ex) {
+     this.demoUrl = this.$config.demositeURL
+   }
 
    const el = document.getElementById('lightgallery')
    window.lightGallery(el, {
@@ -420,6 +427,13 @@ export default {
     .details-list {
       &.column-1 {
         display: none
+      }
+    }
+    .game-details {
+      .game-details__content {
+        img {
+          bottom: -140px
+        }
       }
     }
   }
@@ -807,6 +821,7 @@ export default {
           padding: 30px 35px 50px;
           background: #121212;
           border-radius: 12px;
+          min-width: 100%;
           @media (max-width: 550px) {
             justify-self: stretch;
           }

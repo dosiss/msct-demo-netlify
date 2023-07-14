@@ -91,3 +91,7 @@ sw.*
 
 # Videos folder (Prod setting)
 static/videos
+
+# Helm stuff
+.helm/charts
+.helm/Chart.lock

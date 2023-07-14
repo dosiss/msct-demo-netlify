@@ -59,7 +59,7 @@ import allGames from '../../static/data/games.json'
 
         gamesList: allGames,
 
-        demoUrl: this.$config.demoUrl,
+        demoUrl: '',
 
         swiperOption: {
           mousewheel: true,
@@ -97,6 +97,7 @@ import allGames from '../../static/data/games.json'
         }
       }
     },
+
     computed: {
 //        gamesTop() {
 //        return allGames.filter(val => (val.topGame !== false))
@@ -108,7 +109,15 @@ import allGames from '../../static/data/games.json'
     }
 
     },
-    mounted() {
+
+    async mounted() {
+
+      try {
+        await  this.$axios.get("/config.json")
+          .then(response => {this.demoUrl = response.data.demoURL})
+      } catch(ex) {
+        this.demoUrl = this.$config.demositeURL
+      }
 
       // console.log('Current Swiper instance object', this.mySwiper)
       // this.mySwiper.slideTo(3, 1000, false)

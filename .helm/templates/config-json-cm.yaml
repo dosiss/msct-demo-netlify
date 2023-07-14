@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Chart.Name }}-config-json
+  labels:
+    service: {{ .Chart.Name }}
+data:
+  config.json: |
+     {"demoURL": "{{ pluck .Values.werf.env .Values.demoURL | first | default .Values.demoURL._default }}"}

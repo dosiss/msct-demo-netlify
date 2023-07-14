@@ -31,3 +31,45 @@ In our last article we spoke about 5 reasons why, as a slot game provider, you s
 
 *   Develop a plan to create buzz and engagement at your booth.
 *   Offer branded merchandise, interactive games, giveaways, or even consider setting up a themed bar to attract visitors.
+*   Research competitor strategies employed in previous events to gain inspiration and differentiate your approach.
+
+![](../../images/img_blog-exhibition-prep31.jpg)
+
+
+
+**Strategic Planning and Communication:**
+
+*   Strategically plan your schedule and appointments, ensuring a well-organized and efficient flow.
+*   Create informative and visually appealing newsletters to inform existing and potential clients about your participation.
+*   Craft a comprehensive schedule for events, presentations, and meetings to optimize your time and maximize engagement.
+
+
+
+**Pre-Event Promotion:**
+
+*   Utilize your communication channels to promote your participation in the exhibition.
+*   Leverage social media platforms, website banners, and email marketing to generate anticipation and attract visitors.
+*   Highlight any special offers, sneak peeks, or exclusive announcements to encourage attendance.
+
+
+**Leveraging Networking Opportunities**
+
+*   Identify relevant networking events and parallel programs associated with the exhibition.
+*   Allocate your team members to attend key networking events, allowing for effective connections and collaborations.
+*   Capture memorable moments and share them on your digital platforms, extending the reach of your brand.
+
+
+
+**Collecting Relevant Contacts**
+
+*   Devise strategies to collect valuable contacts throughout the exhibition.
+*   Consider using promotional models or other creative approaches to encourage visitors to leave their information.
+*   Utilize digital tools such as QR codes or mobile apps for seamless contact collection.
+
+
+![](../../images/img_blog-exhibition-prep4.jpg)
+
+
+**Margarita Malysheva, Head of Marketing at Mascot Gaming:** 
+
+“At Mascot, we always make our booth in the aesthetics of one of our games and pay meticulous attention to the design. We always try to come up with creative ideas about our exhibition merchandise and gifts. We prepared a special chess set accompanied by wine accessories for Sigma Americas. Last year, we offered exclusive Mascot merchandise designed specifically for pets, resulting in an overwhelming response from visitors.”

@@ -1,0 +1,28 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ .Chart.Name }}
+  labels:
+    service: {{ .Chart.Name }}
+  annotations:
+    kubernetes.io/ingress.class: {{ pluck .Values.werf.env .Values.ingress.class | first | default .Values.ingress.class._default }}
+spec:
+  rules:
+  {{- range $ingress := ( pluck .Values.werf.env .Values.ingress.host | first | default .Values.ingress.host._default) }}
+    - host: {{ $ingress.domain }}
+      http:
+        paths:
+          - path: {{ pluck $.Values.werf.env $.Values.ingress.path | first | default $.Values.ingress.path._default }}
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: {{ $.Chart.Name }}
+                port:
+                  name: {{ pluck $.Values.werf.env $.Values.ingress.service_port | first | default $.Values.ingress.service_port._default }}
+  {{- end }}
+  tls:
+    {{- range $ingress := ( pluck .Values.werf.env .Values.ingress.host | first | default .Values.ingress.host._default) }}
+    - hosts:
+        - {{ $ingress.domain }}
+      secretName: {{ $ingress.secret_name }}
+    {{- end }}

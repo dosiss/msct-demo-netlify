@@ -133,7 +133,7 @@ export default {
       searchPanel: false,
       input: '',
 
-      demoUrl: this.$config.demoUrl,
+      demoUrl: '',
     }
   },
   head() {
@@ -213,7 +213,15 @@ export default {
 
   },
 
-  mounted() {
+  async mounted() {
+
+        try {
+          await  this.$axios.get("/config.json")
+            .then(response => {this.demoUrl = response.data.demoURL})
+        } catch(ex) {
+          this.demoUrl = this.$config.demositeURL
+        }
+
         if(this.$route.query.type === "trafficgames") {
           this.gameFilterKey = "traffic"
         };

@@ -32,9 +32,14 @@ export default {
 //     //Prod setting:
 //      dev: false
 //   },
-  publicRuntimeConfig: {
-     demoUrl: process.env.DEMO_URL,
+  axios: {
+    baseURL: '/'
+  },
 
+  publicRuntimeConfig: {
+    // demoUrl: process.env.DEMO_URL,
+    currURL: 'https://mascot.games',
+    demositeURL: 'https://play.mascot.games'
     // googleAnalytics: {
     //    id: process.env.GOOGLE_ANALYTICS_ID,
     //
