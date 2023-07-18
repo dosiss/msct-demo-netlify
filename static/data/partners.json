@@ -1,5 +1,16 @@
 [
   {
+  "name": "Championslots challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Mascot in the Arena \nPrize pool 264 000 RUB",
+  "url": "https://championslots.com/tournaments/1689141268mascotgaming_jule",
+  "logoUrl": "partner_champion2.png"
+  },
+  {
   "name": "BetandPlay challenge",
   "type": "promopartner",
   "top": false,
@@ -20,17 +31,6 @@
   "promoText": "Mystical challenge by Mascot Gaming \nPrize pool 1000 Euro",
   "url": "https://1win.pro/bonuses?modal=%7B%22name%22%3A%22modal-bonus-universal%22,%22props%22%3A%7B%22bonusId%22%3A499%7D%7D",
   "logoUrl": "partner_1win.png"
-  },
-  {
-    "name": "Atlantis slots",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "THE TOMB CHALLENGE \nPrize pool 1000 Euro",
-    "url": "https://www.atlantisslots.com/de/",
-    "logoUrl": "partner_atlantis.png"
   },
   {
     "name": "Mbit",
