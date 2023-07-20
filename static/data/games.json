@@ -1,5 +1,66 @@
 [
   {
+    "name": "Wild Phoenix Rises",
+    "slug": "wild-phoenix-rises",
+    "linkToDemo": "demo.mascot.games/run/wild_phoenix_rises",
+    "theme": "video slot",
+    "type": "traffic",
+    "mgacertified": false,
+    "risknbuy": true,
+    "rockways": false,
+    "releaseDate": "2023-07-18",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_phoenix2.jpeg",
+    "heroUrl": "hero_phoenix.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_phoenix.jpg",
+    "logoUrl": "logo_phoenix.png",
+    "backUrl": "back_phoenix.jpg",
+    "detailsImgUrl": "details_phoenix.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": 25,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "COMING SOON",
+        "imgUrl": "img-feat_comingsoon.jpg"
+      },
+      {
+        "name": "Risk & Buy: Risk",
+        "descr": "COMING SOON",
+        "imgUrl": "img-feat_comingsoon.jpg"
+      },
+      {
+        "name": "Free Spins Accumulation Scale",
+        "descr": "Each win fills a division on the scale. Series of 5 or more wins gives Free Spins",
+        "imgUrl": "img-feat_phoenix-2.jpg"
+      },
+      {
+        "name": "Free Spins with win multipliers",
+        "descr": "Up to 5 Free Spins with multipliers up to x10. During Free Spins, the Free Spins counter returns to the original position with each win",
+        "imgUrl": "img-feat_phoenix-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Wild Phoenix Rises: video slot game by Mascot Gaming",
+      "descr": "Wild Phoenix Rises is a new Mascot Gaming slot with a new version of the legendary Risk & Buy feature"
+    }
+  },
+  {
     "name": "Paper Lanterns Crash Game",
     "slug": "paper-lanterns-crash-game",
     "linkToDemo": "demo.mascot.games/run/paper_lanterns_crash_game",

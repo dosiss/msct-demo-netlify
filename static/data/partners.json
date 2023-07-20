@@ -1804,6 +1804,28 @@
     "logoUrl": "partner_lcb.png"
   },
   {
+    "name": "Richslots",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.richslots.it/giochi/mascot-gaming",
+    "logoUrl": "partner_richslots.png"
+  },
+  {
+    "name": "PathosOnline",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.pathosonline.it/slot-machine/mascot-gaming",
+    "logoUrl": "partner_pathosonline.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
