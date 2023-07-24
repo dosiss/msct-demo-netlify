@@ -1,5 +1,16 @@
 [
   {
+  "name": "Riobet challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Wild Summer \nPrize pool 3000 EUR",
+  "url": "https://riobet.com/en/tournaments/14228737518",
+  "logoUrl": "partner_riobet.png"
+  },
+  {
   "name": "Cazinostars challenge",
   "type": "promopartner",
   "top": false,
@@ -9,17 +20,6 @@
   "promoText": "Wild Spirits Challenge \nPrize pool 1000 EUR",
   "url": "https://www.cazinostars.com/en/",
   "logoUrl": "partner_cazinostars2.png"
-  },
-  {
-  "name": "Championslots challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Mascot in the Arena \nPrize pool 264 000 RUB",
-  "url": "https://championslots.com/tournaments/1689141268mascotgaming_jule",
-  "logoUrl": "partner_champion2.png"
   },
   {
     "name": "Mbit",
