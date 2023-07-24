@@ -1826,6 +1826,17 @@
     "logoUrl": "partner_pathosonline.png"
   },
   {
+    "name": "Demoslot",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.demoslot.com/mascot-gaming-demo-slots.html",
+    "logoUrl": "partner_demoslot.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
