@@ -30,19 +30,19 @@
       "paylines": 25,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": 95.37,
+      "hitrate": 38.1
     },
     "features": [
       {
         "name": "Risk & Buy Feature: Buy",
-        "descr": "COMING SOON",
-        "imgUrl": "img-feat_comingsoon.jpg"
+        "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_phoenix-0.jpg"
       },
       {
         "name": "Risk & Buy: Risk",
-        "descr": "COMING SOON",
-        "imgUrl": "img-feat_comingsoon.jpg"
+        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_phoenix-1.jpg"
       },
       {
         "name": "Free Spins Accumulation Scale",
