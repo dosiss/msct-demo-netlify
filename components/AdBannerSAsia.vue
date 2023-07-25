@@ -1,17 +1,17 @@
 <template>
 <section id="ad-banner">
   <div class="ad-banner__wrap">
-    <a href="https://sigmaworld.events/sigma-asia-2023" target="_blank" title="https://sigmaworld.events/sigma-asia-2023">
+    <a href="https://sigma.world/cis/" target="_blank" title="https://sigma.world/cis/">
       <div class="ad-banner__inner">
         <nuxt-img src="images/sigma-logo-new.png" class="ad-banner__logo"  alt="SIGMA ASIA" />
         <div class="ad-banner__text">
           <div class="ad-banner__text-left">
             <div class="ad-banner__company">Mascot Gaming</div>
-            <div class="ad-banner__stand">Booth BR08</div>
+            <div class="ad-banner__stand">Booth 018</div>
           </div>
           <div class="ad-banner__text-right">
-            <div class="ad-banner__date">19 – 22 July, 2023</div>
-            <div class="ad-banner__place">MANILA, PHILIPPINES</div>
+            <div class="ad-banner__date">04 – 07 Sept, 2023</div>
+            <div class="ad-banner__place">LIMASSOL, CYPRUS</div>
           </div>
         </div>
         <nuxt-img src="images/img-adbanner-decor4.png" class="ad-banner__decor"  alt="" />

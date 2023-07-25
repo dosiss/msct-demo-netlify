@@ -8,7 +8,7 @@
     "mgacertified": false,
     "risknbuy": true,
     "rockways": false,
-    "releaseDate": "2023-07-18",
+    "releaseDate": "2023-07-25",
     "featured": false,
     "topGame": false,
     "branded": false,
@@ -40,7 +40,7 @@
         "imgUrl": "img-feat_phoenix-0.jpg"
       },
       {
-        "name": "Risk & Buy: Risk",
+        "name": "Risk & Buy Feature: Risk",
         "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
         "imgUrl": "img-feat_phoenix-1.jpg"
       },
