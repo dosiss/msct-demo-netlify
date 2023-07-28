@@ -1,5 +1,16 @@
 [
   {
+  "name": "24xbet challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Mascot tournament \nPrize pool 15 000 RUB",
+  "url": "https://tournaments.24x17.ru/tournament/256",
+  "logoUrl": "partner_24xbet.png"
+  },
+  {
   "name": "BetandPlay challenge",
   "type": "promopartner",
   "top": false,
@@ -504,28 +515,6 @@
     "promoText": null,
     "url": "https://www.playcasino.com/casino-software/mascot-gaming",
     "logoUrl": "partner_playcasino.png"
-  },
-  {
-    "name": "Dansker Casino",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://danskercasino.com/",
-    "logoUrl": "partner_dansker.png"
-  },
-  {
-    "name": "BoomAff",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://boomaff.com/partners/mascot-gaming/",
-    "logoUrl": "partner_boomaff.png"
   },
   {
     "name": "Casino.org",
@@ -1846,6 +1835,17 @@
     "promoText": null,
     "url": "https://www.demoslot.com/mascot-gaming-demo-slots.html",
     "logoUrl": "partner_demoslot.png"
+  },
+  {
+    "name": "SlotsLaunch",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://slotslaunch.com/mascot-gaming",
+    "logoUrl": "partner_slotslaunch.png"
   },
   {
     "name": "Small Lui",
