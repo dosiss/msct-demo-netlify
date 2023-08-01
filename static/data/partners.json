@@ -1,5 +1,16 @@
 [
   {
+  "name": "Realslots challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "No Deposit Tournament \nPrize pool 300 000 RUB",
+  "url": "https://realslots.fun/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=website",
+  "logoUrl": "partner_realslots2.png"
+  },
+  {
   "name": "24xbet challenge",
   "type": "promopartner",
   "top": false,
