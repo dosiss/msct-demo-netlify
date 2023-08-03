@@ -1804,6 +1804,17 @@
     "logoUrl": "partner_betandplay.png"
   },
   {
+    "name": "Lolobet",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://lolo.bet/en",
+    "logoUrl": "partner_lolobet.png"
+  },
+  {
     "name": "lcb.org",
     "type": "media",
     "top": false,
