@@ -476,7 +476,7 @@ export default {
 
   .game_riot {
   .partners__content {
-    .partner__wrap:nth-child(7) {
+    .partner__wrap:nth-child(9) {
       display: block;
     }
   }

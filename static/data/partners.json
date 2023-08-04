@@ -1,5 +1,27 @@
 [
   {
+  "name": "AMPM challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Sunny Fiesta with Mascot \nPrize pool 3000 FS",
+  "url": "https://ampm.casino/tournaments/details/sunny-fiesta-v2+2023-08-04%2008:00:00+2023-08-18%2008:00:00",
+  "logoUrl": "partner_ampm.png"
+  },
+  {
+  "name": "1win challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Hunting for the Emperor's treasures! \nPrize pool 1000 EUR",
+  "url": "https://1win.pro/bonuses?modal=%7B%22name%22%3A%22modal-bonus-universal%22,%22props%22%3A%7B%22bonusId%22%3A514%7D%7D",
+  "logoUrl": "partner_1win.png"
+  },
+  {
   "name": "Realslots challenge",
   "type": "promopartner",
   "top": false,
