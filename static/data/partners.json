@@ -1,5 +1,16 @@
 [
   {
+  "name": "Atlantisslots challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Wild Spirit Challenge \nPrize pool 1000 EUR",
+  "url": "https://www.atlantisslots.com/de/",
+  "logoUrl": "partner_atlantis.png"
+  },
+  {
   "name": "AMPM challenge",
   "type": "promopartner",
   "top": false,
@@ -42,39 +53,6 @@
   "promoText": "Mascot tournament \nPrize pool 15 000 RUB",
   "url": "https://tournaments.24x17.ru/tournament/256",
   "logoUrl": "partner_24xbet.png"
-  },
-  {
-  "name": "BetandPlay challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Rocket Chimp Jackpot - Slot of the week \nPrize pool 2000 FS",
-  "url": "https://www.betandplay.com/slot-of-the-week",
-  "logoUrl": "partner_betandplay.png"
-  },
-  {
-  "name": "Riobet challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Wild Summer \nPrize pool 3000 EUR",
-  "url": "https://riobet.com/en/tournaments/14228737518",
-  "logoUrl": "partner_riobet.png"
-  },
-  {
-  "name": "Cazinostars challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Wild Spirits Challenge \nPrize pool 1000 EUR",
-  "url": "https://www.cazinostars.com/en/",
-  "logoUrl": "partner_cazinostars2.png"
   },
   {
     "name": "Mbit",
