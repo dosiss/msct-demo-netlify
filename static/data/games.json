@@ -1,5 +1,66 @@
 [
   {
+    "name": "The Pendragon Legend",
+    "slug": "the-pendragon-legend",
+    "linkToDemo": "demo.mascot.games/run/the_pendragon_legend",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "risknbuy": true,
+    "rockways": false,
+    "releaseDate": "2023-08-29",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_pendragon.jpeg",
+    "heroUrl": "hero_pendragon2.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_pendragon.jpg",
+    "logoUrl": "logo_pendragon.png",
+    "backUrl": "back_pendragon.jpg",
+    "detailsImgUrl": "details_pendragon.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.1,
+      "hitrate": 31.1
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_pendragon-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_pendragon-1.jpg"
+      },
+      {
+        "name": "Click Me Feature",
+        "descr": "You can win up to 30 Free Spins with a multiplier of up to x5",
+        "imgUrl": "img-feat_pendragon-2.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Every Scatter Symbol in Free Spins gives one additional Free Spin",
+        "imgUrl": "img-feat_pendragon-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "The Pendragon Legend: video slot game by Mascot Gaming",
+      "descr": "The Pendragon Legend is the new slot game by Mascot Gaming with the new version of the legendary Risk and Buy feature."
+    }
+  },
+  {
     "name": "Wild Phoenix Rises",
     "slug": "wild-phoenix-rises",
     "linkToDemo": "demo.mascot.games/run/wild_phoenix_rises",

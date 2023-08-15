@@ -124,10 +124,13 @@
         bodyFormData.append('phone', this.phone);
         bodyFormData.append('message', this.message);
         bodyFormData.append('usertype', this.usertype);
-
+        if( this.usertype === 'Operator') {
+          bodyFormData.append('template_id', 'template_j7x74aq');
+        } else {
+          bodyFormData.append('template_id', 'template_t3rkppg');
+        }
 
         bodyFormData.append('service_id', 'service_tr5r6fw');
-        bodyFormData.append('template_id', 'template_t3rkppg');
         bodyFormData.append('user_id', 'eE5PNrtIqLmZkFQ2r');
            this.$axios
              .post("https://api.emailjs.com/api/v1.0/email/send-form",

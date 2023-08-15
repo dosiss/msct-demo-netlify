@@ -1,5 +1,16 @@
 [
   {
+  "name": "BetandPlay challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Wild Phoenix Rises - Slot of the week \nPrize pool 2000 FS",
+  "url": "https://www.betandplay.com/slot-of-the-week",
+  "logoUrl": "partner_betandplay.png"
+  },
+  {
   "name": "Atlantisslots challenge",
   "type": "promopartner",
   "top": false,

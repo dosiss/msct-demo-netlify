@@ -102,7 +102,7 @@
           <div class="hairline"></div>
           <div class="icons__outer">
             <div class="icons__wrap">
-            <div v-if="currentGame.stats.rtp !== null" class="slider-footer__icons-item">
+            <!-- <div v-if="currentGame.stats.rtp !== null" class="slider-footer__icons-item">
               <div class="icon-inner">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M30.5 50.928c11.046 0 20-8.954 20-20s-8.954-20-20-20-20 8.954-20 20 8.954 20 20 20Zm-7-11h14"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21.5 24.928 2 10h14l2-10-5 5-4-7-4 7-5-5Z"/></svg>
                 <span>{{currentGame.stats.rtp}}</span>
@@ -115,7 +115,7 @@
                   <span>{{currentGame.stats.hitrate}}%</span>
                 </div>
                 <div class="slider-footer__icons-itemname">Hit Rate</div>
-            </div>
+            </div> -->
             <div v-if="currentGame.stats.reels !== null" class="slider-footer__icons-item">
               <div class="icon-inner">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><defs><mask id="f" fill="#fff"><rect width="12" height="12" x="6.166" y="24.928" rx="1"/></mask></defs><mask id="a" fill="#fff"><rect width="8" height="36" x="8.168" y="12.928" rx="1"/></mask><rect width="8" height="36" x="8.168" y="12.928" stroke="#fff" stroke-width="4" mask="url(#a)" rx="1" transform="translate(.559 .699)"/><mask id="b" fill="#fff"><rect width="12" height="12" x="6.166" y="24.928" rx="1"/></mask><rect width="12" height="12" x="6.166" y="24.928" fill="#FFCF24" stroke="#fff" stroke-width="4" mask="url(#b)" rx="1"/><mask id="c" fill="#fff"><rect width="8" height="36" x="26.189" y="12.928" rx="1"/></mask><rect width="8" height="36" x="26.189" y="12.928" stroke="#fff" stroke-width="4" mask="url(#c)" rx="1"/><mask id="d" fill="#fff"><rect width="13" height="13" rx="1" transform="rotate(44.966 -11.31 47.647)"/></mask><rect width="13" height="13" fill="#FFCF24" stroke="#fff" stroke-width="4" mask="url(#d)" rx="1" transform="rotate(44.966 -11.31 47.647)"/><mask id="e" fill="#fff"><rect width="8" height="36" x="44.211" y="12.928" rx="1"/></mask><rect width="8" height="36" x="44.211" y="12.928" stroke="#fff" stroke-width="4" mask="url(#e)" rx="1"/><rect width="12" height="12" x="42.166" y="24.928" fill="#FFCF24" stroke="#fff" stroke-width="2" rx="6"/><rect width="12" height="12" x="6.166" y="24.928" fill="#ffcf24" stroke="#fff" stroke-width="4" mask="url(#f)" rx="1" transform="rotate(45.077 21.88 52.582)"/></svg>
@@ -222,7 +222,7 @@
                 </li>
               </ul>
               <ul class="details-list column-2">
-                <li v-if="currentGame.stats.rtp && currentGame.stats.rtp" class="details-item">
+                <!-- <li v-if="currentGame.stats.rtp && currentGame.stats.rtp" class="details-item">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 17.928a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm10.09-3.63a6.001 6.001 0 1 1-7.75 7.63"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9.928h1v4m8.71 3.88.7.71-2.82 2.82"/></svg>
                   <span class="details-name">RTP</span>
                   <span class="lead-line"></span>
@@ -233,7 +233,7 @@
                   <span class="details-name">HIT%</span>
                   <span class="lead-line"></span>
                   <div class="details-value">{{currentGame.stats.hitrate}}</div>
-                </li>
+                </li> -->
                 <li v-if="currentGame.releaseDate && currentGame.releaseDate" class="details-item">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 17.928v-8a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8m3-20v4m-8-4v4m-5 4h18m-5 10 2 2 4-4"/></svg>
                   <span class="details-name">Release Date</span>
@@ -476,7 +476,7 @@ export default {
 
   .game_riot {
   .partners__content {
-    .partner__wrap:nth-child(7) {
+    .partner__wrap:nth-child(8) {
       display: block;
     }
   }
@@ -778,10 +778,12 @@ export default {
       border-bottom: 1px solid rgba(255, 255, 255, 0.25);
       padding-bottom: 45px;
       @media (max-width: 850px) {
-        width: 150%
+      /*  width: 150% */
+        width: 129%
       }
       @media (max-width: 650px) {
-        width: 245%
+        /* width: 270% */
+        width: 189%
       }
       .slider-footer__icons-item {
         display: flex;
