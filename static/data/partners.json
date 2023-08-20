@@ -1,5 +1,16 @@
 [
   {
+  "name": "Abocasino challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "MASCOT MANIA SHOWDOWN \nPrize pool 2000 EUR",
+  "url": "https://www.abocasino2.com/mascot-mania-showdown",
+  "logoUrl": "partner_abocasino2.png"
+  },
+  {
   "name": "BetandPlay challenge",
   "type": "promopartner",
   "top": false,
@@ -31,39 +42,6 @@
   "promoText": "Sunny Fiesta with Mascot \nPrize pool 3000 FS",
   "url": "https://ampm.casino/tournaments/details/sunny-fiesta-v2+2023-08-04%2008:00:00+2023-08-18%2008:00:00",
   "logoUrl": "partner_ampm.png"
-  },
-  {
-  "name": "1win challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Hunting for the Emperor's treasures! \nPrize pool 1000 EUR",
-  "url": "https://1win.pro/bonuses?modal=%7B%22name%22%3A%22modal-bonus-universal%22,%22props%22%3A%7B%22bonusId%22%3A514%7D%7D",
-  "logoUrl": "partner_1win.png"
-  },
-  {
-  "name": "Realslots challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "No Deposit Tournament \nPrize pool 300 000 RUB",
-  "url": "https://realslots.fun/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=website",
-  "logoUrl": "partner_realslots2.png"
-  },
-  {
-  "name": "24xbet challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Mascot tournament \nPrize pool 15 000 RUB",
-  "url": "https://tournaments.24x17.ru/tournament/256",
-  "logoUrl": "partner_24xbet.png"
   },
   {
     "name": "Mbit",
