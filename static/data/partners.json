@@ -1,5 +1,27 @@
 [
   {
+  "name": "Riobet challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Mascot X-Race \nPrize pool 3000 EUR",
+  "url": "https://riobet.com/ru/tournaments",
+  "logoUrl": "partner_riobet.png"
+  },
+  {
+  "name": "Mostbet challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "LUXURY GIRL & MASCOT GAMING TOURNAMENT \nPrize pool 2000 EUR",
+  "url": "https://mostbet.com/casino/tournaments/luxury_girl_mascot_gaming_tournament",
+  "logoUrl": "partner_mostbet.png"
+  },
+  {
   "name": "Abocasino challenge",
   "type": "promopartner",
   "top": false,
@@ -9,28 +31,6 @@
   "promoText": "MASCOT MANIA SHOWDOWN \nPrize pool 2000 EUR",
   "url": "https://www.abocasino2.com/mascot-mania-showdown",
   "logoUrl": "partner_abocasino2.png"
-  },
-  {
-  "name": "BetandPlay challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Wild Phoenix Rises - Slot of the week \nPrize pool 2000 FS",
-  "url": "https://www.betandplay.com/slot-of-the-week",
-  "logoUrl": "partner_betandplay.png"
-  },
-  {
-  "name": "Atlantisslots challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Wild Spirit Challenge \nPrize pool 1000 EUR",
-  "url": "https://www.atlantisslots.com/de/",
-  "logoUrl": "partner_atlantis.png"
   },
   {
   "name": "AMPM challenge",
