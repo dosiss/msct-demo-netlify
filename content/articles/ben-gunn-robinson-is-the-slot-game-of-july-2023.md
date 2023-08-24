@@ -9,4 +9,4 @@ archiveDate: 2023-07-27
 
 Chipy.com, a popular gaming resource, has named Ben Gunn Robinson as their Slot Game of July. Ben Gunn Robinson is a fantastic and engaging slot game, with a variety of features and vibrant, detailed graphics.
 
-[READ THE FULL REVIEW](https://chipy.com/news/ben-gunn-robinson-by-mascot-gaming-editor-s-pick-july-2023)
+<a href="https://chipy.com/news/ben-gunn-robinson-by-mascot-gaming-editor-s-pick-july-2023" target="_blank" rel="dofollow">READ THE FULL REVIEW</a>
