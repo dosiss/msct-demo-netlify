@@ -64,18 +64,6 @@
 </script>
 
 <style lang="scss">
-.partners__content {
-  .partner__wrap:nth-child(6) {
-    display: none;
-  }
-}
-.game_riot {
-.partners__content {
-  .partner__wrap:nth-child(6) {
-    display: block;
-  }
-}
-}
 .playpartners__wrap {
   padding-top: 0;
   @media (max-width: 650px) {

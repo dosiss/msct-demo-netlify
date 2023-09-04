@@ -493,14 +493,6 @@ export default {
       }
     }
   }
-
-  .game_riot {
-  .partners__content {
-    .partner__wrap:nth-child(6) {
-      display: block;
-    }
-  }
-}
   .top-img {
     background-size: cover;
     background-repeat: no-repeat;

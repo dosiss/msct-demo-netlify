@@ -1,5 +1,16 @@
 [
   {
+  "name": "Riobet challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Mascot Slot Race \nPrize pool 3000 EUR",
+  "url": "https://riobet153.com/en/tournaments/14721446616",
+  "logoUrl": "partner_riobet.png"
+  },
+  {
   "name": "Casino Intense challenge",
   "type": "promopartner",
   "top": false,
@@ -9,28 +20,6 @@
   "promoText": "THE TOMB CHALLENGE \nPrize pool 1000 EUR",
   "url": "https://www.casinointense-one.com/en/",
   "logoUrl": "partner_intense.png"
-  },
-  {
-  "name": "Riobet challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Mascot X-Race \nPrize pool 3000 EUR",
-  "url": "https://riobet.com/ru/tournaments",
-  "logoUrl": "partner_riobet.png"
-  },
-  {
-  "name": "Mostbet challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "LUXURY GIRL & MASCOT GAMING TOURNAMENT \nPrize pool 2000 EUR",
-  "url": "https://mostbet.com/casino/tournaments/luxury_girl_mascot_gaming_tournament",
-  "logoUrl": "partner_mostbet.png"
   },
   {
   "name": "Abocasino challenge",
@@ -53,17 +42,6 @@
   "promoText": "Sunny Fiesta with Mascot \nPrize pool 3000 FS",
   "url": "https://ampm.casino/tournaments/details/sunny-fiesta-v2+2023-08-04%2008:00:00+2023-08-18%2008:00:00",
   "logoUrl": "partner_ampm.png"
-  },
-  {
-    "name": "Gama",
-    "type": "promopartner",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": true,
-    "promoText": "Mascot - no Deposit 50 FS \n50 Free Spins in RIOT! \nPromo code: MASCOT",
-    "url": "https://gama.casino/en/play/899/riot?demo=false",
-    "logoUrl": "partner_gama.png"
   },
   {
     "name": "PariMatch",
