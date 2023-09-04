@@ -68,7 +68,7 @@ spec:
 
 {{- if hasPrefix "prod-" .Values.werf.env }}
 ---
-apiVersion: policy/v1beta1
+apiVersion: policy/v1
 kind: PodDisruptionBudget
 metadata:
   name: {{ .Chart.Name }}
