@@ -1,5 +1,66 @@
 [
   {
+  "name": "Minotaurs Wilds",
+  "slug": "minotaurs-wilds",
+  "linkToDemo": "demo.mascot.games/run/minotaurs_wilds",
+  "theme": "video slot",
+  "type": "profit",
+  "mgacertified": false,
+  "risknbuy": true,
+  "rockways": false,
+  "releaseDate": "2023-09-19",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_minotaur.jpeg",
+  "heroUrl": "hero_minotaur.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_minotaur.jpg",
+  "logoUrl": "logo_minotaur.png",
+  "backUrl": "back_minotaur.jpg",
+  "detailsImgUrl": "details_minotaur.png",
+  "stats": {
+    "reels": 5,
+    "rows": 3,
+    "volatility": "High",
+    "paylines": 10,
+    "payways": null,
+    "html5": true,
+    "rtp": 95.16,
+    "hitrate": 21.5
+  },
+  "features": [
+    {
+      "name": "Risk & Buy Feature: Risk",
+      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "imgUrl": "img-feat_minotaur-0.jpg"
+    },
+    {
+      "name": "Risk & Buy Feature: Buy",
+      "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special Buy offer after each spin",
+      "imgUrl": "img-feat_minotaur-1.jpg"
+    },
+    {
+      "name": "Free Spins with sticky Wilds",
+      "descr": "During Free Spins, all Golden Wild symbols become sticky, remain in their places for the entire Free Spins series and substitute for all symbols",
+      "imgUrl": "img-feat_minotaur-2.jpg"
+    },
+    {
+      "name": "Additional Free Spins",
+      "descr": "3 central reels filled with sticky Gold Wild symbols award 3 additional Free Spins",
+      "imgUrl": "img-feat_minotaur-3.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Minotaurs Wilds: video slot game by Mascot Gaming",
+      "descr": "Ancient myths come to life in Minotaurs Wilds, the new slot game by Mascot Gaming with the new version of the famous Risk and Buy feature."
+    }
+  },
+  {
     "name": "The Pendragon Legend",
     "slug": "the-pendragon-legend",
     "linkToDemo": "demo.mascot.games/run/the_pendragon_legend",
