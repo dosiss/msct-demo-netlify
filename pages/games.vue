@@ -102,7 +102,7 @@
 
     </div>
       <SharingButtons />
-      <vue-lazy-load><AdBannerSAsia /></vue-lazy-load>
+      <vue-lazy-load><AdBannerSBCsummit /></vue-lazy-load>
       <MainFooter />
   </div>
 

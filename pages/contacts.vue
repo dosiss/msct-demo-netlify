@@ -103,7 +103,7 @@
     </div>
   </div>
   <SharingButtons />
-    <AdBannerSAsia />
+    <AdBannerSBCsummit />
     <MainFooter />
   </div>
 </template>

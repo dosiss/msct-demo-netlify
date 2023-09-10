@@ -1,47 +1,14 @@
 [
   {
-  "name": "Riobet challenge",
+  "name": "24x challenge",
   "type": "promopartner",
   "top": false,
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Mascot Slot Race \nPrize pool 3000 EUR",
-  "url": "https://riobet153.com/en/tournaments/14721446616",
-  "logoUrl": "partner_riobet.png"
-  },
-  {
-  "name": "Casino Intense challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "THE TOMB CHALLENGE \nPrize pool 1000 EUR",
-  "url": "https://www.casinointense-one.com/en/",
-  "logoUrl": "partner_intense.png"
-  },
-  {
-  "name": "Abocasino challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "MASCOT MANIA SHOWDOWN \nPrize pool 2000 EUR",
-  "url": "https://www.abocasino2.com/mascot-mania-showdown",
-  "logoUrl": "partner_abocasino2.png"
-  },
-  {
-  "name": "AMPM challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Sunny Fiesta with Mascot \nPrize pool 3000 FS",
-  "url": "https://ampm.casino/tournaments/details/sunny-fiesta-v2+2023-08-04%2008:00:00+2023-08-18%2008:00:00",
-  "logoUrl": "partner_ampm.png"
+  "promoText": "Grand Fortuna \nPrize pool 9000 RUB",
+  "url": "https://tournaments.24x17.ru/tournament/262",
+  "logoUrl": "partner_24xbet.png"
   },
   {
     "name": "PariMatch",
