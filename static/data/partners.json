@@ -1804,6 +1804,17 @@
     "logoUrl": "partner_slotslaunch.png"
   },
   {
+    "name": "Affpapa.com",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://affpapa.com",
+    "logoUrl": "partner_affpapa.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,

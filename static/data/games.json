@@ -1,5 +1,71 @@
 [
   {
+  "name": "Zeus the Thunderer Deluxe",
+  "slug": "zeus-the-thunderer-deluxe",
+  "linkToDemo": "demo.mascot.games/zeus_the_thunderer_deluxe",
+  "theme": "video slot",
+  "type": "traffic",
+  "mgacertified": false,
+  "risknbuy": true,
+  "rockways": false,
+  "releaseDate": "2023-09-19",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_zeusdeluxe.jpeg",
+  "heroUrl": "hero_zeusdeluxe.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_zeusdeluxe.jpg",
+  "logoUrl": "logo_zeusdeluxe.png",
+  "backUrl": "back_zeusdeluxe.jpg",
+  "detailsImgUrl": "details_zeusdeluxe.png",
+  "stats": {
+    "reels": 5,
+    "rows": 4,
+    "volatility": "High",
+    "paylines": 20,
+    "payways": null,
+    "html5": true,
+    "rtp": 95.0,
+    "hitrate": 53.2
+  },
+  "features": [
+    {
+      "name": "Risk & Buy Feature: Risk",
+      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "imgUrl": "img-feat_zeusdeluxe-0.jpg"
+    },
+    {
+      "name": "Risk & Buy Feature: Buy",
+      "descr": "Buy a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special Buy offer after each spin",
+      "imgUrl": "img-feat_zeusdeluxe-1.jpg"
+    },
+    {
+      "name": "Free Spins Feature",
+      "descr": "In the main game only, a winning combination of 3 or more Olympian symbols gives 1 of 3 types of Free Spins",
+      "imgUrl": "img-feat_zeusdeluxe-2.jpg"
+    },
+    {
+      "name": "Additional Free Spins",
+      "descr": "During Free Spins, each Scatter Symbol grants an additional Free Spin",
+      "imgUrl": "img-feat_zeusdeluxe-3.jpg"
+    },
+    {
+      "name": "Sticky Symbols",
+      "descr": "In all types of Free Spins, the symbols of the main character become sticky",
+      "imgUrl": "img-feat_zeusdeluxe-4.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Zeus the Thunderer Deluxe: video slot game by Mascot Gaming",
+      "descr": "Ascend to Olympus with Zeus the Thunderer Deluxe. New Risk and Buy feature, 3 types of Free Spins Series with Sticky Symbols await!"
+    }
+  },
+  {
   "name": "Minotaurs Wilds",
   "slug": "minotaurs-wilds",
   "linkToDemo": "demo.mascot.games/run/minotaurs_wilds",
