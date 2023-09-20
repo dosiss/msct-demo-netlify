@@ -1,5 +1,16 @@
 [
   {
+  "name": "Hotline casino challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Fall Fest \nPrize pool 3000 FS",
+  "url": "https://hotlinecasino.vip/tournaments/Fall_Fest/2023-09-13%2011:00:00/2023-09-27%2011:00:00",
+  "logoUrl": "partner_hotline.png"
+  },
+  {
   "name": "24x challenge",
   "type": "promopartner",
   "top": false,
