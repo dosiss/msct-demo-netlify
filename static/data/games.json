@@ -257,7 +257,7 @@
     "mgacertified": false,
     "risknbuy": false,
     "rockways": false,
-    "releaseDate": "coming soon",
+    "releaseDate": "2023-09-26",
     "featured": false,
     "topGame": false,
     "branded": false,
@@ -275,12 +275,12 @@
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
-      "html5": null,
-      "rtp": null,
-      "hitrate": null
+      "html5": true,
+      "rtp": 95.32,
+      "hitrate": 28.9
     },
     "features": [
       {
@@ -290,7 +290,7 @@
       },
       {
         "name": " ",
-        "descr": "Increasing winning coefficient up to x10,000",
+        "descr": "Increasing winning coefficient up to 5,000",
         "imgUrl": "img-feat_lantern-1.jpg"
       },
       {

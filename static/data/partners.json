@@ -1,5 +1,16 @@
 [
   {
+  "name": "Playfortuna challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Reliable Talisman \nPrize pool 5000 EUR",
+  "url": "https://playfortuna.com/en/tournaments/show/4959",
+  "logoUrl": "partner_playfortuna.png"
+  },
+  {
   "name": "Hotline casino challenge",
   "type": "promopartner",
   "top": false,
@@ -1758,6 +1769,17 @@
     "promoText": null,
     "url": "https://lolo.bet/en",
     "logoUrl": "partner_lolobet.png"
+  },
+  {
+    "name": "Fat panda",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://fatpandacasino.com/ru/play/899/fruit_machine_x25?demo=true",
+    "logoUrl": "partner_fatpanda.png"
   },
   {
     "name": "lcb.org",

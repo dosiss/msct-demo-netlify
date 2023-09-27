@@ -500,9 +500,9 @@ export default {
     }
   }
   .game_hook-up-fishing-wars {
-    .game-meta__wrap {
+    /* .game-meta__wrap {
       display: none
-    }
+    } */
     .details-list {
       &.column-1 {
         display: none
