@@ -499,6 +499,26 @@ export default {
       }
     }
   }
+  .game_hello-win {
+    .features-card {
+      &:nth-child(1) {
+        .features-title {
+          &:before {
+            content: 'New ';
+            color: red;
+          }
+        }
+      }
+      &:nth-child(2) {
+        .features-title {
+          &:before {
+            content: 'New ';
+            color: red;
+          }
+        }
+      }
+    }
+  }
   .game_hook-up-fishing-wars {
    .game-meta__wrap {
       display: none

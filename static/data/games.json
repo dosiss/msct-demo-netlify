@@ -1,5 +1,61 @@
 [
   {
+  "name": "Hello win!",
+  "slug": "hello-win",
+  "linkToDemo": "demo.mascot.games/run/hello_win",
+  "theme": "video slot",
+  "type": "traffic",
+  "mgacertified": false,
+  "risknbuy": true,
+  "rockways": false,
+  "releaseDate": "2023-10-10",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_hellowin.jpeg",
+  "heroUrl": "hero_hellowin.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_hellowin.jpg",
+  "logoUrl": "logo_hellowin.png",
+  "backUrl": "back_hellowin.jpg",
+  "detailsImgUrl": "details_hellowin.png",
+  "stats": {
+    "reels": 5,
+    "rows": 3,
+    "volatility": "Low",
+    "paylines": null,
+    "payways": 243,
+    "html5": true,
+    "rtp": 97.2,
+    "hitrate": 31.2
+  },
+  "features": [
+    {
+      "name": "Risk & Buy Feature: Risk",
+      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "imgUrl": "img-feat_hellowin-0.jpg"
+    },
+    {
+      "name": "Risk & Buy Feature: Buy",
+      "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+      "imgUrl": "img-feat_hellowin-1.jpg"
+    },
+    {
+      "name": "Free Spins",
+      "descr": "Up to 25 Free Spins with extra Free Spins",
+      "imgUrl": "img-feat_hellowin-2.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Hello Win!, a video slot game by Mascot Gaming",
+      "descr": "Bask in the chilling allure of Halloween with the New Risk and Buy feature and Free Spins."
+    }
+  },
+  {
   "name": "Zeus the Thunderer Deluxe",
   "slug": "zeus-the-thunderer-deluxe",
   "linkToDemo": "demo.mascot.games/run/zeus_the_thunderer_deluxe",
