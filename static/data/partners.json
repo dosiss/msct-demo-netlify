@@ -1,36 +1,14 @@
 [
   {
-  "name": "Playfortuna challenge",
+  "name": "Dexterbet challenge",
   "type": "promopartner",
   "top": false,
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Reliable Talisman \nPrize pool 5000 EUR",
-  "url": "https://playfortuna.com/en/tournaments/show/4959",
-  "logoUrl": "partner_playfortuna.png"
-  },
-  {
-  "name": "Hotline casino challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Fall Fest \nPrize pool 3000 FS",
-  "url": "https://hotlinecasino.vip/tournaments/Fall_Fest/2023-09-13%2011:00:00/2023-09-27%2011:00:00",
-  "logoUrl": "partner_hotline.png"
-  },
-  {
-  "name": "24x challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Grand Fortuna \nPrize pool 9000 RUB",
-  "url": "https://tournaments.24x17.ru/tournament/262",
-  "logoUrl": "partner_24xbet.png"
+  "promoText": "WELCOME WARIORS CARNIVAL \nPrize pool 2000 EUR +2050 FS",
+  "url": "https://www.dexterbet.com/en/promotions/28-fs-no-deposit-welcome-tournament",
+  "logoUrl": "partner_dexterbet.png"
   },
   {
     "name": "PariMatch",

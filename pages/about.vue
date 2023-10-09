@@ -18,7 +18,7 @@
       </div>
     </div>
     <SharingButtons />
-    <AdBannerSBCsummit />
+    <AdBannerSEurope />
     <MainFooter />
   </div>
 </template>

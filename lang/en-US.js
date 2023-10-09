@@ -83,7 +83,6 @@ export default {
   "HIT RATE%": "HIT RATE%",
   "Release date": "Release date",
   "SUPPORTED LANGUAGES": "SUPPORTED LANGUAGES",
-  "MEDIA": "MEDIA",
   "Age Restriction": "Age Restriction",
   "Please confirm that you are over the age of 18": "Please confirm that you are over the age of 18",
   "Sorry, you’re below the required age limit to play this game": "Sorry, you’re below the required age limit to play this game",
