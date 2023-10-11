@@ -1760,6 +1760,61 @@
     "logoUrl": "partner_fatpanda.png"
   },
   {
+    "name": "BrillX",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://brillx.gg",
+    "logoUrl": "partner_brillx.png"
+  },
+  {
+    "name": "Friends Casino",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://friends-casino.com",
+    "logoUrl": "partner_friendscasino.png"
+  },
+  {
+    "name": "Selector",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://selector.gg",
+    "logoUrl": "partner_selector.png"
+  },
+  {
+    "name": "Turbocasino",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://turbo-casino.gg",
+    "logoUrl": "partner_turbocasino.png"
+  },
+  {
+    "name": "Bounty",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://bounty-casino.com",
+    "logoUrl": "partner_bounty.png"
+  },
+  {
     "name": "lcb.org",
     "type": "media",
     "top": false,
@@ -1824,6 +1879,17 @@
     "promoText": null,
     "url": "https://affpapa.com",
     "logoUrl": "partner_affpapa.png"
+  },
+  {
+    "name": "Casinolandia",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casinolandia.com/providers/mascot-gaming/",
+    "logoUrl": "partner_casinolandia.png"
   },
   {
     "name": "Small Lui",
