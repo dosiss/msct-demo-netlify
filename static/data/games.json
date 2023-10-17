@@ -1,5 +1,117 @@
 [
   {
+  "name": "1X Twin Fruits",
+  "slug": "1x-twin-fruits",
+  "linkToDemo": "demo.mascot.games/run/1x_twin_fruits",
+  "theme": "video slot",
+  "type": "traffic",
+  "mgacertified": false,
+  "risknbuy": true,
+  "rockways": false,
+  "releaseDate": "2023-10-24",
+  "featured": false,
+  "topGame": false,
+  "branded": true,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_1xtwin.jpeg",
+  "heroUrl": "hero_1xtwin.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_1xtwin.jpg",
+  "logoUrl": "logo_1xtwin.png",
+  "backUrl": "back_1xtwin.jpg",
+  "detailsImgUrl": "details_1xtwin.png",
+  "stats": {
+    "reels": 5,
+    "rows": 4,
+    "volatility": " ",
+    "paylines": null,
+    "payways": 1024,
+    "html5": true,
+    "rtp": " ",
+    "hitrate": " "
+  },
+  "features": [
+    {
+      "name": "Twin Reels Feature",
+      "descr": "During each spin, from 2 to 5 reels become identical.",
+      "imgUrl": "img-feat_1xtwin-0.jpg"
+    }
+  ],
+    "meta": {
+      "title": "1X Twin Fruits: a branded video slot by Mascot Gaming",
+      "descr": " Join the special juicy adventure."
+    }
+  },
+  {
+  "name": "Reveal the Kraken",
+  "slug": "reveal-the-kraken",
+  "linkToDemo": "demo.mascot.games/run/reveal_the_kraken",
+  "theme": "video slot",
+  "type": "profit",
+  "mgacertified": false,
+  "risknbuy": true,
+  "rockways": false,
+  "releaseDate": "2023-10-24",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_kraken.jpeg",
+  "heroUrl": "hero_kraken.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_kraken.jpg",
+  "logoUrl": "logo_kraken.png",
+  "backUrl": "back_kraken.jpg",
+  "detailsImgUrl": "details_kraken.png",
+  "stats": {
+    "reels": 5,
+    "rows": 4,
+    "volatility": " ",
+    "paylines": 20,
+    "payways": null,
+    "html5": true,
+    "rtp": " ",
+    "hitrate": " "
+  },
+  "features": [
+    {
+      "name": "Risk & Buy Feature: Risk",
+      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "imgUrl": "img-feat_kraken-0.jpg"
+    },
+    {
+      "name": "Risk & Buy Feature: Buy",
+      "descr": "Purchase a Bonus Game with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+      "imgUrl": "img-feat_kraken-1.jpg"
+    },
+    {
+      "name": "Bonus game",
+      "descr": "Bonus game starts with 1 Bonus Spin to accumulate sticky Wilds. Each new Wild symbol adds a Bonus Spin",
+      "imgUrl": "img-feat_kraken-2.jpg"
+    },
+    {
+      "name": "Super Bonus Game",
+      "descr": "Super Bonus game starts with 3 Bonus Spins with accumulated sticky Wilds from the Bonus game. Each new Wild symbol reloads the counter of Bonus Spins",
+      "imgUrl": "img-feat_kraken-3.jpg"
+    },
+    {
+      "name": "Extra Bonus Feature",
+      "descr": "If the entire screen is filled with sticky Wilds in the Bonus or Super Bonus Games, the bonus ends and the player receives a prize equal to the payout for the most expensive symbol on all lines, multiplied by the number of remaining Bonus Spins",
+      "imgUrl": "img-feat_kraken-4.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Reveal the Kraken: a video slot game by Mascot Gaming",
+      "descr": "Dive into the abyss with new Risk and Buy, and three types of Bonuses."
+    }
+  },
+  {
   "name": "Hello win!",
   "slug": "hello-win",
   "linkToDemo": "demo.mascot.games/run/hello_win",
@@ -30,7 +142,7 @@
     "paylines": null,
     "payways": 243,
     "html5": true,
-    "rtp": 97.2,
+    "rtp": 95.06,
     "hitrate": 31.2
   },
   "features": [

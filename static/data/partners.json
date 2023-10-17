@@ -1,5 +1,16 @@
 [
   {
+  "name": "Betand Play challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Zeus the Thunderer Deluxe - Pokie of the week \nPrize pool 2000 FS",
+  "url": "https://www.betandplay.com/en-AU/slot-of-the-week",
+  "logoUrl": "partner_betandplay.png"
+  },
+  {
   "name": "Riobet challenge",
   "type": "promopartner",
   "top": false,
