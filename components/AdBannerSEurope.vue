@@ -7,7 +7,7 @@
         <div class="ad-banner__text">
           <div class="ad-banner__text-left">
             <div class="ad-banner__company">Mascot Gaming</div>
-            <div class="ad-banner__stand">Booth 2123</div>
+            <div class="ad-banner__stand">Booth 2116</div>
           </div>
           <div class="ad-banner__text-right">
             <div class="ad-banner__date">13 – 17 Nov, 2023</div>
