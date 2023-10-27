@@ -1,5 +1,16 @@
 [
   {
+  "name": "Win777 challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Halloween - Tournament of the week \nPrize pool 150 000 RUB",
+  "url": "https://win777.co/tournament/view/12",
+  "logoUrl": "partner_777win.png"
+  },
+  {
   "name": "Betand Play challenge",
   "type": "promopartner",
   "top": false,
