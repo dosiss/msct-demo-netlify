@@ -1936,6 +1936,17 @@
     "logoUrl": "partner_slotsjudge.png"
   },
   {
+    "name": "Gamingreport",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.gamingreport.it/software/mascot-gaming",
+    "logoUrl": "partner_gamingreport.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,

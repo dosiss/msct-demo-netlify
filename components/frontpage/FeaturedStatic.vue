@@ -306,14 +306,14 @@ import allGames from '../../static/data/games.json'
           text-align: center;
         }
         img {
-          max-width: 390px;
+          max-height: 220px;
           @media (max-width: 850px) {
             max-height: 200px;
           }
         }
         p {
           margin-top: 40px;
-          max-width: 480px;
+          max-width: 515px;
           font-size: 1.25rem;
           line-height: 1.5;
           font-weight: 400;
