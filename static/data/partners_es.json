@@ -1,16 +1,5 @@
 [
   {
-  "name": "Championslots challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Battle for Mascot Gaming \nPrize pool 300 000 RUB",
-  "url": "https://championgames.xyz/tournaments/mascotgaming_november2023?utm_source=telegram&utm_medium=post&utm_campaign=021123&utm_term=tourn",
-  "logoUrl": "partner_champion2.png"
-  },
-  {
   "name": "Win777 challenge",
   "type": "promopartner",
   "top": false,
@@ -1947,17 +1936,6 @@
     "logoUrl": "partner_slotsjudge.png"
   },
   {
-    "name": "Gamingreport",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://www.gamingreport.it/software/mascot-gaming",
-    "logoUrl": "partner_gamingreport.png"
-  },
-  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
@@ -2066,16 +2044,5 @@
     "promoText": null,
     "url": "https://realslots.fun/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=site",
     "logoUrl": "partner_realslots2.png"
-  },
-  {
-    "name": "Gamducks",
-    "type": "streamers",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://kick.com/gamducks",
-    "logoUrl": "partner_gamducks2.png"
   }
 ]
