@@ -6,53 +6,20 @@
   "casino": false,
   "platform": false,
   "promo": true,
+  "promoText": "MascotGaming TOURNAMENT \nPrize pool 2000 EUR",
+  "url": "https://magicbettingcasino.be/en/profile/loyalty-tournaments/42524?utm_medium=website&utm_source=mascot&utm_campaign=weekly-tournament",
+  "logoUrl": "partner_magicbetting.png"
+  },
+  {
+  "name": "Championslots challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
   "promoText": "Battle for Mascot Gaming \nPrize pool 300 000 RUB",
   "url": "https://championgames.xyz/tournaments/mascotgaming_november2023?utm_source=telegram&utm_medium=post&utm_campaign=021123&utm_term=tourn",
   "logoUrl": "partner_champion2.png"
-  },
-  {
-  "name": "Win777 challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Halloween - Tournament of the week \nPrize pool 150 000 RUB",
-  "url": "https://win777.co/tournament/view/12",
-  "logoUrl": "partner_777win.png"
-  },
-  {
-  "name": "Betand Play challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Zeus the Thunderer Deluxe - Pokie of the week \nPrize pool 2000 FS",
-  "url": "https://www.betandplay.com/en-AU/slot-of-the-week",
-  "logoUrl": "partner_betandplay.png"
-  },
-  {
-  "name": "Riobet challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Mascot Slot Race \nPrize pool 3000 EUR",
-  "url": "https://riobet159.com/en/tournaments/15243852776",
-  "logoUrl": "partner_riobet.png"
-  },
-  {
-  "name": "Dexterbet challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "WELCOME WARIORS CARNIVAL \nPrize pool 2000 EUR +2050 FS",
-  "url": "https://www.dexterbet.com/en/promotions/28-fs-no-deposit-welcome-tournament",
-  "logoUrl": "partner_dexterbet.png"
   },
   {
     "name": "PariMatch",

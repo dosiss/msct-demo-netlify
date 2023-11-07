@@ -101,7 +101,7 @@
       <div class="footer-badges">
         <a href="https://onjn.gov.ro/licentiati-clasa-a-ii-a/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert-onjn.png" title="View Certificate" alt="ONJN certificate" /></a>
         <a href="https://gamemc.by/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert2.jpg" srcset="/images/img_cert2@2x.jpg 2x" title="View Certificate" alt="gamemc.by" /></a>
-        <a href="https://access.gaminglabs.com/certificate/index?i=338" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img-gaming-labs-cert-white.jpg" srcset="/images/img-gaming-labs-cert-white@2x.jpg 2x" title="View Certificate" alt="Gaming Labs Certified" /></a>
+        <a href="https://www.global-lab.eu" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img-gaming-labs-cert-white.jpg" srcset="/images/img-gaming-labs-cert-white@2x.jpg 2x" title="View Certificate" alt="Gaming Labs Certified" /></a>
         <a href="https://access.gaminglabs.com/certificate/index?i=338" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_globalab.jpg" srcset="/images/img_globalab@2x.jpg 2x" alt="GlobaLab" /></a>
         <a href="/Certificate_Global_Lab_Translated.pdf" class="footer-badges__item" target="_blank"><img src="/images/img_globalab-cert.png" srcset="/images/img_globalab-cert@2x.png 2x" alt="GlobaLab Certificate" title="View Certificate" /></a>
       </div>
