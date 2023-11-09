@@ -1,5 +1,49 @@
 [
   {
+  "name": "Riobet challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Mascot X-Race \nPrize pool: 3000 EUR",
+  "url": "https://riobet.com/en/tournaments/15450150511",
+  "logoUrl": "partner_riobet.png"
+  },
+  {
+  "name": "Prizeslots challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Турнир от Mascot \nPrize pool: 300.000 руб",
+  "url": "https://prizeslots4.fun/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=website",
+  "logoUrl": "partner_prizeslots.png"
+  },
+  {
+  "name": "Necasino challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Играй без риска \nPrize pool: 4000 EUR",
+  "url": "https://necasino.co/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=website",
+  "logoUrl": "partner_necasino.png"
+  },
+  {
+  "name": "Ninecasino challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Играй без риска \nPrize pool: Tesla Model 3, 2 iPhone 15, 2 PS5, €50,000 in cash!",
+  "url": "https://track.chillipartners.com/visit/?bta=37135&nci=5558",
+  "logoUrl": "partner_ninecasino2.png"
+  },
+  {
   "name": "Championslots challenge",
   "type": "promopartner",
   "top": false,
