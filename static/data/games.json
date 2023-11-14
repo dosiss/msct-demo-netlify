@@ -1,5 +1,71 @@
 [
   {
+  "name": "Book of Anksunamun: Rockways",
+  "slug": "book-of-anksunamun-rockways",
+  "linkToDemo": "demo.mascot.games/run/book_of_anksunamun_rockways",
+  "theme": "video slot",
+  "type": "profit",
+  "mgacertified": false,
+  "risknbuy": true,
+  "rockways": true,
+  "releaseDate": "2023-11-21",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_ankrockways.jpeg",
+  "heroUrl": "hero_ankrockways.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_ankrockways.jpg",
+  "logoUrl": "logo_ankrockways.png",
+  "backUrl": "back_ankrockways.jpg",
+  "detailsImgUrl": "details_ankrockways.png",
+  "stats": {
+    "reels": 5,
+    "rows": 5,
+    "volatility": "High",
+    "paylines": null,
+    "payways": "32 - 3125",
+    "html5": true,
+    "rtp": " ",
+    "hitrate": " "
+  },
+  "features": [
+    {
+      "name": "Risk & Buy Feature: Risk",
+      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "imgUrl": "img-feat_ankrockways-0.jpg"
+    },
+    {
+      "name": "Risk & Buy Feature: Buy",
+      "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special Buy offer after each spin",
+      "imgUrl": "img-feat_ankrockways-1.jpg"
+    },
+    {
+      "name": "Rockways Feature",
+      "descr": "Up to 3125 payways on every spin",
+      "imgUrl": "img-feat_ankrockways-2.jpg"
+    },
+    {
+      "name": "Rockfall Feature",
+      "descr": "All winning symbols disappear and are replaced with new ones",
+      "imgUrl": "img-feat_ankrockways-3.jpg"
+    },
+    {
+      "name": "Free Spins",
+      "descr": "Free Spins with a Special Expanding Symbol",
+      "imgUrl": "img-feat_ankrockways-4.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Book of Anksunamun: Rockways, a video slot game by Mascot Gaming",
+      "descr": "Embark on a journey through the sands of time, accompanied by a set of amazing features."
+    }
+  },
+  {
   "name": "1X Twin Fruits",
   "slug": "1x-twin-fruits",
   "linkToDemo": "demo.mascot.games/run/1x_twin_fruits",
@@ -62,7 +128,7 @@
   "descr": " ",
   "thumbUrl": "game_kraken.jpeg",
   "heroUrl": "hero_kraken.jpg",
-  "blueButtn": true,
+  "blueButtn": false,
   "videoUrl": null,
   "videoEnabled": false,
   "placeholderUrl": "video_kraken.jpg",
