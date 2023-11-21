@@ -7,28 +7,28 @@
                 <div class="getgames-stats__item-numbers">
                   <nuxt-img src="/images/icon-crown@2x.png" alt="" /><span>12</span>
                 </div>
-                <div class="getgames-stats__item-descr">Games<br />Per Year</div>
+                <div class="getgames-stats__item-descr">{{$t('Games')}}<br />{{$t('Per Year')}}</div>
               </div>
               <div class="getgames-stats__item">
                 <div class="getgames-stats__item-numbers">
                   <img src="/images/icon-bolt@2x.png" alt="" /><span>4</span>
                 </div>
-                <div class="getgames-stats__item-descr">Prototypes in Production<br />at the Same Time</div>
+                <div class="getgames-stats__item-descr">{{$t('Prototypes in Production')}}<br />{{$t('Simultaneously')}}</div>
               </div>
               <div class="getgames-stats__item">
                 <div class="getgames-stats__item-numbers">
                   <img src="/images/icon-diamond@2x.png" alt="" /><span>30</span>
                 </div>
-                <div class="getgames-stats__item-descr">Concepts Awaiting<br />Their Turn</div>
+                <div class="getgames-stats__item-descr">{{$t('Concepts Awaiting')}}<br />{{$t('Their Turn')}}</div>
               </div>
             </div>
 
             <div class="getgames-title">
-              <h2 class="section-title">Get our games</h2>
-              <p class="section-description">We ensure not only the perfect gaming set, but the full promotional strategy that helps to attract new players and hold the existing ones.</p>
+              <h2 class="section-title">{{$t('Get our games')}}</h2>
+              <p class="section-description">{{$t('We not only provide you with the perfect set of games, but we also advise you on how best to attract new players and retain existing ones.')}}</p>
             </div>
             <div class="getgames-buttn">
-                <button class="buttn buttn-primary buttn-m" @click="showModal = true">Get in touch</button>
+                <button class="buttn buttn-primary buttn-m" @click="showModal = true">{{$t('Get in touch')}}</button>
             </div>
           </div>
           <nuxt-picture src="/images/img-getgames@2x.png" :img-attrs="{class:'getgames-decor'}" />
@@ -38,15 +38,15 @@
       <div class="game-types__inner">
         <div class="game-types__item">
           <div class="game-types__item-content">
-            <h3 class="item-title">Profit games</h3>
-            <p class="section-description">Get the maximum profit from the player!</p>
-            <nuxt-link to="/games?type=profitgames" class="inner-link link-blue">
-              <span>See all profit games</span>
+            <h3 class="item-title">{{$t('Profit-making games')}}</h3>
+            <p class="section-description">{{$t('Reach your full profit-making potential from every player!')}}</p>
+            <nuxt-link :to="localePath('/games?type=profitgames')" class="inner-link link-blue">
+              <span>{{$t('View all profit-making games')}}</span>
               <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
               </svg>
             </nuxt-link>
-            <p class="section-bodytext">Plots that have been known for many years and have been used by masters of game development more than once let the player relax and find themselves in a well&ndash;known setting. An understandable and familiar game mechanic lets the player see a potentially big win.</p>
+            <p class="section-bodytext">{{$t('These games feature well-known plots developed by experienced game developers, giving players an immersive, yet familiar gaming experience. The simple and recognizable game mechanics means it’s easy for players to see a big potential win.')}}</p>
           </div>
           <div class="section-img">
             <nuxt-picture src="/images/img-profitgame.png" :img-attrs="{class: 'gametypes-decor', style:'border-bottom-right-radius:9px;border-bottom-left-radius: 9px'}" />
@@ -54,15 +54,15 @@
         </div>
         <div class="game-types__item">
           <div class="game-types__item-content">
-            <h3 class="item-title">Traffic games</h3>
-            <p class="section-description">Attract new players to your online casino!</p>
-            <nuxt-link to="/games?type=trafficgames" class="inner-link link-blue">
-              <span>See all traffic games</span>
+            <h3 class="item-title">{{$t('Traffic-generating games')}}</h3>
+            <p class="section-description">{{$t('Attract new customers to your online casino!')}}</p>
+            <nuxt-link :to="localePath('/games?type=trafficgames')" class="inner-link link-blue">
+              <span>{{$t('See all traffic-generating games')}}</span>
               <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
               </svg>
             </nuxt-link>
-            <p class="section-bodytext">An unusual, provocative storyline, eye&ndash;catching graphics, exclusive music, lot of features and their frequent appearance as well as a high hit rate.</p>
+            <p class="section-bodytext">{{$t('These games include unusual, captivating storylines, eye-catching graphics, sensational music, a variety of features and high hit rates.')}}</p>
           </div>
           <div class="section-img">
             <nuxt-picture src="/images/img-trafficgame.png" :img-attrs="{class: 'gametypes-decor', style:'border-bottom-right-radius:9px;border-bottom-left-radius: 9px'}" />
@@ -76,10 +76,10 @@
       <div class="partners__content-data">
         <div class="partners-heading">
           <div class="partners-number">500+</div>
-          <div class="partners-descr">Partners &amp; Media</div>
+          <div class="partners-descr">{{$t('Partners & Media')}}</div>
         </div>
-        <nuxt-link to="partners" class="inner-link link-yellow">
-          <span>See all partners &amp; media</span>
+        <nuxt-link :to="localePath('partners')" class="inner-link link-yellow">
+          <span>{{$t('View all partners & media')}}</span>
           <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
           </svg>
@@ -96,15 +96,15 @@
     <div class="partners__content">
       <div class="partners__content-data">
           <div class="partners-number">500+</div>
-          <div class="partners-descr">Partners &amp; Media</div>
+          <div class="partners-descr">{{$t('Partners & Media')}}</div>
       </div>
       <div class="partners__content-img">
         <div class="partners-content-img-inner">
           <nuxt-img src="/images/img-partners-mob.jpg"  />
         </div>
       </div>
-      <nuxt-link to="partners" class="inner-link link-yellow">
-        <span>See all partners &amp; media</span>
+      <nuxt-link :to="localePath('partners')" class="inner-link link-yellow">
+        <span>{{$t('View all partners & media')}}</span>
         <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
         </svg>
@@ -265,6 +265,13 @@ export default {
           @media (max-width: 650px) {
             margin-bottom: 20px;
           }
+          .item-title {
+            @media (max-width: 1760px) {
+              max-width: 300px;
+              margin-left: auto;
+              margin-right: auto;
+            }
+          }
         }
       }
       .game-types__item-content {
@@ -275,6 +282,12 @@ export default {
         .item-title {
           font-size: 2.12rem;
           text-transform: uppercase;
+          @media (max-width: 1870px) and (min-width: 1399px) {
+            min-height: 83px
+          }
+          @media (max-width: 1400px) and (min-width: 650px) {
+            min-height: 125px
+          }
           @media (max-width: 650px) {
             font-size: 1.75rem;
           }
@@ -282,7 +295,8 @@ export default {
         .section-description {
           font-size: 1.25rem;
           line-height: 1.5;
-          margin: 20px 0 40px
+          margin: 20px 0 40px;
+          min-height: 60px
         }
         .inner-link {
           justify-content: center;

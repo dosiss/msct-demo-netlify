@@ -6,7 +6,7 @@
       <h1>Mascot Blog</h1>
       <ul>
         <li v-for="article of visibleArticles" :key="article.slug">
-          <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+          <NuxtLink :to="localePath({ name: 'blog-slug', params: { slug: article.slug } })">
             <!-- <div v-if="$device.isMobile" class="article-date date-mobile">{{ formatDate(article.archiveDate) }}</div> -->
             <div class="article-img">
               <nuxt-img :src="`../../images/${article.img}`" :alt="`${article.heading}`" sizes="sm:400px lg:450px" placeholder="../../images/img_blog_placeholder.jpg" />
@@ -35,6 +35,8 @@
 
   export default {
 
+  //   nuxtI18n: false,
+
     async asyncData({ $content, params }) {
       const articles = await $content('articles')
         .only(['slug', 'img', 'archiveDate', 'heading', 'shortDescr'])
@@ -48,6 +50,39 @@
       }
     },
 
+    data() {
+      return {
+        title: '',
+        description: ''
+      }
+    },
+
+    head() {
+      return {
+        title: this.title,
+        htmlAttrs: {
+            lang: this.$i18n.locale
+        },
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.description
+          },
+          { property: 'og:title', hid: "og:title", content: this.title },
+          { property: 'og:description', hid: 'og:description', content: this.description },
+          { property: 'og:url', hid:'og:url', content: `https://mascot.games` },
+          { property: 'og:image', hid:'og:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
+          { name: 'twitter:card', hid: 'twitter:card', content: 'summary_large_image' },
+          { name: 'twitter:title', hid:'twitter:title', content: this.title },
+          { name: 'twitter:description', hid:'twitter:description', content: this.description },
+          { name: 'twitter:image', hid:'twitter:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
+        ]
+      }
+    },
+
     computed: {
        visibleArticles() {
          return this.articles.slice(0, this.articlesVisible)
@@ -55,7 +90,8 @@
      },
 
      mounted() {
-  //     console.log(JSON.parse(JSON.stringify(this.articles)))
+       this.title = this.$t('Mascot Gaming Blog')
+       this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
     },
 
     methods: {

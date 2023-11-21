@@ -4,16 +4,16 @@
     <MainHeader />
     <div id="about">
       <div class="container container-narrow">
-        <h1>About us</h1>
+        <h1>{{$t('About Us')}}</h1>
         <article>
           <nuxt-img src="/images/img_team.jpg" sizes="sm:480px md:998px" alt="" />
-          <p>Mascot Gaming is more than just a casino software developer, it is a team of enthusiastic professionals that strive to deliver an outstanding gambling experience to the clients.</p>
-          <p>Since 2015 Mascot Gaming has been devoted to the perfection of playing experience. Every spin makes you feel - your pleasure is our passion. Down the road we stick to a rather conservative approach in introduction of new projects. Not to dilute the qualities of our famous and well received games is more beneficial for us than pursuing multiple business opportunities. We introduce carefully but steadily new nevertheless well-tested mechanisms and features. In the future, we see ourselves as the market leaders in segment and the industry headliners.</p>
-          <p>iGaming evolves and transforms continuously as all other software branches. We at Mascot strongly believe in getting the overall best at what matters most. And that is players’ involvement and viability of the business for our partners. Our efforts are heading into the polishing visual appearance, exploring new gaming mechanics and social aspects of gaming.</p>
-          <p class="emphasis">The essence of Mascot Gaming's development strategy is to deliver a perfect blend of mathematical models and the latest gaming features, spiced up by rich graphics and sound design and enrolled with exciting game themes! Professional players demand nothing less!</p>
-          <p>As a progressive company we focus on delivering quality, expanding our portfolio with unique releases, instead of overwhelming clients with quantity. As of now, you can play our games in over 500 online casinos from all around the world. We manage to release 1-2 games every month and raise the development standards every time.</p>
-          <p>Mascot Gaming was the first developer to introduce the concept of Traffic and Profit games, which made more precise classification of games possible. The lineup of Mascot Gaming slots includes releases with unique Risk&amp;Buy feature, Rockfall and Rockways mechanics that make gambling experience even more exciting. Spicing up the gameplay, we don’t change it drastically, which is why our players can easily get into new slots.</p>
-          <p>We at Mascot Gaming believe that the theme and atmosphere of every game has a special value for the player. Creating stunning visuals for the releases we explore classic themes like fruit series, ancient Egypt and adventures, rethinking them from its own perspective as well as create something completely new to the industry. As for the sound design, it is our pride, as we provide unique awesome soundtracks for every slot to match its atmosphere and bring release to perfection. Thrilling action, beautiful graphics and excellent music are the must-haves for opening up the potential of unique themes of the online casino games Mascot Gaming creates.</p>
+          <p>{{$t('Mascot Gaming is more than just a casino software developer; it`s a team of enthusiastic professionals that strive to deliver customers an outstanding gambling experience.')}}</p>
+          <p>{{$t('Since 2015, Mascot Gaming has been dedicated to developing the perfect gaming experience. Feel the thrill of every spin - your entertainment is our passion! With new and future projects, we aim to have a more conservative approach. It’s more beneficial for us to improve our most popular and well-known games than it is to pursue multiple business opportunities at once. Although we introduce new game mechanisms and features frequently, we do so carefully and carry out thorough tests beforehand. We see ourselves becoming a future market leader and a gambling industry headliner.')}}</p>
+          <p>{{$t('Just like all software, iGaming constantly grows and evolves. At Mascot, we’re strong believers of getting the important things right. For us, that means maximising players’ involvement and building strong relationships with our partners. We’re currently focusing on improving visuals, developing new game mechanics and looking into the social aspects of gaming.')}}</p>
+          <p class="emphasis">{{$t('The crux of Mascot Gaming` development strategy is delivering games with the latest features, rich graphics, smooth audio and exciting themes! After all, professional players only deserve the very best!')}}</p>
+          <p>{{$t('We`re a cutting-edge company that`s dedicated to delivering quality services and expanding our portfolio with unique projects rather than overwhelming our customers with options. You can currently find our games at over 500 online casinos worldwide. We release 1-2 new and improved games every month.')}}</p>
+          <p>{{$t('Mascot Gaming was the first developer to introduce the concept of traffic-generating and profit-making games, which made it easier to accurately categorize games. Mascot Gaming’s slots include games with Rockfall and Rockways mechanics and a unique Risk&Buy feature, providing customers with an even more exciting gaming experience. We spice up gameplay without changing it completely, which helps retain an element of familiarity in the new slots.')}}</p>
+          <p>{{$t('At Mascot Gaming, we know how important each game`s theme and feel is to players. Therefore, we bring something new to the industry by creating stunning visuals for the release of new games and providing a new twist on classic themes like the fruit series and ancient Egypt. Moreover, we’re very proud of our audio work. We come up with awesome soundtracks for each and every slot that help make the games come to life! All in all, Mascot Gaming’s three casino game must-haves are thrilling action, beautiful graphics and great music.')}}</p>
         </article>
       </div>
     </div>
@@ -28,20 +28,28 @@
     // page component definitions
     data() {
       return {
-        title: 'Mascot Gaming - casino games provider'
+        title: '',
+        description: ''
       }
     },
     head() {
       return {
         title: this.title,
+        htmlAttrs: {
+            lang: this.$i18n.locale
+        },
         meta: [
           {
             hid: 'description',
             name: 'description',
-            content: 'We are a team of like-minded people who worked in gambling sphere for many years. We love our work and respect your business. Explore our history!'
+            content: this.description
           }
         ]
       }
+    },
+    mounted() {
+      this.title = this.$t('Mascot Gaming - casino games provider')
+      this.description = this.$t('We are a team of like-minded people who worked in gambling sphere for many years. We love our work and respect your business. Explore our history!')
     }
   }
 </script>

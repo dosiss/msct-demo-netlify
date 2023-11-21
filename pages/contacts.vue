@@ -4,7 +4,7 @@
     <MainHeader />
     <div id="contacts">
     <div class="container container-narrow">
-      <h1>Contacts</h1>
+      <h1>{{$t('Contacts')}}</h1>
       <div class="contacts__wrap">
         <div class="contact-info">
           <ul class="contact-info__social-links">
@@ -65,36 +65,36 @@
           </div>
         </div>
         <div class="contact-form">
-          <div class="contact-form__title">Get in touch</div>
+          <div class="contact-form__title">{{$t('Get in touch')}}</div>
           <div class="contact-form__content">
-            <div v-if="success">Your message has been successfully sent. We'll contact you soon</div>
+            <div v-if="success">{{$t('Your message has been sent. We`ll soon be in touch!')}}</div>
             <form v-else class="contact-form" @submit.prevent="sendMessage" >
 
               <div class="form-group">
                 <div class="form-item" :class="{ 'focused': focusedName }">
-                  <label for="user-name">Your Name*</label>
+                  <label for="user-name">{{$t('Your Name*')}}</label>
                   <input id="user-name" v-model="name"  required name="name" type="text" class="form-item__field" @focus="focusedName = true" @blur="focusedName = false" />
                  </div>
                  <div class="form-item" :class="{ 'focused': focusedPhone }">
-                   <label for="user-phone">Phone*</label>
+                   <label for="user-phone">{{$t('Phone number*')}}</label>
                    <input id="user-phone" v-model="phone"  required name="phone" type="text" class="form-item__field" @focus="focusedPhone = true" @blur="focusedPhone = false" />
                   </div>
               </div>
               <div class="form-item" :class="{ 'focused': focusedEmail }">
-                <label for="user-email">Email</label>
+                <label for="user-email">{{$t('Email address')}}</label>
                 <input id="user-email" v-model="email" name="email" type="email" class="form-item__field" @focus="focusedEmail = true" @blur="focusedEmail = false" />
                </div>
                <div class="form-item" :class="{ 'focused': focusedMsg }">
-                 <label for="user-message">Message</label>
+                 <label for="user-message">{{$t('Message')}}</label>
                  <textarea id="user-message" v-model="message" name="message"  class="form-item__field" rows="4" @focus="focusedMsg = true" @blur="focusedMsg = false"></textarea>
                 </div>
                 <button
                 type="submit"
                 class="buttn buttn-colored buttn-submit buttn-l">
-                {{ loading ? "Sending Message..." : "Get in touch" }}
+                {{ loading ? $t('Sending Message...') : $t('Get in touch') }}
               </button>
               <div v-if="errored" class="error-msg">
-                Something went wrong. Please try again later.
+                {{$t('Something went wrong. Please try again later.')}}
               </div>
             </form>
           </div>
@@ -113,8 +113,8 @@
     // page component definitions
     data() {
       return {
-        title: 'Mascot Gaming Contacts',
-        description: 'We are open for partnership! Feel free to contact us.',
+        title: '',
+        description: '',
 
         focusedName: false,
         focusedPhone: false,
@@ -134,6 +134,9 @@
     head() {
       return {
         title: this.title,
+        htmlAttrs: {
+            lang: this.$i18n.locale
+        },
         meta: [
           {
             hid: 'description',
@@ -152,6 +155,11 @@
 
         ]
       }
+    },
+    
+    mounted() {
+      this.title = this.$t('Mascot Gaming Contacts')
+      this.description = this.$t('We are open for partnership! Feel free to contact us.')
     },
 
     methods: {

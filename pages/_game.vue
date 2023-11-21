@@ -10,7 +10,7 @@
         <div class="game-title__right">
           <div class="game-title__right-content">
             <div class="button-wrap">
-              <a :href="`https://${currentGame.linkToDemo}`" class="buttn buttn-colored buttn-xl">Play demo</a>
+              <a :href="`https://${currentGame.linkToDemo}`" class="buttn buttn-colored buttn-xl">{{$t('Play demo')}}</a>
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@
                 <div class="game-title__right">
                   <div class="game-title__right-content">
                     <div class="button-wrap">
-                      <a :href="`${demoUrl}/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">Play demo</a>
+                      <a :href="`${demoUrl}${locPath}/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">{{$t('Play demo')}}</a>
                     </div>
                   </div>
                 </div>
@@ -50,7 +50,7 @@
             <div class="game-title__right">
               <div class="game-title__right-content">
                 <div class="button-wrap">
-                  <a  :href="`${demoUrl}/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">Play demo</a>
+                  <a  :href="`${demoUrl}${locPath}/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">{{$t('Play demo')}}</a>
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><defs><mask id="f" fill="#fff"><rect width="12" height="12" x="6.166" y="24.928" rx="1"/></mask></defs><mask id="a" fill="#fff"><rect width="8" height="36" x="8.168" y="12.928" rx="1"/></mask><rect width="8" height="36" x="8.168" y="12.928" stroke="#fff" stroke-width="4" mask="url(#a)" rx="1" transform="translate(.559 .699)"/><mask id="b" fill="#fff"><rect width="12" height="12" x="6.166" y="24.928" rx="1"/></mask><rect width="12" height="12" x="6.166" y="24.928" fill="#FFCF24" stroke="#fff" stroke-width="4" mask="url(#b)" rx="1"/><mask id="c" fill="#fff"><rect width="8" height="36" x="26.189" y="12.928" rx="1"/></mask><rect width="8" height="36" x="26.189" y="12.928" stroke="#fff" stroke-width="4" mask="url(#c)" rx="1"/><mask id="d" fill="#fff"><rect width="13" height="13" rx="1" transform="rotate(44.966 -11.31 47.647)"/></mask><rect width="13" height="13" fill="#FFCF24" stroke="#fff" stroke-width="4" mask="url(#d)" rx="1" transform="rotate(44.966 -11.31 47.647)"/><mask id="e" fill="#fff"><rect width="8" height="36" x="44.211" y="12.928" rx="1"/></mask><rect width="8" height="36" x="44.211" y="12.928" stroke="#fff" stroke-width="4" mask="url(#e)" rx="1"/><rect width="12" height="12" x="42.166" y="24.928" fill="#FFCF24" stroke="#fff" stroke-width="2" rx="6"/><rect width="12" height="12" x="6.166" y="24.928" fill="#ffcf24" stroke="#fff" stroke-width="4" mask="url(#f)" rx="1" transform="rotate(45.077 21.88 52.582)"/></svg>
                   <span>{{currentGame.stats.reels}}</span>
                 </div>
-              <div class="slider-footer__icons-itemname">Reels</div>
+              <div class="slider-footer__icons-itemname">{{$t('Reels')}}</div>
             </div>
             <div v-if="currentGame.stats.rows !== null" class="slider-footer__icons-item">
               <div class="icon-inner">
@@ -132,28 +132,28 @@
                     </svg>
                     <span>{{currentGame.stats.rows}}</span>
                   </div>
-                  <div class="slider-footer__icons-itemname">Rows</div>
+                  <div class="slider-footer__icons-itemname">{{$t('Rows')}}</div>
                 </div>
                   <div v-if="currentGame.stats.volatility !== null" class="slider-footer__icons-item">
                     <div class="icon-inner">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><rect width="8" height="20" x="12.334" y="28.928" fill="#fff" rx="1"/><rect width="8" height="36" x="26.334" y="12.928" fill="#fff" rx="1"/><rect width="8" height="26" x="40.334" y="22.928" fill="#fff" rx="1"/></svg>
                       <span>{{currentGame.stats.volatility}}</span>
                     </div>
-                  <div class="slider-footer__icons-itemname">Volatility</div>
+                  <div class="slider-footer__icons-itemname">{{$t('Volatility')}}</div>
                 </div>
             <div v-if="currentGame.stats.paylines !== null" class="slider-footer__icons-item">
               <div class="icon-inner">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><path stroke="#fff" stroke-width="4" d="M3.666 12.928h14.858l12.605 33.95a1 1 0 0 0 1.814.133l10.96-19.96h13.763"/></svg>
                 <span>{{currentGame.stats.paylines}}</span>
               </div>
-              <div class="slider-footer__icons-itemname">Pay lines</div>
+              <div class="slider-footer__icons-itemname">{{$t('Pay lines')}}</div>
             </div>
             <div v-if="currentGame.stats.payways !== null" class="slider-footer__icons-item">
               <div class="icon-inner">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 61 61"><path stroke="#fff" stroke-width="4" d="M3.666 12.928h14.858l12.605 33.95a1 1 0 0 0 1.814.133l10.96-19.96h13.763"/></svg>
                 <span class="payways-value">{{currentGame.stats.payways}}</span>
               </div>
-              <div class="slider-footer__icons-itemname">Pay ways</div>
+              <div class="slider-footer__icons-itemname">{{$t('Pay ways')}}</div>
             </div>
             <div v-if="currentGame.stats.html5 === true" class="slider-footer__icons-item">
               <div class="icon-inner">
@@ -166,18 +166,18 @@
         </div>
         <div v-if="currentGame.mgacertified !== null" class="cert-info__wrap">
           <img src="/images/img_mga-logo.png" srcset="/images/img_mga-logo@2x.png 2x" alt="mga logo" />
-          <span v-if="currentGame.mgacertified">Certified for <strong>MGA</strong> and the <strong>UK</strong></span>
-          <span v-else>Coming soon for <strong>MGA</strong></span>
+          <span v-if="currentGame.mgacertified">{{$t('Certified in the')}} <strong>{{$t('UK')}}</strong> {{$t('and by the')}} <strong>MGA</strong></span>
+          <span v-else>{{$t('Will soon be licensed by the')}} <strong>MGA</strong></span>
         </div>
       </div>
       <PlayWithPartners />
       <div class="features__outer container">
         <div class="features__wrap">
-          <h2 class="features__head game-subtitle">Game Features</h2>
+          <h2 class="features__head game-subtitle">{{$t('Game Features')}}</h2>
           <div class="features__content-wrap">
             <div class="features__content">
               <div v-for="(feature, idx) in currentGame.features" :key="idx" class="features-card">
-                <h3 class="features-title">{{feature.name}}</h3>
+                <h3 :class="`features-title lang-${$i18n.locale}`">{{feature.name}}</h3>
                 <p class="features-description">{{feature.descr}}</p>
               </div>
           </div>
@@ -186,40 +186,40 @@
       </div>
       <div class="game-details__wrap container">
         <div class="game-details">
-          <h2 class="game-details__head">Game details</h2>
+          <h2 class="game-details__head">{{$t('Game details')}}</h2>
           <div class="game-details__content">
             <div class="game-details__content-inner">
               <ul class="details-list column-1">
                 <li v-if="currentGame.stats.rows && currentGame.stats.rows !== null" class="details-item">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 6.928v18"/><path fill="#000" stroke="#fff" stroke-linejoin="round" stroke-width="2" d="m9.121 12.514 3.536 3.535-3.536 3.536-3.536-3.536z"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 6.928v18m6-18v18"/><rect width="5" height="5" x="21.121" y="12.514" fill="#000" stroke="#fff" stroke-linejoin="round" stroke-width="2" rx="2.5" transform="rotate(45 21.121 12.514)"/></svg>
-                  <span class="details-name">Reels</span>
+                  <span class="details-name">{{$t('Reels')}}</span>
                   <span class="lead-line"></span>
                   <div class="details-value">{{currentGame.stats.reels}}<span>*</span>{{currentGame.stats.rows}}</div>
                 </li>
                 <li v-if="currentGame.stats.paylines && currentGame.stats.paylines !== null" class="details-item">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M25 15.928h-4l-3 9-6-18H6"/></svg>
-                  <span class="details-name">Pay Lines</span>
+                  <span class="details-name">{{$t('Pay lines')}}</span>
                   <span class="lead-line"></span>
                   <div class="details-value">{{currentGame.stats.paylines}}</div>
                 </li>
                 <li v-if="currentGame.stats.payways && currentGame.stats.payways !== null" class="details-item">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M25 15.928h-4l-3 9-6-18H6"/></svg>
-                  <span class="details-name">Pay ways</span>
+                  <span class="details-name">{{$t('Pay ways')}}</span>
                   <span class="lead-line"></span>
                   <div class="details-value">{{currentGame.stats.payways}}</div>
                 </li>
                 <li v-if="currentGame.stats.volatility && currentGame.stats.volatility !== null" class="details-item">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 6.928v18h18m-3-4v-8m-5 8v-12m-5 12v-3"/></svg>
-                  <span class="details-name">Volatility</span>
+                  <span class="details-name">{{$t('Volatility')}}</span>
                   <span class="lead-line"></span>
                   <div class="details-value">{{currentGame.stats.volatility}}</div>
                 </li>
-                <li v-if="currentGame.stats.type && currentGame.type !== null" class="details-item item-no-icon">
+                <!-- <li v-if="currentGame.type && currentGame.type !== null" class="details-item item-no-icon">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path /></svg>
-                  <span class="details-name">Game Type</span>
+                  <span class="details-name">{{$t('Game Type')}}</span>
                   <span class="lead-line"></span>
                   <div class="details-value">{{currentGame.type}} game</div>
-                </li>
+                </li> -->
               </ul>
               <ul class="details-list column-2">
                 <!-- <li v-if="currentGame.stats.rtp && currentGame.stats.rtp" class="details-item">
@@ -236,7 +236,7 @@
                 </li> -->
                 <li v-if="currentGame.releaseDate && currentGame.releaseDate" class="details-item">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M24 17.928v-8a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8m3-20v4m-8-4v4m-5 4h18m-5 10 2 2 4-4"/></svg>
-                  <span class="details-name">Release Date</span>
+                  <span class="details-name">{{$t('Release Date')}}</span>
                   <span class="lead-line"></span>
                   <div class="details-value">{{formatDate(currentGame.releaseDate)}}</div>
                 </li>
@@ -252,11 +252,11 @@
       <SupportedLanguages />
 
       <div v-if="relatedArticles.length" class="related-posts container">
-        <h2 class="related-posts__head">Media</h2>
+        <h2 class="related-posts__head">{{$t('Media')}}</h2>
         <div class="related-posts__wrap">
         <div v-for="article in relatedArticles" :key="article.slug" class="related-post__item">
           <div class="related-post__item-inner">
-            <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+            <NuxtLink :to="localePath({ name: 'blog-slug', params: { slug: article.slug } })">
               <div class="related-post__content">
                 <div class="content-head">{{ article.heading }}</div>
                 <div class="content-img" :style="{ backgroundImage: `url(/images/${article.img})` }"></div>
@@ -275,18 +275,18 @@
 
 <script>
 
-import allGames from '../static/data/games.json';
-
-
+import allGames from '../static/data/games.json'
+import allGamesES from '../static/data/games_es.json'
+import allGamesPT from '../static/data/games_pt-br.json'
 
 
 export default {
-
 
     data() {
       return {
         id: this.$route.params.game,
         demoUrl: '',
+        locPath: '',
 
         gamesList: allGames,
 
@@ -334,6 +334,9 @@ export default {
     head() {
       return {
         title: this.currentGame.meta.title,
+        htmlAttrs: {
+            lang: this.$i18n.locale
+        },
         meta: [
           {
             hid: 'description',
@@ -372,7 +375,7 @@ export default {
 //   const test = 'funct called';
 //       console.log (test);
 //    return test;
-
+// console.log("i18n: "+this.$t('Play demo'))
 
  },
 
@@ -383,6 +386,20 @@ export default {
        .then(response => {this.demoUrl = response.data.demoURL})
    } catch(ex) {
      this.demoUrl = this.$config.demositeURL
+   }
+
+   switch (this.$i18n.locale) {
+     case "es":
+       this.gamesList = allGamesES;
+       this.locPath = '/es';
+       break;
+     case "pt":
+       this.gamesList = allGamesPT;
+       this.locPath = '/pt';
+       break;
+     default:
+     this.gamesList = allGames;
+     this.locPath = '';
    }
 
    const el = document.getElementById('lightgallery')
@@ -419,13 +436,25 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .game_wild-phoenix-rises {
+  @mixin feature-new {
     .features-card {
       &:nth-child(1) {
         .features-title {
           &:before {
             content: 'New ';
             color: red;
+          }
+          &.lang-es {
+            &:before {
+              content: 'Nueva ';
+              color: red;
+            }
+          }
+          &.lang-pt {
+            &:before {
+              content: 'Novo ';
+              color: red;
+            }
           }
         }
       }
@@ -435,148 +464,23 @@ export default {
             content: 'New ';
             color: red;
           }
-        }
-      }
-    }
-  }
-  .game_the-pendragon-legend {
-    .features-card {
-      &:nth-child(1) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
+          &.lang-es {
+            &:before {
+              content: 'Nueva ';
+              color: red;
+            }
           }
-        }
-      }
-      &:nth-child(2) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
+          &.lang-pt {
+            &:before {
+              content: 'Novo ';
+              color: red;
+            }
           }
         }
       }
     }
   }
-  .game_minotaurs-wilds {
-    .features-card {
-      &:nth-child(1) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
-          }
-        }
-      }
-      &:nth-child(2) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
-          }
-        }
-      }
-    }
-  }
-  .game_zeus-the-thunderer-deluxe {
-    .features-card {
-      &:nth-child(1) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
-          }
-        }
-      }
-      &:nth-child(2) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
-          }
-        }
-      }
-    }
-  }
-  .game_hello-win {
-    .features-card {
-      &:nth-child(1) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
-          }
-        }
-      }
-      &:nth-child(2) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
-          }
-        }
-      }
-    }
-  }
-  .game_reveal-the-kraken {
-    .features-card {
-      &:nth-child(1) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
-          }
-        }
-      }
-      &:nth-child(2) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
-          }
-        }
-      }
-    }
-  }
-  .game_book-of-anksunamun-rockways {
-    .features-card {
-      &:nth-child(1) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
-          }
-        }
-      }
-      &:nth-child(2) {
-        .features-title {
-          &:before {
-            content: 'New ';
-            color: red;
-          }
-        }
-      }
-    }
-  }
-  .game_hook-up-fishing-wars {
-   .game-meta__wrap {
-      display: none
-    }
-    .details-list {
-      &.column-1 {
-        display: none
-      }
-    }
-    .game-details {
-      .game-details__content {
-        img {
-          bottom: -140px
-        }
-      }
-    }
-  }
-  .game_paper-lanterns-crash-game {
+  @mixin no-meta {
     .game-meta__wrap {
       display: none
     }
@@ -592,6 +496,33 @@ export default {
         }
       }
     }
+  }
+  .game_wild-phoenix-rises {
+    @include feature-new
+  }
+  .game_the-pendragon-legend {
+    @include feature-new
+  }
+  .game_minotaurs-wilds {
+    @include feature-new
+  }
+  .game_zeus-the-thunderer-deluxe {
+    @include feature-new
+  }
+  .game_book-of-anksunamun-rockways {
+    @include feature-new
+  }
+  .game_hello-win {
+    @include feature-new
+  }
+  .game_reveal-the-kraken {
+    @include feature-new
+  }
+  .game_hook-up-fishing-wars {
+    @include no-meta
+  }
+  .game_paper-lanterns-crash-game {
+    @include no-meta
   }
   .top-img {
     background-size: cover;
@@ -1020,6 +951,8 @@ export default {
             }
             .details-name {
               margin-left: 10px;
+              flex: 0 1;
+              white-space: nowrap;
             }
             .lead-line {
               flex: 1 0 auto;
@@ -1047,7 +980,7 @@ export default {
         }
       }
       img {
-        max-width: 390px;
+        max-width: 27%; /* 390px */
         position: absolute;
         bottom: 0;
         right: 0;

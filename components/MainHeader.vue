@@ -4,7 +4,7 @@
   <div v-if="showNav" id="main-header" :class="{'background-black': backgroundBlack == true}">
     <div class="container">
       <div class="header__wrap">
-        <NuxtLink to="/" class="logo-link">
+        <NuxtLink :to="localePath('/')" class="logo-link">
           <svg id="mascot-logo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 30">
             <path fill="#fff" d="M13.188 10.053c.002.622.098 1.24.284 1.833a6.923 6.923 0 0 1 1.61-1.833 4.238 4.238 0 0 1 2.745-3.968 1.49 1.49 0 0 0 1.787.784c.51-.157.897-.58 1.009-1.104a1.494 1.494 0 0 0 .972-1.87 1.483 1.483 0 0 0-1.86-.977 1.431 1.431 0 0 0-1.453-.32 1.5 1.5 0 0 0-1.02 1.672 6.13 6.13 0 0 0-4.075 5.783Z"/>
             <path fill="#fff" d="M1.894 10.053V1.888h21.598v8.165a4.24 4.24 0 0 1-2.466 3.857 4.2 4.2 0 0 1-4.515-.653 3.653 3.653 0 0 0-.725 1.832 6.066 6.066 0 0 0 6.3.406 6.128 6.128 0 0 0 3.277-5.424V0H0v10.053c.004.622.1 1.24.283 1.833a6.945 6.945 0 0 1 1.61-1.833Z"/>
@@ -17,20 +17,29 @@
         <div class="main-menu">
           <nav class="main-menu__pages">
             <ul>
-              <li><NuxtLink to="/games">Games</NuxtLink></li>
-              <li><NuxtLink to="/blog">Blog</NuxtLink></li>
-              <li><NuxtLink to="/contacts">Contacts</NuxtLink></li>
-              <li><NuxtLink to="/about">About Us</NuxtLink></li>
-              <li><NuxtLink to="/partners">Partners</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/games')">{{ $t('Games') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
             </ul>
           </nav>
-          <div class="main-menu__contact">
-            <button @click="showContactModal">
-              <svg id="contact-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 14">
-                <path fill="#fff" d="m2.415.97-.53-.53L.825 1.5l.53.53L2.414.97Zm-.03.78h14V.25h-14v1.5Zm14.25.25v10h1.5V2h-1.5Zm-.25 10.25h-14v1.5h14v-1.5ZM2.135 12V2h-1.5v10h1.5Zm.25.25a.25.25 0 0 1-.25-.25h-1.5c0 .966.783 1.75 1.75 1.75v-1.5Zm14.25-.25a.25.25 0 0 1-.25.25v1.5a1.75 1.75 0 0 0 1.75-1.75h-1.5Zm-.25-10.25a.25.25 0 0 1 .25.25h1.5a1.75 1.75 0 0 0-1.75-1.75v1.5Zm-14-1.5A1.75 1.75 0 0 0 .635 2h1.5a.25.25 0 0 1 .25-.25V.25ZM8.5 7.055 2.415.97l-1.06 1.06L7.44 8.116l1.06-1.06ZM16.354.97 10.27 7.055l1.06 1.061 6.086-6.086-1.06-1.06ZM7.44 8.116a2.75 2.75 0 0 0 3.89 0l-1.061-1.06a1.25 1.25 0 0 1-1.768 0l-1.06 1.06Zm-5.575 4.96 6-5-.96-1.152-6 5 .96 1.152Zm16-1.152-6-5-.96 1.152 6 5 .96-1.152Z"/>
-              </svg>
-              <span>Contact</span>
-            </button>
+          <div class="main-menu__right">
+            <div class="main-menu__contact">
+              <button @click="showContactModal">
+                <svg id="contact-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 14">
+                  <path fill="#fff" d="m2.415.97-.53-.53L.825 1.5l.53.53L2.414.97Zm-.03.78h14V.25h-14v1.5Zm14.25.25v10h1.5V2h-1.5Zm-.25 10.25h-14v1.5h14v-1.5ZM2.135 12V2h-1.5v10h1.5Zm.25.25a.25.25 0 0 1-.25-.25h-1.5c0 .966.783 1.75 1.75 1.75v-1.5Zm14.25-.25a.25.25 0 0 1-.25.25v1.5a1.75 1.75 0 0 0 1.75-1.75h-1.5Zm-.25-10.25a.25.25 0 0 1 .25.25h1.5a1.75 1.75 0 0 0-1.75-1.75v1.5Zm-14-1.5A1.75 1.75 0 0 0 .635 2h1.5a.25.25 0 0 1 .25-.25V.25ZM8.5 7.055 2.415.97l-1.06 1.06L7.44 8.116l1.06-1.06ZM16.354.97 10.27 7.055l1.06 1.061 6.086-6.086-1.06-1.06ZM7.44 8.116a2.75 2.75 0 0 0 3.89 0l-1.061-1.06a1.25 1.25 0 0 1-1.768 0l-1.06 1.06Zm-5.575 4.96 6-5-.96-1.152-6 5 .96 1.152Zm16-1.152-6-5-.96 1.152 6 5 .96-1.152Z"/>
+                </svg>
+                <span>{{ $t('Contact') }}</span>
+              </button>
+            </div>
+            <div class="main-menu__locales">
+              <NuxtLink
+                v-for="locale in availableLocales"
+                :key="locale.code"
+                :to="switchLocalePath(locale.code)">{{ locale.name }}
+              </NuxtLink>
+            </div>
           </div>
         </div>
         <div class="mobile-menu">
@@ -61,13 +70,20 @@
               </button>
             </div>
             <div class="mobile-menu__dropdown-main">
+              <div class="main-menu__locales">
+                <NuxtLink
+                  v-for="locale in availableLocales"
+                  :key="locale.code"
+                  :to="switchLocalePath(locale.code)">{{ locale.name }}
+                </NuxtLink>
+              </div>
               <nav class="mobile-menu__pages">
                 <ul>
-                  <li @click.capture="hideMobileMenu"><NuxtLink to="/games">Games</NuxtLink></li>
-                  <li @click.capture="hideMobileMenu"><NuxtLink to="/blog">Blog</NuxtLink></li>
-                  <li @click.capture="hideMobileMenu"><NuxtLink to="/contacts">Contacts</NuxtLink></li>
-                  <li @click.capture="hideMobileMenu"><NuxtLink to="/about">About Us</NuxtLink></li>
-                  <li @click.capture="hideMobileMenu"><NuxtLink to="/partners">Partners</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/games')">{{ $t('Games') }}</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
                 </ul>
               </nav>
             </div>
@@ -109,6 +125,12 @@
         startY: 0,
         showDropdown: false,
         showModal: false
+      }
+    },
+
+    computed: {
+      availableLocales () {
+        return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
       }
     },
 
@@ -219,7 +241,10 @@
           display: flex;
           list-style: none;
           li {
-            padding: 0 30px
+            padding: 0 30px;
+            @media (max-width: 1575px) {
+              padding: 0 15px
+            }
           }
         }
       }
@@ -240,6 +265,17 @@
             background: rgba(255, 255, 255, 0.15);
             transition: .2s ease-in
           }
+        }
+      }
+      .main-menu__right {
+        display: flex;
+        align-items: center;
+      }
+      .main-menu__locales {
+        margin-left: 15px;
+        a {
+          opacity: .7;
+            margin-left: 10px
         }
       }
     }
@@ -279,7 +315,7 @@
         }
         .mobile-menu__dropdown-main {
           text-align: center;
-          margin: 80px 0 50px;
+          margin: 40px 0 50px; /* 80px 0 50px */
           li {
             margin-bottom: 40px;
             &:first-child {
@@ -300,6 +336,14 @@
             a {
               font-size: 1.4rem;
               font-weight: 700;
+            }
+          }
+          .main-menu__locales {
+            margin-bottom: 40px;
+            a {
+              &:last-child {
+                margin-left: 30px
+              }
             }
           }
         }

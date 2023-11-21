@@ -8,7 +8,7 @@
   "mgacertified": false,
   "risknbuy": true,
   "rockways": true,
-  "releaseDate": "2023-11-21",
+  "releaseDate": "2023-11-30",
   "featured": false,
   "topGame": false,
   "branded": false,
@@ -101,14 +101,14 @@
   },
   "features": [
     {
-      "name": "Twin Reels Feature",
-      "descr": "During each spin, from 2 to 5 reels become identical.",
+      "name": "Función Twin Reels",
+      "descr": "Durante cada spin, entre 2 y 5 rodillos se convertirán en iguales.",
       "imgUrl": "img-feat_1xtwin-0.jpg"
     }
   ],
     "meta": {
-      "title": "1X Twin Fruits: a branded video slot by Mascot Gaming",
-      "descr": " Join the special juicy adventure."
+      "title": "1X Twin Fruits: tragaperras en vídeo de Mascot Gaming",
+      "descr": " Únete a la esta aventura afrutada especial."
     }
   },
   {
@@ -147,34 +147,34 @@
   },
   "features": [
     {
-      "name": "Risk & Buy Feature: Risk",
-      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "name": "Función Risk & Buy: Riesgo",
+      "descr": "Arriesga tus ganancias participando en el juego de riesgo Puedes aumentar tus ganancias si consigues un multiplicador",
       "imgUrl": "img-feat_kraken-0.jpg"
     },
     {
-      "name": "Risk & Buy Feature: Buy",
-      "descr": "Purchase a Bonus Game with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+      "name": "Función Risk & Buy: Comprar",
+      "descr": "Compra una partida Bonus con las condiciones propuestas y al precio sugerido. Después de cada tirada estará disponible una oferta de compra especial",
       "imgUrl": "img-feat_kraken-1.jpg"
     },
     {
-      "name": "Bonus game",
-      "descr": "Bonus game starts with 1 Bonus Spin to accumulate sticky Wilds. Each new Wild symbol adds a Bonus Spin",
+      "name": "Partida Bonus",
+      "descr": "La partida Bonus empieza con 1 Bonus Spin para acumular sticky Wilds. Cada símbolo Wild nuevo añade un Bonus Spin",
       "imgUrl": "img-feat_kraken-2.jpg"
     },
     {
-      "name": "Super Bonus Game",
-      "descr": "Super Bonus game starts with 3 Bonus Spins with accumulated sticky Wilds from the Bonus game. Each new Wild symbol reloads the counter of Bonus Spins",
+      "name": "Partida Super Bonus",
+      "descr": "Las partidas Super Bonus empiezan con 3 Bonus Spins con los sticky Wilds acumulados de la partida Bonus. Cada símbolo Wild Nuevo reinicia el Contador de Bonus Spins",
       "imgUrl": "img-feat_kraken-3.jpg"
     },
     {
-      "name": "Extra Bonus Feature",
-      "descr": "If the entire screen is filled with sticky Wilds in the Bonus or Super Bonus Games, the bonus ends and the player receives a prize equal to the payout for the most expensive symbol on all lines, multiplied by the number of remaining Bonus Spins",
+      "name": "Función Extra Bonus",
+      "descr": "Si toda la pantalla se llena de sticky Wilds pegajosos en las partidas Bonus o Super Bonus, cuando termine la partida, el jugador recibirá un premio equivalente al pago del símbolo más caro de todas las líneas, multiplicado por el número de Bonus Spins restantes.",
       "imgUrl": "img-feat_kraken-4.jpg"
     }
   ],
     "meta": {
-      "title": "Reveal the Kraken: a video slot game by Mascot Gaming",
-      "descr": "Dive into the abyss with new Risk and Buy, and three types of Bonuses."
+      "title": "Reveal the Kraken: tragaperras en video de Mascot Gaming",
+      "descr": "Sumérgete en el abismo con la nueva función Risk and Buy, y tres tipos de Bonus."
     }
   },
   {
@@ -213,24 +213,24 @@
   },
   "features": [
     {
-      "name": "Risk & Buy Feature: Risk",
-      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "name": "Función Risk & Buy: Riesgo",
+      "descr": "Arriesga tus ganancias participando en el juego de riesgo Puedes aumentar tus ganancias si consigues un multiplicador",
       "imgUrl": "img-feat_hellowin-0.jpg"
     },
     {
-      "name": "Risk & Buy Feature: Buy",
-      "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+      "name": "Función Risk & Buy: Comprar",
+      "descr": "Compra cierta cantidad de Free Spins con las condiciones propuestas y al precio sugerido. Después de cada tirada estará disponible una oferta de compra especial",
       "imgUrl": "img-feat_hellowin-1.jpg"
     },
     {
       "name": "Free Spins",
-      "descr": "Up to 25 Free Spins with extra Free Spins",
+      "descr": "Hasta 25 Free Spins con Free Spins adicionales",
       "imgUrl": "img-feat_hellowin-2.jpg"
     }
   ],
     "meta": {
-      "title": "Hello Win!, a video slot game by Mascot Gaming",
-      "descr": "Bask in the chilling allure of Halloween with the New Risk and Buy feature and Free Spins."
+      "title": "Hello Win!: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Disfruta del escalofriante encanto de Halloween con la nueva función de Risk and Buy y Free Spins."
     }
   },
   {
@@ -269,34 +269,34 @@
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias participando en el juego de riesgo Puedes aumentar tus ganancias si consigues un multiplicador",
         "imgUrl": "img-feat_zeusdeluxe-0.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Buy a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special Buy offer after each spin",
+        "name": "Función Risk & Buy: Comprar",
+        "descr": "Compra cierta cantidad de Free Spins con las condiciones propuestas y al precio sugerido. Después de cada tirada estará disponible una oferta de compra especial",
         "imgUrl": "img-feat_zeusdeluxe-1.jpg"
       },
       {
-        "name": "Free Spins Feature",
-        "descr": "In the main game only, a winning combination of 3 or more Olympian symbols gives 1 of 3 types of Free Spins",
+        "name": " Función Free Spins",
+        "descr": " Solamente en el juego principal, una combinación ganadora de 3 o más símbolos olímpicos otorga 1 de 3 tipos de Free Spins",
         "imgUrl": "img-feat_zeusdeluxe-2.jpg"
       },
       {
-        "name": "Additional Free Spins",
-        "descr": "During Free Spins, each Scatter Symbol grants an additional Free Spin",
+        "name": "Free Spins adicionales",
+        "descr": "Durante los Free Spins, cada símbolo Scatter garantiza un Free Spin adicional",
         "imgUrl": "img-feat_zeusdeluxe-3.jpg"
       },
       {
-        "name": "Sticky Symbols",
-        "descr": "In all types of Free Spins, the symbols of the main character become sticky",
+        "name": "Símbolos Sticky",
+        "descr": "En todos los tipos de Free Spins, los símbolos del personaje principal se volverán sticky",
         "imgUrl": "img-feat_zeusdeluxe-4.jpg"
       }
     ],
     "meta": {
-      "title": "Zeus the Thunderer Deluxe: video slot game by Mascot Gaming",
-      "descr": "Ascend to Olympus with Zeus the Thunderer Deluxe. New Risk and Buy feature, 3 types of Free Spins Series with Sticky Symbols await!"
+      "title": "Zeus the Thunderer Deluxe: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Asciende al Olimpo con Zeus the Thunderer Deluxe. Nueva función Risk and Buy: ¡Te están esperando 3 tipos de Free Spins con símbolos Sticky!"
     }
   },
   {
@@ -335,29 +335,29 @@
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias participando en el juego de riesgo Puedes aumentar tus ganancias si consigues un multiplicador",
         "imgUrl": "img-feat_minotaur-0.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special Buy offer after each spin",
+        "name": "Función Risk & Buy: Comprar",
+        "descr": "Compra cierta cantidad de Free Spins con las condiciones propuestas y al precio sugerido. Después de cada tirada estará disponible una oferta de compra especial",
         "imgUrl": "img-feat_minotaur-1.jpg"
       },
       {
-        "name": "Free Spins with sticky Wilds",
-        "descr": "During Free Spins, all Gold Wild symbols become sticky, remain in their places for the entire Free Spins series and substitute for all symbols",
+        "name": "Free Spins con sticky Wilds",
+        "descr": "Durante los Free Spins, todos los símbolos Gold Wild se volverán sticky, se quedarán en su sitio durante toda la serie de Free Spins y representarán",
         "imgUrl": "img-feat_minotaur-2.jpg"
       },
       {
-        "name": "Additional Free Spins",
-        "descr": "3 central reels filled with sticky Gold Wild symbols award 3 additional Free Spins",
+        "name": "Free Spins adicionales",
+        "descr": "Los 3 rodillos centrales con símbolos sticky Gold Wild otorgan 3 Free Spins adicionales",
         "imgUrl": "img-feat_minotaur-3.jpg"
       }
     ],
     "meta": {
-      "title": "Minotaurs Wilds: video slot game by Mascot Gaming",
-      "descr": "Ancient myths come to life in Minotaurs Wilds, the new slot game by Mascot Gaming with the new version of the famous Risk and Buy feature."
+      "title": "Minotaurs Wilds: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Los mitos antiguos se vuelven realidad en Minotaurs Wilds, una nueva tragaperras en vídeo de Mascot Gaming con una nueva versión de la famosa función Risk and Buy."
     }
   },
   {
@@ -396,29 +396,29 @@
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias participando en el juego de riesgo Puedes aumentar tus ganancias si consigues un multiplicador",
         "imgUrl": "img-feat_pendragon-0.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "name": "Función Risk & Buy: Comprar",
+        "descr": "Compra cierta cantidad de Free Spins con las condiciones propuestas y al precio sugerido. Después de cada tirada estará disponible una oferta de compra especial",
         "imgUrl": "img-feat_pendragon-1.jpg"
       },
       {
-        "name": "Click Me Feature",
-        "descr": "You can win up to 30 Free Spins with a multiplier of up to x5",
+        "name": "Función Click Me",
+        "descr": "Puedes ganar hasta 30 Free Spins con un multiplicador de hasta x5",
         "imgUrl": "img-feat_pendragon-2.jpg"
       },
       {
         "name": "Free Spins",
-        "descr": "Every Scatter Symbol in Free Spins gives one additional Free Spin",
+        "descr": "Cada símbolo Scatter en los Free Spins otorga un Free Spin adicional",
         "imgUrl": "img-feat_pendragon-3.jpg"
       }
     ],
     "meta": {
-      "title": "The Pendragon Legend: video slot game by Mascot Gaming",
-      "descr": "The Pendragon Legend is the new slot game by Mascot Gaming with the new version of the legendary Risk and Buy feature."
+      "title": "The Pendragon Legend: tragaperras en vídeo de Mascot Gaming",
+      "descr": "The Pendragon Legend es una nueva tragaperras en video de Mascot Gaming con una nueva versión de la famosa función Risk and Buy."
     }
   },
   {
@@ -457,29 +457,29 @@
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "name": "Función Risk & Buy: Comprar",
+        "descr": "Compra cierta cantidad de Free Spins con las condiciones propuestas y al precio sugerido. Después de cada tirada estará disponible una oferta de compra especial",
         "imgUrl": "img-feat_phoenix-0.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias participando en el juego de riesgo Puedes aumentar tus ganancias si consigues un multiplicador",
         "imgUrl": "img-feat_phoenix-1.jpg"
       },
       {
-        "name": "Free Spins Accumulation Scale",
-        "descr": "Each win fills a division on the scale. Series of 5 or more wins gives Free Spins",
+        "name": " Escala de acumulación de Free Spins",
+        "descr": "Cada Victoria rellena un segmento de la escala. Una serie de 5 o más victorias otorga Free Spins",
         "imgUrl": "img-feat_phoenix-2.jpg"
       },
       {
-        "name": "Free Spins with win multipliers",
-        "descr": "Up to 5 Free Spins with multipliers up to x10. During Free Spins, the Free Spins counter returns to the original position with each win",
+        "name": "Free Spins con multiplicadores de ganancias",
+        "descr": "Hasta 5 Free Spins con multiplicadores de hasta x10. Durante los Free Spins, el contador de Free Spins vuelve a la posición original con cada victoria",
         "imgUrl": "img-feat_phoenix-3.jpg"
       }
     ],
     "meta": {
-      "title": "Wild Phoenix Rises: video slot game by Mascot Gaming",
-      "descr": "Wild Phoenix Rises is a new Mascot Gaming slot with a new version of the legendary Risk & Buy feature"
+      "title": "Wild Phoenix Rises: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Wild Phoenix Rises es una nueva tragaperras en vídeo de Mascot Gaming con una nueva versión de la famosa función Risk and Buy"
     }
   },
   {
@@ -519,23 +519,23 @@
     "features": [
       {
         "name": " ",
-        "descr": "From 1 to 5 bets simultaneously",
+        "descr": "Entre 1 y 5 apuestas simultáneas",
         "imgUrl": "img-feat_lantern-0.jpg"
       },
       {
         "name": " ",
-        "descr": "Increasing winning coefficient up to 5,000",
+        "descr": "Aumenta las probabilidades hasta 5000",
         "imgUrl": "img-feat_lantern-1.jpg"
       },
       {
         "name": " ",
-        "descr": "Up to 5 free bets with each launch",
+        "descr": "Hasta 5 apuestas gratuitas con cada lanzamiento",
         "imgUrl": "img-feat_lantern-2.jpg"
       }
     ],
     "meta": {
-      "title": "Paper Lanterns Crash Game is a first crash game by Mascot Gaming",
-      "descr": "Paper Lanterns Crash Game by Mascot Gaming is crash game that allows players to launch several paper lanterns, therefor making from 1 to 5 bets simultaneously."
+      "title": "Paper Lanterns Crash Game es el primer juego de choques de Mascot Gaming",
+      "descr": "Paper Lanterns Crash Game de Mascot Gaming es un juego de choques que permite a los jugadores iniciar varias linternas de papel, realizando entre 1 y 5 apuestas simultáneamente."
     }
   },
   {

@@ -7,20 +7,20 @@
       <div class="container-outer">
         <div class="container container-narrow">
             <div class="partners__head">
-              <h1 class="partners__head-title">{{title}}</h1>
-              <a class="buttn buttn-primary buttn-m" @click="showModal = true">Become a partner</a>
+              <h1 class="partners__head-title">{{$t('Partners')}}</h1>
+              <a class="buttn buttn-primary buttn-m" @click="showModal = true">{{$t('Become a partner')}}</a>
             </div>
         </div>
         <div class="container container-filter container-narrow">
           <div class="partners-filter__outer">
             <div class="partners-filter__wrap">
-              <button :class="{ active: partnerFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'all'">All</button>
-              <button :class="{ active: partnerFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'top'">Тор</button>
-              <button :class="{ active: partnerFilterKey == 'media' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'media'">Media</button>
-              <button :class="{ active: partnerFilterKey == 'casino' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'casino'">Casino</button>
-              <button :class="{ active: partnerFilterKey == 'platform' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'platform'">Platform</button>
-              <button :class="{ active: partnerFilterKey == 'streamers' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'streamers'">Streamers</button>
-              <button :class="{ active: partnerFilterKey == 'promo' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'promo'">Promo</button>
+              <button :class="{ active: partnerFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'all'">{{$t('All')}}</button>
+              <button :class="{ active: partnerFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'top'">{{$t('Top')}}</button>
+              <button :class="{ active: partnerFilterKey == 'media' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'media'">{{$t('Media')}}</button>
+              <button :class="{ active: partnerFilterKey == 'casino' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'casino'">{{$t('Casinos')}}</button>
+              <button :class="{ active: partnerFilterKey == 'platform' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'platform'">{{$t('Platforms')}}</button>
+              <button :class="{ active: partnerFilterKey == 'streamers' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'streamers'">{{$t('Streamers')}}</button>
+              <button :class="{ active: partnerFilterKey == 'promo' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'promo'">{{$t('Promotions')}}</button>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@
                 <div v-else class="partners-card">
                   <div class="partner-logo"><img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" loading="lazy" /></div>
                   <div class="partner-offer">{{partner.promoText}}</div>
-                  <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm" target="_blank">{{ `${partner.name}` == 'Gama' ? "Claim bonus" : "Take part" }}</a>
+                  <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm" target="_blank">{{ `${partner.name}` == 'Gama' ? "Claim bonus" : $t('Take part') }}</a>
                 </div>
               </div>
             </div>
@@ -72,7 +72,8 @@ export default {
 
 
     return {
-      title: 'Partners',
+      title: '',
+      description: '',
       partnersList: allPartners,
       partnerFilterKey: 'all',
       showModal: false
@@ -83,11 +84,14 @@ export default {
   head() {
     return {
       title: this.title,
+      htmlAttrs: {
+          lang: this.$i18n.locale
+      },
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: ''
+          content: this.description
         }
       ]
     }
@@ -122,6 +126,9 @@ export default {
   },
 
   mounted() {
+    this.title = this.$t('Partners')
+    this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
+
         if(this.$route.query.type === "trafficgames") {
           this.partnerFilterKey = "traffic"
         };

@@ -29,11 +29,48 @@ import VueLazyLoad from '@voorhoede/vue-lazy-load'
 
 export default {
 
-  name: 'IndexPage',
-
   components: {
     VueLazyLoad
-  }
+  },
+
+  data() {
+    return {
+      title: '',
+      description: '',
+
+    }
+  },
+
+  head() {
+    return {
+      title: this.title,
+      htmlAttrs: {
+          lang: this.$i18n.locale
+      },
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.description
+        },
+        { property: 'og:title', hid: "og:title", content: this.title },
+        { property: 'og:description', hid: 'og:description', content: this.description },
+        { property: 'og:url', hid:'og:url', content: `https://mascot.games` },
+        { property: 'og:image', hid:'og:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
+        { name: 'twitter:card', hid: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', hid:'twitter:title', content: this.title },
+        { name: 'twitter:description', hid:'twitter:description', content: this.description },
+        { name: 'twitter:image', hid:'twitter:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
+      ]
+    }
+  },
+
+  mounted() {
+    this.title = this.$t('Explore the new world of exciting casino games!')
+    this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
+  },
 
 }
 </script>

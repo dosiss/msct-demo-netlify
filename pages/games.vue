@@ -2,28 +2,28 @@
 
   <div>
     <MainHeader />
-    <div>
+    <div :class="`lang-${$i18n.locale}`">
       <div class="container-outer">
         <div class="container-wide container-custom container-filter">
           <div class="games-filter__outer">
             <div class="games-filter__wrap">
-              <button :class="{ active: gameFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'all'">All - {{gamesList.length}}</button>
+              <button :class="{ active: gameFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'all'">{{$t('All games')}} - {{gamesList.length}}</button>
               <button :class="{ active: gameFilterKey == 'search' }" class="buttn buttn-rounded buttn-sm buttn-search" @click="showSearchPanel">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 18"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8.875 14.25a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm7.5 1.5-3.263-3.263"/></svg>
-                <span>Search</span>
+                <span>{{$t('Search')}}</span>
               </button>
-              <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'top'">Тор Games - {{gamesCountItem("topGame")}}</button>
-              <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'traffic'">Traffic Games - {{gamesCountType("traffic")}}</button>
-              <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">Profit Games - {{gamesCountType("profit")}}</button>
-              <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'videoslots'">Video Slots - {{gamesCountTheme("video slot")}}</button>
-              <button :class="{ active: gameFilterKey == 'lotteries' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'lotteries'">Lotteries - {{gamesCountTheme("lottery game")}}</button>
-              <button :class="{ active: gameFilterKey == 'tablegames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'tablegames'">Table games - {{gamesCountTheme("table/cards")}}</button>
-              <button :class="{ active: gameFilterKey == 'shooting' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'shooting'">Shooting - {{gamesCountTheme("shooting")}}</button>
-              <button :class="{ active: gameFilterKey == 'crashgames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'crashgames'">Crash games - {{gamesCountTheme("crash")}}</button>
-              <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'risknbuy'">Risk&amp;Buy - {{gamesCountItem("risknbuy")}}</button>
-              <button :class="{ active: gameFilterKey == 'rockways' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'rockways'">Rockways - {{gamesCountItem("rockways")}}</button>
-              <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'branded'">Branded - {{gamesCountItem("branded")}}</button>
-              <button :class="{ active: gameFilterKey == 'custom' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'custom'">Custom - {{gamesCountItem("custom")}}</button>
+              <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'top'">{{$t('Тор games')}} - {{gamesCountItem("topGame")}}</button>
+              <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'traffic'">{{$t('Traffic-generating games')}} - {{gamesCountType("traffic")}}</button>
+              <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">{{$t('Profit-making games')}} - {{gamesCountType("profit")}}</button>
+              <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'videoslots'">{{$t('Video slots')}} - {{gamesCountTheme("video slot")}}</button>
+              <button :class="{ active: gameFilterKey == 'lotteries' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'lotteries'">{{$t('Lottery games')}} - {{gamesCountTheme("lottery game")}}</button>
+              <button :class="{ active: gameFilterKey == 'tablegames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'tablegames'">{{$t('Table games')}} - {{gamesCountTheme("table/cards")}}</button>
+              <button :class="{ active: gameFilterKey == 'shooting' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'shooting'">{{$t('Shooters')}} - {{gamesCountTheme("shooting")}}</button>
+              <button :class="{ active: gameFilterKey == 'crashgames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'crashgames'">{{$t('Crash games')}} - {{gamesCountTheme("crash")}}</button>
+              <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'risknbuy'">{{$t('Risk&Buy games')}} - {{gamesCountItem("risknbuy")}}</button>
+              <button :class="{ active: gameFilterKey == 'rockways' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'rockways'">{{$t('Rockways games')}} - {{gamesCountItem("rockways")}}</button>
+              <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'branded'">{{$t('Branded games')}} - {{gamesCountItem("branded")}}</button>
+              <button :class="{ active: gameFilterKey == 'custom' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'custom'">{{$t('Custom games')}} - {{gamesCountItem("custom")}}</button>
             </div>
           </div>
         </div>
@@ -43,18 +43,18 @@
               <div v-for="(game, idx) in searchList" :key="idx" class="game-thumbnail">
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
-                  <v-lazy-image :src="`images/${game.thumbUrl}`" :src-placeholder="`images/lowres/${game.thumbUrl}`" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
+                  <v-lazy-image :src="`/images/${game.thumbUrl}`" :src-placeholder="`/images/lowres/${game.thumbUrl}`" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
                   <div class="game-content__wrap">
                     <div class="game-content__buttns">
-                      <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? "More" : "Learn more" }}</NuxtLink>
+                      <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? $t('More') : $t('Learn more') }}</NuxtLink>
                       <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
-                        Play demo
+                        {{$t('Play demo')}}
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                       </a>
-                      <a v-else :href="`${demoUrl}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
-                        Play demo
+                      <a v-else :href="`${demoUrl}${locPath}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                        {{$t('Play demo')}}
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -75,18 +75,18 @@
             <div v-for="(game, idx) in gamesFilter" :key="idx" class="game-thumbnail">
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
-                  <v-lazy-image :src="`images/${game.thumbUrl}`" :src-placeholder="`images/lowres/${game.thumbUrl}`" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
+                  <v-lazy-image :src="`/images/${game.thumbUrl}`" :src-placeholder="`/images/lowres/${game.thumbUrl}`" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
                   <div class="game-content__wrap">
                     <div class="game-content__buttns">
-                      <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? "More" : "Learn more" }}</NuxtLink>
+                      <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? $t('More') : $t('Learn more') }}</NuxtLink>
                       <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
-                        Play demo
+                        {{$t('Play demo')}}
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                       </a>
-                      <a v-else :href="`${demoUrl}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
-                        Play demo
+                      <a v-else :href="`${demoUrl}${locPath}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                        {{$t('Play demo')}}
                         <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
@@ -124,8 +124,8 @@ export default {
 
   data() {
     return {
-      title: 'Exciting games for online casino. Feel the gaming thrill',
-      description: 'Meet our diverse set of video slots for online casino. We develop a variety of unique games with different features and bonuses. Check it out.',
+      title: '',
+      description: '',
 
       gamesList: allGames,
       gameFilterKey: 'all',
@@ -134,11 +134,16 @@ export default {
       input: '',
 
       demoUrl: '',
+
+      locPath: ''
     }
   },
   head() {
     return {
       title: this.title,
+      htmlAttrs: {
+          lang: this.$i18n.locale
+      },
       meta: [
         {
           hid: 'description',
@@ -221,6 +226,20 @@ export default {
         } catch(ex) {
           this.demoUrl = this.$config.demositeURL
         }
+
+        switch (this.$i18n.locale) {
+          case "es":
+            this.locPath = '/es';
+            break;
+          case "pt":
+            this.locPath = '/pt';
+            break;
+          default:
+          this.locPath = '';
+        }
+
+        this.title = this.$t('Exciting games for online casino. Feel the gaming thrill')
+        this.description = this.$t('Meet our diverse set of video slots for online casino. We develop a variety of unique games with different features and bonuses. Check it out.')
 
         if(this.$route.query.type === "trafficgames") {
           this.gameFilterKey = "traffic"
@@ -307,6 +326,10 @@ export default {
   display: flex;
   flex-direction: column;
   margin-top: 120px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
   @media (max-width: 850px) {
     margin-top: 100px;
   }
@@ -321,8 +344,9 @@ export default {
     }
   }
   &.container-filter {
-    @media (max-width: 2150px) {
-      padding: 0 35px
+    @media (max-width: 3000px) {
+      padding: 0 35px;
+      max-width: 2500px
     }
     @media (max-width: 1770px) {
       padding: 0 35px
@@ -333,7 +357,8 @@ export default {
     }
   }
   .games-filter__outer {
-    @media (max-width: 1700px) {
+
+    @media (max-width: 3000px) {
       overflow-x: scroll;
       overflow-y: hidden;
       -ms-overflow-style: none;  /* IE and Edge */
@@ -349,24 +374,24 @@ export default {
     margin-bottom: 0;
     justify-content: space-between;
     @media (min-width: 1980px) {
-      width: 1660px
+      width: 2200px
     }
-    @media (max-width: 1700px) {
+    @media (max-width: 1979px) {
       padding-left: 35px;
       justify-content: flex-start;
-      width: 1660px;
+      width: 2100px;
     }
     @media (max-width: 850px) {
       padding-left: 0
     }
     @media (max-width: 650px) {
-      width: 1660px;
+      width: 2100px;
       margin-bottom: 10px;
       margin-top: 20px
     }
 
     .buttn {
-      width: 90px;
+      width: 110px;
       margin-right: 10px;
       &:not(:first-child) {
         width: fit-content
@@ -407,6 +432,28 @@ export default {
           }
         }
       }
+    }
+    .buttn {
+      .lang-es & {
+        width: 160px;
+        &:not(:first-child) {
+          width: fit-content
+        }
+      }
+    }
+    .lang-es & {
+      width: 2310px
+    }
+    .buttn {
+      .lang-pt & {
+        width: 145px;
+        &:not(:first-child) {
+          width: fit-content
+        }
+      }
+    }
+    .lang-pt & {
+      width: 2200px
     }
   }
   .search__wrap {

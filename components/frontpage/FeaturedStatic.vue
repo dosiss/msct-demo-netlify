@@ -11,7 +11,7 @@
                     <NuxtLink :to="`${game.slug}`">
                       <img :src="`/images/${game.logoUrl}`" class="game-logo" :alt="`${game.name}`" />
                     </NuxtLink>
-                    <a :href="`https://${game.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                    <a :href="`https://${game.linkToDemo}`" class="buttn buttn-primary buttn-m">{{ $t('Play demo') }}</a>
                 </div>
               </div>
               </div>
@@ -41,8 +41,8 @@
                     </NuxtLink>
                   </div>
                   <div class="featured-header__buttn">
-                      <a v-if="$device.isMobile" :href="`https://${backgroundGameData.linkToDemo}`" class="buttn buttn-primary buttn-m">Play demo</a>
-                      <a v-else :href="`${demoUrl}/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m">Play demo</a>
+                      <a v-if="$device.isMobile" :href="`https://${backgroundGameData.linkToDemo}`" class="buttn buttn-primary buttn-m">{{ $t('Play demo') }}</a>
+                      <a v-else :href="`${demoUrl}${locPath}/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m">{{ $t('Play demo') }}</a>
                   </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                 <div v-for="(game, idx) in gamesFeatured" :key="idx"  :class="{ 'selected': idx === 0 }" class="swiper-slide game-thumbnail" :data-name="`${game.slug}`" @click="toggleGame" >
                   <div class="game-thumbnail__outer">
                     <div class="game-thumbnail__inner">
-                    <img :src="`images/${game.thumbUrl}`" :alt="`${game.name}`" />
+                    <img :src="`/images/${game.thumbUrl}`" :alt="`${game.name}`" />
                     <div class="game-content__wrap" >
 
                     </div>
@@ -81,8 +81,8 @@
                   </NuxtLink>
                 </div>
                 <div class="featured-header__buttn">
-                    <a v-if="$device.isMobile" :href="`https://${backgroundGameData.linkToDemo}`" class="buttn buttn-primary buttn-m link-mobil">Play demo</a>
-                    <a v-else :href="`${demoUrl}/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m link-dsktop">Play demo</a>
+                    <a v-if="$device.isMobile" :href="`https://${backgroundGameData.linkToDemo}`" class="buttn buttn-primary buttn-m link-mobil">{{ $t('Play demo') }}</a>
+                    <a v-else :href="`${demoUrl}${locPath}/${backgroundGameData.slug}`" class="buttn buttn-primary buttn-m link-dsktop">{{ $t('Play demo') }}</a>
                 </div>
               </div>
           </div>
@@ -93,7 +93,7 @@
               <div v-for="(game, idx) in gamesFeatured" :key="idx"  :class="{ 'selected': idx === 0 }" class="swiper-slide game-thumbnail" :data-name="`${game.slug}`" @click="toggleGame" >
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
-                  <img :src="`images/${game.thumbUrl}`" :alt="`${game.name}`" />
+                  <img :src="`/images/${game.thumbUrl}`" :alt="`${game.name}`" />
                   <div class="game-content__wrap" >
 
                   </div>
@@ -114,6 +114,9 @@
 
 <script>
 import allGames from '../../static/data/games.json'
+import allGamesES from '../../static/data/games_es.json'
+import allGamesPT from '../../static/data/games_pt-br.json'
+
 
   export default {
 
@@ -123,6 +126,8 @@ import allGames from '../../static/data/games.json'
         gamesList: allGames,
 
         demoUrl: '',
+
+        locPath: '',
 
         backgroundGameData: {
           name: '',
@@ -184,7 +189,7 @@ import allGames from '../../static/data/games.json'
 
     computed: {
         gamesFeatured() {
-        return allGames.filter(val => (val.featured !== false))
+        return this.gamesList.filter(val => (val.featured !== false))
       }
 
 
@@ -199,7 +204,22 @@ import allGames from '../../static/data/games.json'
           this.demoUrl = this.$config.demositeURL
       }
 
-      const firstGame = allGames.filter(val => (val.featured !== false))[0];
+      switch (this.$i18n.locale) {
+        case "es":
+          this.gamesList = allGamesES;
+          this.locPath = '/es';
+          break;
+        case "pt":
+          this.gamesList = allGamesPT;
+          this.locPath = '/pt';
+          break;
+        default:
+        this.gamesList = allGames;
+        this.locPath = '';
+      }
+
+
+      const firstGame = this.gamesList.filter(val => (val.featured !== false))[0];
 
     //  firstGame.classList.add('selected');
 

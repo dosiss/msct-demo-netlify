@@ -3,7 +3,7 @@
   <div class="ad-banner__wrap">
     <a href="https://sbcevents.com/sbc-summit-barcelona/" target="_blank" title="https://sbcevents.com/sbc-summit-barcelona/">
       <div class="ad-banner__inner">
-        <nuxt-img src="images/SBC-logo.svg" class="ad-banner__logo"  alt="SBC Summit" />
+        <nuxt-img src="/images/SBC-logo.svg" class="ad-banner__logo"  alt="SBC Summit" />
         <div class="ad-banner__text">
           <div class="ad-banner__text-left">
             <div class="ad-banner__company">Mascot Gaming</div>
@@ -14,7 +14,7 @@
             <div class="ad-banner__place">Barcelona, Spain</div>
           </div>
         </div>
-        <nuxt-img src="images/img-adbanner-decor4.png" class="ad-banner__decor"  alt="" />
+        <nuxt-img src="/images/img-adbanner-decor4.png" class="ad-banner__decor"  alt="" />
       </div>
   </a>
   </div>

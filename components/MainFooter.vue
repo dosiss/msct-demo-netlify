@@ -6,7 +6,7 @@
         <div class="footer-content__social">
           <div class="footer-content__social-wrap">
             <div class="footer-content__social-title">
-              <NuxtLink to="/" class="logo-link">
+              <NuxtLink :to="localePath('/')" class="logo-link">
                 <svg id="mascot-logo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 30">
                   <path fill="#fff" d="M13.188 10.053c.002.622.098 1.24.284 1.833a6.923 6.923 0 0 1 1.61-1.833 4.238 4.238 0 0 1 2.745-3.968 1.49 1.49 0 0 0 1.787.784c.51-.157.897-.58 1.009-1.104a1.494 1.494 0 0 0 .972-1.87 1.483 1.483 0 0 0-1.86-.977 1.431 1.431 0 0 0-1.453-.32 1.5 1.5 0 0 0-1.02 1.672 6.13 6.13 0 0 0-4.075 5.783Z"/>
                   <path fill="#fff" d="M1.894 10.053V1.888h21.598v8.165a4.24 4.24 0 0 1-2.466 3.857 4.2 4.2 0 0 1-4.515-.653 3.653 3.653 0 0 0-.725 1.832 6.066 6.066 0 0 0 6.3.406 6.128 6.128 0 0 0 3.277-5.424V0H0v10.053c.004.622.1 1.24.283 1.833a6.945 6.945 0 0 1 1.61-1.833Z"/>
@@ -18,11 +18,11 @@
               </NuxtLink>
             </div>
             <ul class="footer-menu">
-              <li><NuxtLink to="/games">Games</NuxtLink></li>
-              <li><NuxtLink to="/blog">Blog</NuxtLink></li>
-              <li><NuxtLink to="/contacts">Contacts</NuxtLink></li>
-              <li><NuxtLink to="/about">About Us</NuxtLink></li>
-              <li><NuxtLink to="/partners">Partners</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/games')">{{ $t('Games') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
             </ul>
           </div>
           <ul class="footer-content__social-links">
@@ -83,17 +83,17 @@
           <div v-if="success">You have successfully signed up for a newsletter</div>
           <form v-else class="footer-form subscribe" @submit.prevent="sendSubscribe">
 
-                        <label for="footer-email">Subscribe to a newsletter!</label>
+                        <label for="footer-email">{{ $t('Subscribe to our newsletter!') }}</label>
                         <div class="footer-form__group">
                           <div class="input-wrapper">
-                              <input id="footer-email" v-model="email" name="email" type="email" placeholder="YOUR E-MAIL" required aria-required="true">
+                              <input id="footer-email" v-model="email" name="email" type="email" :placeholder="$t('Your email address')" required aria-required="true">
                           </div>
                           <div class="submit-wrapper">
-                              <button type="submit" class="buttn buttn-primary buttn-sm">{{ loading ? "Subscribing..." : "Subscribe" }}</button>
+                              <button type="submit" class="buttn buttn-primary buttn-sm">{{ loading ? "Subscribing..." : $t('Subscribe') }}</button>
                           </div>
                         </div>
                         <div v-if="errored" class="error-msg">
-                          Something went wrong. Please try again later.
+                          {{ $t('Something went wrong. Please try again later.') }}
                         </div>
           </form>
         </div>
@@ -108,20 +108,20 @@
     </div>
     <div class="footer-bottom__wrap">
       <div class="bottom-links">
-        <NuxtLink to="/terms" class="footer-bottom__link">Terms of use</NuxtLink>
-        <NuxtLink to="/privacy" class="footer-bottom__link">Privacy policy</NuxtLink>
-        <NuxtLink to="/responsible-gaming" class="footer-bottom__link">Responsible gaming</NuxtLink>
+        <NuxtLink :to="localePath('/terms')" class="footer-bottom__link">{{ $t('Terms of use') }}</NuxtLink>
+        <NuxtLink :to="localePath('/privacy')" class="footer-bottom__link">{{ $t('Privacy policy') }}</NuxtLink>
+        <NuxtLink :to="localePath('/responsible-gaming')" class="footer-bottom__link">{{ $t('Responsible gaming') }}</NuxtLink>
       </div>
-      <div class="copyright text-muted">Mascot Gaming - All Rights Reserved 2023</div>
+      <div class="copyright text-muted">Mascot Gaming - {{ $t('All rights reserved') }} 2023</div>
     </div>
   </div>
   <client-only>
     <vue-cookies-consent background-window="#000000" color-title="#ffffff" color-description="#ffffff" background-button="#DB001D" background-button-hover="#840712" :border-radius="12">
-      <template #title>Cookie policy</template>
+      <template #title>{{$t('Cookie policy')}}</template>
       <template #description>
-        <p>We use cookies to ensure that we give you the best experience on our website. By using the website you agree to our use of cookies.</p>
+        <p>{{$t('We use cookies to ensure that we give you the best experience on our website. By using the website you agree to our use of cookies.')}}</p>
       </template>
-      <template #button>Agree and continue</template>
+      <template #button>{{$t('Agree and continue')}}</template>
     </vue-cookies-consent>
   </client-only>
 </footer>

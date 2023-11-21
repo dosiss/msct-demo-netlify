@@ -1,9 +1,9 @@
 <template>
   <div v-if="hasPromoPartners" class="playpartners__wrap container">
     <div class="partners__head">
-      <h2 class="partners__head-title game-subtitle">Play with our Partners</h2>
-      <nuxt-link to="/partners?type=promo" class="inner-link link-yellow link-desktop">
-        <span>More selected casino offerings</span>
+      <h2 class="partners__head-title game-subtitle">{{$t('Check out our Partners` offers')}}</h2>
+      <nuxt-link :to="localePath('/partners?type=promo')" class="inner-link link-yellow link-desktop">
+        <span>{{$t('Other casino offers')}}</span>
         <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
         </svg>
@@ -13,15 +13,15 @@
       <div class="partners__content">
         <div v-for="(partner, idx) in promoPartners" :key="idx" class="partner__wrap promopartner">
           <div class="partners-card">
-            <div class="partner-logo"><img :src="`images/${partner.logoUrl}`" :alt="`${partner.name}`" /></div>
+            <div class="partner-logo"><img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" /></div>
             <div class="partner-offer">{{partner.promoText}}</div>
-            <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm" target="_blank">{{ `${partner.name}` == 'Gama' ? "Claim bonus" : "Take part" }}</a>
+            <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm" target="_blank">{{ `${partner.name}` == 'Gama' ? "Claim bonus" : $t('Take part') }}</a>
           </div>
         </div>
       </div>
     </div>
-    <nuxt-link to="/partners?type=promo" class="inner-link link-yellow link-mobile">
-      <span>{{ $device.isMobile ? "More offerings" : "More selected casino offerings" }}</span>
+    <nuxt-link :to="localePath('/partners?type=promo')" class="inner-link link-yellow link-mobile">
+      <span>{{ $device.isMobile ? $t('Other casino offers') : $t('Other casino offers') }}</span>
       <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
       </svg>
@@ -72,8 +72,13 @@
   .inner-link {
     &.link-desktop {
       display: flex;
+      flex: 0 1 335px;
+      justify-content: flex-end;
       @media (max-width: 850px) {
         display: none
+      }
+      span {
+        text-align: right
       }
     }
     &.link-mobile {

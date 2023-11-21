@@ -1,7 +1,7 @@
 <template>
   <div class="languages__wrap container">
     <div class="languages__head">
-      <h2 class="languages__head-title game-subtitle">Supported languages</h2>
+      <h2 class="languages__head-title game-subtitle">{{$t('Supported languages')}}</h2>
     </div>
     <div class="languages__content">
       <div v-for="country in countriesList" :key="country" class="languages-item">

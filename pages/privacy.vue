@@ -4,32 +4,32 @@
     <MainHeader />
     <div id="privacy">
       <div class="container container-narrow">
-        <h1>Privacy policy</h1>
-        <div class="heading-subtitle">Legal information</div>
+        <h1>{{$t('PRIVACY POLICY')}}</h1>
+        <div class="heading-subtitle">{{$t('LEGAL INFORMATION')}}</div>
         <article>
                   <div class="content-inner-block">
 
-                      <p>Security is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement.</p>
-                      <p>Security may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes.</p>
+                      <p>{{$t('Our security team is committed to protecting your privacy. Should we ask you to provide information by which you can be identified when using this website, you can rest assured that it will only be used in accordance with this privacy statement.')}}</p>
+                      <p>{{$t('Our security team may amend this policy from time to time by updating this page. You should check this page frequently to make sure you’re happy with any changes.')}}</p>
 
                   </div>
                   <div class="content-inner-block">
-                      <p class="heading"><strong>What we collect</strong></p>
-                      <p>We may collect the following information:<br />
-                      Name, contact information including email address other information relevant to customer surveys and/or offers.</p>
-                      <p class="heading"><strong>What we do with the information we gather</strong></p>
-                      <p> We require this information to understand your needs and provide you with a better service, and in particular for the following reasons:</p>
-                     <p class="heading"><strong>Internal record keeping</strong></p>
-                      <p> We may use the information to improve our products and services. We may periodically send promotional emails about new products, special offers or other information which we think you may find interesting using the email address which you have provided. From time to time, we may also use your information to contact you for market research purposes. We may contact you by email. We may use the information to customise the website according to your interests.</p>
-                      <p class="heading"><strong>Security</strong></p>
-                      <p>We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.</p>
-                      <p><strong>Links to other websites</strong></p>
-                      <p>Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites and such sites are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the website in question.</p>
-                     <p class="heading"><strong>Personal information</strong></p>
-                      <p>We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. We may use your personal information to send you promotional information about third parties which we think you may find interesting if you tell us that you wish this to happen.</p>
-                      <p>If information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible at the following address <a href="mailto:contact@mascot.games" style="text-transform:none;color:red">contact@mascot.games</a>. We will promptly correct any information found to be incorrect.</p>
-                      <p class="heading"><strong>How we use cookies</strong></p>
-                      <p>A cookie is a small file which asks permission to be placed on your computer's hard drive. Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs, likes and dislikes by gathering and remembering information about your preferences.  We use traffic log cookies to identify which pages are being used. This helps us analyse data about webpage traffic and improve our website in order to tailor it to customer needs. We only use this information for statistical analysis purposes and then the data is removed from the system. Overall, cookies help us provide you with a better website by enabling us to monitor which pages you find useful and which you do not. A cookie in no way gives us access to your computer or any information about you, other than the data you choose to share with us.</p>
+                      <p class="heading"><strong>{{$t('THE INFORMATION WE COLLECT')}}</strong></p>
+                      <p>{{$t('We may collect the following information:')}}<br />
+                      {{$t('Name, contact details including your email address, and any other information relevant to customer surveys and/or offers.')}}</p>
+                      <p class="heading"><strong>{{$t('WHAT WE DO WITH THE INFORMATION WE GATHER')}}</strong></p>
+                      <p>{{$t('We require this information to understand your needs better and to provide you with better services, especially for the following reasons:')}}</p>
+                     <p class="heading"><strong>{{$t('INTERNAL RECORD KEEPING')}}</strong></p>
+                      <p>{{$t('We may use the information we collect to improve our products and services. We may periodically send you promotional emails about new products, special offers or other information which we think you may find interesting to the email address which you have provided us. Sometimes, we might use your information to contact you for market research purposes. We may contact you by email. We may use the information we gather to customize the website according to your interests.')}}</p>
+                      <p class="heading"><strong>{{$t('SECURITY')}}</strong></p>
+                      <p>{{$t('We are committed to keeping your information safe. In order to prevent unauthorised access or disclosure of information, we’ve put relevant physical, electronic and managerial procedures in place to safeguard and protect the information we collect online.')}}</p>
+                      <p><strong>{{$t('Links to other websites')}}</strong></p>
+                      <p>{{$t('Our website may contain links to other websites of interest. However, if you click on these links and leave our website, please note that we have no control over the content of these websites. Therefore, we cannot be responsible for the protection and/or privacy of any of the information you provide whilst visiting these websites. These websites are not governed by this privacy statement. You should exercise caution and familiarize yourself with the privacy statement applicable to the website in question.')}}</p>
+                     <p class="heading"><strong>{{$t('PERSONAL INFORMATION')}}</strong></p>
+                      <p>{{$t('We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so. With your consent, we may use your personal information to send you promotional information about third parties which we think you could be interested in.')}}</p>
+                      <p>{{$t('If the information we have about you is incorrect or incomplete, please write to or email us as soon as possible at')}} <a href="mailto:contact@mascot.games" style="text-transform:none;color:red">contact@mascot.games</a>. {{$t('We will correct any inaccurate infromation as soon as we can.')}}</p>
+                      <p class="heading"><strong>{{$t('HOW WE USE COOKIES')}}</strong></p>
+                      <p>{{$t('A cookie is a small file which requires your permission to be stored on your computer`s hard drive. Once you grant permission, the file will be added and can help analyze web traffic or notify you when you visit a certain website. Cookies enable web applications to personalize your user experience. For example, the web application will be able to tailor its operations to your needs, likes and dislikes by gathering and storing information about your personal preferences. We use traffic log cookies to identify what pages are being accessed. This helps us analyze webpage traffic data and improve our website by tailoring it to our customers’ needs. We only use this information for statistical analysis purposes, after which the data is deleted from the system. In conclusion, cookies help us keep track of which pages you find the most useful, and utilize that information to provide you with a better website. Cookies don’t give us access to your computer or any personal information apart from the data you choose to share with us.')}}</p>
                   </div>
               </article>
       </div>
@@ -43,21 +43,31 @@
     // page component definitions
     data() {
       return {
-        title: 'Mascot Gaming Privacy Policy'
+        title: '',
+        description: ''
       }
     },
     head() {
       return {
         title: this.title,
+        htmlAttrs: {
+            lang: this.$i18n.locale
+        },
         meta: [
           {
             hid: 'description',
             name: 'description',
-            content: 'Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!'
+            content: this.description
           }
         ]
       }
-    }
+    },
+
+    mounted() {
+      this.title = this.$t('Mascot Gaming Privacy Policy')
+      this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
+    },
+
   }
 </script>
 <style lang="scss" scoped>

@@ -29,6 +29,8 @@ import PrevNext from '~/components/PrevNext'
 
   export default {
 
+//    nuxtI18n: false,
+
     components: {
       VLazyImage,
       PrevNext
@@ -68,6 +70,9 @@ import PrevNext from '~/components/PrevNext'
     head() {
       return {
         title: this.article.title,
+        htmlAttrs: {
+            lang: this.$i18n.locale
+        },
         meta: [
           {
             hid: 'description',

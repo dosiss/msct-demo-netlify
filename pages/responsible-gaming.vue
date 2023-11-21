@@ -4,38 +4,38 @@
     <MainHeader />
     <div id="responsible">
       <div class="container container-narrow">
-        <h1>Responsible gaming</h1>
+        <h1>{{$t('RESPONSIBLE GAMING')}}</h1>
         <article>
                   <div class="content-inner-block">
 
-                    <p>The key priority for our Mascot company is 100% satisfaction of our customers. At Mascot, we take responsible gaming seriously and offer top iGaming solutions for gamblers over the legal age only. Our goal is to create a safe, secure, and fair environment where every player has an equal opportunity. We understand that only responsible gambling can become a true driving force and guarantee sustainable business development.&nbsp;</p>
-                    <p>Mascot is a licensed software provider that creates <NuxtLink to="/blog/mascot-gaming-rolls-out-major-updates">innovative slots </NuxtLink>that are available worldwide. It means that we provide our clients with games that are designed to the highest standards and do not violate the rules and norms set by regulatory authorities. We are focusing on working with the best casinos around the world and define "best" also as "responsible to players&rdquo;.</p>
-                    <p>It is important that being a B2B company, we do not interact with players directly. At the same time, we are convinced that our customers should have access to all the tools and support they need when it comes to responsible gaming.</p>
-                    <p class="heading"><strong>How Do We Provide a Secure and Fair Environment for Our Players?</strong></p>
-                    <p>All iGaming solutions created by the Mascot Gaming provider are based on the operation of a random number generator (RNG). With its help, 100% of the results are completely random and cannot be changed using external influences in any way. We provide a top-notch level of service, so we regularly involve independent accredited testing centers to check our RNG.&nbsp;</p>
-                    <p>These independent laboratories test the quality of our products from a technical point of view in detail and give a conclusion as to whether our games comply with all standards (gamer protection, fair play, security of personal and financial data players, and so on).</p>
-                    <p>Here at the bottom of our official website, you can find information and relevant links to the following resources:</p>
+                    <p>{{$t('Our biggest priority is the satisfaction of our customers. At Mascot, we take responsible gaming seriously and only offer top iGaming services to customers who are of age. Our goal is to create a safe, secure, and fair environment with equal opportunities for all customers. We`re strong believers of the fact that only responsible gambling can be the true driving force of and contributor to sustainable business development.')}}&nbsp;</p>
+                    <p>{{$t('Mascot is a licensed software provider that develops innovative slots which are available worldwide. This means we provide our customers with games of the highest standards and don`t violate the rules and norms set by regulatory authorities. We focus on working with the best casinos around the world (i.e. those that are also responsible).')}}</p>
+                    <p>{{$t('Although we don`t directly interact with customers as a B2B company, we want our customers to have asses to all the tools and support they need when it comes to responsible gaming.')}}</p>
+                    <p class="heading"><strong>{{$t('HOW DO WE CREATE A SECURE AND FAIR ENVIRONMENT FOR OUR PLAYERS?')}}</strong></p>
+                    <p>{{$t('All of Mascot Gaming’s iGaming solutions use a random number generator (RNG). This means that 100% of results are randomized and cannot be affected by any external influences in any way. We check the effectiveness of our RNG by frequently collaborating with independent, accredited testing centres. This enables us to provide customers with first-class service.')}}&nbsp;</p>
+                    <p>{{$t('The independent testing centres thoroughly review the quality of our products from a technical point of view and conclude whether our games comply with all standards (customer protection, fair play, security of customers’ personal and financial details, etc.)')}}</p>
+                    <p>{{$t('You can find more information and relevant links to the following resources at the bottom of our official website:')}}</p>
                     <ul>
-                    <li>Gaming Laboratory Internations;</li>
-                    <li>GlobalLab.</li>
+                    <li>{{$t('Gaming Laboratory Internations;')}}</li>
+                    <li>{{$t('GlobalLab.')}}</li>
                     </ul>
-                    <p>Both companies are reputable and offer third-party testing, auditing, certification services, and more.</p>
-                    <p class="heading"><strong>Mascot Tools for Players' Protection</strong></p>
-                    <p>In addition to creating high-quality gaming content, we make sure that players have a safe and comfortable gaming environment. Understanding the seriousness of gambling addiction and the consequences it can lead to, we provide a number of effective tools that you can check in detail below.</p>
-                    <p class="sub-heading"><strong>Self-exclusion</strong></p>
-                    <p>We understand that among the users of our games, there are players who suspect or know for sure that they have a gambling addiction, problems with time or money spending, and so on. We strongly recommend such users contact the support service of the online casino where they registered. There they can provide a minimum of information about themselves and request a temporary or permanent block on their account.&nbsp;</p>
-                    <p>It is important that all authentication and authorization is directly regulated by the specific online casino operator, which can prevent a self-excluded player from accessing Mascot games in time. In addition, Mascot allows online casinos to block a specific user's access to games for a certain time via an API option.</p>
-                    <p>Every player should be aware that gaming platforms are extremely responsible for all self-exclusion conditions, including the financial side of the issue. As a rule, any funds that remain in a player's account after self-exclusion can be withdrawn to the selected payment method upon request.&nbsp;</p>
-                    <p class="sub-heading"><strong>Reality check</strong></p>
-                    <p>The casino that offers iGaming solutions by Mascot software may additionally take steps to regularly remind users of the time spent playing the game, the amounts won and lost, and so on. The reality check option is active for those users who play for real money and sends them in-game messages. As soon as the message arrives, a special flag appears, and the game is paused. In order to continue playing, you need to confirm the message.</p>
-                    <p class="sub-heading"><strong>Game restrictions</strong></p>
-                    <p>Our company offers API functions that can be used to restrict players from various game options. In this case, the player receives special in-game messages when the limits are reached. If it is necessary to apply this option to all the iGaming solutions that the gambler plays, then the casino should set limits to cover not only Mascot digital products but also other titles. Among the most widespread limits are the following: the total loss and stake limit (for a different period of time), the upper limit of the bet, the duration of the gaming session, and the bet limit (including the maximum single bet in the game).</p>
-                    <p class="sub-heading"><strong>Game speed</strong></p>
-                    <p>The speed of the gameplay directly affects safety. Therefore, our company offers solutions that can adjust the delay time between game rounds.</p>
-                    <p class="sub-heading"><strong>Visible clock</strong></p>
-                    <p>Games from our company support the time display option. It helps the players to always understand what stage they are in and experience better time management.</p>
-                    <p class="heading"><strong>Participation in Studies on the Treatment and Prevention of Gambling Addiction</strong></p>
-                    <p>The more knowledge we have about the prevention and treatment of gambling addiction, the more effectively we will be able to deal with this problem. Our company does not stand aside and takes an active part in donations to research in the field of prevention and treatment of people who face this problem. We also support various programs which are aimed at informing the players' community about the potential risks associated with becoming addicted to iGaming solutions. One of our main tasks in this regard is the development of a culture of safe gambling.</p>
+                    <p>{{$t('Both are reputable companies and offer third-party testing, auditing, certifications services, etc.')}}</p>
+                    <p class="heading"><strong>{{$t('MASCOT’S PLAYER PROTECTION TOOLS')}}</strong></p>
+                    <p>{{$t('In addition to providing high-quality gaming content, we create a safe and comfortable gaming environment for our players. We take gambling addiction and its consequences very seriously. As a result, we’ve got a range of effective tools to combat it available below.')}}</p>
+                    <p class="sub-heading"><strong>{{$t('Self-exclusion')}}</strong></p>
+                    <p>{{$t('We`re aware of the fact that among our players, there are individuals who suspect or know they have an addiction to gambling, issues with money or time management, etc. We strongly recommend that such users contact the customer support team of the online casino that they registered with. There they’ll be able to request a temporary or permanent block on their account whilst providing minimal personal information to the casino.')}}&nbsp;</p>
+                    <p>{{$t('It`s important that all authentication and verification procedures are directly regulated by each specific online casino operator, as they’ll be able to prevent a self-excluded player from accessing Mascot games. In addition, Mascot allows online casinos to block a specific user from accessing games for a certain time using an API.')}}</p>
+                    <p>{{$t('Every player should be aware of the fact that gaming platforms are fully responsible for all self-exclusion terms, including the financial aspect. As a rule, any funds that remain in a player`s account following self-exclusion can be withdrawn upon request to a selected payment method.')}}&nbsp;</p>
+                    <p class="sub-heading"><strong>{{$t('Reality check')}}</strong></p>
+                    <p>{{$t('The casino that offers iGaming solutions using Mascot software may take additional steps to regularly remind users of the time they spent playing a game, the amount they have won and lost, etc. This reality check option is enabled for those users who play using real money and sends them in-game messages. As soon as the user receives the message, a special flag icon appears and the game is paused. In order to keep playing, the user needs to confirm that they have read the message.')}}</p>
+                    <p class="sub-heading"><strong>{{$t('Game restrictions')}}</strong></p>
+                    <p>{{$t('Our company offers API functions that can be used to restrict players from various gaming options. In this case, the user receives special in-game messages when certain limits are exceeded. If it’s necessary to apply the API option for all iGaming solutions that a certain user accesses, the casino should enforce limits not just on Mascot digital products, but on all other products. The most popular limits include: the total loss and stake limit (over a particular period of time), the duration of a gaming session, and the maximum bet amount (e.g. the maximum single bet amount in a game).')}}</p>
+                    <p class="sub-heading"><strong>{{$t('Game speed')}}</strong></p>
+                    <p>{{$t('The speed of a game directly impacts a customer’s safety. Therefore, our company offers solutions to adjust delay time between different game rounds.')}}</p>
+                    <p class="sub-heading"><strong>{{$t('Visible clock')}}</strong></p>
+                    <p>{{$t('Mascot games have a time display option. This helps customers keep track of how long they’ve been playing and improve their time management skills.')}}</p>
+                    <p class="heading"><strong>{{$t('PARTICIPATION IN STUDIES ON THE TREATMENT AND PREVENTION OF GAMBLING ADDICTION')}}</strong></p>
+                    <p>{{$t('The more we know about the prevention and treatment of gambling addiction, the better we’ll be able to help manage it. Our company actively participates in donating to research on the prevention and treatment of gambling addiction. We also support various programs which are aimed at keeping the gaming community informed of the potential risks associated with developing a gambling addiction. Hence, one of our key priorities is developing a safe gambling culture.')}}</p>
 
                   </div>
               </article>
@@ -50,21 +50,31 @@
     // page component definitions
     data() {
       return {
-        title: 'Responsible gaming'
+        title: '',
+        description: ''
       }
     },
     head() {
       return {
         title: this.title,
+        htmlAttrs: {
+            lang: this.$i18n.locale
+        },
         meta: [
           {
             hid: 'description',
             name: 'description',
-            content: 'Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!'
+            content: this.description
           }
         ]
       }
-    }
+    },
+
+    mounted() {
+      this.title = this.$t('Responsible gaming')
+      this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
+    },
+
   }
 </script>
 <style lang="scss" scoped>

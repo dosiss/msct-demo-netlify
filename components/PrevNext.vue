@@ -2,7 +2,7 @@
   <div class="pagination__wrap">
     <NuxtLink
       v-if="prev"
-      :to="{ name: 'blog-slug', params: { slug: prev.slug } }"
+      :to="localePath({ name: 'blog-slug', params: { slug: prev.slug } })"
       class="pagination-item pagination-prev"
     >
     <img :src="`../../images/${prev.img}`" alt="" />
@@ -12,7 +12,7 @@
     <span v-else>&nbsp;</span>
     <NuxtLink
       v-if="next"
-      :to="{ name: 'blog-slug', params: { slug: next.slug } }"
+      :to="localePath({ name: 'blog-slug', params: { slug: next.slug } })"
       class="pagination-item pagination-next "
     >
     <img :src="`../../images/${next.img}`" alt="" />

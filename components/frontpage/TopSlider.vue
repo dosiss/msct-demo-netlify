@@ -11,21 +11,22 @@
   <div class="slider-outer">
   <div v-swiper:mySwiper="swiperOption">
     <div class="swiper-wrapper">
-      <div v-for="(data, idx) in gamesTopSlider.slice(0,7)" :key="idx" class="swiper-slide game-thumbnail">
+      <div v-for="(game, idx) in gamesTopSlider.slice(0,7)" :key="idx" class="swiper-slide game-thumbnail">
         <div class="game-thumbnail__outer">
           <div class="game-thumbnail__inner">
-          <v-lazy-image :src="`images/${data.thumbUrl}`" :src-placeholder="`images/lowres/${data.thumbUrl}`" :alt="`${data.name}`" />
+          <v-lazy-image :src="`/images/${game.thumbUrl}`" :src-placeholder="`images/lowres/${game.thumbUrl}`" :alt="`${game.name}`" />
           <div class="game-content__wrap">
             <div class="game-content__buttns">
-              <NuxtLink :to="data.slug" class="buttn buttn-secondary buttn-sm">Learn more</NuxtLink>
-              <a v-if="$device.isMobile" :href="`https://${data.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
-                Play demo
+              <!-- <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $t('Learn more') }}</NuxtLink> -->
+              <NuxtLink :to="localeLocation( {path: `/${game.slug}`} )" class="buttn buttn-secondary buttn-sm">{{ $t('Learn more') }}</NuxtLink>
+              <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
+                {{ $t('Play demo') }}
                 <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </a>
-              <a v-else :href="`${demoUrl}/${data.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
-                Play demo
+              <a v-else :href="`${demoUrl}${locPath}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                {{ $t('Play demo') }}
                 <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -50,6 +51,7 @@ import VLazyImage from "v-lazy-image/v2";
 import allGames from '../../static/data/games.json'
   export default {
 
+
     components: {
       VLazyImage
     },
@@ -60,6 +62,8 @@ import allGames from '../../static/data/games.json'
         gamesList: allGames,
 
         demoUrl: '',
+
+        locPath: '',
 
         swiperOption: {
           mousewheel: true,
@@ -119,6 +123,16 @@ import allGames from '../../static/data/games.json'
         this.demoUrl = this.$config.demositeURL
       }
 
+      switch (this.$i18n.locale) {
+        case "es":
+          this.locPath = '/es';
+          break;
+        case "pt":
+          this.locPath = '/pt';
+          break;
+        default:
+        this.locPath = '';
+      }
       // console.log('Current Swiper instance object', this.mySwiper)
       // this.mySwiper.slideTo(3, 1000, false)
     }

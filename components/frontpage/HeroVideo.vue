@@ -4,8 +4,8 @@
         <div class="static-background">
             <div class="container">
                 <div class="top-header__wrap">
-                      <h1 class="top-header__title">Feel the<br>Gaming Thrill</h1>
-                      <a :href="`${demoUrl}`" class="buttn buttn-primary buttn-xl">Play our games</a>
+                      <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
+                      <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl">{{ $t('Play our games') }}</a>
                 </div>
             </div>
         </div>
@@ -20,8 +20,8 @@
           </div>
           <div class="container">
               <div class="top-header__wrap">
-                    <h1 class="top-header__title">Feel the<br>Gaming Thrill</h1>
-                    <a :href="`${demoUrl}`" class="buttn buttn-primary buttn-xl">Play our games</a>
+                    <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
+                    <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl">{{ $t('Play our games') }}</a>
               </div>
           </div>
 
@@ -35,7 +35,10 @@ export default {
 
   data() {
     return {
+
       demoUrl: '',
+
+      locPath: ''
 
     }
   },
@@ -46,6 +49,17 @@ export default {
         .then(response => {this.demoUrl = response.data.demoURL})
     } catch(ex) {
       this.demoUrl = this.$config.demositeURL
+    }
+
+    switch (this.$i18n.locale) {
+      case "es":
+        this.locPath = '/es';
+        break;
+      case "pt":
+        this.locPath = '/pt';
+        break;
+      default:
+      this.locPath = '';
     }
   },
 

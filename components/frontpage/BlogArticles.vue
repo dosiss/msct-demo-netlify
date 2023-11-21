@@ -2,13 +2,13 @@
   <section id="blog-articles">
     <div class="blog-articles__wrap">
       <div class="blog-articles__head container">
-        <h2 class="blog-articles__head-title game-subtitle">Mascot blog</h2>
+        <h2 class="blog-articles__head-title game-subtitle">{{$t('Mascot blog')}}</h2>
       </div>
       <div class="blog-articles__content-wrap">
         <div v-if="$device.isMobile || $device.isTablet" class="blog-articles__content container">
           <div v-for="article in topArticlesMobile" :key="article.slug" class="swiper-slide game-thumbnail">
             <div class="article-slide">
-              <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+              <NuxtLink :to="localePath({ name: 'blog-slug', params: { slug: article.slug } })">
                 <div class="article-img" :style="{ backgroundImage: `url(/images/${article.img})` }"></div>
                 <div class="article-content">
                   <div class="article-content__inner">
@@ -26,7 +26,7 @@
             <div class="swiper-wrapper">
               <div v-for="article in topArticles" :key="article.slug" class="swiper-slide game-thumbnail">
                 <div class="article-slide">
-                  <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+                  <NuxtLink :to="localePath({ name: 'blog-slug', params: { slug: article.slug } })">
                     <div class="article-img" :style="{ backgroundImage: `url(/images/${article.img})` }"></div>
                     <div class="article-content">
                       <div class="article-content__inner">
@@ -44,8 +44,8 @@
         </div>
       </div>
       <div class="blog-articles__more-button container">
-        <nuxt-link to="blog" class="inner-link link-yellow">
-          <span>Read all blog</span>
+        <nuxt-link :to="localePath('blog')" class="inner-link link-yellow">
+          <span>{{$t('View entire blog')}}</span>
           <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
           </svg>

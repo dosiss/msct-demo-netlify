@@ -38,8 +38,12 @@ export default {
 
   publicRuntimeConfig: {
     // demoUrl: process.env.DEMO_URL,
-    currURL: 'https://mascot.games',
-    demositeURL: 'https://play.mascot.games'
+
+     currURL: 'https://mascot.games',
+     demositeURL: 'https://play.mascot.games',
+
+    // currURL: 'https://mascot.test.c27.games',
+    // demositeURL: 'https://mascot-demo.test.c27.games'
     // googleAnalytics: {
     //    id: process.env.GOOGLE_ANALYTICS_ID,
     //
@@ -139,8 +143,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/axios',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/i18n'
   ],
+  // routeRules: {
+  //   "/": { redirect: "/en" },
+  // },
+  i18n: {
+    locales: [
+      { code: 'en', iso: 'en-US', file: 'en-US.js', name: 'EN' },
+      { code: 'es', iso: 'es-419', file: 'es-419.js', name: 'ES' },
+      { code: 'pt', iso: 'pt-BR', file: 'pt-BR.js', name: 'PT' },
+    ],
+    langDir: 'lang/',
+    defaultLocale: 'en',
+    lazy: true
+  },
 
    sitemap: {
     hostname: 'https://mascot.games',

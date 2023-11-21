@@ -1,6 +1,6 @@
 <template>
   <div class="share__wrap" :class="{'white-page': whitePage == true}">
-    <div class="share-title">Share experience</div>
+    <div class="share-title">{{$t('Share your experience')}}</div>
     <div class="share-content">
       <a class="share-link fb-share" href="http://www.facebook.com/share.php?u=" rel="nofollow">
         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
