@@ -1,5 +1,16 @@
 [
   {
+  "name": "Abocasino challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "The Grand Treasure Hunt \nPrize pool: 2000 EUR",
+  "url": "https://www.abocasino.com/the-grand-treasure-hunt",
+  "logoUrl": "partner_abocasino2.png"
+  },
+  {
   "name": "1win challenge",
   "type": "promopartner",
   "top": false,
@@ -757,6 +768,17 @@
     "promoText": null,
     "url": "https://www.synotinteractive.com/customers/",
     "logoUrl": "partner_synot.png"
+  },
+  {
+    "name": "Gamblizard",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": true,
+    "promo": false,
+    "promoText": null,
+    "url": "https://gamblizard.com/slot-sites/mascot-gaming/",
+    "logoUrl": "partner_gamblizard.png"
   },
   {
     "name": "7bit",
