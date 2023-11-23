@@ -35,34 +35,34 @@
   },
   "features": [
     {
-      "name": "Risk & Buy Feature: Risk",
-      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "name": "Recurso Risk & Buy: Arriscar",
+      "descr": "Aposte seus ganhos jogando o modo Arriscar. Você pode aumentar seus ganhos por meio de um multiplier de prêmios",
       "imgUrl": "img-feat_ankrockways-0.jpg"
     },
     {
-      "name": "Risk & Buy Feature: Buy",
-      "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special Buy offer after each spin",
+      "name": "Recurso Risk & Buy: Comprar",
+      "descr": "Compre Free Spins com as condições propostas e pelo preço sugerido. Há uma oferta especial de compra após cada giro",
       "imgUrl": "img-feat_ankrockways-1.jpg"
     },
     {
-      "name": "Rockways Feature",
-      "descr": "Up to 3125 payways on every spin",
+      "name": "Recurso Rockways",
+      "descr": "Até 3125 formas de pagamento em cada giro",
       "imgUrl": "img-feat_ankrockways-2.jpg"
     },
     {
-      "name": "Rockfall Feature",
-      "descr": "All winning symbols disappear and are replaced with new ones",
+      "name": "Recurso Rockfall",
+      "descr": "Todos os símbolos vencedores desaparecem e são substituídos por novos símbolos",
       "imgUrl": "img-feat_ankrockways-3.jpg"
     },
     {
       "name": "Free Spins",
-      "descr": "Free Spins with a Special Expanding Symbol",
+      "descr": "Free Spins com um Special Expanding Symbol",
       "imgUrl": "img-feat_ankrockways-4.jpg"
     }
   ],
     "meta": {
-      "title": "Book of Anksunamun: Rockways, a video slot game by Mascot Gaming",
-      "descr": "Embark on a journey through the sands of time, accompanied by a set of amazing features."
+      "title": "Book of Anksunamun: Rockways, um jogo de caça-níqueis da Mascot Gaming",
+      "descr": "Embarque em uma jornada pelas areias do tempo, acompanhado por um conjunto de recursos incríveis."
     }
   },
   {
