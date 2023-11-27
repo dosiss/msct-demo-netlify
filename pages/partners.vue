@@ -31,7 +31,7 @@
         <div class="all-partners">
             <div class="all-partners__content">
               <div v-for="(partner, idx) in partnersFilter" :key="idx" :class="{ promopartner: partnerFilterKey == 'promo' }" class="partner__wrap">
-                <a v-if="partnerFilterKey !== 'promo'" :href="`${partner.url}`" target="_blank" :rel="(`${partner.name}` == 'Demoslot' || `${partner.name}` == 'Playcasino.com' || `${partner.name}` == 'Casino.org') ? 'dofollow' : 'nofollow noreferrer'">
+                <a v-if="partnerFilterKey !== 'promo'" :href="`${partner.url}`" target="_blank" :rel="(`${partner.type}` == 'media') ? 'dofollow' : 'nofollow noreferrer'">
                     <v-lazy-image :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" loading="lazy" />
                 </a>
                 <div v-else class="partners-card">

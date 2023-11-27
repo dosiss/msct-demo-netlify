@@ -2002,6 +2002,39 @@
     "logoUrl": "partner_gamingreport.png"
   },
   {
+    "name": "Clash of Slots",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://clashofslots.com/software/mascot-gaming",
+    "logoUrl": "partner_clashofslots.png"
+  },
+  {
+    "name": "Bojoko",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://bojoko.com/casino/provider/mascot-gaming",
+    "logoUrl": "partner_bojoko.png"
+  },
+  {
+    "name": "Inside casino",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.insidecasino.ca/software/mascot-gaming",
+    "logoUrl": "partner_insidecasino.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
