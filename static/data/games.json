@@ -1,5 +1,61 @@
 [
   {
+  "name": "Christmas Infinite Gifts",
+  "slug": "christmas-infinite-gifts",
+  "linkToDemo": "demo.mascot.games/run/christmas_infinite_gifts",
+  "theme": "video slot",
+  "type": "traffic",
+  "mgacertified": false,
+  "risknbuy": false,
+  "rockways": false,
+  "releaseDate": "2023-12-05",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_infgifts.jpeg",
+  "heroUrl": "hero_infgifts.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_infgifts.jpg",
+  "logoUrl": "logo_infgifts.png",
+  "backUrl": "back_infgifts.jpg",
+  "detailsImgUrl": "details_infgifts.png",
+  "stats": {
+    "reels": 5,
+    "rows": 4,
+    "volatility": " ",
+    "paylines": 40,
+    "payways": null,
+    "html5": true,
+    "rtp": " ",
+    "hitrate": " "
+  },
+  "features": [
+    {
+      "name": "Risk feature",
+      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "imgUrl": "img-feat_infgifts-0.jpg"
+    },
+    {
+      "name": "Infinite Free Spins",
+      "descr": "Infinite Free Spins, which will last until 2 Scatter Symbols appear on the screen",
+      "imgUrl": "img-feat_infgifts-1.jpg"
+    },
+    {
+      "name": "Wild Reels",
+      "descr": "During Free Spins, the Wild Symbol expands on the entire reel on which it appears",
+      "imgUrl": "img-feat_infgifts-2.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Christmas Infinite Gifts, a video slot game by Mascot Gaming",
+      "descr": "Captivating design and engaging mechanics promises a festive journey filled with delights and surprises."
+    }
+  },
+  {
   "name": "Book of Anksunamun: Rockways",
   "slug": "book-of-anksunamun-rockways",
   "linkToDemo": "demo.mascot.games/run/book_of_anksunamun_rockways",
