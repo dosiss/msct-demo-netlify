@@ -1,5 +1,66 @@
 [
   {
+  "name": "Gryphon`s Castle Rush 25",
+  "slug": "gryphons-castle-rush25",
+  "linkToDemo": "demo.mascot.games/run/gryphons_castle_rush25",
+  "theme": "video slot",
+  "type": " ",
+  "mgacertified": false,
+  "risknbuy": false,
+  "rockways": false,
+  "releaseDate": "2023-12-07",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_gryphon25.jpeg",
+  "heroUrl": "hero_gryphon25.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_gryphon25.jpg",
+  "logoUrl": "logo_gryphon25.png",
+  "backUrl": "back_gryphon25.jpg",
+  "detailsImgUrl": "details_gryphon25.png",
+  "stats": {
+    "reels": 5,
+    "rows": 5,
+    "volatility": " ",
+    "paylines": null,
+    "payways": null,
+    "html5": true,
+    "rtp": " ",
+    "hitrate": " "
+  },
+  "features": [
+    {
+      "name": "Rush Bet",
+      "descr": "For 1 rush bet, you make 25+ plays",
+      "imgUrl": "img-feat_gryphon25-0.jpg"
+    },
+    {
+      "name": "Risk game",
+      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "imgUrl": "img-feat_gryphon25-1.jpg"
+    },
+    {
+      "name": "Bonus",
+      "descr": "Gryphon Symbols unlock up to 3 Bonus wins",
+      "imgUrl": "img-feat_gryphon25-2.jpg"
+    },
+    {
+      "name": "Jackpot",
+      "descr": "The 4th and subsequent Gryphon Symbols form a Jackpot win",
+      "imgUrl": "img-feat_gryphon25-3.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Gryphon`s Castle Rush25, a video slot game by Mascot Gaming",
+      "descr": "Innovative mechanics intertwine with a mystical journey set in an enchanting fantasy landscape."
+    }
+  },
+  {
   "name": "Christmas Infinite Gifts",
   "slug": "christmas-infinite-gifts",
   "linkToDemo": "demo.mascot.games/run/christmas_infinite_gifts",

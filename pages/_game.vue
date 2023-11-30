@@ -575,7 +575,7 @@ export default {
       height: unset
     }
     .game-title__left {
-      flex: 0 1 40%;
+      flex: 0 1 51%;
       @media (max-width: 850px) {
         flex-basis: auto;
         margin-bottom: 30px

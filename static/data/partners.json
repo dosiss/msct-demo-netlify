@@ -1,5 +1,16 @@
 [
   {
+  "name": "FortuneJack challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "X-Race Tournament \nPrize pool: 5000 EUR",
+  "url": "https://fortunejack.com/tournaments/x-race-78695",
+  "logoUrl": "partner_fortunejack.png"
+  },
+  {
   "name": "Abocasino challenge",
   "type": "promopartner",
   "top": false,
@@ -9,72 +20,6 @@
   "promoText": "The Grand Treasure Hunt \nPrize pool: 2000 EUR",
   "url": "https://www.abocasino.com/the-grand-treasure-hunt",
   "logoUrl": "partner_abocasino2.png"
-  },
-  {
-  "name": "1win challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Harmony with 1000EUR in Bamboo Bear \nPrize pool: 1000 EUR",
-  "url": "https://1win.pro/bonuses?modal=%7B%22name%22:%22modal-bonus-universal%22,%22props%22:%7B%22bonusId%22:562%7D%7D",
-  "logoUrl": "partner_1win.png"
-  },
-  {
-  "name": "Riobet challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Mascot X-Race \nPrize pool: 3000 EUR",
-  "url": "https://riobet.com/en/tournaments/15450150511",
-  "logoUrl": "partner_riobet.png"
-  },
-  {
-  "name": "Necasino challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Играй без риска \nPrize pool: 5000 EUR",
-  "url": "https://necasino.co/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=website",
-  "logoUrl": "partner_necasino.png"
-  },
-  {
-  "name": "Ninecasino challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Prize pool: Tesla Model 3, 2 iPhone 15, 2 PS5, €50,000 in cash!",
-  "url": "https://track.chillipartners.com/visit/?bta=37135&nci=5558",
-  "logoUrl": "partner_ninecasino2.png"
-  },
-  {
-  "name": "Championslots challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "MascotGaming TOURNAMENT \nPrize pool 2000 EUR",
-  "url": "https://magicbettingcasino.be/en/profile/loyalty-tournaments/42524?utm_medium=website&utm_source=mascot&utm_campaign=weekly-tournament",
-  "logoUrl": "partner_magicbetting.png"
-  },
-  {
-  "name": "Championslots challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Battle for Mascot Gaming \nPrize pool 300 000 RUB",
-  "url": "https://championgames.xyz/tournaments/mascotgaming_november2023?utm_source=telegram&utm_medium=post&utm_campaign=021123&utm_term=tourn",
-  "logoUrl": "partner_champion2.png"
   },
   {
     "name": "PariMatch",
@@ -1901,6 +1846,17 @@
     "promoText": null,
     "url": "https://fizzslots.com/ru/poisk?provider=77&utm_source=mascotgaming&utm_medium=cpc&utm_campaign=website",
     "logoUrl": "partner_fizzslots.png"
+  },
+  {
+    "name": "Gold Rush Casino",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://gold-rush.casino/en/game/mascot/fruit-machine-megabonus",
+    "logoUrl": "partner_goldrush.png"
   },
   {
     "name": "lcb.org",
