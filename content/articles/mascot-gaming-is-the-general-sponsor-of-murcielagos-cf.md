@@ -1,9 +1,9 @@
 ---
 title: 'Mascot Gaming is the general sponsor of Murcielagos CF'
-description: 'Mascot Gaming is a young yet reliable and famous casino software developer. This is what gamblers know about the company. What they might not be aware of is that Mascot is primarily a team of diligent professionals passionate about the craft of casino game-making.'
+description: 'Mascot Gaming is thrilled to announce our new role as the general sponsor of the Murcielagos CF football team, playing in Valencia and competing in the TERCERA FFCV division.'
 img: img_blog_mascot-gaming-is-the-general-sponsor-of-murcielagos-cf.jpg
 heading: 'Mascot Gaming is the general sponsor of Murcielagos CF'
-shortDescr: 'Mascot Gaming is a young yet reliable and famous casino software developer. This is what gamblers know about the company. What they might not be aware of is that Mascot is primarily a team of diligent professionals passionate about the craft of casino game-making.'
+shortDescr: 'Mascot Gaming is thrilled to announce our new role as the general sponsor of the Murcielagos CF football team, playing in Valencia and competing in the TERCERA FFCV division.'
 archiveDate: 2023-12-04
 ---
 Mascot Gaming is thrilled to announce our new role as the general sponsor of the Murcielagos CF football team, playing in Valencia and competing in the TERCERA FFCV division.
