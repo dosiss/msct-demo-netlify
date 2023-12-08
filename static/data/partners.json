@@ -1,5 +1,27 @@
 [
   {
+  "name": "Championslots challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Mascot`s Championship Cup \nPrize pool: 200 000 RUB",
+  "url": "https://championgames.xyz/tournaments/mascot_december2023",
+  "logoUrl": "partner_champion2.png"
+  },
+  {
+  "name": "Vipclub challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "League of the First from Mascot Gaming \nPrize pool: 200 000 RUB",
+  "url": "https://vipclub.win/tournaments/mascot_december2023",
+  "logoUrl": "partner_vipclub.png"
+  },
+  {
   "name": "FortuneJack challenge",
   "type": "promopartner",
   "top": false,
