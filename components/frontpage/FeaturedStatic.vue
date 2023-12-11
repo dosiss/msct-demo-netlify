@@ -73,7 +73,7 @@
 
       <div v-else class="featured-static__background" :style="{ backgroundImage: `url(/images/${backgroundGameData.backgroundUrl})` }"> <!-- :style="{ backgroundImage: `url(${backgroundUrl})` }" -->
           <div class="container">
-              <div class="featured-header__wrap">
+              <div class="featured-header__wrap" :class="`game_${backgroundGameData.slug}`">
                 <div class="featured-header__content">
                   <NuxtLink :to="`${backgroundGameData.slug}`">
                     <img :src="`/images/${backgroundGameData.logoUrl}`" class="game-logo" :alt="`${backgroundGameData.name}`" />
@@ -293,7 +293,8 @@ import allGamesPT from '../../static/data/games_pt-br.json'
   .featured-static__background {
     transition: all .5s;
     background-repeat: no-repeat;
-    padding-top: 170px;
+    /* padding-top: 170px; Non-christmas theme */
+    padding-top: 45px;
     height: 950px;
     background-size: cover;
     background-position: center;
@@ -309,13 +310,16 @@ import allGamesPT from '../../static/data/games_pt-br.json'
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; Non-christmas theme */
+    margin-bottom: 150px;
     @media (max-width: 850px) {
       flex-direction: column;
       align-items: center;
       height: 420px;
       position: relative;
-      z-index: 1
+      z-index: 1;
+      /* only christmas theme: */
+      margin-bottom: 50px;
     }
     .featured-header__content {
       a {
@@ -327,6 +331,8 @@ import allGamesPT from '../../static/data/games_pt-br.json'
         }
         img {
           max-height: 220px;
+          position: relative;
+          z-index: 99;
           @media (max-width: 850px) {
             max-height: 200px;
           }
@@ -337,6 +343,18 @@ import allGamesPT from '../../static/data/games_pt-br.json'
           font-size: 1.25rem;
           line-height: 1.5;
           font-weight: 400;
+          white-space: pre-line;
+          background: radial-gradient(circle, rgb(0 0 0 / 11%) 57%, rgba(0,0,0,0) 100%);
+        }
+      }
+    }
+        &.game_christmas-infinite-gifts {
+      .featured-header__content-inner {
+        img {
+          max-height: 250px
+        }
+        p {
+          margin-top: 25px
         }
       }
     }
@@ -529,6 +547,9 @@ import allGamesPT from '../../static/data/games_pt-br.json'
         height: 75px;
         background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 100%);
 
+      }
+      @media (max-width: 650px) {
+        background-position-x: -170px
       }
       .game-hero__inner {
         text-align: center;
