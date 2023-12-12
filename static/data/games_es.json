@@ -1,5 +1,61 @@
 [
   {
+  "name": "Wild Wild Bet",
+  "slug": "wild-wild-bet",
+  "linkToDemo": "demo.mascot.games/run/wild_wild_bet",
+  "theme": "video slot",
+  "type": " ",
+  "mgacertified": false,
+  "risknbuy": false,
+  "rockways": false,
+  "releaseDate": "2023-12-19",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_wwbet.jpeg",
+  "heroUrl": "hero_wwbet.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_wwbet.jpg",
+  "logoUrl": "logo_wwbet.png",
+  "backUrl": "back_wwbet.jpg",
+  "detailsImgUrl": "details_wwbet.png",
+  "stats": {
+    "reels": 5,
+    "rows": 3,
+    "volatility": " ",
+    "paylines": 5,
+    "payways": null,
+    "html5": true,
+    "rtp": " ",
+    "hitrate": " "
+  },
+  "features": [
+    {
+      "name": "Gamble",
+      "descr": "The player can try to guess the higher card to double their winnings",
+      "imgUrl": "img-feat_wwbet-0.jpg"
+    },
+    {
+      "name": "Poker Hand",
+      "descr": "Bet line wins when a Poker hand is achieved",
+      "imgUrl": "img-feat_wwbet-1.jpg"
+    },
+    {
+      "name": "Free Deals",
+      "descr": "Up to 25 Free Deals with х3 multiplier and additional Free Deals",
+      "imgUrl": "img-feat_wwbet-2.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Up to 25 Free Deals with х3 multiplier and additional Free Deals",
+      "descr": "Poker meets slots with cowboys, saloon dancers, thrilling Free Dials with x3 multiplier, and a Gamble feature."
+    }
+  },
+  {
   "name": "Gryphon`s Castle Rush 25",
   "slug": "gryphons-castle-rush25",
   "linkToDemo": "demo.mascot.games/run/gryphons_castle_rush25",
@@ -35,29 +91,29 @@
   },
   "features": [
     {
-      "name": "Rush Bet",
-      "descr": "For 1 rush bet, you make 25+ plays",
+      "name": "Apuesta rápida",
+      "descr": "Con 1 apuesta rápida, podrás hacer 25+ jugadas",
       "imgUrl": "img-feat_gryphon25-0.jpg"
     },
     {
-      "name": "Risk game",
-      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "name": "Juego de riesgo",
+      "descr": "Arriesga tus ganancias jugando al juego de riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador",
       "imgUrl": "img-feat_gryphon25-1.jpg"
     },
     {
       "name": "Bonus",
-      "descr": "Gryphon Symbols unlock up to 3 Bonus wins",
+      "descr": "Los símbolos Gryphon desbloquean hasta 3 ganancias Bonus",
       "imgUrl": "img-feat_gryphon25-2.jpg"
     },
     {
       "name": "Jackpot",
-      "descr": "The 4th and subsequent Gryphon Symbols form a Jackpot win",
+      "descr": "A partir del 4º símbolo Gryphon, conseguirás una ganancia Jackpot",
       "imgUrl": "img-feat_gryphon25-3.jpg"
     }
   ],
     "meta": {
-      "title": "Gryphon`s Castle Rush25, a video slot game by Mascot Gaming",
-      "descr": "Innovative mechanics intertwine with a mystical journey set in an enchanting fantasy landscape."
+      "title": "Gryphon`s Castle Rush25, tragaperras en vídeo de Mascot Gaming",
+      "descr": "Uan mecánica innovadora que se entrelaza con un viaje místico por un paisaje de fantasía."
     }
   },
   {
@@ -77,7 +133,7 @@
   "descr": "Spin the reels, feel the cheer,\nChristmas magic is finally here.",
   "thumbUrl": "game_infgifts.jpeg",
   "heroUrl": "hero_infgifts-4.jpg",
-  "blueButtn": true,
+  "blueButtn": false,
   "videoUrl": null,
   "videoEnabled": false,
   "placeholderUrl": "video_infgifts.jpg",
@@ -96,24 +152,24 @@
   },
   "features": [
     {
-      "name": "Risk feature",
-      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "name": "Función Risk",
+      "descr": "Arriesga tus ganancias jugando al juego de riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador",
       "imgUrl": "img-feat_infgifts-0.jpg"
     },
     {
-      "name": "Infinite Free Spins",
-      "descr": "Infinite Free Spins, which will last until 2 Scatter Symbols appear on the screen",
+      "name": "Free Spins Infinitos",
+      "descr": "Los Free Spins infinitos durarán hasta que aparezcan 2 símbolos Scatter en pantalla.",
       "imgUrl": "img-feat_infgifts-1.jpg"
     },
     {
       "name": "Wild Reels",
-      "descr": "During Free Spins, the Wild Symbol expands on the entire reel on which it appears",
+      "descr": "Durante los Free Spins, el símbolo Wild se expandirá por todo el rodillo en el que aparezca",
       "imgUrl": "img-feat_infgifts-2.jpg"
     }
   ],
     "meta": {
-      "title": "Christmas Infinite Gifts, a video slot game by Mascot Gaming",
-      "descr": "Captivating design and engaging mechanics promises a festive journey filled with delights and surprises."
+      "title": "Christmas Infinite Gifts, tragaperras en vídeo de Mascot Gaming",
+      "descr": "Un diseño cautivador y una mecánica atractiva que prometen un viaje festivo lleno de alegría y de sorpresas."
     }
   },
   {

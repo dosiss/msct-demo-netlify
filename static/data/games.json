@@ -1,5 +1,61 @@
 [
   {
+  "name": "Wild Wild Bet",
+  "slug": "wild-wild-bet",
+  "linkToDemo": "demo.mascot.games/run/wild_wild_bet",
+  "theme": "video slot",
+  "type": " ",
+  "mgacertified": false,
+  "risknbuy": false,
+  "rockways": false,
+  "releaseDate": "2023-12-19",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_wwbet.jpeg",
+  "heroUrl": "hero_wwbet.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_wwbet.jpg",
+  "logoUrl": "logo_wwbet.png",
+  "backUrl": "back_wwbet.jpg",
+  "detailsImgUrl": "details_wwbet.png",
+  "stats": {
+    "reels": 5,
+    "rows": 3,
+    "volatility": " ",
+    "paylines": 5,
+    "payways": null,
+    "html5": true,
+    "rtp": " ",
+    "hitrate": " "
+  },
+  "features": [
+    {
+      "name": "Gamble",
+      "descr": "The player can try to guess the higher card to double their winnings",
+      "imgUrl": "img-feat_wwbet-0.jpg"
+    },
+    {
+      "name": "Poker Hand",
+      "descr": "Bet line wins when a Poker hand is achieved",
+      "imgUrl": "img-feat_wwbet-1.jpg"
+    },
+    {
+      "name": "Free Deals",
+      "descr": "Up to 25 Free Deals with х3 multiplier and additional Free Deals",
+      "imgUrl": "img-feat_wwbet-2.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Up to 25 Free Deals with х3 multiplier and additional Free Deals",
+      "descr": "Poker meets slots with cowboys, saloon dancers, thrilling Free Dials with x3 multiplier, and a Gamble feature."
+    }
+  },
+  {
   "name": "Gryphon`s Castle Rush 25",
   "slug": "gryphons-castle-rush25",
   "linkToDemo": "demo.mascot.games/run/gryphons_castle_rush25",
@@ -77,7 +133,7 @@
   "descr": "Spin the reels, feel the cheer,\nChristmas magic is finally here.",
   "thumbUrl": "game_infgifts.jpeg",
   "heroUrl": "hero_infgifts-4.jpg",
-  "blueButtn": true,
+  "blueButtn": false,
   "videoUrl": null,
   "videoEnabled": false,
   "placeholderUrl": "video_infgifts.jpg",
