@@ -4,7 +4,7 @@
   "slug": "wild-wild-bet",
   "linkToDemo": "demo.mascot.games/run/wild_wild_bet",
   "theme": "video slot",
-  "type": " ",
+  "type": "traffic",
   "mgacertified": false,
   "risknbuy": false,
   "rockways": false,
@@ -26,7 +26,7 @@
   "stats": {
     "reels": 5,
     "rows": 3,
-    "volatility": " ",
+    "volatility": "HIGH",
     "paylines": 5,
     "payways": null,
     "html5": true,
