@@ -1,5 +1,16 @@
 [
   {
+  "name": "Riobet challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Mascot Slot-Race \nPrize pool: 3000 EUR",
+  "url": "https://riobet.com/en/tournaments/15949040327",
+  "logoUrl": "partner_riobet.png"
+  },
+  {
   "name": "Championslots challenge",
   "type": "promopartner",
   "top": false,
