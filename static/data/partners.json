@@ -1892,6 +1892,17 @@
     "logoUrl": "partner_goldrush.png"
   },
   {
+    "name": "Joya",
+    "type": "partner",
+    "top": true,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://joya.casino/#/casino?isPopular=false&isNew=false&category=&studio=Mascot",
+    "logoUrl": "partner_joya.png"
+  },
+  {
     "name": "lcb.org",
     "type": "media",
     "top": false,
