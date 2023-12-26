@@ -251,22 +251,37 @@
 
       <SupportedLanguages />
 
-      <div v-if="relatedArticles.length" class="related-posts container">
-        <h2 class="related-posts__head">{{$t('Media')}}</h2>
-        <div class="related-posts__wrap">
-        <div v-for="article in relatedArticles" :key="article.slug" class="related-post__item">
-          <div class="related-post__item-inner">
-            <NuxtLink :to="localePath({ name: 'blog-slug', params: { slug: article.slug } })">
-              <div class="related-post__content">
-                <div class="content-head">{{ article.heading }}</div>
-                <div class="content-img" :style="{ backgroundImage: `url(/images/${article.img})` }"></div>
+      <h2 v-if="currentGame.articles" class="related-posts__head container">{{$t('Media')}}</h2>
+      <div class="related-posts container">
+          <!-- <div v-if="relatedArticles.length" class="related-posts__group">
+            <div v-for="article in relatedArticles" :key="article.slug" class="related-post__item">
+              <div class="related-post__item-inner">
+                <NuxtLink :to="localePath({ name: 'blog-slug', params: { slug: article.slug } })">
+                  <div class="related-post__content">
+                    <div class="content-head">{{ article.heading }}</div>
+                    <div class="content-img" :style="{ backgroundImage: `url(/images/${article.img})` }"></div>
+                  </div>
+                  <h3>{{ article.heading}}</h3>
+                </NuxtLink>
               </div>
-              <h3>{{ article.heading}}</h3>
-            </NuxtLink>
+            </div>
+          </div> -->
+          <div v-if="currentGame.articles" class="related-posts__wrap">
+              <div v-for="(extarticle, idx) in currentGame.articles" :key="idx" class="related-post__item">
+                <div class="related-post__item-inner">
+                  <a :href="`${extarticle.link}`" target="_blank" rel="dofollow">
+                    <div class="related-post__content">
+                      <div class="content-head">{{ extarticle.title }}</div>
+                      <div class="content-img" :style="{ backgroundImage: `url(/images/${extarticle.image})` }"></div>
+                    </div>
+                    <h3>{{ extarticle.title}}</h3>
+                  </a>
+                </div>
+              </div>
           </div>
-        </div>
-      </div>
-      </div>
+
+    </div>
+
     </div>
     <SharingButtons />
   <MainFooter />
@@ -516,6 +531,9 @@ export default {
     @include feature-new
   }
   .game_reveal-the-kraken {
+    @include feature-new
+  }
+  .game_re-kill-ultimate {
     @include feature-new
   }
   .game_hook-up-fishing-wars {
@@ -993,22 +1011,23 @@ export default {
       }
     }
   }
-  .related-posts {
+  .related-posts__head {
     padding-top: 100px;
+    font-size: 2.12rem;
+    text-transform: uppercase;
+    @media (max-width: 850px) {
+      text-align: center;
+    }
+    @media (max-width: 650px) {
+      font-size: 1.75rem
+    }
+  }
+  .related-posts {
+
     padding-bottom: 100px;
     @media (max-width: 650px) {
       padding-top: 60px;
       padding-bottom: 0;
-    }
-    .related-posts__head {
-      font-size: 2.12rem;
-      text-transform: uppercase;
-      @media (max-width: 850px) {
-        text-align: center;
-      }
-      @media (max-width: 650px) {
-        font-size: 1.75rem
-      }
     }
     .related-posts__wrap {
       display: flex;
@@ -1018,6 +1037,11 @@ export default {
       }
       @media (max-width: 650px) {
         flex-direction: column;
+      }
+      .related-posts__group {
+        display: flex;
+        flex: 0 1 auto;
+        flex-wrap: wrap;
       }
       .related-post__item {
         flex: 0 1 450px;

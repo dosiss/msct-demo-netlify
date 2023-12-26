@@ -1,5 +1,66 @@
 [
   {
+  "name": "Re Kill Ultimate",
+  "slug": "re-kill-ultimate",
+  "linkToDemo": "demo.mascot.games/run/re_kill_ultimate",
+  "theme": "video slot",
+  "type": " ",
+  "mgacertified": false,
+  "risknbuy": true,
+  "rockways": false,
+  "releaseDate": "2024-01-16",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_rekillu.jpeg",
+  "heroUrl": "hero_rekillu.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_rekillu.jpg",
+  "logoUrl": "logo_rekillu.png",
+  "backUrl": "back_rekillu.jpg",
+  "detailsImgUrl": "details_rekillu.png",
+  "stats": {
+    "reels": 5,
+    "rows": 4,
+    "volatility": " ",
+    "paylines": 40,
+    "payways": null,
+    "html5": true,
+    "rtp": " ",
+    "hitrate": " "
+  },
+  "features": [
+    {
+      "name": "Risk & Buy Feature: Risk",
+      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "imgUrl": "img-feat_rekillu-0.jpg"
+    },
+    {
+      "name": "Risk & Buy Feature: Buy",
+      "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+      "imgUrl": "img-feat_rekillu-1.jpg"
+    },
+    {
+      "name": "Random Wild Reels Feature",
+      "descr": "During each spin in the main game, up to 5 reels can become Wild Reels",
+      "imgUrl": "img-feat_rekillu-2.jpg"
+    },
+    {
+      "name": "Free Spins Feature",
+      "descr": "Up to 30 Free Spins with x2 multiplayer and Transformed Wilds Feature",
+      "imgUrl": "img-feat_rekillu-3.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Re Kill Ultimate, a video slot game by Mascot Gaming",
+      "descr": "Aim and fire with new Risk and Buy, Wild Reels and Free Spins."
+    }
+  },
+  {
   "name": "Wild Wild Bet",
   "slug": "wild-wild-bet",
   "linkToDemo": "demo.mascot.games/run/wild_wild_bet",

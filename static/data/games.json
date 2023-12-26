@@ -1,5 +1,66 @@
 [
   {
+  "name": "Re Kill Ultimate",
+  "slug": "re-kill-ultimate",
+  "linkToDemo": "demo.mascot.games/run/re_kill_ultimate",
+  "theme": "video slot",
+  "type": " ",
+  "mgacertified": false,
+  "risknbuy": true,
+  "rockways": false,
+  "releaseDate": "2024-01-16",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_rekillu.jpeg",
+  "heroUrl": "hero_rekillu.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_rekillu.jpg",
+  "logoUrl": "logo_rekillu.png",
+  "backUrl": "back_rekillu.jpg",
+  "detailsImgUrl": "details_rekillu.png",
+  "stats": {
+    "reels": 5,
+    "rows": 4,
+    "volatility": " ",
+    "paylines": 40,
+    "payways": null,
+    "html5": true,
+    "rtp": " ",
+    "hitrate": " "
+  },
+  "features": [
+    {
+      "name": "Risk & Buy Feature: Risk",
+      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "imgUrl": "img-feat_rekillu-0.jpg"
+    },
+    {
+      "name": "Risk & Buy Feature: Buy",
+      "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+      "imgUrl": "img-feat_rekillu-1.jpg"
+    },
+    {
+      "name": "Random Wild Reels Feature",
+      "descr": "During each spin in the main game, up to 5 reels can become Wild Reels",
+      "imgUrl": "img-feat_rekillu-2.jpg"
+    },
+    {
+      "name": "Free Spins Feature",
+      "descr": "Up to 30 Free Spins with x2 multiplayer and Transformed Wilds Feature",
+      "imgUrl": "img-feat_rekillu-3.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Re Kill Ultimate, a video slot game by Mascot Gaming",
+      "descr": "Aim and fire with new Risk and Buy, Wild Reels and Free Spins."
+    }
+  },
+  {
   "name": "Wild Wild Bet",
   "slug": "wild-wild-bet",
   "linkToDemo": "demo.mascot.games/run/wild_wild_bet",
@@ -167,6 +228,13 @@
       "imgUrl": "img-feat_infgifts-2.jpg"
     }
   ],
+  "articles": [
+    {
+      "title": "DemoSlot.com reviewed Christmas Infinite Gifts and Gryphon’s Castle Rush25",
+      "link": "https://mascot.games/blog/demoslot-com-reviewed-christmas-infinite-gifts-and-gryphons-castle-rush24",
+      "image": "img_blog_demoslots-review.jpg"
+    }
+  ],
     "meta": {
       "title": "Christmas Infinite Gifts, a video slot game by Mascot Gaming",
       "descr": "Captivating design and engaging mechanics promises a festive journey filled with delights and surprises."
@@ -231,6 +299,13 @@
       "name": "Free Spins",
       "descr": "Free Spins with a Special Expanding Symbol",
       "imgUrl": "img-feat_ankrockways-4.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Book of Anksunamun: Rockways, Game of the Month",
+      "link": "https://mascot.games/blog/book-of-anksunamun-rockways-game-of-the-month",
+      "image": "img_blog_ank-rockways-prize.jpg"
     }
   ],
     "meta": {
@@ -345,6 +420,13 @@
       "imgUrl": "img-feat_kraken-4.jpg"
     }
   ],
+  "articles": [
+    {
+      "title": "Reveal the Kraken - Editor`s Choice November 2023",
+      "link": "https://mascot.games/blog/reveal-the-kraken-editors-choice-november-2023",
+      "image": "img_blog_prize-kraken.jpg"
+    }
+  ],
     "meta": {
       "title": "Reveal the Kraken: a video slot game by Mascot Gaming",
       "descr": "Dive into the abyss with new Risk and Buy, and three types of Bonuses."
@@ -399,6 +481,13 @@
       "name": "Free Spins",
       "descr": "Up to 25 Free Spins with extra Free Spins",
       "imgUrl": "img-feat_hellowin-2.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Get spooky with Mascot Gaming: Hello Win! Review",
+      "link": "https://mascot.games/blog/get-spooky-with-mascot-gaming-hello-win-review",
+      "image": "img_blog_hellowin-main.jpg"
     }
   ],
     "meta": {
@@ -467,6 +556,13 @@
       "imgUrl": "img-feat_zeusdeluxe-4.jpg"
     }
   ],
+  "articles": [
+    {
+      "title": "Zeus the Thunderer Deluxe - A New Mighty Slot Game Review",
+      "link": "https://mascot.games/blog/zeus-the-thunderer-deluxe-a-new-mighty-slot-game-review",
+      "image": "img_blog_zeusdeluxe-main.jpg"
+    }
+  ],
     "meta": {
       "title": "Zeus the Thunderer Deluxe: video slot game by Mascot Gaming",
       "descr": "Ascend to Olympus with Zeus the Thunderer Deluxe. New Risk and Buy feature, 3 types of Free Spins Series with Sticky Symbols await!"
@@ -526,6 +622,18 @@
       "name": "Additional Free Spins",
       "descr": "3 central reels filled with sticky Gold Wild symbols award 3 additional Free Spins",
       "imgUrl": "img-feat_minotaur-3.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "title": "Minotaurs Wilds is the Slot Game of the Month",
+      "link": "https://mascot.games/blog/minotaurs-wilds-is-the-slot-game-of-the-month",
+      "image": "Oct_badge-minotaur.jpg"
+    },
+    {
+      "title": "Minotaurs Wilds - A New Mythological Slot Game Review",
+      "link": "https://mascot.games/blog/minotaurs-wilds-a-new-mythological-slot-game-review",
+      "image": "img_blog_minotaur-main.jpg"
     }
   ],
     "meta": {
@@ -589,6 +697,18 @@
       "imgUrl": "img-feat_pendragon-3.jpg"
     }
   ],
+  "articles": [
+    {
+      "title": "CasinoFreak.com picked The Pendragon Legend as their Editor`s Choice for September 2023",
+      "link": "https://mascot.games/blog/casinofreak-com-picked-the-pendragon-legend-as-editors-choice-for-september-2023",
+      "image": "img_blog_casinofreak-pendragon.jpg"
+    },
+    {
+      "title": "The Pendragon Legend - A New Magical Slot Review",
+      "link": "https://mascot.games/blog/the-pendragon-legend-a-new-magical-slot-review",
+      "image": "img_blog_pendragon-main.jpg"
+    }
+  ],
     "meta": {
       "title": "The Pendragon Legend: video slot game by Mascot Gaming",
       "descr": "The Pendragon Legend is the new slot game by Mascot Gaming with the new version of the legendary Risk and Buy feature."
@@ -650,6 +770,13 @@
         "imgUrl": "img-feat_phoenix-3.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Wild Phoenix Rises - A New Adventurous Slot Review",
+        "link": "https://mascot.games/blog/wild-phoenix-rises-a-new-adventurous-slot-review",
+        "image": "img_blog_phoenix-main2.jpg"
+      }
+    ],
     "meta": {
       "title": "Wild Phoenix Rises: video slot game by Mascot Gaming",
       "descr": "Wild Phoenix Rises is a new Mascot Gaming slot with a new version of the legendary Risk & Buy feature"
@@ -704,6 +831,18 @@
         "name": " ",
         "descr": "Up to 5 free bets with each launch",
         "imgUrl": "img-feat_lantern-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Mascot Gaming Lights the Way: Paper Lanterns Crash Game Review",
+        "link": "https://mascot.games/blog/mascot-gaming-lights-the-way-paper-lanterns-crash-game-review",
+        "image": "img_blog_lanterns-main.jpg"
+      },
+      {
+        "title": "Paper Lanterns Crash Game: a detailed review by GamblersConnect.com",
+        "link": "https://mascot.games/blog/paper-lanterns-crash-game-a-detailed-review-by-gamblersconnect-com",
+        "image": "img_blog_paperlanterns.jpg"
       }
     ],
     "meta": {
@@ -762,6 +901,13 @@
         "imgUrl": "img-feat_rocketchimp-21.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Rocket Up Into the Universe with Rocket Chimp Jackpot Slot",
+        "link": "https://mascot.games/blog/rocket-chimp-jackpot-new-space-themed-slot-by-mascot",
+        "image": "img_blog_chimp-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Rocket Chimp Jackpot: video slot game by Mascot Gaming",
       "descr": "Rocket Chimp Jackpot is a new Mascot Gaming slot with jackpot prize up to x10000"
@@ -818,6 +964,18 @@
         "imgUrl": "img-feat_bengunn-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Ben Gunn Robinson by Mascot Gaming is the Slot Game of July 2023",
+        "link": "https://mascot.games/blog/ben-gunn-robinson-is-the-slot-game-of-july-2023",
+        "image": "img_blog_chipy-bengunn.jpg"
+      },
+      {
+        "title": "Ben Gunn Robinson New Tropical Theme Slot Review",
+        "link": "https://mascot.games/blog/ben-gunn-robinson-new-tropical-theme-slot-review",
+        "image": "img_blog_bengunn-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Ben Gunn Robinson: video slot game by Mascot Gaming",
       "descr": "Ben Gunn Robinson is a new Mascot Gaming slot with Super Bonus and Gamble features."
@@ -872,6 +1030,13 @@
         "name": "Extra reel",
         "descr": "Big winnings with an extra reel in the bonus game",
         "imgUrl": "img-feat_fmmegabonus-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Fruit Machine: Megabonus - Get an Exhaustive New Game Review",
+        "link": "https://mascot.games/blog/fruit-machine-megabonus-get-an-exhaustive-new-game-review",
+        "image": "img_blog_fmmegabonus-main.jpg"
       }
     ],
     "meta": {
@@ -996,6 +1161,13 @@
         "imgUrl": "img-feat_easter-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Easter Luck Slot Review: Get the Festive Mood",
+        "link": "https://mascot.games/blog/easter-luck-slot-review-get-the-festive-mood",
+        "image": "img_blog_easter-main.jpg"
+      }
+    ],
     "meta": {
       "title": "EASTER LUCK: video slot game by Mascot Gaming",
       "descr": "EASTER LUCK is our new video slot on 3600 pay ways."
@@ -1049,6 +1221,13 @@
         "name": "Extra Free Spins",
         "descr": "Extra Free Spins can be won during the current series of Free Spins according to the general rules of the payout table",
         "imgUrl": "img-feat_fruitmachine-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Fruit Machine x25 - Amazing Representation of a Traditional Fruit Slot",
+        "link": "https://mascot.games/blog/fruit-machine-x25-new-mascot-gaming-release-reviewed",
+        "image": "img_blog_fruitmachine-main.jpg"
       }
     ],
     "meta": {
@@ -1168,6 +1347,13 @@
         "imgUrl": "img-feat_cleogems-1.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Cleopatra`s Gems Bingo - Full Review of Mascot`s New Game",
+        "link": "https://mascot.games/blog/cleopatras-gems-bingo-new-game-line-from-mascot",
+        "image": "img_blog_cleogems-main.jpg"
+      }
+    ],
     "meta": {
       "title": "CLEOPATRA'S GEMS BINGO, new bingo game from Mascot Gaming",
       "descr": "CLEOPATRA'S GEMS BINGO by Mascot Gaming, classic bingo game in a Egypt style."
@@ -1237,6 +1423,13 @@
         "name": "Rockways feature",
         "descr": "Each spin can bring up to 6 symbols on each reel. Each spin can bring up to 46,656 ways to win",
         "imgUrl": "img-feat_greenskins-5.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Greedy Greenskins Rockways by Mascot Gaming Analyzed",
+        "link": "https://mascot.games/blog/greedy-greenskins-rockways-by-mascot-gaming-analyzed",
+        "image": "img_blog_greenskins-main.jpg"
       }
     ],
     "meta": {
@@ -1351,6 +1544,13 @@
         "imgUrl": "img-feat_fiesta-3.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "La Fiesta de Muertos: Expert Review",
+        "link": "https://mascot.games/blog/la-fiesta-de-muertos-expert-review",
+        "image": "img_blog_fiesta-main.jpg"
+      }
+    ],
     "meta": {
       "title": "La Fiesta De Muertos video slot by Mascot Gaming",
       "descr": "La Fiesta De Muertos by Mascot Gaming is a video slot with Bonus Game and Sticky Respin feature."
@@ -1412,6 +1612,13 @@
         "imgUrl": "img-feat_wildlife-3.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "WildLife Riches - All Ins and Outs of Mascot Gaming New Slot",
+        "link": "https://mascot.games/blog/wildlife-riches-all-ins-and-outs-of-mascot-gaming-new-slot",
+        "image": "img_blog_wildlife-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Wildlife Riches video slot game by Mascot Gaming",
       "descr": "Wildlife Riches by Mascot Gaming is a video slot with Risk&Buy feature."
@@ -1471,6 +1678,13 @@
         "name": "Infinite Free Spins",
         "descr": "The series of Free Spins continues until a combination of Scatter Symbols that triggered it appears on the screen",
         "imgUrl": "img-feat_hydra-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "In-Depth Review of Hydra`s Lair by Mascot Casino Slots Developer",
+        "link": "https://mascot.games/blog/in-depth-review-of-hydras-lair-by-mascot-casino-slots-developer",
+        "image": "img_blog_hydra-main.jpg"
       }
     ],
     "meta": {
@@ -1600,6 +1814,13 @@
         "imgUrl": "img-feat_deepsea-5.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Deep Review of the Deepsea Riches By Mascot Gaming",
+        "link": "https://mascot.games/blog/deep-review-of-the-deepsea-riches-by-mascot-gaming",
+        "image": "img_blog_deepsea-main.jpg"
+      }
+    ],
     "meta": {
       "title": "DEEPSEA RICHES 3d slot game by Mascot Gaming",
       "descr": "DEEPSEA RICHES by Mascot Gaming is a 3d video slot with Rockfall mechanics and a legendary Risk&Buy Feature."
@@ -1659,6 +1880,13 @@
         "name": "New screen animation",
         "descr": "Each cell on the screen rolls as separate reel",
         "imgUrl": "img-feat_train-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Loot The Train: In-Depth Review",
+        "link": "https://mascot.games/blog/tempting-chase-for-gold-with-loot-the-train-by-mascot-gaming",
+        "image": "img_blog_train-main.jpg"
       }
     ],
     "meta": {
@@ -1737,6 +1965,13 @@
         "imgUrl": "img-feat_princess-6.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Insight Into The Princess & Dwarfs: Rockways",
+        "link": "https://mascot.games/blog/insight-into-the-princess-and-dwarfs-rockways",
+        "image": "img_blog_princess-main.jpg"
+      }
+    ],
     "meta": {
       "title": "The Princess & Dwarfs: Rockways slot game by Mascot Gaming",
       "descr": "The Princess & Dwarfs: Rockways from Mascot Gaming is a video slot with Bonus Game and Rockways and Rockfall mechanics."
@@ -1793,6 +2028,13 @@
         "imgUrl": "img-feat_fruitdisco-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Mega Stacks In-Depth Review for Mascot Gaming Fans",
+        "link": "https://mascot.games/blog/mega-stacks-in-depth-review-for-mascot-gaming-fans",
+        "image": "img_blog_megastacks-main.jpg"
+      }
+    ],
     "meta": {
       "title": "FRUIT DISCO: MEGASTACKS: video slot game by Mascot Gaming",
       "descr": "FRUIT DISCO: MEGASTACKS is our new video slot with Stacked Symbols feature."
@@ -1847,6 +2089,13 @@
         "name": "Win Multiplier",
         "descr": "Each win increases the win multiplier for the next spin from x1 to x5",
         "imgUrl": "img-feat_dtfruits-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Double Triple Fruits - The Fruit Party By Mascot Gaming Is Already Available",
+        "link": "https://mascot.games/blog/double-triple-fruits-video-slot-by-mascot-gaming-already-released",
+        "image": "img_blog_dtfruits-main.jpg"
       }
     ],
     "meta": {
@@ -1920,6 +2169,18 @@
         "imgUrl": "img-feat_riot2-5.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "RIOT2: BLOW AND BURN by Mascot Gaming receives Editor`s Pick award",
+        "link": "https://mascot.games/blog/riot-2-editors-pick-of-chipy-com-june-2022",
+        "image": "img_blog_riot2award-main.jpg"
+      },
+      {
+        "title": "RIOT 2: BLOW AND BURN - the game you have been waiting for",
+        "link": "https://mascot.games/blog/riot-2-blow-and-burn-long-awaited-sequel-to-the-legendary-slot",
+        "image": "img_blog_riot2-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Riot 2: Blow and Burn slot game by Mascot Gaming",
       "descr": "Riot 2: Blow and Burn from Mascot Gaming is a video slot game with RockFall mechanics and the famous Risk & Buy feature."
@@ -1979,6 +2240,18 @@
         "name": "Risk & Buy feature: Buy",
         "descr": "For non–winning bets, a player can Buy Free Spin series",
         "imgUrl": "img-feat_universe-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Across the Universe becomes an Editor`s Choice of CasinoFreak portal in April 2022",
+        "link": "https://mascot.games/blog/across-the-universe-becomes-an-editors-choice-of-casinofreak-portal",
+        "image": "img_blog_edchoice-main.jpg"
+      },
+      {
+        "title": "Across The Universe - your new favorite video slot",
+        "link": "https://mascot.games/blog/across-the-universe-your-new-favorite-video-slot",
+        "image": "img_blog_universe-main.jpg"
       }
     ],
     "meta": {
@@ -2045,6 +2318,18 @@
         "name": "Risk & Buy feature: Buy",
         "descr": "For non–winning bets, a player can Buy Free Spin series",
         "imgUrl": "img-feat_candycrush-4.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "The Candy Crush becomes a Slot of March in 2022!",
+        "link": "https://mascot.games/blog/candy-crush-becomes-game-of-the-month-march-2022",
+        "image": "SlotsMate-Badge_March_2022.png"
+      },
+      {
+        "title": "The Candy Crush - new release with Rockfall mechanics",
+        "link": "https://mascot.games/blog/the-candy-crush-new-release-with-rockfall-mechanics",
+        "image": "img_blog_candy-main.jpg"
       }
     ],
     "meta": {
@@ -2164,6 +2449,13 @@
         "imgUrl": "img-feat_fortherealm-4.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Signature features and 3D graphics - new FOR THE REALM release from Mascot Gaming",
+        "link": "https://mascot.games/blog/for-the-realm-unique-free-spins-mechanics-and-stunning-3d-visuals",
+        "image": "img_blog_realm-main.jpg"
+      }
+    ],
     "meta": {
       "title": "For The Realm video slot game by Mascot Gaming",
       "descr": "For The Realm is a fantasy slot game by Mascot Gaming with three different Free Spins series and exclusive Risk&Buy feature."
@@ -2235,6 +2527,13 @@
         "imgUrl": "img-feat_cleo-5.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Cleopatra`s Gems Rockways - the peak of slot machine game development",
+        "link": "https://mascot.games/blog/cleopatras-gems-rockways-long-awaited-second-release-with-innovative-feature-from-mascot",
+        "image": "img_blog_cleo-main.jpg"
+      }
+    ],
     "meta": {
       "title": "CLEOPATRA'S GEMS ROCKWAYS slot game by Mascot Gaming",
       "descr": "CLEOPATRA'S GEMS ROCKWAYS by Mascot Gaming is a video slot with RockWays and RockFall mechanics."
@@ -2284,6 +2583,13 @@
         "name": "Twin Reels feature",
         "descr": "From 2 to 5 neighbouring reels become “twins” every single spin, significantly increasing a chance to win at every spin",
         "imgUrl": "img-feat_santa-1.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Twin Fruits of Santa - high-quality festive gambling from Mascot Gaming",
+        "link": "https://mascot.games/blog/twin-fruits-of-santa-renowned-gameplay-features-with-new-theme",
+        "image": "img_blog_santa-main.jpg"
       }
     ],
     "meta": {
@@ -2350,6 +2656,13 @@
         "name": "Risk & Buy feature: Buy",
         "descr": "For non–winning bets, a player can Buy Free Spin series",
         "imgUrl": "img-feat_fairytale-4.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "FAIRYTALE COVEN: experience new features and exceptional atmosphere",
+        "link": "https://mascot.games/blog/fairytale-coven-experience-new-features",
+        "image": "img_blog_coven-main.jpg"
       }
     ],
     "meta": {
@@ -2423,6 +2736,13 @@
         "imgUrl": "img-feat_primalbet-5.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Try out new PRIMAL BET. ROCKWAYS slot on upcoming igaming events",
+        "link": "https://mascot.games/blog/primal-bet-rockways-new-game-mechanics-and-badass-dinosaurs",
+        "image": "img_blog_primalbet-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Primal Bet. Rockways slot game by Mascot Gaming",
       "descr": "Primal Bet. Rockways from Mascot Gaming is a video slot with RockWays and Rockfall mechanics."
@@ -2477,6 +2797,13 @@
         "name": "Free Respin Feature",
         "descr": "Expanding Wild symbol become Sticky and start the 1 free Respin. Wild symbol may start 1 free Respin up to 4 times",
         "imgUrl": "img-feat_aloha-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Aloha Tiki Bar - great atmosphere and top-notch gameplay",
+        "link": "https://mascot.games/blog/best-summer-vibes-with-aloha-tiki-bar-slot",
+        "image": "img_blog_aloha2-main.jpg"
       }
     ],
     "meta": {
@@ -2543,6 +2870,13 @@
         "name": "Risk & Buy feature: Buy",
         "descr": "For non–winning bets, a player can Buy Free Spin series",
         "imgUrl": "img-feat_evilbet-4.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Evil Bet - perfect option for slot games integration",
+        "link": "https://mascot.games/blog/evil-bet-unique-features-and-exciting-gameplay",
+        "image": "img_blog_evilbet-main.jpg"
       }
     ],
     "meta": {
@@ -2614,6 +2948,13 @@
         "name": "Additional Free Spins",
         "descr": "Extra free games can be won as often as their initial combinations appear",
         "imgUrl": "img-feat_pinup-5.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Pinup Dolls - the slot game from Mascot Gaming that has it all",
+        "link": "https://mascot.games/blog/pinup-dolls-the-slot-game-from-mascot-gaming",
+        "image": "img_blog_pinup-main.jpg"
       }
     ],
     "meta": {
@@ -2692,6 +3033,13 @@
         "imgUrl": "img-feat_dragonsnest-6.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Dragon`s Nest - more than just another innovative slot from Mascot Gaming",
+        "link": "https://mascot.games/blog/dragons-nest-slot-features",
+        "image": "img_blog-dragon-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Dragon's Nest video slot game by Mascot Gaming",
       "descr": "Dragon's Nest by Mascot Gaming is a video slot with a lot of different prizes and unique Risk&Buy feature."
@@ -2743,6 +3091,13 @@
         "imgUrl": "img-feat_luxor-1.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Fruits of Luxor - the representative of innovative slots by Mascot Gaming",
+        "link": "https://mascot.games/blog/fruits-of-luxor-an-in-depth-review",
+        "image": "img_blog_luxor-main.jpg"
+      }
+    ],
     "meta": {
       "title": "FRUITS OF LUXOR: video slot game from Mascot Gaming",
       "descr": "FRUITS OF LUXOR is our new video slot with Sticky Wilds & Respin feature."
@@ -2792,6 +3147,13 @@
         "name": "Twin Reels feature",
         "descr": "From 2 to 5 neighbouring reels become “twins” every single spin, significantly increasing a chance to win at every spin",
         "imgUrl": "img-feat_olymp-1.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "All you need to know about Twin Fruits of the Olympus",
+        "link": "https://mascot.games/blog/twin-fruits-of-the-olympus-review",
+        "image": "img_blog_olymp-main.jpg"
       }
     ],
     "meta": {
@@ -2865,6 +3227,13 @@
         "imgUrl": "img-feat_zeus-5.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Zeus The Thunderer by Mascot Gaming takes the market of casino games video slots by storm",
+        "link": "https://mascot.games/blog/zeus-the-thunderer-detailed-review",
+        "image": "img_blog_zeus-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Zeus The Thunderer video slot from Mascot Gaming",
       "descr": "Zeus The Thunderer from Mascot Gaming is a beautiful video slot with three types of Free Spins."
@@ -2929,6 +3298,13 @@
         "name": "Additional Free Spins",
         "descr": "Extra free games can be won as often as their initial combinations appear",
         "imgUrl": "img-feat_book-amaterasu-4.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "The Book of Amaterasu: Check Out One of the Newest Slots by Mascot Gaming",
+        "link": "https://mascot.games/blog/the-book-of-amaterasu-review",
+        "image": "img_blog_amaterasu-main.jpg"
       }
     ],
     "meta": {
@@ -3002,6 +3378,13 @@
         "imgUrl": "img-feat_mayan-5.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Mayan Riches Rockways - new release from Mascot Gaming",
+        "link": "https://mascot.games/blog/mayan-riches-rockways-the-new-hit-from-mascot-gaming",
+        "image": "img_blog_mayan-main.jpg"
+      }
+    ],
     "meta": {
       "title": "MAYAN RICHES ROCKWAYS slot game by Mascot Gaming",
       "descr": "MAYAN RICHES ROCKWAYS by Mascot Gaming is a video slot with RockWays and RockFall mechanics."
@@ -3071,6 +3454,18 @@
         "name": "Free Spins & Extra Free Spins",
         "descr": "Free Spins are triggered according to the general rules. They can be retriggered",
         "imgUrl": "img-feat_bastet-5.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Bastet and Cats Becomes a Slot of June in 2021!",
+        "link": "https://mascot.games/blog/bastet-and-cats-slot-of-the-month",
+        "image": "June_badge.png"
+      },
+      {
+        "title": "Bastet and Cats: One More Perl in the Collection of Mascot Gaming Slot Games",
+        "link": "https://mascot.games/blog/bastet-and-cats-slot-review",
+        "image": "img_blog_bastet-main.jpg"
       }
     ],
     "meta": {
@@ -3144,6 +3539,13 @@
         "imgUrl": "img-feat_myth-5.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "The Myth: A New Exciting Addition to the List of Slot Games by Mascot Gaming",
+        "link": "https://mascot.games/blog/the-myth-new-slot-game-by-mascot-gaming",
+        "image": "img_blog_myth-main.jpg"
+      }
+    ],
     "meta": {
       "title": "The Myth video slot game from Mascot Gaming",
       "descr": "The Myth from Mascot Gaming is a video slot with unique Risk&Buy feature. Go on an adventure with powerful Vikings!"
@@ -3203,6 +3605,13 @@
         "name": "Risk & Buy feature: Buy",
         "descr": "For non–winning bets, a player can Buy Free Spin series",
         "imgUrl": "img-feat_hellsing-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Rerun of the Top Game HELL`SING from a Great Casino Game Producer",
+        "link": "https://mascot.games/blog/rerun-of-hellsing-from-a-great-casino-game-producer",
+        "image": "img_blog_hellsing-rerun-main.jpg"
       }
     ],
     "meta": {
@@ -3274,6 +3683,13 @@
         "name": "3 Extra Free Spins with guaranteed winnings",
         "descr": "3 middle reels of identical Gold Wild symbols promise big winnings for additional Free Spins",
         "imgUrl": "img-feat_prince-5.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "A New Slot from One of the Top iGaming Software Providers: Checking out the Prince of Persia Slot",
+        "link": "https://mascot.games/blog/prince-of-persia-video-slot-review",
+        "image": "img_blog_prince-main.jpg"
       }
     ],
     "meta": {
@@ -3352,6 +3768,18 @@
         "imgUrl": "img-feat_christmas-6.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Merry Scary Christmas has been chosen Slot of Month in February 2021!",
+        "link": "https://mascot.games/blog/merry-scary-christmas-becomes-game-of-the-month-february-2021",
+        "image": "slotsmate_badge.png"
+      },
+      {
+        "title": "Merry Scary Christmas: The Collection of Unique Gambling Games by Mascot Gaming Has Been Updated Again",
+        "link": "https://mascot.games/blog/merry-scary-christmas-new-era-of-unique-gambling-games",
+        "image": "img_blog_xmas-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Merry Scary Christmas video slot game from Mascot Gaming",
       "descr": "Merry Scary Christmas from Mascot Gaming is a video slot with unique Risk&Buy feature. Ho Ho Ho Christmas is coming!"
@@ -3416,6 +3844,13 @@
         "name": "Risk & Buy feature: Buy",
         "descr": "For non-winning bets, a player can Buy Free Spin series",
         "imgUrl": "img-feat_corsairs-4.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Three Corsairs: Hitting the Ocean along with Brave Adventurers",
+        "link": "https://mascot.games/blog/three-corsairs-hitting-the-ocean",
+        "image": "img_blog_three-corsairs.jpg"
       }
     ],
     "meta": {
@@ -3555,6 +3990,13 @@
         "imgUrl": "img-feat_rekill-4.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Updating Our iGaming Software: A New Life of Re_Kill",
+        "link": "https://mascot.games/blog/new-life-of-rekill",
+        "image": "img_blog_rekill-main.jpg"
+      }
+    ],
     "meta": {
       "title": "REKILL, video slot game from Mascot Gaming",
       "descr": "REKILL is a video slot game on 5 reels full of zombies. If you brave enough try to stay alive...or say good bye to some of your body parts. Yummy!"
@@ -3611,6 +4053,13 @@
         "imgUrl": "img-feat_macau-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Fruit Slots by Top Casino Slot Developer: Double Review",
+        "link": "https://mascot.games/blog/fruit-slots-by-top-casino-slot-developer-double-review",
+        "image": "img_blog_fruitslots-main.jpg"
+      }
+    ],
     "meta": {
       "title": "FRUIT MACAU: video slot game from Mascot Gaming",
       "descr": "FRUIT MACAU is our new game with juicy fruits and plenty of new thrilling features. Open the second chapter of Mascot Gaming Fruit Trilogy!"
@@ -3665,6 +4114,13 @@
         "name": "Additional free spins",
         "descr": "Extra free games can be won as often as their initial combinations appear",
         "imgUrl": "img-feat_monaco-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Fruit Slots by Top Casino Slot Developer: Double Review",
+        "link": "https://mascot.games/blog/fruit-slots-by-top-casino-slot-developer-double-review",
+        "image": "img_blog_fruitslots-main.jpg"
       }
     ],
     "meta": {
@@ -3797,6 +4253,18 @@
         "name": "The survivors free spins",
         "descr": "The winning combination of 4 and more the Survivors gang character symbols awards The Survivors Free Spins feature with amount of Free Spins according to the paytable",
         "imgUrl": "img-feat_riot-4.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Mascot Gaming takes part in a massive tournament with Riot",
+        "link": "https://mascot.games/blog/mascot-gaming-takes-part-in-a-massive-tournament-with-riot",
+        "image": "tesla_lottery.jpg"
+      },
+      {
+        "title": "Riot by Mascot - the Game-Changer of Casino Games with Demo Available!",
+        "link": "https://mascot.games/blog/riot-by-mascot-casino-games-try-demo-and-enjoy",
+        "image": "img_blog_riot-main.jpg"
       }
     ],
     "meta": {
@@ -4257,6 +4725,13 @@
         "imgUrl": "img-feat_fruitvegas-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Fruit Slots by Top Casino Slot Developer: Double Review",
+        "link": "https://mascot.games/blog/fruit-slots-by-top-casino-slot-developer-double-review",
+        "image": "img_blog_fruitslots-main.jpg"
+      }
+    ],
     "meta": {
       "title": "FRUIT VEGAS: video slot game from Mascot Gaming",
       "descr": "FRUIT VEGAS is our new video slot with the atmosphere of the good old Vegas."
@@ -4657,6 +5132,13 @@
         "name": "Shooting Bonus feature",
         "descr": "Shooting Bonus will award a player with prize coins, increase current win or give Free Spins",
         "imgUrl": "img-feat_cancan-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "CanCan Saloon by Mascot Gaming: The Video Slot You Should Like!",
+        "link": "https://mascot.games/blog/cancansaloon-the-video-slot-of-wild-west",
+        "image": "img_blog_cancan-main.jpg"
       }
     ],
     "meta": {
