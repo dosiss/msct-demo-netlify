@@ -96,24 +96,24 @@
   },
   "features": [
     {
-      "name": "Gamble",
-      "descr": "The player can try to guess the higher card to double their winnings",
+      "name": "Apostas",
+      "descr": "O jogador pode tentar adivinhar a carta mais alta para dobrar seus ganhos",
       "imgUrl": "img-feat_wwbet-0.jpg"
     },
     {
-      "name": "Poker Hand",
-      "descr": "Bet line wins when a Poker hand is achieved",
+      "name": "Mão de pôquer",
+      "descr": "A linha de aposta ganha quando ao se conseguir uma mão de pôquer",
       "imgUrl": "img-feat_wwbet-1.jpg"
     },
     {
-      "name": "Free Deals",
-      "descr": "Up to 25 Free Deals with х3 multiplier and additional Free Deals",
+      "name": "Ofertas Grátis",
+      "descr": "Até 25 Ofertas Grátis com multiplicador de х3 e outras Ofertas Grátis adicionais",
       "imgUrl": "img-feat_wwbet-2.jpg"
     }
   ],
     "meta": {
-      "title": "Wild Wild Bet, a video slot game by Mascot Gaming",
-      "descr": "Poker meets slots with cowboys, saloon dancers, thrilling Free Dials with x3 multiplier, and a Gamble feature."
+      "title": "Wild Wild Bet, um jogo de caça-níqueis da Mascot Gaming",
+      "descr": "O pôquer se junta aos caça-níqueis com cowboys, dançarinas de bar, Ofertas Grátis com multiplicador x3 e um recurso de Apostas."
     }
   },
   {
@@ -191,7 +191,7 @@
   "topGame": false,
   "branded": false,
   "custom": false,
-  "descr": "Spin the reels, feel the cheer,\nChristmas magic is finally here.",
+  "descr": "Gire os tambores, sinta a alegria;\na magia do Natal finalmente chegou.",
   "thumbUrl": "game_infgifts.jpeg",
   "heroUrl": "hero_infgifts-4.jpg",
   "blueButtn": false,
