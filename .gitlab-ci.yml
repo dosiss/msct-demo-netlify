@@ -2,7 +2,10 @@ stages:
   - build
   - deploy
   - cleanup
-
+include:
+- project: 'infra/ci'
+  ref: master
+  file: build-test.yml
 variables:
   WERF_LOG_TERMINAL_WIDTH: 200
   GIT_DEPTH: 1

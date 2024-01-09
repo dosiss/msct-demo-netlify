@@ -9,6 +9,9 @@ deploy:
 
 image: app
 from: node:16.10.0-alpine
+{{- if eq (env "NOCACHE") "true" }}
+fromCacheVersion: "{{ env "CI_JOB_STARTED_AT" }}"
+{{- end }}
 shell:
   install:
     - cd /app
