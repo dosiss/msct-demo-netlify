@@ -1,58 +1,25 @@
 [
   {
-  "name": "Riobet challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Mascot Slot-Race \nPrize pool: 3000 EUR",
-  "url": "https://riobet.com/en/tournaments/15949040327",
-  "logoUrl": "partner_riobet.png"
-  },
-  {
-  "name": "Championslots challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Mascot`s Championship Cup \nPrize pool: 200 000 RUB",
-  "url": "https://championgames.xyz/tournaments/mascot_december2023",
-  "logoUrl": "partner_champion2.png"
-  },
-  {
-  "name": "Vipclub challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "League of the First from Mascot Gaming \nPrize pool: 200 000 RUB",
-  "url": "https://vipclub.win/tournaments/mascot_december2023",
-  "logoUrl": "partner_vipclub.png"
-  },
-  {
   "name": "FortuneJack challenge",
   "type": "promopartner",
   "top": false,
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "X-Race Tournament \nPrize pool: 5000 EUR",
-  "url": "https://fortunejack.com/tournaments/x-race-78695",
+  "promoText": "Mascot Race Tournament \nPrize pool: 7000 EUR",
+  "url": "https://fortunejack.com/tournaments/mascot-race-21127-41150",
   "logoUrl": "partner_fortunejack.png"
   },
   {
-  "name": "Abocasino challenge",
+  "name": "1win challenge",
   "type": "promopartner",
   "top": false,
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "The Grand Treasure Hunt \nPrize pool: 2000 EUR",
-  "url": "https://www.abocasino.com/the-grand-treasure-hunt",
-  "logoUrl": "partner_abocasino2.png"
+  "promoText": "The riches of the Emperor`s Tomb with Mascot Gaming \nPrize pool: 1000 EUR",
+  "url": "https://1win.pro/bonuses?modal=%7B%22name%22:%22modal-bonus-universal%22,%22props%22:%7B%22bonusId%22:594%7D%7D",
+  "logoUrl": "partner_1win.png"
   },
   {
     "name": "PariMatch",
