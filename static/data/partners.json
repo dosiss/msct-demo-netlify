@@ -2002,6 +2002,39 @@
     "logoUrl": "partner_insidecasino.png"
   },
   {
+    "name": "Giochi di slots",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.giochidislots.com/it/software-slot-machine/mascot-gaming",
+    "logoUrl": "partner_giochi.png"
+  },
+  {
+    "name": "Slot Mania",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.slotmania.it/software-slot-machine/mascot-gaming-2",
+    "logoUrl": "partner_slotmania2.png"
+  },
+  {
+    "name": "GamingInsider",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.gaminginsider.it/slot-machine/mascot-gaming",
+    "logoUrl": "partner_gaminginsider.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
