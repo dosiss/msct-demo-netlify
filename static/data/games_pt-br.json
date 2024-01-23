@@ -1,10 +1,66 @@
 [
   {
+  "name": "Dragon`s Lucky 25",
+  "slug": "dragons_lucky_25",
+  "linkToDemo": "demo.mascot.games/run/dragons_lucky_25",
+  "theme": "video slot",
+  "type": " ",
+  "mgacertified": false,
+  "risknbuy": false,
+  "rockways": false,
+  "releaseDate": "2024-01-30",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_lucky25.jpeg",
+  "heroUrl": "hero_lucky25.jpg",
+  "blueButtn": true,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_lucky25.jpg",
+  "logoUrl": "logo_lucky25.png",
+  "backUrl": "back_lucky25.jpg",
+  "detailsImgUrl": "details_lucky25.png",
+  "stats": {
+    "reels": 5,
+    "rows": 3,
+    "volatility": " ",
+    "paylines": 20,
+    "payways": null,
+    "html5": true,
+    "rtp": " ",
+    "hitrate": " "
+  },
+  "features": [
+    {
+      "name": "Risk Game",
+      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "imgUrl": "img-feat_lucky25-0.jpg"
+    },
+    {
+      "name": "Wild Symbol with a multiplayer",
+      "descr": "Winnings for combinations with the Wild Symbol are doubled",
+      "imgUrl": "img-feat_lucky25-1.jpg"
+    },
+    {
+      "name": "Free Spins",
+      "descr": "Free Spins with additional Free Spins and multiplayers from x3 up to x25",
+      "imgUrl": "img-feat_lucky25-2.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Dragon`s Lucky 25, a video slot game by Mascot Gaming",
+      "descr": "Channel your luck with Free Spins with a multiplier up x25."
+    }
+  },
+  {
   "name": "Re Kill Ultimate",
   "slug": "re-kill-ultimate",
   "linkToDemo": "demo.mascot.games/run/re_kill_ultimate",
   "theme": "video slot",
-  "type": " ",
+  "type": "profit",
   "mgacertified": false,
   "risknbuy": true,
   "rockways": false,
@@ -26,12 +82,12 @@
   "stats": {
     "reels": 5,
     "rows": 4,
-    "volatility": " ",
+    "volatility": "High",
     "paylines": 40,
     "payways": null,
     "html5": true,
-    "rtp": " ",
-    "hitrate": " "
+    "rtp": 95.4,
+    "hitrate": 32.2
   },
   "features": [
     {
@@ -53,6 +109,13 @@
       "name": "Free Spins Feature",
       "descr": "Up to 30 Free Spins with x2 multiplayer and Transformed Wilds Feature",
       "imgUrl": "img-feat_rekillu-3.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "title": "DEMOSLOT.COM REVIEWED WILD WILD BET AND RE KILL ULTIMATE",
+      "link": "https://mascot.games/blog/demoslot-com-reviewed-wild-wild-bet-and-re-kill-ultimate",
+      "image": "img_blog-www-demoslot.jpg"
     }
   ],
     "meta": {
