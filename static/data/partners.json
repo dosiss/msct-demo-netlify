@@ -1837,17 +1837,6 @@
     "logoUrl": "partner_bounty.png"
   },
   {
-    "name": "Fizzslots",
-    "type": "partner",
-    "top": false,
-    "casino": true,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://fizzslots.com/ru/poisk?provider=77&utm_source=mascotgaming&utm_medium=cpc&utm_campaign=website",
-    "logoUrl": "partner_fizzslots.png"
-  },
-  {
     "name": "Gold Rush Casino",
     "type": "partner",
     "top": false,
@@ -2033,6 +2022,17 @@
     "promoText": null,
     "url": "https://www.gaminginsider.it/slot-machine/mascot-gaming",
     "logoUrl": "partner_gaminginsider.png"
+  },
+  {
+    "name": "Geekspins",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://geekspins.io/games/software/mascot-gaming/",
+    "logoUrl": "partner_geekspins.png"
   },
   {
     "name": "Small Lui",

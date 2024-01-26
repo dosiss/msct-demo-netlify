@@ -138,6 +138,21 @@ export default {
         if(this.$route.query.type === "promo") {
           this.partnerFilterKey = "promo"
         };
+        if(this.$route.query.type === "top") {
+          this.partnerFilterKey = "top"
+        };
+        if(this.$route.query.type === "media") {
+          this.partnerFilterKey = "media"
+        };
+        if(this.$route.query.type === "casino") {
+          this.partnerFilterKey = "casino"
+        };
+        if(this.$route.query.type === "platform") {
+          this.partnerFilterKey = "platform"
+        };
+        if(this.$route.query.type === "streamers") {
+          this.partnerFilterKey = "streamers"
+        };
   },
 }
 
