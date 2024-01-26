@@ -6,7 +6,7 @@ heading: 'Interview with Murcielagos CF by Mascot Gaming'
 shortDescr: 'In Autumn 2023, Mascot Gaming, a prominent slot game company, stepped into a pivotal role as the general sponsor of Murcielagos CF, a football team competing in the TERCERA FFCV division. To gain deeper insights into this collaboration, we sat down with Arseniy Panferov, the President of Murcielagos CF, for an exclusive interview.'
 archiveDate: 2024-01-25
 ---
-MIn Autumn 2023, Mascot Gaming, a prominent slot game company, stepped into a pivotal role as the general sponsor of Murcielagos CF, a football team competing in the TERCERA FFCV division. 
+In Autumn 2023, Mascot Gaming, a prominent slot game company, stepped into a pivotal role as the general sponsor of Murcielagos CF, a football team competing in the TERCERA FFCV division. 
 
 
 
