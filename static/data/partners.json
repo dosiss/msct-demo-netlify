@@ -1,5 +1,16 @@
 [
   {
+  "name": "Fatpanda challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "65% + 60 FS \nfor Bamboo Bear",
+  "url": "https://fatpandacasino.com/en/promotions",
+  "logoUrl": "partner_fatpanda.png"
+  },
+  {
   "name": "FortuneJack challenge",
   "type": "promopartner",
   "top": false,

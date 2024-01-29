@@ -35,24 +35,24 @@
   },
   "features": [
     {
-      "name": "Risk Game",
-      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "name": "Juego de riesgo",
+      "descr": "Arriesga tus ganancias jugando al Juego de riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador",
       "imgUrl": "img-feat_lucky25-0.jpg"
     },
     {
-      "name": "Wild Symbol with a multiplayer",
-      "descr": "Winnings for combinations with the Wild Symbol are doubled",
+      "name": "Símbolo Wild con multiplicador",
+      "descr": "Se doblan las ganancias de las combinaciones con el símbolo Wild",
       "imgUrl": "img-feat_lucky25-1.jpg"
     },
     {
       "name": "Free Spins",
-      "descr": "Free Spins with additional Free Spins and multiplayers from x3 up to x25",
+      "descr": "Free Spins con Free Spins adicionales y multiplicadores desde x3 hasta x25",
       "imgUrl": "img-feat_lucky25-2.jpg"
     }
   ],
     "meta": {
-      "title": "Dragon`s Lucky 25, a video slot game by Mascot Gaming",
-      "descr": "Channel your luck with Free Spins with a multiplier up x25."
+      "title": "Dragon`s Lucky 25: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Mejora tus oportunidades con Free Spins con multiplicador de hasta x25"
     }
   },
   {
@@ -91,36 +91,36 @@
   },
   "features": [
     {
-      "name": "Risk & Buy Feature: Risk",
-      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "name": "Función Risk & Buy: Riesgo",
+      "descr": "Arriesga tus ganancias jugando al Juego de riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador",
       "imgUrl": "img-feat_rekillu-0.jpg"
     },
     {
-      "name": "Risk & Buy Feature: Buy",
-      "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+      "name": "Función Risk & Buy: Comprar",
+      "descr": "Compra cierta cantidad de Free Spins con las condiciones propuestas y al precio sugerido. Hay una oferta especial después de cada spin",
       "imgUrl": "img-feat_rekillu-1.jpg"
     },
     {
-      "name": "Random Wild Reels Feature",
-      "descr": "During each spin in the main game, up to 5 reels can become Wild Reels",
+      "name": "Función Random Wild Reels",
+      "descr": "Durante cada spin del juego principal, hasta 5 rodillos se pueden convertir en Wild Reels",
       "imgUrl": "img-feat_rekillu-21.jpg"
     },
     {
-      "name": "Free Spins Feature",
-      "descr": "10 Free Spins with up to x25 multiplayer and Transformed Wilds Feature",
+      "name": "Función Free Spins",
+      "descr": "10 Free spins con multiplicador de hasta x25 y la función Transformed Wilds",
       "imgUrl": "img-feat_rekillu-31.jpg"
     }
   ],
   "articles": [
     {
-      "title": "DEMOSLOT.COM REVIEWED WILD WILD BET AND RE KILL ULTIMATE",
+      "title": "DEMOSLOT.COM REVISÓ LA APUESTA WILD WILD Y RE KILL ULTIMATE",
       "link": "https://mascot.games/blog/demoslot-com-reviewed-wild-wild-bet-and-re-kill-ultimate",
       "image": "img_blog-www-demoslot.jpg"
     }
   ],
     "meta": {
-      "title": "Re Kill Ultimate, a video slot game by Mascot Gaming",
-      "descr": "Aim and fire with new Risk and Buy, Wild Reels and Free Spins."
+      "title": "Re Kill Ultimate: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Apunta y dispara con los nuevos Risk and Buy, Wild Reels y Free Spins."
     }
   },
   {
