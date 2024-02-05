@@ -2046,6 +2046,17 @@
     "logoUrl": "partner_geekspins.png"
   },
   {
+    "name": "Gamblizard",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://gamblizard.com/slot-sites/mascot-gaming/",
+    "logoUrl": "partner_gameblizard.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
