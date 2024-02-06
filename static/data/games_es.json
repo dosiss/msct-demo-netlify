@@ -1,5 +1,61 @@
 [
   {
+    "name": "CRASH, HAMSTER, CRASH!",
+    "slug": "crash-hamster-crash",
+    "linkToDemo": "demo.mascot.games/run/crash_hamster_crash",
+    "theme": "crash",
+    "type": " ",
+    "mgacertified": false,
+    "risknbuy": false,
+    "rockways": false,
+    "releaseDate": "2024-02-13",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_hamster.jpeg",
+    "heroUrl": "hero_hamster.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_hamster.jpg",
+    "logoUrl": "logo_hamster.png",
+    "backUrl": "back_hamster.jpg",
+    "detailsImgUrl": "details_hamster.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": " ",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Up to 3 hamsters on screen",
+        "descr": "Place 1 to 3 bets at the same time",
+        "imgUrl": "img-feat_hamster-0.jpg"
+      },
+      {
+        "name": "Growing win rate",
+        "descr": "Watch your winning rates grow and claim your winnings",
+        "imgUrl": "img-feat_hamster-1.jpg"
+      },
+      {
+        "name": "Fantastic prizes",
+        "descr": "Get winnings up to x5000",
+        "imgUrl": "img-feat_hamster-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Crash, Hamster, Crash!, a crash game by Mascot Gaming",
+      "descr": "Save adorable hamsters from aliens. Place from one to three bets and collect your winnings before the crash."
+    }
+  },
+  {
   "name": "Dragon`s Lucky 25",
   "slug": "dragons-lucky-25",
   "linkToDemo": "demo.mascot.games/run/dragons_lucky_25",
