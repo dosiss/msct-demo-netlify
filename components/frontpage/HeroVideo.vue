@@ -1,6 +1,13 @@
 <template>
   <div>
     <div v-if="$device.isMobile" class="static-wrapper">
+      <div class="vote-badge-mob">
+        <div class="vote-badge-mob__inner">
+          <img src="/images/prize-mobile.png" class="img-prize-mob" alt="" />
+          <div class="vote-badge__title">Best GameProvider 2024 at Sigma Eurasia Awards</div>
+          <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
+        </div>
+      </div>
         <div class="static-background">
             <div class="container">
                 <div class="top-header__wrap">
@@ -11,6 +18,13 @@
         </div>
     </div>
     <div v-else class="video-wrapper">
+      <div class="vote-badge-mob">
+        <div class="vote-badge-mob__inner">
+          <img src="/images/prize-mobile.png" class="img-prize-mob" alt="" />
+          <div class="vote-badge__title">Best GameProvider 2024 at Sigma Eurasia Awards</div>
+          <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
+        </div>
+      </div>
         <div class="video-background">
           <div class="vid">
             <video id="bgvideo" playsinline autoplay muted loop poster="/images/head_bastet_video.jpg"  width="1920" height="1080">
@@ -20,8 +34,19 @@
           </div>
           <div class="container">
               <div class="top-header__wrap">
+                <div class="top-header__left">
                     <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
                     <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl">{{ $t('Play our games') }}</a>
+                </div>
+                <div class="top-header__right">
+                  <div class="vote-badge">
+                    <img src="/images/sigma-eurasia.png" class="sigma-eu-logo" alt="" />
+                    <img src="/images/prize.png" class="img-prize" alt="" />
+                    <div class="vote-badge__title">Best GameProvider 2024</div>
+                    <div class="vote-badge__subtitle">at Sigma Eurasia Awards</div>
+                    <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
+                  </div>
+                </div>
               </div>
           </div>
 
@@ -153,6 +178,104 @@ export default {
     text-align: center;
       }
 
+  }
+}
+/* Prize badge styles */
+.top-header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  .top-header__left {
+    flex: 0 1 60%;
+  }
+  .top-header__right {
+    padding: 30px;
+    width: 345px;
+    border: 1px solid #03C000;
+    border-radius: 8px;
+    background: #000;
+    position: relative;
+    text-align: center;
+    margin: 20px 20px 0 20px;
+    .vote-badge {
+      .img-prize {
+        position: absolute;
+        top: -30px;
+        right: -2px;
+        width: 113px;
+      }
+      .vote-badge__title {
+        font-size: 1.5rem;
+        margin: 20px 0 5px;
+        font-weight: 500;
+      }
+      .vote-badge__subtitle {
+        font-size: 1.2rem;
+      }
+      .btn-vote {
+        font-size: 1.05rem;
+        font-weight: 700;
+        padding: 21px 20px;
+        margin-top: 20px;
+        background: #03C000;
+        border-radius: 12px;
+        display: block;
+        cursor: pointer;
+      }
+    }
+    @media (max-width: 980px) {
+      display: none
+    }
+  }
+}
+.vote-badge-mob {
+  display: none;
+  position: absolute;
+  top: 62px;
+  left: 0;
+  width: 100%;
+  background: #000;
+  padding: 15px 30px;
+  border: 1px solid #03C000;
+  border-radius: 8px;
+  z-index: 99;
+  .vote-badge-mob__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .img-prize-mob {
+      width: 160px;
+      height: auto;
+      @media (max-width: 540px) {
+        width: 100px
+      }
+    }
+    .vote-badge__title {
+      padding: 0 20px;
+      @media (max-width: 740px) {
+        display: none
+      }
+    }
+    .btn-vote {
+      font-weight: 700;
+      padding: 15px 30px;
+      background: #03C000;
+      border-radius: 12px;
+      cursor: pointer;
+      white-space: nowrap;
+      @media (max-width: 540px) {
+        font-size: .8rem;
+        padding: 10px 20px;
+
+      }
+    }
+  }
+  @media (max-width: 980px) {
+    display: block;
+  }
+  @media (max-width: 540px) {
+    padding: 10px 15px
   }
 }
 </style>
