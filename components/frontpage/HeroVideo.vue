@@ -4,7 +4,7 @@
       <div class="vote-badge-mob">
         <div class="vote-badge-mob__inner">
           <img src="/images/prize-mobile.png" class="img-prize-mob" alt="" />
-          <div class="vote-badge__title">Best GameProvider 2024 at Sigma Eurasia Awards</div>
+          <div class="vote-badge__title">Best Game Provider 2024 at Sigma Eurasia Awards</div>
           <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
         </div>
       </div>
@@ -21,7 +21,7 @@
       <div class="vote-badge-mob">
         <div class="vote-badge-mob__inner">
           <img src="/images/prize-mobile.png" class="img-prize-mob" alt="" />
-          <div class="vote-badge__title">Best GameProvider 2024 at Sigma Eurasia Awards</div>
+          <div class="vote-badge__title">Best Game Provider 2024 at Sigma Eurasia Awards</div>
           <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
         </div>
       </div>
@@ -42,7 +42,7 @@
                   <div class="vote-badge">
                     <img src="/images/sigma-eurasia.png" class="sigma-eu-logo" alt="" />
                     <img src="/images/prize.png" class="img-prize" alt="" />
-                    <div class="vote-badge__title">Best GameProvider 2024</div>
+                    <div class="vote-badge__title">Best Game Provider 2024</div>
                     <div class="vote-badge__subtitle">at Sigma Eurasia Awards</div>
                     <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
                   </div>

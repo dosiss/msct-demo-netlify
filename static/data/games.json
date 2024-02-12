@@ -106,6 +106,13 @@
       "imgUrl": "img-feat_lucky25-2.jpg"
     }
   ],
+  "articles": [
+    {
+      "title": "Celebrating Chinese New Year with Mascot Gaming: Dragon`s Lucky 25 Review",
+      "link": "https://mascot.games/blog/dragons-lucky-25-review",
+      "image": "img_blog_dragonslucky-main.jpg"
+    }
+  ],
     "meta": {
       "title": "Dragon`s Lucky 25, a video slot game by Mascot Gaming",
       "descr": "Channel your luck with Free Spins with a multiplier up x25."
@@ -4388,9 +4395,9 @@
     ],
     "articles": [
       {
-        "title": "Mascot Gaming takes part in a massive tournament with Riot",
-        "link": "https://mascot.games/blog/mascot-gaming-takes-part-in-a-massive-tournament-with-riot",
-        "image": "tesla_lottery.jpg"
+        "title": "New Release on Spotify: RIOT",
+        "link": "https://mascot.games/blog/new-release-on-spotify-riot",
+        "image": "img_blog_spotify-riot.jpg"
       },
       {
         "title": "Riot by Mascot - the Game-Changer of Casino Games with Demo Available!",
