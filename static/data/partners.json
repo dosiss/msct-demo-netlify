@@ -1,5 +1,16 @@
 [
   {
+  "name": "Realslots challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Турнир Real Slots \nPrize pool: 500.000 RUB",
+  "url": "https://realslots01.fun/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=website",
+  "logoUrl": "partner_realslots2.png"
+  },
+  {
   "name": "Fatpanda challenge",
   "type": "promopartner",
   "top": false,
@@ -1868,6 +1879,17 @@
     "promoText": null,
     "url": "https://joya.casino/#/casino?isPopular=false&isNew=false&category=&studio=Mascot",
     "logoUrl": "partner_joya.png"
+  },
+  {
+    "name": "Winz.io",
+    "type": "partner",
+    "top": true,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://winz.io",
+    "logoUrl": "partner_winz.png"
   },
   {
     "name": "lcb.org",
