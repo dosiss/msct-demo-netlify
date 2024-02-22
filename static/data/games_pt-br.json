@@ -96,24 +96,31 @@
     },
     "features": [
       {
-        "name": "Up to 3 hamsters on screen",
-        "descr": "Place 1 to 3 bets at the same time",
+        "name": "Até 3 hamsters na tela",
+        "descr": "Faça de 1 a 3 apostas simultaneamente",
         "imgUrl": "img-feat_hamster-0.jpg"
       },
       {
-        "name": "Growing win rate",
-        "descr": "Watch your winning rates grow and claim your winnings",
+        "name": "Taxa de ganho crescente",
+        "descr": "Observe suas taxas de ganhos crescerem e resgate seus ganhos",
         "imgUrl": "img-feat_hamster-1.jpg"
       },
       {
-        "name": "Fantastic prizes",
-        "descr": "Get winnings up to x5000",
+        "name": "Prêmios fantásticos",
+        "descr": "Consiga ganhos de até x5000",
         "imgUrl": "img-feat_hamster-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Demoslot.com reviewed Crash, Hamster, Crash and Dragon`s Lucky 25",
+        "link": "https://mascot.games/blog/Demoslot-com-reviewed-crash-hamster-crash-and-dragons-lucky-25",
+        "image": "img_blog-www-demoslot-crash.jpg"
+      }
+    ],
     "meta": {
-      "title": "Crash, Hamster, Crash!, a crash game by Mascot Gaming",
-      "descr": "Save adorable hamsters from aliens. Place from one to three bets and collect your winnings before the crash."
+      "title": "Crash, Hamster, Crash!, um crash game da Mascot Gaming",
+      "descr": "Salve adoráveis hamsters das mãos de alienígenas. Faça de uma a três apostas e receba seus ganhos antes da explosão."
     }
   },
   {
@@ -167,10 +174,22 @@
       "imgUrl": "img-feat_lucky25-2.jpg"
     }
   ],
-    "meta": {
-      "title": "Dragon`s Lucky 25, um caça-níqueis da Mascot Gaming",
-      "descr": "Canalize sua sorte com Free Spins com um multiplicador de até x25."
+  "articles": [
+    {
+      "title": "Celebrating Chinese New Year with Mascot Gaming: Dragon`s Lucky 25 Review",
+      "link": "https://mascot.games/blog/dragons-lucky-25-review",
+      "image": "img_blog_dragonslucky-main.jpg"
+    },
+    {
+      "title": "Demoslot.com reviewed Crash, Hamster, Crash and Dragon`s Lucky 25",
+      "link": "https://mascot.games/blog/Demoslot-com-reviewed-crash-hamster-crash-and-dragons-lucky-25",
+      "image": "img_blog-www-demoslot-crash.jpg"
     }
+  ],
+  "meta": {
+    "title": "Dragon`s Lucky 25, um caça-níqueis da Mascot Gaming",
+    "descr": "Canalize sua sorte com Free Spins com um multiplicador de até x25."
+  }
   },
   {
   "name": "Re Kill Ultimate",

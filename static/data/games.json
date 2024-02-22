@@ -111,6 +111,13 @@
         "imgUrl": "img-feat_hamster-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Demoslot.com reviewed Crash, Hamster, Crash and Dragon`s Lucky 25",
+        "link": "https://mascot.games/blog/Demoslot-com-reviewed-crash-hamster-crash-and-dragons-lucky-25",
+        "image": "img_blog-www-demoslot-crash.jpg"
+      }
+    ],
     "meta": {
       "title": "Crash, Hamster, Crash!, a crash game by Mascot Gaming",
       "descr": "Save adorable hamsters from aliens. Place from one to three bets and collect your winnings before the crash."
@@ -172,6 +179,11 @@
       "title": "Celebrating Chinese New Year with Mascot Gaming: Dragon`s Lucky 25 Review",
       "link": "https://mascot.games/blog/dragons-lucky-25-review",
       "image": "img_blog_dragonslucky-main.jpg"
+    },
+    {
+      "title": "Demoslot.com reviewed Crash, Hamster, Crash and Dragon`s Lucky 25",
+      "link": "https://mascot.games/blog/Demoslot-com-reviewed-crash-hamster-crash-and-dragons-lucky-25",
+      "image": "img_blog-www-demoslot-crash.jpg"
     }
   ],
     "meta": {
