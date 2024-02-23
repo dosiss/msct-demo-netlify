@@ -1,13 +1,13 @@
 <template>
   <div>
     <div v-if="$device.isMobile" class="static-wrapper">
-      <div class="vote-badge-mob">
+      <!-- <div class="vote-badge-mob">
         <div class="vote-badge-mob__inner">
           <img src="/images/prize-mobile.png" class="img-prize-mob" alt="" />
           <div class="vote-badge__title">Best Game Provider 2024 at Sigma Eurasia Awards</div>
           <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
         </div>
-      </div>
+      </div> -->
         <div class="static-background">
             <div class="container">
                 <div class="top-header__wrap">
@@ -18,13 +18,13 @@
         </div>
     </div>
     <div v-else class="video-wrapper">
-      <div class="vote-badge-mob">
-        <div class="vote-badge-mob__inner">
+      <!-- <div class="vote-badge-mob">
+         <div class="vote-badge-mob__inner">
           <img src="/images/prize-mobile.png" class="img-prize-mob" alt="" />
           <div class="vote-badge__title">Best Game Provider 2024 at Sigma Eurasia Awards</div>
           <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
         </div>
-      </div>
+      </div> -->
         <div class="video-background">
           <div class="vid">
             <video id="bgvideo" playsinline autoplay muted loop poster="/images/head_bastet_video.jpg"  width="1920" height="1080">
@@ -38,15 +38,15 @@
                     <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
                     <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl">{{ $t('Play our games') }}</a>
                 </div>
-                <div class="top-header__right">
-                  <div class="vote-badge">
+                <!-- <div class="top-header__right">
+                   <div class="vote-badge">
                     <img src="/images/sigma-eurasia.png" class="sigma-eu-logo" alt="" />
                     <img src="/images/prize.png" class="img-prize" alt="" />
                     <div class="vote-badge__title">Best Game Provider 2024</div>
                     <div class="vote-badge__subtitle">at Sigma Eurasia Awards</div>
                     <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
                   </div>
-                </div>
+                </div> -->
               </div>
           </div>
 
@@ -181,7 +181,7 @@ export default {
   }
 }
 /* Prize badge styles */
-.top-header__wrap {
+/*.top-header__wrap {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -278,4 +278,5 @@ export default {
     padding: 10px 15px
   }
 }
+*/
 </style>
