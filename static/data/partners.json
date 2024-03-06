@@ -440,17 +440,6 @@
     "logoUrl": "partner_nonstopbonus.png"
   },
   {
-    "name": "Casinosites.org",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://www.casinosites.org/blog/top-6-mascot-slots-games",
-    "logoUrl": "partner_casinosites.png"
-  },
-  {
     "name": "Slotsmate",
     "type": "media",
     "top": false,

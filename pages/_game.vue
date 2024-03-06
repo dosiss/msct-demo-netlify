@@ -1069,6 +1069,7 @@ export default {
           .content-img {
             height: 250px;
             background-size: cover;
+            background-position: top center;
           }
           &:before {
             position: absolute;
