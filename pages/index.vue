@@ -17,7 +17,7 @@
     </section>
       <BlogArticles />
       <LazySharingButtons />
-      <vue-lazy-load><AdBannerDubai /></vue-lazy-load>
+      <vue-lazy-load><AdBannerAfrica /></vue-lazy-load>
       <LazyMainFooter />
   </div>
 

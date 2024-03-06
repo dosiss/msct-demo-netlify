@@ -1,14 +1,14 @@
 [
   {
-  "name": "Realslots challenge",
+  "name": "Cas casino challenge",
   "type": "promopartner",
   "top": false,
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Турнир Real Slots \nPrize pool: 500.000 RUB",
-  "url": "https://realslots01.fun/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=website",
-  "logoUrl": "partner_realslots2.png"
+  "promoText": "Saturday Reload Bonus with Fruit Machine x25 \n55% up to 150 EUR + 55 FS",
+  "url": "https://kas.casino/de/promotions?promo=6",
+  "logoUrl": "partner_cascasino2.png"
   },
   {
   "name": "Fatpanda challenge",
@@ -20,28 +20,6 @@
   "promoText": "65% + 60 FS \nfor Bamboo Bear",
   "url": "https://fatpandacasino.com/en/promotions",
   "logoUrl": "partner_fatpanda.png"
-  },
-  {
-  "name": "FortuneJack challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Mascot Race Tournament \nPrize pool: 7000 EUR",
-  "url": "https://fortunejack.com/tournaments/mascot-race-21127-41150",
-  "logoUrl": "partner_fortunejack.png"
-  },
-  {
-  "name": "1win challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "The riches of the Emperor`s Tomb with Mascot Gaming \nPrize pool: 1000 EUR",
-  "url": "https://1win.pro/bonuses?modal=%7B%22name%22:%22modal-bonus-universal%22,%22props%22:%7B%22bonusId%22:594%7D%7D",
-  "logoUrl": "partner_1win.png"
   },
   {
     "name": "PariMatch",

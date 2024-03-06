@@ -18,7 +18,7 @@
       </div>
     </div>
     <SharingButtons />
-    <AdBannerDubai />
+    <AdBannerAfrica />
     <MainFooter />
   </div>
 </template>
