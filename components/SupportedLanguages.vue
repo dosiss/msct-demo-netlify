@@ -21,7 +21,7 @@
    data() {
      return {
 
-       countriesList: ['cn', 'fr', 'de', 'it', 'pt', 'es', 'tr', 'jp', 'ro', 'mt', 'ru', 'gb', 'ua'],
+       countriesList: ['cn', 'fr', 'de', 'it', 'pt', 'es', 'tr', 'jp', 'ro', 'mt', 'ru', 'gb', 'ua', 'bg'],
 
      }
    },

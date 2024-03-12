@@ -2046,6 +2046,17 @@
     "logoUrl": "partner_gameblizard.png"
   },
   {
+    "name": "Cryptolists",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.cryptolists.com/developers/mascotgaming/",
+    "logoUrl": "partner_cryptolists.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
