@@ -26,7 +26,7 @@
   "stats": {
     "reels": 5,
     "rows": 3,
-    "volatility": " ",
+    "volatility": "Med",
     "paylines": null,
     "payways": 243,
     "html5": true,
@@ -35,29 +35,29 @@
   },
   "features": [
     {
-      "name": "Risk Game",
-      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "name": "Jogo Arriscar",
+      "descr": "Arrisque seus ganhos jogando o Jogo Arriscar. Você pode aumentar seus ganhos por meio de um multiplicador de prêmios",
       "imgUrl": "img-feat_dreamshock-0.jpg"
     },
     {
-      "name": "Scatter Feature",
-      "descr": "Each Scatter Symbol adds Free Spins to the free spins accumulation scale or increases the jackpot prize multiplier",
+      "name": "Recurso Scatter",
+      "descr": "Cada símbolo Scatter adiciona Free Spins à escala de acúmulo de Free Spins ou aumenta o multiplier do prêmio do jackpot",
       "imgUrl": "img-feat_dreamshock-1.jpg"
     },
     {
       "name": "Free Spins",
-      "descr": "When the accumulation scale fills up, the player receives Free Spins with the Jackpot Feature",
+      "descr": "Quando a escala de acúmulo é preenchida, o jogador recebe Free Spins com o Recurso Jackpot",
       "imgUrl": "img-feat_dreamshock-2.jpg"
     },
     {
-      "name": "Jackpot Feature",
-      "descr": "During Free Spins, Scatter Symbols can give a jackpot prize up to x10000",
+      "name": "Recurso Jackpot",
+      "descr": "Durante os Free Spins, os símbolos Scatter podem oferecer um prêmio de jackpot de até x10000",
       "imgUrl": "img-feat_dreamshock-3.jpg"
     }
   ],
     "meta": {
-      "title": "Dreamshock: Jackpot X, a video slot game by Mascot Gaming",
-      "descr": "The electrifying new reality awaits with Free Spins, Jackpot Feature and a Risk Game."
+      "title": "Dreamshock: Jackpot X é um jogo de caça-níqueis on-line da Mascot Gaming",
+      "descr": "Essa nova realidade eletrizante está te esperando com Free Spins, recurso Jackpot e um jogo Arriscar."
     }
   },
   {

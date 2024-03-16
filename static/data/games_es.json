@@ -26,7 +26,7 @@
   "stats": {
     "reels": 5,
     "rows": 3,
-    "volatility": " ",
+    "volatility": "Med",
     "paylines": null,
     "payways": 243,
     "html5": true,
@@ -35,29 +35,29 @@
   },
   "features": [
     {
-      "name": "Risk Game",
-      "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+      "name": "Juego de riesgo",
+      "descr": "Arriesga tus ganancias jugando al Juego de riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador",
       "imgUrl": "img-feat_dreamshock-0.jpg"
     },
     {
-      "name": "Scatter Feature",
-      "descr": "Each Scatter Symbol adds Free Spins to the free spins accumulation scale or increases the jackpot prize multiplier",
+      "name": "Función Scatter",
+      "descr": "Cada símbolo Scatter añade Free Spins a la escala de acumulación de free spins o aumenta el multiplicador del bote",
       "imgUrl": "img-feat_dreamshock-1.jpg"
     },
     {
       "name": "Free Spins",
-      "descr": "When the accumulation scale fills up, the player receives Free Spins with the Jackpot Feature",
+      "descr": "Cuando se llene la escala de acumulación, el jugador recibirá Free Spins con la función Jackpot",
       "imgUrl": "img-feat_dreamshock-2.jpg"
     },
     {
-      "name": "Jackpot Feature",
-      "descr": "During Free Spins, Scatter Symbols can give a jackpot prize up to x10000",
+      "name": "Función Jackpot",
+      "descr": "Los símbolos Scatter que aparecen durante los Free Spins pueden hacerte ganar un bote de hasta x10 000",
       "imgUrl": "img-feat_dreamshock-3.jpg"
     }
   ],
     "meta": {
-      "title": "Dreamshock: Jackpot X, a video slot game by Mascot Gaming",
-      "descr": "The electrifying new reality awaits with Free Spins, Jackpot Feature and a Risk Game."
+      "title": "Dreamshock: Jackpot X: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Una nueva realidad electrificante te espera con Free Spins, la función Jackpot y el Juego de riesgo."
     }
   },
   {

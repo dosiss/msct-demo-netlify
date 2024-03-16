@@ -1,5 +1,27 @@
 [
   {
+  "name": "Prizeslots challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "No deposit tournament \nPrize pool: 300.000 RUB",
+  "url": "https://prizeslots41.fun/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=tournament",
+  "logoUrl": "partner_prizeslots.png"
+  },
+  {
+  "name": "Hotline challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Spring Fest Tournament \nPrize pool: 2 000 EUR",
+  "url": "https://htlne.com/tournaments/Spring_Fest/2024-03-13%2016:00:00/2024-03-29%2016:00:00",
+  "logoUrl": "partner_hotline.png"
+  },
+  {
   "name": "Cas casino challenge",
   "type": "promopartner",
   "top": false,
@@ -1857,6 +1879,17 @@
     "promoText": null,
     "url": "https://winz.io",
     "logoUrl": "partner_winz.png"
+  },
+  {
+    "name": "Magic betting",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.magicbettingcasino.be/en/games/play/899/aloha_tiki_bar_dice?demo=true",
+    "logoUrl": "partner_magicbetting2.png"
   },
   {
     "name": "lcb.org",
