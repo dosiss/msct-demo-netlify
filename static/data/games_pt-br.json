@@ -1,5 +1,56 @@
 [
   {
+  "name": "Yukon Fever",
+  "slug": "yukon-fever",
+  "linkToDemo": "demo.mascot.games/run/yukon_fever",
+  "theme": "video slot",
+  "type": " ",
+  "mgacertified": false,
+  "risknbuy": false,
+  "rockways": false,
+  "releaseDate": "2024-03-26",
+  "featured": false,
+  "topGame": false,
+  "branded": false,
+  "custom": false,
+  "descr": " ",
+  "thumbUrl": "game_yukon.jpeg",
+  "heroUrl": "hero_yukon.jpg",
+  "blueButtn": false,
+  "videoUrl": null,
+  "videoEnabled": false,
+  "placeholderUrl": "video_yukon.jpg",
+  "logoUrl": "logo_yukon.png",
+  "backUrl": "back_yukon.jpg",
+  "detailsImgUrl": "details_yukon.png",
+  "stats": {
+    "reels": 5,
+    "rows": 3,
+    "volatility": " ",
+    "paylines": 5,
+    "payways": null,
+    "html5": true,
+    "rtp": " ",
+    "hitrate": " "
+  },
+  "features": [
+    {
+      "name": "Transformed Wilds",
+      "descr": "Up to 7 symbols can turn into Wild Symbols",
+      "imgUrl": "img-feat_yukon-0.jpg"
+    },
+    {
+      "name": "Gamble",
+      "descr": "Guess the highest card and get a win multiplier",
+      "imgUrl": "img-feat_yukon-1.jpg"
+    }
+  ],
+    "meta": {
+      "title": "Yukon Fever, a video slot game by Mascot Gaming",
+      "descr": "Experience the thrill of the gold rush with Transformed Wilds and Gamble Feature."
+    }
+  },
+  {
   "name": "Dreamshock: Jackpot X",
   "slug": "dreamshock-jackpot-x",
   "linkToDemo": "demo.mascot.games/run/dreamshock_jackpot_x",

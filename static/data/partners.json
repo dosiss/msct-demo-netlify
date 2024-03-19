@@ -1,5 +1,16 @@
 [
   {
+  "name": "Riobet challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Mascot Slot-Race \nPrize pool: 3 000 EUR",
+  "url": "https://r-xtadc.com/ru/tournaments/17745920002",
+  "logoUrl": "partner_riobet.png"
+  },
+  {
   "name": "Prizeslots challenge",
   "type": "promopartner",
   "top": false,
@@ -28,7 +39,7 @@
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Saturday Reload Bonus with Fruit Machine x25 \n55% up to 150 EUR + 55 FS",
+  "promoText": "Saturday Reload Bonus with Wild Wild Bet \n55% up to 150 EUR + 55 FS",
   "url": "https://kas.casino/de/promotions?promo=6",
   "logoUrl": "partner_cascasino2.png"
   },

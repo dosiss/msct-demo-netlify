@@ -331,10 +331,11 @@ import allGamesPT from '../../static/data/games_pt-br.json'
         }
         img {
           max-height: 220px;
+          max-width: 400px;
           position: relative;
           z-index: 99;
           @media (max-width: 850px) {
-            max-height: 200px;
+            max-height: 250px;
           }
         }
         p {
@@ -569,7 +570,8 @@ import allGamesPT from '../../static/data/games_pt-br.json'
             width: 100%;
           }
           img {
-            max-width: 200px
+            max-width: 250px;
+
           }
         }
       }
