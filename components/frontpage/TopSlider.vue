@@ -109,7 +109,9 @@ import allGames from '../../static/data/games.json'
 
 //      }
     gamesTopSlider() {
-      return allGames.filter(val => (val.custom !== true && val.branded !== true))
+//      return allGames.filter(val => (val.custom !== true && val.branded !== true))
+      return allGames.filter(val => (val.custom !== true))
+
     }
 
     },

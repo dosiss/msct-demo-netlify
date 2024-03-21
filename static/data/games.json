@@ -1,5 +1,117 @@
 [
   {
+    "name": "Admiral X Fruit Machine",
+    "slug": "admiral-x-fruit-machine",
+    "linkToDemo": "demo.mascot.games/run/admiral_x_fruit_machine",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "risknbuy": false,
+    "releaseDate": "2024-03-28",
+    "featured": false,
+    "topGame": false,
+    "branded": true,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_admiralxfruit.jpeg",
+    "heroUrl": "hero_admiralxfruit.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_admiralxfruit.jpg",
+    "logoUrl": "logo_admiralxfruit.png",
+    "backUrl": "back_admiralxfruit.jpg",
+    "detailsImgUrl": "details_admiralxfruit.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.3,
+      "hitrate": 20.9
+    },
+    "features": [
+      {
+        "name": "Wild Symbol with Multiplier",
+        "descr": "Combinations with Wild Symbol are paid with a multiplier of x2",
+        "imgUrl": "img-feat_fruitmachine-0.jpg"
+      },
+      {
+        "name": "Free Spins Feature",
+        "descr": "Free Spin Series with additional free spins, with multipliers from x3 to x25!",
+        "imgUrl": "img-feat_fruitmachine-1.jpg"
+      },
+      {
+        "name": "Extra Free Spins",
+        "descr": "Extra Free Spins can be won during the current series of Free Spins according to the general rules of the payout table",
+        "imgUrl": "img-feat_fruitmachine-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Admiral X Fruit Machine, a branded video slot game by Mascot Gaming",
+      "descr": "Become the master of the fruits in this special slot game."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Azino Fruit Machine x25",
+    "slug": "azino-fruit-machine-x25",
+    "linkToDemo": "demo.mascot.games/run/azino_fruit_machine_x25",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "risknbuy": false,
+    "releaseDate": "2024-03-28",
+    "featured":false,
+    "topGame": false,
+    "branded": true,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_azinofruit.jpeg",
+    "heroUrl": "hero_azinofruit.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_azinofruit.jpg",
+    "logoUrl": "logo_azinofruit.png",
+    "backUrl": "back_azinofruit.jpg",
+    "detailsImgUrl": "details_azinofruit.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.3,
+      "hitrate": 20.9
+    },
+    "features": [
+      {
+        "name": "Wild Symbol with Multiplier",
+        "descr": "Combinations with Wild Symbol are paid with a multiplier of x2",
+        "imgUrl": "img-feat_fruitmachine-0.jpg"
+      },
+      {
+        "name": "Free Spins Feature",
+        "descr": "Free Spin Series with additional free spins, with multipliers from x3 to x25!",
+        "imgUrl": "img-feat_fruitmachine-1.jpg"
+      },
+      {
+        "name": "Extra Free Spins",
+        "descr": "Extra Free Spins can be won during the current series of Free Spins according to the general rules of the payout table",
+        "imgUrl": "img-feat_fruitmachine-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Azino Fruit Machine x25, a branded video slot game by Mascot Gaming",
+      "descr": "Take charge of the fruits in this special slot game."
+    },
+    "rockways": false
+  },
+  {
   "name": "Yukon Fever",
   "slug": "yukon-fever",
   "linkToDemo": "demo.mascot.games/run/yukon_fever",
