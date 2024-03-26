@@ -1,5 +1,16 @@
 [
   {
+  "name": "1win challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Hamster rescue mission from UFOs \nPrize pool: 1 000 EUR",
+  "url": "https://1wxgji.life/bonuses?modal=%7B%22name%22:%22modal-bonus-universal%22,%22props%22:%7B%22bonusId%22:833%7D%7D",
+  "logoUrl": "partner_1win.png"
+  },
+  {
   "name": "Riobet challenge",
   "type": "promopartner",
   "top": false,
@@ -429,17 +440,6 @@
     "logoUrl": "partner_machineslotonline.png"
   },
   {
-    "name": "Casino Daddy",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://casinodaddy.com/game-providers/mascot-gaming-online-casinos/#introduction-to-mascot-gaming-online-casinos",
-    "logoUrl": "partner_casinodaddy.png"
-  },
-  {
     "name": "Nonstopbonus.com",
     "type": "media",
     "top": false,
@@ -735,17 +735,6 @@
     "promoText": null,
     "url": "https://www.synotinteractive.com/customers/",
     "logoUrl": "partner_synot.png"
-  },
-  {
-    "name": "Gamblizard",
-    "type": "partner",
-    "top": false,
-    "casino": false,
-    "platform": true,
-    "promo": false,
-    "promoText": null,
-    "url": "https://gamblizard.com/slot-sites/mascot-gaming/",
-    "logoUrl": "partner_gamblizard.png"
   },
   {
     "name": "7bit",
@@ -1991,17 +1980,6 @@
     "logoUrl": "partner_slotsjudge.png"
   },
   {
-    "name": "Gamingreport",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://www.gamingreport.it/software/mascot-gaming",
-    "logoUrl": "partner_gamingreport.png"
-  },
-  {
     "name": "Clash of Slots",
     "type": "media",
     "top": false,
@@ -2046,39 +2024,6 @@
     "logoUrl": "partner_giochi.png"
   },
   {
-    "name": "Slot Mania",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://www.slotmania.it/software-slot-machine/mascot-gaming-2",
-    "logoUrl": "partner_slotmania2.png"
-  },
-  {
-    "name": "GamingInsider",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://www.gaminginsider.it/slot-machine/mascot-gaming",
-    "logoUrl": "partner_gaminginsider.png"
-  },
-  {
-    "name": "Geekspins",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://geekspins.io/games/software/mascot-gaming/",
-    "logoUrl": "partner_geekspins.png"
-  },
-  {
     "name": "Gamblizard",
     "type": "media",
     "top": false,
@@ -2099,6 +2044,17 @@
     "promoText": null,
     "url": "https://www.cryptolists.com/developers/mascotgaming/",
     "logoUrl": "partner_cryptolists.png"
+  },
+  {
+    "name": "Casino.ru",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casino.ru/mascot/",
+    "logoUrl": "partner_casinoru.png"
   },
   {
     "name": "Small Lui",
