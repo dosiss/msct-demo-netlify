@@ -9,8 +9,11 @@
         </div>
         <div class="game-title__right">
           <div class="game-title__right-content">
-            <div class="button-wrap">
+            <div v-if="currentGame.comingSoon === false" class="button-wrap">
               <a :href="`https://${currentGame.linkToDemo}`" class="buttn buttn-colored buttn-xl">{{$t('Play demo')}}</a>
+            </div>
+            <div v-else class="button-wrap">
+              <div class="buttn buttn-colored buttn-disabled buttn-xl">{{$t('Coming Soon')}}</div>
             </div>
           </div>
         </div>
@@ -31,8 +34,11 @@
                 </div>
                 <div class="game-title__right">
                   <div class="game-title__right-content">
-                    <div class="button-wrap">
+                    <div v-if="currentGame.comingSoon === false" class="button-wrap">
                       <a :href="`${demoUrl}${locPath}/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">{{$t('Play demo')}}</a>
+                    </div>
+                    <div v-else class="button-wrap">
+                      <div class="buttn buttn-colored buttn-disabled buttn-xl">{{$t('Coming Soon')}}</div>
                     </div>
                   </div>
                 </div>
@@ -49,8 +55,11 @@
             </div>
             <div class="game-title__right">
               <div class="game-title__right-content">
-                <div class="button-wrap">
-                  <a  :href="`${demoUrl}${locPath}/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">{{$t('Play demo')}}</a>
+                <div v-if="currentGame.comingSoon === false" class="button-wrap">
+                  <a :href="`${demoUrl}${locPath}/${currentGame.slug}`" :class="{ 'buttn-blue': currentGame.blueButtn == true }" class="buttn buttn-colored buttn-xl">{{$t('Play demo')}}</a>
+                </div>
+                <div v-else class="button-wrap">
+                  <div class="buttn buttn-colored buttn-disabled buttn-xl">{{$t('Coming Soon')}}</div>
                 </div>
               </div>
             </div>
@@ -60,7 +69,7 @@
     </header>
 
     <div class="main">
-      <div class="screenshots-carousel__wrap">
+      <div v-if="currentGame.comingSoon === false" class="screenshots-carousel__wrap">
 
         <div v-swiper:mySwiper3="swiperOption">
           <div id="lightgallery" class="swiper-wrapper">
@@ -98,7 +107,7 @@
 
 
       <div class="game-meta__outer container">
-        <div class="game-meta__wrap">
+        <div v-if="currentGame.comingSoon === false" class="game-meta__wrap">
           <div class="hairline"></div>
           <div class="icons__outer">
             <div class="icons__wrap">
@@ -171,7 +180,7 @@
         </div>
       </div>
       <PlayWithPartners />
-      <div class="features__outer container">
+      <div v-if="currentGame.features.length" class="features__outer container">
         <div class="features__wrap">
           <h2 class="features__head game-subtitle">{{$t('Game Features')}}</h2>
           <div class="features__content-wrap">
@@ -290,9 +299,9 @@
 
 <script>
 
-import allGames from '../static/data/games.json'
-import allGamesES from '../static/data/games_es.json'
-import allGamesPT from '../static/data/games_pt-br.json'
+import allGames from '../static/data/games-all.json'
+import allGamesES from '../static/data/games_es-all.json'
+import allGamesPT from '../static/data/games_pt-br-all.json'
 
 
 export default {

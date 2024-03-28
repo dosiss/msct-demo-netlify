@@ -1,4 +1,4 @@
-import data from './static/data/games.json'
+import data from './static/data/games-all.json'
 let dynamicRoutes = () => {
   return new Promise(resolve => {
     resolve(data.map(el => `/${el.slug}`))

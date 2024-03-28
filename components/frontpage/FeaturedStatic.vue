@@ -113,9 +113,9 @@
 </template>
 
 <script>
-import allGames from '../../static/data/games.json'
-import allGamesES from '../../static/data/games_es.json'
-import allGamesPT from '../../static/data/games_pt-br.json'
+import allGames from '../../static/data/games-all.json'
+import allGamesES from '../../static/data/games_es-all.json'
+import allGamesPT from '../../static/data/games_pt-br-all.json'
 
 
   export default {

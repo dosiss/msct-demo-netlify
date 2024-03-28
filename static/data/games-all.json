@@ -533,68 +533,6 @@
     }
   },
   {
-    "name": "Dreamshock: Jackpot X",
-    "slug": "dreamshock-jackpot-x",
-    "linkToDemo": "demo.mascot.games/run/dreamshock_jackpot_x",
-    "theme": "video slot",
-    "type": " ",
-    "mgacertified": false,
-    "risknbuy": false,
-    "rockways": false,
-    "comingSoon": false,
-    "releaseDate": "2024-02-27",
-    "featured": true,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": "Through cyber streets and hologram hues,\nWe chase the jackpot, no time to lose.",
-    "thumbUrl": "game_dreamshock.jpeg",
-    "heroUrl": "hero_dreamshock.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_dreamshock.jpg",
-    "logoUrl": "logo_dreamshock.png",
-    "backUrl": "back_dreamshock.jpg",
-    "detailsImgUrl": "details_dreamshock.png",
-    "stats": {
-      "reels": 5,
-      "rows": 3,
-      "volatility": "Med",
-      "paylines": null,
-      "payways": 243,
-      "html5": true,
-      "rtp": " ",
-      "hitrate": " "
-    },
-    "features": [
-      {
-        "name": "Risk Game",
-        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
-        "imgUrl": "img-feat_dreamshock-0.jpg"
-      },
-      {
-        "name": "Scatter Feature",
-        "descr": "Each Scatter Symbol adds Free Spins to the free spins accumulation scale or increases the jackpot prize multiplier",
-        "imgUrl": "img-feat_dreamshock-1.jpg"
-      },
-      {
-        "name": "Free Spins",
-        "descr": "When the accumulation scale fills up, the player receives Free Spins with the Jackpot Feature",
-        "imgUrl": "img-feat_dreamshock-2.jpg"
-      },
-      {
-        "name": "Jackpot Feature",
-        "descr": "During Free Spins, Scatter Symbols can give a jackpot prize up to x10000",
-        "imgUrl": "img-feat_dreamshock-3.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Dreamshock: Jackpot X, a video slot game by Mascot Gaming",
-      "descr": "The electrifying new reality awaits with Free Spins, Jackpot Feature and a Risk Game."
-    }
-  },
-  {
     "name": "CRASH, HAMSTER, CRASH!",
     "slug": "crash-hamster-crash",
     "linkToDemo": "demo.mascot.games/run/crash_hamster_crash",
@@ -661,6 +599,68 @@
     "meta": {
       "title": "Crash, Hamster, Crash!, a crash game by Mascot Gaming",
       "descr": "Save adorable hamsters from aliens. Place from one to three bets and collect your winnings before the crash."
+    }
+  },
+  {
+    "name": "Dreamshock: Jackpot X",
+    "slug": "dreamshock-jackpot-x",
+    "linkToDemo": "demo.mascot.games/run/dreamshock_jackpot_x",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2024-02-27",
+    "featured": true,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": "Through cyber streets and hologram hues,\nWe chase the jackpot, no time to lose.",
+    "thumbUrl": "game_dreamshock.jpeg",
+    "heroUrl": "hero_dreamshock.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_dreamshock.jpg",
+    "logoUrl": "logo_dreamshock.png",
+    "backUrl": "back_dreamshock.jpg",
+    "detailsImgUrl": "details_dreamshock.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 243,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Risk Game",
+        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_dreamshock-0.jpg"
+      },
+      {
+        "name": "Scatter Feature",
+        "descr": "Each Scatter Symbol adds Free Spins to the free spins accumulation scale or increases the jackpot prize multiplier",
+        "imgUrl": "img-feat_dreamshock-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "When the accumulation scale fills up, the player receives Free Spins with the Jackpot Feature",
+        "imgUrl": "img-feat_dreamshock-2.jpg"
+      },
+      {
+        "name": "Jackpot Feature",
+        "descr": "During Free Spins, Scatter Symbols can give a jackpot prize up to x10000",
+        "imgUrl": "img-feat_dreamshock-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Dreamshock: Jackpot X, a video slot game by Mascot Gaming",
+      "descr": "The electrifying new reality awaits with Free Spins, Jackpot Feature and a Risk Game."
     }
   },
   {

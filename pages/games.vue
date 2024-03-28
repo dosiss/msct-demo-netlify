@@ -12,6 +12,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 18"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8.875 14.25a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm7.5 1.5-3.263-3.263"/></svg>
                 <span>{{$t('Search')}}</span>
               </button>
+              <button :class="{ active: gameFilterKey == 'comingsoon' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'comingsoon'">{{$t('Coming Soon')}}</button>
               <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'top'">{{$t('Тор games')}} - {{gamesCountItem("topGame")}}</button>
               <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'traffic'">{{$t('Traffic-generating games')}} - {{gamesCountType("traffic")}}</button>
               <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">{{$t('Profit-making games')}} - {{gamesCountType("profit")}}</button>
@@ -47,20 +48,24 @@
                   <div class="game-content__wrap">
                     <div class="game-content__buttns">
                       <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? $t('More') : $t('Learn more') }}</NuxtLink>
-                      <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
-                        {{$t('Play demo')}}
-                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                      </a>
-                      <a v-else :href="`${demoUrl}${locPath}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
-                        {{$t('Play demo')}}
-                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                      </a>
+                      <div v-if="game.comingSoon === true" class="buttn buttn-secondary buttn-disabled buttn-sm">{{ $t('Coming soon') }}</div>
+                      <div v-else>
+                        <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
+                          {{$t('Play demo')}}
+                          <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                        </a>
+                        <a v-else :href="`${demoUrl}${locPath}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                          {{$t('Play demo')}}
+                          <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                        </a>
+                      </div>
                     </div>
                   </div>
+                  <div v-if="game.comingSoon === true" class="coming-soon-badge">Coming soon</div>
                 </div>
               </div>
             </div>
@@ -79,20 +84,24 @@
                   <div class="game-content__wrap">
                     <div class="game-content__buttns">
                       <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? $t('More') : $t('Learn more') }}</NuxtLink>
-                      <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
-                        {{$t('Play demo')}}
-                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                      </a>
-                      <a v-else :href="`${demoUrl}${locPath}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
-                        {{$t('Play demo')}}
-                        <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                      </a>
+                      <div v-if="game.comingSoon === true" class="buttn buttn-secondary buttn-disabled buttn-sm">{{ $t('Coming soon') }}</div>
+                      <div v-else>
+                        <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
+                          {{$t('Play demo')}}
+                          <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                        </a>
+                        <a v-else :href="`${demoUrl}${locPath}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                          {{$t('Play demo')}}
+                          <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                        </a>
+                      </div>
                     </div>
                   </div>
+                  <div v-if="game.comingSoon === true" class="coming-soon-badge">Coming soon</div>
                 </div>
               </div>
             </div>
@@ -113,7 +122,7 @@ import VLazyImage from "v-lazy-image/v2";
 
 import VueLazyLoad from '@voorhoede/vue-lazy-load';
 
-import allGames from '../static/data/games.json'
+import allGames from '../static/data/games-all.json'
 
 export default {
 
@@ -176,6 +185,9 @@ export default {
       },
       top() {
         return allGames.filter((game) => game.topGame === true)
+      },
+      comingsoon() {
+        return allGames.filter((game) => game.comingSoon === true)
       },
       videoslots() {
         return allGames.filter((game) => game.theme === "video slot")
@@ -249,6 +261,9 @@ export default {
         };
         if(this.$route.query.type === "top") {
           this.gameFilterKey = "top"
+        };
+        if(this.$route.query.type === "comingsoon") {
+          this.gameFilterKey = "comingsoon"
         };
         if(this.$route.query.type === "videoslots") {
           this.gameFilterKey = "videoslots"
@@ -374,7 +389,7 @@ export default {
     margin-bottom: 0;
     justify-content: space-between;
     @media (min-width: 1980px) {
-      width: 2200px
+      width: 2340px
     }
     @media (max-width: 1979px) {
       padding-left: 35px;
@@ -391,7 +406,7 @@ export default {
     }
 
     .buttn {
-      width: 110px;
+      width: 119px;
       margin-right: 10px;
       &:not(:first-child) {
         width: fit-content
@@ -435,25 +450,25 @@ export default {
     }
     .buttn {
       .lang-es & {
-        width: 160px;
+        width: 170px;
         &:not(:first-child) {
           width: fit-content
         }
       }
     }
     .lang-es & {
-      width: 2310px
+      width: 2470px
     }
     .buttn {
       .lang-pt & {
-        width: 145px;
+        width: 152px;
         &:not(:first-child) {
           width: fit-content
         }
       }
     }
     .lang-pt & {
-      width: 2200px
+      width: 2340px
     }
   }
   .search__wrap {
@@ -591,6 +606,16 @@ export default {
           img {
             border-radius: 12px
           }
+          .coming-soon-badge {
+            position: absolute;
+            width: 100%;
+            background: #000000d6;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 7px;
+            bottom: 0;
+            z-index: 2
+          }
         }
       }
       .game-content__wrap {
@@ -668,6 +693,16 @@ export default {
           padding: 10px;
           .game-thumbnail__inner {
             position: relative;
+            .coming-soon-badge {
+              position: absolute;
+              width: 100%;
+              background: #000000d6;
+              text-align: center;
+              text-transform: uppercase;
+              padding: 7px;
+              bottom: 0;
+              z-index: 2
+            }
             .game-thumbnail__img {
               border-radius: 12px;
               -webkit-mask-image: -webkit-radial-gradient(white, black);
@@ -711,7 +746,7 @@ export default {
             z-index: 1;
             margin: 0 40px 40px /* 0 10px 10px buttons v1 */;
             @media (max-width: 650px) {
-            margin: 0 10px 10px
+            margin: 0 10px 40px
             }
           }
         }

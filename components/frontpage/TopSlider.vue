@@ -11,7 +11,7 @@
   <div class="slider-outer">
   <div v-swiper:mySwiper="swiperOption">
     <div class="swiper-wrapper">
-      <div v-for="(game, idx) in gamesTopSlider.slice(0,7)" :key="idx" class="swiper-slide game-thumbnail">
+      <div v-for="(game, idx) in gamesTopSlider.slice(0,7)" :key="idx" class="swiper-slide game-thumbnail" :class="`comingsoon-${game.comingSoon}`">
         <div class="game-thumbnail__outer">
           <div class="game-thumbnail__inner">
           <v-lazy-image :src="`/images/${game.thumbUrl}`" :src-placeholder="`images/lowres/${game.thumbUrl}`" :alt="`${game.name}`" />
@@ -19,20 +19,24 @@
             <div class="game-content__buttns">
               <!-- <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $t('Learn more') }}</NuxtLink> -->
               <NuxtLink :to="localeLocation( {path: `/${game.slug}`} )" class="buttn buttn-secondary buttn-sm">{{ $t('Learn more') }}</NuxtLink>
-              <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
-                {{ $t('Play demo') }}
-                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </a>
-              <a v-else :href="`${demoUrl}${locPath}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
-                {{ $t('Play demo') }}
-                <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </a>
+              <div v-if="game.comingSoon === true" class="buttn buttn-secondary buttn-disabled buttn-sm">{{ $t('Coming soon') }}</div>
+              <div v-else>
+                <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
+                  {{ $t('Play demo') }}
+                  <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+                <a v-else :href="`${demoUrl}${locPath}/${game.slug}`" class="buttn buttn-colored buttn-m buttn-icon">
+                  {{ $t('Play demo') }}
+                  <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L7 7L1 13" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
+          <div v-if="game.comingSoon === true" class="coming-soon-badge">Coming soon</div>
         </div>
       </div>
       </div>
@@ -48,7 +52,7 @@
 <script>
 import VLazyImage from "v-lazy-image/v2";
 
-import allGames from '../../static/data/games.json'
+import allGames from '../../static/data/games-all.json'
   export default {
 
 
@@ -159,6 +163,15 @@ import allGames from '../../static/data/games.json'
         padding: 8px 0;
         .game-thumbnail__inner {
           position: relative;
+          .coming-soon-badge {
+            position: absolute;
+            width: 100%;
+            background: #000000d6;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 7px;
+            bottom: 0
+          }
         }
       }
       .game-content__wrap {
