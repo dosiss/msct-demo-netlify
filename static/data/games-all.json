@@ -1,5 +1,77 @@
 [
   {
+    "name": "The Candy Slot Deluxe",
+    "slug": "the-candy-slot-deluxe",
+    "linkToDemo": "demo.mascot.games/run/the_candy_slot_deluxe",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "risknbuy": true,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2024-04-09",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": "In a realm where sweet delights and colors mesh,\nThe Candy Slot Deluxe spins a sugary caress.",
+    "thumbUrl": "game_candyslotd.jpeg",
+    "heroUrl": "hero_candyslotd.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_candyslotd.jpg",
+    "logoUrl": "logo_candyslotd.png",
+    "backUrl": "back_candyslotd.jpg",
+    "detailsImgUrl": "details_candyslotd.png",
+    "stats": {
+      "reels": 6,
+      "rows": 5,
+      "volatility": " ",
+      "paylines": null,
+      "payways": 15625,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_candyslotd-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_candyslotd-1.jpg"
+      },
+      {
+        "name": "Random Feature",
+        "descr": "During a random spin in the base game and during each spin in Free Spins, special symbols are added to the screen",
+        "imgUrl": "img-feat_candyslotd-2.jpg"
+      },
+      {
+        "name": "Coin Feature",
+        "descr": "Bonus symbols trigger Coin Feature, where each Bonus symbol awards prize coins",
+        "imgUrl": "img-feat_candyslotd-3.jpg"
+      },
+      {
+        "name": "Free Spins with Extra Free Spins",
+        "descr": "Scatter Symbols award Free Spins with the opportunity to win additional Free Spins",
+        "imgUrl": "img-feat_candyslotd-4.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "All winning symbols disappear and are replaced with new ones",
+        "imgUrl": "img-feat_candyslotd-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "The Candy Slot, a video slot game by Mascot Gaming",
+      "descr": "The most delicious sweets are served with Risk and Buy, Free Spins, Random and Coin features."
+    }
+  },
+  {
     "name": "Ice Number One",
     "slug": "ice-number-one",
     "linkToDemo": " ",
@@ -295,73 +367,6 @@
     ],
     "meta": {
       "title": "Mist, video slot game by Mascot Gaming",
-      "descr": " "
-    },
-    "rockways": false
-  },
-  {
-    "name": "The Candy Slot Deluxe",
-    "slug": "the-candy-slot-deluxe",
-    "linkToDemo": " ",
-    "theme": "video slot",
-    "type": " ",
-    "mgacertified": false,
-    "risknbuy": true,
-    "comingSoon": true,
-    "releaseDate": "2024-04-09",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_candyslotd.jpeg",
-    "heroUrl": "hero_candyslotd.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_candyslotd.jpg",
-    "logoUrl": "logo_candyslotd.png",
-    "backUrl": "back_candyslotd.jpg",
-    "detailsImgUrl": "details_candyslotd.png",
-    "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
-      "payways": null,
-      "html5": true,
-      "rtp": " ",
-      "hitrate": " "
-    },
-    "features": [
-      {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
-        "imgUrl": "img-feat_candyslotd-0.jpg"
-      },
-      {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
-        "imgUrl": "img-feat_candyslotd-1.jpg"
-      },
-      {
-        "name": "Random Feature",
-        "descr": "During a random spin in the base game and during each spin in Free Spins, special symbols are added to the screen",
-        "imgUrl": "img-feat_candyslotd-2.jpg"
-      },
-      {
-        "name": "Coin Feature",
-        "descr": "Bonus symbols trigger Coin Feature, where each Bonus symbol awards prize coins",
-        "imgUrl": "img-feat_candyslotd-3.jpg"
-      },
-      {
-        "name": "Free Spins with Extra Free Spins",
-        "descr": "Scatter Symbols award Free Spins with the opportunity to win additional Free Spins",
-        "imgUrl": "img-feat_candyslotd-4.jpg"
-      }
-    ],
-    "meta": {
-      "title": "The Candy Slot Deluxe, video slot game by Mascot Gaming",
       "descr": " "
     },
     "rockways": false

@@ -5,7 +5,7 @@
             <div class="getgames-stats__wrap">
               <div class="getgames-stats__item">
                 <div class="getgames-stats__item-numbers">
-                  <nuxt-img src="/images/icon-crown@2x.png" alt="" /><span>12</span>
+                  <nuxt-img src="/images/icon-crown@2x.png" alt="" /><span>30+</span>
                 </div>
                 <div class="getgames-stats__item-descr">{{$t('Games')}}<br />{{$t('Per Year')}}</div>
               </div>
