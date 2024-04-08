@@ -1,13 +1,12 @@
 <template>
   <div>
     <div v-if="$device.isMobile" class="static-wrapper">
-      <!-- <div class="vote-badge-mob">
+      <div class="vote-badge-mob">
         <div class="vote-badge-mob__inner">
-          <img src="/images/prize-mobile.png" class="img-prize-mob" alt="" />
-          <div class="vote-badge__title">Best Game Provider 2024 at Sigma Eurasia Awards</div>
-          <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
+          <img src="/images/affpapa-prize-mobile.png" class="img-prize-mob" alt="" />
+          <a href="https://affpapa.com/igaming-awards-2024-voting/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
         </div>
-      </div> -->
+      </div>
         <div class="static-background">
             <div class="container">
                 <div class="top-header__wrap">
@@ -18,13 +17,17 @@
         </div>
     </div>
     <div v-else class="video-wrapper">
-      <!-- <div class="vote-badge-mob">
+       <div class="vote-badge-mob">
          <div class="vote-badge-mob__inner">
-          <img src="/images/prize-mobile.png" class="img-prize-mob" alt="" />
-          <div class="vote-badge__title">Best Game Provider 2024 at Sigma Eurasia Awards</div>
-          <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
+          <img src="/images/affpapa-prize-mobile.png" class="img-prize-mob" alt="" />
+          <div class="vote-badge__title">
+            <p><strong>We are nominated</strong></p>
+            <p><strong>Game Provider of the Year</strong></p>
+            <p>27th of May | Malaga, Spain</p>
+          </div>
+          <a href="https://affpapa.com/igaming-awards-2024-voting/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
         </div>
-      </div> -->
+      </div>
         <div class="video-background">
           <div class="vid">
             <video id="bgvideo" playsinline autoplay muted loop poster="/images/head_mix2_video.jpg"  width="1920" height="1080">
@@ -38,15 +41,16 @@
                     <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
                     <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl">{{ $t('Play our games') }}</a>
                 </div>
-                <!-- <div class="top-header__right">
+                <div class="top-header__right">
                    <div class="vote-badge">
-                    <img src="/images/sigma-eurasia.png" class="sigma-eu-logo" alt="" />
+                    <img src="/images/affpapa-logo2.png" class="sigma-eu-logo" alt="" />
                     <img src="/images/prize.png" class="img-prize" alt="" />
-                    <div class="vote-badge__title">Best Game Provider 2024</div>
-                    <div class="vote-badge__subtitle">at Sigma Eurasia Awards</div>
-                    <a href="https://sigma.world/eurasia/awards/vote/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
+                    <div class="vote-badge__title">We are nominated</div>
+                    <div class="vote-badge__title">Game Provider of the Year</div>
+                    <div class="vote-badge__subtitle">27th of May | Malaga, Spain</div>
+                    <a href="https://affpapa.com/igaming-awards-2024-voting/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
                   </div>
-                </div> -->
+                </div>
               </div>
           </div>
 
@@ -181,7 +185,7 @@ export default {
   }
 }
 /* Prize badge styles */
-/*.top-header__wrap {
+.top-header__wrap {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -190,7 +194,7 @@ export default {
     flex: 0 1 60%;
   }
   .top-header__right {
-    padding: 30px;
+    padding: 40px 30px 30px;
     width: 345px;
     border: 1px solid #03C000;
     border-radius: 8px;
@@ -201,14 +205,14 @@ export default {
     .vote-badge {
       .img-prize {
         position: absolute;
-        top: -30px;
+        top: -52px;
         right: -2px;
         width: 113px;
       }
       .vote-badge__title {
-        font-size: 1.5rem;
-        margin: 20px 0 5px;
-        font-weight: 500;
+        font-size: 1.3rem;
+        margin: 5px 0 5px;
+        font-weight: 700;
       }
       .vote-badge__subtitle {
         font-size: 1.2rem;
@@ -253,8 +257,14 @@ export default {
     }
     .vote-badge__title {
       padding: 0 20px;
+      text-align: center;
       @media (max-width: 740px) {
         display: none
+      }
+      p {
+        strong {
+          font-weight: 700
+        }
       }
     }
     .btn-vote {
@@ -278,5 +288,4 @@ export default {
     padding: 10px 15px
   }
 }
-*/
 </style>

@@ -1,25 +1,14 @@
 [
   {
-  "name": "1win challenge",
+  "name": "Hotline challenge",
   "type": "promopartner",
   "top": false,
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Hamster rescue mission from UFOs \nPrize pool: 1 000 EUR",
-  "url": "https://1wxgji.life/bonuses?modal=%7B%22name%22:%22modal-bonus-universal%22,%22props%22:%7B%22bonusId%22:833%7D%7D",
-  "logoUrl": "partner_1win.png"
-  },
-  {
-  "name": "Riobet challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Mascot Slot-Race \nPrize pool: 3 000 EUR",
-  "url": "https://r-xtadc.com/ru/tournaments/17745920002",
-  "logoUrl": "partner_riobet.png"
+  "promoText": "Rich Rise Tournament \nPrize pool: 1 000 EUR",
+  "url": "https://htlne.com/tournaments/RichRise/2024-04-03%2016:00:00/2024-04-17%2016:00:00",
+  "logoUrl": "partner_hotline.png"
   },
   {
   "name": "Prizeslots challenge",
@@ -31,28 +20,6 @@
   "promoText": "No deposit tournament \nPrize pool: 300.000 RUB",
   "url": "https://prizeslots41.fun/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=tournament",
   "logoUrl": "partner_prizeslots.png"
-  },
-  {
-  "name": "Hotline challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Spring Fest Tournament \nPrize pool: 2 000 EUR",
-  "url": "https://htlne.com/tournaments/Spring_Fest/2024-03-13%2016:00:00/2024-03-29%2016:00:00",
-  "logoUrl": "partner_hotline.png"
-  },
-  {
-  "name": "Cas casino challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Saturday Reload Bonus with Wild Wild Bet \n55% up to 150 EUR + 55 FS",
-  "url": "https://kas.casino/de/promotions?promo=6",
-  "logoUrl": "partner_cascasino2.png"
   },
   {
   "name": "Fatpanda challenge",

@@ -261,7 +261,7 @@
       <SupportedLanguages />
 
       <h2 v-if="currentGame.articles" class="related-posts__head container">{{$t('Media')}}</h2>
-      <div class="related-posts container">
+      <div class="related-posts">
           <!-- <div v-if="relatedArticles.length" class="related-posts__group">
             <div v-for="article in relatedArticles" :key="article.slug" class="related-post__item">
               <div class="related-post__item-inner">
@@ -275,7 +275,7 @@
               </div>
             </div>
           </div> -->
-          <div v-if="currentGame.articles" class="related-posts__wrap">
+          <!-- <div v-if="currentGame.articles" class="related-posts__wrap">
               <div v-for="(extarticle, idx) in currentGame.articles" :key="idx" class="related-post__item">
                 <div class="related-post__item-inner">
                   <a :href="`${extarticle.link}`" target="_blank" rel="dofollow">
@@ -287,8 +287,8 @@
                   </a>
                 </div>
               </div>
-          </div>
-
+          </div> -->
+          <MediaSlider />
     </div>
 
     </div>
@@ -1034,8 +1034,9 @@ export default {
   .related-posts {
 
     padding-bottom: 100px;
+    padding-top: 60px;
     @media (max-width: 650px) {
-      padding-top: 60px;
+      padding-top: 40px;
       padding-bottom: 0;
     }
     .related-posts__wrap {
