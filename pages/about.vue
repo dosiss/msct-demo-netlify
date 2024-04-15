@@ -6,7 +6,7 @@
       <div class="container container-narrow">
         <h1>{{$t('About Us')}}</h1>
         <article>
-          <nuxt-img src="/images/img_team.jpg" sizes="sm:480px md:998px" alt="" />
+          <nuxt-img src="/images/img_team2.jpg" sizes="sm:480px md:998px" alt="" />
           <p>{{$t('Mascot Gaming is more than just a casino software developer; it`s a team of enthusiastic professionals that strive to deliver customers an outstanding gambling experience.')}}</p>
           <p>{{$t('Since 2015, Mascot Gaming has been dedicated to developing the perfect gaming experience. Feel the thrill of every spin - your entertainment is our passion! With new and future projects, we aim to have a more conservative approach. It’s more beneficial for us to improve our most popular and well-known games than it is to pursue multiple business opportunities at once. Although we introduce new game mechanisms and features frequently, we do so carefully and carry out thorough tests beforehand. We see ourselves becoming a future market leader and a gambling industry headliner.')}}</p>
           <p>{{$t('Just like all software, iGaming constantly grows and evolves. At Mascot, we’re strong believers of getting the important things right. For us, that means maximising players’ involvement and building strong relationships with our partners. We’re currently focusing on improving visuals, developing new game mechanics and looking into the social aspects of gaming.')}}</p>

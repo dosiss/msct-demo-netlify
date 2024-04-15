@@ -2024,6 +2024,17 @@
     "logoUrl": "partner_casinoru.png"
   },
   {
+    "name": "Gamblizard",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://gamblizard.de/",
+    "logoUrl": "partner_gamblizard-de.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
