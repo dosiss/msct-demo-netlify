@@ -245,12 +245,12 @@
   {
     "name": "Mist",
     "slug": "mist",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/mist",
     "theme": "video slot",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-04-23",
     "featured": false,
     "topGame": false,
@@ -267,10 +267,10 @@
     "backUrl": "back_mist.jpg",
     "detailsImgUrl": "details_mist.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 10,
       "payways": null,
       "html5": true,
       "rtp": " ",
@@ -284,18 +284,18 @@
       },
       {
         "name": "Free Respins",
-        "descr": "During Free Respins, the win multipliers can increase up to x273",
+        "descr": "During Free Respins, the win multipliers can increase up to x27",
         "imgUrl": "img-feat_mist-1.jpg"
       },
       {
-        "name": "Payouts in Both Directions",
-        "descr": "Winning combinations are paid from left to right and from right to left",
+        "name": "Gamble Feature",
+        "descr": "Guess the higher card and increase your winnings",
         "imgUrl": "img-feat_mist-2.jpg"
       }
     ],
     "meta": {
-      "title": "Mist, video slot game by Mascot Gaming",
-      "descr": " "
+      "title": "Mist, a video slot game by Mascot Gaming",
+      "descr": "Wild Reels, Free Respins and x27 multiplier await you in the thrilling sea quest!"
     },
     "rockways": false
   },
