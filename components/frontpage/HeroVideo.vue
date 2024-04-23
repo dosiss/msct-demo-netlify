@@ -3,7 +3,7 @@
     <div v-if="$device.isMobile" class="static-wrapper">
       <div class="vote-badge-mob">
         <div class="vote-badge-mob__inner">
-          <img src="/images/sigma-eurasia-mob.png" class="img-prize-mob" alt="" />
+          <img src="/images/casino-beats-mob.png" class="img-prize-mob" alt="" />
           <a href="https://ats15wy1hex.typeform.com/to/eNfnFvh4?typeform-source=sbcevents.com" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
         </div>
       </div>
@@ -19,10 +19,11 @@
     <div v-else class="video-wrapper">
        <div class="vote-badge-mob">
          <div class="vote-badge-mob__inner">
-          <img src="/images/sigma-eurasia-mob.png" class="img-prize-mob" alt="" />
+          <img src="/images/casino-beats-mob.png" class="img-prize-mob" alt="" />
           <div class="vote-badge__title">
-            <p><strong>Best Game Provider 2024</strong></p>
-            <p>at Sigma Eurasia Awards</p>
+            <p>We Are Nominated</p>
+            <p class="text-gold"><strong>Slot Legacy Title, Slot to Debut,<br />Game Soundtrack, Slot to Watch</strong></p>
+            <p>May 21st - 23rd, Malta</p>
           </div>
           <a href="https://ats15wy1hex.typeform.com/to/eNfnFvh4?typeform-source=sbcevents.com" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
         </div>
@@ -42,10 +43,11 @@
                 </div>
                 <div class="top-header__right">
                    <div class="vote-badge">
-                    <img src="/images/sigma-eurasia.png" class="sigma-eu-logo" alt="" />
+                    <img src="/images/casino-beats-dsktop.png" class="sigma-eu-logo" alt="" />
                     <img src="/images/prize.png" class="img-prize" alt="" />
-                    <div class="vote-badge__title">Best Game Provider 2024</div>
-                    <div class="vote-badge__subtitle">at Sigma Eurasia Awards</div>
+                    <p><strong>We Are Nominated</strong></p>
+                    <p class="text-gold"><strong>Slot Legacy Title, Slot to Debut,<br />Game Soundtrack, Slot to Watch</strong></p>
+                    <p>May 21st - 23rd, Malta</p>
                     <a href="https://ats15wy1hex.typeform.com/to/eNfnFvh4?typeform-source=sbcevents.com" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
                   </div>
                 </div>
@@ -203,9 +205,12 @@ export default {
     .vote-badge {
       .img-prize {
         position: absolute;
-        top: -52px;
+        top: -70px;
         right: -2px;
         width: 113px;
+      }
+      .sigma-eu-logo {
+        margin-bottom: 10px;
       }
       .vote-badge__title {
         font-size: 1.3rem;
@@ -215,6 +220,17 @@ export default {
       .vote-badge__subtitle {
         font-size: 1.2rem;
       }
+      .text-gold {
+        color: #FFE298;
+        line-height: 1.5;
+        margin: 5px 0;
+      }
+      p {
+        strong {
+          font-weight: 700
+        }
+      }
+
       .btn-vote {
         font-size: 1.05rem;
         font-weight: 700;
@@ -252,6 +268,9 @@ export default {
       @media (max-width: 540px) {
         width: 100px
       }
+    }
+    .text-gold {
+      color: #FFE298;
     }
     .vote-badge__title {
       padding: 0 20px;
