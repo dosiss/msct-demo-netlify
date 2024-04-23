@@ -3,8 +3,8 @@
     <div v-if="$device.isMobile" class="static-wrapper">
       <div class="vote-badge-mob">
         <div class="vote-badge-mob__inner">
-          <img src="/images/affpapa-prize-mobile.png" class="img-prize-mob" alt="" />
-          <a href="https://affpapa.com/igaming-awards-2024-voting/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
+          <img src="/images/sigma-eurasia-mob.png" class="img-prize-mob" alt="" />
+          <a href="https://ats15wy1hex.typeform.com/to/eNfnFvh4?typeform-source=sbcevents.com" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
         </div>
       </div>
         <div class="static-background">
@@ -19,13 +19,12 @@
     <div v-else class="video-wrapper">
        <div class="vote-badge-mob">
          <div class="vote-badge-mob__inner">
-          <img src="/images/affpapa-prize-mobile.png" class="img-prize-mob" alt="" />
+          <img src="/images/sigma-eurasia-mob.png" class="img-prize-mob" alt="" />
           <div class="vote-badge__title">
-            <p><strong>We are nominated</strong></p>
-            <p><strong>Game Provider of the Year</strong></p>
-            <p>27th of May | Malaga, Spain</p>
+            <p><strong>Best Game Provider 2024</strong></p>
+            <p>at Sigma Eurasia Awards</p>
           </div>
-          <a href="https://affpapa.com/igaming-awards-2024-voting/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
+          <a href="https://ats15wy1hex.typeform.com/to/eNfnFvh4?typeform-source=sbcevents.com" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
         </div>
       </div>
         <div class="video-background">
@@ -43,12 +42,11 @@
                 </div>
                 <div class="top-header__right">
                    <div class="vote-badge">
-                    <img src="/images/affpapa-logo2.png" class="sigma-eu-logo" alt="" />
+                    <img src="/images/sigma-eurasia.png" class="sigma-eu-logo" alt="" />
                     <img src="/images/prize.png" class="img-prize" alt="" />
-                    <div class="vote-badge__title">We are nominated</div>
-                    <div class="vote-badge__title">Game Provider of the Year</div>
-                    <div class="vote-badge__subtitle">27th of May | Malaga, Spain</div>
-                    <a href="https://affpapa.com/igaming-awards-2024-voting/" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
+                    <div class="vote-badge__title">Best Game Provider 2024</div>
+                    <div class="vote-badge__subtitle">at Sigma Eurasia Awards</div>
+                    <a href="https://ats15wy1hex.typeform.com/to/eNfnFvh4?typeform-source=sbcevents.com" class="btn-vote" target="_blank">VOTE FOR MASCOT GAMING</a>
                   </div>
                 </div>
               </div>
@@ -194,7 +192,7 @@ export default {
     flex: 0 1 60%;
   }
   .top-header__right {
-    padding: 40px 30px 30px;
+    padding: 30px 30px 30px;
     width: 345px;
     border: 1px solid #03C000;
     border-radius: 8px;
@@ -285,7 +283,7 @@ export default {
     display: block;
   }
   @media (max-width: 540px) {
-    padding: 10px 15px
+    padding: 7px 15px
   }
 }
 </style>
