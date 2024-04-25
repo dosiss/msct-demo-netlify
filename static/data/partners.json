@@ -1,16 +1,5 @@
 [
   {
-  "name": "Hotline challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Rich Rise Tournament \nPrize pool: 1 000 EUR",
-  "url": "https://htlne.com/tournaments/RichRise/2024-04-03%2016:00:00/2024-04-17%2016:00:00",
-  "logoUrl": "partner_hotline.png"
-  },
-  {
   "name": "Prizeslots challenge",
   "type": "promopartner",
   "top": false,
@@ -20,17 +9,6 @@
   "promoText": "No deposit tournament \nPrize pool: 300.000 RUB",
   "url": "https://prizeslots41.fun/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=tournament",
   "logoUrl": "partner_prizeslots.png"
-  },
-  {
-  "name": "Fatpanda challenge",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "65% + 60 FS \nfor Bamboo Bear",
-  "url": "https://fatpandacasino.com/en/promotions",
-  "logoUrl": "partner_fatpanda.png"
   },
   {
     "name": "PariMatch",
