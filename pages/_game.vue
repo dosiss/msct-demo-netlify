@@ -174,10 +174,18 @@
         </div>
         </div>
         <div v-if="currentGame.mgacertified !== null" class="cert-info__wrap">
+          <a v-if="currentGame.mganotice" href="https://www.mga.org.mt/licensee-hub/recognition-notice-register/" target="_blank" class="cert-info__inner">
             <img src="/images/img_mga-logo.png" srcset="/images/img_mga-logo@2x.png 2x" alt="mga logo" />
-            <span v-if="currentGame.mganotice">{{$t('Available for')}} <strong>MGA</strong> {{$t('jurisdiction by Recognition Notice')}}<br />{{$t('Certificate number')}}&nbsp;<strong>RN/319/2024</strong></span>
-            <span v-else-if="currentGame.mgacertified">{{$t('Certified in the')}} <strong>{{$t('UK')}}</strong> {{$t('and by the')}} <strong>MGA</strong></span>
-            <span v-else>{{$t('Will soon be licensed by the')}} <strong>MGA</strong></span>
+            <span>{{$t('Available for')}} <strong>MGA</strong> {{$t('jurisdiction by Recognition Notice')}}<br />{{$t('Certificate number')}}&nbsp;<strong>RN/319/2024</strong></span>
+          </a>
+          <div v-else-if="currentGame.mgacertified" class="cert-info__inner">
+            <img src="/images/img_mga-logo.png" srcset="/images/img_mga-logo@2x.png 2x" alt="mga logo" />
+            <span>{{$t('Certified in the')}} <strong>{{$t('UK')}}</strong> {{$t('and by the')}} <strong>MGA</strong></span>
+          </div>
+          <div v-else class="cert-info__inner">
+            <img src="/images/img_mga-logo.png" srcset="/images/img_mga-logo@2x.png 2x" alt="mga logo" />
+            <span>{{$t('Will soon be licensed by the')}} <strong>MGA</strong></span>
+          </div>
         </div>
       </div>
       <PlayWithPartners />
@@ -792,12 +800,15 @@ export default {
   .game-meta__outer {
     .cert-info__wrap {
       margin: 35px 0;
-      padding: 25px 20px;
       border-radius: 12px;
       background: #121212;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+
+      .cert-info__inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 20px;
+      }
       img {
         height: 56px;
         width: auto;
