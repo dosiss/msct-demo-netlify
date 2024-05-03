@@ -174,9 +174,10 @@
         </div>
         </div>
         <div v-if="currentGame.mgacertified !== null" class="cert-info__wrap">
-          <img src="/images/img_mga-logo.png" srcset="/images/img_mga-logo@2x.png 2x" alt="mga logo" />
-          <span v-if="currentGame.mgacertified">{{$t('Certified in the')}} <strong>{{$t('UK')}}</strong> {{$t('and by the')}} <strong>MGA</strong></span>
-          <span v-else>{{$t('Will soon be licensed by the')}} <strong>MGA</strong></span>
+            <img src="/images/img_mga-logo.png" srcset="/images/img_mga-logo@2x.png 2x" alt="mga logo" />
+            <span v-if="currentGame.mganotice">{{$t('Available for')}} <strong>MGA</strong> {{$t('jurisdiction by Recognition Notice')}}<br />{{$t('Certificate number')}}&nbsp;<strong>RN/319/2024</strong></span>
+            <span v-else-if="currentGame.mgacertified">{{$t('Certified in the')}} <strong>{{$t('UK')}}</strong> {{$t('and by the')}} <strong>MGA</strong></span>
+            <span v-else>{{$t('Will soon be licensed by the')}} <strong>MGA</strong></span>
         </div>
       </div>
       <PlayWithPartners />
@@ -805,7 +806,7 @@ export default {
         }
       }
       span {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 500;
         /* text-transform: uppercase; */
         margin-left: 15px;
@@ -814,7 +815,8 @@ export default {
         @media (max-width: 650px) {
           margin-left: 0;
           text-align: center;
-          font-size: 1.6rem;
+          font-size: 1rem;
+          margin-top: 5px
         }
         strong {
           font-weight: 600

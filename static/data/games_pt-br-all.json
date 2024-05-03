@@ -2,10 +2,11 @@
   {
     "name": "Ice Number One",
     "slug": "ice-number-one",
-    "linkToDemo": " ",
+    "linkToDemo": null,
     "theme": "video slot",
-    "type": " ",
+    "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
     "comingSoon": true,
     "releaseDate": "2024-06-25",
@@ -13,7 +14,7 @@
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_ice1.jpeg",
     "heroUrl": "hero_ice1.jpg",
     "blueButtn": false,
@@ -30,8 +31,8 @@
       "paylines": null,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -57,17 +58,18 @@
     ],
     "meta": {
       "title": "Ice Number One, video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": null
     },
     "rockways": false
   },
   {
     "name": "Hot Fruit x15",
     "slug": "hot-fruit-x15",
-    "linkToDemo": " ",
+    "linkToDemo": null,
     "theme": "video slot",
-    "type": " ",
+    "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
     "comingSoon": true,
     "releaseDate": "2024-06-11",
@@ -75,7 +77,7 @@
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_hotfruit.jpeg",
     "heroUrl": "hero_hotfruit.jpg",
     "blueButtn": false,
@@ -92,8 +94,8 @@
       "paylines": null,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -114,17 +116,18 @@
     ],
     "meta": {
       "title": "Hot Fruit x15, video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": null
     },
     "rockways": false
   },
   {
     "name": "Fabulous Farm Slot",
     "slug": "fabulous-farm-slot",
-    "linkToDemo": " ",
+    "linkToDemo": null,
     "theme": "video slot",
-    "type": " ",
+    "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
     "comingSoon": true,
     "releaseDate": "2024-05-28",
@@ -132,7 +135,7 @@
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_fabfarm.jpeg",
     "heroUrl": "hero_fabfarm.jpg",
     "blueButtn": false,
@@ -149,8 +152,8 @@
       "paylines": null,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -181,17 +184,18 @@
     ],
     "meta": {
       "title": "Fabulous Farm Slot, video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": null
     },
     "rockways": false
   },
   {
     "name": "Big win x25",
     "slug": "big-win-x25",
-    "linkToDemo": " ",
+    "linkToDemo": null,
     "theme": "video slot",
-    "type": " ",
+    "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
     "comingSoon": true,
     "releaseDate": "2024-05-23",
@@ -199,7 +203,7 @@
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_bigwinx25.jpeg",
     "heroUrl": "hero_bigwinx25.jpg",
     "blueButtn": false,
@@ -216,8 +220,8 @@
       "paylines": null,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -238,7 +242,7 @@
     ],
     "meta": {
       "title": "Big Win x25, video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": null
     },
     "rockways": false
   },
@@ -249,6 +253,7 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
     "comingSoon": false,
     "releaseDate": "2024-04-23",
@@ -256,7 +261,7 @@
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_mist.jpeg",
     "heroUrl": "hero_mist.jpg",
     "blueButtn": false,
@@ -273,8 +278,8 @@
       "paylines": 10,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -304,10 +309,10 @@
     "slug": "the-candy-slot-deluxe",
     "linkToDemo": "demo.mascot.games/run/the_candy_slot_deluxe",
     "theme": "video slot",
-    "type": " ",
+    "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
-    "rockways": false,
     "comingSoon": false,
     "releaseDate": "2024-04-09",
     "featured": false,
@@ -327,12 +332,12 @@
     "stats": {
       "reels": 6,
       "rows": 5,
-      "volatility": " ",
+      "volatility": null,
       "paylines": null,
       "payways": 15625,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -369,7 +374,8 @@
     "meta": {
       "title": "The Candy Slot, a video slot game by Mascot Gaming",
       "descr": "The most delicious sweets are served with Risk and Buy, Free Spins, Random and Coin features."
-    }
+    },
+    "rockways": false
   },
   {
     "name": "Admiral X Fruit Machine",
@@ -378,6 +384,7 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
     "comingSoon": false,
     "releaseDate": "2024-03-28",
@@ -385,7 +392,7 @@
     "topGame": false,
     "branded": true,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_admiralxfruit.jpeg",
     "heroUrl": "hero_admiralxfruit.jpg",
     "blueButtn": true,
@@ -435,13 +442,15 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2024-03-28",
     "featured": false,
     "topGame": false,
     "branded": true,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_azinofruit3.jpeg",
     "heroUrl": "hero_azinofruit3.jpg",
     "blueButtn": true,
@@ -482,24 +491,24 @@
       "title": "Azino Fruit Machine x25, a branded video slot game by Mascot Gaming",
       "descr": "Take charge of the fruits in this special slot game."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Yukon Fever",
     "slug": "yukon-fever",
     "linkToDemo": "demo.mascot.games/run/yukon_fever",
     "theme": "video slot",
-    "type": " ",
+    "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2024-03-26",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_yukon.jpeg",
     "heroUrl": "hero_yukon.jpg",
     "blueButtn": false,
@@ -512,12 +521,12 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": " ",
+      "volatility": null,
       "paylines": 5,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -531,34 +540,35 @@
         "imgUrl": "img-feat_yukon-1.jpg"
       }
     ],
+    "meta": {
+      "title": "Yukon Fever, a video slot game by Mascot Gaming",
+      "descr": "Experience the thrill of the gold rush with Transformed Wilds and Gamble Feature."
+    },
+    "rockways": false,
     "articles": [
       {
         "title": "Demoslots.com reviewed Dreamshock: Jackpot X and Yukon Fever",
         "link": "https://www.demoslot.com/yukon-fever-mascot-gaming-slot-demo.html",
         "image": "img_blog_demoslot-review-dreamshock.jpg"
       }
-    ],
-    "meta": {
-      "title": "Yukon Fever, a video slot game by Mascot Gaming",
-      "descr": "Experience the thrill of the gold rush with Transformed Wilds and Gamble Feature."
-    },
-    "comingSoon": false
+    ]
   },
   {
     "name": "Dreamshock: Jackpot X",
     "slug": "dreamshock-jackpot-x",
     "linkToDemo": "demo.mascot.games/run/dreamshock_jackpot_x",
     "theme": "video slot",
-    "type": " ",
+    "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2024-02-27",
     "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_dreamshock.jpeg",
     "heroUrl": "hero_dreamshock.jpg",
     "blueButtn": true,
@@ -575,8 +585,8 @@
       "paylines": null,
       "payways": 243,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -600,6 +610,11 @@
         "imgUrl": "img-feat_dreamshock-3.jpg"
       }
     ],
+    "meta": {
+      "title": "Dreamshock: Jackpot X é um jogo de caça-níqueis on-line da Mascot Gaming",
+      "descr": "Essa nova realidade eletrizante está te esperando com Free Spins, recurso Jackpot e um jogo Arriscar."
+    },
+    "rockways": false,
     "articles": [
       {
         "title": "Demoslots.com reviewed Dreamshock: Jackpot X and Yukon Fever",
@@ -611,28 +626,24 @@
         "link": "https://mascot.games/blog/jackpot-x-review",
         "image": "img_blog_jackpotx-main.jpg"
       }
-    ],
-    "meta": {
-      "title": "Dreamshock: Jackpot X é um jogo de caça-níqueis on-line da Mascot Gaming",
-      "descr": "Essa nova realidade eletrizante está te esperando com Free Spins, recurso Jackpot e um jogo Arriscar."
-    },
-    "comingSoon": false
+    ]
   },
   {
     "name": "CRASH, HAMSTER, CRASH!",
     "slug": "crash-hamster-crash",
     "linkToDemo": "demo.mascot.games/run/crash_hamster_crash",
     "theme": "crash",
-    "type": " ",
+    "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2024-02-13",
     "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_hamster.jpeg",
     "heroUrl": "hero_hamster.jpg",
     "blueButtn": false,
@@ -645,12 +656,12 @@
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": " ",
+      "volatility": null,
       "paylines": null,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -669,6 +680,11 @@
         "imgUrl": "img-feat_hamster-2.jpg"
       }
     ],
+    "meta": {
+      "title": "Crash, Hamster, Crash!, um crash game da Mascot Gaming",
+      "descr": "Salve adoráveis hamsters das mãos de alienígenas. Faça de uma a três apostas e receba seus ganhos antes da explosão."
+    },
+    "rockways": false,
     "articles": [
       {
         "title": "Hamsters, Ufo And Mascot Gaming: “Crash, Hamster, Crash” Review.",
@@ -680,28 +696,24 @@
         "link": "https://mascot.games/blog/Demoslot-com-reviewed-crash-hamster-crash-and-dragons-lucky-25",
         "image": "img_blog-www-demoslot-crash.jpg"
       }
-    ],
-    "meta": {
-      "title": "Crash, Hamster, Crash!, um crash game da Mascot Gaming",
-      "descr": "Salve adoráveis hamsters das mãos de alienígenas. Faça de uma a três apostas e receba seus ganhos antes da explosão."
-    },
-    "comingSoon": false
+    ]
   },
   {
     "name": "Dragon`s Lucky 25",
     "slug": "dragons-lucky-25",
     "linkToDemo": "demo.mascot.games/run/dragons_lucky_25",
     "theme": "video slot",
-    "type": " ",
+    "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2024-01-30",
     "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_lucky25.jpeg",
     "heroUrl": "hero_lucky25.jpg",
     "blueButtn": true,
@@ -714,12 +726,12 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": " ",
+      "volatility": null,
       "paylines": 20,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -738,6 +750,11 @@
         "imgUrl": "img-feat_lucky25-2.jpg"
       }
     ],
+    "meta": {
+      "title": "Dragon`s Lucky 25, um caça-níqueis da Mascot Gaming",
+      "descr": "Canalize sua sorte com Free Spins com um multiplicador de até x25."
+    },
+    "rockways": false,
     "articles": [
       {
         "title": "Celebrating Chinese New Year with Mascot Gaming: Dragon`s Lucky 25 Review",
@@ -749,12 +766,7 @@
         "link": "https://mascot.games/blog/Demoslot-com-reviewed-crash-hamster-crash-and-dragons-lucky-25",
         "image": "img_blog-www-demoslot-crash.jpg"
       }
-    ],
-    "meta": {
-      "title": "Dragon`s Lucky 25, um caça-níqueis da Mascot Gaming",
-      "descr": "Canalize sua sorte com Free Spins com um multiplicador de até x25."
-    },
-    "comingSoon": false
+    ]
   },
   {
     "name": "Re Kill Ultimate",
@@ -763,14 +775,15 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2024-01-16",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_rekillu.jpeg",
     "heroUrl": "hero_rekillu.jpg",
     "blueButtn": true,
@@ -812,6 +825,11 @@
         "imgUrl": "img-feat_rekillu-31.jpg"
       }
     ],
+    "meta": {
+      "title": "Re Kill Ultimate, um caça-níqueis da Mascot Gaming",
+      "descr": "Mire e atire com o novo Risk and Buy, Wild Reels e Free Spins."
+    },
+    "rockways": false,
     "articles": [
       {
         "title": "A DEMOSLOT.COM AVALIOU O WILD WILD BET E O RE KILL ULTIMATE",
@@ -823,12 +841,7 @@
         "link": "https://mascot.games/blog/rekill-ultimate-review",
         "image": "img_blog_rekillultimate-main.jpg"
       }
-    ],
-    "meta": {
-      "title": "Re Kill Ultimate, um caça-níqueis da Mascot Gaming",
-      "descr": "Mire e atire com o novo Risk and Buy, Wild Reels e Free Spins."
-    },
-    "comingSoon": false
+    ]
   },
   {
     "name": "Wild Wild Bet",
@@ -837,14 +850,15 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-12-19",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_wwbet.jpeg",
     "heroUrl": "hero_wwbet.jpg",
     "blueButtn": true,
@@ -861,8 +875,8 @@
       "paylines": 5,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -885,23 +899,24 @@
       "title": "Wild Wild Bet, um jogo de caça-níqueis da Mascot Gaming",
       "descr": "O pôquer se junta aos caça-níqueis com cowboys, dançarinas de bar, Ofertas Grátis com multiplicador x3 e um recurso de Apostas."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Gryphon`s Castle Rush 25",
     "slug": "gryphons-castle-rush25",
     "linkToDemo": "demo.mascot.games/run/gryphons_castle_rush25",
     "theme": "video slot",
-    "type": " ",
+    "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-12-07",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_gryphon25.jpeg",
     "heroUrl": "hero_gryphon25.jpg",
     "blueButtn": true,
@@ -914,12 +929,12 @@
     "stats": {
       "reels": 5,
       "rows": 5,
-      "volatility": " ",
+      "volatility": null,
       "paylines": null,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -947,7 +962,7 @@
       "title": "Gryphon`s Castle Rush25: um jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Mecânicas inovadoras se misturam com uma jornada mística ambientada em uma encantadora paisagem de fantasia."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Christmas Infinite Gifts",
@@ -956,8 +971,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-12-05",
     "featured": false,
     "topGame": false,
@@ -976,7 +992,7 @@
     "stats": {
       "reels": 5,
       "rows": 4,
-      "volatility": "Med ",
+      "volatility": "Med",
       "paylines": 40,
       "payways": null,
       "html5": true,
@@ -1004,7 +1020,7 @@
       "title": "Christmas Infinite Gifts: um jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "O design cativante e a mecânica envolvente prometem uma viagem festiva repleta de delícias e surpresas."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Book of Anksunamun: Rockways",
@@ -1013,14 +1029,15 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
-    "rockways": true,
+    "comingSoon": false,
     "releaseDate": "2023-11-30",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_ankrockways.jpeg",
     "heroUrl": "hero_ankrockways.jpg",
     "blueButtn": true,
@@ -1037,8 +1054,8 @@
       "paylines": null,
       "payways": "32 - 3125",
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -1071,7 +1088,7 @@
       "title": "Book of Anksunamun: Rockways, um jogo de caça-níqueis da Mascot Gaming",
       "descr": "Embarque em uma jornada pelas areias do tempo, acompanhado por um conjunto de recursos incríveis."
     },
-    "comingSoon": false
+    "rockways": true
   },
   {
     "name": "1X Twin Fruits",
@@ -1080,14 +1097,15 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-10-24",
     "featured": false,
     "topGame": false,
     "branded": true,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_1xtwin.jpeg",
     "heroUrl": "hero_1xtwin.jpg",
     "blueButtn": true,
@@ -1100,12 +1118,12 @@
     "stats": {
       "reels": 5,
       "rows": 4,
-      "volatility": " ",
+      "volatility": null,
       "paylines": null,
       "payways": 1024,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -1116,9 +1134,9 @@
     ],
     "meta": {
       "title": "1X Twin Fruits: um jogo de caça-níqueis on-line da Mascot Gaming",
-      "descr": " Junte-se a uma aventura especial e suculenta."
+      "descr": "Junte-se a uma aventura especial e suculenta."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Reveal the Kraken",
@@ -1127,14 +1145,15 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-10-24",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_kraken.jpeg",
     "heroUrl": "hero_kraken.jpg",
     "blueButtn": true,
@@ -1151,8 +1170,8 @@
       "paylines": 20,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": null,
+      "hitrate": null
     },
     "features": [
       {
@@ -1185,7 +1204,7 @@
       "title": "Reveal the Kraken: um jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Mergulhe no profundo abismo com o novo recurso Risk and Buy e três tipos de bônus."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Hello win!",
@@ -1194,14 +1213,15 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-10-10",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_hellowin.jpeg",
     "heroUrl": "hero_hellowin.jpg",
     "blueButtn": true,
@@ -1242,7 +1262,7 @@
       "title": "Hello Win!: um jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Curta todo o terror do Halloween com o novo recurso Risk and Buy e Free Spins."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Zeus the Thunderer Deluxe",
@@ -1251,14 +1271,15 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-09-19",
     "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_zeusdeluxe.jpeg",
     "heroUrl": "hero_zeusdeluxe.jpg",
     "blueButtn": true,
@@ -1275,7 +1296,7 @@
       "paylines": 20,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 53.2
     },
     "features": [
@@ -1309,7 +1330,7 @@
       "title": "Zeus the Thunderer Deluxe: um jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Chegue ao Olimpo com Zeus the Thunderer Deluxe. Novo recurso Risk & Buy: 3 tipos de séries de Free Spins com símbolos Sticky esperam por você!"
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Minotaurs Wilds",
@@ -1318,14 +1339,15 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-09-19",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_minotaur.jpeg",
     "heroUrl": "hero_minotaur.jpg",
     "blueButtn": true,
@@ -1371,7 +1393,7 @@
       "title": "Minotaurs Wilds: um jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Mitos antigos ganham vida em Minotaurs Wilds, um novo jogo de caça-níqueis da Mascot Gaming com uma nova versão do famoso recurso Risk and Buy."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "The Pendragon Legend",
@@ -1380,14 +1402,15 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-08-29",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_pendragon.jpeg",
     "heroUrl": "hero_pendragon2.jpg",
     "blueButtn": true,
@@ -1433,7 +1456,7 @@
       "title": "The Pendragon Legend: um jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "The Pendragon Legend é um novo jogo de caça-níqueis da Mascot Gaming com uma nova versão do lendário recurso Risk and Buy."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Wild Phoenix Rises",
@@ -1442,14 +1465,15 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-07-25",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_phoenix2.jpeg",
     "heroUrl": "hero_phoenix.jpg",
     "blueButtn": true,
@@ -1495,7 +1519,7 @@
       "title": "Wild Phoenix Rises: um jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Wild Phoenix Rises é um novo caça-níqueis da Mascot Gaming com uma nova versão do lendário recurso Risk & Buy"
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Paper Lanterns Crash Game",
@@ -1504,14 +1528,15 @@
     "theme": "crash",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-09-26",
     "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_lantern.jpeg",
     "heroUrl": "hero_lantern.jpg",
     "blueButtn": true,
@@ -1552,7 +1577,7 @@
       "title": "Paper Lanterns Crash Game é o primeiro jogo de crash da Mascot Gaming",
       "descr": "Paper Lanterns Crash Game da Mascot Gaming é um jogo de crash que permite aos jogadores lançar diversos balões chineses de papel, realizando de 1 a 5 apostas simultaneamente."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Rocket Chimp Jackpot",
@@ -1561,8 +1586,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-04-25",
     "featured": false,
     "topGame": false,
@@ -1609,7 +1635,7 @@
       "title": "Rocket Chimp Jackpot: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Rocket Chimp Jackpot é um novo caça-níqueis da Mascot Gaming com prêmio de jackpot de até x10000"
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Ben Gunn Robinson",
@@ -1618,8 +1644,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-07-05",
     "featured": false,
     "topGame": false,
@@ -1666,7 +1693,7 @@
       "title": "Ben Gunn Robinson: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Ben Gunn Robinson é um novo caça-níqueis da Mascot Gaming com recursos Super Bonus e Aposta."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Fruit Machine Megabonus",
@@ -1675,14 +1702,15 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-05-30",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_fmmegabonus.jpeg",
     "heroUrl": "hero_fmmegabonus.jpg",
     "blueButtn": true,
@@ -1723,7 +1751,7 @@
       "title": "FRUIT MACHINE MEGABONUS: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "FRUIT MACHINE MEGABONUS é nosso novo caça-níqueis on-line com Jogo de Bonus com até 3, 4 ou 5 erros."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Hook Up! Fishing Wars",
@@ -1732,8 +1760,9 @@
     "theme": "shooting",
     "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "coming soon",
     "featured": true,
     "topGame": false,
@@ -1790,7 +1819,7 @@
       "title": "Hook Up! Fishing Wars é o primeiro jogo de ação da Mascot Gaming",
       "descr": "Hook Up! Fishing Wars da Mascot Gaming é um jogo de tiro que combina mecânicas de arcade e cassino"
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Easter Luck",
@@ -1799,8 +1828,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
-    "rockways": false,
+    "comingSoon": false,
     "releaseDate": "2023-04-04",
     "featured": false,
     "topGame": false,
@@ -1847,7 +1877,7 @@
       "title": "EASTER LUCK: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "EASTER LUCK é o nosso novo caça-níqueis on-line com 3600 formas de pagamento."
     },
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Fruit Machine X25",
@@ -1856,7 +1886,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2023-03-14",
     "featured": true,
     "topGame": false,
@@ -1903,8 +1935,7 @@
       "title": "FRUIT MACHINE X25: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "FRUIT MACHINE X25 é nosso novo caça-níqueis on-line com multipliers de até x25"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Trump Card Queen",
@@ -1913,7 +1944,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2023-02-12",
     "featured": false,
     "topGame": false,
@@ -1970,8 +2003,7 @@
       "title": "Trump Card Queen: caça-níqueis on-line da Mascot Gaming",
       "descr": "Trump Card Queen da Mascot Gaming é um caça-níqueis on-line com Jogo de Super Bonus e Recurso Risk&Buy"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Cleopatra's Gems Bingo",
@@ -1980,7 +2012,9 @@
     "theme": "lottery game",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2023-02-07",
     "featured": false,
     "topGame": false,
@@ -2003,7 +2037,7 @@
       "paylines": null,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 28.5
     },
     "features": [
@@ -2022,8 +2056,7 @@
       "title": "CLEOPATRA'S GEMS BINGO: um novo jogo de bingo da Mascot Gaming",
       "descr": "CLEOPATRA'S GEMS BINGO da Mascot Gaming, clássico jogo de bingo no estilo egípcio."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Greedy Greenskins Rockways",
@@ -2032,7 +2065,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2023-01-24",
     "featured": false,
     "topGame": false,
@@ -2094,8 +2129,7 @@
       "title": "GREEDY GREENSKINS ROCKWAYS: caça-níqueis da Mascot Gaming",
       "descr": "GREEDY GREENSKINS ROCKWAYS da Mascot Gaming é um caça-níqueis on-line com mecânica RockWays e o famoso recurso Risk&Buy"
     },
-    "rockways": true,
-    "comingSoon": false
+    "rockways": true
   },
   {
     "name": "The Candy Keno",
@@ -2104,7 +2138,9 @@
     "theme": "lottery game",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2023-01-13",
     "featured": false,
     "topGame": false,
@@ -2146,8 +2182,7 @@
       "title": "THE CANDY KENO: novo jogo de loteria da Mascot Gaming",
       "descr": "THE CANDY KENO da Mascot Gaming: a boa e velha loteria misturada com doces de dar água na boca."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "La Fiesta De Muertos",
@@ -2156,7 +2191,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2022-12-20",
     "featured": false,
     "topGame": false,
@@ -2208,8 +2245,7 @@
       "title": "La Fiesta De Muertos: caça-níqueis on-line da Mascot Gaming",
       "descr": "La Fiesta De Muertos da Mascot Gaming é um caça-níqueis on-line com Jogo de Bonus e recurso Sticky Respin."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Wildlife Riches",
@@ -2218,7 +2254,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2022-11-22",
     "featured": false,
     "topGame": false,
@@ -2270,8 +2308,7 @@
       "title": "Wildlife Riches: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Wildlife Riches da Mascot Gaming é um caça-níqueis on-line com recurso Risk&Buy."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Hydra's Lair",
@@ -2280,7 +2317,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2022-10-25",
     "featured": false,
     "topGame": true,
@@ -2332,8 +2371,7 @@
       "title": "Hydra's Lair: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Hydra's Lair da Mascot Gaming é um caça-níqueis on-line com infinite Free Spins e recurso Risk&Buy."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "1X Fruits",
@@ -2342,7 +2380,9 @@
     "theme": "video slot",
     "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2022-10-10",
     "featured": false,
     "topGame": false,
@@ -2389,8 +2429,7 @@
       "title": "1X Fruits: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "1X Fruits é o nosso novo caça-níqueis on-line com o bom e velho clima de Las Vegas."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Deepsea Riches",
@@ -2399,7 +2438,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2022-09-27",
     "featured": false,
     "topGame": false,
@@ -2461,8 +2502,7 @@
       "title": "DEEPSEA RICHES 3D: jogo caça-níqueis da Mascot Gaming",
       "descr": "DEEPSEA RICHES da Mascot Gaming é um caça-níqueis on-line 3D com mecânica Rockfall e um lendário Recurso Risk&Buy."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Loot the Train!",
@@ -2471,7 +2511,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2022-08-30",
     "featured": false,
     "topGame": true,
@@ -2523,8 +2565,7 @@
       "title": "Loot The Train! Jogo de caça-níqueis da Mascot Gaming",
       "descr": "Loot The Train! da Mascot Gaming é um caça-níqueis on-line com Jogo de Bonus e o famoso recurso Risk&Buy."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "The Princess & Dwarfs: Rockways",
@@ -2533,7 +2574,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2022-07-26",
     "featured": false,
     "topGame": false,
@@ -2600,8 +2643,7 @@
       "title": "The Princess & Dwarfs: Rockways: jogo de caça-níqueis da Mascot Gaming",
       "descr": "The Princess & Dwarfs: Rockways da Mascot Gaming é um caça-níqueis on-line com Jogo de Bonus e mecânicas Rockways e Rockfall."
     },
-    "rockways": true,
-    "comingSoon": false
+    "rockways": true
   },
   {
     "name": "Fruit Disco: Megastacks",
@@ -2610,7 +2652,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2022-07-05",
     "featured": false,
     "topGame": false,
@@ -2657,8 +2701,7 @@
       "title": "FRUIT DISCO: MEGASTACKS: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "FRUIT DISCO: MEGASTACKS é o nosso novo caça-níqueis on-line com recurso Símbolos Empilhados."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Double Triple Fruits",
@@ -2667,7 +2710,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2022-06-21",
     "featured": false,
     "topGame": false,
@@ -2714,8 +2759,7 @@
       "title": "DOUBLE TRIPLE FRUITS: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "DOUBLE TRIPLE FRUITS é nosso novo caça-níqueis on-line com recurso Double-Triple e multiplier de Ganhos."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Riot 2: Blow and Burn",
@@ -2724,7 +2768,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2022-05-24",
     "featured": false,
     "topGame": true,
@@ -2786,8 +2832,7 @@
       "title": "Riot 2: Blow and Burn: jogo de caça-níqueis da Mascot Gaming",
       "descr": "Riot 2: Blow and Burn da Mascot Gaming é um jogo de caça-níqueis on-line com mecânica RockFall e o famoso recurso Risk & Buy."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Across the Universe",
@@ -2796,7 +2841,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2022-03-22",
     "featured": false,
     "topGame": false,
@@ -2848,8 +2895,7 @@
       "title": "ACROSS THE UNIVERSE: jogo de caça-níqueis da Mascot Gaming",
       "descr": "ACROSS THE UNIVERSE da Mascot Gaming é um caça-níqueis on-line com Free Spins e Ganhos de Bonus garantidos."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "The Candy Crush",
@@ -2858,7 +2904,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2022-02-22",
     "featured": false,
     "topGame": true,
@@ -2915,8 +2963,7 @@
       "title": "THE CANDY CRUSH: jogo de caça-níqueis da Mascot Gaming",
       "descr": "THE CANDY CRUSH da Mascot Gaming é um caça-níqueis on-line com recursos Random, Rockfall e Risk&Buy."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Amaterasu Keno",
@@ -2925,7 +2972,9 @@
     "theme": "lottery game",
     "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2022-02-17",
     "featured": false,
     "topGame": false,
@@ -2967,8 +3016,7 @@
       "title": "AMATERASU KENO: jogo de loteria da Mascot Gaming",
       "descr": "AMATERASU KENO é um famoso jogo de loteria, popular há muito tempo."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "For the Realm",
@@ -2977,7 +3025,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2022-01-25",
     "featured": true,
     "topGame": true,
@@ -3034,8 +3084,7 @@
       "title": "For the Realm: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "For The Realm é um jogo de caça-níqueis de fantasia da Mascot Gaming com três séries diferentes de Free Spins e recurso exclusivo Risk&Buy."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Cleopatra's Gems Rockways",
@@ -3044,7 +3093,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-12-21",
     "featured": false,
     "topGame": true,
@@ -3106,8 +3157,7 @@
       "title": "CLEOPATRA'S GEMS ROCKWAYS: jogo de caça-níqueis da Mascot Gaming",
       "descr": "CLEOPATRA'S GEMS ROCKWAYS da Mascot Gaming é um caça-níqueis on-line com mecânicas RockWays e RockFall."
     },
-    "rockways": true,
-    "comingSoon": false
+    "rockways": true
   },
   {
     "name": "Twin Fruits of Santa",
@@ -3116,7 +3166,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2021-12-21",
     "featured": false,
     "topGame": false,
@@ -3158,8 +3210,7 @@
       "title": "TWIN FRUITS OF SANTA: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "TWIN FRUITS OF SANTA é nosso novo caça-níqueis on-line com recurso Tween Reels e 1.024 Formas de Pagamento."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Fairytale Coven",
@@ -3168,7 +3219,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-12-07",
     "featured": false,
     "topGame": false,
@@ -3225,8 +3278,7 @@
       "title": "Fairytale Coven: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Fairytale Coven é um jogo de caça-níqueis mágico da Mascot Gaming com três séries diferentes de Free Spins e recurso exclusivo Risk&Buy."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Primal Bet. Rockways",
@@ -3235,7 +3287,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-11-23",
     "featured": false,
     "topGame": false,
@@ -3297,8 +3351,7 @@
       "title": "Primal Bet. Rockways: jogo de caça-níqueis da Mascot Gaming",
       "descr": "Primal Bet. Rockways da Mascot Gaming é um caça-níqueis on-line com mecânicas RockWays e Rockfall."
     },
-    "rockways": true,
-    "comingSoon": false
+    "rockways": true
   },
   {
     "name": "Aloha Tiki Bar",
@@ -3307,7 +3360,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2021-11-02",
     "featured": false,
     "topGame": false,
@@ -3354,8 +3409,7 @@
       "title": "ALOHA TIKI BAR: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "ALOHA TIKI BAR: é o nosso novo caça-níqueis on-line com 3.600 formas de pagamento."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Evil Bet",
@@ -3364,7 +3418,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-09-28",
     "featured": false,
     "topGame": false,
@@ -3421,8 +3477,7 @@
       "title": "EVIL BET: caça-níqueis on-line da Mascot Gaming",
       "descr": "EVIL BET é um caça-níqueis on-line da Mascot Gaming com recurso Risk&Buy e modifiers de jogo."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "PinUp Dolls",
@@ -3431,7 +3486,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-09-15",
     "featured": false,
     "topGame": false,
@@ -3493,8 +3550,7 @@
       "title": "Pinup Dolls: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Pinup Dolls da Mascot Gaming é um caça-níqueis on-line com Wild Reels e recurso exclusivo Risk&Buy."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Dragon's Nest",
@@ -3503,7 +3559,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-08-17",
     "featured": false,
     "topGame": false,
@@ -3570,8 +3628,7 @@
       "title": "Dragon's Nest: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Dragon's Nest da Mascot Gaming é um caça-níqueis on-line com muitos prêmios diferentes e um recurso exclusivo Risk&Buy."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Fruits of Luxor",
@@ -3580,7 +3637,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2021-07-27",
     "featured": false,
     "topGame": false,
@@ -3603,7 +3662,7 @@
       "paylines": 15,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 46.3
     },
     "features": [
@@ -3622,8 +3681,7 @@
       "title": "FRUITS OF LUXOR: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "FRUITS OF LUXOR é o nosso novo caça-níqueis on-line com recurso Sticky Wilds & Respin."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Twin Fruits of Olympus",
@@ -3632,7 +3690,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2021-07-27",
     "featured": false,
     "topGame": false,
@@ -3674,8 +3734,7 @@
       "title": "TWIN FRUITS OF OLYMPUS: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "TWIN FRUITS OF OLYMPUS é nosso novo caça-níqueis on-line com recurso twin reels"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Zeus the Thunderer",
@@ -3684,7 +3743,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-06-29",
     "featured": false,
     "topGame": true,
@@ -3746,8 +3807,7 @@
       "title": "Zeus The Thunderer: caça-níqueis on-line da Mascot Gaming",
       "descr": "Zeus The Thunderer da Mascot Gaming é um belo caça-níqueis on-line com três tipos de Free Spins."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "The Book of Amaterasu",
@@ -3756,7 +3816,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-06-01",
     "featured": false,
     "topGame": false,
@@ -3779,7 +3841,7 @@
       "paylines": 10,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 28.09
     },
     "features": [
@@ -3813,8 +3875,7 @@
       "title": "Book of Amaterasu: caça-níqueis on-line da Mascot Gaming",
       "descr": "Book of Amaterasu da Mascot Gaming é um encantador caça-níqueis on-line com Free Spins com special expanding symbol"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Mayan Riches Rockways",
@@ -3823,7 +3884,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-04-26",
     "featured": false,
     "topGame": false,
@@ -3885,8 +3948,7 @@
       "title": "MAYAN RICHES ROCKWAYS: jogo de caça-níqueis da Mascot Gaming",
       "descr": "MAYAN RICHES ROCKWAYS da Mascot Gaming é um caça-níqueis on-line com mecânicas RockWays e RockFall."
     },
-    "rockways": true,
-    "comingSoon": false
+    "rockways": true
   },
   {
     "name": "Bastet and Cats",
@@ -3895,7 +3957,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-04-20",
     "featured": false,
     "topGame": false,
@@ -3918,7 +3982,7 @@
       "paylines": 40,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 46.9
     },
     "features": [
@@ -3957,8 +4021,7 @@
       "title": "Bastet and Cats 3D: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Bastet and Cats da Mascot Gaming é um caça-níqueis on-line 3D com mecânica Rockfall e recurso exclusivo de Risk&Buy. Miau!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "The Myth",
@@ -3967,7 +4030,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-03-16",
     "featured": false,
     "topGame": false,
@@ -4029,8 +4094,7 @@
       "title": "The Myth: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "The Myth da Mascot Gaming é um caça-níqueis on-line com recurso exclusivo Risk&Buy. Embarque em uma aventura com poderosos Vikings!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Hell'sing",
@@ -4039,7 +4103,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-02-09",
     "featured": false,
     "topGame": false,
@@ -4091,8 +4157,7 @@
       "title": "HELLSING: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "HELLSING é um clássico jogo de caça-níqueis on-line de 5 tambores da Mascot Gaming. Personagens assustadores e uma trilha sonora de gelar a alma não deixarão nenhum fã de histórias de terror insatisfeito!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Prince of Persia: the Gems of Persepolis",
@@ -4101,7 +4166,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2021-02-02",
     "featured": false,
     "topGame": false,
@@ -4163,8 +4230,7 @@
       "title": "Prince of Persia: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Prince of Persia da Mascot Gaming é um caça-níqueis on-line com recurso exclusivo Risk&Buy. Ah, o maravilhoso e misterioso Oriente!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Merry Scary Christmas",
@@ -4173,7 +4239,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2020-12-22",
     "featured": false,
     "topGame": false,
@@ -4240,8 +4308,7 @@
       "title": "Merry Scary Christmas: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Merry Scary Christmas da Mascot Gaming é um caça-níqueis on-line com recurso exclusivo Risk&Buy. Ho Ho Ho, o Natal está chegando!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Three Corsairs",
@@ -4250,7 +4317,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2020-11-24",
     "featured": false,
     "topGame": false,
@@ -4307,8 +4376,7 @@
       "title": "Three Corsairs: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Three Corsairs da Mascot Gaming é um caça-níqueis on-line com recurso exclusivo Risk&Buy. Encontre o mapa do tesouro junto com corsários corajosos!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Queen of Spades",
@@ -4317,7 +4385,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2020-11-17",
     "featured": false,
     "topGame": false,
@@ -4379,8 +4449,7 @@
       "title": "Queen of Spades: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Queen of Spades da Mascot Gaming é um caça-níqueis on-line com um recurso exclusivo Risk&Buy. Você está pronto para arriscar para saber seu destino?"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Rekill",
@@ -4389,7 +4458,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2020-10-27",
     "featured": false,
     "topGame": false,
@@ -4446,8 +4517,7 @@
       "title": "REKILL: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "REKILL é um jogo de caça-níqueis on-line com 5 tambores cheios de zumbis. Se você for corajoso o suficiente, tente permanecer vivo... ou diga adeus a algumas partes do seu corpo. Hmmmm!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Fruit Macau",
@@ -4456,7 +4526,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2020-09-30",
     "featured": false,
     "topGame": false,
@@ -4479,7 +4551,7 @@
       "paylines": 9,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 36.5
     },
     "features": [
@@ -4503,8 +4575,7 @@
       "title": "FRUIT MACAU: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "FRUIT MACAU é o nosso novo jogo com frutas suculentas e muitos recursos novos e emocionantes. Abra o segundo capítulo da Trilogia de Frutas da Mascot Gaming!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Fruit Monaco",
@@ -4513,7 +4584,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2020-09-30",
     "featured": false,
     "topGame": false,
@@ -4560,8 +4633,7 @@
       "title": "FRUIT MONACO: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "FRUIT MONACO é o nosso novo jogo de caça-níqueis on-line - uma homenagem ao luxuoso principado das apostas e ao icônico tema do caça-níqueis."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Robin of Loxley",
@@ -4570,7 +4642,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2020-08-01",
     "featured": false,
     "topGame": false,
@@ -4627,8 +4701,7 @@
       "title": "Robin of Loxley: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Robin of Loxley da Mascot Gaming é um caça-níqueis on-line com um recurso exclusivo Risk&Buy. Prepare seu arco e flechas!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Riot",
@@ -4637,7 +4710,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2020-02-01",
     "featured": false,
     "topGame": false,
@@ -4694,8 +4769,7 @@
       "title": "Riot: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Confira Riot, um novo caça-níqueis de média volatilidade 5×3 com 15 linhas de pagamento e recurso exclusivo Risk&Buy da Mascot Gaming."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Gemz Grow",
@@ -4704,7 +4778,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-12-15",
     "featured": false,
     "topGame": false,
@@ -4756,8 +4832,7 @@
       "title": "GEMZ GROW: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "GEMZ GROW é um caça-níqueis on-line com 3125 formas de pagamento e uma música encantadora. Mergulhe nesta atmosfera e leve suas joias!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Red Horde",
@@ -4766,7 +4841,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-12-15",
     "featured": false,
     "topGame": false,
@@ -4813,8 +4890,7 @@
       "title": "RED HORDE: caça-níqueis on-line da Mascot Gaming",
       "descr": "RED HORDE é um caça-níqueis on-line engraçado e cheio de recursos extraordinários. Proteja sua vila de criaturas desagradáveis e ganhe uma recompensa em ouro!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Baccarat",
@@ -4823,7 +4899,9 @@
     "theme": "table/cards",
     "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-09-15",
     "featured": false,
     "topGame": false,
@@ -4865,8 +4943,7 @@
       "title": "BACCARAT: um novo jogo de cartas da Mascot Gaming",
       "descr": "BACCARAT é um jogo de cartas da Mascot Gaming, popular em todo o mundo."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Casino Hold'em",
@@ -4875,7 +4952,9 @@
     "theme": "table/cards",
     "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-09-15",
     "featured": false,
     "topGame": false,
@@ -4917,8 +4996,7 @@
       "title": "CASINO HOLD'EM: um novo jogo de cartas da Mascot Gaming",
       "descr": "CASINO HOLD'EM é um jogo de cartas da Mascot Gaming, popular em todo o mundo."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Benny's the Biggest Game",
@@ -4927,7 +5005,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2019-09-01",
     "featured": false,
     "topGame": false,
@@ -4989,8 +5069,7 @@
       "title": "BENNY'S THE BIGGEST GAME: caça-níqueis on-line da Mascot Gaming",
       "descr": "BENNY'S THE BIGGEST GAME da Mascot Gaming é um caça-níqueis on-line divertido com gráficos de desenho animado e recursos interessantes."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Blackjack",
@@ -4999,7 +5078,9 @@
     "theme": "table/cards",
     "type": null,
     "mgacertified": false,
+    "mganotice": false,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-07-15",
     "featured": false,
     "topGame": false,
@@ -5041,8 +5122,7 @@
       "title": "BLACKJACK: um novo jogo da Mascot Gaming",
       "descr": "BLACKJACK é um jogo de cartas clássico, popular em todo o mundo."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Legioner",
@@ -5051,7 +5131,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2019-07-15",
     "featured": false,
     "topGame": false,
@@ -5074,7 +5156,7 @@
       "paylines": 25,
       "payways": null,
       "html5": true,
-      "rtp": 96.0,
+      "rtp": 96,
       "hitrate": 46.3
     },
     "features": [
@@ -5103,8 +5185,7 @@
       "title": "LEGIONER: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "LEGIONER é um caça-níqueis on-line emocionante baseado na história da Roma Antiga. Junte-se ao Legioner em prol de uma gloriosa vitória!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Fruit Vegas",
@@ -5113,7 +5194,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-07-01",
     "featured": false,
     "topGame": true,
@@ -5160,8 +5243,7 @@
       "title": "FRUIT VEGAS: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "FRUIT VEGAS é o nosso novo caça-níqueis on-line com a atmosfera da boa e velha Las Vegas."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Gryphon's Castle",
@@ -5170,7 +5252,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-07-01",
     "featured": false,
     "topGame": false,
@@ -5217,8 +5301,7 @@
       "title": "GRYPHON'S CASTLE: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "GRYPHON'S CASTLE é um caça-níqueis on-line empolgante com RTP de 96,6 e alta volatilidade. Uma criatura nobre guarda um castelo cheio de tesouros. Você tem coragem de ir atrás desses tesouros?"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Merlin's Tower",
@@ -5227,7 +5310,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-07-01",
     "featured": false,
     "topGame": false,
@@ -5274,8 +5359,7 @@
       "title": "MERLIN'S TOWER: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "MERLIN’S TOWER é um caça-níqueis on-line baseado na famosa história de um feiticeiro. Poção mágica traz sorte para todos que vêm aqui."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Purple Pills",
@@ -5284,7 +5368,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-07-01",
     "featured": false,
     "topGame": false,
@@ -5331,8 +5417,7 @@
       "title": "PURPLE PILLS: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Ninguém consegue ignorar este divertido caça-níqueis on-line. Confira o jogo PURPLE PILLS - nossa homenagem ao antigo rap."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Wild Spirit",
@@ -5341,7 +5426,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-07-01",
     "featured": false,
     "topGame": false,
@@ -5364,7 +5451,7 @@
       "paylines": 40,
       "payways": null,
       "html5": true,
-      "rtp": 97.0,
+      "rtp": 97,
       "hitrate": 31.2
     },
     "features": [
@@ -5388,8 +5475,7 @@
       "title": "WILD SPIRIT: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "WILD SPIRIT é o nosso novo caça-níqueis on-line cheio de mistérios. Abra sua mente para o espírito selvagem das belas terras selvagens"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Anksunamun: the queen of Egypt",
@@ -5398,7 +5484,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-02-01",
     "featured": false,
     "topGame": true,
@@ -5450,8 +5538,7 @@
       "title": "ANKSUNAMUN THE QUEEN OF EGYPT: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "ANKSUNAMUN THE QUEEN OF EGYPT - caça-níqueis on-line baseado no emocionante mundo antigo. Grandes tesouros, faraós e pirâmides - aproveite essa aventura de tirar o fôlego"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Bamboo Bear",
@@ -5460,7 +5547,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-02-01",
     "featured": false,
     "topGame": true,
@@ -5507,8 +5596,7 @@
       "title": "BAMBOO BEAR: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Assim como o Yin e o Yang, a emoção do jogo e o equilíbrio espiritual inevitavelmente se encontram no caça-níqueis on-line BAMBOO BEAR da Mascot Gaming. Encontre aqui a sua harmonia"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Cancan Saloon",
@@ -5517,7 +5605,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-02-01",
     "featured": false,
     "topGame": false,
@@ -5569,8 +5659,7 @@
       "title": "CANCAN SALOON: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "CANCAN SALOON é um jogo de caça-níqueis on-line de 5 tambores, baseado no tema clássico do Velho Oeste. Mantenha sua inteligência afiada, seu coração aberto e sua arma carregada."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Lion's Pride",
@@ -5579,7 +5668,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-02-01",
     "featured": false,
     "topGame": false,
@@ -5602,7 +5693,7 @@
       "paylines": 40,
       "payways": null,
       "html5": true,
-      "rtp": 97.0,
+      "rtp": 97,
       "hitrate": 31.2
     },
     "features": [
@@ -5626,8 +5717,7 @@
       "title": "LION'S PRIDE: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Desfrute da selva colorida! LION'S PRIDE da Mascot Gaming é um caça-níqueis on-line com belos gráficos. 5 tambores, 4 linhas e até 40 linhas de pagamento."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Mermaid's Bay",
@@ -5636,7 +5726,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2019-02-01",
     "featured": false,
     "topGame": false,
@@ -5659,7 +5751,7 @@
       "paylines": 25,
       "payways": null,
       "html5": true,
-      "rtp": 96.0,
+      "rtp": 96,
       "hitrate": 46.3
     },
     "features": [
@@ -5688,8 +5780,7 @@
       "title": "MERMAID’S BAY: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "MERMAID’S BAY - caça-níqueis on-line temático em 5 tambores. Lindas sereias irão revelar os segredos do fundo do mar para você!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Northern Heat",
@@ -5698,7 +5789,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-02-01",
     "featured": false,
     "topGame": false,
@@ -5745,8 +5838,7 @@
       "title": "NORTHERN HEAT: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "NORTHERN HEAT é um caça-níqueis on-line incrível em 5 tambores com uma bela trilha sonora. Siga os passos de lindos animais árticos e encontre grandes ganhos!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "The Rite",
@@ -5755,7 +5847,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-02-01",
     "featured": false,
     "topGame": false,
@@ -5807,8 +5901,7 @@
       "title": "THE RITE: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "THE RITE é um caça-níqueis on-line clássico de 5 tambores com 40 linhas vencedoras e jogos grátis. Não tenha medo, o aparecimento do Bonus de Vodu trará ganhos mágicos!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "The Tomb",
@@ -5817,7 +5910,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2019-02-01",
     "featured": false,
     "topGame": false,
@@ -5869,8 +5964,7 @@
       "title": "THE TOMB: DRAGON EMPEROR'S TREASURE: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "Leve grandes tesouros com este caça-níqueis on-line da Mascot Gaming: 5 tambores, 3 linhas e 10 linhas de pagamento. Quem é corajoso o suficiente para desvendar o enigma da tumba dos Imperadores?"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Venetian Magic",
@@ -5879,7 +5973,9 @@
     "theme": "video slot",
     "type": "traffic",
     "mgacertified": true,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2019-02-01",
     "featured": false,
     "topGame": false,
@@ -5921,8 +6017,7 @@
       "title": "VENETIAN MAGIC: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "VENETIAN MAGIC é um lindo caça-níqueis on-line temático da Mascot Gaming. Junte-se ao magnífico carnaval de Veneza!"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Fruits of mBit",
@@ -5931,7 +6026,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2023-05-11",
     "featured": false,
     "topGame": false,
@@ -5954,7 +6051,7 @@
       "paylines": 15,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 46.3
     },
     "features": [
@@ -5973,8 +6070,7 @@
       "title": "FRUITS OF mBit: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "FRUITS OF mBit é nosso novo caça-níqueis on-line com recurso Sticky Wilds & Respin."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Dice Vegas",
@@ -5983,7 +6079,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2023-05-11",
     "featured": false,
     "topGame": false,
@@ -6030,8 +6128,7 @@
       "title": "DICE VEGAS: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "DICE VEGAS é o nosso novo caça-níqueis on-line com a atmosfera da boa e velha Las Vegas."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Dice of Luxor",
@@ -6040,7 +6137,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2023-05-11",
     "featured": false,
     "topGame": false,
@@ -6063,7 +6162,7 @@
       "paylines": 15,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 46.3
     },
     "features": [
@@ -6082,8 +6181,7 @@
       "title": "DICE OF LUXOR: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "DICE OF LUXOR é o nosso novo caça-níqueis on-line com recurso Sticky Wilds & Respin."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Twin Dice of Olympus",
@@ -6092,7 +6190,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2023-05-11",
     "featured": false,
     "topGame": false,
@@ -6135,8 +6235,7 @@
       "title": "TWIN DICE OF OLYMPUS: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "TWIN DICE OF OLYMPUS é nosso novo caça-níqueis on-line com recurso twin reels"
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Dice Disco Mega Stacks",
@@ -6145,7 +6244,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2023-05-11",
     "featured": false,
     "topGame": false,
@@ -6192,8 +6293,7 @@
       "title": "DICE DISCO MEGA STACKS: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "DICE DISCO MEGA STACKS é nosso novo caça-níqueis on-line com recurso Símbolos Empilhados."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   },
   {
     "name": "Aloha Tiki Bar Dice",
@@ -6202,7 +6302,9 @@
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
+    "mganotice": true,
     "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2023-05-11",
     "featured": false,
     "topGame": false,
@@ -6249,7 +6351,6 @@
       "title": "ALOHA TIKI BAR DICE: jogo de caça-níqueis on-line da Mascot Gaming",
       "descr": "ALOHA TIKI BAR DICE é nosso novo caça-níqueis on-line com 3.600 formas de pagamento."
     },
-    "rockways": false,
-    "comingSoon": false
+    "rockways": false
   }
 ]
