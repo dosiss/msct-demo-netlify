@@ -808,6 +808,9 @@ export default {
         align-items: center;
         justify-content: center;
         padding: 25px 20px;
+        @media (max-width: 650px) {
+          flex-direction: column;
+        }
       }
       img {
         height: 56px;
@@ -827,14 +830,11 @@ export default {
           margin-left: 0;
           text-align: center;
           font-size: 1rem;
-          margin-top: 5px
+          margin-top: 5px;
         }
         strong {
           font-weight: 600
         }
-      }
-      @media (max-width: 650px) {
-        flex-direction: column;
       }
     }
   }
