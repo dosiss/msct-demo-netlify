@@ -111,7 +111,7 @@
 
     </div>
       <SharingButtons />
-      <vue-lazy-load><AdBannerAfrica /></vue-lazy-load>
+      <vue-lazy-load><AdBannerCBeatsNew /></vue-lazy-load>
       <MainFooter />
   </div>
 

@@ -45,7 +45,7 @@
       </div>
     </div>
     <SharingButtons />
-    <AdBannerAfrica />
+    <AdBannerCBeatsNew />
     <MainFooter />
     <ContactModalPartner v-show="showModal" @close-modal="showModal = false"/>
 

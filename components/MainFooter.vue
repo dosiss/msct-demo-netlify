@@ -89,12 +89,12 @@
         </div>
         <div class="footer-content__subscribe">
           <div v-if="success">You have successfully signed up for a newsletter</div>
-          <form v-else class="footer-form subscribe" @submit.prevent="sendSubscribe">
+          <form v-else class="footer-form subscribe" @submit.prevent="sendMessage">
 
                         <label for="footer-email">{{ $t('Subscribe to our newsletter!') }}</label>
                         <div class="footer-form__group">
                           <div class="input-wrapper">
-                              <input id="footer-email" v-model="email" name="email" type="email" :placeholder="$t('Your email address')" required aria-required="true">
+                              <input id="footer-email" v-model="subscription" name="subscription" type="email" :placeholder="$t('Your email address')" required aria-required="true">
                           </div>
                           <div class="submit-wrapper">
                               <button type="submit" class="buttn buttn-primary buttn-sm">{{ loading ? "Subscribing..." : $t('Subscribe') }}</button>
@@ -150,42 +150,77 @@
         email: "",
         phone: "",
         message: "",
+        subscription: "",
       };
     },
     methods: {
-    sendSubscribe() {
-      let jsonrpcId = 0;
-      this.loading = true;
-      this.$axios
-        .post("https://eform.casinomodule.org/handler", {
-          id: jsonrpcId++,
-          jsonrpc: "2.0",
-          method: "Email.Send",
-          params: {
-            Clientid: this.ClientId,
-            FormId: this.FormId,
-            name: this.name,
-            email: this.email,
-            phone: this.phone,
-            message: this.message
-          }
-        }, {
-          headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json"
+      sendMessage() {
+        this.loading = true;
+        const bodyFormData = new FormData();
+        bodyFormData.append('subscription', this.subscription);
+        bodyFormData.append('name', this.name);
+        bodyFormData.append('email', this.email);
+        bodyFormData.append('phone', this.phone);
+        bodyFormData.append('message', this.message);
+        bodyFormData.append('usertype', this.usertype);
+
+        bodyFormData.append('template_id', 'template_t3rkppg');
+
+
+        bodyFormData.append('service_id', 'service_tr5r6fw');
+        bodyFormData.append('user_id', 'eE5PNrtIqLmZkFQ2r');
+           this.$axios
+             .post("https://api.emailjs.com/api/v1.0/email/send-form",
+             bodyFormData
+             , {
+               headers: {
+               "Content-Type": "multipart/form-data"
+             },
+           })
+           .then(response => {
+               this.success = true
+               this.errored =false
+             })
+             .catch(() => {
+               this.errored = true
+             })
+             .finally(() => {
+               this.loading = false
+             });
         },
-      })
-      .then(response => {
-          this.success = true
-          this.errored =false
-        })
-        .catch(() => {
-          this.errored = true
-        })
-        .finally(() => {
-          this.loading = false
-        });
-      },
+    // sendSubscribe() {
+    //   let jsonrpcId = 0;
+    //   this.loading = true;
+    //   this.$axios
+    //     .post("https://eform.casinomodule.org/handler", {
+    //       id: jsonrpcId++,
+    //       jsonrpc: "2.0",
+    //       method: "Email.Send",
+    //       params: {
+    //         Clientid: this.ClientId,
+    //         FormId: this.FormId,
+    //         name: this.name,
+    //         email: this.email,
+    //         phone: this.phone,
+    //         message: this.message
+    //       }
+    //     }, {
+    //       headers: {
+    //       Accept: "application/json",
+    //       "Content-Type": "application/json"
+    //     },
+    //   })
+    //   .then(response => {
+    //       this.success = true
+    //       this.errored =false
+    //     })
+    //     .catch(() => {
+    //       this.errored = true
+    //     })
+    //     .finally(() => {
+    //       this.loading = false
+    //     });
+    //   },
     }
 
   }

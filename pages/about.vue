@@ -18,7 +18,7 @@
       </div>
     </div>
     <SharingButtons />
-    <AdBannerAfrica />
+    <AdBannerCBeatsNew />
     <MainFooter />
   </div>
 </template>
