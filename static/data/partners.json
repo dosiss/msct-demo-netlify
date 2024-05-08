@@ -1067,17 +1067,6 @@
     "logoUrl": "partner_nashbet.png"
   },
   {
-    "name": "Cosmolot",
-    "type": "partner",
-    "top": false,
-    "casino": true,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "http://cosmolot.ua/",
-    "logoUrl": "partner_cosmolot.png"
-  },
-  {
     "name": "LuckyDiamond",
     "type": "partner",
     "top": false,
@@ -1846,6 +1835,39 @@
     "promoText": null,
     "url": "https://www.magicbettingcasino.be/en/games/play/899/aloha_tiki_bar_dice?demo=true",
     "logoUrl": "partner_magicbetting2.png"
+  },
+  {
+    "name": "Cazino Stars",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": " ",
+    "logoUrl": "partner_cazinostars3.png"
+  },
+  {
+    "name": "Casino Intense",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.casinointense-sky.com/en/",
+    "logoUrl": "partner_casinointense.png"
+  },
+  {
+    "name": "Atlantis Slots",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.atlantisslots.com/en/",
+    "logoUrl": "partner_atlantisslots.png"
   },
   {
     "name": "lcb.org",
