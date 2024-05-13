@@ -106,12 +106,21 @@
           </form>
         </div>
       </div>
-      <div class="footer-badges">
-        <a href="https://onjn.gov.ro/licentiati-clasa-a-ii-a/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert-onjn.png" title="View Certificate" alt="ONJN certificate" /></a>
-        <a href="https://gamemc.by/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert2.jpg" srcset="/images/img_cert2@2x.jpg 2x" title="View Certificate" alt="gamemc.by" /></a>
-        <a href="https://access.gaminglabs.com/certificate/index?i=338" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img-gaming-labs-cert-white.jpg" srcset="/images/img-gaming-labs-cert-white@2x.jpg 2x" title="View Certificate" alt="Gaming Labs Certified" /></a>
-        <a href="https://www.global-lab.eu" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_globalab.jpg" srcset="/images/img_globalab@2x.jpg 2x" alt="GlobaLab" /></a>
-        <a href="/Certificate_Global_Lab_Translated.pdf" class="footer-badges__item" target="_blank"><img src="/images/img_globalab-cert.png" srcset="/images/img_globalab-cert@2x.png 2x" alt="GlobaLab Certificate" title="View Certificate" /></a>
+      <div class="footer-badges__wrap">
+        <div class="footer-badges">
+          <a href="https://onjn.gov.ro/licentiati-clasa-a-ii-a/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert-onjn.png" title="View Certificate" alt="ONJN certificate" /></a>
+          <a href="https://gamemc.by/" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_cert2.jpg" srcset="/images/img_cert2@2x.jpg 2x" title="View Certificate" alt="gamemc.by" /></a>
+          <a href="https://access.gaminglabs.com/certificate/index?i=338" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img-gaming-labs-cert-white.jpg" srcset="/images/img-gaming-labs-cert-white@2x.jpg 2x" title="View Certificate" alt="Gaming Labs Certified" /></a>
+          <a href="https://www.global-lab.eu" class="footer-badges__item" rel="nofollow noopener" target="_blank"><img src="/images/img_globalab.jpg" srcset="/images/img_globalab@2x.jpg 2x" alt="GlobaLab" /></a>
+          <a href="/Certificate_Global_Lab_Translated.pdf" class="footer-badges__item" target="_blank"><img src="/images/img_globalab-cert.png" srcset="/images/img_globalab-cert@2x.png 2x" alt="GlobaLab Certificate" title="View Certificate" /></a>
+        </div>
+        <div class="footer-badges-second">
+          <div class="footer-badges__18plus">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 72 62"><path fill="#DB001D" stroke="#fff" stroke-width="2.122" d="M41.1351 8.52217L40.8281 8.20771L40.3887 8.20242L22.3851 7.98579L21.9456 7.9805L21.6312 8.28749L8.74753 20.8648L8.43307 21.1718L8.42778 21.6112L8.21115 39.6148L8.20586 40.0542L8.51285 40.3687L21.0901 53.2523L21.3971 53.5668L21.8365 53.5721L39.8401 53.7887L40.2796 53.794L40.594 53.487L53.4777 40.9097L53.7921 40.6027L53.7974 40.1633L54.0141 22.1597L54.0194 21.7203L53.7124 21.4058L41.1351 8.52217Z"/><g fill="#fff" clip-path="url(#a)"><path d="M47.741 33.082H43.415V37.347H40.762V33.082H36.415V30.51H40.742V26.245H43.394V30.51H47.741V33.082ZM35.324 33.857C35.324 35.299 34.8 36.415 33.753 37.204 32.705 37.98 31.42 38.367 29.896 38.367 28.359 38.367 27.066 37.98 26.019 37.204 24.985 36.429 24.468 35.32 24.468 33.878 24.468 33.034 24.713 32.306 25.202 31.694 25.692 31.082 26.311 30.66 27.059 30.429V30.388C26.406 30.143 25.876 29.756 25.468 29.225 25.059 28.681 24.855 28.028 24.855 27.266 24.855 25.987 25.338 24.98 26.304 24.246 27.284 23.511 28.481 23.144 29.896 23.144 31.311 23.144 32.501 23.504 33.467 24.225 34.447 24.933 34.936 25.926 34.936 27.205 34.936 27.98 34.732 28.647 34.324 29.205 33.93 29.762 33.399 30.15 32.732 30.368V30.429C33.481 30.633 34.1 31.048 34.589 31.674 35.079 32.3 35.324 33.027 35.324 33.857ZM31.12 28.654C31.46 28.313 31.63 27.912 31.63 27.45 31.63 26.987 31.46 26.599 31.12 26.286 30.78 25.96 30.372 25.797 29.896 25.797 29.392 25.797 28.978 25.953 28.651 26.266 28.338 26.579 28.182 26.973 28.182 27.45 28.182 27.926 28.338 28.334 28.651 28.674 28.964 29.001 29.379 29.164 29.896 29.164 30.386 29.164 30.794 28.994 31.12 28.654ZM31.896 33.735C31.896 33.177 31.705 32.715 31.324 32.347 30.943 31.966 30.467 31.776 29.896 31.776 29.311 31.776 28.828 31.966 28.447 32.347 28.066 32.715 27.876 33.177 27.876 33.735 27.876 34.306 28.059 34.769 28.427 35.123 28.807 35.476 29.297 35.653 29.896 35.653 30.494 35.653 30.977 35.483 31.345 35.143 31.712 34.789 31.896 34.32 31.896 33.735ZM23.601 37.98H20.172V27.368L17.479 29.449 15.703 27.021 20.458 23.531H23.601V37.98Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0H32.038V15.223H0z" transform="translate(15.703 23.144)"/></clipPath></defs></svg>
+            <div class="footer-badges__18plus-text">Gambling products here are prohibited for people under 18 y.o.</div>
+          </div>
+          <a href="https://gambleaware.org" class="footer-badges__gambleaware" rel="nofollow noopener" target="_blank"><img src="/images/img_gamble-aware.png" alt="gambleaware.org" /></a>
+        </div>
       </div>
     </div>
     <div class="footer-bottom__wrap">
@@ -401,7 +410,7 @@
           display: none;
         }
         .footer-badges__item {
-          margin-left: 15px;
+          margin-right: 15px;
           display: block;
           height: fit-content;
           @media (max-width: 850px) {
@@ -413,6 +422,54 @@
             height: 45px;
             @media (max-width: 1600px) {
               height: 30px
+            }
+          }
+        }
+      }
+      .footer-badges-second {
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        .footer-badges__18plus {
+          display: flex;
+          align-items: center;
+          width: 396px;
+          @media (max-width: 1600px) {
+            width: 298px;
+            margin-left: -7px
+          }
+          svg {
+            width: 55px;
+            height: auto;
+            flex: 1 0 auto;
+            @media (max-width: 1600px) {
+              height: 40px
+            }
+            @media (max-width: 650px) {
+              height: 55px
+            }
+          }
+          .footer-badges__18plus-text {
+            font-size: 15px;
+            padding-right: 15px;
+            @media (max-width: 1600px) {
+              font-size: 14px;
+              padding-right: 10px
+            }
+          }
+        }
+        .footer-badges__gambleaware {
+          display: block;
+          @media (max-width: 650px) {
+            flex: 1 0 auto
+          }
+          img {
+            height: 45px;
+            @media (max-width: 1600px) {
+              height: 30px
+            }
+            @media (max-width: 650px) {
+              height: 45px
             }
           }
         }
