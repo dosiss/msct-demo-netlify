@@ -1,5 +1,58 @@
 [
   {
+    "name": "Across the Universe: Keno",
+    "slug": "across-the-universe-keno",
+    "linkToDemo": " ",
+    "theme": "lottery game",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2024-06-27",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_universekeno.jpeg",
+    "heroUrl": "hero_universekeno.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_universekeno.jpg",
+    "logoUrl": "logo_universekeno.png",
+    "backUrl": "back_universekeno.jpg",
+    "detailsImgUrl": "details_universekeno.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Guess the balls",
+        "descr": "Keno game with classical rules, in which the player can choose up to 10 numbers",
+        "imgUrl": "img-feat_universekeno-0.jpg"
+      },
+      {
+        "name": "Bonus balls feature",
+        "descr": "The player can buy additional balls, therefore, get the chance to increase the winnings",
+        "imgUrl": "img-feat_universekeno-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Across the Universe: Keno, a video game by Mascot Gaming",
+      "descr": "Embark on a cosmic journey in this thrilling Keno game with a Bonus Ball feature!"
+    },
+    "rockways": false
+  },
+  {
     "name": "Ice Number One",
     "slug": "ice-number-one",
     "linkToDemo": null,

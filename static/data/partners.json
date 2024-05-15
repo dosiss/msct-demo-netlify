@@ -1,5 +1,16 @@
 [
   {
+  "name": "Airbet challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Hit 5 symbols and grab 20 usdt",
+  "url": "https://airbet.io/promotion/riot-quest-by-mascot-get-20-usdt-by-completing-the-challenge",
+  "logoUrl": "partner_airbet2.png"
+  },
+  {
   "name": "Fatpanda challenge",
   "type": "promopartner",
   "top": false,
@@ -1868,6 +1879,17 @@
     "promoText": null,
     "url": "https://www.atlantisslots.com/en/",
     "logoUrl": "partner_atlantisslots.png"
+  },
+  {
+    "name": "Boom pari",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://boompari5.com/games?filter=Mascot",
+    "logoUrl": "partner_boompari.png"
   },
   {
     "name": "lcb.org",
