@@ -244,19 +244,19 @@
   {
     "name": "Big win x25",
     "slug": "big-win-x25",
-    "linkToDemo": null,
+    "linkToDemo": "demo.mascot.games/run/big_win_x25",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-05-23",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": null,
+    "descr": " ",
     "thumbUrl": "game_bigwinx25.jpeg",
     "heroUrl": "hero_bigwinx25.jpg",
     "blueButtn": false,
@@ -267,14 +267,14 @@
     "backUrl": "back_bigwinx25.jpg",
     "detailsImgUrl": "details_bigwinx25.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 5,
       "payways": null,
       "html5": true,
-      "rtp": null,
-      "hitrate": null
+      "rtp": 95.33,
+      "hitrate": 75.2
     },
     "features": [
       {
@@ -295,7 +295,7 @@
     ],
     "meta": {
       "title": "Big Win x25, video slot game by Mascot Gaming",
-      "descr": null
+      "descr": "Fruit explosions and fantastic wins with the Risk game and win multipliers up x25!"
     },
     "rockways": false
   },
