@@ -120,7 +120,7 @@ export default {
   "Mascot Gaming - casino games provider": "Mascot Gaming - provedor de jogos de cassino",
   "We are a team of like-minded people who worked in gambling sphere for many years. We love our work and respect your business. Explore our history!": "Somos uma equipe de pessoas com ideias parecidas que trabalham no campo das apostas há muitos anos. Amamos nosso trabalho e respeitamos seu negócio. Conheça nossa história!",
   "Mascot Gaming Contacts": "Mascot Gaming Contatos",
-  "More info": "Participar",
+  "More info": "Mais informações",
   "Cookie policy": "Política de cookies",
   "We use cookies to ensure that we give you the best experience on our website. By using the website you agree to our use of cookies.": "Utilizamos cookies para garantir que oferecemos a você a melhor experiência no nosso site. Ao utilizar o site você concorda com o uso de cookies.",
   "Agree and continue": "CONCORDAR E CONTINUAR",
