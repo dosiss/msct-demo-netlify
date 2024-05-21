@@ -19,6 +19,7 @@
       <LazySharingButtons />
       <vue-lazy-load><AdBannerCBeatsNew /></vue-lazy-load>
       <LazyMainFooter />
+      <AgeCheck v-show="showAgeCheck" @age-verified="ageVerified()" />
   </div>
 
 </template>
@@ -26,17 +27,22 @@
 <script>
 
 import VueLazyLoad from '@voorhoede/vue-lazy-load'
+import AgeCheck from '~/components/AgeCheck'
+
 
 export default {
 
   components: {
-    VueLazyLoad
+    VueLazyLoad,
+    AgeCheck
   },
 
   data() {
     return {
       title: '',
       description: '',
+
+      showAgeCheck: false,
 
     }
   },
@@ -67,10 +73,27 @@ export default {
     }
   },
 
+  beforeMount() {
+      if (sessionStorage.getItem('age') !== 'verified') {
+        this.showAgeCheck = true
+      } else {
+   //     document.body.classList.add("modal-open");
+     };
+   },
+
   mounted() {
+
     this.title = this.$t('Explore the new world of exciting casino games!')
     this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
   },
+
+  methods: {
+        ageVerified() {
+        this.showAgeCheck = false;
+        sessionStorage.setItem('age', 'verified');
+    //       document.body.classList.remove("modal-open");
+    },
+  }
 
 }
 </script>

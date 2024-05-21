@@ -704,6 +704,28 @@
     "logoUrl": "partner_synot.png"
   },
   {
+    "name": "Digitain",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": true,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.digitain.com/",
+    "logoUrl": "partner_digitaini.png"
+  },
+  {
+    "name": "Vibragaming",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": true,
+    "promo": false,
+    "promoText": null,
+    "url": "https://vibragaming.com/",
+    "logoUrl": "partner_vibragaming.png"
+  },
+  {
     "name": "7bit",
     "type": "partner",
     "top": true,
@@ -1890,6 +1912,94 @@
     "promoText": null,
     "url": "https://boompari5.com/games?filter=Mascot",
     "logoUrl": "partner_boompari.png"
+  },
+  {
+    "name": "Latribet",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://latribet.ec/",
+    "logoUrl": "partner_latribet.png"
+  },
+  {
+    "name": "LSbet",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.lsbet.com",
+    "logoUrl": "partner_lsbet.png"
+  },
+  {
+    "name": "Rojabet",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://rojabet.com/",
+    "logoUrl": "partner_rojabet.png"
+  },
+  {
+    "name": "Ganaencasa",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.ganaencasa.net/casino",
+    "logoUrl": "partner_ganaencasa.png"
+  },
+  {
+    "name": "Casino Zeus",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.casinozeus.club/",
+    "logoUrl": "partner_casinozeus.png"
+  },
+  {
+    "name": "Trebol bet",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.trebol.vip/",
+    "logoUrl": "partner_trebolbet.png"
+  },
+  {
+    "name": "Camel better",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.camelbet.vip/",
+    "logoUrl": "partner_camelbet.png"
+  },
+  {
+    "name": "Bet sul",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.betsul.com/",
+    "logoUrl": "partner_betsul.png"
   },
   {
     "name": "lcb.org",

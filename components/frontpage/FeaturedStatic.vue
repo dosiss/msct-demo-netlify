@@ -333,7 +333,7 @@ import allGamesPT from '../../static/data/games_pt-br-all.json'
           max-height: 220px;
           max-width: 400px;
           position: relative;
-          z-index: 99;
+          z-index: 2;
           @media (max-width: 850px) {
             max-height: 250px;
           }

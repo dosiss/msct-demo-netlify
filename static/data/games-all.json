@@ -176,19 +176,19 @@
   {
     "name": "Fabulous Farm Slot",
     "slug": "fabulous-farm-slot",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/fabulous_farm_slot",
     "theme": "video slot",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
-    "releaseDate": "2024-05-30",
+    "comingSoon": false,
+    "releaseDate": "2024-05-28",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": null,
     "thumbUrl": "game_fabfarm.jpeg",
     "heroUrl": "hero_fabfarm.jpg",
     "blueButtn": false,
@@ -199,14 +199,14 @@
     "backUrl": "back_fabfarm.jpg",
     "detailsImgUrl": "details_fabfarm.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
+      "reels": 5,
+      "rows": 5,
+      "volatility": "High",
       "paylines": null,
-      "payways": null,
+      "payways": 3125,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": 95.05,
+      "hitrate": 23.8
     },
     "features": [
       {
@@ -221,23 +221,28 @@
       },
       {
         "name": "Free Spins",
-        "descr": "Free Spins with win multipliers",
+        "descr": "4 Scatter Symbols trigger Free Spins with win multipliers",
         "imgUrl": "img-feat_fabfarm-2.jpg"
       },
       {
         "name": "Bonus Game",
-        "descr": "Bonus Game with win multipliers and win modifiers",
+        "descr": "4 Bonus Symbols  trigger Bonus Game with win multipliers and win modifiers",
         "imgUrl": "img-feat_fabfarm-3.jpg"
       },
       {
-        "name": "RockFall Feature",
+        "name": "Rockfall Feature with a Win Multiplier",
         "descr": "All winning symbols are removed from the screen and replaced with new ones",
         "imgUrl": "img-feat_fabfarm-4.jpg"
+      },
+      {
+        "name": "Extra Bonus Feature",
+        "descr": "If winning symbols fill the entire screen during the Bonus Game, and bonus spins are left on the counter, players receive a bonus that multiplies the current modifier by the remaining spins",
+        "imgUrl": "img-feat_fabfarm-5.jpg"
       }
     ],
     "meta": {
-      "title": "Fabulous Farm Slot, video slot game by Mascot Gaming",
-      "descr": " "
+      "title": "Fabulous Farm Slot, a video slot game by Mascot Gaming",
+      "descr": "The most enchanting farm with Rockfall feature, Free Spins and Bonus Game, Win Multipliers and Risk and Buy Feautre."
     },
     "rockways": false
   },
