@@ -89,28 +89,28 @@
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Recurso Risk & Buy: Arriscar",
+        "descr": "Arrisque seus ganhos jogando o jogo Arriscar. Você pode aumentar seus ganhos ao conseguir um multiplicador de ganhos",
         "imgUrl": "img-feat_ice1-0.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase Free Spins or Bonus game with the proposed conditions and at the suggested price. There is a special Buy offer after each spin",
+        "name": "Recurso Risk & Buy: Comprar",
+        "descr": "Compre Free Spins ou o jogo de Bonus com as condições propostas e pelo preço sugerido. Há uma oferta especial de compra após cada giro",
         "imgUrl": "img-feat_ice1-1.jpg"
       },
       {
-        "name": "Side Bet Feature",
-        "descr": "Place an additional bet on the outcomes of the game during Free Spins",
+        "name": "Recurso de Aposta Paralela",
+        "descr": "Faça uma aposta adicional nos resultados do jogo durante os Free Spins",
         "imgUrl": "img-feat_ice1-2.jpg"
       },
       {
         "name": "Free Spins",
-        "descr": "Enjoy Free Spins with extra bets and winnings",
+        "descr": "Aproveite os Free Spins com apostas extras e ganhos",
         "imgUrl": "img-feat_ice1-3.jpg"
       }
     ],
     "meta": {
-      "title": "Ice Number One, video slot game by Mascot Gaming",
+      "title": "Ice Number One, o jogo de caça-níqueis da Mascot Gaming",
       "descr": null
     },
     "rockways": false
@@ -152,23 +152,23 @@
     },
     "features": [
       {
-        "name": "Risk Game",
-        "descr": "Risk your winnings by playing the Risk game, where you can increase your winnings with a win multiplier",
+        "name": "Jogo Arriscar",
+        "descr": "Arrisque seus ganhos jogando o jogo Arriscar, no qual você pode aumentar seus ganhos com um multiplicador de ganhos",
         "imgUrl": "img-feat_hotfruit-0.jpg"
       },
       {
-        "name": "Win Multiplier",
-        "descr": "Each winning spin increases the win multiplier up to x15",
+        "name": "Multiplicador de ganhos",
+        "descr": "Cada giro vencedor aumenta o multiplicador de ganhos em até 15x",
         "imgUrl": "img-feat_hotfruit-1.jpg"
       },
       {
-        "name": "Payouts in Both Directions",
-        "descr": "Winning combinations are paid from left to right and from right to left",
+        "name": "Pagamentos em ambas as direções",
+        "descr": "Os pagamentos das combinações vencedoras são feitos da esquerda para a direita e da direita para a esquerda",
         "imgUrl": "img-feat_hotfruit-2.jpg"
       }
     ],
     "meta": {
-      "title": "Hot Fruit x15, video slot game by Mascot Gaming",
+      "title": "Hot Fruit x15, um caça-níqueis da Mascot Gaming",
       "descr": null
     },
     "rockways": false
@@ -210,39 +210,34 @@
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Recurso Risk & Buy: Arriscar",
+        "descr": "Arrisque seus ganhos jogando o jogo Arriscar. Você pode aumentar seus ganhos ao conseguir um multiplicador de ganhos",
         "imgUrl": "img-feat_fabfarm-0.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase Free Spins or Bonus game with the proposed conditions and at the suggested price. There is a special Buy offer after each spin",
+        "name": "Recurso Risk & Buy: Comprar",
+        "descr": "Compre Free Spins ou o jogo de Bonus com as condições propostas e pelo preço sugerido. Há uma oferta especial de compra após cada giro",
         "imgUrl": "img-feat_fabfarm-1.jpg"
       },
       {
         "name": "Free Spins",
-        "descr": "4 Scatter Symbols trigger Free Spins with win multipliers",
+        "descr": "Free Spins com multipicadores de ganhos",
         "imgUrl": "img-feat_fabfarm-2.jpg"
       },
       {
-        "name": "Bonus Game",
-        "descr": "4 Bonus Symbols  trigger Bonus Game with win multipliers and win modifiers",
+        "name": "Jogo de Bonus",
+        "descr": "Jogo de Bônus com multipicadores de ganhos e modificadores de ganhos",
         "imgUrl": "img-feat_fabfarm-3.jpg"
       },
       {
-        "name": "Rockfall Feature with a Win Multiplier",
-        "descr": "All winning symbols are removed from the screen and replaced with new ones",
+        "name": "Recurso Rockfall",
+        "descr": "Todos os símbolos vencedores são removidos da tela e substituídos por novos",
         "imgUrl": "img-feat_fabfarm-4.jpg"
-      },
-      {
-        "name": "Extra Bonus Feature",
-        "descr": "If winning symbols fill the entire screen during the Bonus Game, and bonus spins are left on the counter, players receive a bonus that multiplies the current modifier by the remaining spins",
-        "imgUrl": "img-feat_fabfarm-5.jpg"
       }
     ],
     "meta": {
-      "title": "Fabulous Farm Slot, a video slot game by Mascot Gaming",
-      "descr": "The most enchanting farm with Rockfall feature, Free Spins and Bonus Game, Win Multipliers and Risk and Buy Feautre."
+      "title": "Fabulous Farm Slot, um caça-níqueis da Mascot Gaming",
+      "descr": null
     },
     "rockways": false
   },
@@ -283,24 +278,24 @@
     },
     "features": [
       {
-        "name": "Risk Game",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings with a win multiplier",
+        "name": "Jogo Arriscar",
+        "descr": "Arrisque seus ganhos jogando o jogo Arriscar. Você pode aumentar seus ganhos ao conseguir um multipicador de ganhos",
         "imgUrl": "img-feat_bigwinx25-0.jpg"
       },
       {
-        "name": "Win Multiplier",
-        "descr": "Each non-winning spin increases the win multiplier up to x25",
+        "name": "Multiplicador de ganhos",
+        "descr": "Cada giro vencedor aumenta o multipicador de ganhos em até 25x",
         "imgUrl": "img-feat_bigwinx25-1.jpg"
       },
       {
-        "name": "Payouts in Both Directions",
-        "descr": "Winning combinations are paid from left to right and from right to left",
+        "name": "Pagamentos em ambas as direções",
+        "descr": "Os pagamentos das combinações vencedoras são feitos da esquerda para a direita e da direita para a esquerda",
         "imgUrl": "img-feat_bigwinx25-2.jpg"
       }
     ],
     "meta": {
-      "title": "Big Win x25, video slot game by Mascot Gaming",
-      "descr": "Fruit explosions and fantastic wins with the Risk game and win multipliers up x25!"
+      "title": "Big Win 25x, um caça-níqueis da Mascot Gaming",
+      "descr": null
     },
     "rockways": false
   },
@@ -342,23 +337,23 @@
     "features": [
       {
         "name": "Wild Reels",
-        "descr": "Wild Symbols transform into Wild Reels and trigger Free Respins",
+        "descr": "Os Símbolos Wild se transformam em Wild Reels e acionam Free Respins",
         "imgUrl": "img-feat_mist-0.jpg"
       },
       {
         "name": "Free Respins",
-        "descr": "During Free Respins, the win multipliers can increase up to x27",
+        "descr": "Durante os Free Respins, o multipicadores de ganhos pode aumentar até 27x",
         "imgUrl": "img-feat_mist-1.jpg"
       },
       {
-        "name": "Gamble Feature",
-        "descr": "Guess the higher card and increase your winnings",
+        "name": "Recurso Apostar",
+        "descr": "Adivinhe a carta mais alta e aumente seus ganhos",
         "imgUrl": "img-feat_mist-2.jpg"
       }
     ],
     "meta": {
-      "title": "Mist, a video slot game by Mascot Gaming",
-      "descr": "Wild Reels, Free Respins and x27 multiplier await you in the thrilling sea quest!"
+      "title": "Mist, um caça-níqueis da Mascot Gaming",
+      "descr": "Os Wild Reels, os Free Respins e o multipicador x27 estão à sua espera nesta emocionante aventura no mar!"
     },
     "rockways": false
   },
@@ -399,39 +394,39 @@
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Recurso Risk & Buy: Arriscar",
+        "descr": "Arrisque seus ganhos jogando o jogo Arriscar. Você pode aumentar seus ganhos ao conseguir um multipicador de ganhos",
         "imgUrl": "img-feat_candyslotd-0.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "name": "Recurso Risk & Buy: Comprar",
+        "descr": "Compre um determinado número de Free Spins com as condições propostas e pelo preço sugerido. Há uma oferta especial de compra após cada giro",
         "imgUrl": "img-feat_candyslotd-1.jpg"
       },
       {
-        "name": "Random Feature",
-        "descr": "During a random spin in the base game and during each spin in Free Spins, special symbols are added to the screen",
+        "name": "Recurso aleatório",
+        "descr": "Durante um giro aleatório no jogo base e durante cada giro nos Free Spins, símbolos especiais são adicionados à tela",
         "imgUrl": "img-feat_candyslotd-2.jpg"
       },
       {
-        "name": "Coin Feature",
-        "descr": "Bonus symbols trigger Coin Feature, where each Bonus symbol awards prize coins",
+        "name": "Recurso de Moeda",
+        "descr": "Símbolos de bônus ativam o Recurso de Moeda, em que cada símbolo de bonus concede moedas de prêmio",
         "imgUrl": "img-feat_candyslotd-3.jpg"
       },
       {
-        "name": "Free Spins with Extra Free Spins",
-        "descr": "Scatter Symbols award Free Spins with the opportunity to win additional Free Spins",
+        "name": "Free Spins com Free Spins Extra",
+        "descr": "Símbolos Scatter concedem Free Spins com a oportunidade de ganhar Free Spins adicionais",
         "imgUrl": "img-feat_candyslotd-4.jpg"
       },
       {
-        "name": "Rockfall Feature",
-        "descr": "All winning symbols disappear and are replaced with new ones",
+        "name": "Recurso Rockfall",
+        "descr": "Todos os símbolos vencedores desaparecem e são substituídos por novos",
         "imgUrl": "img-feat_candyslotd-5.jpg"
       }
     ],
     "meta": {
-      "title": "The Candy Slot, a video slot game by Mascot Gaming",
-      "descr": "The most delicious sweets are served with Risk and Buy, Free Spins, Random and Coin features."
+      "title": "The Candy Slot, um caça-níqueis da Mascot Gaming",
+      "descr": "Os doces mais deliciosos são servidos com os recursos de Risk and Buy, de Free Spins, Random e de Coin."
     },
     "rockways": false
   },
@@ -472,24 +467,24 @@
     },
     "features": [
       {
-        "name": "Wild Symbol with Multiplier",
-        "descr": "Combinations with Wild Symbol are paid with a multiplier of x2",
+        "name": "Símbolo Wild com Multiplicador",
+        "descr": "Combinações com símbolos Wild são pagas com um multiplicador de 2x",
         "imgUrl": "img-feat_fruitmachine-0.jpg"
       },
       {
-        "name": "Free Spins Feature",
-        "descr": "Free Spin Series with additional free spins, with multipliers from x3 to x25!",
+        "name": "Recurso de Free Spins",
+        "descr": "Série de Free Spin com giros grátis adicionais, com multiplicadores de 3x a 25x!",
         "imgUrl": "img-feat_fruitmachine-1.jpg"
       },
       {
-        "name": "Extra Free Spins",
-        "descr": "Extra Free Spins can be won during the current series of Free Spins according to the general rules of the payout table",
+        "name": "Free Spins Extras",
+        "descr": "Free Spins Extras podem ser ganhos durante a série atual de Free Spins de acordo com as regras gerais da tabela de pagamentos",
         "imgUrl": "img-feat_fruitmachine-2.jpg"
       }
     ],
     "meta": {
-      "title": "Admiral X Fruit Machine, a branded video slot game by Mascot Gaming",
-      "descr": "Become the master of the fruits in this special slot game."
+      "title": "Admiral X Fruit Machine, um caça-níqueis licenciado da Mascot Gaming",
+      "descr": "Se torne o mestre das frutas nesse novo jogo de caça-níqueis especial."
     },
     "rockways": false
   },
@@ -530,24 +525,24 @@
     },
     "features": [
       {
-        "name": "Wild Symbol with Multiplier",
-        "descr": "Combinations with Wild Symbol are paid with a multiplier of x2",
+        "name": "Símbolo Wild com Multiplicador",
+        "descr": "Combinações com símbolos Wild são pagas com um multiplicador de 2x",
         "imgUrl": "img-feat_fruitmachine-0.jpg"
       },
       {
-        "name": "Free Spins Feature",
-        "descr": "Free Spin Series with additional free spins, with multipliers from x3 to x25!",
+        "name": "Recurso de Free Spins",
+        "descr": "Série de Free Spin com Free Spins adicionais, com multiplicadores de 3x a 25x!",
         "imgUrl": "img-feat_fruitmachine-1.jpg"
       },
       {
-        "name": "Extra Free Spins",
-        "descr": "Extra Free Spins can be won during the current series of Free Spins according to the general rules of the payout table",
+        "name": "Free Spins Extras",
+        "descr": "Free Spins Extras podem ser ganhos durante a série atual de Free Spins de acordo com as regras gerais da tabela de pagamentos",
         "imgUrl": "img-feat_fruitmachine-2.jpg"
       }
     ],
     "meta": {
-      "title": "Azino Fruit Machine x25, a branded video slot game by Mascot Gaming",
-      "descr": "Take charge of the fruits in this special slot game."
+      "title": "Azion Fruit Machine 25x, um caça-níqueis licenciado da Mascot Gaming",
+      "descr": "Assuma o controle das frutas nesse caça-níqueis especial."
     },
     "rockways": false
   },
@@ -588,19 +583,19 @@
     },
     "features": [
       {
-        "name": "Transformed Wilds",
-        "descr": "Up to 7 symbols can turn into Wild Symbols",
+        "name": "Wild Transformados",
+        "descr": "Até 7 símbolos podem se transformar em Símbolos Wild",
         "imgUrl": "img-feat_yukon-0.jpg"
       },
       {
-        "name": "Gamble",
-        "descr": "Guess the highest card and get a win multiplier",
+        "name": "Apostar",
+        "descr": "Adivinhe a carta mais alta e ganhe um multiplicador de ganhos",
         "imgUrl": "img-feat_yukon-1.jpg"
       }
     ],
     "meta": {
-      "title": "Yukon Fever, a video slot game by Mascot Gaming",
-      "descr": "Experience the thrill of the gold rush with Transformed Wilds and Gamble Feature."
+      "title": "Yukon Fever, um caça-níqueis da Mascot Gaming",
+      "descr": "Experimente a emoção da corrida do ouro com Símbolos Wilds Transformados e Recurso de Aposta."
     },
     "rockways": false,
     "articles": [
