@@ -341,28 +341,6 @@
     "logoUrl": "partner_slots777.png"
   },
   {
-    "name": "4Luck",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://latestcasinobonuses.mobi/?s=Mascot&post_type=any&submit=",
-    "logoUrl": "partner_4luck.png"
-  },
-  {
-    "name": "Casinoscout",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://casinoscout.nl/software/mascot-gaming/",
-    "logoUrl": "partner_casinoscout.png"
-  },
-  {
     "name": "Chipy.com",
     "type": "media",
     "top": false,

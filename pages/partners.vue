@@ -45,7 +45,7 @@
       </div>
     </div>
     <SharingButtons />
-    <AdBannerCBeatsNew />
+    <AdBannerIGBlive />
     <MainFooter />
     <ContactModalPartner v-show="showModal" @close-modal="showModal = false"/>
 

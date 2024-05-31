@@ -130,6 +130,8 @@ export default {
   "Preferred method of contact:": "Método preferido de contato:",
   "E-mail": "E-mail",
   "Phone Call": "Chamada telefônica",
+  "Certificate number": "Certificate number",
+
 
 
 "TERMS AND CONDITIONS": "TERMOS E CONDIÇÕES",

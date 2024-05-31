@@ -121,6 +121,12 @@
           </div>
           <a href="https://gambleaware.org" class="footer-badges__gambleaware" rel="nofollow noopener" target="_blank"><img src="/images/img_gamble-aware.png" alt="gambleaware.org" /></a>
         </div>
+        <div class="footer-badges-second footer-mga">
+          <a href="https://www.mga.org.mt/licensee-hub/recognition-notice-register/" target="_blank" >
+            <img src="/images/img_mga-logo.png" srcset="/images/img_mga-logo@2x.png 2x" alt="mga logo" />
+            <span>{{$t('Certificate number')}} <strong>RN/319/2024</strong></span>
+          </a>
+        </div>
       </div>
     </div>
     <div class="footer-bottom__wrap">
@@ -470,6 +476,34 @@
             }
             @media (max-width: 650px) {
               height: 45px
+            }
+          }
+        }
+        &.footer-mga {
+          background: #121212;
+          border-radius: 12px;
+          padding: 10px 20px;
+          align-items: center;
+          justify-content: center;
+          a {
+            display: flex;
+            align-items: center;
+            @media (max-width: 650px) {
+              flex-direction: column
+            }
+            img {
+              max-height: 34px
+            }
+            span {
+              font-size: .9rem;
+              text-transform: uppercase;
+              margin-left: 10px;
+              @media (max-width: 650px) {
+                margin-top: 10px
+              }
+              strong {
+                font-weight: 700
+              }
             }
           }
         }

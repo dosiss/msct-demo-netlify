@@ -131,7 +131,7 @@ export default
     "Preferred method of contact:": "Método de contacto preferido:",
     "E-mail": "Correo electrónico",
     "Phone Call": "Llamada telefónica",
-
+    "Certificate number": "Certificate number",
 
     "TERMS AND CONDITIONS": "TÉRMINOS Y CONDICIONES",
     "LEGAL INFORMATION": "INFORMACIÓN LEGAL",
