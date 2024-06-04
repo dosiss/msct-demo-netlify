@@ -118,19 +118,19 @@
   {
     "name": "Hot Fruit x15",
     "slug": "hot-fruit-x15",
-    "linkToDemo": null,
+    "linkToDemo": "demo.mascot.games/run/hot_fruit_x15",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-06-11",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": null,
+    "descr": " ",
     "thumbUrl": "game_hotfruit.jpeg",
     "heroUrl": "hero_hotfruit.jpg",
     "blueButtn": false,
@@ -141,35 +141,35 @@
     "backUrl": "back_hotfruit.jpg",
     "detailsImgUrl": "details_hotfruit.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
       "payways": null,
       "html5": true,
-      "rtp": null,
-      "hitrate": null
+      "rtp": 95.18,
+      "hitrate": 36.0
     },
     "features": [
       {
-        "name": "Jogo Arriscar",
-        "descr": "Arrisque seus ganhos jogando o jogo Arriscar, no qual você pode aumentar seus ganhos com um multiplicador de ganhos",
+        "name": "Win Multiplier",
+        "descr": "Each winning spin increases the win multiplier up to x15",
         "imgUrl": "img-feat_hotfruit-0.jpg"
       },
       {
-        "name": "Multiplicador de ganhos",
-        "descr": "Cada giro vencedor aumenta o multiplicador de ganhos em até 15x",
+        "name": "Risk Game",
+        "descr": "Risk your winnings by playing the Risk game, where you can increase your winnings with a win multiplier",
         "imgUrl": "img-feat_hotfruit-1.jpg"
       },
       {
-        "name": "Pagamentos em ambas as direções",
-        "descr": "Os pagamentos das combinações vencedoras são feitos da esquerda para a direita e da direita para a esquerda",
+        "name": "Payouts in Both Directions",
+        "descr": "Winning combinations are paid from left to right and from right to left",
         "imgUrl": "img-feat_hotfruit-2.jpg"
       }
     ],
     "meta": {
-      "title": "Hot Fruit x15, um caça-níqueis da Mascot Gaming",
-      "descr": null
+      "title": "Hot Fruit x15, a video slot game by Mascot Gaming",
+      "descr": "Experience the hottest fruits with base game multipliers up to x15 and the exciting Risk game."
     },
     "rockways": false
   },
@@ -189,7 +189,7 @@
     "branded": false,
     "custom": false,
     "descr": null,
-    "thumbUrl": "game_fabfarm.jpeg",
+    "thumbUrl": "game_fabfarm-2.jpeg",
     "heroUrl": "hero_fabfarm.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -257,7 +257,7 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_bigwinx25.jpeg",
+    "thumbUrl": "game_bigwinx25-2.jpeg",
     "heroUrl": "hero_bigwinx25.jpg",
     "blueButtn": false,
     "videoUrl": null,
