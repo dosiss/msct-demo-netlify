@@ -1,5 +1,567 @@
 [
   {
+    "name": "Cancan Saloon Deluxe",
+    "slug": "cancan-saloon-deluxe",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2024-09-24",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_cancandeluxe.jpeg",
+    "heroUrl": "hero_cancandeluxe.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_cancandeluxe.jpg",
+    "logoUrl": "logo_cancandeluxe.png",
+    "backUrl": "back_cancandeluxe.jpg",
+    "detailsImgUrl": "details_cancandeluxe.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_cancandeluxe-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Purchase Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
+        "imgUrl": "img-feat_cancandeluxe-1.jpg"
+      },
+      {
+        "name": "Random Wild Reels",
+        "descr": "During each spin, 1 to 5 reels randomly become wild reels",
+        "imgUrl": "img-feat_cancandeluxe-2.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "During Free Spins, at least 2 reels on each spin are replaced with Wild Reels",
+        "imgUrl": "img-feat_cancandeluxe-3.jpg"
+      },
+      {
+        "name": "Bonus Game",
+        "descr": "Bonus Game with the chance to win a coin prize or Free Spins",
+        "imgUrl": "img-feat_cancandeluxe-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Cancan Saloon Deluxe, video slot game by Mascot Gaming",
+      "descr": "It’s time we dance! Cancan Saloon Deluxe sweeps you into the world of a Wild West saloon."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Fruit Vegas Extreme X125",
+    "slug": "fruit-vegas-extreme-x125",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2024-09-19",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_fruitvegas125.jpeg",
+    "heroUrl": "hero_fruitvegas125.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fruitvegas125.jpg",
+    "logoUrl": "logo_fruitvegas125.png",
+    "backUrl": "back_fruitvegas125.jpg",
+    "detailsImgUrl": "details_fruitvegas125.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Wild Reels with Multipliers",
+        "descr": "Each Wild Reel has a random multiplier from x2 to x5",
+        "imgUrl": "img-feat_fruitvegas125-0.jpg"
+      },
+      {
+        "name": "Free Respins",
+        "descr": "Each Wild becomes a Sticky Wild Reel and triggers a Free Respin",
+        "imgUrl": "img-feat_fruitvegas125-1.jpg"
+      },
+      {
+        "name": "Risk Game",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_fruitvegas125-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Fruit Vegas Extreme X125, video slot game by Mascot Gaming",
+      "descr": "This slot game elevates the traditional fruit slot experience with an extreme multiplier of x125, adding a modern twist to a beloved classic."
+    },
+    "rockways": false
+  },
+  {
+    "name": "The Incredible X Fu Hero",
+    "slug": "the-incredible-x-fu-hero",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2024-09-17",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_xfu.jpeg",
+    "heroUrl": "hero_xfu.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_xfu.jpg",
+    "logoUrl": "logo_xfu.png",
+    "backUrl": "back_xfu.jpg",
+    "detailsImgUrl": "details_xfu.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Wilds with Multipliers",
+        "descr": "3 different wilds with multipliers of x2, x3, and x5",
+        "imgUrl": "img-feat_xfu-0.jpg"
+      },
+      {
+        "name": "Sticky Wild Reels and Respins",
+        "descr": "Each Wild becomes a Sticky Wild Reel and triggers a Free Respin",
+        "imgUrl": "img-feat_xfu-1.jpg"
+      },
+      {
+        "name": "Risk Game",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_xfu-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "The Incredible X Fu Hero, video slot game by Mascot Gaming",
+      "descr": "In a realm of ancient temples, The Incredible X Fu Hero unfolds a captivating tale of bravery and adventure."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Kite Festival Crash Game",
+    "slug": "kite-festival-crash-game",
+    "linkToDemo": " ",
+    "theme": "crash",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2024-08-29",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_kitefest.jpeg",
+    "heroUrl": "hero_kitefest.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_kitefest.jpg",
+    "logoUrl": "logo_kitefest.png",
+    "backUrl": "back_kitefest.jpg",
+    "detailsImgUrl": "details_kitefest.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Multiple Bets",
+        "descr": "Place from 1 to 5 bets simultaneously",
+        "imgUrl": "img-feat_kitefest-0.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "Increasing win multiplier up to x5000",
+        "imgUrl": "img-feat_kitefest-1.jpg"
+      },
+      {
+        "name": "Free Bets",
+        "descr": "Up to 5 Free Bets in each launch",
+        "imgUrl": "img-feat_kitefest-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Kite Festival Crash Game, a video game by Mascot Gaming",
+      "descr": "A burst of colorful kites fills the sky, where the thrill of a traditional kite festival meets exciting gameplay."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Riot 3 Ultimate",
+    "slug": "riot-3-ultimate",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2024-08-27",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_riotultimate.jpeg",
+    "heroUrl": "hero_riotultimate.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_riotultimate.jpg",
+    "logoUrl": "logo_riotultimate.png",
+    "backUrl": "back_riotultimate.jpg",
+    "detailsImgUrl": "details_riotultimate.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_riotultimate-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Purchase Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
+        "imgUrl": "img-feat_riotultimate-1.jpg"
+      },
+      {
+        "name": "Free Spins with Sticky Wild Reels and Respins",
+        "descr": "The Soldier symbol becomes a Sticky Wild Reel and triggers a Free Respin",
+        "imgUrl": "img-feat_riotultimate-2.jpg"
+      },
+      {
+        "name": "Free Spins with Sticky Wilds",
+        "descr": "All Bandits Symbols become Sticky Wilds for the duration of the Free Spins series",
+        "imgUrl": "img-feat_riotultimate-3.jpg"
+      },
+      {
+        "name": "Free Spins with Win Multiplier",
+        "descr": "A combination of Survivors Symbols grants Free Spins with x3 multiplier and a chance to win additional Free Spins",
+        "imgUrl": "img-feat_riotultimate-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Riot 3 Ultimate, video slot game by Mascot Gaming",
+      "descr": "The fight is never over, and Riot is back! With even more intense action and thrilling gameplay, step into a world where chaos reigns and only the strongest survive."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Wood Luck!",
+    "slug": "wood-luck",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2024-08-20",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_woodluck.jpeg",
+    "heroUrl": "hero_woodluck.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_woodluck.jpg",
+    "logoUrl": "logo_woodluck.png",
+    "backUrl": "back_woodluck.jpg",
+    "detailsImgUrl": "details_woodluck.png",
+    "stats": {
+      "reels": 6,
+      "rows": 6,
+      "volatility": null,
+      "paylines": null,
+      "payways": "64 - 46656",
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_woodluck-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Purchase Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
+        "imgUrl": "img-feat_woodluck-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Free spins with win multipliers up to x25",
+        "imgUrl": "img-feat_woodluck-2.jpg"
+      },
+      {
+        "name": "Bonus Game",
+        "descr": "Bonus Game with multipliers and win modifiers",
+        "imgUrl": "img-feat_woodluck-3.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "All winning symbols are removed from the screen and replaced with new ones",
+        "imgUrl": "img-feat_woodluck-4.jpg"
+      },
+      {
+        "name": "Rockways",
+        "descr": "Each spin can have up to 46,656 ways to win",
+        "imgUrl": "img-feat_woodluck-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Wood Luck!, video slot game by Mascot Gaming",
+      "descr": "Wood Luck! brings the enchanting charm of the woodland to your screen with delightful characters and an exciting array of features."
+    },
+    "rockways": true
+  },
+  {
+    "name": "Mayan Riches: Bingo!",
+    "slug": "mayan-riches-bingo",
+    "linkToDemo": " ",
+    "theme": "lottery game",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2024-07-23",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_mrbingo.jpeg",
+    "heroUrl": "hero_mrbingo.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_mrbingo.jpg",
+    "logoUrl": "logo_mrbingo.png",
+    "backUrl": "back_mrbingo.jpg",
+    "detailsImgUrl": "details_mrbingo.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Bingo Game",
+        "descr": "Classic bingo game with 4 cards for 60 balls. The highest combination on each card wins",
+        "imgUrl": "img-feat_mrbingo-0.jpg"
+      },
+      {
+        "name": "Bonus Balls Feature",
+        "descr": "You can buy extra balls, therefore, get the chance to increase your winnings",
+        "imgUrl": "img-feat_mrbingo-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Mayan Riches: Bingo!, a video game by Mascot Gaming",
+      "descr": "This exciting bingo version of our popular slot game transports you to a land of golden treasures and hidden secrets."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Reel Eldorado",
+    "slug": "reel-eldorado",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2024-07-23",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_reeleldo.jpeg",
+    "heroUrl": "hero_reeleldo.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_reeleldo.jpg",
+    "logoUrl": "logo_reeleldo.png",
+    "backUrl": "back_reeleldo.jpg",
+    "detailsImgUrl": "details_reeleldo.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_reeleldo-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Purchase Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
+        "imgUrl": "img-feat_reeleldo-1.jpg"
+      },
+      {
+        "name": "Free Spins with Sticky Wild Reels and Respins",
+        "descr": "All Conquistador Symbols transform into Wild Reels and trigger Free Respins",
+        "imgUrl": "img-feat_reeleldo-2.jpg"
+      },
+      {
+        "name": "Free Spins with Sticky Wilds",
+        "descr": "Native Symbols turn into Sticky Wilds for the duration of the Free Spins series",
+        "imgUrl": "img-feat_reeleldo-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Reel Eldorado, video slot game by Mascot Gaming",
+      "descr": "This exciting slot game invites you to a legendary adventure through ancient jungles and golden temples."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Sticky Fruit Madness",
+    "slug": "sticky-fruit-madness",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2024-07-09",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_stickyfruit.jpeg",
+    "heroUrl": "hero_stickyfruit.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_stickyfruit.jpg",
+    "logoUrl": "logo_stickyfruit.png",
+    "backUrl": "back_stickyfruit.jpg",
+    "detailsImgUrl": "details_stickyfruit.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Risk Game",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_stickyfruit-0.jpg"
+      },
+      {
+        "name": "Sticky Respins",
+        "descr": "Symbols from winning combinations become Sticky and remain in place, triggering a series of Free Respins",
+        "imgUrl": "img-feat_stickyfruit-1.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "Each new Free Respin boosts the win multiplier up to x15",
+        "imgUrl": "img-feat_stickyfruit-2.jpg"
+      },
+      {
+        "name": "Payouts in Both Directions",
+        "descr": "Winning combinations are paid in both directions",
+        "imgUrl": "img-feat_stickyfruit-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Sticky Fruit Madness, video slot game by Mascot Gaming",
+      "descr": "A vibrant burst of tropical colors awaits! Set against sunny beaches and lush green backdrops, this game brings a refreshing escape filled with juicy, spinning fruits."
+    },
+    "rockways": false
+  },
+  {
     "name": "Across the Universe: Keno",
     "slug": "across-the-universe-keno",
     "linkToDemo": " ",

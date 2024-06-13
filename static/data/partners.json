@@ -1980,6 +1980,17 @@
     "logoUrl": "partner_betsul.png"
   },
   {
+    "name": "Futureplay",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.futureplay.com/",
+    "logoUrl": "partner_futureplay.png"
+  },
+  {
     "name": "lcb.org",
     "type": "media",
     "top": false,
