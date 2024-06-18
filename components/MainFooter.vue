@@ -183,7 +183,7 @@
         bodyFormData.append('service_id', 'service_tr5r6fw');
         bodyFormData.append('user_id', 'eE5PNrtIqLmZkFQ2r');
 
-        if ( (!this.subscription.includes("example")) || (!this.email.includes("example")) ) {
+        if ( (!this.subscription.includes("example")) && (!this.email.includes("example")) ) {
           this.$axios
             .post("https://api.emailjs.com/api/v1.0/email/send-form",
             bodyFormData
