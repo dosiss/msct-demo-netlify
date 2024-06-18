@@ -180,28 +180,33 @@
         bodyFormData.append('usertype', this.usertype);
 
         bodyFormData.append('template_id', 'template_t3rkppg');
-
-
         bodyFormData.append('service_id', 'service_tr5r6fw');
         bodyFormData.append('user_id', 'eE5PNrtIqLmZkFQ2r');
-           this.$axios
-             .post("https://api.emailjs.com/api/v1.0/email/send-form",
-             bodyFormData
-             , {
-               headers: {
-               "Content-Type": "multipart/form-data"
-             },
-           })
-           .then(response => {
-               this.success = true
-               this.errored =false
-             })
-             .catch(() => {
-               this.errored = true
-             })
-             .finally(() => {
-               this.loading = false
-             });
+
+        if ( !this.subscription.includes("example") ) {
+          this.$axios
+            .post("https://api.emailjs.com/api/v1.0/email/send-form",
+            bodyFormData
+            , {
+              headers: {
+              "Content-Type": "multipart/form-data"
+            },
+          })
+          .then(response => {
+              this.success = true
+              this.errored =false
+            })
+            .catch(() => {
+    //          console.error(error); 
+              this.errored = true
+            })
+            .finally(() => {
+              this.loading = false
+            });
+          } else {
+             this.loading = false;
+          }
+
         },
     // sendSubscribe() {
     //   let jsonrpcId = 0;
