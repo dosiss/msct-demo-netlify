@@ -617,19 +617,19 @@
   {
     "name": "Ice Number One",
     "slug": "ice-number-one",
-    "linkToDemo": null,
+    "linkToDemo": "demo.mascot.games/run/ice_number_one",
     "theme": "video slot",
-    "type": null,
+    "type": "traffic",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-06-25",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": null,
+    "descr": " ",
     "thumbUrl": "game_ice1.jpeg",
     "heroUrl": "hero_ice1.jpg",
     "blueButtn": false,
@@ -640,40 +640,40 @@
     "backUrl": "back_ice1.jpg",
     "detailsImgUrl": "details_ice1.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 4,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 10,
       "payways": null,
       "html5": true,
-      "rtp": null,
-      "hitrate": null
+      "rtp": " ",
+      "hitrate": " "
     },
     "features": [
       {
-        "name": "Recurso Risk & Buy: Arriscar",
-        "descr": "Arrisque seus ganhos jogando o jogo Arriscar. Você pode aumentar seus ganhos ao conseguir um multiplicador de ganhos",
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
         "imgUrl": "img-feat_ice1-0.jpg"
       },
       {
-        "name": "Recurso Risk & Buy: Comprar",
-        "descr": "Compre Free Spins ou o jogo de Bonus com as condições propostas e pelo preço sugerido. Há uma oferta especial de compra após cada giro",
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Purchase Free Spins or Bonus game with the proposed conditions and at the suggested price. There is a special Buy offer after each spin",
         "imgUrl": "img-feat_ice1-1.jpg"
       },
       {
-        "name": "Recurso de Aposta Paralela",
-        "descr": "Faça uma aposta adicional nos resultados do jogo durante os Free Spins",
+        "name": "Side Bet Feature",
+        "descr": "Place an additional bet on the outcomes of the game during Free Spins",
         "imgUrl": "img-feat_ice1-2.jpg"
       },
       {
         "name": "Free Spins",
-        "descr": "Aproveite os Free Spins com apostas extras e ganhos",
+        "descr": "Enjoy Free Spins with extra bets and winnings",
         "imgUrl": "img-feat_ice1-3.jpg"
       }
     ],
     "meta": {
-      "title": "Ice Number One, o jogo de caça-níqueis da Mascot Gaming",
-      "descr": null
+      "title": "Ice Number One, video slot game by Mascot Gaming",
+      "descr": "Take on the role of the team captain and play along with Risk and Buy, Free Spins and Side Bet."
     },
     "rockways": false
   },

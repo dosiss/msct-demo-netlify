@@ -617,13 +617,13 @@
   {
     "name": "Ice Number One",
     "slug": "ice-number-one",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/ice_number_one",
     "theme": "video slot",
-    "type": " ",
+    "type": "traffic",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-06-25",
     "featured": false,
     "topGame": false,
@@ -640,10 +640,10 @@
     "backUrl": "back_ice1.jpg",
     "detailsImgUrl": "details_ice1.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 4,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 10,
       "payways": null,
       "html5": true,
       "rtp": " ",
@@ -673,7 +673,7 @@
     ],
     "meta": {
       "title": "Ice Number One, video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Take on the role of the team captain and play along with Risk and Buy, Free Spins and Side Bet."
     },
     "rockways": false
   },
@@ -1166,6 +1166,26 @@
         "title": "Demoslots.com reviewed Dreamshock: Jackpot X and Yukon Fever",
         "link": "https://www.demoslot.com/yukon-fever-mascot-gaming-slot-demo.html",
         "image": "img_blog_demoslot-review-dreamshock.jpg"
+      },
+      {
+        "title": "Clash of Slots: Yukon Fever by Mascot Gaming",
+        "link": "https://clashofslots.com/slots/mascot-gaming/yukon-fever/",
+        "image": "img_blog_yukon-clash.jpg"
+      },
+      {
+        "title": "SlotsJudge: Yukon Fever Slot Review",
+        "link": "https://slotsjudge.com/online-slots/yukon-fever/",
+        "image": "img_blog_yukon-slotsjudge.jpg"
+      },
+      {
+        "title": "Casinolandia: Yukon Fever Review",
+        "link": "https://casinolandia.com/slots/yukon-fever/",
+        "image": "img_blog_yukon-casonolandia.jpg"
+      },
+      {
+        "title": "Demoslot.com: Yukon Fever Review",
+        "link": "https://www.demoslot.com/yukon-fever-mascot-gaming-slot-demo.html",
+        "image": "img_blog_yukon-demoslot.jpg"
       }
     ],
     "meta": {
