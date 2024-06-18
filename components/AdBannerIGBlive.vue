@@ -89,7 +89,8 @@
                 }
                 @media (max-width: 650px) {
                   bottom: 0;
-                  max-height: fit-content
+                  max-height: fit-content;
+                  max-width: 200px
                 }
               }
             }
