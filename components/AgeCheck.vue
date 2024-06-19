@@ -103,7 +103,8 @@
       padding-left: 10px;
       padding-right: 10px;
       @media (max-width: 650px) {
-        width: 45%
+        width: 45%;
+        font-size: .9rem
       }
       &.buttn-grey {
         background: #5f5f5f;
