@@ -564,13 +564,13 @@
   {
     "name": "Across the Universe: Keno",
     "slug": "across-the-universe-keno",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/across_the_universe_keno ",
     "theme": "lottery game",
     "type": "profit",
     "mgacertified": false,
     "mganotice": false,
-    "risknbuy": true,
-    "comingSoon": true,
+    "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2024-06-27",
     "featured": false,
     "topGame": false,
@@ -589,12 +589,12 @@
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": 95.15,
+      "hitrate": 17.5
     },
     "features": [
       {
@@ -610,7 +610,7 @@
     ],
     "meta": {
       "title": "Across the Universe: Keno, a video game by Mascot Gaming",
-      "descr": "Embark on a cosmic journey in this thrilling Keno game with a Bonus Ball feature!"
+      "descr": "Travel through the stars with 80 balls to choose from and the possibility to buy extra balls."
     },
     "rockways": false
   },
