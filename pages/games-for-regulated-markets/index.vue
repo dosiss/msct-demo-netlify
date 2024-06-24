@@ -1,0 +1,118 @@
+<template>
+
+  <div>
+    <MainHeader />
+    <div id="regMarkets">
+      <div class="container">
+        <h1>{{$t('Casino games for regulated markets')}}</h1>
+        <p class="heading-subtitle">{{$t('According to our plan to conquer every player’s love around the world here’s a list of our casino games offerings for online casinos in regulated markets. If you looking for great performing slots with easy API integration - you’ve just found a conclusion!')}}</p>
+        <div class="regmarkets__wrap">
+            <div v-for="(market, idx) in regulatedMarkets" :key="idx" class="regmarkets-item">
+              <div class="regmarkets-item-inner" :style="{ backgroundImage: `url(/images/img_${market.name}.png)` }">
+                <nuxt-link :to="`/games-for-regulated-markets/${market.link}`">
+                  <h2 class="regmarkets-item__title">{{$t(`${market.title}`)}}</h2>
+                </nuxt-link>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <SharingButtons />
+    <AdBannerIGBlive />
+    <MainFooter />
+  </div>
+</template>
+
+<script>
+
+import regulatedMarketsList from '../../static/data/regulated-markets.json'
+
+  export default {
+    // page component definitions
+    data() {
+      return {
+        title: '',
+        description: '',
+        regulatedMarkets: regulatedMarketsList
+      }
+    },
+    head() {
+      return {
+        title: this.title,
+        htmlAttrs: {
+            lang: this.$i18n.locale
+        },
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.description
+          }
+        ]
+      }
+    },
+    mounted() {
+      this.title = this.$t('Mascot Gaming - casino games provider')
+      this.description = this.$t('We are a team of like-minded people who worked in gambling sphere for many years. We love our work and respect your business. Explore our history!')
+    }
+  }
+</script>
+<style lang="scss" scoped>
+  #regMarkets {
+    padding-top: 120px;
+    padding-bottom: 0;
+    @media (max-width: 650px) {
+      padding-top: 80px
+
+    }
+    h1 {
+      font-size: 2rem;
+      text-transform: uppercase;
+      text-align: center;
+
+    }
+    .heading-subtitle {
+      font-size: 1.25rem;
+      line-height: 1.5;
+      text-align: center;
+      max-width: 900px;
+      margin: 30px auto
+    }
+    .regmarkets__wrap {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      margin-top: 60px;
+      @media (max-width: 850px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 650px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .regmarkets-item {
+
+        .regmarkets-item-inner {
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 370px;
+          text-align: center;
+          border-radius: 30px;
+          background-position-y: -50px;
+          a {
+            display: block;
+            height: 100%;
+            .regmarkets-item__title {
+              padding: 30px 25px;
+              text-transform: uppercase;
+              font-size: 1.3rem;
+            }
+          }
+          @media (max-width: 1800px) {
+            background-position-y: 0;
+          }
+        }
+      }
+    }
+  }
+</style>
