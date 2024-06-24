@@ -157,7 +157,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     ],
     langDir: 'lang/',
     defaultLocale: 'en',
-    lazy: true
+    lazy: true,
+    silentTranslationWarn: true
   },
 
    sitemap: {
