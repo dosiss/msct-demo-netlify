@@ -35,7 +35,19 @@
            </div>
            <div class="form-item" :class="{ 'focused': focusedMsg }">
              <label for="user-message">{{$t('Message')}}</label>
-             <textarea id="user-message" v-model="message" name="message"  class="form-item__field" rows="4" @focus="focusedMsg = true" @blur="focusedMsg = false"></textarea>
+             <textarea id="user-message" v-model="message" name="message"  class="form-item__field" rows="3" @focus="focusedMsg = true" @blur="focusedMsg = false"></textarea>
+            </div>
+            <div class="form-captcha__canvas">
+              <div>
+                <canvas :ref="`captcha_${_uid}`" width="150" height="50"></canvas>
+              </div>
+              <button type="button" @click="generateCaptcha">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="svg-icon" overflow="hidden" style="width:30px;height:30px;vertical-align:middle" viewBox="0 0 1024 1024"><path d="M512 768c-47.392 0-91.664-13.184-129.776-35.712l-46.608 46.608A318.448 318.448 0 0 0 512 832c176.736 0 320-143.264 320-320h-64c0 141.152-114.848 256-256 256zM512 192c-176.736 0-320 143.264-320 320h64c0-141.152 114.848-256 256-256 47.392 0 91.664 13.184 129.776 35.712l46.608-46.608A318.448 318.448 0 0 0 512 192zM704 512h192l-96-128zM320 512H128l96 128z"/></svg>
+                <span>refresh</span>
+              </button>
+            </div>
+            <div class="form-captcha__input">
+              <input v-model="captchaInput" type="text" placeholder="Enter CAPTCHA" required />
             </div>
             <button
             type="submit"
@@ -77,8 +89,14 @@
         phone: "",
         message: "",
         usertype: "Operator",
-        ClientId: "GP6i6Jhflgf3CbuPYk2AcDssrN4W3h"
+        ClientId: "GP6i6Jhflgf3CbuPYk2AcDssrN4W3h",
+        captchacode: '',
+        captchaInput: ''
       };
+    },
+
+    mounted() {
+      this.generateCaptcha();
     },
 
 
@@ -116,7 +134,39 @@
     //       this.loading = false
     //     });
     //   },
+
+      generateCaptcha() {
+        const canvas = this.$refs[`captcha_${this._uid}`];
+        const ctx = canvas.getContext('2d');
+// console.log('canvas ID= '+canvas);
+        // Clear the canvas
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Create a new image object for the background
+        const backgroundImage = new Image();
+        backgroundImage.src = '/images/img_captcha-2.jpg'; // Update the path to your background image
+
+        backgroundImage.onload = () => {
+          // Draw the background image on the canvas
+          ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
+
+          // Generate a random alphanumeric code
+          const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+          let code = '';
+          for (let i = 0; i < 6; i++) {
+            code += chars[Math.floor(Math.random() * chars.length)];
+          }
+          this.captchaCode = code;
+
+          // Draw the CAPTCHA code on the canvas
+          ctx.font = '30px Arial';
+          ctx.fillStyle = '#000';
+          ctx.fillText(code, 20, 35);
+        };
+      },
+
       sendMessage() {
+      if (this.captchaInput === this.captchaCode) {
         this.loading = true;
         const bodyFormData = new FormData();
         bodyFormData.append('name', this.name);
@@ -150,6 +200,11 @@
              .finally(() => {
                this.loading = false
              });
+
+           } else {
+              alert('CAPTCHA is incorrect, please try again.');
+           }
+
         },
     }
   }
@@ -174,14 +229,18 @@
   background-color: #000;
   width: 600px;
   height: fit-content;
-  margin-top: 10vh;
+  margin-top: 6vh;
   padding: 40px;
   border-radius: 12px;
   border: 1px solid #00F0FF;
   position: relative;
+  max-height: 85vh;
+  overflow-y: scroll;
   @media (max-width: 650px) {
     width: 90%;
-    padding: 20px
+    padding: 20px;
+    max-height: 70vh;
+    overflow-y: scroll;
   }
   .contact-modal__title {
     font-size: 2.7rem;
@@ -258,7 +317,8 @@
     }
     .buttn-submit {
       background: #DB001D;
-      color: #fff
+      color: #fff;
+      margin-top: 20px
     }
     .contact-modal__close {
       svg {
@@ -266,6 +326,41 @@
           stroke: #000
         }
       }
+    }
+  }
+  .form-captcha__canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    canvas {
+      border-radius: 8px;
+    }
+    button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 20px;
+      cursor: pointer;
+      svg {
+        width: 30px;
+        height: auto;
+        path {
+          fill:#219CF6
+        }
+      }
+      span {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: .8rem;
+        margin-top: 3px;
+        color: #219CF6;
+      }
+    }
+  }
+  .form-captcha__input {
+    input {
+      width: 100%
     }
   }
 }

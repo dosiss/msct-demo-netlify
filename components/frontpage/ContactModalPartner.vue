@@ -61,6 +61,18 @@
                 <label for="user-type-4">Whatsapp</label>
               </div>
             </div>
+            <div class="form-captcha__canvas">
+              <div>
+                <canvas id="captchaPartner" width="150" height="50"></canvas>
+              </div>
+              <button type="button" @click="generateCaptcha">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 31 32"><g clip-path="url(#a1)"><mask id="b1" width="74" height="73" x="-22" y="-23" maskUnits="userSpaceOnUse" style="mask-type:luminance"><path stroke="#fff" stroke-linecap="round" stroke-width="3.011" d="M25.1673 10.9635C23.32 7.24561 19.4841 4.69067 15.0499 4.69067C10.6168 4.69067 6.86628 7.24561 5.01892 10.9635M5.01892 10.9635V5.94525M5.01892 10.9635H9.27192M5.01892 21.0001C6.86628 24.718 10.7028 27.273 15.1364 27.273C19.5694 27.273 23.32 24.718 25.1673 21.0001M25.1673 21.0001V26.0184M25.1673 21.0001H20.9144"/></mask><g mask="url(#b1)"><path fill="#219CF6" d="M-0.000244141 0.926941H30.1095V31.0367H-0.000244141V0.926941Z"/></g></g><defs><clipPath id="a1"><path fill="#fff" d="M0 0H30.11V30.11H0z" transform="translate(0 .927)"/></clipPath></defs></svg>
+                  <span>refresh</span>
+              </button>
+            </div>
+            <div class="form-captcha__input">
+              <input v-model="captchaInput" type="text" placeholder="Enter CAPTCHA" required />
+            </div>
             <button
             type="submit"
             class="buttn buttn-colored buttn-submit buttn-l">
@@ -102,10 +114,15 @@
         message: "",
         usertype: "Platform",
         contacttype: "Phone Call",
-        ClientId: "GP6i6Jhflgf3CbuPYk2AcDssrN4W3h"
+        ClientId: "GP6i6Jhflgf3CbuPYk2AcDssrN4W3h",
+        captchacode: '',
+        captchaInput: ''
       };
     },
 
+    mounted() {
+      this.generateCaptcha();
+    },
 
 
     methods: {
@@ -141,46 +158,85 @@
     //       this.loading = false
     //     });
     //   },
-      sendMessage() {
-        this.loading = true;
-        const bodyFormData = new FormData();
-        bodyFormData.append('name', this.name);
-        bodyFormData.append('email', this.email);
-        bodyFormData.append('phone', this.phone);
-        bodyFormData.append('message', this.message);
-        bodyFormData.append('usertype', this.usertype);
-        bodyFormData.append('contacttype', this.contacttype);
-        if (this.usertype === 'Online Casino' || this.usertype === 'Platform') {
-          bodyFormData.append('template_id', 'template_j7x74aq');
-        } else if (this.usertype === 'Media') {
-          bodyFormData.append('template_id', 'template_qybwdwa');
-        } else if (this.usertype ==='Streamer') {
-          bodyFormData.append('template_id', 'template_p5745og');
-        } else {
-          bodyFormData.append('template_id', 'template_t3rkppg');
-        }
 
-        bodyFormData.append('service_id', 'service_tr5r6fw');
-        bodyFormData.append('user_id', 'eE5PNrtIqLmZkFQ2r');
-           this.$axios
-             .post("https://api.emailjs.com/api/v1.0/email/send-form",
-             bodyFormData
-             , {
-               headers: {
-               "Content-Type": "multipart/form-data"
-             },
-           })
-           .then(response => {
-               this.success = true
-               this.errored =false
+      generateCaptcha() {
+
+        const canvas = document.getElementById('captchaPartner');
+        const ctx = canvas.getContext('2d');
+
+        // Clear the canvas
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Create a new image object for the background
+        const backgroundImage = new Image();
+        backgroundImage.src = '/images/img_captcha-2.jpg'; // Update the path to your background image
+
+        backgroundImage.onload = () => {
+          // Draw the background image on the canvas
+          ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
+
+          // Generate a random alphanumeric code
+          const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+          let code = '';
+          for (let i = 0; i < 6; i++) {
+            code += chars[Math.floor(Math.random() * chars.length)];
+          }
+          this.captchaCode = code;
+
+          // Draw the CAPTCHA code on the canvas
+          ctx.font = '30px Arial';
+          ctx.fillStyle = '#000';
+          ctx.fillText(code, 20, 35);
+
+//          console.log('captcha generated: '+backgroundImage.src);
+        };
+      },
+
+      sendMessage() {
+        if (this.captchaInput === this.captchaCode) {
+          this.loading = true;
+          const bodyFormData = new FormData();
+          bodyFormData.append('name', this.name);
+          bodyFormData.append('email', this.email);
+          bodyFormData.append('phone', this.phone);
+          bodyFormData.append('message', this.message);
+          bodyFormData.append('usertype', this.usertype);
+          bodyFormData.append('contacttype', this.contacttype);
+          if (this.usertype === 'Online Casino' || this.usertype === 'Platform') {
+            bodyFormData.append('template_id', 'template_j7x74aq');
+          } else if (this.usertype === 'Media') {
+            bodyFormData.append('template_id', 'template_qybwdwa');
+          } else if (this.usertype ==='Streamer') {
+            bodyFormData.append('template_id', 'template_p5745og');
+          } else {
+            bodyFormData.append('template_id', 'template_t3rkppg');
+          }
+
+          bodyFormData.append('service_id', 'service_tr5r6fw');
+          bodyFormData.append('user_id', 'eE5PNrtIqLmZkFQ2r');
+             this.$axios
+               .post("https://api.emailjs.com/api/v1.0/email/send-form",
+               bodyFormData
+               , {
+                 headers: {
+                 "Content-Type": "multipart/form-data"
+               },
              })
-             .catch(() => {
-               this.errored = true
-             })
-             .finally(() => {
-               this.loading = false
-             });
-        },
+             .then(response => {
+                 this.success = true
+                 this.errored =false
+               })
+               .catch(() => {
+                 this.errored = true
+               })
+               .finally(() => {
+                 this.loading = false
+               });
+
+        } else {
+          alert('CAPTCHA is incorrect, please try again.');
+        }
+      },
     }
   }
 </script>
@@ -204,7 +260,7 @@
   background-color: #000;
   width: 600px;
   height: fit-content;
-  margin-top: 10vh;
+  margin-top: 6vh;
   padding: 40px;
   border-radius: 12px;
   border: 1px solid #00F0FF;
@@ -292,7 +348,8 @@
     }
     .buttn-submit {
       background: #DB001D;
-      color: #fff
+      color: #fff;
+      margin-top: 20px
     }
     .contact-modal__close {
       svg {
@@ -316,6 +373,38 @@
     margin-bottom: 15px;
     margin-top: 30px;
 
+  }
+  .form-captcha__canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    canvas {
+      border-radius: 8px;
+    }
+    button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 20px;
+      cursor: pointer;
+      svg {
+        width: 30px;
+        height: auto
+      }
+      span {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: .8rem;
+        margin-top: 3px;
+        color: #219CF6;
+      }
+    }
+  }
+  .form-captcha__input {
+    input {
+      width: 100%
+    }
   }
 }
 
