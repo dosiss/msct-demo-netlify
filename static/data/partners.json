@@ -572,17 +572,6 @@
     "logoUrl": "partner_luckydreams.png"
   },
   {
-    "name": "RooBet",
-    "type": "partner",
-    "top": false,
-    "casino": true,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://roobet.com/",
-    "logoUrl": "partner_roobet.png"
-  },
-  {
     "name": "Ripper Casino",
     "type": "partner",
     "top": false,

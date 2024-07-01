@@ -242,8 +242,8 @@
     "rockways": false
   },
   {
-    "name": "Riot 3 Ultimate",
-    "slug": "riot-3-ultimate",
+    "name": "Riot Ultimate",
+    "slug": "riot-ultimate",
     "linkToDemo": " ",
     "theme": "video slot",
     "type": " ",
@@ -257,15 +257,15 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_riotultimate.jpeg",
-    "heroUrl": "hero_riotultimate.jpg",
+    "thumbUrl": "game_riotultimate2.jpeg",
+    "heroUrl": "hero_riotultimate2.jpg",
     "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_riotultimate.jpg",
     "logoUrl": "logo_riotultimate.png",
     "backUrl": "back_riotultimate.jpg",
-    "detailsImgUrl": "details_riotultimate.png",
+    "detailsImgUrl": "details_riotultimate2.png",
     "stats": {
       "reels": 5,
       "rows": 3,
@@ -304,7 +304,7 @@
       }
     ],
     "meta": {
-      "title": "Riot 3 Ultimate, video slot game by Mascot Gaming",
+      "title": "Riot Ultimate, video slot game by Mascot Gaming",
       "descr": "The fight is never over, and Riot is back! With even more intense action and thrilling gameplay, step into a world where chaos reigns and only the strongest survive."
     },
     "rockways": false

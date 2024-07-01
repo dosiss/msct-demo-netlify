@@ -214,9 +214,9 @@
           this.captchaCode = code;
 
           // Draw the CAPTCHA code on the canvas
-          ctx.font = '30px Arial';
+          ctx.font = '28px Arial';
           ctx.fillStyle = '#000';
-          ctx.fillText(code, 15, 35);
+          ctx.fillText(code, 10, 30);
         };
       },
 
