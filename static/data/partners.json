@@ -2156,6 +2156,17 @@
     "logoUrl": "partner_gamblizard-de.png"
   },
   {
+    "name": "Pokie Machines",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://pokiemachines.com/software/mascot-gaming/",
+    "logoUrl": "partner_pockie.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,

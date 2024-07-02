@@ -501,20 +501,20 @@
   {
     "name": "Sticky Fruit Madness",
     "slug": "sticky-fruit-madness",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/sticky_fruit_madness",
     "theme": "video slot",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-07-09",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_stickyfruit.jpeg",
+    "thumbUrl": "game_stickyfruit2.jpeg",
     "heroUrl": "hero_stickyfruit.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -526,27 +526,27 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": null,
-      "paylines": 15,
+      "volatility": "High",
+      "paylines": 5,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": 95.2,
+      "hitrate": 8.38
     },
     "features": [
       {
-        "name": "Risk Game",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
-        "imgUrl": "img-feat_stickyfruit-0.jpg"
-      },
-      {
         "name": "Sticky Respins",
         "descr": "Symbols from winning combinations become Sticky and remain in place, triggering a series of Free Respins",
-        "imgUrl": "img-feat_stickyfruit-1.jpg"
+        "imgUrl": "img-feat_stickyfruit-0.jpg"
       },
       {
         "name": "Win Multiplier",
         "descr": "Each new Free Respin boosts the win multiplier up to x10",
+        "imgUrl": "img-feat_stickyfruit-1.jpg"
+      },
+      {
+        "name": "Risk Game",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
         "imgUrl": "img-feat_stickyfruit-2.jpg"
       },
       {
@@ -556,8 +556,8 @@
       }
     ],
     "meta": {
-      "title": "Sticky Fruit Madness, video slot game by Mascot Gaming",
-      "descr": "A vibrant burst of tropical colors awaits! Set against sunny beaches and lush green backdrops, this game brings a refreshing escape filled with juicy, spinning fruits."
+      "title": "Sticky Fruit Madness, a video slot game by Mascot Gaming",
+      "descr": "Free Spins and Win Multipliers up to x10 await you in this tropical paradise."
     },
     "rockways": false
   },
