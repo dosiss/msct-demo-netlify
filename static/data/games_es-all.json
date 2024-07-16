@@ -438,20 +438,20 @@
   {
     "name": "Reel Eldorado",
     "slug": "reel-eldorado",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/reel_eldorado",
     "theme": "video slot",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-07-23",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_reeleldo.jpeg",
+    "thumbUrl": "game_reeleldo2.jpeg",
     "heroUrl": "hero_reeleldo.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -467,8 +467,8 @@
       "paylines": 15,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": 95.0,
+      "hitrate": 17.2
     },
     "features": [
       {
@@ -493,8 +493,8 @@
       }
     ],
     "meta": {
-      "title": "Reel Eldorado, video slot game by Mascot Gaming",
-      "descr": "This exciting slot game invites you to a legendary adventure through ancient jungles and golden temples."
+      "title": "Reel Eldorado, a video slot game by Mascot Gaming",
+      "descr": "Adventure begins now with two types of Free Spins and Risk & Buy feature."
     },
     "rockways": false
   },
