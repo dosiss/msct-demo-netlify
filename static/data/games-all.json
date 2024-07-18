@@ -385,20 +385,20 @@
   {
     "name": "Mayan Riches: Bingo!",
     "slug": "mayan-riches-bingo",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/mayan_riches_bingo",
     "theme": "lottery game",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-07-23",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_mrbingo.jpeg",
+    "thumbUrl": "game_mrbingo2.jpeg",
     "heroUrl": "hero_mrbingo.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -424,14 +424,14 @@
         "imgUrl": "img-feat_mrbingo-0.jpg"
       },
       {
-        "name": "Bonus Balls Feature",
+        "name": "Extra Balls Feature",
         "descr": "You can buy extra balls, therefore, get the chance to increase your winnings",
         "imgUrl": "img-feat_mrbingo-1.jpg"
       }
     ],
     "meta": {
-      "title": "Mayan Riches: Bingo!, a video game by Mascot Gaming",
-      "descr": "This exciting bingo version of our popular slot game transports you to a land of golden treasures and hidden secrets."
+      "title": "Mayan Riches: Bingo!, a lottery game by Mascot Gaming",
+      "descr": "Discover ancient treasures in this classic bingo game with possible multiplier up to x500."
     },
     "rockways": false
   },
@@ -729,6 +729,38 @@
         "imgUrl": "img-feat_hotfruit-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "DemoSlots.com: Hot Fruit x15 Review",
+        "link": "https://www.demoslot.com/hot-fruits-x15-mascot-games-demo-slot.html",
+        "image": "img_blog_hotfruit-demoslots.jpg"
+      },
+      {
+        "title": "Slotsjudge: Hot Fruit x15 Review",
+        "link": "https://slotsjudge.com/online-slots/hot-fruit-x15/",
+        "image": "img_blog_hotfruit-slotsjudge.jpg"
+      },
+      {
+        "title": "Slotcatalog.com: Hot Fruit x15 Review",
+        "link": "https://slotcatalog.com/en/slots/hot-fruit-x15",
+        "image": "img_blog_hotfruit-slotscatalog.jpg"
+      },
+      {
+        "title": "Casinolandia: Embark on a Fruity Journey with Mascot Gaming`s Hot Fruit x15",
+        "link": "https://casinolandia.com/news/embark-on-a-fruity-journey-with-mascot-gamings-hot-fruit-x15/",
+        "image": "img_blog_hotfruit-casinolandia.jpg"
+      },
+      {
+        "title": "Casino.ru: Hot Fruit x15 by Mascot Gaming",
+        "link": "https://casino.ru/hot-fruit-x15-mascot/",
+        "image": "img_blog_hotfruit-casinoru.jpg"
+      },
+      {
+        "title": "DemoSlots.com: Hot Fruit x15 Review",
+        "link": "https://casino.ru/hot-fruit-x15-mascot/",
+        "image": "img_blog_hotfruit-demoslots.jpg"
+      }
+    ],
     "meta": {
       "title": "Hot Fruit x15, a video slot game by Mascot Gaming",
       "descr": "Experience the hottest fruits with base game multipliers up to x15 and the exciting Risk game."
@@ -827,6 +859,11 @@
         "title": "SlotsJudge: Fabulous Farm Slot Review",
         "link": "https://slotsjudge.com/online-slots/fabulous-farm-slot/",
         "image": "img_blog_fabfarm-slotsjudge.jpg"
+      },
+      {
+        "title": "Mascot Gaming Expands Its Portfolio with Two Amazing Releases This May - Fabulous Farm and Big Win x25",
+        "link": "https://lcb.org/news/mascot-gaming-expands-its-portfolio-with-two-amazing-releases-this-may-fabulous-farm-and-big-win-x25",
+        "image": "img_blog_fabfarm-lcb-2.jpg"
       }
     ],
     "meta": {
@@ -885,6 +922,33 @@
         "name": "Payouts in Both Directions",
         "descr": "Winning combinations are paid from left to right and from right to left",
         "imgUrl": "img-feat_bigwinx25-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "SlotsJudge: Big Win x25 Review",
+        "link": "https://slotsjudge.com/online-slots/big-win-x25/",
+        "image": "img_blog_bigwinx25-slotsjudge.jpg"
+      },
+      {
+        "title": "Chipy.com: Big Win x25 Review",
+        "link": "https://chipy.com/games/mascot-gaming/big-win-x25",
+        "image": "img_blog_bigwinx25-chipy.jpg"
+      },
+      {
+        "title": "Mascot Gaming Expands Its Portfolio with Two Amazing Releases This May - Fabulous Farm and Big Win x25",
+        "link": "https://lcb.org/news/mascot-gaming-expands-its-portfolio-with-two-amazing-releases-this-may-fabulous-farm-and-big-win-x25",
+        "image": "img_blog_bigwinx25-lcb.jpg"
+      },
+      {
+        "title": "CasinoFreak.com: Play Big Win x25",
+        "link": "https://www.casinofreak.com/games/play-big-win-x25",
+        "image": "img_blog_bigwinx25-casinofreak.jpg"
+      },
+      {
+        "title": "Casinolandia: Big Win x25 Review",
+        "link": "https://casinolandia.com/slots/big-win-x25/",
+        "image": "img_blog_bigwinx25-casinolandia.jpg"
       }
     ],
     "meta": {

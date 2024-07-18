@@ -385,20 +385,20 @@
   {
     "name": "Mayan Riches: Bingo!",
     "slug": "mayan-riches-bingo",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/mayan_riches_bingo",
     "theme": "lottery game",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-07-23",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_mrbingo.jpeg",
+    "thumbUrl": "game_mrbingo2.jpeg",
     "heroUrl": "hero_mrbingo.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -424,14 +424,14 @@
         "imgUrl": "img-feat_mrbingo-0.jpg"
       },
       {
-        "name": "Bonus Balls Feature",
+        "name": "Extra Balls Feature",
         "descr": "You can buy extra balls, therefore, get the chance to increase your winnings",
         "imgUrl": "img-feat_mrbingo-1.jpg"
       }
     ],
     "meta": {
-      "title": "Mayan Riches: Bingo!, a video game by Mascot Gaming",
-      "descr": "This exciting bingo version of our popular slot game transports you to a land of golden treasures and hidden secrets."
+      "title": "Mayan Riches: Bingo!, a lottery game by Mascot Gaming",
+      "descr": "Discover ancient treasures in this classic bingo game with possible multiplier up to x500."
     },
     "rockways": false
   },
