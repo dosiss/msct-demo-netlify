@@ -1,5 +1,38 @@
 [
   {
+  "name": "Airbet challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Hit 5 symbols and grab 20 usdt",
+  "url": "https://airbet.io/promotion/riot-quest-by-mascot-get-20-usdt-by-completing-the-challenge",
+  "logoUrl": "partner_airbet2.png"
+  },
+  {
+  "name": "Fatpanda challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "65% + 60 FS for Bamboo Bear",
+  "url": "https://fatpandacasino.com/en/promotions",
+  "logoUrl": "partner_fatpanda.png"
+  },
+  {
+  "name": "Prizeslots challenge",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "No deposit tournament \nPrize pool: 300.000 RUB",
+  "url": "https://prizeslots41.fun/?utm_source=mascotgaming&utm_medium=cpc&utm_campaign=tournament",
+  "logoUrl": "partner_prizeslots.png"
+  },
+  {
     "name": "PariMatch",
     "type": "promopartner",
     "top": false,
