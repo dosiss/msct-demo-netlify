@@ -30,8 +30,8 @@
       </div> -->
         <div class="video-background">
           <div class="vid">
-            <video id="bgvideo" playsinline autoplay muted loop poster="/images/head_mix2_video.jpg"  width="1920" height="1080">
-              <source id="video-src" src="https://minio-api.mascot.games/mascot-videos/headvideo_mix2.mp4"  type="video/mp4">
+            <video id="bgvideo" playsinline autoplay muted loop poster="/images/head_mix3_video.jpg"  width="1920" height="1080">
+              <source id="video-src" src="https://minio-api.mascot.games/mascot-videos/headvideo_mix3.mp4"  type="video/mp4">
               <!-- <source id="video-src" src="~/assets/img/frontpage/headvideo-bastet.mp4"  type="video/mp4"> -->
             </video>
           </div>
@@ -108,8 +108,9 @@ export default {
     background: url('@/static/images/img-hero-static_pad.jpg') center top no-repeat;
   } */
   @media (max-width: 650px) {
-    background: url('@/static/images/img-hero-static2_mobile.jpg') center top no-repeat;
-    background-size: cover
+    background: url('@/static/images/img-hero-static3_mobile.jpg') center top no-repeat;
+    background-size: cover;
+    background-position-y: 50px
   }
   &:before {
     content: none;
@@ -134,11 +135,14 @@ export default {
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
+    width: 100vw;
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
     background-color: #000;
+    @media (max-width: 1500px) {
+      width: 1500px
+    }
   }
   &:before {
     content: '';
