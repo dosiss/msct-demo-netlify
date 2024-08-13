@@ -312,20 +312,20 @@
   {
     "name": "Wood Luck!",
     "slug": "wood-luck",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/wood_luck",
     "theme": "video slot",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
-    "releaseDate": "2024-08-20",
+    "comingSoon": false,
+    "releaseDate": "2024-08-22",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_woodluck.jpeg",
+    "thumbUrl": "game_woodluck2.jpeg",
     "heroUrl": "hero_woodluck.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -337,32 +337,32 @@
     "stats": {
       "reels": 6,
       "rows": 6,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": "64 - 46656",
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": 95.15,
+      "hitrate": 23.4
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
-        "imgUrl": "img-feat_woodluck-0.jpg"
-      },
-      {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
-        "imgUrl": "img-feat_woodluck-1.jpg"
-      },
-      {
         "name": "Free Spins",
         "descr": "Free spins with win multipliers up to x25",
-        "imgUrl": "img-feat_woodluck-2.jpg"
+        "imgUrl": "img-feat_woodluck-0.jpg"
       },
       {
         "name": "Bonus Game",
         "descr": "Bonus Game with multipliers and win modifiers",
+        "imgUrl": "img-feat_woodluck-1.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_woodluck-2.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Buy Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
         "imgUrl": "img-feat_woodluck-3.jpg"
       },
       {
@@ -377,8 +377,8 @@
       }
     ],
     "meta": {
-      "title": "Wood Luck!, video slot game by Mascot Gaming",
-      "descr": "Wood Luck! brings the enchanting charm of the woodland to your screen with delightful characters and an exciting array of features."
+      "title": "Wood Luck!, a video slot game by Mascot Gaming",
+      "descr": "Travel through the magical forest with amazing features and multipliers up to x25000."
     },
     "rockways": true
   },
