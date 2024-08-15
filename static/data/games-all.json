@@ -244,20 +244,20 @@
   {
     "name": "Riot Ultimate",
     "slug": "riot-ultimate",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/riot_ultimate",
     "theme": "video slot",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-08-27",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_riotultimate2.jpeg",
+    "thumbUrl": "game_riotultimate3.jpeg",
     "heroUrl": "hero_riotultimate2.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -269,12 +269,12 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": null,
+      "volatility": "Med",
       "paylines": 15,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": 95.0,
+      "hitrate": 19.2
     },
     "features": [
       {
@@ -284,7 +284,7 @@
       },
       {
         "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
+        "descr": "Buy Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
         "imgUrl": "img-feat_riotultimate-1.jpg"
       },
       {
@@ -304,8 +304,8 @@
       }
     ],
     "meta": {
-      "title": "Riot Ultimate, video slot game by Mascot Gaming",
-      "descr": "The fight is never over, and Riot is back! With even more intense action and thrilling gameplay, step into a world where chaos reigns and only the strongest survive."
+      "title": "Riot Ultimate, a video slot game by Mascot Gaming",
+      "descr": "The fight continues! Three types of Free Spins, New Risk and Buy and x1500 will help you win!"
     },
     "rockways": false
   },
