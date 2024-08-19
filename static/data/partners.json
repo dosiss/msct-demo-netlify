@@ -2068,28 +2068,6 @@
     "logoUrl": "partner_bojoko.png"
   },
   {
-    "name": "Inside casino",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://www.insidecasino.ca/software/mascot-gaming",
-    "logoUrl": "partner_insidecasino.png"
-  },
-  {
-    "name": "Giochi di slots",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://www.giochidislots.com/it/software-slot-machine/mascot-gaming",
-    "logoUrl": "partner_giochi.png"
-  },
-  {
     "name": "Cryptolists",
     "type": "media",
     "top": false,
@@ -2110,17 +2088,6 @@
     "promoText": null,
     "url": "https://casino.ru/mascot/",
     "logoUrl": "partner_casinoru.png"
-  },
-  {
-    "name": "Gamblizard",
-    "type": "media",
-    "top": false,
-    "casino": false,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://gamblizard.de/",
-    "logoUrl": "partner_gamblizard-de.png"
   },
   {
     "name": "Pokie Machines",
@@ -2154,6 +2121,17 @@
     "promoText": null,
     "url": "https://igaming.news/",
     "logoUrl": "partner_igamingnews.png"
+  },
+  {
+    "name": "Casinodeps",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casinodeps.co.nz/mascot-gaming-casinos/",
+    "logoUrl": "partner_casinoideps.png"
   },
   {
     "name": "Small Lui",

@@ -115,7 +115,7 @@
     </div>
   </div>
   <SharingButtons />
-    <AdBannerIGBlive />
+    <AdBannerSigmaEurope />
     <MainFooter />
   </div>
 </template>
