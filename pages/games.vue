@@ -181,7 +181,8 @@ export default {
     	  return this[this.gameFilterKey]
      },
       all() {
-        return allGames
+//        return allGames
+        return allGames.filter(val => (val.comingSoon !== true))
       },
       top() {
         return allGames.filter((game) => game.topGame === true)
