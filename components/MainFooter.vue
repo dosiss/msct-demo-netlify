@@ -23,6 +23,7 @@
               <li><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
             </ul>
           </div>
           <ul class="footer-content__social-links">

@@ -186,21 +186,21 @@
   {
     "name": "Kite Festival Crash Game",
     "slug": "kite-festival-crash-game",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/kite_festival_crash_game",
     "theme": "crash",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
-    "releaseDate": "2024-08-29",
+    "comingSoon": false,
+    "releaseDate": "2024-09-05",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_kitefest.jpeg",
-    "heroUrl": "hero_kitefest.jpg",
+    "thumbUrl": "game_kitefest2.jpeg",
+    "heroUrl": "hero_kitefest2.jpg",
     "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
@@ -211,12 +211,12 @@
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": 95.32,
+      "hitrate": 28.9
     },
     "features": [
       {
@@ -237,7 +237,7 @@
     ],
     "meta": {
       "title": "Kite Festival Crash Game, a video game by Mascot Gaming",
-      "descr": "A burst of colorful kites fills the sky, where the thrill of a traditional kite festival meets exciting gameplay."
+      "descr": "Fly high with up to 5 bets simultaneously and x5000 multiplier. Collect Free Bets along the way."
     },
     "rockways": false
   },

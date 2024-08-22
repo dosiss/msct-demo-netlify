@@ -5,7 +5,7 @@
     <div id="regMarkets">
       <div class="container">
         <h1>{{$t('Casino games for regulated markets')}}</h1>
-        <p class="heading-subtitle">{{$t('According to our plan to conquer every player’s love around the world here’s a list of our casino games offerings for online casinos in regulated markets. If you looking for great performing slots with easy API integration - you’ve just found a conclusion!')}}</p>
+        <p class="heading-subtitle">{{$t('According to our plan to win the love of every player around the world, here’s a list of our casino game offerings for online casinos in regulated markets. If you`re looking for high-performing slots with easy API integration, you’ve just found the solution!')}}</p>
         <div class="regmarkets__wrap">
             <div v-for="(market, idx) in regulatedMarkets" :key="idx" class="regmarkets-item">
               <div class="regmarkets-item-inner" :style="{ backgroundImage: `url(/images/img_${market.name}.png)` }">
@@ -52,8 +52,8 @@ import regulatedMarketsList from '../../static/data/regulated-markets.json'
       }
     },
     mounted() {
-      this.title = this.$t('Mascot Gaming - casino games provider')
-      this.description = this.$t('We are a team of like-minded people who worked in gambling sphere for many years. We love our work and respect your business. Explore our history!')
+      this.title = this.$t('Mascot Gaming Offerings for Regulated Markets')
+      this.description = this.$t('Discover high-performing slots with easy API integration for online casinos in regulated markets.')
     }
   }
 </script>

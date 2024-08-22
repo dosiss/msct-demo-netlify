@@ -23,6 +23,56 @@
 
 </template>
 
+<script>
+export default {
+
+  mounted() {
+    this.animateOnScrollBanner()
+
+  },
+
+  methods: {
+    animateOnScrollBanner() {
+      if (process.client && window.innerWidth >= 1024) {
+        // Initially hide elements
+        this.$gsap.set('.ad-banner__text', { opacity: 0 })
+        this.$gsap.set('.ad-banner__logo-new', { opacity: 0, xPercent: -100, yPercent: 100 })
+        this.$gsap.set('.ad-banner__decor', { opacity: 0, yPercent: 100 })
+
+        // Create scroll-triggered animation
+        this.$ScrollTrigger.create({
+          trigger: '.ad-banner__wrap',
+          start: 'top-=600 top', // Start 300px above the trigger element
+          onEnter: () => {
+            this.$gsap.to('.ad-banner__text', {
+              duration: 1,
+              opacity: 1,
+              ease: 'power1.out'
+            })
+            this.$gsap.to('.ad-banner__logo-new', {
+              duration: 1,
+              xPercent: 0,
+              yPercent: 0,
+              opacity: 1,
+              ease: 'elastic.out(1, 0.5)',
+              delay: 0.4 // Slightly stagger the animations
+            })
+            this.$gsap.to('.ad-banner__decor', {
+              duration: 0.75,
+              yPercent: 0,
+              opacity: 1,
+              ease: 'power1.inOut',
+              delay: 0.5 // Slightly stagger the animations
+            })
+          }
+        })
+      }
+    },
+
+  }
+}
+</script>
+
 <style lang="scss">
   #ad-banner {
     position: relative;

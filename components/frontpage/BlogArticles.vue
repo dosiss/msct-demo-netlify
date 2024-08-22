@@ -45,7 +45,7 @@
       </div>
       <div class="blog-articles__more-button container">
         <nuxt-link :to="localePath('blog')" class="inner-link link-yellow">
-          <span>{{$t('View entire blog')}}</span>
+          <span>{{$t('Read all blog')}}</span>
           <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
           </svg>

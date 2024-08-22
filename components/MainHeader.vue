@@ -22,6 +22,7 @@
               <li><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
             </ul>
           </nav>
           <div class="main-menu__right">
@@ -84,6 +85,7 @@
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
                 </ul>
               </nav>
             </div>
@@ -241,9 +243,9 @@
           display: flex;
           list-style: none;
           li {
-            padding: 0 30px;
+            padding: 0 20px;
             @media (max-width: 1575px) {
-              padding: 0 15px
+              padding: 0 10px
             }
           }
         }

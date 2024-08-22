@@ -3,97 +3,154 @@
     "name": "Romania",
     "link": "romania",
     "title": "Games for Romanian market",
-    "sliderTitle": "Romanian market games"
+    "bodytext": "Mascot Gaming is officially represented in Romanian GEO complying with a local regulation! Our Business Development experts in Romanian GEO regulatory are waiting to boost your iGaming business with Mascot Gaming slots, crashes and more! You can check our slots demos and other types of games listed on a games demo page. You will get it through a quick and easy API or any major iGaming platform in the market. Get in touch and we’ll make it happen in a blink of an eye!",
+    "sliderTitle": "Romanian market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Romania",
+      "descr": "Top-performing slots with seamless API integration for the Romanian market."
+    }
   },
   {
     "name": "Georgia",
     "link": "georgia",
     "title": "Games for Georgian market",
-    "sliderTitle": "Georgian market games"
-
+    "bodytext": "Mascot Gaming is now officially present in Georgian GEO, adhering to local regulations! Our Business Development experts specializing in Georgian GEO compliance are here to enhance your iGaming business with Mascot Gaming slots, crash games, and more! Check out our slot demos and other game types on our demo page. Integration is seamless with our quick and easy API or any major iGaming platform. Contact us, and we'll set it up in no time!",
+    "sliderTitle": "Georgian market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Georgia",
+      "descr": "High-quality slots with seamless API integration, selected for the unique needs of the Georgian market."
+    }
   },
   {
     "name": "Bulgaria",
     "link": "bulgaria",
     "title": "Games for Bulgarian market",
-    "sliderTitle": "Bulgarian market games"
-
+    "bodytext": "Mascot Gaming is proudly represented in Bulgarian GEO, fully complying with local regulations! Our Business Development specialists in Bulgarian GEO regulatory matters are eager to elevate your iGaming business with Mascot Gaming slots, crash games, and more! Explore our slot demos and other game varieties on our demo page. You can integrate them swiftly via our easy-to-use API or any leading iGaming platform. Reach out, and we'll make it happen quickly!",
+    "sliderTitle": "Bulgarian market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Bulgaria",
+      "descr": "Experience leading slots with easy API integration, carefully selected for Bulgaria`s regulated online casinos."
+    }
   },
   {
     "name": "Isleofman",
     "link": "isle-of-man",
     "title": "Games for Isle of Man market",
-    "sliderTitle": "Isle of Man market games"
-
+    "bodytext": "Mascot Gaming is officially available in Isle of Man GEO, meeting all local regulatory requirements! Our Business Development team, experts in Isle of Man GEO regulations, are ready to boost your iGaming business with Mascot Gaming slots, crash games, and more! Check out our slot demos and other types of games on our demo page. You can integrate them effortlessly through our fast API or any prominent iGaming platform. Contact us, and we'll make it a reality in no time!",
+    "sliderTitle": "Isle of Man market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Isle of Man",
+      "descr": "Top slots with simple API integration, specifically selected for the Isle of Man`s online casino market."
+    }
   },
   {
     "name": "Curacao",
     "link": "curacao",
     "title": "Games for Curacao market",
-    "sliderTitle": "Curacao market games"
-
+    "bodytext": "Mascot Gaming is now officially in Curacao GEO, complying with local regulations! Our Business Development experts in Curacao GEO regulatory compliance are prepared to enhance your iGaming business with Mascot Gaming slots, crash games, and more! You can view our slot demos and other games on our demo page. Integration is simple with our quick API or any major iGaming platform. Get in touch, and we'll make it happen swiftly!",
+    "sliderTitle": "Curacao market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Curacao",
+      "descr": "Explore premium slots with seamless API integration for the Curacao market."
+    }
   },
   {
     "name": "Malta",
     "link": "malta",
-    "title": "Games for Malta market",
-    "sliderTitle": "Malta market games"
-
+    "title": "Games for Maltese market",
+    "bodytext": "Mascot Gaming is now officially represented in Maltese GEO, adhering to local regulations! Our Business Development team, experts in Maltese GEO compliance, are prepared to boost your iGaming business with Mascot Gaming slots, crash games, and more! Explore our slot demos and other types of games on our demo page. Integration is easy with our fast API or any major iGaming platform. Get in touch, and we'll make it happen quickly!",
+    "sliderTitle": "Maltese market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Malta",
+      "descr": "High-quality slots with easy API integration, selected for the Maltese online casino market."
+    }
   },
   {
     "name": "UK",
     "link": "uk",
     "title": "Games for UK market",
-    "sliderTitle": "UK market games"
-
+    "bodytext": "Mascot Gaming is now officially present in UK GEO, meeting all local regulations! Our Business Development specialists in UK GEO compliance are ready to boost your iGaming business with Mascot Gaming slots, crash games, and more! View our slot demos and other types of games on our demo page. Integration is effortless with our quick API or any major iGaming platform. Reach out, and we'll make it happen in no time!",
+    "sliderTitle": "UK market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for the UK",
+      "descr": "Discover the most exciting slots with seamless API integration, specially selected for the UK market."
+    }
   },
   {
     "name": "Argentina",
     "link": "argentina",
-    "title": "Games for Argentina market",
-    "sliderTitle": "Argentinian market games"
-
+    "title": "Games for Argentinian market",
+    "bodytext": "Mascot Gaming is officially present in Argentinian GEO, complying with local regulations! Our Business Development specialists in Argentinian GEO regulatory compliance are ready to enhance your iGaming business with Mascot Gaming slots, crash games, and more! View our slot demos and other game types on our demo page. Integration is seamless with our quick API or any leading iGaming platform. Contact us, and we'll make it happen swiftly!",
+    "sliderTitle": "Argentinian market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Argentina",
+      "descr": "Top slots with seamless API integration, selected for Argentina`s regulated online gaming market."
+    }
   },
   {
     "name": "Belarus",
     "link": "belarus",
-    "title": "Games for Belarus market",
-    "sliderTitle": "Belarussian market games"
-
+    "title": "Games for Belarusian market",
+    "bodytext": "Mascot Gaming is officially represented in Belarusian GEO, complying with local regulations! Our Business Development experts in Belarusian GEO regulatory matters are here to elevate your iGaming business with Mascot Gaming slots, crash games, and more! Check out our slot demos and other game types on our demo page. Integration is simple with our quick API or any leading iGaming platform. Contact us, and we'll make it a reality swiftly!",
+    "sliderTitle": "Belarussian market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Belarus",
+      "descr": "High-quality slots with seamless API integration, selected for the Belarusian online casino market."
+    }
   },
   {
     "name": "Peru",
     "link": "peru",
-    "title": "Games for Peru market",
-    "sliderTitle": "Peruvian market games"
-
+    "title": "Games for Peruvian market",
+    "bodytext": "Mascot Gaming is officially represented in Peruvian GEO, adhering to local regulations! Our Business Development team, experts in Peruvian GEO compliance, are ready to boost your iGaming business with Mascot Gaming slots, crash games, and more! Explore our slot demos and other types of games on our demo page. Integration is easy with our quick API or any leading iGaming platform. Contact us, and we'll make it happen quickly!",
+    "sliderTitle": "Peruvian market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Peru",
+      "descr": "Enjoy high-quality slots with easy API integration for the Peruvian market."
+    }
   },
   {
     "name": "Latvia",
     "link": "latvia",
     "title": "Games for Latvia market",
-    "sliderTitle": "Latvian market games"
-
+    "bodytext": "Mascot Gaming is officially represented in the Latvian GEO, fully complying with local regulations! Our Business Development experts, well-versed in Latvian GEO regulatory standards, are ready to elevate your iGaming business with Mascot Gaming's slots, crash games, and more! Explore our slot demos and other games listed on our demo page. Integration is quick and easy via API or any major iGaming platform available in the market. Reach out to us, and we'll make it happen in no time!",
+    "sliderTitle": "Latvian market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Latvia",
+      "descr": "High-quality slots with seamless API integration, chosen for Latvia`s online casinos."
+    }
   },
   {
     "name": "Estonia",
     "link": "estonia",
-    "title": "Games for Estonia market",
-    "sliderTitle": "Estonian market games"
-
+    "title": "Games for Estonian market",
+    "bodytext": "Mascot Gaming is now officially represented in Estonian GEO, complying with local regulations! Our Business Development experts in Estonian GEO compliance are here to boost your iGaming business with Mascot Gaming slots, crash games, and more! Check out our slot demos and other types of games on our demo page. Integration is easy with our quick API or any major iGaming platform. Contact us, and we'll make it happen quickly!",
+    "sliderTitle": "Estonian market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Estonia",
+      "descr": "Top-quality slots with easy API integration, specially selected for Estonia`s regulated casino market."
+    }
   },
   {
     "name": "Columbia",
     "link": "columbia",
-    "title": "Games for Columbia market",
-    "sliderTitle": "Columbian market games"
-
+    "title": "Games for Colombian market",
+    "bodytext": "Mascot Gaming is now officially represented in Colombian GEO, meeting all local regulations! Our Business Development experts in Colombian GEO regulatory matters are here to elevate your iGaming business with Mascot Gaming slots, crash games, and more! Check out our slot demos and other game types on our demo page. You can integrate them easily via our fast API or any major iGaming platform. Reach out, and we'll make it happen in no time!",
+    "sliderTitle": "Colombian market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Colombia",
+      "descr": "Top-performing slots with seamless API integration for the Colombian market."
+    }
   },
   {
     "name": "Spain",
     "link": "spain",
-    "title": "Games for Spain market",
-    "sliderTitle": "Spain market games"
-
+    "title": "Games for Spanish market",
+    "bodytext": "Mascot Gaming is officially available in Spanish GEO, adhering to local regulations! Our Business Development team, experts in Spanish GEO regulatory matters, are prepared to enhance your iGaming business with Mascot Gaming slots, crash games, and more! Explore our slot demos and other game types on our demo page. Integration is seamless with our fast API or any leading iGaming platform. Get in touch, and we'll make it happen swiftly!",
+    "sliderTitle": "Spanish market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Spain",
+      "descr": "Premium slots with seamless API integration, specifically chosen for the Spanish market."
+    }
   }
 ]

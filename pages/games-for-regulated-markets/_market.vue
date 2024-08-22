@@ -7,9 +7,9 @@
       <div class="market__wrap">
         <div class="market-flag"><img :src="`/images/flag_${currentMarket.link}.png`" alt="" /></div>
         <div class="market-content">
-          <h1 class="market-content__title">{{ currentMarket.title}}</h1>
-          <p class="">Mascot Gaming is officially represented in Romanian GEO complying with a local regulation! Our Business Development experts in Romanian GEO regulatory are waiting to boost your iGaming business with Mascot Gaming slots, crashes and more! You can check our slots demos and other types of games listed on a games demo page. You will get it through a quick and easy API or any major iGaming platform in the market. Get in touch and we’ll make it happen in a blink of an eye!</p>
-          <p class="">Mascot Gaming is officially represented in Romanian GEO complying with a local regulation! Our Business Development experts in Romanian GEO regulatory are waiting to boost your iGaming business with Mascot Gaming slots, crashes and more! You can check our slots demos and other types of games listed on a games demo page. You will get it through a quick and easy API or any major iGaming platform in the market. Get in touch and we’ll make it happen in a blink of an eye!</p>
+          <h1 class="market-content__title">{{currentMarket.title}}</h1>
+          <p class="">{{$t(`${currentMarket.bodytext}`)}}</p>
+          <!-- <p class="">Mascot Gaming is officially represented in Romanian GEO complying with a local regulation! Our Business Development experts in Romanian GEO regulatory are waiting to boost your iGaming business with Mascot Gaming slots, crashes and more! You can check our slots demos and other types of games listed on a games demo page. You will get it through a quick and easy API or any major iGaming platform in the market. Get in touch and we’ll make it happen in a blink of an eye!</p> -->
           <div class="market-content__footer">
             <nuxt-link :to="localePath('/games-for-regulated-markets')" class="inner-link link-yellow link-desktop">
               <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,6 +67,32 @@
       }
 
     },
+
+    head() {
+      return {
+        title: this.currentMarket.meta.title,
+        htmlAttrs: {
+            lang: this.$i18n.locale
+        },
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.currentMarket.meta.descr
+          },
+          { property: 'og:title', hid: "og:title", content: this.currentMarket.meta.title },
+          { property: 'og:description', hid: 'og:description', content: this.currentMarket.meta.descr },
+          { property: 'og:url', hid:'og:url', content: `https://mascot.games/${this.currentMarket.link}` },
+          { property: 'og:image', hid:'og:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
+          { name: 'twitter:card', hid: 'twitter:card', content: 'summary_large_image' },
+          { name: 'twitter:title', hid:'twitter:title', content: this.currentMarket.meta.title },
+          { name: 'twitter:description', hid:'twitter:description', content: this.currentMarket.meta.descr },
+          { name: 'twitter:image', hid:'twitter:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
+        ]
+      }
+   },
 
     computed: {
       currentMarket() {

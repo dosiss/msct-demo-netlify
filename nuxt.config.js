@@ -1,9 +1,23 @@
-import data from './static/data/games-all.json'
-let dynamicRoutes = () => {
+import gamesData from './static/data/games-all.json'
+import marketsData from './static/data/regulated-markets.json'
+
+let dynamicRoutesFromGames = () => {
   return new Promise(resolve => {
-    resolve(data.map(el => `/${el.slug}`))
+    resolve(gamesData.map(el => `/${el.slug}`))
   })
 }
+
+let dynamicRoutesFromMarkets = () => {
+  return new Promise(resolve => {
+    resolve(marketsData.map(el => `/games-for-regulated-markets/${el.slug}`))
+  })
+}
+// import data from './static/data/games-all.json'
+// let dynamicRoutes = () => {
+//   return new Promise(resolve => {
+//     resolve(data.map(el => `/${el.slug}`))
+//   })
+// }
 
 // const createSitemapRoutes = async () => {
 //   let routes = [];
@@ -104,7 +118,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               { src: '~/plugins/lightgallery', mode: 'client' },
               { src: '~/plugins/lgvideo', mode: 'client' },
               { src: '~/plugins/vue-cookies-consent.js', mode:'client'},
-
+//              { src: '~/plugins/gsap.js', mode: 'client' }
 
 
 
@@ -127,6 +141,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     '@nuxt/image',
     '@nuxtjs/device',
     '@nuxtjs/google-analytics',
+    'nuxt-gsap-module'
   ],
   device: {
     refreshOnResize: true,
@@ -149,6 +164,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   // routeRules: {
   //   "/": { redirect: "/en" },
   // },
+
+  gsap: {
+    extraPlugins: {
+      scrollTo: true,
+      scrollTrigger: true,
+      motionPath: true
+    },
+    extraEases: {
+      expoScaleEase: true
+    }
+  },
+
   i18n: {
     locales: [
       { code: 'en', iso: 'en-US', file: 'en-US.js', name: 'EN' },
@@ -166,7 +193,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       exclude: [
         '/articles'
       ],
-      routes: dynamicRoutes,
+//      routes: dynamicRoutes,
+routes: async () => {
+  const routesFromGames = await dynamicRoutesFromGames()
+  const routesFromMarkets = await dynamicRoutesFromMarkets()
+  return [...routesFromGames, ...routesFromMarkets]
+},
       defaults: {
         changefreq: 'monthly',
         priority: 1,
@@ -180,7 +212,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    extractCSS: true,
+//    transpile: ['gsap'],
+    extractCSS: true
   },
 
   image: {
@@ -188,9 +221,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     dir: 'static'
   },
 
+//   generate: {
+//   routes: dynamicRoutes,
+//
+// //  fallback: true
+//   },
+
   generate: {
-  routes: dynamicRoutes,
-//  fallback: true
-  },
+    routes: async () => {
+      const routesFromGames = await dynamicRoutesFromGames()
+      const routesFromMarkets = await dynamicRoutesFromMarkets()
+      return [...routesFromGames, ...routesFromMarkets]
+    }
+  }
 
 }

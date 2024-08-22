@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="top-header__wrap">
                       <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
-                      <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl">{{ $t('Play our games') }}</a>
+                      <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl hero-buttn">{{ $t('Play our games') }}</a>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
               <div class="top-header__wrap">
                 <div class="top-header__left">
                     <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
-                    <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl">{{ $t('Play our games') }}</a>
+                    <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl hero-buttn">{{ $t('Play our games') }}</a>
                 </div>
                 <!-- <div class="top-header__right">
                    <div class="vote-badge">
@@ -90,7 +90,35 @@ export default {
       default:
       this.locPath = '';
     }
+
+    await this.animateElements();
+
   },
+
+  methods: {
+    animateElements() {
+      if (process.client && window.innerWidth >= 1024) {
+        this.$gsap.set('.top-header__title', { opacity: 0, x: '-100%' });
+        this.$gsap.set('.hero-buttn', { opacity: 0, y: '100%' });
+
+        this.$gsap.to('.top-header__title', {
+          duration: 1.5,
+          delay: 1,
+          x: '0%',
+          opacity: 1,
+          ease: 'elastic.out(1, 0.5)'
+        });
+
+        this.$gsap.to('.hero-buttn', {
+          duration: 1.5,
+          delay: 1,
+          y: '0%',
+          opacity: 1,
+          ease: 'elastic.out(1, 0.5)'
+        });
+      }
+    }
+  }
 
 
 }
@@ -170,6 +198,7 @@ export default {
     font-size: 4.6rem;
     margin-bottom: 70px;
     line-height: 1.5;
+    position: relative;
     @media (max-width: 850px) {
       font-size: 3.75rem;
       margin-bottom: 40px
@@ -181,6 +210,7 @@ export default {
     }
   }
   .buttn {
+    position: relative;
     @media (max-width: 650px) {
     width: 100%;
     text-align: center;

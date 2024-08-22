@@ -9,9 +9,9 @@
         <TopSlider />
       </div>
     </section>
-    <section id="featured">
+    <!-- <section id="featured">
       <FeaturedStatic />
-    </section>
+    </section> -->
     <section id="getgames">
       <GetGames />
     </section>
@@ -141,7 +141,7 @@ export default {
 }
 #getgames {
   @media (min-width: 1680px) {
-    margin-top: 80px
+    // margin-top: 80px
   }
 }
 </style>
