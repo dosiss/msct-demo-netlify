@@ -396,7 +396,7 @@ export default {
       start: 'top bottom',
       end:'bottom top',
       onEnter: self => {
-        console.log('onEnter block1 triggered'); // Debug log
+//        console.log('onEnter block1 triggered'); // Debug log
         this.$gsap.to(window, {
           scrollTo: {
             y: block,
@@ -406,7 +406,7 @@ export default {
           duration: 0.75,
           ease: 'power2.inOut',
           onComplete: () => {
-            console.log('onComplete block1 triggered'); // Debug log
+//            console.log('onComplete block1 triggered'); // Debug log
 
             self.disable();
             this.$gsap.delayedCall(.5, () => {
@@ -434,7 +434,7 @@ export default {
         });
       },
       onEnterBack: (self) => {
-        console.log('onEnterBack triggered'); // Debug log
+//        console.log('onEnterBack triggered'); // Debug log
         // Scroll the block to the top of the viewport when scrolling up
         this.$gsap.to(window, {
           scrollTo: {
@@ -470,14 +470,14 @@ export default {
         });
       },
       onLeave: () => {
-        console.log('onLeave block1 triggered'); // Debug log
+//        console.log('onLeave block1 triggered'); // Debug log
         // Hide elements when the block leaves the viewport
         this.$gsap.set('.getgames__wrap .container', { opacity: 0, x: '-100%', y: '100%' })
         this.$gsap.set('.getgames-decor', { opacity: 0, y: '100%' })
         this.$gsap.set('.features-tools__wrap', { opacity: 0, y: '100%' })
       },
       onLeaveBack: () => {
-        console.log('onLeaveBack triggered'); // Debug log
+//        console.log('onLeaveBack triggered'); // Debug log
         // Hide elements when the block leaves the viewport while scrolling up
         this.$gsap.set('.getgames__wrap .container', { opacity: 0, x: '-100%', y: '100%' })
         this.$gsap.set('.getgames-decor', { opacity: 0, y: '100%' })
@@ -1457,10 +1457,17 @@ export default {
     }
   }
 }
+.features-more-0__wrap::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+  }
 .features-more-0__wrap {
   padding-top: 20px;
   max-width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
   .features-more-0 {
     display: grid;
     grid-template-columns: 1.2fr 0.8fr 1fr;
@@ -1933,10 +1940,17 @@ export default {
     }
   }
 }
+.get-offer__wrap::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+  }
 .get-offer__wrap {
   padding-top: 120px;
   overflow-x: hidden;
   position: relative;
+  overflow-y: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
   .get-offer__inner {
     position: relative;
     background: linear-gradient(87.43deg, #7C3D20 -0.63%, #492C1F 27.54%, #212121 100%);
