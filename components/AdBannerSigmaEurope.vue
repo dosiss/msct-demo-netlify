@@ -74,10 +74,17 @@ export default {
 </script>
 
 <style lang="scss">
+#ad-banner::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+  }
   #ad-banner {
     position: relative;
     overflow-x: hidden;
     background: none !important;
+    overflow-y: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
     .ad-banner__wrap {
       background: linear-gradient(180deg, #331729 0%, #3C3252 100%);
       margin-top: 45px;
