@@ -1947,6 +1947,17 @@
     "logoUrl": "partner_futureplay.png"
   },
   {
+    "name": "Bikinislots",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.bikinislots.com/",
+    "logoUrl": "partner_bikinislots.png"
+  },
+  {
     "name": "lcb.org",
     "type": "media",
     "top": false,

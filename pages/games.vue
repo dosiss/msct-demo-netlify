@@ -12,7 +12,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 18"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8.875 14.25a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm7.5 1.5-3.263-3.263"/></svg>
                 <span>{{$t('Search')}}</span>
               </button>
-              <button :class="{ active: gameFilterKey == 'comingsoon' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'comingsoon'">{{$t('Coming Soon')}}</button>
+              <button :class="{ active: gameFilterKey == 'comingsoon' }" class="buttn buttn-rounded buttn-sm buttn-comingsoon" @click="gameFilterKey = 'comingsoon'"><span>{{$t('Coming Soon')}}</span></button>
               <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'top'">{{$t('Тор games')}} - {{gamesCountItem("topGame")}}</button>
               <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'traffic'">{{$t('Traffic-generating games')}} - {{gamesCountType("traffic")}}</button>
               <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">{{$t('Profit-making games')}} - {{gamesCountType("profit")}}</button>
@@ -395,13 +395,13 @@ export default {
     @media (max-width: 1979px) {
       padding-left: 35px;
       justify-content: flex-start;
-      width: 2100px;
+      width: 2200px;
     }
     @media (max-width: 850px) {
       padding-left: 0
     }
     @media (max-width: 650px) {
-      width: 2100px;
+      width: 2200px;
       margin-bottom: 10px;
       margin-top: 20px
     }
@@ -409,6 +409,8 @@ export default {
     .buttn {
       width: 119px;
       margin-right: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
       &:not(:first-child) {
         width: fit-content
       }
@@ -445,6 +447,49 @@ export default {
             path {
               stroke: #000
             }
+          }
+        }
+      }
+      &.buttn-search {
+        padding-top: 14px !important
+      }
+      &.buttn-comingsoon {
+        border: none;
+        position: relative;
+        background: #fff;
+        padding: 5px !important;
+         span {
+          background: rgb(56,121,225);
+          background: linear-gradient(0deg, rgba(56,121,225,1) 0%, rgba(134,239,196,1) 100%);
+          text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+          border-width: 0;
+          border-radius: 20rem;
+          padding: 11px 35px 11px 12px !important;
+
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          height: 57px;
+          width: 42px;
+          top: -6px;
+          right: -6px;
+          background: url('/images/img_filter-clock.png')no-repeat;
+          background-size: contain;
+        }
+        &:hover {
+          background: rgb(56,121,225);
+          background: linear-gradient(0deg, rgba(56,121,225,1) 0%, rgba(134,239,196,1) 100%);
+          color: #fff;
+          transition: background-color 0.2s ease-in;
+        }
+        &.active {
+          background: rgb(226,126,66);
+          background: linear-gradient(90deg, rgba(226,126,66,1) 0%, rgba(246,199,69,1) 100%);
+          span {
+            background: rgb(226,126,66);
+            background: linear-gradient(90deg, rgba(226,126,66,1) 0%, rgba(246,199,69,1) 100%);
+            color:#fff
           }
         }
       }

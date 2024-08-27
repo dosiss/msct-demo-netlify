@@ -680,17 +680,17 @@
       }
     }
   }
-  // .vcc-window {
-  //   z-index: 9999;
-  //   button {
-  //     text-transform: uppercase;
-  //     font-weight: 700;
-  //     font-family: 'Avenir', sans-serif;
-  //   }
-  //   .vcc-window__action {
-  //     @media (max-width: 650px) {
-  //       text-align: center;
-  //     }
-  //   }
-  // }
+  .vcc-window {
+    z-index: 10;
+    button {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-family: 'Avenir', sans-serif;
+    }
+    .vcc-window__action {
+      @media (max-width: 650px) {
+        text-align: center;
+      }
+    }
+  }
 </style>

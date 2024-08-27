@@ -22,11 +22,16 @@
           </div>
         </div>
         <div v-else class="blog-articles__content">
-          <div v-swiper:mySwiper5="swiperOptionArticles">
+          <div
+          v-swiper:mySwiper5="swiperOptionArticles"
+          @mousedown="onDragStart"
+          @mousemove="onDragMove"
+          @mouseup="onDragEnd"
+          >
             <div class="swiper-wrapper">
               <div v-for="article in topArticles" :key="article.slug" class="swiper-slide game-thumbnail">
                 <div class="article-slide">
-                  <NuxtLink :to="localePath({ name: 'blog-slug', params: { slug: article.slug } })">
+                  <NuxtLink :to="localePath({ name: 'blog-slug', params: { slug: article.slug } })" @click="handleClick">
                     <div class="article-img" :style="{ backgroundImage: `url(/images/${article.img})` }"></div>
                     <div class="article-content">
                       <div class="article-content__inner">
@@ -76,14 +81,17 @@
 
        articles: [],
 
+      isDragging: false,
+
        swiperOptionArticles: {
-         mousewheel: true,
-         preventClicks: false,
-         preventClicksPropagation: false,
+  //       mousewheel: true,
+         preventClicks: true,
+         preventClicksPropagation: true,
          followFinger: false,
          spaceBetween: 10,
          slidesPerView: 2.5,
          a11y: false,
+         threshold: 10,
          breakpoints: {
            '640': {
              slidesPerView: 1.7,
@@ -128,7 +136,25 @@
      formatDate(date) {
        const options = { year: 'numeric', month: 'short', day: 'numeric' }
        return new Date(date).toLocaleDateString('en', options)
-     }
+     },
+
+    onDragStart() {
+      this.isDragging = false;
+    },
+    onDragMove() {
+      this.isDragging = true;
+    },
+    onDragEnd(event) {
+      if (this.isDragging) {
+        event.preventDefault(); // Prevent accidental click
+      }
+      this.isDragging = false;
+    },
+    handleClick(event) {
+      if (this.isDragging) {
+        event.preventDefault(); // Prevent the click event
+      }
+    },
    },
 
 

@@ -70,7 +70,7 @@ import allGames from '../../static/data/games-all.json'
         locPath: '',
 
         swiperOption: {
-          mousewheel: true,
+    //      mousewheel: true,
           preventClicks: false,
           preventClicksPropagation: false,
           spaceBetween: 10,

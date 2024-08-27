@@ -51,7 +51,7 @@
                 <div class="features-tools__item-content">
                   <div class="features-tools__item-title">{{$t('Positive impact')}}</div>
                   <ul class="features-tools__item-text">
-                    <li><strong>{{$t('Charity')}}</strong></li>
+                    <li>{{$t('Charity')}}</li>
                     <li>{{$t('Sports Sponsorship')}}</li>
                     <li>{{$t('Assistance to Animal Shelters')}}</li>
                   </ul>
@@ -393,23 +393,8 @@ export default {
     this.$ScrollTrigger.create({
 //      markers: true, // Enable markers for debugging
       trigger: block,
-      start: 'top bottom',
-      end:'bottom top',
-      onEnter: self => {
-//        console.log('onEnter block1 triggered'); // Debug log
-        this.$gsap.to(window, {
-          scrollTo: {
-            y: block,
-            offsetY: 0,
-            autoKill: false, // Ensure the scrollTo animation doesn't get interrupted
-          },
-          duration: 0.75,
-          ease: 'power2.inOut',
-          onComplete: () => {
-//            console.log('onComplete block1 triggered'); // Debug log
-
-            self.disable();
-            this.$gsap.delayedCall(.5, () => {
+      start: 'top-=300 top',
+      onEnter: () => {
               this.$gsap.to('.getgames__wrap .container', {
                 duration: 0.75,
                 x: '0%',
@@ -429,60 +414,7 @@ export default {
                 opacity: 1,
                 ease: 'elastic.out(0.5, 1)'
               })
-            });
-          }
-        });
       },
-      onEnterBack: (self) => {
-//        console.log('onEnterBack triggered'); // Debug log
-        // Scroll the block to the top of the viewport when scrolling up
-        this.$gsap.to(window, {
-          scrollTo: {
-            y: block,
-            offsetY: 0,
-            autoKill: false, // Ensure the scrollTo animation doesn't get interrupted
-          },
-          duration: 1,
-          ease: 'power2.inOut',
-          onComplete: () => {
-            // Disable ScrollTrigger after scrolling to allow normal scrolling
-            self.disable();
-            this.$gsap.to('.getgames__wrap .container', {
-              duration: 0.75,
-              x: '0%',
-              y: '0%',
-              opacity: 1,
-              ease: 'elastic.out(1, 1)'
-            })
-            this.$gsap.to('.getgames-decor', {
-              duration: 0.5,
-              y: '0%',
-              opacity: 1,
-              ease: 'elastic.out(0.5, 1)'
-            })
-            this.$gsap.to('.features-tools__wrap', {
-              duration: 0.5,
-              y: '0%',
-              opacity: 1,
-              ease: 'elastic.out(0.5, 1)'
-            })
-          }
-        });
-      },
-      onLeave: () => {
-//        console.log('onLeave block1 triggered'); // Debug log
-        // Hide elements when the block leaves the viewport
-        this.$gsap.set('.getgames__wrap .container', { opacity: 0, x: '-100%', y: '100%' })
-        this.$gsap.set('.getgames-decor', { opacity: 0, y: '100%' })
-        this.$gsap.set('.features-tools__wrap', { opacity: 0, y: '100%' })
-      },
-      onLeaveBack: () => {
-//        console.log('onLeaveBack triggered'); // Debug log
-        // Hide elements when the block leaves the viewport while scrolling up
-        this.$gsap.set('.getgames__wrap .container', { opacity: 0, x: '-100%', y: '100%' })
-        this.$gsap.set('.getgames-decor', { opacity: 0, y: '100%' })
-        this.$gsap.set('.features-tools__wrap', { opacity: 0, y: '100%' })
-      }
     });
   }
 },
@@ -561,22 +493,8 @@ export default {
         this.$ScrollTrigger.create({
   //       markers: true,
           trigger: block,
-          start: 'top+=300 bottom',
-          end: 'bottom top',
-          onEnter: self => {
-//            console.log('onEnter block2 triggered'); // Debug log
-
-            this.$gsap.to(window, {
-              scrollTo: {
-                y: block,
-                offsetY: 0,
-                autoKill: false, // Ensure the scrollTo animation doesn't get interrupted
-              },
-              duration: .75,
-              ease: 'power2.inOut',
-              onComplete: () => {
-                self.disable()
-                this.$gsap.delayedCall(0.2, () => {
+          start: 'top-=400 top',
+          onEnter: () => {
                           this.$gsap.to('.features-more-0__item.item-1', {
                             duration: 1.5,
                             x: '0%',
@@ -617,79 +535,6 @@ export default {
                             ease: 'elastic.out(1, 0.5)',
                             delay: 0.5 // Staggering the animations slightly
                           })
-                })
-              }
-            })
-          },
-          onEnterBack: self => {
-//            console.log('onEnterBack block2 triggered'); // Debug log
-
-            // Scroll the block to the top of the viewport when scrolling up
-            this.$gsap.to(window, {
-              scrollTo: {
-                y: block,
-                offsetY: 0,
-                autoKill: false, // Ensure the scrollTo animation doesn't get interrupted
-              },
-              duration: 1,
-              ease: 'power2.inOut',
-              onComplete: () => {
-                // Disable ScrollTrigger after scrolling to allow normal scrolling
-                self.disable()
-
-                // Animate elements after scrolling
-                        this.$gsap.to('.features-more-0__item.item-1', {
-                          duration: 1.5,
-                          x: '0%',
-                          opacity: 1,
-                          ease: 'elastic.out(1, 0.5)'
-                        })
-                        this.$gsap.to('.features-more-0__item.item-2', {
-                          duration: 1.5,
-                          x: '0%',
-                          opacity: 1,
-                          ease: 'elastic.out(1, 0.5)',
-                          delay: 0.1 // Staggering the animations slightly
-                        })
-                        this.$gsap.to('.features-more-0__item.item-3', {
-                          duration: 1.5,
-                          x: '0%',
-                          opacity: 1,
-                          ease: 'elastic.out(1, 0.5)',
-                          delay: 0.2 // Staggering the animations slightly
-                        })
-                        this.$gsap.to('.features-more-0__item.item-4', {
-                          duration: 1.5,
-                          x: '0%',
-                          opacity: 1,
-                          ease: 'elastic.out(1, 0.5)',
-                        })
-                        this.$gsap.to('.features-more-0__item.item-5', {
-                          duration: 1.5,
-                          x: '0%',
-                          opacity: 1,
-                          ease: 'elastic.out(1, 0.5)',
-                          delay: 0.3 // Staggering the animations slightly
-                        })
-                        this.$gsap.to('.features-more-0__item.item-6', {
-                          duration: 1.5,
-                          y: '0%',
-                          opacity: 1,
-                          ease: 'elastic.out(1, 0.5)',
-                          delay: 0.5 // Staggering the animations slightly
-                        })
-              }
-            })
-          },
-          onLeave: () => {
-//            console.log('onLeave block2 triggered'); // Debug log
-            // Hide elements when the block leaves the viewport
-            this.$gsap.set('.features-more-0__item.item-1', { opacity: 0, x: '-100%' })
-            this.$gsap.set('.features-more-0__item.item-2', { opacity: 0, x: '100%' })
-            this.$gsap.set('.features-more-0__item.item-3', { opacity: 0, x: '100%' })
-            this.$gsap.set('.features-more-0__item.item-4', { opacity: 0, x: '-100%' })
-            this.$gsap.set('.features-more-0__item.item-5', { opacity: 0, x: '100%' })
-            this.$gsap.set('.features-more-0__item.item-6', { opacity: 0, y: '100%' })
           },
         })
       }
@@ -779,36 +624,8 @@ export default {
         this.$ScrollTrigger.create({
 //          markers: true,
           trigger: block,
-          start: 'top+=300 bottom',
-          onEnter: self => {
-            this.$gsap.to(window, {
-              scrollTo: {
-                y: block,
-                offsetY: 0,
-                autoKill: false, // Ensure the scrollTo animation doesn't get interrupted
-              },
-              duration: .75,
-              ease: 'power2.inOut',
-              onComplete: () => {
-                self.disable()
-                this.$gsap.delayedCall(0.5, () => {
-                  // this.$gsap.to('.get-offer__inner', {
-                  //   duration: 1.5,
-                  //   opacity: 1,
-                  //   ease: 'power1.out'
-                  // })
-                  // this.$gsap.to('.get-offer', {
-                  //   duration: 0.5,
-                  //   opacity: 1,
-                  //   ease: 'power1.out',
-                  //   delay: 0
-                  // })
-                  // this.$gsap.to('.get-offer__button', {
-                  //   duration: 0.5,
-                  //   opacity: 1,
-                  //   ease: 'power1.out',
-                  //   delay: 0 // Slightly stagger the animations
-                  // })
+          start: 'top-=500 top',
+          onEnter: () => {
                   this.$gsap.to('#dec1', {
                     duration:.5,
                     opacity: 1,
@@ -863,41 +680,7 @@ export default {
                     ease: 'elastic.out(1, 0.5)',
                     delay: 1.1 // Staggering the animations slightly
                   })
-                })
-              }
-            })
           },
-          onEnterBack: self => {
-            // Scroll the block to the top of the viewport when scrolling up
-            this.$gsap.to(window, {
-              scrollTo: {
-                y: block,
-                offsetY: 0,
-                autoKill: false, // Ensure the scrollTo animation doesn't get interrupted
-              },
-              duration: 1,
-              ease: 'power2.inOut',
-              onComplete: () => {
-                // Disable ScrollTrigger after scrolling to allow normal scrolling
-                self.disable()
-
-                // Animate elements after scrolling
-                this.$gsap.to('.getgames__wrap .container', {
-                  duration: 0.75,
-                  x: '0%',
-                  y: '0%',
-                  opacity: 1,
-                  ease: 'elastic.out(1, 1)'
-                })
-                this.$gsap.to('.getgames-decor', {
-                  duration: 0.5,
-                  y: '0%',
-                  opacity: 1,
-                  ease: 'elastic.out(0.5, 1)'
-                })
-              }
-            })
-          }
         })
       }
     },
