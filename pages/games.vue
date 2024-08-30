@@ -407,7 +407,8 @@ export default {
     }
 
     .buttn {
-      width: 119px;
+      width: max-content;
+      white-space: nowrap;
       margin-right: 10px;
       margin-top: 5px;
       margin-bottom: 5px;
