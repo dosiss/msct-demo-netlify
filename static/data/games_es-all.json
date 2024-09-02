@@ -36,34 +36,34 @@
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
         "imgUrl": "img-feat_cancandeluxe-0.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
+        "name": "Función Risk & Buy: Comprar",
+        "descr": "Compra Free Spins o una Partida Bonus con las condiciones ofrecidas y al precio sugerido. Después de cada tirada estará disponible una oferta de Compra especial",
         "imgUrl": "img-feat_cancandeluxe-1.jpg"
       },
       {
         "name": "Random Wild Reels",
-        "descr": "During each spin, 1 to 5 reels randomly become wild reels",
+        "descr": "Durante cada tirada, entre 1 y 5 rodillos se convertirán en wild reels",
         "imgUrl": "img-feat_cancandeluxe-2.jpg"
       },
       {
         "name": "Free Spins",
-        "descr": "During Free Spins, at least 2 reels on each spin are replaced with Wild Reels",
+        "descr": "Durante los Free Spins, al menos 2 rodillos en cada tirada se reemplazarán con Wild Reels",
         "imgUrl": "img-feat_cancandeluxe-3.jpg"
       },
       {
-        "name": "Bonus Game",
-        "descr": "Bonus Game with the chance to win a coin prize or Free Spins",
+        "name": "Partida Bonus",
+        "descr": "Partida Bonus con oportunidad de ganar un premio en efectivo o Free Spins",
         "imgUrl": "img-feat_cancandeluxe-4.jpg"
       }
     ],
     "meta": {
-      "title": "Cancan Saloon Deluxe, video slot game by Mascot Gaming",
-      "descr": "It’s time we dance! Cancan Saloon Deluxe sweeps you into the world of a Wild West saloon."
+      "title": "Cancan Saloon Deluxe: tragaperras en vídeo de Mascot Gaming",
+      "descr": "¡Es hora de bailar! Cancan Saloon Deluxe te transporta a un salón del Salvaje Oeste."
     },
     "rockways": false
   },
@@ -104,24 +104,24 @@
     },
     "features": [
       {
-        "name": "Wild Reels with Multipliers",
-        "descr": "Each Wild Reel has a random multiplier from x2 to x5",
+        "name": "Wild Reels con Multiplicadores",
+        "descr": "Cada Wild Reel tiene un multiplicador aleatorio de entre x2 y x5",
         "imgUrl": "img-feat_fruitvegas125-0.jpg"
       },
       {
         "name": "Free Respins",
-        "descr": "Each Wild becomes a Sticky Wild Reel and triggers a Free Respin",
+        "descr": "Cada Wild se convierte en un Sticky Wild Reel y activa un Free Respin",
         "imgUrl": "img-feat_fruitvegas125-1.jpg"
       },
       {
-        "name": "Risk Game",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Juego de Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
         "imgUrl": "img-feat_fruitvegas125-2.jpg"
       }
     ],
     "meta": {
-      "title": "Fruit Vegas Extreme X125, video slot game by Mascot Gaming",
-      "descr": "This slot game elevates the traditional fruit slot experience with an extreme multiplier of x125, adding a modern twist to a beloved classic."
+      "title": "Fruit Vegas Extreme X125: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Esta tragaperras mejora la experiencia tradicional de las tragaperras de frutas con un multiplicador extremo de x125, aportando un toque moderno a un clásico muy popular."
     },
     "rockways": false
   },
@@ -162,24 +162,24 @@
     },
     "features": [
       {
-        "name": "Wilds with Multipliers",
-        "descr": "3 different wilds with multipliers of x2, x3, and x5",
+        "name": "Wilds con Multiplicadores",
+        "descr": "3 wilds diferentes con multiplicadores de x2, x3 y x5",
         "imgUrl": "img-feat_xfu-0.jpg"
       },
       {
-        "name": "Sticky Wild Reels and Respins",
-        "descr": "Each Wild becomes a Sticky Wild Reel and triggers a Free Respin",
+        "name": "Sticky Wild Reels y Respins",
+        "descr": "Cada Wild se convierte en un Sticky Wild Reel y activa un Free Respin",
         "imgUrl": "img-feat_xfu-1.jpg"
       },
       {
-        "name": "Risk Game",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Juego de Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
         "imgUrl": "img-feat_xfu-2.jpg"
       }
     ],
     "meta": {
-      "title": "The Incredible X Fu Hero, video slot game by Mascot Gaming",
-      "descr": "In a realm of ancient temples, The Incredible X Fu Hero unfolds a captivating tale of bravery and adventure."
+      "title": "The Incredible X Fu Hero: tragaperras en vídeo de Mascot Gaming",
+      "descr": "En un reino de templos antiguos, The Incredible X Fu Hero revela una gran historia de valentía y aventura."
     },
     "rockways": false
   },
@@ -220,24 +220,24 @@
     },
     "features": [
       {
-        "name": "Multiple Bets",
-        "descr": "Place from 1 to 5 bets simultaneously",
+        "name": "Varias Apuestas",
+        "descr": "Realiza de 1 a 5 apuestas simultáneamente",
         "imgUrl": "img-feat_kitefest-0.jpg"
       },
       {
-        "name": "Win Multiplier",
-        "descr": "Increasing win multiplier up to x5000",
+        "name": "Multiplicador de Ganancias",
+        "descr": "Multiplicador de ganancias que aumenta hasta x5000",
         "imgUrl": "img-feat_kitefest-1.jpg"
       },
       {
-        "name": "Free Bets",
-        "descr": "Up to 5 Free Bets in each launch",
+        "name": "Apuestas Gratis",
+        "descr": "Hasta 5 Apuestas Gratis en cada tirada",
         "imgUrl": "img-feat_kitefest-2.jpg"
       }
     ],
     "meta": {
-      "title": "Kite Festival Crash Game, a video game by Mascot Gaming",
-      "descr": "Fly high with up to 5 bets simultaneously and x5000 multiplier. Collect Free Bets along the way."
+      "title": "Kite Festival Crash Game: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Un montón de cometas llena el cielo de colores, donde la emoción de un festival tradicional de cometas se une a un juego emocionante."
     },
     "rockways": false
   },
@@ -278,34 +278,34 @@
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
         "imgUrl": "img-feat_riotultimate-0.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Buy Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
+        "name": "Función Risk & Buy: Comprar",
+        "descr": "Compra Free Spins o una Partida Bonus con las condiciones ofrecidas y al precio sugerido. Después de cada tirada estará disponible una oferta de Compra especial",
         "imgUrl": "img-feat_riotultimate-1.jpg"
       },
       {
-        "name": "Free Spins with Sticky Wild Reels and Respins",
-        "descr": "The Soldier symbol becomes a Sticky Wild Reel and triggers a Free Respin",
+        "name": "Free Spins con Sticky Wild Reels y Respins",
+        "descr": "El Soldier Symbol se convierte en un Sticky Wild Reel y activa un Free Respin",
         "imgUrl": "img-feat_riotultimate-2.jpg"
       },
       {
-        "name": "Free Spins with Sticky Wilds",
-        "descr": "All Bandits Symbols become Sticky Wilds for the duration of the Free Spins series",
+        "name": "Free Spins con Sticky Wilds",
+        "descr": "Todos los Bandits Symbols se convierten en Sticky Wilds durante la serie de Free Spins",
         "imgUrl": "img-feat_riotultimate-3.jpg"
       },
       {
-        "name": "Free Spins with Win Multiplier",
-        "descr": "A combination of Survivors Symbols grants Free Spins with x3 multiplier and a chance to win additional Free Spins",
+        "name": "Free Spins con Multiplicador de Ganancias",
+        "descr": "Una combinación de Survivors Symbols garantiza Free Spins con un multiplicador de x3 y una oportunidad de ganar Free Spins adicionales",
         "imgUrl": "img-feat_riotultimate-4.jpg"
       }
     ],
     "meta": {
-      "title": "Riot Ultimate, a video slot game by Mascot Gaming",
-      "descr": "The fight continues! Three types of Free Spins, New Risk and Buy and x1500 will help you win!"
+      "title": "Riot Ultimate: tragaperras en vídeo de Mascot Gaming",
+      "descr": "¡La lucha continúa! ¡Hay tres tipos de Free Spins, New Risk and Buy y x1500 para ayudarte a ganar!"
     },
     "rockways": false
   },
@@ -347,38 +347,38 @@
     "features": [
       {
         "name": "Free Spins",
-        "descr": "Free spins with win multipliers up to x25",
+        "descr": "Free Spins con multiplicadores de ganancias de hasta x25",
         "imgUrl": "img-feat_woodluck-0.jpg"
       },
       {
-        "name": "Bonus Game",
-        "descr": "Bonus Game with multipliers and win modifiers",
+        "name": "Partida Bonus",
+        "descr": "Partida Bonus con multiplicadores y modificadores de ganancias",
         "imgUrl": "img-feat_woodluck-1.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
         "imgUrl": "img-feat_woodluck-2.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Buy Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
+        "name": "Función Risk & Buy: Comprar",
+        "descr": "Compra Free Spins o una Partida Bonus con las condiciones ofrecidas y al precio sugerido. Después de cada tirada estará disponible una oferta de Compra especial",
         "imgUrl": "img-feat_woodluck-3.jpg"
       },
       {
-        "name": "Rockfall Feature",
-        "descr": "All winning symbols are removed from the screen and replaced with new ones",
+        "name": "Función Rockfall",
+        "descr": "Todos los símbolos ganadores se eliminan de la pantalla y se sustituyen por otros nuevos",
         "imgUrl": "img-feat_woodluck-4.jpg"
       },
       {
         "name": "Rockways",
-        "descr": "Each spin can have up to 46,656 ways to win",
+        "descr": "Cada tirada puede tener hasta 46.656 formas de ganar",
         "imgUrl": "img-feat_woodluck-5.jpg"
       }
     ],
     "meta": {
-      "title": "Wood Luck!, a video slot game by Mascot Gaming",
-      "descr": "Travel through the magical forest with amazing features and multipliers up to x25000."
+      "title": "Wood Luck!: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Viaja a través de un bosque mágico con funciones increíbles y multiplicadores de hasta x25000."
     },
     "rockways": true
   },
@@ -419,19 +419,19 @@
     },
     "features": [
       {
-        "name": "Bingo Game",
-        "descr": "Classic bingo game with 4 cards for 60 balls. The highest combination on each card wins",
+        "name": "Partida Bingo",
+        "descr": "Bingo clásico con 4 cartas y 60 bolas. La combinación más alta de cada carta será la ganadora",
         "imgUrl": "img-feat_mrbingo-0.jpg"
       },
       {
-        "name": "Extra Balls Feature",
-        "descr": "You can buy extra balls, therefore, get the chance to increase your winnings",
+        "name": "Función Extra Balls",
+        "descr": "Puedes comprar bolas extra para tener la oportunidad de aumentar tus ganancias",
         "imgUrl": "img-feat_mrbingo-1.jpg"
       }
     ],
     "meta": {
-      "title": "Mayan Riches: Bingo!, a lottery game by Mascot Gaming",
-      "descr": "Discover ancient treasures in this classic bingo game with possible multiplier up to x500."
+      "title": "Mayan Riches: Bingo!: juego de lotería de Mascot Gaming",
+      "descr": "Descubre los tesoros antiguos de este clásico juego de bingo con un posible multiplicador de hasta x500."
     },
     "rockways": false
   },
@@ -472,29 +472,29 @@
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
         "imgUrl": "img-feat_reeleldo-0.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
+        "name": "Función Risk & Buy: Comprar",
+        "descr": "Compra Free Spins o una Partida Bonus con las condiciones ofrecidas y al precio sugerido. Después de cada tirada estará disponible una oferta de Compra especial",
         "imgUrl": "img-feat_reeleldo-1.jpg"
       },
       {
-        "name": "Free Spins with Sticky Wild Reels and Respins",
-        "descr": "All Conquistador Symbols transform into Wild Reels and trigger Free Respins",
+        "name": "Free Spins con Sticky Wild Reels y Respins",
+        "descr": "Todos los Conquistador Symbols se transforman en Wild Reels y activan Free Respins",
         "imgUrl": "img-feat_reeleldo-2.jpg"
       },
       {
-        "name": "Free Spins with Sticky Wilds",
-        "descr": "Native Symbols turn into Sticky Wilds for the duration of the Free Spins series",
+        "name": "Free Spins con Sticky Wilds",
+        "descr": "Los Native Symbols se convierten en Sticky Wilds durante la serie de Free Spins",
         "imgUrl": "img-feat_reeleldo-3.jpg"
       }
     ],
     "meta": {
-      "title": "Reel Eldorado, a video slot game by Mascot Gaming",
-      "descr": "Adventure begins now with two types of Free Spins and Risk & Buy feature."
+      "title": "Reel Eldorado: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Comienza la aventura con dos tipos de Free Spins y la función Risk & Buy."
     },
     "rockways": false
   },
@@ -536,28 +536,28 @@
     "features": [
       {
         "name": "Sticky Respins",
-        "descr": "Symbols from winning combinations become Sticky and remain in place, triggering a series of Free Respins",
+        "descr": "Los símbolos de cualquier combinación ganadora se convierten en Sticky y se quedan en su lugar, activando una serie de Free Respins",
         "imgUrl": "img-feat_stickyfruit-0.jpg"
       },
       {
-        "name": "Win Multiplier",
-        "descr": "Each new Free Respin boosts the win multiplier up to x10",
+        "name": "Multiplicador de Ganancias",
+        "descr": "Cada Free Respin nuevo aumenta el multiplicador de ganancias hasta x10",
         "imgUrl": "img-feat_stickyfruit-1.jpg"
       },
       {
-        "name": "Risk Game",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Juego de Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
         "imgUrl": "img-feat_stickyfruit-2.jpg"
       },
       {
-        "name": "Payouts in Both Directions",
-        "descr": "Winning combinations are paid in both directions",
+        "name": "Pagos en Ambas Direcciones",
+        "descr": "Las combinaciones ganadoras se pagan en ambas direcciones",
         "imgUrl": "img-feat_stickyfruit-3.jpg"
       }
     ],
     "meta": {
-      "title": "Sticky Fruit Madness, a video slot game by Mascot Gaming",
-      "descr": "Free Spins and Win Multipliers up to x10 await you in this tropical paradise."
+      "title": "Sticky Fruit Madness: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Te esperan Free Spins y Multiplicadores de Ganancias de hasta x10 en este paraíso tropical."
     },
     "rockways": false
   },
@@ -598,19 +598,19 @@
     },
     "features": [
       {
-        "name": "Guess the balls",
-        "descr": "Keno game with classical rules, in which the player can choose up to 10 numbers",
+        "name": "Adivina las bolas",
+        "descr": "Juego de Keno con reglas clásicas en el que el jugador puede elegir hasta 10 números",
         "imgUrl": "img-feat_universekeno-0.jpg"
       },
       {
-        "name": "Bonus balls feature",
-        "descr": "The player can buy additional balls, therefore, get the chance to increase the winnings",
+        "name": "Función Bonus balls",
+        "descr": "El jugador puede comprar bolas adicionales para tener la oportunidad de aumentar las ganancias",
         "imgUrl": "img-feat_universekeno-1.jpg"
       }
     ],
     "meta": {
-      "title": "Across the Universe: Keno, a video game by Mascot Gaming",
-      "descr": "Travel through the stars with 80 balls to choose from and the possibility to buy extra balls."
+      "title": "Across the Universe: Keno: videojuego de Mascot Gaming",
+      "descr": "Viaja por las estrellas con 80 bolas a elegir y la posibilidad de comprar bolas extra."
     },
     "rockways": false
   },
@@ -651,29 +651,29 @@
     },
     "features": [
       {
-        "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
         "imgUrl": "img-feat_ice1-0.jpg"
       },
       {
-        "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase Free Spins or Bonus game with the proposed conditions and at the suggested price. There is a special Buy offer after each spin",
+        "name": "Función Risk & Buy: Comprar",
+        "descr": "Compra Free Spins o una partida Bonus con las condiciones propuestas y al precio sugerido. Después de cada tirada, hay una oferta de Compra especial",
         "imgUrl": "img-feat_ice1-1.jpg"
       },
       {
-        "name": "Side Bet Feature",
-        "descr": "Place an additional bet on the outcomes of the game during Free Spins",
+        "name": "Función Side Bet",
+        "descr": "Realiza una apuesta adicional sobre los resultados de la partida durante los Free Spins",
         "imgUrl": "img-feat_ice1-2.jpg"
       },
       {
         "name": "Free Spins",
-        "descr": "Enjoy Free Spins with extra bets and winnings",
+        "descr": "Disfruta de los Free Spins con apuestas y ganancias extra",
         "imgUrl": "img-feat_ice1-3.jpg"
       }
     ],
     "meta": {
-      "title": "Ice Number One, video slot game by Mascot Gaming",
-      "descr": "Take on the role of the team captain and play along with Risk and Buy, Free Spins and Side Bet."
+      "title": "Ice Number One: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Asume el papel del capitán del equipo y juega con Risk and Buy, Free Spins y Side Bet."
     },
     "rockways": false
   },
@@ -714,24 +714,24 @@
     },
     "features": [
       {
-        "name": "Win Multiplier",
-        "descr": "Each winning spin increases the win multiplier up to x15",
+        "name": "Multiplicador de Ganancias",
+        "descr": "Cada tirada ganadora aumenta el multiplicador de ganancias hasta x15",
         "imgUrl": "img-feat_hotfruit-0.jpg"
       },
       {
-        "name": "Risk Game",
-        "descr": "Risk your winnings by playing the Risk game, where you can increase your winnings with a win multiplier",
+        "name": "Juego de Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de riesgo, donde puedes aumentar tus ganancias con un multiplicador",
         "imgUrl": "img-feat_hotfruit-1.jpg"
       },
       {
-        "name": "Payouts in Both Directions",
-        "descr": "Winning combinations are paid from left to right and from right to left",
+        "name": "Pagos en Ambas Direcciones",
+        "descr": "Las combinaciones ganadoras se pagan de izquierda a derecha y de derecha a izquierda",
         "imgUrl": "img-feat_hotfruit-2.jpg"
       }
     ],
     "meta": {
-      "title": "Hot Fruit x15, a video slot game by Mascot Gaming",
-      "descr": "Experience the hottest fruits with base game multipliers up to x15 and the exciting Risk game."
+      "title": "Hot Fruit x15: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Experimenta las frutas más calientes con multiplicadores de hasta x15 en el juego base y el emocionante juego de Riesgo."
     },
     "rockways": false
   },

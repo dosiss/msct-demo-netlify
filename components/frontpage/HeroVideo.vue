@@ -125,6 +125,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
+html:lang(es){
+  .top-header__wrap {
+    padding: 150px 0 250px
+  }
+}
+html:lang(pt){
+  .top-header__wrap {
+    padding: 150px 0 250px
+  }
+}
 .static-background {
   position: relative;
   background: url('@/static/images/img-hero-static_desktop.jpg') center top no-repeat;

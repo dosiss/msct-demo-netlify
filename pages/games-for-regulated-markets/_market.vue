@@ -44,6 +44,9 @@
 <script>
 
   import regulatedMarketsList from '../../static/data/regulated-markets.json'
+  import regulatedMarketsListES from '../../static/data/regulated-markets_es.json'
+  import regulatedMarketsListPT from '../../static/data/regulated-markets_pt-br.json'
+
   import ContactModal from '~/components/frontpage/ContactModal'
 
 
@@ -112,12 +115,15 @@
 
       switch (this.$i18n.locale) {
         case "es":
+          this.regulatedMarkets = regulatedMarketsListES;
           this.locPath = '/es';
           break;
         case "pt":
+          this.regulatedMarkets = regulatedMarketsListPT;
           this.locPath = '/pt';
           break;
         default:
+        this.regulatedMarkets = regulatedMarketsList;
         this.locPath = '';
       }
     },

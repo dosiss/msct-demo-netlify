@@ -1,5 +1,5 @@
 <template>
-  <div class="slider-outer">
+  <div v-if="currentGame.articles" class="slider-outer">
   <div v-swiper:mySwiper6="swiperOption">
     <div class="swiper-wrapper">
       <div v-for="(extarticle, idx) in currentGame.articles" :key="idx" class="related-post__item swiper-slide game-thumbnail">

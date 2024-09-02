@@ -9,7 +9,7 @@
         <div class="regmarkets__wrap">
             <div v-for="(market, idx) in regulatedMarkets" :key="idx" class="regmarkets-item">
               <div class="regmarkets-item-inner" :style="{ backgroundImage: `url(/images/img_${market.name}.png)` }">
-                <nuxt-link :to="`/games-for-regulated-markets/${market.link}`">
+                <nuxt-link :to="`${locPath}/games-for-regulated-markets/${market.link}`">
                   <h2 class="regmarkets-item__title">{{$t(`${market.title}`)}}</h2>
                 </nuxt-link>
               </div>
@@ -26,6 +26,9 @@
 <script>
 
 import regulatedMarketsList from '../../static/data/regulated-markets.json'
+import regulatedMarketsListES from '../../static/data/regulated-markets_es.json'
+import regulatedMarketsListPT from '../../static/data/regulated-markets_pt-br.json'
+
 
   export default {
     // page component definitions
@@ -33,7 +36,8 @@ import regulatedMarketsList from '../../static/data/regulated-markets.json'
       return {
         title: '',
         description: '',
-        regulatedMarkets: regulatedMarketsList
+        regulatedMarkets: regulatedMarketsList,
+        locPath: '',
       }
     },
     head() {
@@ -54,6 +58,20 @@ import regulatedMarketsList from '../../static/data/regulated-markets.json'
     mounted() {
       this.title = this.$t('Mascot Gaming Offerings for Regulated Markets')
       this.description = this.$t('Discover high-performing slots with easy API integration for online casinos in regulated markets.')
+
+      switch (this.$i18n.locale) {
+        case "es":
+          this.regulatedMarkets = regulatedMarketsListES;
+          this.locPath = '/es';
+          break;
+        case "pt":
+          this.regulatedMarkets = regulatedMarketsListPT;
+          this.locPath = '/pt';
+          break;
+        default:
+        this.regulatedMarkets = regulatedMarketsList;
+        this.locPath = '';
+      }
     }
   }
 </script>

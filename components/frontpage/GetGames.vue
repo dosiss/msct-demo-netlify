@@ -106,7 +106,7 @@
             </div>
           </div>
           <div class="features-license__button">
-            <nuxt-link to="/games-for-regulated-markets" class="buttn buttn-primary buttn-m">{{$t('Learn more')}}</nuxt-link>
+            <nuxt-link :to="localePath('/games-for-regulated-markets')" class="buttn buttn-primary buttn-m">{{$t('Learn more')}}</nuxt-link>
           </div>
         </div>
       </div>
@@ -818,6 +818,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
+html:lang(pt) {
+ .item-title {
+   white-space: normal !important;
+ }
+}
+html:lang(es) {
+ .item-title {
+   white-space: normal !important;
+ }
+}
 .desktop {
   display: block
 }
@@ -879,6 +889,10 @@ export default {
     .section-title {
       font-size: 3.75rem;
       text-transform: uppercase;
+      max-width: 60%;
+      @media (max-width: 1024px) {
+        max-width: 100%
+      }
       @media (max-width: 850px) {
         text-align: center;
       }
@@ -1202,7 +1216,11 @@ export default {
               background-size: contain;
               height: 32px;
               background-position-y: 2px;
-              margin-right: 10px
+              margin-right: 10px;
+              flex: 0 1 33px
+            }
+            span {
+              flex: 1 0
             }
             strong {
               font-weight: 700;
@@ -1749,6 +1767,8 @@ export default {
           font-size: 3.75rem;
           text-transform: uppercase;
           margin-bottom: 30px;
+          position: relative;
+          z-index: 3;
           @media (max-width: 650px) {
             font-size: 1.6rem
           }
