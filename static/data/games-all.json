@@ -70,37 +70,37 @@
   {
     "name": "Fruit Vegas Extreme X125",
     "slug": "fruit-vegas-extreme-x125",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/fruit_vegas_extreme_x125",
     "theme": "video slot",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
-    "releaseDate": "2024-09-19",
+    "comingSoon": false,
+    "releaseDate": "2024-09-26",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_fruitvegas125.jpeg",
-    "heroUrl": "hero_fruitvegas125.jpg",
+    "thumbUrl": "game_fruitvegas125-2.jpeg",
+    "heroUrl": "hero_fruitvegas125-2.jpg",
     "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_fruitvegas125.jpg",
     "logoUrl": "logo_fruitvegas125.png",
     "backUrl": "back_fruitvegas125.jpg",
-    "detailsImgUrl": "details_fruitvegas125.png",
+    "detailsImgUrl": "details_fruitvegas125-2.png",
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": null,
+      "volatility": "High",
       "paylines": 10,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": " "
+      "rtp": 94.5,
+      "hitrate": 22.1
     },
     "features": [
       {
@@ -120,8 +120,8 @@
       }
     ],
     "meta": {
-      "title": "Fruit Vegas Extreme X125, video slot game by Mascot Gaming",
-      "descr": "This slot game elevates the traditional fruit slot experience with an extreme multiplier of x125, adding a modern twist to a beloved classic."
+      "title": "Fruit Vegas Extreme x125, a video slot game by Mascot Gaming",
+      "descr": "Take a trip to Las Vegas and enjoy Wilds Reels with multipliers and Free Respins."
     },
     "rockways": false
   },
