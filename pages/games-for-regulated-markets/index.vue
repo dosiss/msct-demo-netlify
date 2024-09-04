@@ -8,7 +8,7 @@
         <p class="heading-subtitle">{{$t('According to our plan to win the love of every player around the world, here’s a list of our casino game offerings for online casinos in regulated markets. If you`re looking for high-performing slots with easy API integration, you’ve just found the solution!')}}</p>
         <div class="regmarkets__wrap">
             <div v-for="(market, idx) in regulatedMarkets" :key="idx" class="regmarkets-item">
-              <div class="regmarkets-item-inner" :style="{ backgroundImage: `url(/images/img_${market.name}.png)` }">
+              <div class="regmarkets-item-inner" :style="{ backgroundImage: `url(/images/img_min_${market.name}.png)` }">
                 <nuxt-link :to="`${locPath}/games-for-regulated-markets/${market.link}`">
                   <h2 class="regmarkets-item__title">{{$t(`${market.title}`)}}</h2>
                 </nuxt-link>

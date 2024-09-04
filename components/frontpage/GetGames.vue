@@ -39,9 +39,9 @@
                 <div class="features-tools__item-content">
                   <div class="features-tools__item-title">{{$t('Signature Gaming Experience')}}</div>
                   <ul class="features-tools__item-text">
-                    <li><span class="contains-bold"><strong>{{$t('100% in-house')}}</strong> {{$t('cycle of production')}}</span></li>
+                    <li><span class="contains-bold">{{$t('100% in-house')}} {{$t('cycle of production')}}</span></li>
                     <li>{{$t('Captivating music')}}</li>
-                    <li>{{$t('Exceptional player experience')}}</li>
+                    <li><span class="contains-bold">{{$t('Exceptional player experience')}}</span></li>
                   </ul>
                 </div>
               </div>
@@ -1220,7 +1220,8 @@ html:lang(es) {
               flex: 0 1 33px
             }
             span {
-              flex: 1 0
+              flex: 1 0;
+              text-align: left;
             }
             strong {
               font-weight: 700;
