@@ -2134,7 +2134,18 @@
     "logoUrl": "partner_igamingnews.png"
   },
   {
-    "name": "Casinodeps",
+    "name": "Crashgambler",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://crashgambler.io/crash-hamster-crash-by-mascot-gaming/",
+    "logoUrl": "partner_crashgambler.png"
+  },
+  {
+    "name": "Casinoideps",
     "type": "media",
     "top": false,
     "casino": false,
@@ -2142,7 +2153,7 @@
     "promo": false,
     "promoText": null,
     "url": "https://casinodeps.co.nz/mascot-gaming-casinos/",
-    "logoUrl": "partner_casinoideps.png"
+    "logoUrl": "partner_casinodeps.png"
   },
   {
     "name": "Small Lui",
