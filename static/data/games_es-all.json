@@ -15,14 +15,14 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_cancandeluxe2.jpeg",
-    "heroUrl": "hero_cancandeluxe2.jpg",
+    "thumbUrl": "game_cancandeluxe3.jpeg",
+    "heroUrl": "hero_cancandeluxe3.jpg",
     "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
-    "placeholderUrl": "video_cancandeluxe.jpg",
-    "logoUrl": "logo_cancandeluxe.png",
-    "backUrl": "back_cancandeluxe.jpg",
+    "placeholderUrl": "video_cancandeluxe3.jpg",
+    "logoUrl": "logo_cancandeluxe3.png",
+    "backUrl": "back_cancandeluxe3.jpg",
     "detailsImgUrl": "details_cancandeluxe.png",
     "stats": {
       "reels": 5,
@@ -38,27 +38,27 @@
       {
         "name": "Función Risk & Buy: Riesgo",
         "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
-        "imgUrl": "img-feat_cancandeluxe-0.jpg"
+        "imgUrl": "img-feat_cancandeluxe-03.jpg"
       },
       {
         "name": "Función Risk & Buy: Comprar",
         "descr": "Compra Free Spins o una Partida Bonus con las condiciones ofrecidas y al precio sugerido. Después de cada tirada estará disponible una oferta de Compra especial",
-        "imgUrl": "img-feat_cancandeluxe-1.jpg"
+        "imgUrl": "img-feat_cancandeluxe-13.jpg"
       },
       {
         "name": "Random Wild Reels",
         "descr": "Durante cada tirada, entre 1 y 5 rodillos se convertirán en wild reels",
-        "imgUrl": "img-feat_cancandeluxe-2.jpg"
+        "imgUrl": "img-feat_cancandeluxe-23.jpg"
       },
       {
         "name": "Free Spins",
         "descr": "Durante los Free Spins, al menos 2 rodillos en cada tirada se reemplazarán con Wild Reels",
-        "imgUrl": "img-feat_cancandeluxe-3.jpg"
+        "imgUrl": "img-feat_cancandeluxe-33.jpg"
       },
       {
         "name": "Partida Bonus",
         "descr": "Partida Bonus con oportunidad de ganar un premio en efectivo o Free Spins",
-        "imgUrl": "img-feat_cancandeluxe-4.jpg"
+        "imgUrl": "img-feat_cancandeluxe-43.jpg"
       }
     ],
     "meta": {
