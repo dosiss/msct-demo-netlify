@@ -2,21 +2,21 @@
   {
     "name": "Cancan Saloon Deluxe",
     "slug": "cancan-saloon-deluxe",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/cancan_saloon_deluxe",
     "theme": "video slot",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-10-03",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_cancandeluxe.jpeg",
-    "heroUrl": "hero_cancandeluxe.jpg",
+    "thumbUrl": "game_cancandeluxe2.jpeg",
+    "heroUrl": "hero_cancandeluxe2.jpg",
     "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
@@ -62,8 +62,8 @@
       }
     ],
     "meta": {
-      "title": "Cancan Saloon Deluxe, video slot game by Mascot Gaming",
-      "descr": "It’s time we dance! Cancan Saloon Deluxe sweeps you into the world of a Wild West saloon."
+      "title": "Can Can Saloon Deluxe, a video slot game by Mascot Gaming",
+      "descr": "Dance all night long with Wild Reels, Free Spins and a Bonus Game."
     },
     "rockways": false
   },
