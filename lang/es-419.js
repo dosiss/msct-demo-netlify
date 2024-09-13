@@ -322,5 +322,16 @@ export default
 "Casino games for regulated markets": "Juegos de casino para mercados regulados",
 "According to our plan to win the love of every player around the world, here’s a list of our casino game offerings for online casinos in regulated markets. If you`re looking for high-performing slots with easy API integration, you’ve just found the solution!": "De acuerdo con nuestro plan para ganarnos el cariño de todos los jugadores del mundo, aquí tienes una lista de nuestra oferta de juegos de casino para casinos en línea en mercados regulados. Si buscas tragaperras de alto rendimiento con una integración API sencilla, ¡acabas de encontrar la solución!",
 "Go back": "Volver",
-"Try demo": "Probar demostración"
+"Try demo": "Experimente a demo",
+"Gambling products here are prohibited for people under 18 y.o.": "Los productos lúdicos están prohibidos a menores de 18 años.",
+"Read all blog": "LEER TODOS LOS BLOGS",
+"See all partners & media": "VER TODOS LOS SOCIOS Y MEDIOS",
+"See all": "Ver Todas",
+"Features and tools": "LAS FUNCIONES Y HERRAMIENTAS",
+"See all games": "VER TODOS LOS JUEGOS",
+"Coming Soon": "Próximamente",
+"Mascot Gaming is the general sponsor of Murcielagos CF": "Mascot Gaming es el patrocinador oficial del Murciélagos CF",
+"Markets": "Mercados",
+"Enter CAPTCHA": "Escriba el CAPTCHA",
+"refresh": "actualizar"
   }

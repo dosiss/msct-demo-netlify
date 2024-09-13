@@ -94,11 +94,11 @@
                   </div>
                   <button type="button" @click="generateCaptcha">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="svg-icon" overflow="hidden" style="width:30px;height:30px;vertical-align:middle" viewBox="0 0 1024 1024"><path d="M512 768c-47.392 0-91.664-13.184-129.776-35.712l-46.608 46.608A318.448 318.448 0 0 0 512 832c176.736 0 320-143.264 320-320h-64c0 141.152-114.848 256-256 256zM512 192c-176.736 0-320 143.264-320 320h64c0-141.152 114.848-256 256-256 47.392 0 91.664 13.184 129.776 35.712l46.608-46.608A318.448 318.448 0 0 0 512 192zM704 512h192l-96-128zM320 512H128l96 128z"/></svg>
-                    <span>refresh</span>
+                    <span>{{$t('refresh')}}</span>
                   </button>
                 </div>
                 <div class="form-captcha__input">
-                  <input v-model="captchaInput" type="text" placeholder="Enter CAPTCHA" required />
+                  <input v-model="captchaInput" type="text" :placeholder="$t('Enter CAPTCHA')" required />
                 </div>
                 <button
                 type="submit"

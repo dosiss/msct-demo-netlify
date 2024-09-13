@@ -324,6 +324,16 @@ export default {
 "Casino games for regulated markets": "Jogos de cassino para mercados regulamentados",
 "According to our plan to win the love of every player around the world, here’s a list of our casino game offerings for online casinos in regulated markets. If you`re looking for high-performing slots with easy API integration, you’ve just found the solution!": "De acordo com nossa proposta de conquistar a paixão de todos os jogadores ao redor do mundo, aqui está uma lista de nossas ofertas de jogos de cassino para cassinos on-line em mercados regulamentados. Se você está procurando caça-níqueis de alto desempenho com fácil integração de API, acabou de encontrar a solução!",
 "Go back": "Voltar",
-"Try demo": "Experimente a demo"
-
+"Try demo": "Experimente a demo",
+"Gambling products here are prohibited for people under 18 y.o.": "Os produtos de jogos de apostas são proibidos para menores de 18 anos.",
+"Read all blog": "LEIA TODOS OS BLOGS",
+"See all partners & media": "VER TODOS OS PARCEIROS E MÍDIA",
+"See all": "Ver Todos",
+"Features and tools": "RECURSOS E FERRAMENTAS",
+"See all games": "VER TODOS OS JOGOS",
+"Coming Soon": "Em breve",
+"Mascot Gaming is the general sponsor of Murcielagos CF": "A Mascot Gaming é a patrocinadora do Murcielagos FC",
+"Markets": "Mercados",
+"Enter CAPTCHA": "Inserir CAPTCHA",
+"refresh": "atualizar"
 }

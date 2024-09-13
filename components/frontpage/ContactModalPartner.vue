@@ -67,11 +67,11 @@
               </div>
               <button type="button" @click="generateCaptcha">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 31 32"><g clip-path="url(#a1)"><mask id="b1" width="74" height="73" x="-22" y="-23" maskUnits="userSpaceOnUse" style="mask-type:luminance"><path stroke="#fff" stroke-linecap="round" stroke-width="3.011" d="M25.1673 10.9635C23.32 7.24561 19.4841 4.69067 15.0499 4.69067C10.6168 4.69067 6.86628 7.24561 5.01892 10.9635M5.01892 10.9635V5.94525M5.01892 10.9635H9.27192M5.01892 21.0001C6.86628 24.718 10.7028 27.273 15.1364 27.273C19.5694 27.273 23.32 24.718 25.1673 21.0001M25.1673 21.0001V26.0184M25.1673 21.0001H20.9144"/></mask><g mask="url(#b1)"><path fill="#219CF6" d="M-0.000244141 0.926941H30.1095V31.0367H-0.000244141V0.926941Z"/></g></g><defs><clipPath id="a1"><path fill="#fff" d="M0 0H30.11V30.11H0z" transform="translate(0 .927)"/></clipPath></defs></svg>
-                  <span>refresh</span>
+                  <span>{{$t('refresh')}}</span>
               </button>
             </div>
             <div class="form-captcha__input">
-              <input v-model="captchaInput" type="text" placeholder="Enter CAPTCHA" required />
+              <input v-model="captchaInput" type="text" :placeholder="$t('Enter CAPTCHA')" required />
             </div>
             <button
             type="submit"
