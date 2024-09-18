@@ -1,7 +1,7 @@
 ---
 title: 'A Sugary Wonderland Awaits: The Candy Slot Deluxe Review'
 description: 'The Candy Slot Deluxe offers a blend of fun and excitement, making it a must-try for anyone looking to indulge in a delightful slot adventure.'
-img: img_blog_candyslot-main.jpg
+img: img_blog_candyslot-main2.jpg
 heading: 'A Sugary Wonderland Awaits: The Candy Slot Deluxe Review'
 shortDescr: 'Mascot Gaming has sweetened its collection with the addition of The Candy Slot Deluxe, a slot game that transports players to a magical land of candies and treats. This title boasts a lively and colorful design, packed with features that enhance the gaming experience and keep players entertained. The Candy Slot Deluxe offers a blend of fun and excitement, making it a must-try for anyone looking to indulge in a delightful slot adventure.'
 archiveDate: 2024-07-11
