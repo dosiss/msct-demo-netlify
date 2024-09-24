@@ -214,11 +214,14 @@
                   <span class="lead-line"></span>
                   <div class="details-value">{{currentGame.stats.reels}}<span>*</span>{{currentGame.stats.rows}}</div>
                 </li>
-                <li v-if="currentGame.stats.paylines && currentGame.stats.paylines !== null" class="details-item">
+                <li v-if="currentGame.stats.paylines && currentGame.stats.paylines !== null && currentGame.stats.paylines !== 'Rockblocks'" class="details-item">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M25 15.928h-4l-3 9-6-18H6"/></svg>
                   <span class="details-name">{{$t('Pay lines')}}</span>
                   <span class="lead-line"></span>
                   <div class="details-value">{{currentGame.stats.paylines}}</div>
+                </li>
+                <li v-if="currentGame.stats.paylines && currentGame.stats.paylines === 'Rockblocks'" class="details-item">
+                  <span class="details-name type-rockblocks">{{$t('Rockblocks Payouts')}}</span>
                 </li>
                 <li v-if="currentGame.stats.payways && currentGame.stats.payways !== null" class="details-item">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 30 31"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M25 15.928h-4l-3 9-6-18H6"/></svg>
@@ -993,6 +996,10 @@ export default {
               margin-left: 10px;
               flex: 0 1;
               white-space: nowrap;
+              &.type-rockblocks {
+                margin-left: 5px;
+                line-height: 2.5;
+              }
             }
             .lead-line {
               flex: 1 0 auto;

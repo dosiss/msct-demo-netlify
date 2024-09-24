@@ -1,5 +1,703 @@
 [
   {
+    "name": "Spicy Candies. Rockblocks",
+    "slug": "spicy-candies-rockblocks",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2024-12-24",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_spicycandies.jpeg",
+    "heroUrl": "hero_spicycandies.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_spicycandies.jpg",
+    "logoUrl": "logo_spicycandies.png",
+    "backUrl": "back_spicycandies.jpg",
+    "detailsImgUrl": "details_spicycandies.png",
+    "stats": {
+      "reels": 6,
+      "rows": 6,
+      "volatility": null,
+      "paylines": "Rockblocks",
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Risk game",
+        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_spicycandies-0.jpg"
+      },
+      {
+        "name": "Rockblocks Payouts",
+        "descr": "Blocks of symbols that are adjacent to each other on their sides trigger payouts",
+        "imgUrl": "img-feat_spicycandies-1.jpg"
+      },
+      {
+        "name": "Rockfall Feature with a Win Multiplier",
+        "descr": "All winning symbols are removed from the screen and replaced with new ones. With each new Rockfall, the win multiplier increases up to x25",
+        "imgUrl": "img-feat_spicycandies-2.jpg"
+      },
+      {
+        "name": "Coin Feature",
+        "descr": "Coin symbols award prizes in coins",
+        "imgUrl": "img-feat_spicycandies-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Spicy Candies Rockblocks, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Space Gems. Rockblocks",
+    "slug": "space-gems-rockblocks",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2024-12-19",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_spacegems.jpeg",
+    "heroUrl": "hero_spacegems.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_spacegems.jpg",
+    "logoUrl": "logo_spacegems.png",
+    "backUrl": "back_spacegems.jpg",
+    "detailsImgUrl": "details_spacegems.png",
+    "stats": {
+      "reels": 6,
+      "rows": 6,
+      "volatility": null,
+      "paylines": "Rockblocks",
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Risk game",
+        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_spacegems-0.jpg"
+      },
+      {
+        "name": "Rockblocks Payouts",
+        "descr": "Blocks of symbols that are adjacent to each other on their sides trigger payouts",
+        "imgUrl": "img-feat_spacegems-1.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "All winning symbols are removed from the screen and replaced with new ones",
+        "imgUrl": "img-feat_spacegems-2.jpg"
+      },
+      {
+        "name": "Coin Feature",
+        "descr": "Coin symbols award prizes in coins",
+        "imgUrl": "img-feat_spacegems-3.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "The multiplier symbol grants a win multiplier",
+        "imgUrl": "img-feat_spacegems-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Space Gems Rockblocks, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Riot: Brutalski`s Revenge",
+    "slug": "riot-brutalskis-revenge",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2024-12-17",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_brutalski.jpeg",
+    "heroUrl": "hero_brutalski.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_brutalski.jpg",
+    "logoUrl": "logo_brutalski.png",
+    "backUrl": "back_brutalski.jpg",
+    "detailsImgUrl": "details_brutalski.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": null,
+      "payways": 243,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Gamble",
+        "descr": "Risk your winnings by playing the Gamble feature. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_brutalski-0.jpg"
+      },
+      {
+        "name": "Buy Feature",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_brutalski-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "All payouts are multiplied by x3",
+        "imgUrl": "img-feat_brutalski-2.jpg"
+      },
+      {
+        "name": "Fire Respins",
+        "descr": "Free respins with the chance to improve the current winning combination",
+        "imgUrl": "img-feat_brutalski-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Riot: Brutalski`s Revenge, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Icy Rockfall X25",
+    "slug": "icy-rockfall-x25",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2024-12-05",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_icyrockfall.jpeg",
+    "heroUrl": "hero_icyrockfall.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_icyrockfall.jpg",
+    "logoUrl": "logo_icyrockfall.png",
+    "backUrl": "back_icyrockfall.jpg",
+    "detailsImgUrl": "details_icyrockfall.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": null,
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Risk game",
+        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_icyrockfall-0.jpg"
+      },
+      {
+        "name": "Rockfall Feature with a Win Multiplier",
+        "descr": "All winning symbols are removed from the screen and replaced with new ones. With each new rockfall, the win multiplier increases up to x25",
+        "imgUrl": "img-feat_icyrockfall-1.jpg"
+      },
+      {
+        "name": "Coin Feature",
+        "descr": "Scatters award coin prizes",
+        "imgUrl": "img-feat_icyrockfall-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Icy Rockfall X25, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "243 Fruity Zen",
+    "slug": "243-fruity-zen",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2024-11-21",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_243fruity.jpeg",
+    "heroUrl": "hero_243fruity.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_243fruity.jpg",
+    "logoUrl": "logo_243fruity.png",
+    "backUrl": "back_243fruity.jpg",
+    "detailsImgUrl": "details_243fruity.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": null,
+      "payways": 243,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_243fruity-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_243fruity-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "3, 4, or 5 Scatter Symbols trigger Free Spins",
+        "imgUrl": "img-feat_243fruity-2.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "Extra free spins are awarded according to the general rules of the paytable",
+        "imgUrl": "img-feat_243fruity-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "243 Fruity Zen, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Catch the Win",
+    "slug": "catch-the-win",
+    "linkToDemo": " ",
+    "theme": "shooting",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": true,
+    "releaseDate": "2024-11-28",
+    "featured": false,
+    "topGame":false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_catchwin.jpeg",
+    "heroUrl": "hero_catchwin.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_catchwin.jpg",
+    "logoUrl": "logo_catchwin.png",
+    "backUrl": "back_catchwin.jpg",
+    "detailsImgUrl": "details_catchwin.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": false,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Bonus Games",
+        "descr": "Two types of Bonus Games with different bosses and high-value symbols",
+        "imgUrl": "img-feat_catchwin-0.jpg"
+      },
+      {
+        "name": "Free Shots",
+        "descr": "Free Shots for capturing a special symbol",
+        "imgUrl": "img-feat_catchwin-1.jpg"
+      },
+      {
+        "name": "Special Rewards",
+        "descr": "Additional rewards for capturing special symbols",
+        "imgUrl": "img-feat_catchwin-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Catch the Win, a shooting game by Mascot Gaming",
+      "descr": " "
+    }
+  },
+  {
+    "name": "Metal Frontiers",
+    "slug": "metal-frontiers",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2024-11-14",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_metal.jpeg",
+    "heroUrl": "hero_metal.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_metal.jpg",
+    "logoUrl": "logo_metal.png",
+    "backUrl": "back_metal.jpg",
+    "detailsImgUrl": "details_metal.png",
+    "stats": {
+      "reels": 6,
+      "rows": 5,
+      "volatility": null,
+      "paylines": "Any pays",
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_metal-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Purchase Bonus game with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_metal-1.jpg"
+      },
+      {
+        "name": "Anywhere Payouts",
+        "descr": "A combination of symbols pays anywhere on the screen",
+        "imgUrl": "img-feat_metal-2.jpg"
+      },
+      {
+        "name": "Badge Symbols",
+        "descr": "Each badge symbol multiplies the winning combination",
+        "imgUrl": "img-feat_metal-3.jpg"
+      },
+      {
+        "name": "Bonus Game",
+        "descr": "5 or more badge symbols trigger the Bonus Game with 2, 3, 4, or 5 Bonus Spins",
+        "imgUrl": "img-feat_metal-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Metal Frontiers, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "1X Riot",
+    "slug": "1x-riot",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2024-10-31",
+    "featured": false,
+    "topGame": false,
+    "branded": true,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_1xriot.jpeg",
+    "heroUrl": "hero_1xriot.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_1xriot.jpg",
+    "logoUrl": "logo_1xriot.png",
+    "backUrl": "back_1xriot.jpg",
+    "detailsImgUrl": "details_1xriot.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_1xriot-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_1xriot-1.jpg"
+      },
+      {
+        "name": "Free Spins with Sticky Wild Reel and Respin",
+        "descr": "The Soldier symbol turns into a Sticky Wild reel and triggers a Free Respin",
+        "imgUrl": "img-feat_1xriot-2.jpg"
+      },
+      {
+        "name": "Free Spins with Sticky Wilds",
+        "descr": "All Bandit symbols become Sticky Wilds for the entire series of Free Spins",
+        "imgUrl": "img-feat_1xriot-3.jpg"
+      },
+      {
+        "name": "Free Spins with Win Multiplier",
+        "descr": "A combination of Survivor symbols grants Free Spins with a x3 multiplier and the chance to win additional Free Spins",
+        "imgUrl": "img-feat_1xriot-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "1X Riot, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Bastet and Cats Deluxe",
+    "slug": "bastet-and-cats-deluxe",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2024-11-07",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_bastetdlx.jpeg",
+    "heroUrl": "hero_bastetdlx.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_bastetdlx.jpg",
+    "logoUrl": "logo_bastetdlx.png",
+    "backUrl": "back_bastetdlx.jpg",
+    "detailsImgUrl": "details_bastetdlx.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": null,
+      "paylines": 40,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_bastetdlx-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_bastetdlx-1.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "All winning combinations disappear from the screen and are replaced with new symbols. With each new Rockfall, the win multipliers increase: up to x5 in the base game and up to x15 in Free Spins",
+        "imgUrl": "img-feat_bastetdlx-2.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "3 Scatter Symbols award 15 Free Spins and 2 additional Free Spins for each extra scatter in the triggering combination",
+        "imgUrl": "img-feat_bastetdlx-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Bastet and Cats Deluxe, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Booming Fruity Boom",
+    "slug": "booming-fruity-boom",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2024-10-24",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_booming.jpeg",
+    "heroUrl": "hero_booming.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_booming.jpg",
+    "logoUrl": "logo_booming.png",
+    "backUrl": "back_booming.jpg",
+    "detailsImgUrl": "details_booming.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": null,
+      "paylines": 25,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_booming-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_booming-1.jpg"
+      },
+      {
+        "name": "Free Spins Accumulation Scale",
+        "descr": "Each win fills a bar on the scale. A streak of 5 or more consecutive wins triggers free spins",
+        "imgUrl": "img-feat_booming-2.jpg"
+      },
+      {
+        "name": "Free Spins with Multipliers",
+        "descr": "Up to 5 free spins with multipliers of up to x10. Each win resets the free spins counter to its initial value",
+        "imgUrl": "img-feat_booming-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Booming Fruity Boom, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Ouija Secrets",
+    "slug": "ouija-secrets",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2024-10-17",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_ouija.jpeg",
+    "heroUrl": "hero_ouija.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_ouija.jpg",
+    "logoUrl": "logo_ouija.png",
+    "backUrl": "back_ouija.jpg",
+    "detailsImgUrl": "details_ouija.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": null,
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Gamble",
+        "descr": "Risk your winnings by playing the Gamble feature. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_ouija-0.jpg"
+      },
+      {
+        "name": "Buy Feature",
+        "descr": "Buy a Bonus Game with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_ouija-1.jpg"
+      },
+      {
+        "name": "Bonus Game",
+        "descr": "Bonus game with win multipliers, their modifiers and additional bonus spins",
+        "imgUrl": "img-feat_ouija-2.jpg"
+      },
+      {
+        "name": "Extra Bonus Feature",
+        "descr": "Reels filled with winning symbols provide an Extra win",
+        "imgUrl": "img-feat_ouija-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Ouija Secrets, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
     "name": "Cancan Saloon Deluxe",
     "slug": "cancan-saloon-deluxe",
     "linkToDemo": "demo.mascot.games/run/cancan_saloon_deluxe",
