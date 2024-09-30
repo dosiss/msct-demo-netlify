@@ -4,7 +4,7 @@
     <MainHeader />
     <div id="privacy">
       <div class="container container-narrow">
-        <h1>{{$t('PRIVACY POLICY')}}</h1>
+        <h1>{{$t('PRIVACY POLICY')}}</h1>    
         <div class="heading-subtitle">{{$t('LEGAL INFORMATION')}}</div>
         <article>
                   <div class="content-inner-block">

@@ -1,5 +1,5 @@
 <template>
-<section id="ad-banner">
+<section id="ad-banner">  
   <div class="ad-banner__wrap">
     <a href="https://sigma.world/europe/" target="_blank" title="https://sigma.world/europe/">
       <div class="ad-banner__inner">

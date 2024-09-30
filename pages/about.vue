@@ -1,5 +1,4 @@
 <template>
-
   <div>
     <MainHeader />
     <div id="about">

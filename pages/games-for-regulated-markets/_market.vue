@@ -27,7 +27,7 @@
       <div class="slider-title">{{$t(`${currentMarket.sliderTitle}`)}}:</div>
     </div>
   </div>
-  <TopSliderMarket :id="id" />
+  <SliderMarket :id="id" />
   <div class=" all-games-link container">
     <nuxt-link :to="localePath('/games')" class="inner-link link-yellow link-desktop">
       <span>{{$t('See all games')}}</span>
