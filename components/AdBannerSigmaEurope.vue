@@ -1,5 +1,5 @@
 <template>
-<section id="ad-banner">  
+<section id="ad-banner">
   <div class="ad-banner__wrap">
     <a href="https://sigma.world/europe/" target="_blank" title="https://sigma.world/europe/">
       <div class="ad-banner__inner">
@@ -14,8 +14,8 @@
             <div class="ad-banner__place">MMH, Malta</div>
           </div>
         </div>
-        <nuxt-img src="images/img-adbanner-decor10-dsktop.png" sizes="sm:200px md:420px lg:490px" class="ad-banner__decor decor-african decor-mobile"  alt="" />
-        <nuxt-img src="images/img-adbanner-decor10-dsktop.png" sizes="sm:200px md:520px lg:490px" class="ad-banner__decor decor-african decor-dsktop"  alt="" />
+        <nuxt-img src="images/img-adbanner-decor11-dsktop.png" sizes="sm:200px md:420px lg:450px" class="ad-banner__decor decor-african decor-mobile"  alt="" />
+        <nuxt-img src="images/img-adbanner-decor11-dsktop.png" sizes="sm:200px md:520px lg:450px" class="ad-banner__decor decor-african decor-dsktop"  alt="" />
       </div>
   </a>
   </div>
@@ -128,7 +128,7 @@ export default {
             }
             &.decor-african {
               &.decor-dsktop {
-                max-width: 490px;
+                max-width: 450px;
 
                 @media (max-width: 1840px) {
                   right: calc(50% - 834px);
