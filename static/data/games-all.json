@@ -776,7 +776,7 @@
     "risknbuy": false,
     "comingSoon": false,
     "releaseDate": "2024-09-26",
-    "featured": false,
+    "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -834,7 +834,7 @@
     "risknbuy": false,
     "comingSoon": false,
     "releaseDate": "2024-09-19",
-    "featured": false,
+    "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -933,6 +933,18 @@
         "imgUrl": "img-feat_kitefest-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Kite Festival Crash Game by Mascot Games - Exclusive First Review",
+        "link": "https://crashgambler.io/kite-festival-by-mascot-gaming/",
+        "image": "img_blog_kitefest-crashgambler.jpg"
+      },
+      {
+        "title": "LCB.org: Kite Festival Crash Game Review",
+        "link": "https://lcb.org/games/kite-festival",
+        "image": "img_blog_kitefest-lcb.jpg"
+      }
+    ],
     "meta": {
       "title": "Kite Festival Crash Game, a video game by Mascot Gaming",
       "descr": "Fly high with up to 5 bets simultaneously and x5000 multiplier. Collect Free Bets along the way."
@@ -1001,6 +1013,28 @@
         "imgUrl": "img-feat_riotultimate-4.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Slots-777: Riot Ultimate Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/riot-ultimate",
+        "image": "img_blog_riotultimate-slots777.jpg"
+      },
+      {
+        "title": "LCB.org: Riot Ultimate Review",
+        "link": "https://lcb.org/games/riot-ultimate",
+        "image": "img_blog_riotultimate-lcb.jpg"
+      },
+      {
+        "title": "Slotcatalog.com: Riot Ultimate Review",
+        "link": "https://slotcatalog.com/en/slots/riot-ultimate",
+        "image": "img_blog_riotultimate-slotcatalog.jpg"
+      },
+      {
+        "title": "Pathosonline.it: Riot Ultimate by Mascot Gaming",
+        "link": "https://www.pathosonline.it/slot-machine/mascot-gaming/riot-ultimate",
+        "image": "img_blog_riotultimate-pathos.jpg"
+      }
+    ],
     "meta": {
       "title": "Riot Ultimate, a video slot game by Mascot Gaming",
       "descr": "The fight continues! Three types of Free Spins, New Risk and Buy and x1500 will help you win!"
@@ -1018,7 +1052,7 @@
     "risknbuy": true,
     "comingSoon": false,
     "releaseDate": "2024-08-22",
-    "featured": true,
+    "featured": false,
     "topGame": true,
     "branded": false,
     "custom": false,
@@ -1074,6 +1108,33 @@
         "imgUrl": "img-feat_woodluck-5.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Wood Luck (Mascot Gaming) – Slot Review",
+        "link": "https://chipmonkzslots.com/wood-luck-mascot-gaming-slot-review",
+        "image": "img_blog_woodluck-chipmonk.jpg"
+      },
+      {
+        "title": "Casinolandia: Wood Luck Review",
+        "link": "https://casinolandia.com/slots/wood-luck/",
+        "image": "img_blog_woodluck-casinolandia.jpg"
+      },
+      {
+        "title": "DemoSlot.com: Wood Luck Review",
+        "link": "https://www.demoslot.com/free-slots/wood-luck-slot-demo-mascot-games/",
+        "image": "img_blog_woodluck-demoslot.jpg"
+      },
+      {
+        "title": "LCB.org: Wood Luck Review",
+        "link": "https://lcb.org/games/wood-luck",
+        "image": "img_blog_woodluck-lcb.jpg"
+      },
+      {
+        "title": "Slots-777: Wood Luck Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/wood-luck",
+        "image": "img_blog_woodluck-slots777.jpg"
+      }
+    ],
     "meta": {
       "title": "Wood Luck!, a video slot game by Mascot Gaming",
       "descr": "Travel through the magical forest with amazing features and multipliers up to x25000."
@@ -1127,6 +1188,18 @@
         "imgUrl": "img-feat_mrbingo-1.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Slotsmate.com: Mayan Riches: Bingo! Review",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/mayan-riches-bingo",
+        "image": "img_blog_mrbingo-slotsmate.jpg"
+      },
+      {
+        "title": "CasinoFreak.com: Mayan Riches: Bingo! Review",
+        "link": "https://www.casinofreak.com/games/play-mayan-riches-bingo",
+        "image": "img_blog_mrbingo-casinofreak.jpg"
+      }
+    ],
     "meta": {
       "title": "Mayan Riches: Bingo!, a lottery game by Mascot Gaming",
       "descr": "Discover ancient treasures in this classic bingo game with possible multiplier up to x500."
@@ -1144,7 +1217,7 @@
     "risknbuy": true,
     "comingSoon": false,
     "releaseDate": "2024-07-23",
-    "featured": true,
+    "featured": false,
     "topGame": true,
     "branded": false,
     "custom": false,
@@ -1188,6 +1261,33 @@
         "name": "Free Spins with Sticky Wilds",
         "descr": "Native Symbols turn into Sticky Wilds for the duration of the Free Spins series",
         "imgUrl": "img-feat_reeleldo-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Slots-777: Reel Eldorado Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/reel-eldorado",
+        "image": "img_blog_reeleldo-slots777.jpg"
+      },
+      {
+        "title": "Clash of Slots: Reel Eldorado Review",
+        "link": "https://clashofslots.com/slots/mascot-gaming/reel-eldorado/",
+        "image": "img_blog_reeleldo-clash.jpg"
+      },
+      {
+        "title": "Reel Eldorado (Mascot Gaming) – Slot Review",
+        "link": "https://chipmonkzslots.com/reel-eldorado-games-gaming-slot-review",
+        "image": "img_blog_reeleldo-chipmonk.jpg"
+      },
+      {
+        "title": "DemoSlot.com: Reel Eldorado Review",
+        "link": "https://www.demoslot.com/free-slots/reel-eldorado-mascot-games-demo-slot/",
+        "image": "img_blog_reeleldo-demoslot.jpg"
+      },
+      {
+        "title": "Slotcatalog.com: Reel Eldorado Review",
+        "link": "https://slotcatalog.com/en/slots/reel-eldorado",
+        "image": "img_blog_reeleldo-slotcatalog.jpg"
       }
     ],
     "meta": {
@@ -1251,6 +1351,33 @@
         "name": "Payouts in Both Directions",
         "descr": "Winning combinations are paid in both directions",
         "imgUrl": "img-feat_stickyfruit-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Casinolandia: Sticky Fruit Madness by Mascot Gaming Offers Tropical Delight",
+        "link": "https://casinolandia.com/news/sticky-fruit-madness-by-mascot-gaming-offers-tropical-delight/",
+        "image": "img_blog_stickyfruit-casinolandia.jpg"
+      },
+      {
+        "title": "Slotcatalog.com: Sticky Fruit Madness Review",
+        "link": "https://slotcatalog.com/en/slots/sticky-fruit-madness",
+        "image": "img_blog_stickyfruit-slotcatalog.jpg"
+      },
+      {
+        "title": "Playcasino.com: Sticky Fruit Madness Review",
+        "link": "https://www.playcasino.com/game/sticky-fruit-madness",
+        "image": "img_blog_stickyfruit-playcasino.jpg"
+      },
+      {
+        "title": "Clash of Slots: Sticky Fruit Madness Review",
+        "link": "https://clashofslots.com/slots/mascot-gaming/sticky-fruit-madness/",
+        "image": "img_blog_stickyfruit-clash.jpg"
+      },
+      {
+        "title": "Slots-777: Sticky Fruit Madness Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/sticky-fruit-madness",
+        "image": "img_blog_stickyfruit-slots777.jpg"
       }
     ],
     "meta": {
@@ -1330,7 +1457,7 @@
     "risknbuy": true,
     "comingSoon": false,
     "releaseDate": "2024-06-25",
-    "featured": true,
+    "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -1605,7 +1732,7 @@
     "risknbuy": false,
     "comingSoon": false,
     "releaseDate": "2024-05-23",
-    "featured": true,
+    "featured": false,
     "topGame": true,
     "branded": false,
     "custom": false,
@@ -1786,7 +1913,7 @@
     "rockways": false,
     "comingSoon": false,
     "releaseDate": "2024-04-09",
-    "featured": true,
+    "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -2187,7 +2314,7 @@
     "rockways": false,
     "comingSoon": false,
     "releaseDate": "2024-02-27",
-    "featured": false,
+    "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -2372,7 +2499,7 @@
     "rockways": false,
     "comingSoon": false,
     "releaseDate": "2024-01-16",
-    "featured": false,
+    "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -2785,7 +2912,7 @@
     "rockways": false,
     "comingSoon": false,
     "releaseDate": "2023-10-24",
-    "featured": false,
+    "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -2923,7 +3050,7 @@
     "rockways": false,
     "comingSoon": false,
     "releaseDate": "2023-10-10",
-    "featured": false,
+    "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -3013,7 +3140,7 @@
     "rockways": false,
     "comingSoon": false,
     "releaseDate": "2023-09-26",
-    "featured": true,
+    "featured": false,
     "topGame": true,
     "branded": false,
     "custom": false,
@@ -3098,7 +3225,7 @@
     "rockways": false,
     "comingSoon": false,
     "releaseDate": "2023-09-19",
-    "featured": true,
+    "featured": false,
     "topGame": true,
     "branded": false,
     "custom": false,
@@ -3188,7 +3315,7 @@
     "rockways": false,
     "comingSoon": false,
     "releaseDate": "2023-09-19",
-    "featured": false,
+    "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -3538,8 +3665,8 @@
     "rockways": false,
     "comingSoon": false,
     "releaseDate": "2023-06-06",
-    "featured": true,
-    "topGame": true,
+    "featured": false,
+    "topGame": false,
     "branded": false,
     "custom": false,
     "descr": "In Hook Up! Fishing Wars, the ocean is your game, Cast your line, shoot with aim!",
@@ -4465,7 +4592,7 @@
     "risknbuy": true,
     "comingSoon": false,
     "releaseDate": "2022-12-20",
-    "featured": false,
+    "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -4883,7 +5010,7 @@
     "risknbuy": true,
     "comingSoon": false,
     "releaseDate": "2022-07-26",
-    "featured": false,
+    "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -5391,8 +5518,8 @@
     "risknbuy": true,
     "comingSoon": false,
     "releaseDate": "2022-01-25",
-    "featured": true,
-    "topGame": false,
+    "featured": false,
+    "topGame": true,
     "branded": false,
     "custom": false,
     "descr": "The battle for a fantasy realm is on its rise! Which side will you choose?",
@@ -5606,7 +5733,7 @@
     "risknbuy": true,
     "comingSoon": false,
     "releaseDate": "2021-12-07",
-    "featured": false,
+    "featured": true,
     "topGame": false,
     "branded": false,
     "custom": false,
@@ -7247,7 +7374,7 @@
     "risknbuy": true,
     "comingSoon": false,
     "releaseDate": "2020-02-01",
-    "featured": true,
+    "featured": false,
     "topGame": true,
     "branded": false,
     "custom": false,
