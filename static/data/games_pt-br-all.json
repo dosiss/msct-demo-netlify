@@ -637,20 +637,20 @@
   {
     "name": "Ouija Secrets",
     "slug": "ouija-secrets",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/ouija_secrets",
     "theme": "video slot",
-    "type": " ",
+    "type": "traffic",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-10-17",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_ouija.jpeg",
+    "thumbUrl": "game_ouija2.jpeg",
     "heroUrl": "hero_ouija.jpg",
     "blueButtn": true,
     "videoUrl": null,
@@ -662,12 +662,12 @@
     "stats": {
       "reels": 5,
       "rows": 4,
-      "volatility": null,
+      "volatility": "Med",
       "paylines": 20,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
+      "rtp": 94.5,
+      "hitrate": 28.4
     },
     "features": [
       {
@@ -693,7 +693,7 @@
     ],
     "meta": {
       "title": "Ouija Secrets, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Uncover supernatural secrets with Bonus Game, Gamble and Buy features, and x8500!"
     },
     "rockways": false
   },
