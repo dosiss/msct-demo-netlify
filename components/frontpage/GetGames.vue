@@ -1,6 +1,5 @@
 <template>
-  <div>
-    
+  <div>  
     <div id="getgamesCombined">
       <div class="getgames__wrap">
             <div class="container">

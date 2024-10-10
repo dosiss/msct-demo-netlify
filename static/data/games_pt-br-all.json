@@ -574,20 +574,20 @@
   {
     "name": "Booming Fruity Boom",
     "slug": "booming-fruity-boom",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/booming_fruity_boom",
     "theme": "video slot",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-10-24",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_booming.jpeg",
+    "thumbUrl": "game_booming2.jpeg",
     "heroUrl": "hero_booming.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -624,13 +624,13 @@
       },
       {
         "name": "Free Spins with Multipliers",
-        "descr": "Up to 5 free spins with multipliers of up to x10. Each win resets the free spins counter to its initial value",
+        "descr": "Up to 5 Free Spins with multipliers of up to x10. Each win resets the free spins counter to its initial value",
         "imgUrl": "img-feat_booming-3.jpg"
       }
     ],
     "meta": {
       "title": "Booming Fruity Boom, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Enjoy a splash of fruits with Free Spins with modifiers and Risk & Buy feature."
     },
     "rockways": false
   },

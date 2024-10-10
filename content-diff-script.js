@@ -110,4 +110,4 @@ function getModifiedUrls() {
 
 const modifiedUrls = getModifiedUrls();
 // console.log('Final modified URLs:');
-// console.log(JSON.stringify(modifiedUrls, null, 2));
+console.log(JSON.stringify(modifiedUrls, null, 2));
