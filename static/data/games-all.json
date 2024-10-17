@@ -511,20 +511,20 @@
   {
     "name": "Bastet and Cats Deluxe",
     "slug": "bastet-and-cats-deluxe",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/bastet_and_cats_deluxe",
     "theme": "video slot",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-11-07",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_bastetdlx.jpeg",
+    "thumbUrl": "game_bastetdlx2.jpeg",
     "heroUrl": "hero_bastetdlx.jpg",
     "blueButtn": true,
     "videoUrl": null,
@@ -551,7 +551,7 @@
       },
       {
         "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
         "imgUrl": "img-feat_bastetdlx-1.jpg"
       },
       {
@@ -567,7 +567,7 @@
     ],
     "meta": {
       "title": "Bastet and Cats Deluxe, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Discover ancient gems with Rockfall, Free Spins and Risk & Buy."
     },
     "rockways": false
   },

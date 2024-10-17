@@ -108,8 +108,9 @@
           </TransitionGroup>
           </div>
       </div>
-
     </div>
+    <div class="games-descr-text container">Experience the thrill of our incredible games – play demo now and bring them to your casino!</div>
+
       <SharingButtons />
       <vue-lazy-load><AdBannerSigmaEurope /></vue-lazy-load>
       <MainFooter />
@@ -809,6 +810,20 @@ export default {
           }
         }
       }
+    }
+  }
+  .games-descr-text {
+    padding: 0 35px;
+    font-size: 2rem;
+    max-width: 1000px;
+    margin: 60px auto 0;
+    text-align: center;
+    @media (max-width: 850px) {
+    font-size: 1.5rem
+    }
+    @media (max-width: 650px) {
+    font-size: 1rem;
+    margin-top: 30px
     }
   }
 </style>
