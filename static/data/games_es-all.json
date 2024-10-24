@@ -443,13 +443,13 @@
   {
     "name": "1X Riot",
     "slug": "1x-riot",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/1x_riot",
     "theme": "video slot",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-10-31",
     "featured": false,
     "topGame": false,
@@ -468,43 +468,43 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": null,
+      "volatility": "Med",
       "paylines": 15,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
+      "rtp": 95.0,
+      "hitrate": 19.2
     },
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
         "imgUrl": "img-feat_1xriot-0.jpg"
       },
       {
         "name": "Risk & Buy Feature: Buy",
-        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "descr": "Purchase Free Spins or Bonus Game under the offered conditions and at the suggested price. A special Buy offer is available after each spin",
         "imgUrl": "img-feat_1xriot-1.jpg"
       },
       {
-        "name": "Free Spins with Sticky Wild Reel and Respin",
-        "descr": "The Soldier symbol turns into a Sticky Wild reel and triggers a Free Respin",
+        "name": "Free Spins with Sticky Wild Reels and Respins",
+        "descr": "The Soldier symbol becomes a Sticky Wild Reel and triggers a Free Respin",
         "imgUrl": "img-feat_1xriot-2.jpg"
       },
       {
         "name": "Free Spins with Sticky Wilds",
-        "descr": "All Bandit symbols become Sticky Wilds for the entire series of Free Spins",
+        "descr": "All Bandits Symbols become Sticky Wilds for the duration of the Free Spins series",
         "imgUrl": "img-feat_1xriot-3.jpg"
       },
       {
         "name": "Free Spins with Win Multiplier",
-        "descr": "A combination of Survivor symbols grants Free Spins with a x3 multiplier and the chance to win additional Free Spins",
+        "descr": "A combination of Survivors Symbols grants Free Spins with x3 multiplier and a chance to win additional Free Spins",
         "imgUrl": "img-feat_1xriot-4.jpg"
       }
     ],
     "meta": {
       "title": "1X Riot, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Enjoy three types of Free Spins and Risk & Buy Feature in this special branded slot game."
     },
     "rockways": false
   },
