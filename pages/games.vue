@@ -299,6 +299,9 @@ export default {
     showSearchPanel() {
       this.gameFilterKey = "search"
       this.searchPanel = true;
+      this.$nextTick(() => {
+        this.$refs.searchField.focus()
+      })
     },
     gamesCountTheme(item) {
       return allGames.filter((game) => game.theme === item).length
