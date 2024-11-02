@@ -170,7 +170,9 @@ import PrevNext from '~/components/PrevNext'
   strong {
     font-weight: 700
   }
-
+  em {
+    font-style: italic;
+  }
 
 }
 .share__wrap {

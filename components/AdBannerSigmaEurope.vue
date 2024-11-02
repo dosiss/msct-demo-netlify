@@ -131,7 +131,8 @@ export default {
                 max-width: 450px;
 
                 @media (max-width: 1840px) {
-                  right: calc(50% - 834px);
+                  /* right: calc(50% - 834px); */
+                  right: calc(50% - 745px);
                 }
                 @media (max-width: 850px) {
                   display: none
