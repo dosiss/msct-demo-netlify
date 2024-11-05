@@ -7,24 +7,24 @@
         <div class="container-wide container-custom container-filter">
           <div class="games-filter__outer">
             <div class="games-filter__wrap">
-              <button :class="{ active: gameFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'all'">{{$t('All games')}} - {{gamesList.length}}</button>
+              <button :class="{ active: gameFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('all')">{{$t('All games')}} - {{gamesList.length}}</button>
               <button :class="{ active: gameFilterKey == 'search' }" class="buttn buttn-rounded buttn-sm buttn-search" @click="showSearchPanel">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 18"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M8.875 14.25a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm7.5 1.5-3.263-3.263"/></svg>
                 <span>{{$t('Search')}}</span>
               </button>
-              <button :class="{ active: gameFilterKey == 'comingsoon' }" class="buttn buttn-rounded buttn-sm buttn-comingsoon" @click="gameFilterKey = 'comingsoon'"><span>{{$t('Coming Soon')}}</span></button>
-              <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'top'">{{$t('Тор games')}} - {{gamesCountItem("topGame")}}</button>
-              <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'traffic'">{{$t('Traffic-generating games')}} - {{gamesCountType("traffic")}}</button>
-              <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'profit'">{{$t('Profit-making games')}} - {{gamesCountType("profit")}}</button>
-              <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'videoslots'">{{$t('Video slots')}} - {{gamesCountTheme("video slot")}}</button>
-              <button :class="{ active: gameFilterKey == 'lotteries' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'lotteries'">{{$t('Lottery games')}} - {{gamesCountTheme("lottery game")}}</button>
-              <button :class="{ active: gameFilterKey == 'tablegames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'tablegames'">{{$t('Table games')}} - {{gamesCountTheme("table/cards")}}</button>
-              <button :class="{ active: gameFilterKey == 'shooting' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'shooting'">{{$t('Shooters')}} - {{gamesCountTheme("shooting")}}</button>
-              <button :class="{ active: gameFilterKey == 'crashgames' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'crashgames'">{{$t('Crash games')}} - {{gamesCountTheme("crash")}}</button>
-              <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'risknbuy'">{{$t('Risk&Buy games')}} - {{gamesCountItem("risknbuy")}}</button>
-              <button :class="{ active: gameFilterKey == 'rockways' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'rockways'">{{$t('Rockways games')}} - {{gamesCountItem("rockways")}}</button>
-              <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'branded'">{{$t('Branded games')}} - {{gamesCountItem("branded")}}</button>
-              <button :class="{ active: gameFilterKey == 'custom' }" class="buttn buttn-rounded buttn-sm" @click="gameFilterKey = 'custom'">{{$t('Custom games')}} - {{gamesCountItem("custom")}}</button>
+              <button :class="{ active: gameFilterKey == 'comingsoon' }" class="buttn buttn-rounded buttn-sm buttn-comingsoon" @click="handleFilterChange('comingsoon')"><span>{{$t('Coming Soon')}}</span></button>
+              <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('top')">{{$t('Тор games')}} - {{gamesCountItem("topGame")}}</button>
+              <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('traffic')">{{$t('Traffic-generating games')}} - {{gamesCountType("traffic")}}</button>
+              <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('profit')">{{$t('Profit-making games')}} - {{gamesCountType("profit")}}</button>
+              <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('videoslots')">{{$t('Video slots')}} - {{gamesCountTheme("video slot")}}</button>
+              <button :class="{ active: gameFilterKey == 'lotteries' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('lotteries')">{{$t('Lottery games')}} - {{gamesCountTheme("lottery game")}}</button>
+              <button :class="{ active: gameFilterKey == 'tablegames' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('tablegames')">{{$t('Table games')}} - {{gamesCountTheme("table/cards")}}</button>
+              <button :class="{ active: gameFilterKey == 'shooting' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('shooting')">{{$t('Shooters')}} - {{gamesCountTheme("shooting")}}</button>
+              <button :class="{ active: gameFilterKey == 'crashgames' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('crashgames')">{{$t('Crash games')}} - {{gamesCountTheme("crash")}}</button>
+              <button :class="{ active: gameFilterKey == 'risknbuy' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('risknbuy')">{{$t('Risk&Buy games')}} - {{gamesCountItem("risknbuy")}}</button>
+              <button :class="{ active: gameFilterKey == 'rockways' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('rockways')">{{$t('Rockways games')}} - {{gamesCountItem("rockways")}}</button>
+              <button :class="{ active: gameFilterKey == 'branded' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('branded')">{{$t('Branded games')}} - {{gamesCountItem("branded")}}</button>
+              <button :class="{ active: gameFilterKey == 'custom' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('custom')">{{$t('Custom games')}} - {{gamesCountItem("custom")}}</button>
             </div>
           </div>
         </div>
@@ -232,10 +232,24 @@ export default {
 
   },
 
+  watch: {
+    '$route.query': {
+      immediate: true,
+      handler(newQuery) {
+        this.initializeFilterFromQuery();
+      },
+      deep: true
+    }
+  },
+
+  created() {
+    this.initializeFilterFromQuery();
+  },
+
   async mounted() {
 
         try {
-          await  this.$axios.get("/config.json")
+          await this.$axios.get("/config.json")
             .then(response => {this.demoUrl = response.data.demoURL})
         } catch(ex) {
           this.demoUrl = this.$config.demositeURL
@@ -255,47 +269,34 @@ export default {
         this.title = this.$t('Exciting games for online casino. Feel the gaming thrill')
         this.description = this.$t('Meet our diverse set of video slots for online casino. We develop a variety of unique games with different features and bonuses. Check it out.')
 
-        if(this.$route.query.type === "trafficgames") {
-          this.gameFilterKey = "traffic"
-        };
-        if(this.$route.query.type === "profitgames") {
-          this.gameFilterKey = "profit"
-        };
-        if(this.$route.query.type === "top") {
-          this.gameFilterKey = "top"
-        };
-        if(this.$route.query.type === "comingsoon") {
-          this.gameFilterKey = "comingsoon"
-        };
-        if(this.$route.query.type === "videoslots") {
-          this.gameFilterKey = "videoslots"
-        };
-        if(this.$route.query.type === "lotteries") {
-          this.gameFilterKey = "lotteries"
-        };
-        if(this.$route.query.type === "tablegames") {
-          this.gameFilterKey = "tablegames"
-        };
-        if(this.$route.query.type === "shooting") {
-          this.gameFilterKey = "shooting"
-        };
-        if(this.$route.query.type === "risknbuy") {
-          this.gameFilterKey = "risknbuy"
-        };
-        if(this.$route.query.type === "crashgames") {
-          this.gameFilterKey = "crashgames"
-        };
-        if(this.$route.query.type === "rockways") {
-          this.gameFilterKey = "rockways"
-        };
-        if(this.$route.query.type === "branded") {
-          this.gameFilterKey = "branded"
-        };
-        if(this.$route.query.type === "custom") {
-          this.gameFilterKey = "custom"
-        };
   },
+
   methods: {
+    handleFilterChange(filterKey) {
+
+      this.gameFilterKey = filterKey;
+
+      this.$nextTick(async () => {
+        try {
+          if (filterKey === 'all') {
+            await this.$router.push({ query: {} });
+          } else {
+            await this.$router.push({ query: { type: filterKey } });
+          }
+        } catch (error) {
+// console.error('Router push failed:', error);
+        }
+      });
+    },
+    initializeFilterFromQuery() {
+      const queryType = this.$route.query.type;
+      if (queryType && queryType !== 'all') {
+        this.gameFilterKey = queryType;
+      } else {
+        this.gameFilterKey = 'all';
+      }
+    },
+
     showSearchPanel() {
       this.gameFilterKey = "search"
       this.searchPanel = true;
@@ -311,8 +312,10 @@ export default {
     },
     gamesCountItem(item) {
       return allGames.filter((game) => game[item] === true).length
-    }
-  }
+    },
+
+  },
+
 }
 
 </script>

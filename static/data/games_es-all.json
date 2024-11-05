@@ -375,21 +375,21 @@
   {
     "name": "Metal Frontiers",
     "slug": "metal-frontiers",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/metal_frontiers",
     "theme": "video slot",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-11-14",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_metal.jpeg",
-    "heroUrl": "hero_metal.jpg",
+    "thumbUrl": "game_metal2.jpeg",
+    "heroUrl": "hero_metal2.jpg",
     "blueButtn": true,
     "videoUrl": null,
     "videoEnabled": false,
@@ -398,8 +398,8 @@
     "backUrl": "back_metal.jpg",
     "detailsImgUrl": "details_metal.png",
     "stats": {
-      "reels": 6,
-      "rows": 5,
+      "reels": 5,
+      "rows": 6,
       "volatility": null,
       "paylines": "Any pays",
       "payways": null,
@@ -415,7 +415,7 @@
       },
       {
         "name": "Risk & Buy Feature: Buy",
-        "descr": "Purchase Bonus game with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "descr": "Buy Bonus game with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
         "imgUrl": "img-feat_metal-1.jpg"
       },
       {
@@ -430,13 +430,13 @@
       },
       {
         "name": "Bonus Game",
-        "descr": "5 or more badge symbols trigger the Bonus Game with 2, 3, 4, or 5 Bonus Spins",
+        "descr": "5 or more badge symbols trigger the Bonus Game with 2 or 3 Bonus Spins",
         "imgUrl": "img-feat_metal-4.jpg"
       }
     ],
     "meta": {
       "title": "Metal Frontiers, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Lead your faction to victory with random multipliers, Bonus Game and Risk & Buy feature."
     },
     "rockways": false
   },

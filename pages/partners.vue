@@ -14,13 +14,13 @@
         <div class="container container-filter container-narrow">
           <div class="partners-filter__outer">
             <div class="partners-filter__wrap">
-              <button :class="{ active: partnerFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'all'">{{$t('All')}}</button>
-              <button :class="{ active: partnerFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'top'">{{$t('Top')}}</button>
-              <button :class="{ active: partnerFilterKey == 'media' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'media'">{{$t('Media')}}</button>
-              <button :class="{ active: partnerFilterKey == 'casino' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'casino'">{{$t('Casinos')}}</button>
-              <button :class="{ active: partnerFilterKey == 'platform' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'platform'">{{$t('Platforms')}}</button>
-              <button :class="{ active: partnerFilterKey == 'streamers' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'streamers'">{{$t('Streamers')}}</button>
-              <button :class="{ active: partnerFilterKey == 'promo' }" class="buttn buttn-rounded buttn-sm" @click="partnerFilterKey = 'promo'">{{$t('Promotions')}}</button>
+              <button :class="{ active: partnerFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('all')">{{$t('All')}}</button>
+              <button :class="{ active: partnerFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('top')">{{$t('Top')}}</button>
+              <button :class="{ active: partnerFilterKey == 'media' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('media')">{{$t('Media')}}</button>
+              <button :class="{ active: partnerFilterKey == 'casino' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('casino')">{{$t('Casinos')}}</button>
+              <button :class="{ active: partnerFilterKey == 'platform' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('platform')">{{$t('Platforms')}}</button>
+              <button :class="{ active: partnerFilterKey == 'streamers' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('streamers')">{{$t('Streamers')}}</button>
+              <button :class="{ active: partnerFilterKey == 'promo' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('promo')">{{$t('Promotions')}}</button>
             </div>
           </div>
         </div>
@@ -124,36 +124,70 @@ export default {
         return allPartners.filter((partner) => partner.promo === true && partner.type === "promopartner")
       },
   },
-
+  methods: {
+    handleFilterChange(filterKey) {
+      this.partnerFilterKey = filterKey;
+      // Update URL query parameter
+      if (filterKey === 'all') {
+        // Remove query parameter if filter is 'all'
+        this.$router.push({
+          query: {}
+        });
+      } else {
+        // Add or update query parameter for other filters
+        this.$router.push({
+          query: { type: filterKey }
+        });
+      }
+    },
+    initializeFilterFromQuery() {
+      const queryType = this.$route.query.type;
+      if (queryType && ['top', 'media', 'casino', 'platform', 'streamers', 'promo'].includes(queryType)) {
+        this.partnerFilterKey = queryType;
+      } else {
+        this.partnerFilterKey = 'all';
+      }
+    }
+  },
   mounted() {
     this.title = this.$t('Partners')
     this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
 
-        if(this.$route.query.type === "trafficgames") {
-          this.partnerFilterKey = "traffic"
-        };
-        if(this.$route.query.type === "profitgames") {
-          this.partnerFilterKey = "profit"
-        };
-        if(this.$route.query.type === "promo") {
-          this.partnerFilterKey = "promo"
-        };
-        if(this.$route.query.type === "top") {
-          this.partnerFilterKey = "top"
-        };
-        if(this.$route.query.type === "media") {
-          this.partnerFilterKey = "media"
-        };
-        if(this.$route.query.type === "casino") {
-          this.partnerFilterKey = "casino"
-        };
-        if(this.$route.query.type === "platform") {
-          this.partnerFilterKey = "platform"
-        };
-        if(this.$route.query.type === "streamers") {
-          this.partnerFilterKey = "streamers"
-        };
+    this.initializeFilterFromQuery();
+        // if(this.$route.query.type === "trafficgames") {
+        //   this.partnerFilterKey = "traffic"
+        // };
+        // if(this.$route.query.type === "profitgames") {
+        //   this.partnerFilterKey = "profit"
+        // };
+        // if(this.$route.query.type === "promo") {
+        //   this.partnerFilterKey = "promo"
+        // };
+        // if(this.$route.query.type === "top") {
+        //   this.partnerFilterKey = "top"
+        // };
+        // if(this.$route.query.type === "media") {
+        //   this.partnerFilterKey = "media"
+        // };
+        // if(this.$route.query.type === "casino") {
+        //   this.partnerFilterKey = "casino"
+        // };
+        // if(this.$route.query.type === "platform") {
+        //   this.partnerFilterKey = "platform"
+        // };
+        // if(this.$route.query.type === "streamers") {
+        //   this.partnerFilterKey = "streamers"
+        // };
+
   },
+  watch: {
+    '$route.query': {
+      handler(newQuery) {
+        this.initializeFilterFromQuery();
+      },
+      deep: true
+    }
+  }
 }
 
 </script>
