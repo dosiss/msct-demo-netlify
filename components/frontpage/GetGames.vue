@@ -1,5 +1,5 @@
 <template>
-  <div>  
+  <div>
     <div id="getgamesCombined">
       <div class="getgames__wrap">
             <div class="container">
@@ -102,7 +102,7 @@
               <nuxt-img src="/images/img_front-onjn2.png" alt="" />
             </div>
             <div class="features-license__item-img">
-              <nuxt-img src="/images/img_front-gaminglabs2.png" alt="" />
+              <a href="https://access.gaminglabs.com/certificate/index?i=338" target="_blank"><nuxt-img src="/images/img_front-gaminglabs2.png" alt="" /></a>
             </div>
           </div>
           <div class="features-license__button">
