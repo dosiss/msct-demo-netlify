@@ -254,20 +254,20 @@
   {
     "name": "243 Fruity Zen",
     "slug": "243-fruity-zen",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/243_fruity_zen",
     "theme": "video slot",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-11-21",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_243fruity.jpeg",
+    "thumbUrl": "game_243fruity2.jpeg",
     "heroUrl": "hero_243fruity.jpg",
     "blueButtn": true,
     "videoUrl": null,
@@ -304,13 +304,13 @@
       },
       {
         "name": "Additional Free Spins",
-        "descr": "Extra free spins are awarded according to the general rules of the paytable",
+        "descr": "During Free Spins 3, 4 or 5 Scatter Symbols award 15, 20 or 25 additional Free Spins respectively",
         "imgUrl": "img-feat_243fruity-3.jpg"
       }
     ],
     "meta": {
       "title": "243 Fruity Zen, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Embrace peace and relaxation with Free Spins and Risk & Buy feature."
     },
     "rockways": false
   },
