@@ -273,18 +273,26 @@ export default {
 
   methods: {
     handleFilterChange(filterKey) {
+      const allowedFilters = ['all', 'comingsoon', 'top', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'rockways', 'branded', 'custom'];
 
-      this.gameFilterKey = filterKey;
+      if (!allowedFilters.includes(filterKey)) {
+  //      console.warn('Invalid filter key:', filterKey);
+        return;
+      }
+
+      const sanitizedFilterKey = encodeURIComponent(filterKey);
+
+      this.gameFilterKey = sanitizedFilterKey;
 
       this.$nextTick(async () => {
         try {
-          if (filterKey === 'all') {
+          if (sanitizedFilterKey === 'all') {
             await this.$router.push({ query: {} });
           } else {
-            await this.$router.push({ query: { type: filterKey } });
+            await this.$router.push({ query: { type: sanitizedFilterKey } });
           }
         } catch (error) {
-// console.error('Router push failed:', error);
+  //        console.error('Error while updating the router:', error);
         }
       });
     },

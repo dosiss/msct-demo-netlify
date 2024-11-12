@@ -126,19 +126,28 @@ export default {
   },
   methods: {
     handleFilterChange(filterKey) {
-      this.partnerFilterKey = filterKey;
-      // Update URL query parameter
-      if (filterKey === 'all') {
-        // Remove query parameter if filter is 'all'
-        this.$router.push({
-          query: {}
-        });
-      } else {
-        // Add or update query parameter for other filters
-        this.$router.push({
-          query: { type: filterKey }
-        });
+      const allowedFilters = ['all', 'top', 'media', 'casino', 'platform', 'streamers', 'promo'];
+
+      if (!allowedFilters.includes(filterKey)) {
+  //      console.warn('Invalid filter key:', filterKey);
+        return;
       }
+
+      const sanitizedFilterKey = encodeURIComponent(filterKey);
+
+      this.partnerFilterKey = sanitizedFilterKey;
+
+      this.$nextTick(async () => {
+        try {
+          if (sanitizedFilterKey === 'all') {
+            await this.$router.push({ query: {} });
+          } else {
+            await this.$router.push({ query: { type: sanitizedFilterKey } });
+          }
+        } catch (error) {
+  //        console.error('Error while updating the router:', error);
+        }
+      });
     },
     initializeFilterFromQuery() {
       const queryType = this.$route.query.type;

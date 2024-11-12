@@ -46,6 +46,9 @@ export default {
 //     //Prod setting:
 //      dev: false
 //   },
+  router: {
+    middleware: ['validateUrl']
+  },
   axios: {
     baseURL: '/'
   },
