@@ -42,6 +42,11 @@ data:
                 return 200 "healthy";
             }
 
+            # Redirect to the homepage if the URL contains multiple slashes or backslashes
+            if ($request_uri ~* "//|%5C|\\") {
+                return 301 /;
+            }
+
             # /videos => mascot-api/videos
             location ~ ^/videos/(.*)$ {
 {{ if not (eq .Values.global.env "prod-mascot") }}
@@ -49,37 +54,6 @@ data:
 {{ else }}
                rewrite ^/videos/(.*)$ https://minio-api.mascot.games/mascot-videos/$1 permanent;
 {{ end }}
-            }
-
-            # strip index file from url
-            if ($request_uri ~ ^(?<path>.*)/index\.(htm|html|php)$) {
-                rewrite ^ $path permanent;
-            }
-
-            # strip last slash from url
-            location ~ ^/(?<path>.+)/$ {
-                rewrite ^ /$path permanent;
-            }
-
-            # strip html extension from url
-            # mascot.games/<page>.html => mascot.games/<page>
-            location ~ ^/(?<page>games|contacts)\.(htm|html)$ {
-                rewrite ^ /$page permanent;
-            }
-
-            # mascot.games/blog-<article_name>.html => mascot.games/<article_name>
-            location ~ ^/blog-(?<article>.+)\.(htm|html)$ {
-                rewrite ^ /$article permanent;
-            }
-
-            # cut html extension in blog post url
-            location ~ ^/blog/(?<path>.+)\.(htm|html)$ {
-                rewrite ^ /blog/$path permanent;
-            }
-
-            # try looking files in different places
-            location ~ ^/(.+)$ {
-                try_files $uri $uri.html $uri/index.html =404;
             }
         }
     }
