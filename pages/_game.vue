@@ -563,6 +563,9 @@ export default {
   .game_paper-lanterns-crash-game {
     @include no-meta
   }
+  .game_catch-the-win {
+    @include no-meta
+  }
   .top-img {
     background-size: cover;
     background-repeat: no-repeat;

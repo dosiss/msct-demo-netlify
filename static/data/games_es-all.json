@@ -252,6 +252,64 @@
     "rockways": false
   },
   {
+    "name": "Catch the Win",
+    "slug": "catch-the-win",
+    "linkToDemo": "demo.mascot.games/run/catch_the_win",
+    "theme": "shooting",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2024-11-28",
+    "featured": false,
+    "topGame":false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_catchwin2.jpeg",
+    "heroUrl": "hero_catchwin.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_catchwin.jpg",
+    "logoUrl": "logo_catchwin.png",
+    "backUrl": "back_catchwin.jpg",
+    "detailsImgUrl": "details_catchwin.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": false,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Bonus Games",
+        "descr": "Two types of Bonus Games with different bosses and high-value symbols",
+        "imgUrl": "img-feat_catchwin-0.jpg"
+      },
+      {
+        "name": "Free Shots",
+        "descr": "Free Shots for capturing a special symbol",
+        "imgUrl": "img-feat_catchwin-1.jpg"
+      },
+      {
+        "name": "Special Rewards",
+        "descr": "Additional rewards for capturing special symbols",
+        "imgUrl": "img-feat_catchwin-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Catch the Win, a video shooting game by Mascot Gaming",
+      "descr": "Dive into the blue and enjoy Free Bets and two types of Bonus Game."
+    }
+  },
+  {
     "name": "243 Fruity Zen",
     "slug": "243-fruity-zen",
     "linkToDemo": "demo.mascot.games/run/243_fruity_zen",
@@ -313,64 +371,6 @@
       "descr": "Embrace peace and relaxation with Free Spins and Risk & Buy feature."
     },
     "rockways": false
-  },
-  {
-    "name": "Catch the Win",
-    "slug": "catch-the-win",
-    "linkToDemo": " ",
-    "theme": "shooting",
-    "type": null,
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "rockways": false,
-    "comingSoon": true,
-    "releaseDate": "2024-11-28",
-    "featured": false,
-    "topGame":false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_catchwin.jpeg",
-    "heroUrl": "hero_catchwin.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_catchwin.jpg",
-    "logoUrl": "logo_catchwin.png",
-    "backUrl": "back_catchwin.jpg",
-    "detailsImgUrl": "details_catchwin.png",
-    "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
-      "payways": null,
-      "html5": false,
-      "rtp": " ",
-      "hitrate": " "
-    },
-    "features": [
-      {
-        "name": "Bonus Games",
-        "descr": "Two types of Bonus Games with different bosses and high-value symbols",
-        "imgUrl": "img-feat_catchwin-0.jpg"
-      },
-      {
-        "name": "Free Shots",
-        "descr": "Free Shots for capturing a special symbol",
-        "imgUrl": "img-feat_catchwin-1.jpg"
-      },
-      {
-        "name": "Special Rewards",
-        "descr": "Additional rewards for capturing special symbols",
-        "imgUrl": "img-feat_catchwin-2.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Catch the Win, a shooting game by Mascot Gaming",
-      "descr": " "
-    }
   },
   {
     "name": "Metal Frontiers",

@@ -19,7 +19,7 @@
               <button :class="{ active: partnerFilterKey == 'media' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('media')">{{$t('Media')}}</button>
               <button :class="{ active: partnerFilterKey == 'casino' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('casino')">{{$t('Casinos')}}</button>
               <button :class="{ active: partnerFilterKey == 'platform' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('platform')">{{$t('Platforms')}}</button>
-              <button :class="{ active: partnerFilterKey == 'streamers' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('streamers')">{{$t('Streamers')}}</button>
+              <!-- <button :class="{ active: partnerFilterKey == 'streamers' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('streamers')">{{$t('Streamers')}}</button> -->
               <button :class="{ active: partnerFilterKey == 'promo' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('promo')">{{$t('Promotions')}}</button>
             </div>
           </div>
@@ -117,9 +117,9 @@ export default {
       platform() {
         return allPartners.filter((partner) => partner.platform === true)
       },
-      streamers() {
-        return allPartners.filter((partner) => partner.type === "streamers")
-      },
+      // streamers() {
+      //   return allPartners.filter((partner) => partner.type === "streamers")
+      // },
       promo() {
         return allPartners.filter((partner) => partner.promo === true && partner.type === "promopartner")
       },

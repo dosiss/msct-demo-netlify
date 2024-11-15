@@ -150,7 +150,7 @@
                   <p class="section-description">{{$t('Get the maximum profit from the player!')}}</p>
                   <p class="section-bodytext">{{$t('Plots that have been known for many years and have been used by masters of game development more than once let the player relax and find themselves in a well–known setting. An understandable and familiar game mechanic lets the player see a potentially big win.')}}</p>
                 </div>
-                <nuxt-link :to="localePath('/games?type=profitgames')" class="inner-link link-yellow">
+                <nuxt-link :to="localePath('/games?type=profit')" class="inner-link link-yellow">
                   <span>{{ $device.isMobile ? $t('See all') : $t('See all profit games') }}</span>
                   <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
@@ -170,7 +170,7 @@
                   <p class="section-description">{{$t('Cost-optimised way to attract new players to your online casino!')}}</p>
                   <p class="section-bodytext">{{$t('An unusual, provocative storyline, eye–catching graphics, exclusive music, lot of features and their frequent appearance as well as a high hit rate.')}}</p>
                 </div>
-                <nuxt-link :to="localePath('/games?type=trafficgames')" class="inner-link link-yellow">
+                <nuxt-link :to="localePath('/games?type=traffic')" class="inner-link link-yellow">
                   <span>{{ $device.isMobile ? $t('See all') : $t('See all traffic games') }}</span>
                   <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
