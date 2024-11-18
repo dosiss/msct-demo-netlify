@@ -2,7 +2,7 @@
   <div>
   <transition name="slide">
   <div v-if="showNav" id="main-header" :class="{'background-black': backgroundBlack == true}">
-    <div class="container">
+    <div class="container-wide">
       <div class="header__wrap">
         <NuxtLink :to="localePath('/')" class="logo-link">
           <svg id="mascot-logo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 30">
@@ -40,6 +40,15 @@
                 :key="locale.code"
                 :to="switchLocalePath(locale.code)">{{ locale.name }}
               </NuxtLink>
+            </div>
+            <div class="main-menu__clientarea">
+              <a href="https://client.mascot.games" target="_blank" class="buttn buttn-primary buttn-clientarea">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 13">
+                  <path fill="#fff" d="M14.1529 11.1507C13.8777 10.8797 10.543 9.58985 9.93794 9.34653C9.33603 9.10747 9.0959 8.445 9.0959 8.445C9.0959 8.445 8.82497 8.59481 8.82497 8.17407C8.82497 7.75278 9.0959 8.445 9.36684 6.82044C9.36684 6.82044 10.1186 6.60953 9.96928 4.86544H9.78866C9.78866 4.86544 10.2402 3.00075 9.78866 2.36963C9.3355 1.7385 9.15806 1.31775 8.16303 1.016C7.16959 0.714784 7.53084 0.774816 6.8094 0.805628C6.0869 0.835909 5.48553 1.22691 5.48553 1.43675C5.48553 1.43675 5.03397 1.46703 4.8544 1.64766C4.67378 1.82828 4.37309 2.66978 4.37309 2.88016C4.37309 3.09053 4.52344 4.50578 4.67378 4.80541L4.49475 4.86385C4.3444 6.60847 5.09612 6.81991 5.09612 6.81991C5.36706 8.44447 5.638 7.75225 5.638 8.17353C5.638 8.59428 5.36706 8.44447 5.36706 8.44447C5.36706 8.44447 5.1264 9.10641 4.52503 9.346C3.92365 9.58666 0.585279 10.8797 0.313811 11.1501C0.042873 11.4264 0.0731542 12.6886 0.0731542 12.6886H6.46728L6.93372 10.8505L6.51934 10.4361L7.23281 9.7216L7.94628 10.4356L7.5319 10.85L7.99834 12.6881H14.3925C14.3925 12.6881 14.4259 11.4248 14.1518 11.1491L14.1529 11.1507Z"/>
+                </svg>
+
+                <span>Client Area</span>
+              </a>
             </div>
           </div>
         </div>
@@ -86,6 +95,7 @@
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><a href="https://client.mascot.games" target="_blank">{{ $t('Client Area') }}</a></li>
                 </ul>
               </nav>
             </div>
@@ -234,7 +244,7 @@
       justify-content: space-between;
       align-items: center;
       flex: 1 0;
-      @media (min-width: 1200px) {
+      @media (min-width: 1400px) {
         display: flex
       }
       .main-menu__pages {
@@ -278,6 +288,20 @@
         a {
           opacity: .7;
             margin-left: 10px
+        }
+      }
+      .main-menu__clientarea {
+        margin-left: 20px;
+        .buttn-clientarea {
+          padding: 7px 12px;
+          border-radius: 8px;
+          svg {
+            height: 13px;
+            width: auto
+          }
+          span {
+            white-space: nowrap;
+          }
         }
       }
     }
@@ -352,7 +376,7 @@
       }
       button {
         cursor: pointer;
-        @media (min-width: 1200px) {
+        @media (min-width: 1400px) {
           display: none
         }
       }

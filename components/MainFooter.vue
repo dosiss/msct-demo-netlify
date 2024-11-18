@@ -24,6 +24,7 @@
               <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
+              <li><a href="https://client.mascot.games" target="_blank" class="footer-menu__clientarea">{{ $t('Client Area') }}</a></li>
             </ul>
           </div>
           <ul class="footer-content__social-links">
@@ -329,9 +330,10 @@
           }
           .footer-menu {
             display: flex;
-            width: 477px;
+            width: 490px;
             margin-bottom: 35px;
             justify-content: space-between;
+            font-size: .9rem;
             @media (max-width: 850px) {
               width: 425px;
               margin-bottom: 20px;
