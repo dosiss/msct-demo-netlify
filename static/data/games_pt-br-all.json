@@ -196,20 +196,20 @@
   {
     "name": "Icy Rockfall X25",
     "slug": "icy-rockfall-x25",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/icy_rockfall_x25",
     "theme": "video slot",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-12-05",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_icyrockfall.jpeg",
+    "thumbUrl": "game_icyrockfall2.jpeg",
     "heroUrl": "hero_icyrockfall.jpg",
     "blueButtn": true,
     "videoUrl": null,
@@ -221,7 +221,7 @@
     "stats": {
       "reels": 5,
       "rows": 4,
-      "volatility": null,
+      "volatility": "Med",
       "paylines": 20,
       "payways": null,
       "html5": true,
@@ -231,7 +231,7 @@
     "features": [
       {
         "name": "Risk game",
-        "descr": "Risk your winnings by playing the Risk game. You can enhance your winnings by getting a win multiplier",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
         "imgUrl": "img-feat_icyrockfall-0.jpg"
       },
       {
@@ -247,7 +247,7 @@
     ],
     "meta": {
       "title": "Icy Rockfall X25, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Enter this magical time of year with Rockfall feature, Risk Game and x12500!"
     },
     "rockways": false
   },

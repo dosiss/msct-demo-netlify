@@ -1,5 +1,49 @@
 [
   {
+  "name": "Test",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Deposit with $100 and Play with $200 + Free Spins",
+  "url": "https://www.softswiss.com/games",
+  "logoUrl": "partner_fortunejack.png"
+},
+{
+"name": "Test",
+"type": "promopartner",
+"top": false,
+"casino": false,
+"platform": false,
+"promo": true,
+"promoText": "Deposit with $100 and Play with $200 + Free Spins",
+"url": "https://www.softswiss.com/games",
+"logoUrl": "partner_1win.png"
+},
+{
+"name": "Test",
+"type": "promopartner",
+"top": false,
+"casino": false,
+"platform": false,
+"promo": true,
+"promoText": "Deposit with $100 and Play with $200 + Free Spins",
+"url": "https://www.softswiss.com/games",
+"logoUrl": "partner_fortunejack.png"
+},
+{
+"name": "Test",
+"type": "promopartner",
+"top": false,
+"casino": false,
+"platform": false,
+"promo": true,
+"promoText": "Deposit with $100 and Play with $200 + Free Spins",
+"url": "https://www.softswiss.com/games",
+"logoUrl": "partner_1win.png"
+},
+  {
   "name": "Win777 challenge",
   "type": "promopartner",
   "top": false,
