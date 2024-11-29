@@ -628,6 +628,13 @@
         "imgUrl": "img-feat_booming-3.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "A Refreshing Spin in Paradise: Booming Fruity Boom Review",
+        "link": "https://mascot.games/blog/a-refreshing-spin-in-paradise-booming-fruity-boom-review",
+        "image": "img_blog_fruityboom-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Booming Fruity Boom, a video slot game by Mascot Gaming",
       "descr": "Enjoy a splash of fruits with Free Spins with modifiers and Risk & Buy feature."
@@ -689,6 +696,13 @@
         "name": "Extra Bonus Feature",
         "descr": "Reels filled with winning symbols provide an Extra win",
         "imgUrl": "img-feat_ouija-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Unlock the Mystical Treasures: Ouija Secrets Review",
+        "link": "https://mascot.games/blog/unlock-the-mystical-treasures-ouija-secrets-review",
+        "image": "img_blog_ouija-main.jpg"
       }
     ],
     "meta": {

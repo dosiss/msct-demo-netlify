@@ -1,5 +1,16 @@
 [
   {
+    "name": "Hotline promo",
+    "type": "promopartner",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": true,
+    "promoText": "Mascot Christmas \n30 winners \nPrize Pool: 3000 EUR\n27.11.2024 - 27.12.2024",
+    "url": "https://hotlinecasino.com/tournaments/Mascot_Christmas/2024-11-27%2008:00:00/2024-12-27%2008:00:00",
+    "logoUrl": "partner_hotline.png"
+  },
+  {
     "name": "PariMatch",
     "type": "promopartner",
     "top": false,
