@@ -316,6 +316,10 @@ import allGamesPT from '../static/data/games_pt-br-ttt.json'
           font-weight: 400;
           white-space: pre-line;
           margin-bottom: 40px;
+          @media (max-width: 850px) {
+            margin-left: auto;
+            margin-right: auto;
+          }
         }
       }
     }
@@ -390,7 +394,8 @@ import allGamesPT from '../static/data/games_pt-br-ttt.json'
     bottom: 38%;
     /* background: rgba(0, 0, 0, 0.01);
     backdrop-filter: blur(5px); */
-    background: #47467e;;
+    background: rgba(184, 201, 251, 0.15);
+    backdrop-filter: blur(8px);
     border-radius: 20rem;
     @media (max-width: 850px) {
       display: none
@@ -418,7 +423,8 @@ import allGamesPT from '../static/data/games_pt-br-ttt.json'
     bottom: 38%;
     /* background: rgba(0, 0, 0, 0.01);
     backdrop-filter: blur(5px); */
-    background: #47467e;;
+    background: rgba(184, 201, 251, 0.15);
+    backdrop-filter: blur(8px);
     border-radius: 20rem;
     @media (max-width: 850px) {
       display: none
