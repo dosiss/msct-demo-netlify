@@ -65,37 +65,37 @@
   {
     "name": "Space Gems. Rockblocks",
     "slug": "space-gems-rockblocks",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/space_gems_rockblocks",
     "theme": "video slot",
-    "type": " ",
+    "type": "traffic",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-12-19",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_spacegems.jpeg",
-    "heroUrl": "hero_spacegems.jpg",
-    "blueButtn": true,
+    "thumbUrl": "game_spacegems2.jpeg",
+    "heroUrl": "hero_spacegems2.jpg",
+    "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_spacegems.jpg",
     "logoUrl": "logo_spacegems.png",
     "backUrl": "back_spacegems.jpg",
-    "detailsImgUrl": "details_spacegems.png",
+    "detailsImgUrl": "details_spacegems2.png",
     "stats": {
       "reels": 6,
       "rows": 6,
-      "volatility": null,
+      "volatility": "Low",
       "paylines": "Rockblocks",
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
+      "rtp": 94.9,
+      "hitrate": 28.2
     },
     "features": [
       {
@@ -125,8 +125,8 @@
       }
     ],
     "meta": {
-      "title": "Space Gems Rockblocks, a video slot game by Mascot Gaming",
-      "descr": " "
+      "title": "Space Gems. Rockblocks, a video game by Mascot Gaming",
+      "descr": "Enjoy an intergalactic adventure with Coin Feature, Rockfall, Risk Game and Random Multipliers."
     },
     "rockways": false
   },

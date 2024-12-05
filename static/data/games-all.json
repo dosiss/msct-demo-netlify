@@ -65,37 +65,37 @@
   {
     "name": "Space Gems. Rockblocks",
     "slug": "space-gems-rockblocks",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/space_gems_rockblocks",
     "theme": "video slot",
-    "type": " ",
+    "type": "traffic",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-12-19",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_spacegems.jpeg",
-    "heroUrl": "hero_spacegems.jpg",
-    "blueButtn": true,
+    "thumbUrl": "game_spacegems2.jpeg",
+    "heroUrl": "hero_spacegems2.jpg",
+    "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_spacegems.jpg",
     "logoUrl": "logo_spacegems.png",
     "backUrl": "back_spacegems.jpg",
-    "detailsImgUrl": "details_spacegems.png",
+    "detailsImgUrl": "details_spacegems2.png",
     "stats": {
       "reels": 6,
       "rows": 6,
-      "volatility": null,
+      "volatility": "Low",
       "paylines": "Rockblocks",
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
+      "rtp": 94.9,
+      "hitrate": 28.2
     },
     "features": [
       {
@@ -125,8 +125,8 @@
       }
     ],
     "meta": {
-      "title": "Space Gems Rockblocks, a video slot game by Mascot Gaming",
-      "descr": " "
+      "title": "Space Gems. Rockblocks, a video game by Mascot Gaming",
+      "descr": "Enjoy an intergalactic adventure with Coin Feature, Rockfall, Risk Game and Random Multipliers."
     },
     "rockways": false
   },
@@ -520,7 +520,7 @@
     "comingSoon": false,
     "releaseDate": "2024-11-07",
     "featured": false,
-    "topGame": false,
+    "topGame": true,
     "branded": false,
     "custom": false,
     "descr": " ",
@@ -583,7 +583,7 @@
     "comingSoon": false,
     "releaseDate": "2024-10-24",
     "featured": false,
-    "topGame": false,
+    "topGame": true,
     "branded": false,
     "custom": false,
     "descr": " ",
@@ -653,7 +653,7 @@
     "comingSoon": false,
     "releaseDate": "2024-10-17",
     "featured": true,
-    "topGame": true,
+    "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
@@ -723,7 +723,7 @@
     "comingSoon": false,
     "releaseDate": "2024-10-03",
     "featured": true,
-    "topGame": true,
+    "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
@@ -1047,6 +1047,11 @@
       }
     ],
     "articles": [
+      {
+        "title": "Riot Ultimate - Game of the Month September 2024",
+        "link": "https://www.slotsmate.com/blog/riot-ultimate-by-mascot-gaming-game-of-the-month-september-2024",
+        "image": "img_blog_riotultimate-slotsmate.jpg"
+      },
       {
         "title": "The Post-Apocalyptic Showdown: Riot Ultimate Review",
         "link": "https://mascot.games/blog/the-post-apocalyptic-showdown-riot-ultimate-review",
@@ -4325,7 +4330,7 @@
     "comingSoon": false,
     "releaseDate": "2023-03-14",
     "featured": false,
-    "topGame": false,
+    "topGame": true,
     "branded": false,
     "custom": false,
     "descr": "Fruit reels spinning, catch your winning!",
@@ -7929,7 +7934,7 @@
     "comingSoon": false,
     "releaseDate": "2019-07-01",
     "featured": true,
-    "topGame": true,
+    "topGame": false,
     "branded": false,
     "custom": false,
     "descr": "We all love the atmosphere of the good old Vegas. A bright cocktail made of colourful fruits, funny music and favourite features is waiting for you. Let yourself drain into a fresh, juicy world!",
