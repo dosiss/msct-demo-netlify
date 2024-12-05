@@ -148,7 +148,7 @@
               background:  url('/images/img_ttt-games-feat1.png') no-repeat;
               background-size: contain;
               mix-blend-mode: luminosity;
-              opacity: 0.4;
+              opacity: 0.7;
             }
           }
           &:nth-child(2) {
@@ -164,7 +164,7 @@
               background-position-x: right;
               background-size: contain;
               mix-blend-mode: luminosity;
-              opacity: 0.4;
+              opacity: 0.7;
             }
           }
           &:nth-child(3) {
@@ -180,7 +180,7 @@
               background-position-x: right;
               background-size: contain;
               mix-blend-mode: luminosity;
-              opacity: 0.4;
+              opacity: 0.7;
             }
           }
           &:nth-child(4) {
@@ -196,7 +196,7 @@
               background-position-x: right;
               background-size: contain;
               mix-blend-mode: luminosity;
-              opacity: 0.4;
+              opacity: 0.7;
             }
           }
           &:nth-child(5) {
@@ -212,7 +212,7 @@
               background-position-x: right;
               background-size: contain;
               mix-blend-mode: luminosity;
-              opacity: 0.4;
+              opacity: 0.7;
             }
           }
           &:before {
