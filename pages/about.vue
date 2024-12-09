@@ -90,8 +90,8 @@
       }
     },
     mounted() {
-      this.title = this.$t('Mascot Gaming - casino games provider')
-      this.description = this.$t('We are a team of like-minded people who worked in gambling sphere for many years. We love our work and respect your business. Explore our history!')
+      this.title = this.$t('About Mascot Gaming')
+      this.description = this.$t('Mascot Gaming is among top creative gambling software developers, delivers innovative, engaging games with stunning visuals and exciting features worldwide.')
     }
   }
 </script>

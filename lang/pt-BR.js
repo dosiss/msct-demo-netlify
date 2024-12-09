@@ -254,7 +254,7 @@ export default {
 "PARTICIPATION IN STUDIES ON THE TREATMENT AND PREVENTION OF GAMBLING ADDICTION": "PARTICIPAÇÃO EM ESTUDOS SOBRE TRATAMENTO E PREVENÇÃO DO VÍCIO EM APOSTAS",
 
 "The more we know about the prevention and treatment of gambling addiction, the better we’ll be able to help manage it. Our company actively participates in donating to research on the prevention and treatment of gambling addiction. We also support various programs which are aimed at keeping the gaming community informed of the potential risks associated with developing a gambling addiction. Hence, one of our key priorities is developing a safe gambling culture.": "Quanto mais sabemos sobre a prevenção e tratamento do vício em apostas melhor poderemos ajudar a gerenciá-lo. Nossa empresa participa ativamente de doações para pesquisas sobre prevenção e tratamento do vício em apostas. Também apoiamos vários programas que visam manter a comunidade de jogos informada sobre os riscos potenciais associados ao desenvolvimento do vício em apostas. Portanto, uma das nossas principais prioridades é desenvolver uma cultura de apostas segura.",
-
+"Providing affordable and fast software solutions for high-quality online casino development.": "Múltiplas soluções para o desenvolvimento de cassino on-line. Acessível, de alta qualidade, rápido.",
 "Multiple solutions for the online casino development. Affordable, high-quality, fast.": "Múltiplas soluções para o desenvolvimento de cassino on-line. Acessível, de alta qualidade, rápido.",
 "Mascot Gaming`s Power&nbsp;Up": "Mascot Gaming`s Power&nbsp;Up",
 "Free Rounds": "Rodadas Grátis",
@@ -286,11 +286,11 @@ export default {
 "Get an offer": "Avalie uma oferta",
 "Profit games": "Jogos lucrativos",
 "Get the maximum profit from the player!": "Receba o máximo lucro do jogador!",
-"Plots that have been known for many years and have been used by masters of game development more than once let the player relax and find themselves in a well–known setting. An understandable and familiar game mechanic lets the player see a potentially big win.": "Enredos conhecidos há muito tempo e usados por mestres do desenvolvimento de jogos mais de uma vez permitem que o jogador relaxe e jogue em um cenário conhecido. Uma mecânica de jogo intuitiva e familiar permite ao jogador vislumbrar potenciais grandes ganhos.",
+"Plots that have been known for many years and have been used by masters of slot game development more than once let the player relax and find themselves in a well–known setting. An understandable and familiar game mechanic lets the player see a potentially big win.": "Enredos conhecidos há muito tempo e usados por mestres do desenvolvimento de jogos mais de uma vez permitem que o jogador relaxe e jogue em um cenário conhecido. Uma mecânica de jogo intuitiva e familiar permite ao jogador vislumbrar potenciais grandes ganhos.",
 "See all profit games": "Veja todos os jogos lucrativos",
 "Traffic games": "Jogos de tráfego",
 "Cost-optimised way to attract new players to your online casino!": "Forma otimizada de custo para atrair novos jogadores para o seu cassino on-line!",
-"An unusual, provocative storyline, eye–catching graphics, exclusive music, lot of features and their frequent appearance as well as a high hit rate.": "Um enredo incomum e provocativo, gráficos atraentes, música exclusiva, muitos recursos e visitas frequentes, bem como uma alta taxa de acerto.",
+"An unusual, provocative storyline, eye–catching graphics, exclusive music, lots of features, including the famous Risk & Buy, and their frequent appearance as well as a high hit rate.": "Um enredo incomum e provocativo, gráficos atraentes, música exclusiva, muitos recursos e visitas frequentes, bem como uma alta taxa de acerto.",
 "See all traffic games": "Ver todos os jogos de tráfego",
 "Reverse integration": "Integração reversa",
 "Boost Local Tournaments": "Promova torneios locais",

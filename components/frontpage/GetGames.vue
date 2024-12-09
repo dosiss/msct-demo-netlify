@@ -119,7 +119,7 @@
           <div class="get-offer">
             <div class="getgames-title">
               <h2 class="section-title">{{$t('Get an offer')}}</h2>
-              <p class="section-description">{{$t('Multiple solutions for the online casino development. Affordable, high-quality, fast.')}}</p>
+              <p class="section-description">{{$t('Providing affordable and fast software solutions for high-quality online casino development.')}}</p>
             </div>
           </div>
           <div class="get-offer__button">
@@ -148,7 +148,7 @@
                 <div class="item-content-group">
                   <h3 class="item-title">{{$t('Profit games')}}</h3>
                   <p class="section-description">{{$t('Get the maximum profit from the player!')}}</p>
-                  <p class="section-bodytext">{{$t('Plots that have been known for many years and have been used by masters of game development more than once let the player relax and find themselves in a well–known setting. An understandable and familiar game mechanic lets the player see a potentially big win.')}}</p>
+                  <p class="section-bodytext">{{$t('Plots that have been known for many years and have been used by masters of slot game development more than once let the player relax and find themselves in a well–known setting. An understandable and familiar game mechanic lets the player see a potentially big win.')}}</p>
                 </div>
                 <nuxt-link :to="localePath('/games?type=profit')" class="inner-link link-yellow">
                   <span>{{ $device.isMobile ? $t('See all') : $t('See all profit games') }}</span>
@@ -168,7 +168,7 @@
                 <div class="item-content-group">
                   <h3 class="item-title">{{$t('Traffic games')}}</h3>
                   <p class="section-description">{{$t('Cost-optimised way to attract new players to your online casino!')}}</p>
-                  <p class="section-bodytext">{{$t('An unusual, provocative storyline, eye–catching graphics, exclusive music, lot of features and their frequent appearance as well as a high hit rate.')}}</p>
+                  <p class="section-bodytext">{{$t('An unusual, provocative storyline, eye–catching graphics, exclusive music, lots of features, including the famous Risk & Buy, and their frequent appearance as well as a high hit rate.')}}</p>
                 </div>
                 <nuxt-link :to="localePath('/games?type=traffic')" class="inner-link link-yellow">
                   <span>{{ $device.isMobile ? $t('See all') : $t('See all traffic games') }}</span>

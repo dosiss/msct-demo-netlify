@@ -31,7 +31,7 @@
         <div class="video-background">
           <div class="vid">
             <video id="bgvideo" playsinline autoplay muted loop poster="/images/head_mix3_video.jpg"  width="1920" height="1080">
-              <source id="video-src" src="https://minio-api.mascot.games/mascot-videos/headvideo_mix3.mp4"  type="video/mp4">
+              <source id="video-src" src="https://minio-api.mascot.games/mascot-videos/headvideo_mix4.mp4"  type="video/mp4">
               <!-- <source id="video-src" src="~/assets/img/frontpage/headvideo-bastet.mp4"  type="video/mp4"> -->
             </video>
           </div>
@@ -195,7 +195,7 @@ html:lang(pt){
   }
 }
 .top-header__wrap {
-  padding: 280px 0 300px;
+  padding: 280px 0 200px;
   position: relative;
   @media (max-width: 850px) {
     padding: 470px 0 140px

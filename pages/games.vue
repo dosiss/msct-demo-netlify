@@ -267,7 +267,7 @@ export default {
         }
 
         this.title = this.$t('Exciting games for online casino. Feel the gaming thrill')
-        this.description = this.$t('Meet our diverse set of video slots for online casino. We develop a variety of unique games with different features and bonuses. Check it out.')
+        this.description = this.$t('Explore a wide selection of our casino games. Play Demo Now!')
 
   },
 
