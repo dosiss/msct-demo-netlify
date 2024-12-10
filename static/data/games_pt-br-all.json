@@ -63,6 +63,69 @@
     "rockways": false
   },
   {
+    "name": "Riot: Brutalski`s Revenge",
+    "slug": "riot-brutalskis-revenge",
+    "linkToDemo": "demo.mascot.games/run/riot_brutalskis_revenge",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2024-12-17",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_brutalski2.jpeg",
+    "heroUrl": "hero_brutalski.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_brutalski.jpg",
+    "logoUrl": "logo_brutalski.png",
+    "backUrl": "back_brutalski.jpg",
+    "detailsImgUrl": "details_brutalski2.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": null,
+      "paylines": null,
+      "payways": 243,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Gamble Feature",
+        "descr": "Guess the highest card to double your winnings",
+        "imgUrl": "img-feat_brutalski-0.jpg"
+      },
+      {
+        "name": "Buy Feature",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_brutalski-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Trigger 10, 15 or 30 Free Spins with an x3 multiplier",
+        "imgUrl": "img-feat_brutalski-2.jpg"
+      },
+      {
+        "name": "Fire Spins",
+        "descr": "FFire Spins with sticky symbols and the chance to improve the current winning combination",
+        "imgUrl": "img-feat_brutalski-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Riot: Brutalski's Revenge, a video slot game by Mascot Gaming",
+      "descr": "Revenge is served with Risk and Buy feature, Free Spins and Fire Spins."
+    },
+    "rockways": false
+  },
+  {
     "name": "Space Gems. Rockblocks",
     "slug": "space-gems-rockblocks",
     "linkToDemo": "demo.mascot.games/run/space_gems_rockblocks",
@@ -127,69 +190,6 @@
     "meta": {
       "title": "Space Gems. Rockblocks, a video game by Mascot Gaming",
       "descr": "Enjoy an intergalactic adventure with Coin Feature, Rockfall, Risk Game and Random Multipliers."
-    },
-    "rockways": false
-  },
-  {
-    "name": "Riot: Brutalski`s Revenge",
-    "slug": "riot-brutalskis-revenge",
-    "linkToDemo": " ",
-    "theme": "video slot",
-    "type": " ",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "comingSoon": true,
-    "releaseDate": "2024-12-17",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_brutalski.jpeg",
-    "heroUrl": "hero_brutalski.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_brutalski.jpg",
-    "logoUrl": "logo_brutalski.png",
-    "backUrl": "back_brutalski.jpg",
-    "detailsImgUrl": "details_brutalski.png",
-    "stats": {
-      "reels": 5,
-      "rows": 3,
-      "volatility": null,
-      "paylines": null,
-      "payways": 243,
-      "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
-    },
-    "features": [
-      {
-        "name": "Gamble",
-        "descr": "Risk your winnings by playing the Gamble feature. You can enhance your winnings by getting a win multiplier",
-        "imgUrl": "img-feat_brutalski-0.jpg"
-      },
-      {
-        "name": "Buy Feature",
-        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
-        "imgUrl": "img-feat_brutalski-1.jpg"
-      },
-      {
-        "name": "Free Spins",
-        "descr": "All payouts are multiplied by x3",
-        "imgUrl": "img-feat_brutalski-2.jpg"
-      },
-      {
-        "name": "Fire Respins",
-        "descr": "Free respins with the chance to improve the current winning combination",
-        "imgUrl": "img-feat_brutalski-3.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Riot: Brutalski`s Revenge, a video slot game by Mascot Gaming",
-      "descr": " "
     },
     "rockways": false
   },

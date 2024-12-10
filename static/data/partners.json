@@ -429,6 +429,17 @@
     "logoUrl": "partner_casinoorg.png"
   },
   {
+    "name": "Bet daddy",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.betdaddy.win/game-providers-reviews",
+    "logoUrl": "partner_betdaddy2.png"
+  },
+  {
     "name": "Fairspin.io",
     "type": "partner",
     "top": false,
