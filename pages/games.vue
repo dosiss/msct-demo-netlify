@@ -112,7 +112,7 @@
     <div class="games-descr-text container">Experience the thrill of our incredible games – play demo now and bring them to your casino!</div>
 
       <SharingButtons />
-      <vue-lazy-load><AdBannerSigmaEurope /></vue-lazy-load>
+      <vue-lazy-load><AdBannerIce /></vue-lazy-load>
       <MainFooter />
   </div>
 
