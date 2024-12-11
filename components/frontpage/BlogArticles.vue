@@ -8,7 +8,7 @@
         <div v-if="$device.isMobile || $device.isTablet" class="blog-articles__content container">
           <div v-for="article in topArticlesMobile" :key="article.slug" class="swiper-slide game-thumbnail">
             <div class="article-slide">
-              <NuxtLink :to="localePath({ name: 'blog-slug', params: { slug: article.slug } })">
+              <NuxtLink :to="`/blog/${article.slug}`">
                 <div class="article-img" :style="{ backgroundImage: `url(/images/${article.img})` }"></div>
                 <div class="article-content">
                   <div class="article-content__inner">
@@ -31,7 +31,7 @@
             <div class="swiper-wrapper">
               <div v-for="article in topArticles" :key="article.slug" class="swiper-slide game-thumbnail">
                 <div class="article-slide">
-                  <NuxtLink :to="localePath({ name: 'blog-slug', params: { slug: article.slug } })" @click="handleClick">
+                  <NuxtLink :to="`/blog/${article.slug}`" @click="handleClick">
                     <div class="article-img" :style="{ backgroundImage: `url(/images/${article.img})` }"></div>
                     <div class="article-content">
                       <div class="article-content__inner">
@@ -112,6 +112,10 @@
 
    async fetch() {
       this.articles = await this.$content('articles')
+        .where({
+          // Exclude Spanish and Portuguese paths
+          slug: { $not: /^(es|pt)\// }
+        })
         .only(['slug', 'img', 'archiveDate', 'heading'])
         .sortBy('archiveDate', 'desc')
       .fetch()

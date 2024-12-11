@@ -188,7 +188,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     langDir: 'lang/',
     defaultLocale: 'en',
     lazy: true,
-    silentTranslationWarn: true
+    silentTranslationWarn: true,
+
+    differentDomains: false,
+    strategy: 'prefix_except_default',
+    parsePages: false, // Important for custom routing
+    pages: {
+      'blog/_slug': {
+        en: true,
+        es: false,
+        pt: false
+      }
+    }
   },
 
    sitemap: {
