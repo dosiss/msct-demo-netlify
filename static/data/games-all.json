@@ -2,20 +2,20 @@
   {
     "name": "Spicy Candies. Rockblocks",
     "slug": "spicy-candies-rockblocks",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/spicy_candies_rockblocks",
     "theme": "video slot",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2024-12-24",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_spicycandies.jpeg",
+    "thumbUrl": "game_spicycandies2.jpeg",
     "heroUrl": "hero_spicycandies.jpg",
     "blueButtn": true,
     "videoUrl": null,
@@ -57,8 +57,8 @@
       }
     ],
     "meta": {
-      "title": "Spicy Candies Rockblocks, a video slot game by Mascot Gaming",
-      "descr": " "
+      "title": "Spicy Candies Rockblocks, a video game by Mascot Gaming",
+      "descr": "Unleash the spice with Rockfall with a win multiplier, Coin Feature and the Rick Game."
     },
     "rockways": false
   },
