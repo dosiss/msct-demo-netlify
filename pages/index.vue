@@ -12,6 +12,7 @@
     <!-- <section id="featured">
       <FeaturedStatic />
     </section> -->
+    <TicTacToeGames />
     <section id="getgames">
       <GetGames />
     </section>

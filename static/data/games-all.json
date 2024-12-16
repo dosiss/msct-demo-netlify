@@ -1,5 +1,622 @@
 [
   {
+    "name": "Zeus the Invincible",
+    "slug": "zeus-the-invincible",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "rockways": false,
+    "comingSoon": true,
+    "releaseDate": "2025-03-13",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_zeusinvincible.jpeg",
+    "heroUrl": "hero_zeusinvincible.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_zeusinvincible.jpg",
+    "logoUrl": "logo_zeusinvincible.png",
+    "backUrl": "back_zeusinvincible.jpg",
+    "detailsImgUrl": "details_zeusinvincible.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": " ",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_zeusinvincible-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Buy Free Spins or Bonus Game with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_zeusinvincible-1.jpg"
+      },
+      {
+        "name": "Free Spins with Sticky Wild Reels and Respins",
+        "descr": "Symbols transform into Wild Reels and trigger Free Respins",
+        "imgUrl": "img-feat_zeusinvincible-2.jpg"
+      },
+      {
+        "name": "Free Spins with Sticky Wilds",
+        "descr": "Symbols transform into Sticky Wilds until the end of the Free Spins series",
+        "imgUrl": "img-feat_zeusinvincible-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Zeus the Invincible, a video slot game by Mascot Gaming",
+      "descr": " "
+    }
+  },
+  {
+    "name": "Keno party",
+    "slug": "keno-party",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-03-13",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_kenoparty2.jpeg",
+    "heroUrl": "hero_kenoparty.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_kenoparty.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_kenoparty.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Keno",
+        "descr": "The player selects between 1 and 10 numbers out of 40. The server randomly generates 10 numbers out of 40. If the player's selections match the server's, the player wins the bet",
+        "imgUrl": "img-feat_kenoparty-0.jpg"
+      },
+      {
+        "name": "Multiplayer",
+        "descr": "This mode allows multiple players to participate in the same round",
+        "imgUrl": "img-feat_kenoparty-1.jpg"
+      },
+      {
+        "name": "Multiple Bets",
+        "descr": "Players can place between 1 and 5 bets per round",
+        "imgUrl": "img-feat_kenoparty-2.jpg"
+      },
+      {
+        "name": "Maximum Multiplier up to x10,000",
+        "descr": "A win multiplier that can go as high as x10,000",
+        "imgUrl": "img-feat_kenoparty-3.jpg"
+      },
+      {
+        "name": "Player Leaderboard",
+        "descr": "An online display showing players in the current round and the biggest wins in the game’s history",
+        "imgUrl": "img-feat_kenoparty-4.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players progress through ranks, unlocking new customization options and avatars",
+        "imgUrl": "img-feat_kenoparty-5.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to suit their preferences through customization features",
+        "imgUrl": "img-feat_kenoparty-6.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Keno party title",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Shooting Galaxy",
+    "slug": "shooting-galaxy",
+    "linkToDemo": " ",
+    "theme": "shooting",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": true,
+    "releaseDate": "2025-03-04",
+    "featured": false,
+    "topGame":false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_shootinggalaxy2.jpeg",
+    "heroUrl": "hero_shootinggalaxy.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_shootinggalaxy.jpg",
+    "logoUrl": "logo_shootinggalaxy.png",
+    "backUrl": "back_shootinggalaxy.jpg",
+    "detailsImgUrl": "details_shootinggalaxy.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": false,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Bonus Games",
+        "descr": "Two types of Bonus Games with different bosses",
+        "imgUrl": "img-feat_shootinggalaxy-0.jpg"
+      },
+      {
+        "name": "Free Shots",
+        "descr": "Free Shots for capturing special symbols",
+        "imgUrl": "img-feat_shootinggalaxy-1.jpg"
+      },
+      {
+        "name": "Special Rewards",
+        "descr": "Additional rewards for capturing special symbols",
+        "imgUrl": "img-feat_shootinggalaxy-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Shooting Galaxy, a video game by Mascot Gaming",
+      "descr": " "
+    }
+  },
+  {
+    "name": "Plinko pop",
+    "slug": "plinko-pop",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-02-27",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_plinkopop2.jpeg",
+    "heroUrl": "hero_plinkopop.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_plinkopop.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_plinkopop.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Plinko",
+        "descr": "A ball drops from the top and bounces off pegs arranged in a pyramid shape as it falls. At the bottom, it lands in one of 17 multiplier slots, determining the player’s winnings based on the multiplier",
+        "imgUrl": "img-feat_plinkopop-0.jpg"
+      },
+      {
+        "name": "3 Risk Levels",
+        "descr": "Choose between low, medium, and high risk. The level of risk determines the minimum and maximum multipliers the ball can land on",
+        "imgUrl": "img-feat_plinkopop-1.jpg"
+      },
+      {
+        "name": "Maximum Multiplier up to x1,000",
+        "descr": "A winning multiplier that can reach up to x1,000",
+        "imgUrl": "img-feat_plinkopop-2.jpg"
+      },
+      {
+        "name": "Realistic Physics Model",
+        "descr": "Balls fall and bounce off the pegs with precision, following an accurate physics model",
+        "imgUrl": "img-feat_plinkopop-3.jpg"
+      },
+      {
+        "name": "People Win",
+        "descr": "A live feed displaying the biggest wins in the last 20 seconds",
+        "imgUrl": "img-feat_plinkopop-4.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization options and avatars",
+        "imgUrl": "img-feat_plinkopope-5.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their preferences using customization features",
+        "imgUrl": "img-feat_plinkopop-6.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Plinko pop title",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "10K-dice",
+    "slug": "10k-dice",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-02-27",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_10kdice2.jpeg",
+    "heroUrl": "hero_10kdice.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_10kdice.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_10kdice.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Dice",
+        "descr": "A number range from 0.00 to 100.00. The player selects a custom range (from and to). A random number is then generated, and if it falls within the selected range, the player wins their bet",
+        "imgUrl": "img-feat_10kdice-0.jpg"
+      },
+      {
+        "name": "Range Selection",
+        "descr": "Players can define their range either manually through input fields or conveniently using a slider",
+        "imgUrl": "img-feat_10kdice-1.jpg"
+      },
+      {
+        "name": "Maximum Multiplier up to x10,000",
+        "descr": "A potential multiplier reaching up to x10,000",
+        "imgUrl": "img-feat_10kdice-2.jpg"
+      },
+      {
+        "name": "People Win",
+        "descr": "A live feed showcasing the biggest wins in the last 20 seconds",
+        "imgUrl": "img-feat_10kdice-3.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization options and avatars",
+        "imgUrl": "img-feat_10kdice-4.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their liking through customization features",
+        "imgUrl": "img-feat_10kdice-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "10K-dice title",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Mines Blast",
+    "slug": "mines-blast",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-02-27",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_minesblast2.jpeg",
+    "heroUrl": "hero_minesblast.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_minesblast.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_minesblast.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Mines",
+        "descr": "A 5x5 grid where players can select between 1 and 24 cells. If no mines are hidden in the chosen cells, the player wins their bet",
+        "imgUrl": "img-feat_minesblast-0.jpg"
+      },
+      {
+        "name": "Multiplayer",
+        "descr": "Players can adjust the number of mines on the grid, which directly affects the win multiplier",
+        "imgUrl": "img-feat_minesblast-1.jpg"
+      },
+      {
+        "name": "Maximum Multiplier up to x5000000",
+        "descr": "An incredible win multiplier that can reach up to x5000000",
+        "imgUrl": "img-feat_minesblast-2.jpg"
+      },
+      {
+        "name": "Pattern Selection",
+        "descr": "The mode includes pre-set patterns for selecting cells, making the betting process faster and more convenient",
+        "imgUrl": "img-feat_minesblast-3.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players progress through ranks, unlocking new customization options and avatars",
+        "imgUrl": "img-feat_minesblast-4.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to suit their preferences using the customization features",
+        "imgUrl": "img-feat_minesblast-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Mines Blast title",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "The Biggest Win x50",
+    "slug": "the-biggest-win-x50",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-02-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_biggestwin.jpeg",
+    "heroUrl": "hero_biggestwin.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_biggestwin.jpg",
+    "logoUrl": "logo_biggestwin.png",
+    "backUrl": "back_biggestwin.jpg",
+    "detailsImgUrl": "details_biggestwin.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 5,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Gamble",
+        "descr": "Risk your winnings by playing the Gamble feature. You can enhance your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_biggestwin-0.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "Each non-winning spin increases the win multiplier up to x50",
+        "imgUrl": "img-feat_biggestwin-1.jpg"
+      },
+      {
+        "name": "Payouts from Any Reel",
+        "descr": "Winning combinations start on any reel",
+        "imgUrl": "img-feat_biggestwin-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "The Biggest Win x50, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Space Blaze",
+    "slug": "space-blaze",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-01-30",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": "Exciting space crash journey",
+    "thumbUrl": "game_spaceblaze2.jpeg",
+    "heroUrl": "hero_spaceblaze2.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_spaceblaze.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_spaceblaze.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Crash",
+        "descr": "The win multiplier continuously grows, and the player must cash out their bet before the rocket explodes",
+        "imgUrl": "img-feat_spaceblaze-0.jpg"
+      },
+      {
+        "name": "Multiplayer",
+        "descr": "This mode allows multiple players to participate in the same round",
+        "imgUrl": "img-feat_spaceblaze-1.jpg"
+      },
+      {
+        "name": "3 Bet Controllers",
+        "descr": "Players can place between 1 and 3 bets in a single round",
+        "imgUrl": "img-feat_spaceblaze-2.jpg"
+      },
+      {
+        "name": "Growing Multiplier",
+        "descr": "A dynamic multiplier that can reach up to x100 000",
+        "imgUrl": "img-feat_spaceblaze-3.jpg"
+      },
+      {
+        "name": "Player Leaderboard",
+        "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
+        "imgUrl": "img-feat_spaceblaze-4.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization elements and avatars",
+        "imgUrl": "img-feat_spaceblaze-5.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their liking using customization options",
+        "imgUrl": "img-feat_spaceblaze-6.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Space Blaze",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Lucky Year 25",
+    "slug": "lucky-year-25",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-01-21",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_luckyyear.jpeg",
+    "heroUrl": "hero_luckyyear.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_luckyyear.jpg",
+    "logoUrl": "logo_luckyyear.png",
+    "backUrl": "back_luckyyear.jpg",
+    "detailsImgUrl": "details_luckyyear.png",
+    "stats": {
+      "reels": 5,
+      "rows": 2,
+      "volatility": null,
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Risk game",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_luckyyear-0.jpg"
+      },
+      {
+        "name": "Wild with a Multiplier",
+        "descr": "Wins from combinations with the Wild symbol are doubled",
+        "imgUrl": "img-feat_luckyyear-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Free spins with additional Free Spins and multipliers ranging from x3 to x25",
+        "imgUrl": "img-feat_luckyyear-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Lucky Year 25, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
     "name": "Spicy Candies. Rockblocks",
     "slug": "spicy-candies-rockblocks",
     "linkToDemo": "demo.mascot.games/run/spicy_candies_rockblocks",

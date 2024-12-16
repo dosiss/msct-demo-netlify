@@ -14,6 +14,7 @@
               </button>
               <button :class="{ active: gameFilterKey == 'comingsoon' }" class="buttn buttn-rounded buttn-sm buttn-comingsoon" @click="handleFilterChange('comingsoon')"><span>{{$t('Coming Soon')}}</span></button>
               <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('top')">{{$t('Тор games')}} - {{gamesCountItem("topGame")}}</button>
+              <button :class="{ active: gameFilterKey == 'tictactoe' }" class="buttn buttn-rounded buttn-sm buttn-tictactoe" @click="handleFilterChange('tictactoe')"><span>{{$t('TTT games')}}</span></button>
               <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('traffic')">{{$t('Traffic-generating games')}} - {{gamesCountType("traffic")}}</button>
               <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('profit')">{{$t('Profit-making games')}} - {{gamesCountType("profit")}}</button>
               <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('videoslots')">{{$t('Video slots')}} - {{gamesCountTheme("video slot")}}</button>
@@ -191,6 +192,9 @@ export default {
       comingsoon() {
         return allGames.filter((game) => game.comingSoon === true)
       },
+      tictactoe() {
+        return allGames.filter((game) => game.theme === "tictactoe")
+      },
       videoslots() {
         return allGames.filter((game) => game.theme === "video slot")
       },
@@ -273,7 +277,7 @@ export default {
 
   methods: {
     handleFilterChange(filterKey) {
-      const allowedFilters = ['all', 'comingsoon', 'top', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'rockways', 'branded', 'custom'];
+      const allowedFilters = ['all', 'comingsoon', 'top', 'tictactoe', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'rockways', 'branded', 'custom'];
 
       if (!allowedFilters.includes(filterKey)) {
   //      console.warn('Invalid filter key:', filterKey);
@@ -505,6 +509,46 @@ export default {
           span {
             background: rgb(226,126,66);
             background: linear-gradient(90deg, rgba(226,126,66,1) 0%, rgba(246,199,69,1) 100%);
+            color:#fff
+          }
+        }
+      }
+      &.buttn-tictactoe {
+        border: none;
+        position: relative;
+        background: #fff;
+        padding: 5px !important;
+         span {
+          background: #FF5151;
+          background: linear-gradient(0deg, #FF5151 0%, #FFA63E 100%);
+          text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+          border-width: 0;
+          border-radius: 20rem;
+          padding: 11px 35px 11px 12px !important;
+
+        }
+        &:before {
+          content: '';
+          position: absolute;
+          height: 57px;
+          width: 60px;
+          top: -9px;
+          right: -6px;
+          background: url('/images/img_filter-rocket.png')no-repeat;
+          background-size: contain;
+        }
+        &:hover {
+          background: #FF5151;
+          background: linear-gradient(0deg, #FF5151 0%, #FFA63E 100%);
+          color: #fff;
+          transition: background-color 0.2s ease-in;
+        }
+        &.active {
+          background: rgb(226,126,66);
+          background: linear-gradient(90deg, #FF6C1A 0%, #FFE604 100%);
+          span {
+            background: rgb(226,126,66);
+            background: linear-gradient(90deg, #FF6C1A 0%, #FFE604 100%);
             color:#fff
           }
         }

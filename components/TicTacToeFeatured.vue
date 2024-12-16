@@ -60,7 +60,7 @@
           <div slot="button-next" class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 11 11L1 23"/></svg></div>
         </div>
         <div class="buttn-custom__wrap container">
-          <NuxtLink :to="`${backgroundGameData.slug}`" class="buttn buttn-custom buttn-transparent">{{$t('More games')}}</NuxtLink>
+          <NuxtLink :to="localePath('/games')" class="buttn buttn-custom buttn-transparent">{{$t('More games')}}</NuxtLink>
         </div>
       </div>
 
@@ -69,9 +69,9 @@
 </template>
 
 <script>
-import allGames from '../static/data/games-ttt.json'
-import allGamesES from '../static/data/games_es-ttt.json'
-import allGamesPT from '../static/data/games_pt-br-ttt.json'
+import allGames from '../static/data/games-all.json'
+import allGamesES from '../static/data/games_es-all.json'
+import allGamesPT from '../static/data/games_pt-br-all.json'
 
 
   export default {
@@ -145,7 +145,7 @@ import allGamesPT from '../static/data/games_pt-br-ttt.json'
 
     computed: {
         gamesFeatured() {
-        return this.gamesList.filter(val => (val.featured !== false))
+        return this.gamesList.filter(val => (val.theme === 'tictactoe'))
       }
 
 
@@ -175,7 +175,7 @@ import allGamesPT from '../static/data/games_pt-br-ttt.json'
       }
 
 
-      const firstGame = this.gamesList.filter(val => (val.featured !== false))[0];
+      const firstGame = this.gamesList.filter(val => (val.theme === 'tictactoe'))[0];
 
     //  firstGame.classList.add('selected');
 
@@ -254,6 +254,9 @@ import allGamesPT from '../static/data/games_pt-br-ttt.json'
     height: 820px;
     background-size: cover;
     background-position: top center;
+    @media (max-width: 1600px) {
+      height: 760px
+    }
     @media (max-width: 850px) {
       height: 700px;
       padding-top: 100px;
@@ -316,6 +319,10 @@ import allGamesPT from '../static/data/games_pt-br-ttt.json'
           font-weight: 400;
           white-space: pre-line;
           margin-bottom: 40px;
+          @media (max-width: 850px) {
+            margin-left: auto;
+            margin-right: auto;
+          }
         }
       }
     }
@@ -390,7 +397,8 @@ import allGamesPT from '../static/data/games_pt-br-ttt.json'
     bottom: 38%;
     /* background: rgba(0, 0, 0, 0.01);
     backdrop-filter: blur(5px); */
-    background: #47467e;;
+    background: rgba(184, 201, 251, 0.15);
+    backdrop-filter: blur(8px);
     border-radius: 20rem;
     @media (max-width: 850px) {
       display: none
@@ -418,7 +426,8 @@ import allGamesPT from '../static/data/games_pt-br-ttt.json'
     bottom: 38%;
     /* background: rgba(0, 0, 0, 0.01);
     backdrop-filter: blur(5px); */
-    background: #47467e;;
+    background: rgba(184, 201, 251, 0.15);
+    backdrop-filter: blur(8px);
     border-radius: 20rem;
     @media (max-width: 850px) {
       display: none
@@ -549,6 +558,4 @@ import allGamesPT from '../static/data/games_pt-br-ttt.json'
     }
   }
 }
-
-
 </style>

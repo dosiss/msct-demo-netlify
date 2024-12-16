@@ -18,6 +18,7 @@
           <nav class="main-menu__pages">
             <ul>
               <li><NuxtLink :to="localePath('/games')">{{ $t('Games') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/tic-tac-toe-games')">{{ $t('TTT games') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
               <li><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
@@ -90,6 +91,7 @@
               <nav class="mobile-menu__pages">
                 <ul>
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/games')">{{ $t('Games') }}</NuxtLink></li>
+                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/tic-tac-toe-games')">{{ $t('TTT games') }}</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>

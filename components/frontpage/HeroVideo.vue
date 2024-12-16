@@ -30,7 +30,7 @@
       </div> -->
         <div class="video-background">
           <div class="vid">
-            <video id="bgvideo" playsinline autoplay muted loop poster="/images/head_mix3_video.jpg"  width="1920" height="1080">
+            <video id="bgvideo" playsinline autoplay muted loop poster="/images/head_mix4_video.jpg"  width="1920" height="1080">
               <source id="video-src" src="https://minio-api.mascot.games/mascot-videos/headvideo_mix4.mp4"  type="video/mp4">
               <!-- <source id="video-src" src="~/assets/img/frontpage/headvideo-bastet.mp4"  type="video/mp4"> -->
             </video>
@@ -146,7 +146,7 @@ html:lang(pt){
     background: url('@/static/images/img-hero-static_pad.jpg') center top no-repeat;
   } */
   @media (max-width: 650px) {
-    background: url('@/static/images/img-hero-static3_mobile.jpg') center top no-repeat;
+    background: url('@/static/images/img-hero-static4_mobile.jpg') center top no-repeat;
     background-size: cover;
     background-position-y: 50px
   }

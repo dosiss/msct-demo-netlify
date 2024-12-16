@@ -246,6 +246,35 @@ p {
       cursor: pointer;
     }
   }
+  &.buttn-blue {
+    background: #4382FF;
+    font-weight: 700;
+    border-radius: 8px;
+    color: #fff;
+    &.buttn-m {
+      width: 259px;
+      text-align: center;
+      padding: 22px 10px;
+      font-size: 1.25rem;
+      line-height: 1;
+      text-transform: uppercase;
+      border-radius: 12px;
+      @media (max-width: 650px) {
+        width: 100%;
+        font-size: 1.06rem;
+        padding-top: 14px;
+        padding-bottom: 14px
+      }
+    }
+    &.buttn-wide {
+      width: 380px
+    }
+    &:hover {
+      color: #fff;
+      transition: .2s ease-in .2s;
+      cursor: pointer;
+    }
+  }
   &.buttn-colored {
     background: #FFCF24;
     color: #000;

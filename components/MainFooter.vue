@@ -19,11 +19,12 @@
             </div>
             <ul class="footer-menu">
               <li><NuxtLink :to="localePath('/games')">{{ $t('Games') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/tic-tac-toe-games')">{{ $t('TTT games') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
               <li><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
+              <!-- <li><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li> -->
               <li><a href="https://client.mascot.games" target="_blank" class="footer-menu__clientarea">{{ $t('Client Area') }}</a></li>
             </ul>
           </div>
