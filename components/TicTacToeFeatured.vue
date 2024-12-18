@@ -60,7 +60,7 @@
           <div slot="button-next" class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 11 11L1 23"/></svg></div>
         </div>
         <div class="buttn-custom__wrap container">
-          <NuxtLink :to="localePath('/games')" class="buttn buttn-custom buttn-transparent">{{$t('More games')}}</NuxtLink>
+          <NuxtLink :to="localePath('/games?type=tictactoe')" class="buttn buttn-custom buttn-transparent">{{$t('More games')}}</NuxtLink>
         </div>
       </div>
 
@@ -144,13 +144,28 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     },
 
     computed: {
-        gamesFeatured() {
-        return this.gamesList.filter(val => (val.theme === 'tictactoe'))
+      gamesFeatured() {
+        // Display games in the given order, use game slug
+        const gameOrder = ['space-blaze', 'plinko-pop', 'mines-blast', '10k-dice', 'keno-party'];
+
+        const filteredGames = this.gamesList.filter(val => val.theme === 'tictactoe');
+
+        return filteredGames.sort((a, b) => {
+          const indexA = gameOrder.indexOf(a.slug);
+          const indexB = gameOrder.indexOf(b.slug);
+
+          if (indexA !== -1 && indexB !== -1) {
+            return indexA - indexB;
+          }
+
+          if (indexA !== -1) return -1;
+          if (indexB !== -1) return 1;
+
+          return 0;
+        });
       }
-
-
-
     },
+
     async mounted() {
 
       try {
@@ -175,7 +190,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
       }
 
 
-      const firstGame = this.gamesList.filter(val => (val.theme === 'tictactoe'))[0];
+      const firstGame = this.gamesFeatured.filter(val => (val.theme === 'tictactoe'))[0];
 
     //  firstGame.classList.add('selected');
 

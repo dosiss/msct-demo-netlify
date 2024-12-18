@@ -15,7 +15,7 @@
           <div class="ttt-games__top-features">
             <div class="feature-item">Crash games</div>
             <div class="feature-item">Mines</div>
-            <div class="feature-item">Plinco</div>
+            <div class="feature-item">Plinko</div>
             <div class="feature-item">Double</div>
             <div class="feature-item">Dice</div>
             <div class="feature-item">and more</div>
@@ -87,8 +87,8 @@
       }
     },
     mounted() {
-      this.title = this.$t('Mascot Gaming - casino games provider')
-      this.description = this.$t('We are a team of like-minded people who worked in gambling sphere for many years. We love our work and respect your business. Explore our history!')
+      this.title = this.$t('Mascot Gaming - Tic Tac Toe games')
+      this.description = this.$t('Fast, stylish, and endlessly engaging — TTT Games by Mascot Gaming redefines iGaming for the modern player')
     }
   }
 </script>

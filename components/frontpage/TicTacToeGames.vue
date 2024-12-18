@@ -14,7 +14,7 @@
           <div class="ttt-games__top-features">
             <div class="feature-item">Crash games</div>
             <div class="feature-item">Mines</div>
-            <div class="feature-item">Plinco</div>
+            <div class="feature-item">Plinko</div>
             <div class="feature-item">Double</div>
             <div class="feature-item">Dice</div>
             <div class="feature-item">and more</div>

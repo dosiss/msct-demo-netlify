@@ -1980,6 +1980,39 @@
     "logoUrl": "partner_bikinislots.png"
   },
   {
+    "name": "Batery win",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://batery.win/",
+    "logoUrl": "partner_baterywin.png"
+  },
+  {
+    "name": "Fon bet",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://fonbet.by/",
+    "logoUrl": "partner_fonbet.png"
+  },
+  {
+    "name": "Batery bet",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://batery-bet.in/",
+    "logoUrl": "partner_batery.png"
+  },
+  {
     "name": "lcb.org",
     "type": "media",
     "top": false,

@@ -78,13 +78,13 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_kenoparty2.jpeg",
+    "thumbUrl": "game_kenoparty3.jpeg",
     "heroUrl": "hero_kenoparty.jpg",
     "blueButtn": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": " ",
-    "logoUrl": "logo_kenoparty.png",
+    "logoUrl": "logo_kenoparty3.png",
     "backUrl": " ",
     "detailsImgUrl": "details_kenoparty.png",
     "stats": {
@@ -135,7 +135,7 @@
       }
     ],
     "meta": {
-      "title": "Keno party title",
+      "title": "Keno party",
       "descr": " "
     },
     "rockways": false
@@ -214,13 +214,13 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_plinkopop2.jpeg",
+    "thumbUrl": "game_plinkopop3.jpeg",
     "heroUrl": "hero_plinkopop.jpg",
     "blueButtn": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": " ",
-    "logoUrl": "logo_plinkopop.png",
+    "logoUrl": "logo_plinkopop3.png",
     "backUrl": " ",
     "detailsImgUrl": "details_plinkopop.png",
     "stats": {
@@ -271,7 +271,7 @@
       }
     ],
     "meta": {
-      "title": "Plinko pop title",
+      "title": "Plinko pop",
       "descr": " "
     },
     "rockways": false
@@ -292,13 +292,13 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_10kdice2.jpeg",
+    "thumbUrl": "game_10kdice3.jpeg",
     "heroUrl": "hero_10kdice.jpg",
     "blueButtn": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": " ",
-    "logoUrl": "logo_10kdice.png",
+    "logoUrl": "logo_10kdice3.png",
     "backUrl": " ",
     "detailsImgUrl": "details_10kdice.png",
     "stats": {
@@ -365,13 +365,13 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_minesblast2.jpeg",
+    "thumbUrl": "game_minesblast3.jpeg",
     "heroUrl": "hero_minesblast.jpg",
     "blueButtn": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": " ",
-    "logoUrl": "logo_minesblast.png",
+    "logoUrl": "logo_minesblast3.png",
     "backUrl": " ",
     "detailsImgUrl": "details_minesblast.png",
     "stats": {
@@ -417,7 +417,7 @@
       }
     ],
     "meta": {
-      "title": "Mines Blast title",
+      "title": "Mines Blast",
       "descr": " "
     },
     "rockways": false
@@ -496,13 +496,13 @@
     "branded": false,
     "custom": false,
     "descr": "Exciting space crash journey",
-    "thumbUrl": "game_spaceblaze2.jpeg",
+    "thumbUrl": "game_spaceblaze3.jpeg",
     "heroUrl": "hero_spaceblaze2.jpg",
     "blueButtn": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": " ",
-    "logoUrl": "logo_spaceblaze.png",
+    "logoUrl": "logo_spaceblaze3.png",
     "backUrl": " ",
     "detailsImgUrl": "details_spaceblaze.png",
     "stats": {
