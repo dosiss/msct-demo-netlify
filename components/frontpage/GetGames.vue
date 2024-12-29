@@ -102,7 +102,7 @@
               <nuxt-img src="/images/img_front-onjn2.png" alt="" />
             </div>
             <div class="features-license__item-img">
-              <a href="https://access.gaminglabs.com/certificate/index?i=338" target="_blank"><nuxt-img src="/images/img_front-gaminglabs2.png" alt="" /></a>
+              <nuxt-img src="/images/img_front-mga.png" alt="" />
             </div>
           </div>
           <div class="features-license__button">
