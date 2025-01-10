@@ -73,10 +73,10 @@
           decorImage: 'img_about-ninja.png'
         },
         {
-          name: 'Anton Syzronov',
+          name: 'Anton Syzranov',
           position: this.$t('Chief Information Officer'),
           avatar: 'img_about-char8.png',
-          content: '<span>&ldquo;I’m incredibly proud to be part of this company from day one. Watching us grow and expand to international markets has been inspiring. We strive to deliver the best products for our amazing clients, pouring our passion and dedication into every step. I believe our hard work will pay off, making a real mark in the casino industry and earning the appreciation of our partners. It’s fulfilling to be on this journey with such a committed team, and I can’t w ait to see what the future holds for us!&rdquo;</span>',
+          content: '<span>&ldquo;I’m incredibly proud to be part of this company from day one. Watching us grow and expand to international markets has been inspiring. We strive to deliver the best products for our amazing clients, pouring our passion and dedication into every step. I believe our hard work will pay off, making a real mark in the casino industry and earning the appreciation of our partners. It’s fulfilling to be on this journey with such a committed team, and I can’t wait to see what the future holds for us!&rdquo;</span>',
           backImage: 'img_about-back-3.jpg',
           decorImage: 'img_about-rabbit.png'
         },

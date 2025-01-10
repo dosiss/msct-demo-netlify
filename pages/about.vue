@@ -7,7 +7,7 @@
         <h1>{{$t('About Us')}}</h1>
         <article>
           <p>{{$t('Mascot Gaming is more than just a casino software developer; it is a team of passionate professionals dedicated to delivering an exceptional gambling experience to clients.')}}</p>
-          <p>{{$t('Since 2015, Mascot Gaming has focused on perfecting the gaming experience. Every spin is designed to captivate, as your enjoyment is our priority. We take a thoughtful and conservative approach to launching new projects, prioritizing the quality of our well-received games over pursuing numerous business ventures.For us, maintaining the integrity of our games and standing out among other iGaming companies is more valuable than expanding into multiple opportunities.')}}</p>
+          <p>{{$t('Since 2015, Mascot Gaming has focused on perfecting the gaming experience. Every spin is designed to captivate, as your enjoyment is our priority. We take a thoughtful and conservative approach to launching new projects, prioritizing the quality of our well-received games over pursuing numerous business ventures. For us, maintaining the integrity of our games and standing out among other iGaming companies is more valuable than expanding into multiple opportunities.')}}</p>
           <AboutSlider />
           <p>{{$t('The essence of Mascot Gaming`s development strategy is to deliver a perfect blend of mathematical models and the latest gaming features, spiced up by rich graphics and sound design and enrolled with exciting game themes! Professional players demand nothing less!')}}</p>
           <AboutTimeline :blocks="blocks" />
