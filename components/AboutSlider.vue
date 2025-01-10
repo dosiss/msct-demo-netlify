@@ -36,7 +36,7 @@
             name: 'Dmitry Malyshev',
             position: this.$t('Chief Technology Officer'),
             avatar: 'img_about-char2.png',
-            content: this.$t('<span>&ldquo;It all started as an ambitious idea and a dream to create a high-quality product developed in-house and demanded around the world.</span><br><br><span>Years after we find ourselves at the stage we dreamt to be and I’m proud of our results. Everyday we contribute to our mutual success and I appreciate how the team upskill each other. Our work is never a routine, but always a challenge and a way to grow.&rdquo;</span>'),
+            content: this.$t('<span>&ldquo;It all started as an ambitious idea and a dream to create a high-quality product developed in-house and demanded around the world.</span><br><br><span>Years after we find ourselves at the stage we dreamt to be and I’m proud of our results. Every day we contribute to our mutual success and I appreciate how the team upskill each other. Our work is never a routine, but always a challenge and a way to grow.&rdquo;</span>'),
             backImage: 'img_about-back-22.jpg',
             decorImage: 'img_about-robot.png'
           },

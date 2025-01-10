@@ -20,7 +20,7 @@
     <div v-else class="blocks-columns">
       <div class="column left-column">
         <template v-for="(block, index) in blocks">
-          <div v-if="index % 2 === 0" :key="index" class="block">
+          <div v-if="index % 2 !== 0" :key="index" class="block">
             <div class="block-inner" :style="{ backgroundImage: `url(/images/${block.backImage})` }">
               <div v-if="block.soonTag === true" class="block-tag-soon">Soon</div>
               <nuxt-img v-if="block.decorImage" :src="`/images/${block.decorImage}`" class="block-decor" :style="{top: `${block.posTop}`, bottom: `${block.posBottom}`, right:`${block.posRight}`, left: `${block.posLeft}`}" alt="" />
@@ -38,7 +38,7 @@
       </div>
       <div class="column right-column">
         <template v-for="(block, index) in blocks">
-          <div v-if="index % 2 !== 0" :key="index" class="block">
+          <div v-if="index % 2 === 0" :key="index" class="block">
             <div class="block-inner" :style="{ backgroundImage: `url(/images/${block.backImage})` }">
               <div v-if="block.soonTag === true" class="block-tag-soon">Soon</div>
               <nuxt-img v-if="block.decorImage" :src="`/images/${block.decorImage}`" class="block-decor" :style="{top: `${block.posTop}`, bottom: `${block.posBottom}`, right:`${block.posRight}`, left: `${block.posLeft}`}" alt="" />
@@ -183,6 +183,7 @@ export default {
 .left-column {
   border-right: 7px solid #464646;
   position: relative;
+  padding-top: 150px; /* add in case of even qty of events */
   .block {
     margin-right: 30px;
     &:before {
@@ -216,7 +217,7 @@ export default {
   }
 }
 .right-column {
-  margin-top: 220px;
+  /* margin-top: 220px; /* add in case of odd qty of events */
   .block {
     margin-left: 30px;
     &:before {

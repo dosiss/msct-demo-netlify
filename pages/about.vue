@@ -30,6 +30,7 @@
         title: '',
         description: '',
         blocks: [
+        { month: this.$t('December'), year: '2024', title: this.$t('Best Designed Crash Game'), description: this.$t('Crash, Hamster, Crash! honored with the <strong>"Best Designed Crash Game"</strong> award by <a href="https://crashgambler.io/crash-gamblers-2024-awards/" target="_blank">CrashGambler.io</a>'), image: 'img_about-item41.png', backImage: 'img_about-back1.jpg', decorImage: '', soonTag: false  },
         { month: this.$t('October'), year: '2024', title: this.$t('Game of the Month'), description: this.$t('Fruit Vegas Extreme x125 named Game of the Month by <a href="https://mascot.games/blog/fruit-vegas-extreme-x125-game-of-the-month" target="_blank">NonStopBonus.com</a>'), image: 'img_about-item32.png', backImage: 'img_about-back7.jpg', decorImage: '', soonTag: false  },
         { month: this.$t('July'), year: '2024', title: this.$t('Global Lab Georgia'), description: this.$t('Games certified by Global Lab for the Georgian market.'), image: 'img_about-item30.png', backImage: '', decorImage: 'img_about-apples.png', soonTag: false, posTop: 'unset', posBottom: '-25px', posRight: '-12px', posLeft: 'unset'},
         { month: this.$t('July'), year: '2024', title: this.$t('Global Lab Portugal'), description: this.$t('Games certified for the Portuguese market by Global Lab, allowing entry into another key European market.'), image: 'img_about-item30.png', backImage: '', decorImage: '', soonTag: false  },
