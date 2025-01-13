@@ -344,7 +344,7 @@
       }
     ],
     "meta": {
-      "title": "10K-dice title",
+      "title": "10K-dice",
       "descr": " "
     },
     "rockways": false
@@ -391,13 +391,13 @@
         "imgUrl": "img-feat_minesblast-0.jpg"
       },
       {
-        "name": "Multiplayer",
+        "name": "Mines Amount Selector",
         "descr": "Players can adjust the number of mines on the grid, which directly affects the win multiplier",
         "imgUrl": "img-feat_minesblast-1.jpg"
       },
       {
-        "name": "Maximum Multiplier up to x5000000",
-        "descr": "An incredible win multiplier that can reach up to x5000000",
+        "name": "Maximum Multiplier up to x5,000,000",
+        "descr": "An incredible win multiplier that can reach up to x5,000,000",
         "imgUrl": "img-feat_minesblast-2.jpg"
       },
       {
@@ -2941,6 +2941,11 @@
       }
     ],
     "articles": [
+      {
+        "title": "Crash, Hamster, Crash! wins the Best Designed Crash Game award",
+        "link": "https://mascot.games/blog/crash-hamster-crash-wins-the-best-designed-crash-game-award",
+        "image": "img_blog_hamster-win-main.jpg"
+      },
       {
         "title": "Hamsters, Ufo And Mascot Gaming: “Crash, Hamster, Crash” Review.",
         "link": "https://mascot.games/blog/crash-hamster-crash-review",
