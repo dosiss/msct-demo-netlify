@@ -391,13 +391,13 @@
         "imgUrl": "img-feat_minesblast-0.jpg"
       },
       {
-        "name": "Multiplayer",
+        "name": "Mines Amount Selector",
         "descr": "Players can adjust the number of mines on the grid, which directly affects the win multiplier",
         "imgUrl": "img-feat_minesblast-1.jpg"
       },
       {
-        "name": "Maximum Multiplier up to x5000000",
-        "descr": "An incredible win multiplier that can reach up to x5000000",
+        "name": "Maximum Multiplier up to x5,000,000",
+        "descr": "An incredible win multiplier that can reach up to x5,000,000",
         "imgUrl": "img-feat_minesblast-2.jpg"
       },
       {
@@ -561,20 +561,20 @@
   {
     "name": "Lucky Year 25",
     "slug": "lucky-year-25",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/lucky_year_25",
     "theme": "video slot",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
-    "releaseDate": "2025-01-21",
+    "comingSoon": false,
+    "releaseDate": "2025-01-23",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_luckyyear.jpeg",
+    "thumbUrl": "game_luckyyear2.jpeg",
     "heroUrl": "hero_luckyyear.jpg",
     "blueButtn": true,
     "videoUrl": null,
@@ -585,34 +585,35 @@
     "detailsImgUrl": "details_luckyyear.png",
     "stats": {
       "reels": 5,
-      "rows": 2,
-      "volatility": null,
+      "rows": 3,
+      "volatility": "Med",
       "paylines": 20,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
+      "rtp": 95.3,
+      "hitrate": 20.9
     },
     "features": [
       {
-        "name": "Risk game",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
-        "imgUrl": "img-feat_luckyyear-0.jpg"
-      },
-      {
         "name": "Wild with a Multiplier",
-        "descr": "Wins from combinations with the Wild symbol are doubled",
-        "imgUrl": "img-feat_luckyyear-1.jpg"
+        "descr": "Winnings from combinations with the Wild symbol are doubled",
+        "imgUrl": "img-feat_luckyyear-0.jpg"
       },
       {
         "name": "Free Spins",
         "descr": "Free spins with additional Free Spins and multipliers ranging from x3 to x25",
+        "imgUrl": "img-feat_luckyyear-1.jpg"
+      },
+      {
+        "name": "Risk game",
+        "descr": "Risk your winnings to get a win multiplier",
         "imgUrl": "img-feat_luckyyear-2.jpg"
       }
+
     ],
     "meta": {
       "title": "Lucky Year 25, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Start your year with Free Spins, Wild with a Multiplier, Risk Game and x7500!"
     },
     "rockways": false
   },
