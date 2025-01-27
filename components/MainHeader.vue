@@ -255,9 +255,9 @@
           display: flex;
           list-style: none;
           li {
-            padding: 0 20px;
-            @media (max-width: 1575px) {
-              padding: 0 10px
+            padding: 0 10px;
+            @media (max-width: 1480px) {
+              padding: 0 5px
             }
           }
         }

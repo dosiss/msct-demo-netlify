@@ -483,13 +483,13 @@
   {
     "name": "Space Blaze",
     "slug": "space-blaze",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/space_blaze",
     "theme": "tictactoe",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-01-30",
     "featured": false,
     "topGame": false,
@@ -498,7 +498,7 @@
     "descr": "Exciting space crash journey",
     "thumbUrl": "game_spaceblaze3.jpeg",
     "heroUrl": "hero_spaceblaze2.jpg",
-    "blueButtn": true,
+    "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": " ",
@@ -508,23 +508,23 @@
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "Adjustable",
       "paylines": null,
       "payways": null,
       "html5": true,
-      "rtp": " ",
+      "rtp": 95.0,
       "hitrate": "  "
     },
     "features": [
       {
-        "name": "Crash",
+        "name": "Crash Game",
         "descr": "The win multiplier continuously grows, and the player must cash out their bet before the rocket explodes",
-        "imgUrl": "img-feat_spaceblaze-0.jpg"
+        "imgUrl": null
       },
       {
         "name": "Multiplayer",
         "descr": "This mode allows multiple players to participate in the same round",
-        "imgUrl": "img-feat_spaceblaze-1.jpg"
+        "imgUrl": null
       },
       {
         "name": "3 Bet Controllers",
@@ -534,10 +534,10 @@
       {
         "name": "Growing Multiplier",
         "descr": "A dynamic multiplier that can reach up to x100 000",
-        "imgUrl": "img-feat_spaceblaze-3.jpg"
+        "imgUrl": null
       },
       {
-        "name": "Player Leaderboard",
+        "name": "Live Leaderboard",
         "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
         "imgUrl": "img-feat_spaceblaze-4.jpg"
       },
@@ -553,8 +553,8 @@
       }
     ],
     "meta": {
-      "title": "Space Blaze",
-      "descr": " "
+      "title": "Space Blaze, a video game by TTT Games",
+      "descr": "Powered by Mascot Gaming, Space Blaze offers incredible multipliers up to x100000 and fantastic features like multiplier and customization."
     },
     "rockways": false
   },
