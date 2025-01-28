@@ -503,12 +503,12 @@
     "videoEnabled": false,
     "placeholderUrl": " ",
     "logoUrl": "logo_spaceblaze3.png",
-    "backUrl": " ",
+    "backUrl": "back_spaceblaze.jpg",
     "detailsImgUrl": "details_spaceblaze.png",
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": "Adjustable",
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
@@ -533,7 +533,7 @@
       },
       {
         "name": "Growing Multiplier",
-        "descr": "A dynamic multiplier that can reach up to x100 000",
+        "descr": "A dynamic multiplier that can reach up to x10 000",
         "imgUrl": null
       },
       {
@@ -554,7 +554,7 @@
     ],
     "meta": {
       "title": "Space Blaze, a video game by TTT Games",
-      "descr": "Powered by Mascot Gaming, Space Blaze offers incredible multipliers up to x100000 and fantastic features like multiplier and customization."
+      "descr": "Powered by Mascot Gaming, Space Blaze offers incredible multipliers up to x10000 and fantastic features like multiplayer and customization."
     },
     "rockways": false
   },
