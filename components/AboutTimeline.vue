@@ -183,7 +183,7 @@ export default {
 .left-column {
   border-right: 7px solid #464646;
   position: relative;
-  padding-top: 150px; /* add in case of even qty of events */
+  /* padding-top: 150px; /* add in case of even qty of events */
   .block {
     margin-right: 30px;
     &:before {
@@ -217,7 +217,7 @@ export default {
   }
 }
 .right-column {
-  /* margin-top: 220px; /* add in case of odd qty of events */
+   margin-top: 220px; /* add in case of odd qty of events */
   .block {
     margin-left: 30px;
     &:before {
