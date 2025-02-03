@@ -737,6 +737,13 @@
         "imgUrl": "img-feat_brutalski-3.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Flames of Fortune: Riot Brutalski`s Revenge Review",
+        "link": "https://mascot.games/blog/flames-of-fortune-riot-brutalskis-revenge-review",
+        "image": "img_blog_brutalski-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Riot: Brutalski's Revenge, a video slot game by Mascot Gaming",
       "descr": "Revenge is served with Risk and Buy feature, Free Spins and Fire Spins."
@@ -861,6 +868,13 @@
         "name": "Coin Feature",
         "descr": "Scatters award coin prizes",
         "imgUrl": "img-feat_icyrockfall-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "A Winter Wonderland of Rewards: Icy Rockfall x25 Review",
+        "link": "https://mascot.games/blog/a-winter-wonderland-of-rewards-icy-rockfall-x25-review",
+        "image": "img_blog_icyrockfall-main.jpg"
       }
     ],
     "meta": {
