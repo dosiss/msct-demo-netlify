@@ -425,22 +425,22 @@
   {
     "name": "The Biggest Win x50",
     "slug": "the-biggest-win-x50",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/the_biggest_win_x50",
     "theme": "video slot",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
-    "releaseDate": "2025-02-11",
+    "comingSoon": false,
+    "releaseDate": "2025-02-13",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_biggestwin.jpeg",
+    "thumbUrl": "game_biggestwin2.jpeg",
     "heroUrl": "hero_biggestwin.jpg",
-    "blueButtn": true,
+    "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_biggestwin.jpg",
@@ -450,33 +450,33 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": null,
+      "volatility": "Low",
       "paylines": 5,
       "payways": null,
       "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
+      "rtp": 95.21,
+      "hitrate": 76.3
     },
     "features": [
       {
-        "name": "Gamble",
-        "descr": "Risk your winnings by playing the Gamble feature. You can enhance your winnings by getting a win multiplier",
-        "imgUrl": "img-feat_biggestwin-0.jpg"
-      },
-      {
         "name": "Win Multiplier",
         "descr": "Each non-winning spin increases the win multiplier up to x50",
-        "imgUrl": "img-feat_biggestwin-1.jpg"
+        "imgUrl": "img-feat_biggestwin-0.jpg"
       },
       {
         "name": "Payouts from Any Reel",
         "descr": "Winning combinations start on any reel",
+        "imgUrl": "img-feat_biggestwin-1.jpg"
+      },
+      {
+        "name": "Gamble",
+        "descr": "Risk your winnings by playing the Gamble feature. You can enhance your winnings by getting a win multiplier",
         "imgUrl": "img-feat_biggestwin-2.jpg"
       }
     ],
     "meta": {
       "title": "The Biggest Win x50, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Golden light, juicy wins and multiplier that keep growing!"
     },
     "rockways": false
   },
