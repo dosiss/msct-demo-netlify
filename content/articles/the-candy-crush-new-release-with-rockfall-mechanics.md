@@ -5,6 +5,7 @@ img: img_blog_candy-main.jpg
 heading: 'The Candy Crush - new release with Rockfall mechanics'
 shortDescr: 'Discover what Mascot Gaming prepared for you in the new release in addition to bellowed Rockfall mechanics and signature top-notch visuals.'
 archiveDate: 2022-03-02
+hidden: true
 ---
 As the long-awaited addition to Mascot’s slots with Rockfall mechanics, The Candy Crush is here to please the gamblers all over the world. When you might have thought it cannot get more exciting, prepare yourself as the new release not only offers old features in a new design but also introduces Random features that cannot be found in any other Mascot Gaming slot yet.
 

@@ -5,6 +5,7 @@ img: img_blog_brazilian-market.jpg
 heading: 'Brazilian iGambling Market'
 shortDescr: 'As the Brazilian online gambling market rapidly ascends the global ranks, standing as the fifth-largest by player volume, with over 100 million participants, and tenth by estimated market value. To successfully integrate into the market, developers must present the right products for local preferences and ensure they are offered at the correct online casino software price.'
 archiveDate: 2024-04-19
+hidden: true
 ---
 
 As the Brazilian online gambling market rapidly ascends the global ranks, standing as the fifth-largest by player volume, with over 100 million participants, and tenth by estimated market value. To successfully integrate into the market, developers must present the right products for local preferences and ensure they are offered at the correct online casino software price.

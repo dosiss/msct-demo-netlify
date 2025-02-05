@@ -49,6 +49,7 @@ import PrevNext from '~/components/PrevNext'
       .only(['title', 'slug', 'img', 'archiveDate'])
       .sortBy('archiveDate', 'asc')
       .surround(params.slug)
+      .where({ hidden: { $ne: true }})
       .fetch()
 
     return {

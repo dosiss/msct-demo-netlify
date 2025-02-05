@@ -5,6 +5,7 @@ img: SlotsMate-Badge_March_2022.png
 heading: 'The Candy Crush becomes a Slot of March in 2022!'
 shortDescr: 'We are delighted to inform you that The Candy Crush, one of the newest slot games by Mascot Gaming, has been chosen Slot of the Month for March 2022 on the SlotsMate platform.'
 archiveDate: 2022-03-25
+hidden: true
 ---
 We're happy to announce that our last release The Candy Crush was selected as Slot of the Month for March 2022 by SlotsMate.com!
 

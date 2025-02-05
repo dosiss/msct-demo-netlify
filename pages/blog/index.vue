@@ -41,7 +41,8 @@
       const articles = await $content('articles')
         .where({
           // Exclude Spanish and Portuguese paths
-          slug: { $not: /^(es|pt)\// }
+          slug: { $not: /^(es|pt)\// },
+          hidden: { $ne: true }
         })
         .only(['slug', 'img', 'archiveDate', 'heading', 'shortDescr'])
         .sortBy('archiveDate', 'desc')
