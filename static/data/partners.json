@@ -1980,7 +1980,7 @@
     "logoUrl": "partner_baterywin.png"
   },
   {
-    "name": "Fon bet",
+    "name": "Fonbet",
     "type": "partner",
     "top": false,
     "casino": true,
@@ -1988,7 +1988,7 @@
     "promo": false,
     "promoText": null,
     "url": "https://fonbet.by/",
-    "logoUrl": "partner_fonbet.png"
+    "logoUrl": "partner_fonbet2.png"
   },
   {
     "name": "Batery bet",
