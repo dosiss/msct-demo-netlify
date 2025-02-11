@@ -140,11 +140,43 @@ import PrevNext from '~/components/PrevNext'
       margin-top: 20px
     }
   }
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    @media (max-width: 650px) {
+      font-size: 1.1rem;
+    }
+  }
   .created-date {
     margin-bottom: 30px;
     @media (max-width: 650px) {
       margin-bottom:20px
     }
+  }
+  .img-small-80 {
+    max-width: 75%;
+    margin-bottom: 15px;
+    @media (max-width: 850px) {
+      max-width: 100%
+    }
+  }
+  .img-small-50 {
+    max-width: 49.5%;
+    margin-bottom: 15px;
+    @media (max-width: 850px) {
+      max-width: 100%
+    }
+  }
+  .position-right {
+    float: right;
+    margin-left: 30px
+  }
+  .position-mid {
+    margin: 0 auto 15px;
+    display: block;
+  }
+  .smaller p {
+    font-size: 95%
   }
 }
 .nuxt-content {

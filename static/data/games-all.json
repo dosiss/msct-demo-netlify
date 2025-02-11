@@ -552,6 +552,13 @@
         "imgUrl": "img-feat_spaceblaze-6.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Mascot Gaming introduces Tic Tac Toe Games",
+        "link": "https://mascot.games/blog/mascot-gaming-introduces-tic-tac-toe-games",
+        "image": "img_blog_tttintro-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Space Blaze, a video game by TTT Games",
       "descr": "Powered by Mascot Gaming, Space Blaze offers incredible multipliers up to x10000 and fantastic features like multiplayer and customization."
