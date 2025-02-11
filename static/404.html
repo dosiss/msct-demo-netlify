@@ -10,29 +10,115 @@
     <meta data-n-head="1" name="viewport" content="width=device-width, initial-scale=1">
     <style>
     body {
-    font-family: Avenir,sans-serif;
+    font-family: 'Avenir',sans-serif;
     color: #fff;
     background: #000
     }
     #page404 {
     text-align: center;
-    min-height: 100vh;
-    padding-top: 30vh
+    height: 100vh;
+    padding: 20vh 20px
+    }
+
+    #page404 .page404-content {
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: left;
+      position: relative;
     }
 
     #page404 .numbers-big {
         font-size: 5rem;
         margin-bottom: 40px
     }
+    #page404 .text-extrabig {
+      font-size: 260px;
+      margin-bottom: 20px;
+      line-height: .8;
+      font-weight: bold
+    }
+
+    #page404 .page404-subtitle {
+      font-size: 22px;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      font-weight: bold
+    }
+
+    #page404 p {
+      font-size: 18px;
+      font-weight: bold;
+      max-width: 460px;
+      line-height: 1.5
+    }
+    #page404 .page404-content .image-mobile {
+      display: none;
+    }
+
+    #page404 .page404-content .image-desktop {
+      position: absolute;
+      top: -70px;
+      right: 0;
+    }
 
     #page404 a {
+      display: block;
+      width: 215px;
+      text-align: center;
+      padding: 22px 0;
+      font-size: 1.5rem;
+      line-height: 1;
+      text-transform: uppercase;
+      border-radius: 12px;
+      background: #DB001D;
+      letter-spacing: 0.1px;
+      font-weight: 700;
+      margin-top: 40px;
+      cursor: pointer
+    }
+
+    @media (max-width:850px) {
+      #page404 .page404-content__text {
+        max-width: 60%;
+        text-align: center
+      }
+      #page404 .page404-content .image-desktop {
+        max-height: 300px;
+        width: auto;
+      }
+      #page404 .text-extrabig {
+        font-size: 180px
+      }
+      #page404 .page404-subtitle {
+        font-size: 16px;
+        margin-bottom: 25px;
+      }
+      #page404 p {
+        font-size: 16px
+      }
+      #page404 a {
+        margin: 40px auto;
+        width: 300px
+      }
+    }
+
+    @media (max-width: 650px) {
+      #page404 .page404-content .image-desktop {
+        display: none
+      }
+      #page404 .page404-content .image-mobile {
         display: block;
-        color: #219cf6;
-        border-bottom: 1px solid #219cf6;
-        max-width: -moz-fit-content;
-        max-width: fit-content;
-        margin: 20px auto;
-        cursor: pointer
+      }
+      #page404 .page404-content__text {
+        max-width: 100%;
+
+      }
+      #page404 .text-extrabig {
+        font-size: 91px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
     }
 
     :where(:not(html):not(iframe):not(canvas):not(img):not(svg):not(video):not(audio):not(svg *):not(symbol *)) {
@@ -49,9 +135,18 @@
       <div id="__nuxt">
         <div id="__layout">
           <div id="page404">
-            <div class="numbers-big">404</div>
-            <p>The page you're looking for doesn't exist</p>
-            <a href="/" class="nuxt-link-active">Return to Home page</a>
+            <div class="page404-content">
+              <div class="page404-content__text">
+                <div class="text-extrabig">
+                  <img src="/images/construction-rabbit-mob.png" class="image-mobile" alt="" />
+                  <span>404</span>
+                </div>
+                <div class="page404-subtitle">Our mascot is on construction site!</div>
+                <p>Sorry, the page you are looking for is unavailable or doesn’t exist.</p>
+              </div>
+              <a href="/" class="buttn buttn-primary buttn-m">Go home</a>
+              <img src="/images/construction-rabbit.png" class="image-desktop" alt="" />
+            </div>
           </div>
         </div>
       </div>
