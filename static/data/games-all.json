@@ -352,13 +352,13 @@
   {
     "name": "Mines Blast",
     "slug": "mines-blast",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/mines_blast",
     "theme": "tictactoe",
-    "type": " ",
+    "type": "demo.mascot.games/run/mines_blast",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-02-27",
     "featured": false,
     "topGame": false,
@@ -367,7 +367,7 @@
     "descr": " ",
     "thumbUrl": "game_minesblast3.jpeg",
     "heroUrl": "hero_minesblast.jpg",
-    "blueButtn": true,
+    "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": " ",
@@ -417,8 +417,66 @@
       }
     ],
     "meta": {
-      "title": "Mines Blast",
-      "descr": " "
+      "title": "Mines Blast, a video game by TTT Games",
+      "descr": "Powered by Mascot Gaming"
+    },
+    "rockways": false
+  },
+  {
+    "name": "Bitmine Bonanza",
+    "slug": "bitmine-bonanza",
+    "linkToDemo": "demo.mascot.games/run/bitmine_bonanza",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2025-02-20",
+    "featured": false,
+    "topGame": false,
+    "branded": true,
+    "custom": true,
+    "descr": " ",
+    "thumbUrl": "game_bitmine.jpeg",
+    "heroUrl": "hero_bitmine.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_bitmine.jpg",
+    "logoUrl": "logo_bitmine.png",
+    "backUrl": "back_bitmine.jpg",
+    "detailsImgUrl": "details_bitmine.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 5,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Win Multiplier",
+        "descr": "Each non-winning spin increases the win multiplier up to x25",
+        "imgUrl": "img-feat_bitmine-0.jpg"
+      },
+      {
+        "name": "Risk Game",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings with a win multiplier",
+        "imgUrl": "img-feat_bitmine-1.jpg"
+      },
+      {
+        "name": "Payouts in Both Directions",
+        "descr": "Winning combinations are paid from left to right and from right to left",
+        "imgUrl": "img-feat_bitmine-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Bitmine Bonanza, a video slot game by Mascot Faming",
+      "descr": "Futuristic reels await in this amazing branded slot."
     },
     "rockways": false
   },
