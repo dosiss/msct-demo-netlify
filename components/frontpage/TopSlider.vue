@@ -3,7 +3,7 @@
     <div class="swiper-wrapper">
       <div v-for="banner in banners" :key="banner" class="swiper-slide">
         <img :src="banner">
-      </div>      
+      </div>
     </div>
     <div class="swiper-pagination"></div>
   </div> -->
@@ -113,7 +113,7 @@ import allGames from '../../static/data/games-all.json'
 //      }
     gamesTopSlider() {
 //      return allGames.filter(val => (val.custom !== true && val.branded !== true))
-      return allGames.filter(val => (val.custom !== true && val.comingSoon !== true))
+      return allGames.filter(val => (val.custom !== true && val.comingSoon !== true && val.slug !== 'mines-blast'))
 
     }
 
