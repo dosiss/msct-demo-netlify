@@ -532,6 +532,13 @@
         "imgUrl": "img-feat_biggestwin-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "The Elegance of Risk: The Biggest Win x50 Review",
+        "link": "https://mascot.games/blog/the-elegance-of-risk-the-biggest-win-x50-review",
+        "image": "img_blog_biggestwin-main.jpg"
+      }
+    ],
     "meta": {
       "title": "The Biggest Win x50, a video slot game by Mascot Gaming",
       "descr": "Golden light, juicy wins and multiplier that keep growing!"
@@ -676,6 +683,13 @@
       }
 
     ],
+    "articles": [
+      {
+        "title": "Fortune Awaits: Lucky Year 25 Review",
+        "link": "https://mascot.games/blog/fortune-awaits-lucky-year-25-review",
+        "image": "img_blog_luckyyear-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Lucky Year 25, a video slot game by Mascot Gaming",
       "descr": "Start your year with Free Spins, Wild with a Multiplier, Risk Game and x7500!"
@@ -737,6 +751,13 @@
         "name": "Coin Feature",
         "descr": "Coin symbols award prizes in coins",
         "imgUrl": "img-feat_spicycandies-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Yummy Gummy: Spicy Candies Rockblocks Review",
+        "link": "https://mascot.games/blog/yummy-gummy-spicy-candies-rockblocks-review",
+        "image": "img_blog_spicycandies-main.jpg"
       }
     ],
     "meta": {
