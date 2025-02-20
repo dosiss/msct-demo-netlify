@@ -671,6 +671,17 @@
     "logoUrl": "partner_vibragaming.png"
   },
   {
+    "name": "GG Bet",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": true,
+    "promo": false,
+    "promoText": null,
+    "url": "https://gg.bet/en/casino",
+    "logoUrl": "partner_ggbet.png"
+  },
+  {
     "name": "7bit",
     "type": "partner",
     "top": true,

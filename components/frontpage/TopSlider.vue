@@ -113,7 +113,7 @@ import allGames from '../../static/data/games-all.json'
 //      }
     gamesTopSlider() {
 //      return allGames.filter(val => (val.custom !== true && val.branded !== true))
-      return allGames.filter(val => (val.custom !== true && val.comingSoon !== true && val.slug !== 'mines-blast'))
+      return allGames.filter(val => (val.custom !== true && val.comingSoon !== true))
 
     }
 

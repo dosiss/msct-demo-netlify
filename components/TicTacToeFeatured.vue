@@ -145,8 +145,8 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
 
     computed: {
       gamesFeatured() {
-        // Display games in the given order, use game slug
-        const gameOrder = ['space-blaze', 'plinko-pop', 'mines-blast', '10k-dice', 'keno-party'];
+
+        const gameOrder = ['space-blaze', 'mines-blast', '10k-dice', 'plinko-pop', 'keno-party'];
 
         const filteredGames = this.gamesList.filter(val => val.theme === 'tictactoe');
 

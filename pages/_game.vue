@@ -538,11 +538,6 @@ export default {
       }
     }
   }
-  .game_mines-blast {
-    .screenshots-carousel__wrap {
-      display: none
-    }
-  }
   .game_wild-phoenix-rises {
     @include feature-new
   }

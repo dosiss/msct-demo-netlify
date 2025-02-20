@@ -105,7 +105,7 @@
       },
       {
         "name": "Multiplayer",
-        "descr": "This mode allows multiple players to participate in the same round",
+        "descr": "This game allows multiple players to participate in the same round",
         "imgUrl": "img-feat_kenoparty-1.jpg"
       },
       {
@@ -255,7 +255,7 @@
         "imgUrl": "img-feat_plinkopop-3.jpg"
       },
       {
-        "name": "People Win",
+        "name": "Last Big Wins",
         "descr": "A live feed displaying the biggest wins in the last 20 seconds",
         "imgUrl": "img-feat_plinkopop-4.jpg"
       },
@@ -277,16 +277,16 @@
     "rockways": false
   },
   {
-    "name": "10K-dice",
+    "name": "10K Dice",
     "slug": "10k-dice",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/10k_dice",
     "theme": "tictactoe",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
-    "releaseDate": "2025-02-27",
+    "comingSoon": false,
+    "releaseDate": "2025-03-06",
     "featured": false,
     "topGame": false,
     "branded": false,
@@ -294,7 +294,7 @@
     "descr": " ",
     "thumbUrl": "game_10kdice3.jpeg",
     "heroUrl": "hero_10kdice.jpg",
-    "blueButtn": true,
+    "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": " ",
@@ -304,7 +304,7 @@
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
@@ -315,7 +315,7 @@
       {
         "name": "Dice",
         "descr": "A number range from 0.00 to 100.00. The player selects a custom range (from and to). A random number is then generated, and if it falls within the selected range, the player wins their bet",
-        "imgUrl": "img-feat_10kdice-0.jpg"
+        "imgUrl": null
       },
       {
         "name": "Range Selection",
@@ -323,29 +323,31 @@
         "imgUrl": "img-feat_10kdice-1.jpg"
       },
       {
-        "name": "Maximum Multiplier up to x10,000",
-        "descr": "A potential multiplier reaching up to x10,000",
-        "imgUrl": "img-feat_10kdice-2.jpg"
-      },
-      {
-        "name": "People Win",
+        "name": "Last Big Wins",
         "descr": "A live feed showcasing the biggest wins in the last 20 seconds",
-        "imgUrl": "img-feat_10kdice-3.jpg"
+        "imgUrl": "img-feat_10kdice-2.jpg"
       },
       {
         "name": "Ranks",
         "descr": "By placing bets, players advance through ranks, unlocking new customization options and avatars",
-        "imgUrl": "img-feat_10kdice-4.jpg"
+        "imgUrl": "img-feat_10kdice-3.jpg"
       },
       {
         "name": "Customization",
         "descr": "Players can personalize the game area and interface elements to their liking through customization features",
-        "imgUrl": "img-feat_10kdice-5.jpg"
+        "imgUrl": "img-feat_10kdice-4.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Mascot Gaming introduces Tic Tac Toe Games",
+        "link": "https://mascot.games/blog/mascot-gaming-introduces-tic-tac-toe-games",
+        "image": "img_blog_tttintro-main.jpg"
       }
     ],
     "meta": {
-      "title": "10K-dice",
-      "descr": " "
+      "title": "10K Dice, a video game by TTT Games",
+      "descr": "Narrow the odds and maximize rewards with exciting features and x9500!"
     },
     "rockways": false
   },
@@ -354,7 +356,7 @@
     "slug": "mines-blast",
     "linkToDemo": "demo.mascot.games/run/mines_blast",
     "theme": "tictactoe",
-    "type": "demo.mascot.games/run/mines_blast",
+    "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
@@ -377,7 +379,7 @@
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
@@ -387,8 +389,8 @@
     "features": [
       {
         "name": "Mines",
-        "descr": "A 5x5 grid where players can select between 1 and 24 cells. If no mines are hidden in the chosen cells, the player wins their bet",
-        "imgUrl": "img-feat_minesblast-0.jpg"
+        "descr": "A 5x5 grid where players can select between 1 and 23 cells. If no mines are hidden in the chosen cells, the player wins their bet",
+        "imgUrl": null
       },
       {
         "name": "Mines Amount Selector",
@@ -396,24 +398,26 @@
         "imgUrl": "img-feat_minesblast-1.jpg"
       },
       {
-        "name": "Maximum Multiplier up to x5,000,000",
-        "descr": "An incredible win multiplier that can reach up to x5,000,000",
-        "imgUrl": "img-feat_minesblast-2.jpg"
-      },
-      {
         "name": "Pattern Selection",
         "descr": "The mode includes pre-set patterns for selecting cells, making the betting process faster and more convenient",
-        "imgUrl": "img-feat_minesblast-3.jpg"
+        "imgUrl": "img-feat_minesblast-2.jpg"
       },
       {
         "name": "Ranks",
         "descr": "By placing bets, players progress through ranks, unlocking new customization options and avatars",
-        "imgUrl": "img-feat_minesblast-4.jpg"
+        "imgUrl": "img-feat_minesblast-3.jpg"
       },
       {
         "name": "Customization",
         "descr": "Players can personalize the game area and interface elements to suit their preferences using the customization features",
-        "imgUrl": "img-feat_minesblast-5.jpg"
+        "imgUrl": "img-feat_minesblast-4.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Mascot Gaming introduces Tic Tac Toe Games",
+        "link": "https://mascot.games/blog/mascot-gaming-introduces-tic-tac-toe-games",
+        "image": "img_blog_tttintro-main.jpg"
       }
     ],
     "meta": {
@@ -588,7 +592,7 @@
       },
       {
         "name": "Multiplayer",
-        "descr": "This mode allows multiple players to participate in the same round",
+        "descr": "This game allows multiple players to participate in the same round",
         "imgUrl": null
       },
       {
