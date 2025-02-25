@@ -143,21 +143,21 @@
   {
     "name": "Shooting Galaxy",
     "slug": "shooting-galaxy",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/shooting_galaxy",
     "theme": "shooting",
-    "type": null,
+    "type": "traffic",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
     "rockways": false,
-    "comingSoon": true,
-    "releaseDate": "2025-03-04",
+    "comingSoon": false,
+    "releaseDate": "2025-03-13",
     "featured": false,
     "topGame":false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_shootinggalaxy2.jpeg",
+    "thumbUrl": "game_shootinggalaxy3.jpeg",
     "heroUrl": "hero_shootinggalaxy.jpg",
     "blueButtn": true,
     "videoUrl": null,
@@ -165,14 +165,14 @@
     "placeholderUrl": "video_shootinggalaxy.jpg",
     "logoUrl": "logo_shootinggalaxy.png",
     "backUrl": "back_shootinggalaxy.jpg",
-    "detailsImgUrl": "details_shootinggalaxy.png",
+    "detailsImgUrl": "details_shootinggalaxy2.png",
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "Low",
       "paylines": null,
       "payways": null,
-      "html5": false,
+      "html5": true,
       "rtp": " ",
       "hitrate": " "
     },
@@ -195,7 +195,7 @@
     ],
     "meta": {
       "title": "Shooting Galaxy, a video game by Mascot Gaming",
-      "descr": " "
+      "descr": "Lock and load your weapons with x555 and two Bonus Games, Free Shots and special rewards."
     }
   },
   {
