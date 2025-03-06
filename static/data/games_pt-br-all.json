@@ -2,29 +2,29 @@
   {
     "name": "Zeus the Invincible",
     "slug": "zeus-the-invincible",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/zeus_the_invincible",
     "theme": "video slot",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
     "rockways": false,
-    "comingSoon": true,
-    "releaseDate": "2025-03-13",
+    "comingSoon": false,
+    "releaseDate": "2025-03-20",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_zeusinvincible.jpeg",
-    "heroUrl": "hero_zeusinvincible.jpg",
+    "thumbUrl": "game_zeusinvincible2.jpeg",
+    "heroUrl": "hero_zeusinvincible2.jpg",
     "blueButtn": true,
     "videoUrl": null,
     "videoEnabled": false,
-    "placeholderUrl": "video_zeusinvincible.jpg",
-    "logoUrl": "logo_zeusinvincible.png",
-    "backUrl": "back_zeusinvincible.jpg",
-    "detailsImgUrl": "details_zeusinvincible.png",
+    "placeholderUrl": "video_zeusinvincible2.jpg",
+    "logoUrl": "logo_zeusinvincible2.png",
+    "backUrl": "back_zeusinvincible2.jpg",
+    "detailsImgUrl": "details_zeusinvincible2.png",
     "stats": {
       "reels": 5,
       "rows": 3,
@@ -59,7 +59,7 @@
     ],
     "meta": {
       "title": "Zeus the Invincible, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Command the lightnings of fortune with Free Spins, Sticky Wilds and Sticky Wild Reels, and our famous Risk & Buy feature."
     }
   },
   {
