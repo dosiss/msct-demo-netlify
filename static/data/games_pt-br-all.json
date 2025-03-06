@@ -28,7 +28,7 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": " ",
+      "volatility": "High",
       "paylines": 15,
       "payways": null,
       "html5": true,
@@ -141,6 +141,79 @@
     "rockways": false
   },
   {
+    "name": "Plinko pop",
+    "slug": "plinko-pop",
+    "linkToDemo": "demo.mascot.games/run/plinko_pop",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2025-03-27",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_plinkopop3.jpeg",
+    "heroUrl": "hero_plinkopop.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_plinkopop3.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_plinkopop.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "High",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Plinko",
+        "descr": "A ball drops from the top and bounces off pegs arranged in a pyramid shape as it falls. At the bottom, it lands in one of 17 multiplier slots, determining the player’s winnings based on the multiplier",
+        "imgUrl": null
+      },
+      {
+        "name": "3 Risk Levels",
+        "descr": "Choose between low, medium, and high risk. The level of risk determines the minimum and maximum multipliers the ball can land on",
+        "imgUrl": "img-feat_plinkopop-1.jpg"
+      },
+      {
+        "name": "Realistic Physics Model",
+        "descr": "Balls fall and bounce off the pegs with precision, following an accurate physics model",
+        "imgUrl": "img-feat_plinkopop-2.jpg"
+      },
+      {
+        "name": "Last Big Wins",
+        "descr": "A live feed displaying the biggest wins in the last 20 seconds",
+        "imgUrl": "img-feat_plinkopop-3.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization options and avatars",
+        "imgUrl": "img-feat_plinkopop-4.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their preferences using customization features",
+        "imgUrl": null
+      }
+    ],
+    "meta": {
+      "title": "Plinko Pop, a video game by TTT Games",
+      "descr": "Bounce to big wins with exciting features, fast gameplay and x1000."
+    },
+    "rockways": false
+  },
+  {
     "name": "Shooting Galaxy",
     "slug": "shooting-galaxy",
     "linkToDemo": "demo.mascot.games/run/shooting_galaxy",
@@ -197,84 +270,6 @@
       "title": "Shooting Galaxy, a video game by Mascot Gaming",
       "descr": "Lock and load your weapons with x555 and two Bonus Games, Free Shots and special rewards."
     }
-  },
-  {
-    "name": "Plinko pop",
-    "slug": "plinko-pop",
-    "linkToDemo": " ",
-    "theme": "tictactoe",
-    "type": " ",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "comingSoon": true,
-    "releaseDate": "2025-03-13",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_plinkopop3.jpeg",
-    "heroUrl": "hero_plinkopop.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": " ",
-    "logoUrl": "logo_plinkopop3.png",
-    "backUrl": " ",
-    "detailsImgUrl": "details_plinkopop.png",
-    "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
-      "payways": null,
-      "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
-    },
-    "features": [
-      {
-        "name": "Plinko",
-        "descr": "A ball drops from the top and bounces off pegs arranged in a pyramid shape as it falls. At the bottom, it lands in one of 17 multiplier slots, determining the player’s winnings based on the multiplier",
-        "imgUrl": "img-feat_plinkopop-0.jpg"
-      },
-      {
-        "name": "3 Risk Levels",
-        "descr": "Choose between low, medium, and high risk. The level of risk determines the minimum and maximum multipliers the ball can land on",
-        "imgUrl": "img-feat_plinkopop-1.jpg"
-      },
-      {
-        "name": "Maximum Multiplier up to x1,000",
-        "descr": "A winning multiplier that can reach up to x1,000",
-        "imgUrl": "img-feat_plinkopop-2.jpg"
-      },
-      {
-        "name": "Realistic Physics Model",
-        "descr": "Balls fall and bounce off the pegs with precision, following an accurate physics model",
-        "imgUrl": "img-feat_plinkopop-3.jpg"
-      },
-      {
-        "name": "People Win",
-        "descr": "A live feed displaying the biggest wins in the last 20 seconds",
-        "imgUrl": "img-feat_plinkopop-4.jpg"
-      },
-      {
-        "name": "Ranks",
-        "descr": "By placing bets, players advance through ranks, unlocking new customization options and avatars",
-        "imgUrl": "img-feat_plinkopope-5.jpg"
-      },
-      {
-        "name": "Customization",
-        "descr": "Players can personalize the game area and interface elements to their preferences using customization features",
-        "imgUrl": "img-feat_plinkopop-6.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Plinko pop",
-      "descr": " "
-    },
-    "rockways": false
   },
   {
     "name": "10K Dice",
