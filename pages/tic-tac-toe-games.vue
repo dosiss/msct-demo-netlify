@@ -10,7 +10,8 @@
             <p>{{$t('Crafted for high-energy sessions, our games combine refined design with social features that connect players like never before. From timeless classics to bold new creations, each game captivates and entertains, striking the perfect balance of style and speed.')}}</p>
           </div>
           <div class="ttt-games__top-buttn">
-            <nuxt-link :to="localePath('/games?type=tictactoe')" class="buttn buttn-blue buttn-m">{{$t('Play our games')}}</nuxt-link>
+            <a class="buttn buttn-blue buttn-m" @click="showModal = true">{{$t('add TTT Games to your casino')}}</a>
+            <nuxt-link :to="localePath('/games?type=tictactoe')" class="buttn buttn-white buttn-m">{{$t('Play our games')}}</nuxt-link>
           </div>
           <div class="ttt-games__top-features">
             <div class="feature-item">Crash games</div>
@@ -57,17 +58,26 @@
     </div>
 
     <MainFooter />
+
+    <ContactModal v-show="showModal" @close-modal="showModal = false"/>
+
   </div>
 </template>
 
 <script>
   import TicTacToeFeatured from '~/components/TicTacToeFeatured.vue'
+  import ContactModal from '~/components/frontpage/ContactModal'
+
   export default {
-    components: { TicTacToeFeatured },
+    components: {
+      TicTacToeFeatured,
+      ContactModal
+     },
     data() {
       return {
         title: '',
         description: '',
+        showModal: false,
 
       }
     },
@@ -101,6 +111,32 @@
       background-position: top center;
       @media (max-width: 650px) {
         padding: 100px 0 60px
+      }
+      .ttt-games__top-buttn {
+        display: flex;
+        align-items: center;
+        @media (max-width: 650px) {
+          flex-direction: column;
+          gap: 15px
+        }
+        .buttn-blue {
+          width: 417px;
+          margin-right: 15px;
+          font-size: 1.13rem;
+          @media (max-width: 650px) {
+            width: 100%;
+            margin-right: 0;
+            font-size: .9rem
+          }
+        }
+        .buttn-white {
+          width: 263px;
+          font-size: 1.13rem;
+          @media (max-width: 650px) {
+            width: 100%;
+            font-size: .9rem
+          }
+        }
       }
       .ttt-games__top-title {
         font-size: 4.5rem;
