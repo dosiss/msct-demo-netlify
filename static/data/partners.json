@@ -682,6 +682,17 @@
     "logoUrl": "partner_ggbet.png"
   },
   {
+    "name": "Upgaming",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": true,
+    "promo": false,
+    "promoText": null,
+    "url": "https://upgaming.com",
+    "logoUrl": "partner_upgaming.png"
+  },
+  {
     "name": "7bit",
     "type": "partner",
     "top": true,

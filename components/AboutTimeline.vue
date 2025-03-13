@@ -20,10 +20,12 @@
     <div v-else class="blocks-columns">
       <div class="column left-column">
         <template v-for="(block, index) in blocks">
-          <div v-if="index % 2 !== 0" :key="index" class="block">
+          <!-- replace with index % 2 === 0 in case of odd number of events -->
+          <div v-if="index % 2 === 0" :key="index" class="block">
             <div class="block-inner" :style="{ backgroundImage: `url(/images/${block.backImage})` }">
               <div v-if="block.soonTag === true" class="block-tag-soon">Soon</div>
               <nuxt-img v-if="block.decorImage" :src="`/images/${block.decorImage}`" class="block-decor" :style="{top: `${block.posTop}`, bottom: `${block.posBottom}`, right:`${block.posRight}`, left: `${block.posLeft}`}" alt="" />
+              <nuxt-img v-if="block.decorImage2" :src="`/images/${block.decorImage2}`" class="block-decor" :style="{top: `${block.posTop2}`, bottom: `${block.posBottom2}`, right:`${block.posRight2}`, left: `${block.posLeft2}`}" alt="" />
               <div class="block-date">{{ block.month }} {{ block.year }}</div>
               <div class="block-content">
                 <img :src="`/images/${block.image}`" alt="" />
@@ -38,10 +40,12 @@
       </div>
       <div class="column right-column">
         <template v-for="(block, index) in blocks">
-          <div v-if="index % 2 === 0" :key="index" class="block">
+          <!-- replace with index % 2 === 0 in case of even number of events -->
+          <div v-if="index % 2 !== 0" :key="index" class="block">
             <div class="block-inner" :style="{ backgroundImage: `url(/images/${block.backImage})` }">
               <div v-if="block.soonTag === true" class="block-tag-soon">Soon</div>
               <nuxt-img v-if="block.decorImage" :src="`/images/${block.decorImage}`" class="block-decor" :style="{top: `${block.posTop}`, bottom: `${block.posBottom}`, right:`${block.posRight}`, left: `${block.posLeft}`}" alt="" />
+              <nuxt-img v-if="block.decorImage2" :src="`/images/${block.decorImage2}`" class="block-decor" :style="{top: `${block.posTop2}`, bottom: `${block.posBottom2}`, right:`${block.posRight2}`, left: `${block.posLeft2}`}" alt="" />
               <div class="block-date">{{ block.month }} {{ block.year }}</div>
               <div class="block-content">
                 <img :src="`/images/${block.image}`" alt="" />
@@ -145,7 +149,7 @@ export default {
     position: absolute;
     max-width: 100px;
     height: auto;
-    z-index: 0
+    z-index: 1
   }
   .block-content {
     display: flex;
