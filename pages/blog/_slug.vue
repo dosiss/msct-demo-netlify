@@ -206,6 +206,19 @@ import PrevNext from '~/components/PrevNext'
   em {
     font-style: italic;
   }
+  iframe {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    @media (min-width: 1980px) {
+      width: 1200px;
+      height: auto
+    }
+}
+  .img-footnote {
+    font-style: italic;
+    margin-top: -20px
+  }
 
 }
 .share__wrap {
