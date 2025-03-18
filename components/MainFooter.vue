@@ -151,6 +151,7 @@
         <NuxtLink :to="localePath('/terms')" class="footer-bottom__link">{{ $t('Terms of use') }}</NuxtLink>
         <NuxtLink :to="localePath('/privacy')" class="footer-bottom__link">{{ $t('Privacy policy') }}</NuxtLink>
         <NuxtLink :to="localePath('/responsible-gaming')" class="footer-bottom__link">{{ $t('Responsible gaming') }}</NuxtLink>
+        <NuxtLink :to="localePath('/kyc')" class="footer-bottom__link">{{ $t('KYC') }}</NuxtLink>
       </div>
       <div class="copyright text-muted">Mascot Gaming - {{ $t('All rights reserved') }} 2024</div>
     </div>
@@ -597,11 +598,11 @@
         cursor: pointer;
         @media (max-width: 650px) {
           margin-right: 0;
-          flex: 0 1 49%
+          // flex: 0 1 49%
         }
         &:last-child {
           @media (max-width: 650px) {
-            text-align: right;
+            // text-align: right;
           }
         }
       }
