@@ -538,6 +538,11 @@ export default {
       }
     }
   }
+  .game_videopoker-3-in-1{
+    .game-title {
+      max-width: 420px
+    }
+  }
   .game_wild-phoenix-rises {
     @include feature-new
   }

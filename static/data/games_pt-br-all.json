@@ -1,5 +1,645 @@
 [
   {
+    "name": "Evil Bet: Shoot Them All!",
+    "slug": "evil-bet-shoot-them-all",
+    "linkToDemo": " ",
+    "theme": "shooting",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": true,
+    "releaseDate": "2025-07-03",
+    "featured": false,
+    "topGame":false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_evilbetshoot.jpeg",
+    "heroUrl": "hero_evilbetshoot.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_evilbetshoot.jpg",
+    "logoUrl": "logo_evilbetshoot.png",
+    "backUrl": "back_evilbetshoot.jpg",
+    "detailsImgUrl": "details_evilbetshoot.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Different Bosses",
+        "descr": "A unique Boss appears at the end of each round",
+        "imgUrl": "img-feat_evilbetshoot-0.jpg"
+      },
+      {
+        "name": "Free Shots",
+        "descr": "Earn Free Shots by destroying special symbols",
+        "imgUrl": "img-feat_evilbetshoot-1.jpg"
+      },
+      {
+        "name": "Special Rewards",
+        "descr": "Receive extra rewards for destroying special symbols",
+        "imgUrl": "img-feat_evilbetshoot-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Evil Bet: Shoot the All!, a video shooting game by Mascot Gaming",
+      "descr": " "
+    }
+  },
+  {
+    "name": "Anksunamun Deluxe",
+    "slug": "anksunamun-deluxe",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-06-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_anksunamundlx.jpeg",
+    "heroUrl": "hero_anksunamundlx.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_anksunamundlx.jpg",
+    "logoUrl": "logo_anksunamundlx.png",
+    "backUrl": "back_anksunamundlx.jpg",
+    "detailsImgUrl": "details_anksunamundlx.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Risk your winnings in the Risk Game for a chance to increase them with a win multiplier",
+        "imgUrl": "img-feat_anksunamundlx-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_anksunamundlx-1.jpg"
+      },
+      {
+        "name": "Gold Wild Symbol",
+        "descr": "Gold Wild Symbols substitute for all symbols, including Scatters, and multiply wins by 2",
+        "imgUrl": "img-feat_anksunamundlx-2.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "During Free Spins, Gold Wild Symbols become Sticky",
+        "imgUrl": "img-feat_anksunamundlx-3.jpg"
+      },
+      {
+        "name": "Extra Free Spins",
+        "descr": "When reels 2, 3, and 4 are completely filled with Sticky Gold Wild Symbols, 3 Extra Free Spins are awarded",
+        "imgUrl": "img-feat_anksunamundlx-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Anksunamun Deluxe, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Fruity X125",
+    "slug": "fruity-x125",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-06-12",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_fruity125.jpeg",
+    "heroUrl": "hero_fruity125.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fruity125.jpg",
+    "logoUrl": "logo_fruity125.png",
+    "backUrl": "back_fruity125.jpg",
+    "detailsImgUrl": "details_fruity125.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "Wilds with Multipliers",
+        "descr": "3 different Wild Symbols with multipliers of x2, x3, and x5",
+        "imgUrl": "img-feat_fruity125-0.jpg"
+      },
+      {
+        "name": "Sticky Wild Reels and Respins",
+        "descr": "Each Wild turns into a Sticky Wild Reel and triggers a free Respin",
+        "imgUrl": "img-feat_fruity125-1.jpg"
+      },
+      {
+        "name": "Risk Game",
+        "descr": "Risk your winnings in the Risk Game for a chance to increase them with a win multiplier",
+        "imgUrl": "img-feat_fruity125-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Fruity x125, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Videopoker 3 in 1",
+    "slug": "videopoker-3-in-1",
+    "linkToDemo": " ",
+    "theme": "table/cards",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": true,
+    "releaseDate": "2025-06-05",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_videopoker.jpeg",
+    "heroUrl": "hero_videopoker.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_videopoker.jpg",
+    "logoUrl": "logo_videopoker.png",
+    "backUrl": "back_videopoker.jpg",
+    "detailsImgUrl": "details_videopoker.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Wild Deuces",
+        "descr": "All 2s are Wild",
+        "imgUrl": "img-feat_videopoker-0.jpg"
+      },
+      {
+        "name": "Jacks or Better",
+        "descr": "Winning combinations start from a pair of Jacks",
+        "imgUrl": "img-feat_videopoker-1.jpg"
+      },
+      {
+        "name": "Joker Poker",
+        "descr": "The Joker card is Wild",
+        "imgUrl": "img-feat_videopoker-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Videopoker 3 in 1, a video game by Mascot Gaming",
+      "descr": " "
+    }
+  },
+  {
+    "name": "Skyrocket",
+    "slug": "skyrocket",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-05-29",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_skyrocket.jpeg",
+    "heroUrl": "hero_skyrocket.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_skyrocket.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_skyrocket.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Crash Game",
+        "descr": "The win multiplier continuously grows, and the player must cash out their bet before the rocket explodes",
+        "imgUrl": "img-feat_skyrocket-0.jpg"
+      },
+      {
+        "name": "Multiplayer",
+        "descr": "This game allows multiple players to participate in the same round",
+        "imgUrl": "img-feat_skyrocket-1.jpg"
+      },
+      {
+        "name": "Growing Multiplier",
+        "descr": "A dynamic multiplier that can reach up to x10 000",
+        "imgUrl": "img-feat_skyrocket-2.jpg"
+      },
+      {
+        "name": "Live Leaderboard",
+        "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
+        "imgUrl": "img-feat_skyrocket-3.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization elements and avatars",
+        "imgUrl": "img-feat_skyrocket-4.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their liking using customization options",
+        "imgUrl": "img-feat_skyrocket-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Skyrocket, a video crash game by TTT Games",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Wasteland Riches",
+    "slug": "wasteland-riches",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-05-22",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_wasteland.jpeg",
+    "heroUrl": "hero_wasteland.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_wasteland.jpg",
+    "logoUrl": "logo_wasteland.png",
+    "backUrl": "back_wasteland.jpg",
+    "detailsImgUrl": "details_wasteland.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": null,
+      "payways": 243,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_wasteland-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_wasteland-1.jpg"
+      },
+      {
+        "name": "Multiplier Symbol",
+        "descr": "Each Multiplier symbol on the screen multiplies the win for the current spin by 2",
+        "imgUrl": "img-feat_wasteland-2.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "During Free Spins, all winning symbol combinations pay out anywhere on the screen",
+        "imgUrl": "img-feat_wasteland-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Wasteland Riches, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Double Roulette",
+    "slug": "double-roulette",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-04-24",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_doubleroulette.jpeg",
+    "heroUrl": "hero_doubleroulette.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_doubleroulette.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_doubleroulette.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Double",
+        "descr": "Players choose between red, black, or a special cell, and a spinning wheel determines the winning color and multiplier. Landing on the special cell brings the highest win",
+        "imgUrl": "img-feat_doubleroulette-0.jpg"
+      },
+      {
+        "name": "Multiplayer",
+        "descr": "This game allows multiple players to participate in the same round",
+        "imgUrl": "img-feat_doubleroulette-1.jpg"
+      },
+      {
+        "name": "Multiple Bets",
+        "descr": "Players can select more than one outcome per round, increasing their chances of winning",
+        "imgUrl": "img-feat_doubleroulette-2.jpg"
+      },
+      {
+        "name": "Live Leaderboard",
+        "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
+        "imgUrl": "img-feat_doubleroulette-3.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players progress through ranks, unlocking new customization options and avatars",
+        "imgUrl": "img-feat_doubleroulette-4.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to suit their preferences through customization features",
+        "imgUrl": "img-feat_doubleroulette-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Double Roulette, a video game by TTT Games",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Gunman Crash!",
+    "slug": "gunman-crash",
+    "linkToDemo": " ",
+    "theme": "crash",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-05-08",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_gunman.jpeg",
+    "heroUrl": "hero_gunman.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_gunman.jpg",
+    "logoUrl": "logo_gunman.png",
+    "backUrl": "back_gunman.jpg",
+    "detailsImgUrl": "details_gunman.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "Up to 5 bets",
+        "descr": "Place 1 to 5 bets at the same time",
+        "imgUrl": "img-feat_gunman-0.jpg"
+      },
+      {
+        "name": "Growing win multiplier",
+        "descr": "Watch your winning multiplier grow and claim your winnings",
+        "imgUrl": "img-feat_gunman-1.jpg"
+      },
+      {
+        "name": "Fantastic prizes",
+        "descr": "Get Free Bets and  winnings up to x10000",
+        "imgUrl": "img-feat_gunman-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Gunman Crash!, a video crash game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Tessa Hunt and the Eye of Horus",
+    "slug": "tessa-hunt-and-the-eye-of-horus",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-04-21",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_tessa.jpeg",
+    "heroUrl": "hero_tessa.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_tessa.jpg",
+    "logoUrl": "logo_tessa.png",
+    "backUrl": "back_tessa.jpg",
+    "detailsImgUrl": "details_tessa.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_tessa-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_tessa-1.jpg"
+      },
+      {
+        "name": "Special Expanding Symbols",
+        "descr": "During each spin, Special Expanding Symbols are randomly selected and pay out even on non-adjacent reels",
+        "imgUrl": "img-feat_tessa-2.jpg"
+      },
+      {
+        "name": "Mystery Symbol",
+        "descr": "The Mystery Symbol acts as both a Wild and a Scatter symbol",
+        "imgUrl": "img-feat_tessa-3.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "During Free Spins, there are 3 Special Expanding Symbols that appear on each spin",
+        "imgUrl": "img-feat_tessa-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Tessa Hunt and the Eye of Horus, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "For the Realm Deluxe",
+    "slug": "for-the-realm-deluxe",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-04-03",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_fortherealmdlx.jpeg",
+    "heroUrl": "hero_fortherealmdlx.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fortherealmdlx.jpg",
+    "logoUrl": "logo_fortherealmdlx.png",
+    "backUrl": "back_fortherealmdlx.jpg",
+    "detailsImgUrl": "details_fortherealmdlx.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": null,
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_fortherealmdlx-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_fortherealmdlx-1.jpg"
+      },
+      {
+        "name": "Free Spins with Sticky Wild Reels and Respins",
+        "descr": "Symbols transform into Wild Reels and trigger Free Respins",
+        "imgUrl": "img-feat_fortherealmdlx-2.jpg"
+      },
+      {
+        "name": "Free Spins with Sticky Wilds",
+        "descr": "Symbols transform into Sticky Wilds until the end of the Free Spins series",
+        "imgUrl": "img-feat_fortherealmdlx-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "For the Realm Deluxe, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
     "name": "Zeus the Invincible",
     "slug": "zeus-the-invincible",
     "linkToDemo": "demo.mascot.games/run/zeus_the_invincible",

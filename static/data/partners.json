@@ -2233,6 +2233,28 @@
     "logoUrl": "partner_gamblest.png"
   },
   {
+    "name": "Slotsoo",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://slotsoo.com/providers/mascot-gaming/",
+    "logoUrl": "partner_slotsoo.png"
+  },
+  {
+    "name": "Dailyspin",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.dailyspin.it/software/mascot-gaming/",
+    "logoUrl": "partner_dailyspin.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
