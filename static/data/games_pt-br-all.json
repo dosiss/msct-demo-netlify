@@ -257,7 +257,7 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_skyrocket.jpeg",
+    "thumbUrl": "game_skyrocket2.jpeg",
     "heroUrl": "hero_skyrocket.jpg",
     "blueButtn": true,
     "videoUrl": null,
@@ -640,6 +640,79 @@
     "rockways": false
   },
   {
+    "name": "Keno party",
+    "slug": "keno-party",
+    "linkToDemo": "demo.mascot.games/run/keno_party",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2025-04-03",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_kenoparty3.jpeg",
+    "heroUrl": "hero_kenoparty.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_kenoparty3.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_kenoparty.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Keno",
+        "descr": "The player selects between 1 and 10 numbers out of 40. The server randomly generates 10 numbers out of 40. If the player's selections match the server's, the player wins the bet",
+        "imgUrl": null
+      },
+      {
+        "name": "Multiplayer",
+        "descr": "This game allows multiple players to participate in the same round",
+        "imgUrl": "img-feat_kenoparty-1.jpg"
+      },
+      {
+        "name": "Multiple Bets",
+        "descr": "Players can place between 1 and 5 bets per round",
+        "imgUrl": "img-feat_kenoparty-2.jpg"
+      },
+      {
+        "name": "Player Leaderboard",
+        "descr": "An online board showing players in the current round and the biggest wins in the game’s history",
+        "imgUrl": null
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players progress through ranks, unlocking new customization options and avatars",
+        "imgUrl": "img-feat_kenoparty-4.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to suit their preferences through customization features",
+        "imgUrl": "img-feat_kenoparty-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Keno Party, a video game by TTT Games",
+      "descr": "Powered by Mascot Gaming, Keno Party offers amazing features: multiplayer, live leaderboard, customization, ranks and x10000."
+    },
+    "rockways": false
+  },
+  {
     "name": "Zeus the Invincible",
     "slug": "zeus-the-invincible",
     "linkToDemo": "demo.mascot.games/run/zeus_the_invincible",
@@ -701,84 +774,6 @@
       "title": "Zeus the Invincible, um caça-níqueis da Mascot Gaming",
       "descr": " "
     }
-  },
-  {
-    "name": "Keno party",
-    "slug": "keno-party",
-    "linkToDemo": " ",
-    "theme": "tictactoe",
-    "type": " ",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "comingSoon": true,
-    "releaseDate": "2025-02-27",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_kenoparty3.jpeg",
-    "heroUrl": "hero_kenoparty.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": " ",
-    "logoUrl": "logo_kenoparty3.png",
-    "backUrl": " ",
-    "detailsImgUrl": "details_kenoparty.png",
-    "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
-      "payways": null,
-      "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
-    },
-    "features": [
-      {
-        "name": "Keno",
-        "descr": "O jogador escolhe entre 1 e 10 números até 40. O servidor aleatoriamente gera 10 números até 40. Se as escolhas do jogador forem as mesmas do servidor, o jogador ganha a aposta",
-        "imgUrl": "img-feat_kenoparty-0.jpg"
-      },
-      {
-        "name": "Multijogador",
-        "descr": "Este modo permite que múltiplos jogadores participem da mesma rodada",
-        "imgUrl": "img-feat_kenoparty-1.jpg"
-      },
-      {
-        "name": "Apostas Múltiplas",
-        "descr": "Jogadores podem fazer entre 1 e 5 apostas em uma rodada",
-        "imgUrl": "img-feat_kenoparty-2.jpg"
-      },
-      {
-        "name": "Multiplicador Máximo de até x10.000",
-        "descr": "Um multiplicador de ganhos que vai até x10.000",
-        "imgUrl": "img-feat_kenoparty-3.jpg"
-      },
-      {
-        "name": "Ranking de Jogadores",
-        "descr": "Um painel online que mostra os jogadores na rodada atual e os maiores ganhos na história do jogo",
-        "imgUrl": "img-feat_kenoparty-4.jpg"
-      },
-      {
-        "name": "Rankings",
-        "descr": "Ao apostarem, os jogadores avançam pelos rankings, desbloqueando novos avatares e elementos de customização",
-        "imgUrl": "img-feat_kenoparty-5.jpg"
-      },
-      {
-        "name": "Customização",
-        "descr": "Os jogadores podem personalizar a área do jogo e os elementos de interface de acordo com suas preferências, com as opções de customização",
-        "imgUrl": "img-feat_kenoparty-6.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Keno party",
-      "descr": " "
-    },
-    "rockways": false
   },
   {
     "name": "Plinko pop",

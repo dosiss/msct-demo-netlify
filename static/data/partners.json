@@ -2255,6 +2255,17 @@
     "logoUrl": "partner_dailyspin.png"
   },
   {
+    "name": "Casino Treasure",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casinotreasure.com/software-providers/mascot-gaming/",
+    "logoUrl": "partner_casinotreasure.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
