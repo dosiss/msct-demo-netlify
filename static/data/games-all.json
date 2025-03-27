@@ -579,20 +579,20 @@
   {
     "name": "For the Realm Deluxe",
     "slug": "for-the-realm-deluxe",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/for_the_realm_deluxe",
     "theme": "video slot",
     "type": null,
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
-    "releaseDate": "2025-04-03",
+    "comingSoon": false,
+    "releaseDate": "2025-04-07",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_fortherealmdlx.jpeg",
+    "thumbUrl": "game_fortherealmdlx2.jpeg",
     "heroUrl": "hero_fortherealmdlx.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -635,7 +635,7 @@
     ],
     "meta": {
       "title": "For the Realm Deluxe, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Choose the winning side with two types of Free Spins and Risk & Buy feature!"
     },
     "rockways": false
   },
