@@ -153,7 +153,7 @@
         <NuxtLink :to="localePath('/responsible-gaming')" class="footer-bottom__link">{{ $t('Responsible gaming') }}</NuxtLink>
         <NuxtLink :to="localePath('/kyc')" class="footer-bottom__link">{{ $t('KYC') }}</NuxtLink>
       </div>
-      <div class="copyright text-muted">Mascot Gaming - {{ $t('All rights reserved') }} 2024</div>
+      <div class="copyright text-muted">Mascot Gaming - {{ $t('All rights reserved') }} 2025</div>
     </div>
   </div>
   <client-only>
