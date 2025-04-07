@@ -770,6 +770,13 @@
         "imgUrl": "img-feat_zeusinvincible-3.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "The Gods Are Watching: Zeus the Invincible Review",
+        "link": "https://mascot.games/blog/the-gods-are-watching-zeus-the-invincible-review",
+        "image": "img_blog_zeusinvincible-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Zeus the Invincible, a video slot game by Mascot Gaming",
       "descr": "Command the lightnings of fortune with Free Spins, Sticky Wilds and Sticky Wild Reels, and our famous Risk & Buy feature."
@@ -840,6 +847,13 @@
         "name": "Customization",
         "descr": "Players can personalize the game area and interface elements to their preferences using customization features",
         "imgUrl": null
+      }
+    ],
+    "articles": [
+      {
+        "title": "A Calculated Drop: Plinko Pop Review",
+        "link": "https://mascot.games/blog/a-calculated-drop-plinko-pop-review",
+        "image": "img_blog_plinko-main.jpg"
       }
     ],
     "meta": {
