@@ -511,13 +511,13 @@
   {
     "name": "Tessa Hunt and the Eye of Horus",
     "slug": "tessa-hunt-and-the-eye-of-horus",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/tessa_hunt_and_the_eye_of_horus",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-04-21",
     "featured": false,
     "topGame": false,
@@ -536,7 +536,7 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": null,
+      "volatility": "High",
       "paylines": 10,
       "payways": null,
       "html5": true,
@@ -572,7 +572,7 @@
     ],
     "meta": {
       "title": "Tessa Hunt and the Eye of Horus, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Adventure beings now with Free Spins, Risk and Buy, Special Symbols and x2250!"
     },
     "rockways": false
   },
