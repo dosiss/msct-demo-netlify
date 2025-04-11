@@ -52,6 +52,24 @@ Deploy to Production:
   environment:
     name: prod-mascot
     url: http://mascot.games
+  variables:
+    CF_ZONE: "efc2dffc3aa0495fbd052494d9197879"
+    HOSTS: "mascot.games"
+  script:
+    - set -x
+    - type trdl && source $(trdl use werf 1.2 ea)
+    - type werf && source $(werf ci-env gitlab --as-file --verbose)
+    - werf helm dependency update .helm
+    - werf converge --skip-build --namespace ${CI_ENVIRONMENT_SLUG} --env ${CI_ENVIRONMENT_SLUG} --set "global.env_url=$(echo ${CI_ENVIRONMENT_URL} | cut -d / -f 3)"
+    - |
+      curl -X POST "https://api.cloudflare.com/client/v4/zones/${CF_ZONE}/purge_cache" \
+        -H "Authorization: Bearer ${MSCTGMS_CF_PURGE_CACHE_TOKEN}" \
+        -H "Content-Type:application/json" \
+        -d '{
+          "hosts": [
+            ${HOSTS}
+          ]
+        }'
   when: manual
 
 Cleanup:
