@@ -12,6 +12,7 @@ let dynamicRoutesFromMarkets = () => {
     resolve(marketsData.map(el => `/games-for-regulated-markets/${el.slug}`))
   })
 }
+
 // import data from './static/data/games-all.json'
 // let dynamicRoutes = () => {
 //   return new Promise(resolve => {
