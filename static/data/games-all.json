@@ -380,32 +380,32 @@
   {
     "name": "Double Roulette",
     "slug": "double-roulette",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/double_roulette",
     "theme": "tictactoe",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-04-24",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_doubleroulette.jpeg",
+    "thumbUrl": "game_doubleroulette2.jpeg",
     "heroUrl": "hero_doubleroulette.jpg",
-    "blueButtn": true,
+    "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": " ",
     "logoUrl": "logo_doubleroulette.png",
-    "backUrl": " ",
+    "backUrl": "back_doubleroulette.jpg",
     "detailsImgUrl": "details_doubleroulette.png",
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
@@ -416,7 +416,7 @@
       {
         "name": "Double",
         "descr": "Players choose between red, black, or a special cell, and a spinning wheel determines the winning color and multiplier. Landing on the special cell brings the highest win",
-        "imgUrl": "img-feat_doubleroulette-0.jpg"
+        "imgUrl": null
       },
       {
         "name": "Multiplayer",
@@ -431,7 +431,7 @@
       {
         "name": "Live Leaderboard",
         "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
-        "imgUrl": "img-feat_doubleroulette-3.jpg"
+        "imgUrl": null
       },
       {
         "name": "Ranks",
@@ -446,27 +446,27 @@
     ],
     "meta": {
       "title": "Double Roulette, a video game by TTT Games",
-      "descr": " "
+      "descr": "Take advantage of multiple bets and get the best rewards"
     },
     "rockways": false
   },
   {
     "name": "Gunman Crash!",
     "slug": "gunman-crash",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/gunman_crash",
     "theme": "crash",
     "type": " ",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-05-08",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_gunman.jpeg",
+    "thumbUrl": "game_gunman2.jpeg",
     "heroUrl": "hero_gunman.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -498,13 +498,13 @@
       },
       {
         "name": "Fantastic prizes",
-        "descr": "Get Free Bets and  winnings up to x10000",
+        "descr": "Get Free Bets and winnings up to x10000",
         "imgUrl": "img-feat_gunman-2.jpg"
       }
     ],
     "meta": {
-      "title": "Gunman Crash!, a video crash game by Mascot Gaming",
-      "descr": " "
+      "title": "Gunman Crash!, a video game by Mascot Gaming",
+      "descr": "Incredible bets, fantastic prizes and x5000"
     },
     "rockways": false
   },

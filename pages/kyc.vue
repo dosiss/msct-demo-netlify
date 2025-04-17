@@ -443,7 +443,7 @@
     },
 
     mounted() {
-      this.title = this.$t('Responsible gaming')
+      this.title = this.$t('Partners Due Diligence')
       this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
     },
 

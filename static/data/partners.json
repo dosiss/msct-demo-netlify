@@ -2277,6 +2277,28 @@
     "logoUrl": "partner_casinotreasure.png"
   },
   {
+    "name": "Every tip",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://everytip.com",
+    "logoUrl": "partner_everytip.png"
+  },
+  {
+    "name": "Freebets",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://freebets.ltd.uk/",
+    "logoUrl": "partner_freebets.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
