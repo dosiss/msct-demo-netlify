@@ -29,6 +29,23 @@
             </div>
           </div>
         </div>
+        <div class="container-wide container-custom container-filter-category">
+        <div class="games-filter__outer">
+          <div class="games-filter__wrap">
+            <span class="filter-category__title">{{$t('Categories:')}}</span>
+            <button :class="{ active: gameFilterKey == 'adventures' }" class="buttn buttn-rounded buttn-sm buttn-adventures" @click="handleFilterChange('adventures')"><span>{{$t('Adventures')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'christmas' }" class="buttn buttn-rounded buttn-sm buttn-christmas" @click="handleFilterChange('christmas')"><span>{{$t('Christmas')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'easter' }" class="buttn buttn-rounded buttn-sm buttn-easter" @click="handleFilterChange('easter')"><span>{{$t('Easter')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'fantasy' }" class="buttn buttn-rounded buttn-sm buttn-fantasy" @click="handleFilterChange('fantasy')"><span>{{$t('Fantasy')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'halloween' }" class="buttn buttn-rounded buttn-sm buttn-halloween" @click="handleFilterChange('halloween')"><span>{{$t('Halloween')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'mythology' }" class="buttn buttn-rounded buttn-sm buttn-mythology" @click="handleFilterChange('mythology')"><span>{{$t('Mythology')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'postap' }" class="buttn buttn-rounded buttn-sm buttn-postap" @click="handleFilterChange('postap')"><span>{{$t('Post Apocalyptic')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'space' }" class="buttn buttn-rounded buttn-sm buttn-space" @click="handleFilterChange('space')"><span>{{$t('Space')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'egypt' }" class="buttn buttn-rounded buttn-sm buttn-egypt" @click="handleFilterChange('egypt')"><span>{{$t('Egypt')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'fruits' }" class="buttn buttn-rounded buttn-sm buttn-fruits" @click="handleFilterChange('fruits')"><span>{{$t('Fruits')}}</span></button>
+          </div>
+        </div>
+      </div>
       </div>
       <div class="all-games">
         <div v-if="gameFilterKey == 'search'">
@@ -228,6 +245,56 @@ export default {
       custom() {
         return allGames.filter((game) => game.custom === true)
       },
+      adventures() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("adventure")
+        )
+      },
+      christmas() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("christmas")
+        )
+      },
+      easter() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("easter")
+        )
+      },
+      fantasy() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("fantasy")
+        )
+      },
+      halloween() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("halloween")
+        )
+      },
+      mythology() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("mythology")
+        )
+      },
+      postap() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("postap")
+        )
+      },
+      space() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("space")
+        )
+      },
+      egypt() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("egypt")
+        )
+      },
+      fruits() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("fruits")
+        )
+      },
       searchList() {
         return allGames.filter((game) => {
           return game.name.toLowerCase().includes(this.input.toLowerCase())
@@ -277,7 +344,7 @@ export default {
 
   methods: {
     handleFilterChange(filterKey) {
-      const allowedFilters = ['all', 'comingsoon', 'top', 'tictactoe', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'rockways', 'branded', 'custom'];
+      const allowedFilters = ['all', 'comingsoon', 'top', 'tictactoe', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'rockways', 'branded', 'custom', 'adventures', 'christmas', 'easter', 'fantasy', 'halloween', 'mythology', 'postap', 'space', 'egypt', 'fruits'];
 
       if (!allowedFilters.includes(filterKey)) {
   //      console.warn('Invalid filter key:', filterKey);
@@ -389,6 +456,208 @@ export default {
     @media (max-width: 650px) {
       order: 2;
       padding: 0 20px
+    }
+  }
+  &.container-filter-category {
+    margin-top: 20px;
+    @media (max-width: 3000px) {
+      padding: 0 35px;
+      max-width: 2500px
+    }
+    @media (max-width: 1770px) {
+      padding: 0 35px
+    }
+    @media (max-width: 650px) {
+      order: 2;
+      padding: 0 20px
+    }
+    .games-filter__wrap {
+      @media (max-width: 1979px) {
+        width: 1500px
+      }
+      @media (max-width: 650px) {
+        margin-top: 0
+      }
+    }
+    .filter-category__title {
+      align-self: center;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-right: 10px;
+      @media (max-width: 650px) {
+        display: none
+      }
+    }
+    .buttn {
+      position: relative;
+      border-color: #333333;
+      &.buttn-rounded {
+        font-weight: 500;
+        &:hover {
+          border-color: #000;
+          color: #5f5f5f;
+          &.buttn-adventures:after {
+            opacity: 1
+          }
+          &.buttn-christmas:after {
+            opacity: 1
+          }
+          &.buttn-easter:after {
+            opacity: 1
+          }
+          &.buttn-fantasy:after {
+            opacity: 1
+          }
+          &.buttn-halloween:after {
+            opacity: 1
+          }
+          &.buttn-mythology:after {
+            opacity: 1
+          }
+          &.buttn-postap:after {
+            opacity: 1
+          }
+          &.buttn-space:after {
+            opacity: 1
+          }
+          &.buttn-egypt:after {
+            opacity: 1
+          }
+          &.buttn-fruits:after {
+            opacity: 1
+          }
+        }
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        height: 38px;
+        width: 38px;
+        top: 0;
+        right: 0;
+        z-index: 1
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        height: 16px;
+        width: 26px;
+        top: 9px;
+        right: 7px;
+      }
+      span {
+        padding-right: 35px
+      }
+      &.buttn-adventures:before {
+        background: url("/images/img_filter-adventures.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-adventures:after {
+        opacity: 0;
+        background: #33F0B0;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
+      &.buttn-christmas:before {
+        background: url("/images/img_filter-christmas.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-christmas:after {
+        opacity: 0;
+        background: #ffffff;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
+      &.buttn-easter:before {
+        background: url("/images/img_filter-easter.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-easter:after {
+        opacity: 0;
+        background: #FFF648;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
+      &.buttn-fantasy:before {
+        background: url("/images/img_filter-fantasy.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-fantasy:after {
+        opacity: 0;
+        background: #C400FF;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
+      &.buttn-halloween:before {
+        background: url("/images/img_filter-halloween.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-halloween:after {
+        opacity: 0;
+        background: #FFC800;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
+      &.buttn-mythology:before {
+        background: url("/images/img_filter-mythology.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-mythology:after {
+        opacity: 0;
+        background: #0085FF;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
+      &.buttn-postap:before {
+        background: url("/images/img_filter-postap.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-postap:after {
+        opacity: 0;
+        background: #FF0004;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
+      &.buttn-space:before {
+        background: url("/images/img_filter-space.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-space:after {
+        opacity: 0;
+        background: #00F0FF;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
+      &.buttn-egypt:before {
+        background: url("/images/img_filter-egypt.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-egypt:after {
+        opacity: 0;
+        background: #FF43CB;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
+      &.buttn-fruits:before {
+        background: url("/images/img_filter-fruits.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-fruits:after {
+        opacity: 0;
+        background: #27FF04;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
     }
   }
   .games-filter__outer {

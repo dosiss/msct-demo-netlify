@@ -12,7 +12,7 @@
     "comingSoon": true,
     "releaseDate": "2025-07-03",
     "featured": false,
-    "topGame":false,
+    "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
@@ -378,6 +378,67 @@
     "rockways": false
   },
   {
+    "name": "Gunman Crash!",
+    "slug": "gunman-crash",
+    "linkToDemo": "demo.mascot.games/run/gunman_crash",
+    "theme": "crash",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2025-05-08",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_gunman2.jpeg",
+    "heroUrl": "hero_gunman.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_gunman.jpg",
+    "logoUrl": "logo_gunman.png",
+    "backUrl": "back_gunman.jpg",
+    "detailsImgUrl": "details_gunman.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [
+      "adventure"
+    ],
+    "features": [
+      {
+        "name": "Up to 5 bets",
+        "descr": "Place 1 to 5 bets at the same time",
+        "imgUrl": "img-feat_gunman-0.jpg"
+      },
+      {
+        "name": "Growing win multiplier",
+        "descr": "Watch your winning multiplier grow and claim your winnings",
+        "imgUrl": "img-feat_gunman-1.jpg"
+      },
+      {
+        "name": "Fantastic prizes",
+        "descr": "Get Free Bets and winnings up to x10000",
+        "imgUrl": "img-feat_gunman-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Gunman Crash!, a video game by Mascot Gaming",
+      "descr": "Incredible bets, fantastic prizes and x5000"
+    },
+    "rockways": false
+  },
+  {
     "name": "Double Roulette",
     "slug": "double-roulette",
     "linkToDemo": "demo.mascot.games/run/double_roulette",
@@ -451,64 +512,6 @@
     "rockways": false
   },
   {
-    "name": "Gunman Crash!",
-    "slug": "gunman-crash",
-    "linkToDemo": "demo.mascot.games/run/gunman_crash",
-    "theme": "crash",
-    "type": " ",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2025-05-08",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_gunman2.jpeg",
-    "heroUrl": "hero_gunman.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_gunman.jpg",
-    "logoUrl": "logo_gunman.png",
-    "backUrl": "back_gunman.jpg",
-    "detailsImgUrl": "details_gunman.png",
-    "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
-      "payways": null,
-      "html5": true,
-      "rtp": null,
-      "hitrate": null
-    },
-    "features": [
-      {
-        "name": "Up to 5 bets",
-        "descr": "Place 1 to 5 bets at the same time",
-        "imgUrl": "img-feat_gunman-0.jpg"
-      },
-      {
-        "name": "Growing win multiplier",
-        "descr": "Watch your winning multiplier grow and claim your winnings",
-        "imgUrl": "img-feat_gunman-1.jpg"
-      },
-      {
-        "name": "Fantastic prizes",
-        "descr": "Get Free Bets and winnings up to x10000",
-        "imgUrl": "img-feat_gunman-2.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Gunman Crash!, a video game by Mascot Gaming",
-      "descr": "Incredible bets, fantastic prizes and x5000"
-    },
-    "rockways": false
-  },
-  {
     "name": "Tessa Hunt and the Eye of Horus",
     "slug": "tessa-hunt-and-the-eye-of-horus",
     "linkToDemo": "demo.mascot.games/run/tessa_hunt_and_the_eye_of_horus",
@@ -543,6 +546,9 @@
       "rtp": null,
       "hitrate": null
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -611,6 +617,9 @@
       "rtp": null,
       "hitrate": null
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -713,69 +722,6 @@
     "rockways": false
   },
   {
-    "name": "Zeus the Invincible",
-    "slug": "zeus-the-invincible",
-    "linkToDemo": "demo.mascot.games/run/zeus_the_invincible",
-    "theme": "video slot",
-    "type": " ",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": true,
-    "rockways": false,
-    "comingSoon": false,
-    "releaseDate": "2025-03-20",
-    "featured": true,
-    "topGame": true,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_zeusinvincible2.jpeg",
-    "heroUrl": "hero_zeusinvincible2.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_zeusinvincible2.jpg",
-    "logoUrl": "logo_zeusinvincible2.png",
-    "backUrl": "back_zeusinvincible2.jpg",
-    "detailsImgUrl": "details_zeusinvincible2.png",
-    "stats": {
-      "reels": 5,
-      "rows": 3,
-      "volatility": " ",
-      "paylines": 15,
-      "payways": null,
-      "html5": true,
-      "rtp": " ",
-      "hitrate": " "
-    },
-    "features": [
-      {
-        "name": "Función Risk & Buy: Riesgo",
-        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
-        "imgUrl": "img-feat_zeusinvincible-0.jpg"
-      },
-      {
-        "name": "Función Risk & Buy: Compra",
-        "descr": "Compra Free Spins o una Partida Bonus con las condiciones propuestas y al precio sugerido. Hay una oferta especial después de cada partida",
-        "imgUrl": "img-feat_zeusinvincible-1.jpg"
-      },
-      {
-        "name": "Free Spins con Sticky Wild Reels y Respins",
-        "descr": "Los símbolos Wild se transforman en Wild Reels y activan Free Respins",
-        "imgUrl": "img-feat_zeusinvincible-2.jpg"
-      },
-      {
-        "name": "Free Spins con Sticky Wilds",
-        "descr": "Los símbolos se transforman en Sticky Wilds hasta el final de la serie de Free Spins",
-        "imgUrl": "img-feat_zeusinvincible-3.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Zeus the Invincible: tragaperras en vídeo de Mascot Gaming",
-      "descr": " "
-    }
-  },
-  {
     "name": "Plinko pop",
     "slug": "plinko-pop",
     "linkToDemo": "demo.mascot.games/run/plinko_pop",
@@ -849,6 +795,72 @@
     "rockways": false
   },
   {
+    "name": "Zeus the Invincible",
+    "slug": "zeus-the-invincible",
+    "linkToDemo": "demo.mascot.games/run/zeus_the_invincible",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2025-03-20",
+    "featured": true,
+    "topGame": true,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_zeusinvincible2.jpeg",
+    "heroUrl": "hero_zeusinvincible2.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_zeusinvincible2.jpg",
+    "logoUrl": "logo_zeusinvincible2.png",
+    "backUrl": "back_zeusinvincible2.jpg",
+    "detailsImgUrl": "details_zeusinvincible2.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": " ",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "category": [
+      "mythology"
+    ],
+    "features": [
+      {
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
+        "imgUrl": "img-feat_zeusinvincible-0.jpg"
+      },
+      {
+        "name": "Función Risk & Buy: Compra",
+        "descr": "Compra Free Spins o una Partida Bonus con las condiciones propuestas y al precio sugerido. Hay una oferta especial después de cada partida",
+        "imgUrl": "img-feat_zeusinvincible-1.jpg"
+      },
+      {
+        "name": "Free Spins con Sticky Wild Reels y Respins",
+        "descr": "Los símbolos Wild se transforman en Wild Reels y activan Free Respins",
+        "imgUrl": "img-feat_zeusinvincible-2.jpg"
+      },
+      {
+        "name": "Free Spins con Sticky Wilds",
+        "descr": "Los símbolos se transforman en Sticky Wilds hasta el final de la serie de Free Spins",
+        "imgUrl": "img-feat_zeusinvincible-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Zeus the Invincible: tragaperras en vídeo de Mascot Gaming",
+      "descr": " "
+    }
+  },
+  {
     "name": "Shooting Galaxy",
     "slug": "shooting-galaxy",
     "linkToDemo": "demo.mascot.games/run/shooting_galaxy",
@@ -861,7 +873,7 @@
     "comingSoon": false,
     "releaseDate": "2025-03-13",
     "featured": false,
-    "topGame":false,
+    "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
@@ -884,6 +896,9 @@
       "rtp": " ",
       "hitrate": " "
     },
+    "category": [
+      "space"
+    ],
     "features": [
       {
         "name": "Partidas Bonus",
@@ -1149,6 +1164,9 @@
       "rtp": 95.21,
       "hitrate": 76.3
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Multiplicador de ganancia",
@@ -1301,7 +1319,6 @@
         "descr": "Arriesga tus ganancias para conseguir un multiplicador de ganancia",
         "imgUrl": "img-feat_luckyyear-2.jpg"
       }
-
     ],
     "meta": {
       "title": "Lucky Year 25: tragaperras en vídeo de Mascot Gaming",
@@ -1373,69 +1390,6 @@
     "rockways": false
   },
   {
-    "name": "Riot: Brutalski`s Revenge",
-    "slug": "riot-brutalskis-revenge",
-    "linkToDemo": "demo.mascot.games/run/riot_brutalskis_revenge",
-    "theme": "video slot",
-    "type": " ",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2024-12-17",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_brutalski2.jpeg",
-    "heroUrl": "hero_brutalski.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_brutalski.jpg",
-    "logoUrl": "logo_brutalski.png",
-    "backUrl": "back_brutalski.jpg",
-    "detailsImgUrl": "details_brutalski2.png",
-    "stats": {
-      "reels": 5,
-      "rows": 4,
-      "volatility": null,
-      "paylines": null,
-      "payways": 243,
-      "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
-    },
-    "features": [
-      {
-        "name": "Función Apostar",
-        "descr": "Adivina la carta más alta y dobla tus ganancias",
-        "imgUrl": "img-feat_brutalski-0.jpg"
-      },
-      {
-        "name": "Función Compra",
-        "descr": "Compra Free Spins con las condiciones propuestas al precio sugerido. Hay una oferta especial después de cada partida",
-        "imgUrl": "img-feat_brutalski-1.jpg"
-      },
-      {
-        "name": "Free Spins",
-        "descr": "Activa 10, 15 o 30 Free Spins con un multiplicador x3",
-        "imgUrl": "img-feat_brutalski-2.jpg"
-      },
-      {
-        "name": "Fire Spins",
-        "descr": "Fire Spins con símbolos permanentes y la posibilidad de mejorar la actual combinación ganadora",
-        "imgUrl": "img-feat_brutalski-3.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Riot: Brutalski Revenge, una tragaperras en vídeo de Macot Gaming",
-      "descr": "La venganza se sirve con la función Risk & Buy, Free Spins y Fire Spins."
-    },
-    "rockways": false
-  },
-  {
     "name": "Space Gems. Rockblocks",
     "slug": "space-gems-rockblocks",
     "linkToDemo": "demo.mascot.games/run/space_gems_rockblocks",
@@ -1470,6 +1424,9 @@
       "rtp": 94.9,
       "hitrate": 28.2
     },
+    "category": [
+      "space"
+    ],
     "features": [
       {
         "name": "Juego de riesgo",
@@ -1500,6 +1457,72 @@
     "meta": {
       "title": "Space Gems. Rockblocks: videojuego de Mascot Gaming",
       "descr": "Disfruta de una aventura intergaláctica con la Función Coin, Rockfall, Juego de Riesgo y Multiplicadores Aleatorios."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Riot: Brutalski`s Revenge",
+    "slug": "riot-brutalskis-revenge",
+    "linkToDemo": "demo.mascot.games/run/riot_brutalskis_revenge",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2024-12-17",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_brutalski2.jpeg",
+    "heroUrl": "hero_brutalski.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_brutalski.jpg",
+    "logoUrl": "logo_brutalski.png",
+    "backUrl": "back_brutalski.jpg",
+    "detailsImgUrl": "details_brutalski2.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": null,
+      "paylines": null,
+      "payways": 243,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "category": [
+      "postap"
+    ],
+    "features": [
+      {
+        "name": "Función Apostar",
+        "descr": "Adivina la carta más alta y dobla tus ganancias",
+        "imgUrl": "img-feat_brutalski-0.jpg"
+      },
+      {
+        "name": "Función Compra",
+        "descr": "Compra Free Spins con las condiciones propuestas al precio sugerido. Hay una oferta especial después de cada partida",
+        "imgUrl": "img-feat_brutalski-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Activa 10, 15 o 30 Free Spins con un multiplicador x3",
+        "imgUrl": "img-feat_brutalski-2.jpg"
+      },
+      {
+        "name": "Fire Spins",
+        "descr": "Fire Spins con símbolos permanentes y la posibilidad de mejorar la actual combinación ganadora",
+        "imgUrl": "img-feat_brutalski-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Riot: Brutalski Revenge, una tragaperras en vídeo de Macot Gaming",
+      "descr": "La venganza se sirve con la función Risk & Buy, Free Spins y Fire Spins."
     },
     "rockways": false
   },
@@ -1538,6 +1561,9 @@
       "rtp": " ",
       "hitrate": "  "
     },
+    "category": [
+      "christmas"
+    ],
     "features": [
       {
         "name": "Juego de riesgo",
@@ -1574,7 +1600,7 @@
     "comingSoon": false,
     "releaseDate": "2024-11-28",
     "featured": false,
-    "topGame":false,
+    "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
@@ -1654,6 +1680,9 @@
       "rtp": " ",
       "hitrate": "  "
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -1717,6 +1746,9 @@
       "rtp": " ",
       "hitrate": "  "
     },
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -1747,6 +1779,72 @@
     "meta": {
       "title": "Metal Frontiers: tragaperras en vídeo de Mascot Gaming",
       "descr": "Conduce a tu división a la victoria con multiplicadores aleatorios, Partidas Bonus y la función Risk & Buy."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Bastet and Cats Deluxe",
+    "slug": "bastet-and-cats-deluxe",
+    "linkToDemo": "demo.mascot.games/run/bastet_and_cats_deluxe",
+    "theme": "video slot",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": false,
+    "releaseDate": "2024-11-07",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_bastetdlx2.jpeg",
+    "heroUrl": "hero_bastetdlx.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_bastetdlx.jpg",
+    "logoUrl": "logo_bastetdlx.png",
+    "backUrl": "back_bastetdlx.jpg",
+    "detailsImgUrl": "details_bastetdlx.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": null,
+      "paylines": 40,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "category": [
+      "egypt"
+    ],
+    "features": [
+      {
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancia",
+        "imgUrl": "img-feat_bastetdlx-0.jpg"
+      },
+      {
+        "name": "Función Risk & Buy: Compra",
+        "descr": "Compra Free Spins con las condiciones propuestas al precio sugerido. Hay una oferta especial después de cada partida",
+        "imgUrl": "img-feat_bastetdlx-1.jpg"
+      },
+      {
+        "name": "Función Rockfall",
+        "descr": "Las combinaciones ganadoras desaparecen de la pantalla y se sustituyen por símbolos nuevos. Cada Rockfall nuevo de la serie aumentará el multiplicador hasta x5 durante el juego normal y hasta x15 en los Free Spins",
+        "imgUrl": "img-feat_bastetdlx-2.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "5 símbolos Scatter otorgan 15 Free Spins y 3 Free Spins adicionales para cada Scatter extra en la combinación que lo activa",
+        "imgUrl": "img-feat_bastetdlx-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Bastet and Cats Deluxe: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Descubre antiguas gemas con Rockfall, Free Spins y Risk & Buy."
     },
     "rockways": false
   },
@@ -1819,69 +1917,6 @@
     "rockways": false
   },
   {
-    "name": "Bastet and Cats Deluxe",
-    "slug": "bastet-and-cats-deluxe",
-    "linkToDemo": "demo.mascot.games/run/bastet_and_cats_deluxe",
-    "theme": "video slot",
-    "type": " ",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": true,
-    "comingSoon": false,
-    "releaseDate": "2024-11-07",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_bastetdlx2.jpeg",
-    "heroUrl": "hero_bastetdlx.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_bastetdlx.jpg",
-    "logoUrl": "logo_bastetdlx.png",
-    "backUrl": "back_bastetdlx.jpg",
-    "detailsImgUrl": "details_bastetdlx.png",
-    "stats": {
-      "reels": 5,
-      "rows": 4,
-      "volatility": null,
-      "paylines": 40,
-      "payways": null,
-      "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
-    },
-    "features": [
-      {
-        "name": "Función Risk & Buy: Riesgo",
-        "descr": "Arriesga tus ganancias jugando al Juego de Riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancia",
-        "imgUrl": "img-feat_bastetdlx-0.jpg"
-      },
-      {
-        "name": "Función Risk & Buy: Compra",
-        "descr": "Compra Free Spins con las condiciones propuestas al precio sugerido. Hay una oferta especial después de cada partida",
-        "imgUrl": "img-feat_bastetdlx-1.jpg"
-      },
-      {
-        "name": "Función Rockfall",
-        "descr": "Las combinaciones ganadoras desaparecen de la pantalla y se sustituyen por símbolos nuevos. Cada Rockfall nuevo de la serie aumentará el multiplicador hasta x5 durante el juego normal y hasta x15 en los Free Spins",
-        "imgUrl": "img-feat_bastetdlx-2.jpg"
-      },
-      {
-        "name": "Free Spins",
-        "descr": "5 símbolos Scatter otorgan 15 Free Spins y 3 Free Spins adicionales para cada Scatter extra en la combinación que lo activa",
-        "imgUrl": "img-feat_bastetdlx-3.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Bastet and Cats Deluxe: tragaperras en vídeo de Mascot Gaming",
-      "descr": "Descubre antiguas gemas con Rockfall, Free Spins y Risk & Buy."
-    },
-    "rockways": false
-  },
-  {
     "name": "Booming Fruity Boom",
     "slug": "booming-fruity-boom",
     "linkToDemo": "demo.mascot.games/run/booming_fruity_boom",
@@ -1916,6 +1951,9 @@
       "rtp": " ",
       "hitrate": "  "
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -1979,6 +2017,9 @@
       "rtp": 94.5,
       "hitrate": 28.4
     },
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Apostar",
@@ -2110,6 +2151,9 @@
       "rtp": 94.5,
       "hitrate": 22.1
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Wild Reels con Multiplicadores",
@@ -2284,6 +2328,9 @@
       "rtp": 95.0,
       "hitrate": 19.2
     },
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -2478,6 +2525,9 @@
       "rtp": 95.0,
       "hitrate": 17.2
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -2541,6 +2591,9 @@
       "rtp": 95.2,
       "hitrate": 8.38
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Sticky Respins",
@@ -2604,6 +2657,9 @@
       "rtp": 95.15,
       "hitrate": 17.5
     },
+    "category": [
+      "space"
+    ],
     "features": [
       {
         "name": "Adivina las bolas",
@@ -2720,6 +2776,9 @@
       "rtp": 95.18,
       "hitrate": 36.0
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Multiplicador de Ganancias",
@@ -2778,6 +2837,9 @@
       "rtp": 95.05,
       "hitrate": 23.8
     },
+    "category": [
+      "easter"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Arriesga",
@@ -2846,6 +2908,9 @@
       "rtp": 95.33,
       "hitrate": 75.2
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Juego de riesgo",
@@ -2904,6 +2969,9 @@
       "rtp": null,
       "hitrate": null
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Wild Reels",
@@ -3151,6 +3219,9 @@
       "rtp": null,
       "hitrate": null
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Wilds transformados",
@@ -3426,6 +3497,9 @@
       "rtp": 95.4,
       "hitrate": 32.2
     },
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -3559,6 +3633,9 @@
       "rtp": null,
       "hitrate": null
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Apuesta rápida",
@@ -3622,6 +3699,9 @@
       "rtp": 94.7,
       "hitrate": 30.5
     },
+    "category": [
+      "christmas"
+    ],
     "features": [
       {
         "name": "Función Risk",
@@ -3680,6 +3760,9 @@
       "rtp": null,
       "hitrate": null
     },
+    "category": [
+      "egypt"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Risk",
@@ -3796,6 +3879,9 @@
       "rtp": null,
       "hitrate": null
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -3864,6 +3950,9 @@
       "rtp": 97.2,
       "hitrate": 31.2
     },
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -3884,6 +3973,64 @@
     "meta": {
       "title": "Hello Win!: tragaperras en vídeo de Mascot Gaming",
       "descr": "Disfruta del escalofriante encanto de Halloween con la nueva función de Risk and Buy y Free Spins."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Paper Lanterns Crash Game",
+    "slug": "paper-lanterns-crash-game",
+    "linkToDemo": "demo.mascot.games/run/paper_lanterns_crash_game",
+    "theme": "crash",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2023-09-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": null,
+    "thumbUrl": "game_lantern.jpeg",
+    "heroUrl": "hero_lantern.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_lantern.jpg",
+    "logoUrl": "logo_lantern.png",
+    "backUrl": "back_lantern.jpg",
+    "detailsImgUrl": "details_lantern.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "High",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.32,
+      "hitrate": 28.9
+    },
+    "features": [
+      {
+        "name": " ",
+        "descr": "Entre 1 y 5 apuestas simultáneas",
+        "imgUrl": "img-feat_lantern-0.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Aumenta las probabilidades hasta 5000",
+        "imgUrl": "img-feat_lantern-1.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Hasta 5 apuestas gratuitas con cada lanzamiento",
+        "imgUrl": "img-feat_lantern-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Paper Lanterns Crash Game es el primer juego de choques de Mascot Gaming",
+      "descr": "Paper Lanterns Crash Game de Mascot Gaming es un juego de choques que permite a los jugadores iniciar varias linternas de papel, realizando entre 1 y 5 apuestas simultáneamente."
     },
     "rockways": false
   },
@@ -3922,6 +4069,9 @@
       "rtp": 95,
       "hitrate": 53.2
     },
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -3990,6 +4140,9 @@
       "rtp": 95.16,
       "hitrate": 21.5
     },
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -4053,6 +4206,9 @@
       "rtp": 96.1,
       "hitrate": 31.1
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -4116,6 +4272,9 @@
       "rtp": 95.37,
       "hitrate": 38.1
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Comprar",
@@ -4141,122 +4300,6 @@
     "meta": {
       "title": "Wild Phoenix Rises: tragaperras en vídeo de Mascot Gaming",
       "descr": "Wild Phoenix Rises es una nueva tragaperras en vídeo de Mascot Gaming con una nueva versión de la famosa función Risk and Buy"
-    },
-    "rockways": false
-  },
-  {
-    "name": "Paper Lanterns Crash Game",
-    "slug": "paper-lanterns-crash-game",
-    "linkToDemo": "demo.mascot.games/run/paper_lanterns_crash_game",
-    "theme": "crash",
-    "type": "profit",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2023-09-26",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": null,
-    "thumbUrl": "game_lantern.jpeg",
-    "heroUrl": "hero_lantern.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_lantern.jpg",
-    "logoUrl": "logo_lantern.png",
-    "backUrl": "back_lantern.jpg",
-    "detailsImgUrl": "details_lantern.png",
-    "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": "High",
-      "paylines": null,
-      "payways": null,
-      "html5": true,
-      "rtp": 95.32,
-      "hitrate": 28.9
-    },
-    "features": [
-      {
-        "name": " ",
-        "descr": "Entre 1 y 5 apuestas simultáneas",
-        "imgUrl": "img-feat_lantern-0.jpg"
-      },
-      {
-        "name": " ",
-        "descr": "Aumenta las probabilidades hasta 5000",
-        "imgUrl": "img-feat_lantern-1.jpg"
-      },
-      {
-        "name": " ",
-        "descr": "Hasta 5 apuestas gratuitas con cada lanzamiento",
-        "imgUrl": "img-feat_lantern-2.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Paper Lanterns Crash Game es el primer juego de choques de Mascot Gaming",
-      "descr": "Paper Lanterns Crash Game de Mascot Gaming es un juego de choques que permite a los jugadores iniciar varias linternas de papel, realizando entre 1 y 5 apuestas simultáneamente."
-    },
-    "rockways": false
-  },
-  {
-    "name": "Rocket Chimp Jackpot",
-    "slug": "rocket-chimp-jackpot",
-    "linkToDemo": "demo.mascot.games/run/rocket_chimp_jackpot",
-    "theme": "video slot",
-    "type": "profit",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2023-04-25",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": "Con Rocket Chimp Jackpot, no hay límites. ¡Ve a por todas y gana a lo grande!",
-    "thumbUrl": "game_rocketchimp.jpeg",
-    "heroUrl": "hero_rocketchimp.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_rocketchimp.jpg",
-    "logoUrl": "logo_rocketchimp.png",
-    "backUrl": "back_rocketchimp.jpg",
-    "detailsImgUrl": "details_rocketchimp.png",
-    "stats": {
-      "reels": 5,
-      "rows": 3,
-      "volatility": "Med",
-      "paylines": null,
-      "payways": 243,
-      "html5": true,
-      "rtp": 95.19,
-      "hitrate": 42.3
-    },
-    "features": [
-      {
-        "name": "Función Scatter",
-        "descr": "Cada símbolo Scatter añade Free Spins a tu escala de Free Spins o aumenta el multiplicador del bote",
-        "imgUrl": "img-feat_rocketchimp-0.jpg"
-      },
-      {
-        "name": "Free Spins",
-        "descr": "Cuando se llene la escala de Free Spins, el jugador conseguirá Free Spins con la función Jackpot",
-        "imgUrl": "img-feat_rocketchimp-1.jpg"
-      },
-      {
-        "name": "Función Jackpot",
-        "descr": "Los símbolos Scatter que aparecen durante los Free Spins pueden hacerte ganar el bote de hasta x10 000",
-        "imgUrl": "img-feat_rocketchimp-21.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Rocket Chimp Jackpot: tragaperras en vídeo de Mascot Gaming",
-      "descr": "Rocket Chimp Jackpot es una tragaperras nueva de Mascot"
     },
     "rockways": false
   },
@@ -4295,6 +4338,9 @@
       "rtp": 95.06,
       "hitrate": 34.5
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Partidas Bonus y Super Bonus",
@@ -4319,64 +4365,6 @@
     "rockways": false
   },
   {
-    "name": "Fruit Machine Megabonus",
-    "slug": "fruit-machine-megabonus",
-    "linkToDemo": "demo.mascot.games/run/fruit_machine_megabonus",
-    "theme": "video slot",
-    "type": "profit",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2023-05-30",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": null,
-    "thumbUrl": "game_fmmegabonus.jpeg",
-    "heroUrl": "hero_fmmegabonus.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_fmmegabonus.jpg",
-    "logoUrl": "logo_fmmegabonus2.png",
-    "backUrl": "back_fmmegabonus.jpg",
-    "detailsImgUrl": "details_fmmegabonus.png",
-    "stats": {
-      "reels": 5,
-      "rows": 3,
-      "volatility": "Alto",
-      "paylines": 10,
-      "payways": null,
-      "html5": true,
-      "rtp": 95.33,
-      "hitrate": 37.9
-    },
-    "features": [
-      {
-        "name": "Pagos adyacentes",
-        "descr": "Pagos por combinaciones de símbolos adyacentes",
-        "imgUrl": "img-feat_fmmegabonus-0.jpg"
-      },
-      {
-        "name": "Partida Bonus",
-        "descr": "Partida Bonus con hasta 3, 4 o 5 fallos",
-        "imgUrl": "img-feat_fmmegabonus-1.jpg"
-      },
-      {
-        "name": "Rodillo extra",
-        "descr": "Ganancias grandes en una partida Bonus con un rodillo extra",
-        "imgUrl": "img-feat_fmmegabonus-2.jpg"
-      }
-    ],
-    "meta": {
-      "title": "FRUIT MACHINE MEGABONUS: tragaperras en vídeo de Mascot Gaming",
-      "descr": "FRUIT MACHINE FRUTAS MEGABONUS es nuestra tragaperras nueva con partida Bonus con hasta 3, 4 o 5 fallos."
-    },
-    "rockways": false
-  },
-  {
     "name": "Hook Up! Fishing Wars",
     "slug": "hook-up-fishing-wars",
     "linkToDemo": "demo.mascot.games/run/hook_up_fishing_wars",
@@ -4386,7 +4374,7 @@
     "mganotice": false,
     "risknbuy": false,
     "comingSoon": false,
-    "releaseDate": "coming soon",
+    "releaseDate": "2023-06-06",
     "featured": true,
     "topGame": true,
     "branded": false,
@@ -4445,6 +4433,462 @@
     "rockways": false
   },
   {
+    "name": "Fruit Machine Megabonus",
+    "slug": "fruit-machine-megabonus",
+    "linkToDemo": "demo.mascot.games/run/fruit_machine_megabonus",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2023-05-30",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": null,
+    "thumbUrl": "game_fmmegabonus.jpeg",
+    "heroUrl": "hero_fmmegabonus.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fmmegabonus.jpg",
+    "logoUrl": "logo_fmmegabonus2.png",
+    "backUrl": "back_fmmegabonus.jpg",
+    "detailsImgUrl": "details_fmmegabonus.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Alto",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.33,
+      "hitrate": 37.9
+    },
+    "category": [
+      "fruits"
+    ],
+    "features": [
+      {
+        "name": "Pagos adyacentes",
+        "descr": "Pagos por combinaciones de símbolos adyacentes",
+        "imgUrl": "img-feat_fmmegabonus-0.jpg"
+      },
+      {
+        "name": "Partida Bonus",
+        "descr": "Partida Bonus con hasta 3, 4 o 5 fallos",
+        "imgUrl": "img-feat_fmmegabonus-1.jpg"
+      },
+      {
+        "name": "Rodillo extra",
+        "descr": "Ganancias grandes en una partida Bonus con un rodillo extra",
+        "imgUrl": "img-feat_fmmegabonus-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "FRUIT MACHINE MEGABONUS: tragaperras en vídeo de Mascot Gaming",
+      "descr": "FRUIT MACHINE FRUTAS MEGABONUS es nuestra tragaperras nueva con partida Bonus con hasta 3, 4 o 5 fallos."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Fruits of mBit",
+    "slug": "fruits-of-mbit",
+    "linkToDemo": "demo.mascot.games/run/fruits_of_mbit",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": true,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": true,
+    "custom": false,
+    "descr": null,
+    "thumbUrl": "game_mbit.jpeg",
+    "heroUrl": "hero_mbit.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_mbit.jpg",
+    "logoUrl": "logo_mbit.png",
+    "backUrl": "back_mbit.jpg",
+    "detailsImgUrl": "details_mbit.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Bajo",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95,
+      "hitrate": 46.3
+    },
+    "features": [
+      {
+        "name": "Dos líneas de pago",
+        "descr": "Las combinaciones ganadoras se calculan tanto de izquierda a derecha como de derecha a izquierda",
+        "imgUrl": "img-feat_mbit-0.jpg"
+      },
+      {
+        "name": "Función Sticky Wilds y Respin",
+        "descr": "Cuando aparezcan, los símbolos Wild se volverán Sticky y activarán una serie Respin que durará hasta que aparezcan símbolos Wild nuevos",
+        "imgUrl": "img-feat_mbit-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "FRUITS OF mBit: tragaperras en vídeo de Mascot Gaming",
+      "descr": "FRUITS OF mBit es nuestra tragaperras nueva con Sticky Wilds y función Respin."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Dice Vegas",
+    "slug": "dice-vegas",
+    "linkToDemo": "demo.mascot.games/run/dice_vegas",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": true,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": true,
+    "descr": "A todo el mundo le gusta Las Vegas. Así que, ¿por qué no disfrutas de un delicioso cóctel de frutas, escuchas música pegadiza y aprovechas al máximo nuestras increíbles funciones de juego? ¡Sumérgete en el mundo más fascinante y emocionante!",
+    "thumbUrl": "game_dicevegas.jpeg",
+    "heroUrl": "hero_dicevegas.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_dicevegas.jpg",
+    "logoUrl": "logo_dicevegas.png",
+    "backUrl": "back_dicevegas.jpg",
+    "detailsImgUrl": "details_dicevegas.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
+      "payways": null,
+      "html5": true,
+      "rtp": 96.1,
+      "hitrate": 22.8
+    },
+    "features": [
+      {
+        "name": "Pago en ambos sentidos",
+        "descr": "Los pagos de las líneas se hacen de izquierda a derecha y de derecha a izquierda.",
+        "imgUrl": "img-feat_dicevegas-0.jpg"
+      },
+      {
+        "name": "Expanding Wilds",
+        "descr": "Los símbolos Wild se expanden para cubrir todo el rodillo y mejorar tu combinación ganadora",
+        "imgUrl": "img-feat_dicevegas-1.jpg"
+      },
+      {
+        "name": "Función Free Respin",
+        "descr": "Los símbolos Expanding Wilds activan una serie de re-spins que dura mientras sigan apareciendo Wilds nuevos en la pantalla. Los Expanding Wilds se convierten en Sticky durante la serie de re-spins",
+        "imgUrl": "img-feat_dicevegas-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "DICE VEGAS: tragaperras en vídeo de Mascot Gaming",
+      "descr": "DICE VEGAS es nuestra tragaperras nueva con el ambiente de Las Vegas de antaño."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Dice of Luxor",
+    "slug": "dice-of-luxor",
+    "linkToDemo": "demo.mascot.games/run/dice_of_luxor",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": true,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": true,
+    "descr": "Añade un poquito de zumo a las áridas arenas del Mundo Antiguo. ¡Disfrute de una nueva aventura en la majestuosa Luxor!",
+    "thumbUrl": "game_diceluxor.jpeg",
+    "heroUrl": "hero_diceluxor.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_diceluxor.jpg",
+    "logoUrl": "logo_diceluxor.png",
+    "backUrl": "back_diceluxor.jpg",
+    "detailsImgUrl": "details_diceluxor.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Bajo",
+      "paylines": 15,
+      "payways": null,
+      "html5": true,
+      "rtp": 95,
+      "hitrate": 46.3
+    },
+    "features": [
+      {
+        "name": "Dos líneas de pago",
+        "descr": "Las combinaciones ganadoras se calculan tanto de izquierda a derecha como de derecha a izquierda",
+        "imgUrl": "img-feat_diceluxor-0.jpg"
+      },
+      {
+        "name": "Función Sticky Wilds y Respin",
+        "descr": "Cuando aparezcan, los símbolos Wild se volverán Sticky y activarán una serie Respin que durará hasta que aparezcan símbolos Wild nuevos",
+        "imgUrl": "img-feat_diceluxor-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "DICE OF LUXOR: tragaperras en vídeo de Mascot Gaming",
+      "descr": "DICE OF LUXOR es nuestra tragaperras nueva con función Sticky Wilds y Respin."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Twin Dice of Olympus",
+    "slug": "twin-dice-of-olympus",
+    "linkToDemo": "demo.mascot.games/run/twin_dice_of_olympus",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": true,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": true,
+    "descr": "El monte Olimpo está lleno de frutos divinos. ¿Qué traman los dioses? ¡Échale valor y descúbrelo en esta nueva tragaperras épica!",
+    "thumbUrl": "game_diceolymp.jpeg",
+    "heroUrl": "hero_diceolymp.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_diceolymp.jpg",
+    "logoUrl": "logo_diceolymp.png",
+    "backUrl": "back_diceolymp.jpg",
+    "detailsImgUrl": "details_diceolymp.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 1024,
+      "html5": true,
+      "rtp": 95.5,
+      "hitrate": 39.2
+    },
+    "features": [
+      {
+        "name": "Función 1024 líneas de pago",
+        "descr": "Con 1024 líneas de pago, el jugador puede conseguir aún más combinaciones ganadoras en su pantalla",
+        "imgUrl": "img-feat_diceolymp-0.jpg"
+      },
+      {
+        "name": "Función Twin Reels",
+        "descr": "Entre 2 y 5 rodillos adyacentes ",
+        "twins": " que aumentan las posibilidades de ganar en cada tirada",
+        "imgUrl": "img-feat_diceolymp-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "TWIN DICE OF OLYMPUS: tragaperras en vídeo de Mascot Gaming",
+      "descr": "TWIN DICE OF OLYMPUS es nuestra tragaperras nueva con Twin Reels"
+    },
+    "rockways": false
+  },
+  {
+    "name": "Dice Disco Mega Stacks",
+    "slug": "dice-disco-mega-stacks",
+    "linkToDemo": "demo.mascot.games/run/dice_disco_ms",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": true,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": true,
+    "descr": "¡Déjate llevar por las melodías de la vieja escuela y las frutas disco!",
+    "thumbUrl": "game_dicedisco.jpeg",
+    "heroUrl": "hero_dicedisco.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_dicedisco.jpg",
+    "logoUrl": "logo_dicedisco.png",
+    "backUrl": "back_dicedisco.jpg",
+    "detailsImgUrl": "details_dicedisco.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.42,
+      "hitrate": 23.3
+    },
+    "features": [
+      {
+        "name": "Stacked Symbols",
+        "descr": "Un rodillo de símbolos idénticos aumenta el número de combinaciones ganadoras para 1 tirada",
+        "imgUrl": "img-feat_dicedisco-0.jpg"
+      },
+      {
+        "name": "Función Fruit Disco Mega Stacks",
+        "descr": "Entre 2 y 5 rodillos adyacentes se llenan con símbolos idénticos apilados en cada tirada, lo que aumenta mucho las posibilidades de ganar",
+        "imgUrl": "img-feat_dicedisco-1.jpg"
+      },
+      {
+        "name": "Multiplicador de ganancias",
+        "descr": "Cada ganancia aumenta el multiplicador de ganancias de la siguiente tirada de x1 a x10",
+        "imgUrl": "img-feat_dicedisco-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "DICE DISCO MEGA STACKS: tragaperras en vídeo de Mascot Gaming",
+      "descr": "DICE DISCO MEGA STACKS es nuestra tragaperras nueva con la función Stacked Symbols."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Aloha Tiki Bar Dice",
+    "slug": "aloha-tiki-bar-dice",
+    "linkToDemo": "demo.mascot.games/run/aloha_tiki_bar_dice",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": true,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2023-05-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": true,
+    "descr": "¿Ya echas de menos el verano? ¡Pues pásate por el Tiki Bar para disfrutar de una acción abrasadora! ¡Aloha!",
+    "thumbUrl": "game_alohadice.jpeg",
+    "heroUrl": "hero_alohadice.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_alohadice.jpg",
+    "logoUrl": "logo_alohadice.png",
+    "backUrl": "back_alohadice.jpg",
+    "detailsImgUrl": "details_alohadice.png",
+    "stats": {
+      "reels": 6,
+      "rows": 3,
+      "volatility": "Alto",
+      "paylines": null,
+      "payways": 3600,
+      "html5": true,
+      "rtp": 95.2,
+      "hitrate": 23.4
+    },
+    "features": [
+      {
+        "name": "3600 Líneas de pago",
+        "descr": "¡Las 3600 líneas de pago ofrecen aún más combinaciones ganadoras en la pantalla!",
+        "imgUrl": "img-feat_alohadice-0.jpg"
+      },
+      {
+        "name": "Expanding Wilds",
+        "descr": "Los símbolos Wild se expanden para cubrir todo el rodillo y mejorar tu combinación ganadora",
+        "imgUrl": "img-feat_alohadice-1.jpg"
+      },
+      {
+        "name": "Función Free Respin",
+        "descr": "Los símbolos de Expanding Wild se convierten en Sticky y activan 1 Free Respin. El símbolo Wild puede activar 1 Free Respin hasta 4 veces",
+        "imgUrl": "img-feat_alohadice-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "ALOHA TIKI BAR DICE: tragaperras en vídeo de Mascot Gaming",
+      "descr": "ALOHA TIKI BAR DICE es nuestra tragaperras nueva con 3600 líneas de pago."
+    },
+    "rockways": false
+  },
+  {
+    "name": "Rocket Chimp Jackpot",
+    "slug": "rocket-chimp-jackpot",
+    "linkToDemo": "demo.mascot.games/run/rocket_chimp_jackpot",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2023-04-25",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": "Con Rocket Chimp Jackpot, no hay límites. ¡Ve a por todas y gana a lo grande!",
+    "thumbUrl": "game_rocketchimp.jpeg",
+    "heroUrl": "hero_rocketchimp.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_rocketchimp.jpg",
+    "logoUrl": "logo_rocketchimp.png",
+    "backUrl": "back_rocketchimp.jpg",
+    "detailsImgUrl": "details_rocketchimp.png",
+    "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": null,
+      "payways": 243,
+      "html5": true,
+      "rtp": 95.19,
+      "hitrate": 42.3
+    },
+    "category": [
+      "space"
+    ],
+    "features": [
+      {
+        "name": "Función Scatter",
+        "descr": "Cada símbolo Scatter añade Free Spins a tu escala de Free Spins o aumenta el multiplicador del bote",
+        "imgUrl": "img-feat_rocketchimp-0.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Cuando se llene la escala de Free Spins, el jugador conseguirá Free Spins con la función Jackpot",
+        "imgUrl": "img-feat_rocketchimp-1.jpg"
+      },
+      {
+        "name": "Función Jackpot",
+        "descr": "Los símbolos Scatter que aparecen durante los Free Spins pueden hacerte ganar el bote de hasta x10 000",
+        "imgUrl": "img-feat_rocketchimp-21.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Rocket Chimp Jackpot: tragaperras en vídeo de Mascot Gaming",
+      "descr": "Rocket Chimp Jackpot es una tragaperras nueva de Mascot"
+    },
+    "rockways": false
+  },
+  {
     "name": "Easter Luck",
     "slug": "easter-luck",
     "linkToDemo": "demo.mascot.games/run/easter_luck",
@@ -4479,6 +4923,9 @@
       "rtp": 95.2,
       "hitrate": 23.4
     },
+    "category": [
+      "easter"
+    ],
     "features": [
       {
         "name": "3600 Líneas de pago",
@@ -4537,6 +4984,9 @@
       "rtp": 95.3,
       "hitrate": 20.9
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Símbolo Wild con Multiplier",
@@ -4663,6 +5113,9 @@
       "rtp": 95,
       "hitrate": 28.5
     },
+    "category": [
+      "egypt"
+    ],
     "features": [
       {
         "name": " ",
@@ -4716,6 +5169,9 @@
       "rtp": 95.08,
       "hitrate": 32.2
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -4842,6 +5298,9 @@
       "rtp": 95.22,
       "hitrate": 43.4
     },
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -4968,6 +5427,9 @@
       "rtp": 95.19,
       "hitrate": 40.1
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -5089,6 +5551,9 @@
       "rtp": 95.23,
       "hitrate": 31.4
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -5162,6 +5627,9 @@
       "rtp": 95.02,
       "hitrate": 38.8
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Partida Bonus",
@@ -5225,6 +5693,9 @@
       "rtp": 95.19,
       "hitrate": 32.2
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Función Rockways",
@@ -5303,6 +5774,9 @@
       "rtp": 95.42,
       "hitrate": 23.3
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -5361,6 +5835,9 @@
       "rtp": 95.23,
       "hitrate": 54.7
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -5419,6 +5896,9 @@
       "rtp": 95.38,
       "hitrate": 43.1
     },
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Función Rockfall",
@@ -5492,6 +5972,9 @@
       "rtp": 94.9,
       "hitrate": 38.2
     },
+    "category": [
+      "space"
+    ],
     "features": [
       {
         "name": "Free Spins garantizados",
@@ -5598,6 +6081,9 @@
     "logoUrl": "logo_fortherealm.png",
     "backUrl": "back_fortherealm.jpg",
     "detailsImgUrl": "details_fortherealm.png",
+    "category": [
+      "fantasy"
+    ],
     "stats": {
       "reels": 5,
       "rows": 3,
@@ -5676,6 +6162,9 @@
       "rtp": 95.1,
       "hitrate": 20.1
     },
+    "category": [
+      "egypt"
+    ],
     "features": [
       {
         "name": "Función Rockways",
@@ -5749,6 +6238,9 @@
       "rtp": 95.5,
       "hitrate": 39.2
     },
+    "category": [
+      "christmas"
+    ],
     "features": [
       {
         "name": "Función 1024 líneas de pago",
@@ -5802,6 +6294,9 @@
       "rtp": 95.4,
       "hitrate": 31.3
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Función Aerial Magic",
@@ -6001,6 +6496,9 @@
       "rtp": 96.5,
       "hitrate": 35.6
     },
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Modificadores del juego",
@@ -6142,6 +6640,9 @@
       "rtp": 95.2,
       "hitrate": 27.3
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -6220,6 +6721,9 @@
       "rtp": 95,
       "hitrate": 46.3
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Dos líneas de pago",
@@ -6273,6 +6777,9 @@
       "rtp": 95.5,
       "hitrate": 39.2
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Función 1024 líneas de pago",
@@ -6326,6 +6833,9 @@
       "rtp": 95.3,
       "hitrate": 46.06
     },
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -6540,6 +7050,9 @@
       "rtp": 95,
       "hitrate": 46.9
     },
+    "category": [
+      "egypt"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -6613,6 +7126,9 @@
       "rtp": 94.8,
       "hitrate": 25.8
     },
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -6686,6 +7202,9 @@
       "rtp": 95.3,
       "hitrate": 32.7
     },
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Función Vampire Hunt Free Spins ",
@@ -6749,6 +7268,9 @@
       "rtp": 95.1,
       "hitrate": 20.1
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -6822,6 +7344,9 @@
       "rtp": 95.2,
       "hitrate": 27.3
     },
+    "category": [
+      "christmas"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -6900,6 +7425,9 @@
       "rtp": 95.5,
       "hitrate": 37.8
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Función Treasure Map bonus",
@@ -7041,6 +7569,9 @@
       "rtp": 95.9,
       "hitrate": 30.8
     },
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -7109,6 +7640,9 @@
       "rtp": 95,
       "hitrate": 36.5
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Pagos adyacentes",
@@ -7167,6 +7701,9 @@
       "rtp": 95.45,
       "hitrate": 34.7
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Free Spins con multiplicador Wild de hasta x5",
@@ -7225,6 +7762,9 @@
       "rtp": 96.1,
       "hitrate": 31.1
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -7293,6 +7833,9 @@
       "rtp": 96.7,
       "hitrate": 31.9
     },
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -7424,6 +7967,9 @@
       "rtp": 96.5,
       "hitrate": 35.6
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Modificadores del juego",
@@ -7777,6 +8323,9 @@
       "rtp": 96.1,
       "hitrate": 22.8
     },
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Pago en ambos sentidos",
@@ -7835,6 +8384,9 @@
       "rtp": 96.6,
       "hitrate": 27.2
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Símbolos Gryphon's Wild y Wild Reel",
@@ -7893,6 +8445,9 @@
       "rtp": 96.9,
       "hitrate": 31.2
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -8009,6 +8564,9 @@
       "rtp": 97,
       "hitrate": 31.2
     },
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -8067,6 +8625,9 @@
       "rtp": 96.6,
       "hitrate": 21.5
     },
+    "category": [
+      "egypt"
+    ],
     "features": [
       {
         "name": "2 símbolos Wild",
@@ -8309,6 +8870,9 @@
       "rtp": 96,
       "hitrate": 46.3
     },
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Símbolos Wild con 3 funciones Mermaids’ Wilds",
@@ -8372,6 +8936,9 @@
       "rtp": 96.9,
       "hitrate": 31.2
     },
+    "category": [
+      "christmas"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -8571,340 +9138,6 @@
     "meta": {
       "title": "VENETIAN MAGIC: tragaperras en vídeo de Mascot Gaming",
       "descr": "VENETIAN MAGIC es una tragaperras preciosa atmosférica de Mascot Gaming. ¡Únete al magnífico carnaval de Venecia!"
-    },
-    "rockways": false
-  },
-  {
-    "name": "Fruits of mBit",
-    "slug": "fruits-of-mbit",
-    "linkToDemo": "demo.mascot.games/run/fruits_of_mbit",
-    "theme": "video slot",
-    "type": "profit",
-    "mgacertified": false,
-    "mganotice": true,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": true,
-    "custom": false,
-    "descr": null,
-    "thumbUrl": "game_mbit.jpeg",
-    "heroUrl": "hero_mbit.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_mbit.jpg",
-    "logoUrl": "logo_mbit.png",
-    "backUrl": "back_mbit.jpg",
-    "detailsImgUrl": "details_mbit.png",
-    "stats": {
-      "reels": 5,
-      "rows": 3,
-      "volatility": "Bajo",
-      "paylines": 15,
-      "payways": null,
-      "html5": true,
-      "rtp": 95,
-      "hitrate": 46.3
-    },
-    "features": [
-      {
-        "name": "Dos líneas de pago",
-        "descr": "Las combinaciones ganadoras se calculan tanto de izquierda a derecha como de derecha a izquierda",
-        "imgUrl": "img-feat_mbit-0.jpg"
-      },
-      {
-        "name": "Función Sticky Wilds y Respin",
-        "descr": "Cuando aparezcan, los símbolos Wild se volverán Sticky y activarán una serie Respin que durará hasta que aparezcan símbolos Wild nuevos",
-        "imgUrl": "img-feat_mbit-1.jpg"
-      }
-    ],
-    "meta": {
-      "title": "FRUITS OF mBit: tragaperras en vídeo de Mascot Gaming",
-      "descr": "FRUITS OF mBit es nuestra tragaperras nueva con Sticky Wilds y función Respin."
-    },
-    "rockways": false
-  },
-  {
-    "name": "Dice Vegas",
-    "slug": "dice-vegas",
-    "linkToDemo": "demo.mascot.games/run/dice_vegas",
-    "theme": "video slot",
-    "type": "profit",
-    "mgacertified": false,
-    "mganotice": true,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": true,
-    "descr": "A todo el mundo le gusta Las Vegas. Así que, ¿por qué no disfrutas de un delicioso cóctel de frutas, escuchas música pegadiza y aprovechas al máximo nuestras increíbles funciones de juego? ¡Sumérgete en el mundo más fascinante y emocionante!",
-    "thumbUrl": "game_dicevegas.jpeg",
-    "heroUrl": "hero_dicevegas.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_dicevegas.jpg",
-    "logoUrl": "logo_dicevegas.png",
-    "backUrl": "back_dicevegas.jpg",
-    "detailsImgUrl": "details_dicevegas.png",
-    "stats": {
-      "reels": 5,
-      "rows": 3,
-      "volatility": "Med",
-      "paylines": 10,
-      "payways": null,
-      "html5": true,
-      "rtp": 96.1,
-      "hitrate": 22.8
-    },
-    "features": [
-      {
-        "name": "Pago en ambos sentidos",
-        "descr": "Los pagos de las líneas se hacen de izquierda a derecha y de derecha a izquierda.",
-        "imgUrl": "img-feat_dicevegas-0.jpg"
-      },
-      {
-        "name": "Expanding Wilds",
-        "descr": "Los símbolos Wild se expanden para cubrir todo el rodillo y mejorar tu combinación ganadora",
-        "imgUrl": "img-feat_dicevegas-1.jpg"
-      },
-      {
-        "name": "Función Free Respin",
-        "descr": "Los símbolos Expanding Wilds activan una serie de re-spins que dura mientras sigan apareciendo Wilds nuevos en la pantalla. Los Expanding Wilds se convierten en Sticky durante la serie de re-spins",
-        "imgUrl": "img-feat_dicevegas-2.jpg"
-      }
-    ],
-    "meta": {
-      "title": "DICE VEGAS: tragaperras en vídeo de Mascot Gaming",
-      "descr": "DICE VEGAS es nuestra tragaperras nueva con el ambiente de Las Vegas de antaño."
-    },
-    "rockways": false
-  },
-  {
-    "name": "Dice of Luxor",
-    "slug": "dice-of-luxor",
-    "linkToDemo": "demo.mascot.games/run/dice_of_luxor",
-    "theme": "video slot",
-    "type": "profit",
-    "mgacertified": false,
-    "mganotice": true,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": true,
-    "descr": "Añade un poquito de zumo a las áridas arenas del Mundo Antiguo. ¡Disfrute de una nueva aventura en la majestuosa Luxor!",
-    "thumbUrl": "game_diceluxor.jpeg",
-    "heroUrl": "hero_diceluxor.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_diceluxor.jpg",
-    "logoUrl": "logo_diceluxor.png",
-    "backUrl": "back_diceluxor.jpg",
-    "detailsImgUrl": "details_diceluxor.png",
-    "stats": {
-      "reels": 5,
-      "rows": 3,
-      "volatility": "Bajo",
-      "paylines": 15,
-      "payways": null,
-      "html5": true,
-      "rtp": 95,
-      "hitrate": 46.3
-    },
-    "features": [
-      {
-        "name": "Dos líneas de pago",
-        "descr": "Las combinaciones ganadoras se calculan tanto de izquierda a derecha como de derecha a izquierda",
-        "imgUrl": "img-feat_diceluxor-0.jpg"
-      },
-      {
-        "name": "Función Sticky Wilds y Respin",
-        "descr": "Cuando aparezcan, los símbolos Wild se volverán Sticky y activarán una serie Respin que durará hasta que aparezcan símbolos Wild nuevos",
-        "imgUrl": "img-feat_diceluxor-1.jpg"
-      }
-    ],
-    "meta": {
-      "title": "DICE OF LUXOR: tragaperras en vídeo de Mascot Gaming",
-      "descr": "DICE OF LUXOR es nuestra tragaperras nueva con función Sticky Wilds y Respin."
-    },
-    "rockways": false
-  },
-  {
-    "name": "Twin Dice of Olympus",
-    "slug": "twin-dice-of-olympus",
-    "linkToDemo": "demo.mascot.games/run/twin_dice_of_olympus",
-    "theme": "video slot",
-    "type": "profit",
-    "mgacertified": false,
-    "mganotice": true,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": true,
-    "descr": "El monte Olimpo está lleno de frutos divinos. ¿Qué traman los dioses? ¡Échale valor y descúbrelo en esta nueva tragaperras épica!",
-    "thumbUrl": "game_diceolymp.jpeg",
-    "heroUrl": "hero_diceolymp.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_diceolymp.jpg",
-    "logoUrl": "logo_diceolymp.png",
-    "backUrl": "back_diceolymp.jpg",
-    "detailsImgUrl": "details_diceolymp.png",
-    "stats": {
-      "reels": 5,
-      "rows": 4,
-      "volatility": "Med",
-      "paylines": null,
-      "payways": 1024,
-      "html5": true,
-      "rtp": 95.5,
-      "hitrate": 39.2
-    },
-    "features": [
-      {
-        "name": "Función 1024 líneas de pago",
-        "descr": "Con 1024 líneas de pago, el jugador puede conseguir aún más combinaciones ganadoras en su pantalla",
-        "imgUrl": "img-feat_diceolymp-0.jpg"
-      },
-      {
-        "name": "Función Twin Reels",
-        "descr": "Entre 2 y 5 rodillos adyacentes ",
-        "twins": " que aumentan las posibilidades de ganar en cada tirada",
-        "imgUrl": "img-feat_diceolymp-1.jpg"
-      }
-    ],
-    "meta": {
-      "title": "TWIN DICE OF OLYMPUS: tragaperras en vídeo de Mascot Gaming",
-      "descr": "TWIN DICE OF OLYMPUS es nuestra tragaperras nueva con Twin Reels"
-    },
-    "rockways": false
-  },
-  {
-    "name": "Dice Disco Mega Stacks",
-    "slug": "dice-disco-mega-stacks",
-    "linkToDemo": "demo.mascot.games/run/dice_disco_ms",
-    "theme": "video slot",
-    "type": "profit",
-    "mgacertified": false,
-    "mganotice": true,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": true,
-    "descr": "¡Déjate llevar por las melodías de la vieja escuela y las frutas disco!",
-    "thumbUrl": "game_dicedisco.jpeg",
-    "heroUrl": "hero_dicedisco.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_dicedisco.jpg",
-    "logoUrl": "logo_dicedisco.png",
-    "backUrl": "back_dicedisco.jpg",
-    "detailsImgUrl": "details_dicedisco.png",
-    "stats": {
-      "reels": 5,
-      "rows": 4,
-      "volatility": "Med",
-      "paylines": 20,
-      "payways": null,
-      "html5": true,
-      "rtp": 95.42,
-      "hitrate": 23.3
-    },
-    "features": [
-      {
-        "name": "Stacked Symbols",
-        "descr": "Un rodillo de símbolos idénticos aumenta el número de combinaciones ganadoras para 1 tirada",
-        "imgUrl": "img-feat_dicedisco-0.jpg"
-      },
-      {
-        "name": "Función Fruit Disco Mega Stacks",
-        "descr": "Entre 2 y 5 rodillos adyacentes se llenan con símbolos idénticos apilados en cada tirada, lo que aumenta mucho las posibilidades de ganar",
-        "imgUrl": "img-feat_dicedisco-1.jpg"
-      },
-      {
-        "name": "Multiplicador de ganancias",
-        "descr": "Cada ganancia aumenta el multiplicador de ganancias de la siguiente tirada de x1 a x10",
-        "imgUrl": "img-feat_dicedisco-2.jpg"
-      }
-    ],
-    "meta": {
-      "title": "DICE DISCO MEGA STACKS: tragaperras en vídeo de Mascot Gaming",
-      "descr": "DICE DISCO MEGA STACKS es nuestra tragaperras nueva con la función Stacked Symbols."
-    },
-    "rockways": false
-  },
-  {
-    "name": "Aloha Tiki Bar Dice",
-    "slug": "aloha-tiki-bar-dice",
-    "linkToDemo": "demo.mascot.games/run/aloha_tiki_bar_dice",
-    "theme": "video slot",
-    "type": "profit",
-    "mgacertified": false,
-    "mganotice": true,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2023-05-11",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": true,
-    "descr": "¿Ya echas de menos el verano? ¡Pues pásate por el Tiki Bar para disfrutar de una acción abrasadora! ¡Aloha!",
-    "thumbUrl": "game_alohadice.jpeg",
-    "heroUrl": "hero_alohadice.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_alohadice.jpg",
-    "logoUrl": "logo_alohadice.png",
-    "backUrl": "back_alohadice.jpg",
-    "detailsImgUrl": "details_alohadice.png",
-    "stats": {
-      "reels": 6,
-      "rows": 3,
-      "volatility": "Alto",
-      "paylines": null,
-      "payways": 3600,
-      "html5": true,
-      "rtp": 95.2,
-      "hitrate": 23.4
-    },
-    "features": [
-      {
-        "name": "3600 Líneas de pago",
-        "descr": "¡Las 3600 líneas de pago ofrecen aún más combinaciones ganadoras en la pantalla!",
-        "imgUrl": "img-feat_alohadice-0.jpg"
-      },
-      {
-        "name": "Expanding Wilds",
-        "descr": "Los símbolos Wild se expanden para cubrir todo el rodillo y mejorar tu combinación ganadora",
-        "imgUrl": "img-feat_alohadice-1.jpg"
-      },
-      {
-        "name": "Función Free Respin",
-        "descr": "Los símbolos de Expanding Wild se convierten en Sticky y activan 1 Free Respin. El símbolo Wild puede activar 1 Free Respin hasta 4 veces",
-        "imgUrl": "img-feat_alohadice-2.jpg"
-      }
-    ],
-    "meta": {
-      "title": "ALOHA TIKI BAR DICE: tragaperras en vídeo de Mascot Gaming",
-      "descr": "ALOHA TIKI BAR DICE es nuestra tragaperras nueva con 3600 líneas de pago."
     },
     "rockways": false
   }

@@ -1,21 +1,21 @@
 <template>
 <section id="ad-banner">
   <div class="ad-banner__wrap">
-    <a href="https://sigma.world/americas" target="_blank" title="https://sigma.world/americas">
+    <a href="https://sigma.world/asia/" target="_blank" title="https://sigma.world/asia/">
       <div class="ad-banner__inner">
-        <nuxt-img src="images/sigma-logo-new.png" class="ad-banner__logo-new"  alt="Sigma Africa" />
+        <nuxt-img src="images/sigma-logo-new.png" class="ad-banner__logo-new"  alt="Sigma Asia" />
         <div class="ad-banner__text">
           <div class="ad-banner__text-left">
             <div class="ad-banner__company">Mascot Gaming</div>
-            <div class="ad-banner__stand">Booth M175</div>
+            <div class="ad-banner__stand">Booth 2241</div>
           </div>
           <div class="ad-banner__text-right">
-            <div class="ad-banner__date">7 – 10 April 2025</div>
-            <div class="ad-banner__place">São Paulo, Brazil</div>
+            <div class="ad-banner__date">01 – 04 June 2025</div>
+            <div class="ad-banner__place">Manila, The&nbsp;Philippines</div>
           </div>
         </div>
-        <nuxt-img src="images/img-adbanner-decor17-dsktop.png" sizes="sm:200px md:420px lg:450px" class="ad-banner__decor decor-african decor-mobile"  alt="" />
-        <nuxt-img src="images/img-adbanner-decor17-dsktop.png" sizes="sm:200px md:520px lg:450px" class="ad-banner__decor decor-african decor-dsktop"  alt="" />
+        <nuxt-img src="images/img-adbanner-decor18-dsktop.png" sizes="sm:200px md:420px lg:450px" class="ad-banner__decor decor-african decor-mobile"  alt="" />
+        <nuxt-img src="images/img-adbanner-decor18-dsktop.png" sizes="sm:200px md:520px lg:450px" class="ad-banner__decor decor-african decor-dsktop"  alt="" />
       </div>
     </a>
   </div>
