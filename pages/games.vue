@@ -33,16 +33,16 @@
         <div class="games-filter__outer">
           <div class="games-filter__wrap">
             <span class="filter-category__title">{{$t('Categories:')}}</span>
+            <button :class="{ active: gameFilterKey == 'fruits' }" class="buttn buttn-rounded buttn-sm buttn-fruits" @click="handleFilterChange('fruits')"><span>{{$t('Fruits')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'egypt' }" class="buttn buttn-rounded buttn-sm buttn-egypt" @click="handleFilterChange('egypt')"><span>{{$t('Egypt')}}</span></button>
             <button :class="{ active: gameFilterKey == 'adventures' }" class="buttn buttn-rounded buttn-sm buttn-adventures" @click="handleFilterChange('adventures')"><span>{{$t('Adventures')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'mythology' }" class="buttn buttn-rounded buttn-sm buttn-mythology" @click="handleFilterChange('mythology')"><span>{{$t('Mythology')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'fantasy' }" class="buttn buttn-rounded buttn-sm buttn-fantasy" @click="handleFilterChange('fantasy')"><span>{{$t('Fantasy')}}</span></button>
             <button :class="{ active: gameFilterKey == 'christmas' }" class="buttn buttn-rounded buttn-sm buttn-christmas" @click="handleFilterChange('christmas')"><span>{{$t('Christmas')}}</span></button>
             <button :class="{ active: gameFilterKey == 'easter' }" class="buttn buttn-rounded buttn-sm buttn-easter" @click="handleFilterChange('easter')"><span>{{$t('Easter')}}</span></button>
-            <button :class="{ active: gameFilterKey == 'fantasy' }" class="buttn buttn-rounded buttn-sm buttn-fantasy" @click="handleFilterChange('fantasy')"><span>{{$t('Fantasy')}}</span></button>
             <button :class="{ active: gameFilterKey == 'halloween' }" class="buttn buttn-rounded buttn-sm buttn-halloween" @click="handleFilterChange('halloween')"><span>{{$t('Halloween')}}</span></button>
-            <button :class="{ active: gameFilterKey == 'mythology' }" class="buttn buttn-rounded buttn-sm buttn-mythology" @click="handleFilterChange('mythology')"><span>{{$t('Mythology')}}</span></button>
             <button :class="{ active: gameFilterKey == 'postap' }" class="buttn buttn-rounded buttn-sm buttn-postap" @click="handleFilterChange('postap')"><span>{{$t('Post Apocalyptic')}}</span></button>
             <button :class="{ active: gameFilterKey == 'space' }" class="buttn buttn-rounded buttn-sm buttn-space" @click="handleFilterChange('space')"><span>{{$t('Space')}}</span></button>
-            <button :class="{ active: gameFilterKey == 'egypt' }" class="buttn buttn-rounded buttn-sm buttn-egypt" @click="handleFilterChange('egypt')"><span>{{$t('Egypt')}}</span></button>
-            <button :class="{ active: gameFilterKey == 'fruits' }" class="buttn buttn-rounded buttn-sm buttn-fruits" @click="handleFilterChange('fruits')"><span>{{$t('Fruits')}}</span></button>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@
           <span class="site-name">Mascot Gaming</span>
         </NuxtLink>
         <div class="main-menu">
-          <nav class="main-menu__pages">
+          <nav :class="`lang_${$i18n.locale}`" class="main-menu__pages">
             <ul>
               <li><NuxtLink :to="localePath('/games')">{{ $t('Games') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/tic-tac-toe-games')">{{ $t('TTT games') }}</NuxtLink></li>
@@ -257,6 +257,20 @@
           li {
             padding: 0 10px;
             @media (max-width: 1480px) {
+              padding: 0 5px
+            }
+          }
+        }
+        &.lang_es {
+          ul {
+            li {
+              padding: 0 5px
+            }
+          }
+        }
+        &.lang_pt {
+          ul {
+            li {
               padding: 0 5px
             }
           }
