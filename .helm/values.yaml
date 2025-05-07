@@ -35,11 +35,11 @@ ingress:
       - domain: mascot.local
         secret_name: fake
     dev:
-      - domain: mascot.dev.c27.games
-        secret_name: dev-c27-games-wildcard-tls
+      - domain: mascot.devpltform.com
+        secret_name: devpltform.com-wildcard-tls
     test:
-      - domain: mascot.test.c27.games
-        secret_name: test-c27-games-wildcard-tls
+      - domain: mascot.testpltform.com
+        secret_name: testpltform-com-wildcard-tls
     prod-mascot:
       - domain: mascot.games
         secret_name: prod-mascot-mascot-games-wildcard-tls
@@ -50,5 +50,5 @@ ingress:
 
 demoURL:
   _default: https://play.mascot.games
-  test: https://mascot-demo.test.c27.games
-  dev: https://mascot-demo.dev.c27.games
+  test: https://mascot-demo.testpltform.com
+  dev: https://mascot-demo.devpltform.com

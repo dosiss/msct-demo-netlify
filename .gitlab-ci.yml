@@ -37,14 +37,14 @@ Deploy to Test:
   <<: *base_deploy
   environment:
     name: test
-    url: http://mascot.test.c27.games
+    url: http://mascot.testpltform.com
   when: manual
 
 Deploy to Dev:
   <<: *base_deploy
   environment:
     name: dev
-    url: http://mascot.dev.c27.games
+    url: http://mascot.devpltform.com
   when: manual
 
 Deploy to Production:
