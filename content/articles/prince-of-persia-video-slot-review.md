@@ -18,11 +18,11 @@ It is a five-reel/three-row game that comes with ten fixed paylines. The RTP of 
 
 You can click on the Spin button every time you want to bring the reels in motion or you can set the number of auto spins from 10 to infinity.
 
-If you are looking for something else, remember that you have an option to check out other [slot online demo](blog-riot-by-mascot-casino-games-try-demo-and-enjoy) versions produced by Mascot Gaming. There is a vast game collection available for you, so you will surely find something matching your preferences.
+If you are looking for something else, remember that you have an option to check out other [slot online demo](/blog/riot-by-mascot-casino-games-try-demo-and-enjoy) versions produced by Mascot Gaming. There is a vast game collection available for you, so you will surely find something matching your preferences.
 
 **Theme and Symbols**
 
-It is one of [the video slots](blog-cancan-saloon-the-video-slot-of-wild-west) that will take you to the Eastern fairytale with beautiful princes and princesses, amazing nights, and of course, magic. The reels of the game are set against a mysterious eastern night and the magnificent palace of the prince. The animated white sprinkles are flowing in the air, creating a special magical atmosphere.
+It is one of [the video slots](/blog/cancansaloon-the-video-slot-of-wild-west) that will take you to the Eastern fairytale with beautiful princes and princesses, amazing nights, and of course, magic. The reels of the game are set against a mysterious eastern night and the magnificent palace of the prince. The animated white sprinkles are flowing in the air, creating a special magical atmosphere.
 
 ![](../../images/img_blog_prince-2.jpg)
 

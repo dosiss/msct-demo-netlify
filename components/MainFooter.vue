@@ -91,7 +91,7 @@
           </a>
         </div>
         <div class="footer-content__subscribe">
-          <div v-if="success">You have successfully signed up for a newsletter</div>
+          <!-- <div v-if="success">You have successfully signed up for a newsletter</div>
           <form v-else class="footer-form subscribe" @submit.prevent="sendMessage">
 
                         <label for="footer-email">{{ $t('Subscribe to our newsletter!') }}</label>
@@ -120,7 +120,9 @@
                         <div v-if="errored" class="error-msg">
                           {{ $t('Something went wrong. Please try again later.') }}
                         </div>
-          </form>
+          </form> -->
+          <div class="hs-form-header">{{$t('Subscribe to our newsletter!')}}</div>
+          <no-ssr><div class="hs-form-frame" data-region="eu1" data-form-id="632fbcb0-1d78-43e7-b130-6668dd1d76a8" data-portal-id="26083518"></div></no-ssr>
         </div>
       </div>
       <div class="footer-badges__wrap">
@@ -192,84 +194,95 @@
     },
 
     mounted() {
-      this.generateCaptcha();
+      // this.generateCaptcha();
+        setTimeout(() => {
+          if (!document.getElementById('hs-script-loader')) {
+            const script = document.createElement('script');
+            script.src = 'https://js-eu1.hsforms.net/forms/embed/26083518.js';
+            script.type = 'text/javascript';
+            script.id = 'hs-script-loader';
+            script.async = true;
+            script.defer = true;
+            document.body.appendChild(script);
+          }
+        }, 1000); // A very short delay (100 milliseconds)
     },
 
     methods: {
-      generateCaptcha() {
-        const canvas = this.$refs[`captcha_${this._uid}`];
-        const ctx = canvas.getContext('2d');
-// console.log('canvas ID= '+canvas);
-        // Clear the canvas
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
+//       generateCaptcha() {
+//         const canvas = this.$refs[`captcha_${this._uid}`];
+//         const ctx = canvas.getContext('2d');
+// // console.log('canvas ID= '+canvas);
+//         // Clear the canvas
+//         ctx.clearRect(0, 0, canvas.width, canvas.height);
+//
+//         // Create a new image object for the background
+//         const backgroundImage = new Image();
+//         backgroundImage.src = '/images/img_captcha-2.jpg'; // Update the path to your background image
+//
+//         backgroundImage.onload = () => {
+//           // Draw the background image on the canvas
+//           ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
+//
+//           // Generate a random alphanumeric code
+//           const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+//           let code = '';
+//           for (let i = 0; i < 6; i++) {
+//             code += chars[Math.floor(Math.random() * chars.length)];
+//           }
+//           this.captchaCode = code;
+//
+//           // Draw the CAPTCHA code on the canvas
+//           ctx.font = '28px Arial';
+//           ctx.fillStyle = '#000';
+//           ctx.fillText(code, 10, 30);
+//         };
+//       },
 
-        // Create a new image object for the background
-        const backgroundImage = new Image();
-        backgroundImage.src = '/images/img_captcha-2.jpg'; // Update the path to your background image
-
-        backgroundImage.onload = () => {
-          // Draw the background image on the canvas
-          ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
-
-          // Generate a random alphanumeric code
-          const chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-          let code = '';
-          for (let i = 0; i < 6; i++) {
-            code += chars[Math.floor(Math.random() * chars.length)];
-          }
-          this.captchaCode = code;
-
-          // Draw the CAPTCHA code on the canvas
-          ctx.font = '28px Arial';
-          ctx.fillStyle = '#000';
-          ctx.fillText(code, 10, 30);
-        };
-      },
-
-      sendMessage() {
-      if (this.captchaInput === this.captchaCode) {
-        this.loading = true;
-        const bodyFormData = new FormData();
-        bodyFormData.append('subscription', this.subscription);
-        bodyFormData.append('name', this.name);
-        bodyFormData.append('email', this.email);
-        bodyFormData.append('phone', this.phone);
-        bodyFormData.append('message', this.message);
-        bodyFormData.append('usertype', this.usertype);
-
-        bodyFormData.append('template_id', 'template_t3rkppg');
-        bodyFormData.append('service_id', 'service_tr5r6fw');
-        bodyFormData.append('user_id', 'eE5PNrtIqLmZkFQ2r');
-
-        if ( (!this.subscription.includes("example")) && (!this.email.includes("example")) ) {
-          this.$axios
-            .post("https://api.emailjs.com/api/v1.0/email/send-form",
-            bodyFormData
-            , {
-              headers: {
-              "Content-Type": "multipart/form-data"
-            },
-          })
-          .then(response => {
-              this.success = true
-              this.errored =false
-            })
-            .catch(() => {
-    //          console.error(error);
-              this.errored = true
-            })
-            .finally(() => {
-              this.loading = false
-            });
-          } else {
-             this.loading = false;
-          }
-        } else {
-          alert('CAPTCHA is incorrect, please try again.');
-        }
-
-
-      },
+    //   sendMessage() {
+    //   if (this.captchaInput === this.captchaCode) {
+    //     this.loading = true;
+    //     const bodyFormData = new FormData();
+    //     bodyFormData.append('subscription', this.subscription);
+    //     bodyFormData.append('name', this.name);
+    //     bodyFormData.append('email', this.email);
+    //     bodyFormData.append('phone', this.phone);
+    //     bodyFormData.append('message', this.message);
+    //     bodyFormData.append('usertype', this.usertype);
+    //
+    //     bodyFormData.append('template_id', 'template_t3rkppg');
+    //     bodyFormData.append('service_id', 'service_tr5r6fw');
+    //     bodyFormData.append('user_id', 'eE5PNrtIqLmZkFQ2r');
+    //
+    //     if ( (!this.subscription.includes("example")) && (!this.email.includes("example")) ) {
+    //       this.$axios
+    //         .post("https://api.emailjs.com/api/v1.0/email/send-form",
+    //         bodyFormData
+    //         , {
+    //           headers: {
+    //           "Content-Type": "multipart/form-data"
+    //         },
+    //       })
+    //       .then(response => {
+    //           this.success = true
+    //           this.errored =false
+    //         })
+    //         .catch(() => {
+    // //          console.error(error);
+    //           this.errored = true
+    //         })
+    //         .finally(() => {
+    //           this.loading = false
+    //         });
+    //       } else {
+    //          this.loading = false;
+    //       }
+    //     } else {
+    //       alert('CAPTCHA is incorrect, please try again.');
+    //     }
+    //
+    //
+    //   },
     // sendSubscribe() {
     //   let jsonrpcId = 0;
     //   this.loading = true;
@@ -683,6 +696,23 @@
           margin: 0 0 15px;
          width: 100%
         }
+      }
+    }
+    .footer-content__subscribe {
+
+      .hs-form-frame {
+        margin-left: -40px;
+        margin-top: -29px;
+        @media (max-width: 850px) {
+          margin-left: 0
+        }
+      }
+
+    }
+    .hs-form-header {
+      @media (max-width: 850px) {
+        text-align: center
+
       }
     }
   }

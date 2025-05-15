@@ -9,7 +9,7 @@ let dynamicRoutesFromGames = () => {
 
 let dynamicRoutesFromMarkets = () => {
   return new Promise(resolve => {
-    resolve(marketsData.map(el => `/games-for-regulated-markets/${el.slug}`))
+    resolve(marketsData.map(el => `/games-for-regulated-markets/${el.link}`))
   })
 }
 
@@ -93,12 +93,18 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     __dangerouslyDisableSanitizers: ['script'],
     script: [
-  {
-    id: 'hs-script-loader',
-    async: true,
-    defer: true,
-    src: '//js-eu1.hs-scripts.com/26083518.js',
-  },
+  // {
+  //   id: 'hs-script-loader',
+  //   async: true,
+  //   defer: true,
+  //   src: '//js-eu1.hs-scripts.com/26083518.js',
+  // },
+  // {
+  //   src: 'https://js-eu1.hsforms.net/forms/embed/26083518.js',
+  //   hid: 'subscribe-script',
+  //   async: true,
+  //   defer: false
+  // },
   {
     hid: 'gtm-script',
     innerHTML: `

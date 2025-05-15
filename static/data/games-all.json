@@ -317,20 +317,20 @@
   {
     "name": "Wasteland Riches",
     "slug": "wasteland-riches",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/wasteland_riches",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-05-26",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_wasteland.jpeg",
+    "thumbUrl": "game_wasteland2.jpeg",
     "heroUrl": "hero_wasteland.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -342,38 +342,39 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": null,
+      "volatility": "Med",
       "paylines": null,
       "payways": 243,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
+    "category": [ "postap" ],
     "features": [
       {
-        "name": "Risk & Buy feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Free Spins",
+        "descr": "During Free Spins, all winning symbol combinations pay out anywhere on the screen",
         "imgUrl": "img-feat_wasteland-0.jpg"
-      },
-      {
-        "name": "Risk & Buy feature: Buy",
-        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
-        "imgUrl": "img-feat_wasteland-1.jpg"
       },
       {
         "name": "Multiplier Symbol",
         "descr": "Each Multiplier symbol on the screen multiplies the win for the current spin by 2",
+        "imgUrl": "img-feat_wasteland-1.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
         "imgUrl": "img-feat_wasteland-2.jpg"
       },
       {
-        "name": "Free Spins",
-        "descr": "During Free Spins, all winning symbol combinations pay out anywhere on the screen",
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
         "imgUrl": "img-feat_wasteland-3.jpg"
       }
     ],
     "meta": {
       "title": "Wasteland Riches, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Explore the post-apocalyptic world with Multiplayer symbols, Free Spins and Risk’n’Buy feature."
     },
     "rockways": false
   },
@@ -1156,7 +1157,7 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_biggestwin2.jpeg",
+    "thumbUrl": "game_biggestwin2.svg",
     "heroUrl": "hero_biggestwin.jpg",
     "blueButtn": false,
     "videoUrl": null,

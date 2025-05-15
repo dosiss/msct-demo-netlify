@@ -8,7 +8,7 @@ archiveDate: 2020-07-28
 ---
 Greetings again, friends!
 
-Recently, we announced an article series on [the video slots](/blog/cancan-saloon-the-video-slot-of-wild-west) that are most popular among players of our online casino partners. And we are happy to continue writing such texts for you. Here goes the list of Mascot Gaming projects that gained the most popularity after the release. We'll review each of them in the nearest future. By clicking the links, you can play free versions of each slot mentioned below:
+Recently, we announced an article series on [the video slots](/blog/cancansaloon-the-video-slot-of-wild-west) that are most popular among players of our online casino partners. And we are happy to continue writing such texts for you. Here goes the list of Mascot Gaming projects that gained the most popularity after the release. We'll review each of them in the nearest future. By clicking the links, you can play free versions of each slot mentioned below:
 
 *   [Red Horde](https://play.mascot.games/horde)
 *   [Gemz Grow](https://play.mascot.games/gemz)

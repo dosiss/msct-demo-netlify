@@ -62,7 +62,7 @@
               <div v-for="(game, idx) in searchList" :key="idx" class="game-thumbnail">
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
-                  <v-lazy-image :src="`/images/${game.thumbUrl}`" :src-placeholder="`/images/lowres/${game.thumbUrl}`" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
+                  <v-lazy-image :src="`/images/${game.thumbUrl}`" :src-placeholder="`/images/lowres/${game.thumbUrl.substring(0, game.thumbUrl.lastIndexOf('.'))}.jpeg`" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
                   <div class="game-content__wrap">
                     <div class="game-content__buttns">
                       <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? $t('More') : $t('Learn more') }}</NuxtLink>
@@ -98,7 +98,7 @@
             <div v-for="(game, idx) in gamesFilter" :key="idx" class="game-thumbnail">
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
-                  <v-lazy-image :src="`/images/${game.thumbUrl}`" :src-placeholder="`/images/lowres/${game.thumbUrl}`" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
+                  <v-lazy-image :src="`/images/${game.thumbUrl}`" :src-placeholder="`/images/lowres/${game.thumbUrl.substring(0, game.thumbUrl.lastIndexOf('.'))}.jpeg`" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
                   <div class="game-content__wrap">
                     <div class="game-content__buttns">
                       <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? $t('More') : $t('Learn more') }}</NuxtLink>
