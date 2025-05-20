@@ -13,7 +13,7 @@
       <div v-for="(game, idx) in gamesTopSlider.slice(0,7)" :key="idx" class="swiper-slide game-thumbnail" :class="`comingsoon-${game.comingSoon}`">
         <div class="game-thumbnail__outer">
           <div class="game-thumbnail__inner">
-          <v-lazy-image :src="`/images/${game.thumbUrl}`" :src-placeholder="`images/lowres/${game.thumbUrl}`" :alt="`${game.name}`" />
+          <v-lazy-image :src="`/images/${game.thumbUrl}`" :src-placeholder="`/images/lowres/${game.thumbUrl.substring(0, game.thumbUrl.lastIndexOf('.'))}.jpeg`" :alt="`${game.name}`" />
           <div class="game-content__wrap">
             <div class="game-content__buttns">
               <!-- <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $t('Learn more') }}</NuxtLink> -->
