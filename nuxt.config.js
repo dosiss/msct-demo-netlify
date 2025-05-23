@@ -255,5 +255,4 @@ routes: async () => {
       return [...routesFromGames, ...routesFromMarkets]
     }
   }
-
 }
