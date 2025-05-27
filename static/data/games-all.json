@@ -1,78 +1,5 @@
 [
   {
-    "name": "Rooster Run",
-    "slug": "rooster-run",
-    "linkToDemo": "demo.mascot.games/run/rooster_run",
-    "theme": "tictactoe",
-    "type": " ",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2025-05-29",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_rooster.jpeg",
-    "heroUrl": "hero_rooster.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": " ",
-    "logoUrl": "logo_rooster.png",
-    "backUrl": " ",
-    "detailsImgUrl": "details_rooster.png",
-    "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": "High",
-      "paylines": null,
-      "payways": null,
-      "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
-    },
-    "features": [
-      {
-        "name": "Step-by-Step Crash Game",
-        "descr": "A new twist on the classic Crash experience: with each step, the multiplier increases, and players must decide whether to cash out or risk advancing to the next step for higher rewards",
-        "imgUrl": "img-feat_rooster-0.jpg"
-      },
-      {
-        "name": "3 Risk Levels",
-        "descr": "Players now choose between several risk levels, with the highest risk offering a multiplier of up to x10,000",
-        "imgUrl": "img-feat_rooster-1.jpg"
-      },
-      {
-        "name": "Step-by-Step Autoplay",
-        "descr": "The rooster automatically advances step by step toward the target multiplier, giving the player full control and the option to cash out at any moment",
-        "imgUrl": "img-feat_rooster-2.jpg"
-      },
-      {
-        "name": "Instant Autoplay",
-        "descr": "The rooster instantly leaps to the target multiplier if successful, or crashes at the failure point—enabling a much faster gameplay experience",
-        "imgUrl": null
-      },
-      {
-        "name": "Ranks",
-        "descr": "By placing bets, players advance through ranks, unlocking new customization elements and avatars",
-        "imgUrl": null
-      },
-      {
-        "name": "Customization",
-        "descr": "Players can personalize the game area and interface elements to their liking using customization options",
-        "imgUrl": "img-feat_rooster-5.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Rooster Run, a video game by TTT Games",
-      "descr": "Experience a cosmic adventure in this step-by-step crash game and get a multiplier up to x10000!"
-    },
-    "rockways": false
-  },
-  {
     "name": "Evil Bet: Shoot Them All!",
     "slug": "evil-bet-shoot-them-all",
     "linkToDemo": " ",
@@ -258,24 +185,24 @@
   },
   {
     "name": "Videopoker 3 in 1",
-    "slug": "videopoker-3-in-1",
-    "linkToDemo": " ",
+    "slug": "videopoker-3in1",
+    "linkToDemo": "demo.mascot.games/run/videopoker_3in1",
     "theme": "table/cards",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
     "rockways": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-06-05",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_videopoker.jpeg",
+    "thumbUrl": "game_videopoker2.jpeg",
     "heroUrl": "hero_videopoker.jpg",
-    "blueButtn": true,
+    "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_videopoker.jpg",
@@ -285,7 +212,7 @@
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
@@ -294,25 +221,98 @@
     },
     "features": [
       {
-        "name": "Wild Deuces",
-        "descr": "All 2s are Wild",
+        "name": "Deuces Wild",
+        "descr": "In this game, 2s are Wilds and substitute for any card",
         "imgUrl": "img-feat_videopoker-0.jpg"
       },
       {
         "name": "Jacks or Better",
-        "descr": "Winning combinations start from a pair of Jacks",
+        "descr": "In this game, the lowest paying combination is a pair of Jacks",
         "imgUrl": "img-feat_videopoker-1.jpg"
       },
       {
         "name": "Joker Poker",
-        "descr": "The Joker card is Wild",
+        "descr": "In this game, The Joker card is Wild and substitutes for any card",
         "imgUrl": "img-feat_videopoker-2.jpg"
       }
     ],
     "meta": {
-      "title": "Videopoker 3 in 1, a video game by Mascot Gaming",
-      "descr": " "
+      "title": "Videopoker 3in1, a video table game by Mascot Gaming",
+      "descr": "Enjoy three faces of poker in one elegant solution with Wild Cards, Jokers and x800"
     }
+  },
+  {
+    "name": "Rooster Run",
+    "slug": "rooster-run",
+    "linkToDemo": "demo.mascot.games/run/rooster_run",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2025-05-29",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_rooster.jpeg",
+    "heroUrl": "hero_rooster.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_rooster.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_rooster.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "High",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Step-by-Step Crash Game",
+        "descr": "A new twist on the classic Crash experience: with each step, the multiplier increases, and players must decide whether to cash out or risk advancing to the next step for higher rewards",
+        "imgUrl": "img-feat_rooster-0.jpg"
+      },
+      {
+        "name": "3 Risk Levels",
+        "descr": "Players now choose between several risk levels, with the highest risk offering a multiplier of up to x10,000",
+        "imgUrl": "img-feat_rooster-1.jpg"
+      },
+      {
+        "name": "Step-by-Step Autoplay",
+        "descr": "The rooster automatically advances step by step toward the target multiplier, giving the player full control and the option to cash out at any moment",
+        "imgUrl": "img-feat_rooster-2.jpg"
+      },
+      {
+        "name": "Instant Autoplay",
+        "descr": "The rooster instantly leaps to the target multiplier if successful, or crashes at the failure point—enabling a much faster gameplay experience",
+        "imgUrl": null
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization elements and avatars",
+        "imgUrl": null
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their liking using customization options",
+        "imgUrl": "img-feat_rooster-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Rooster Run, a video game by TTT Games",
+      "descr": "Experience a cosmic adventure in this step-by-step crash game and get a multiplier up to x10000!"
+    },
+    "rockways": false
   },
   {
     "name": "Skyrocket",

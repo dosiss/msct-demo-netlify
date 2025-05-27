@@ -538,7 +538,7 @@ export default {
       }
     }
   }
-  .game_videopoker-3-in-1{
+  .game_videopoker-3in1 {
     .game-title {
       max-width: 420px
     }
