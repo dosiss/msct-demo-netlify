@@ -306,6 +306,11 @@
         "name": "Customization",
         "descr": "Players can personalize the game area and interface elements to their liking using customization options",
         "imgUrl": "img-feat_rooster-5.jpg"
+      },
+      {
+        "name": "Live Leaderboard",
+        "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
+        "imgUrl": null
       }
     ],
     "meta": {
