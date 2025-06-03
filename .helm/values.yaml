@@ -15,9 +15,7 @@ resources:
     _default: 1
 
 node_selector:
-  _default: worker
-  dev: dev
-  test: dev
+  _default: dev
   prod-mascot: worker-prod-mascot
 
 ports:
@@ -26,9 +24,10 @@ ports:
 
 ingress:
   class:
-    _default: nginx-dev
-    dev: nginx
-    test: nginx
+    _default: nginx
+    test: nginx-test
+    dev: nginx-dev
+    mascot-games-stage: nginx-stage-mascot-games
     prod-mascot: nginx-prod-mascot
   host:
     _default:

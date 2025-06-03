@@ -4,9 +4,8 @@ metadata:
   name: {{ .Chart.Name }}
   labels:
     service: {{ .Chart.Name }}
-  annotations:
-    kubernetes.io/ingress.class: {{ pluck .Values.werf.env .Values.ingress.class | first | default .Values.ingress.class._default }}
 spec:
+  ingressClassName: {{ pluck .Values.werf.env .Values.ingress.class | first | default .Values.ingress.class._default }}
   rules:
   {{- range $ingress := ( pluck .Values.werf.env .Values.ingress.host | first | default .Values.ingress.host._default) }}
     - host: {{ $ingress.domain }}
