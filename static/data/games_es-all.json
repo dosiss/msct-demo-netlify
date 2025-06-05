@@ -128,20 +128,20 @@
   {
     "name": "Fruity X125",
     "slug": "fruity-x125",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/fruity_x125",
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-06-12",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_fruity125.jpeg",
+    "thumbUrl": "game_fruity125-2.jpeg",
     "heroUrl": "hero_fruity125.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -153,13 +153,14 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": null,
+      "volatility": "High",
       "paylines": 10,
       "payways": null,
       "html5": true,
-      "rtp": null,
-      "hitrate": null
+      "rtp": 95.1,
+      "hitrate": 26.9
     },
+    "category": [ "fruits" ],
     "features": [
       {
         "name": "Wilds with Multipliers",
@@ -168,7 +169,7 @@
       },
       {
         "name": "Sticky Wild Reels and Respins",
-        "descr": "Each Wild turns into a Sticky Wild Reel and triggers a free Respin",
+        "descr": "Each Wild turns into a Sticky Wild Reel and triggers a Free Respin",
         "imgUrl": "img-feat_fruity125-1.jpg"
       },
       {
@@ -179,7 +180,7 @@
     ],
     "meta": {
       "title": "Fruity x125, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Royal fruits, juicy rewards with Sticky Wild Reels and x25000."
     },
     "rockways": false
   },
