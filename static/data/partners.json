@@ -2024,6 +2024,17 @@
     "logoUrl": "partner_batery.png"
   },
   {
+    "name": "Ritzo",
+    "type": "partner",
+    "top": false,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://ritzo3.com/",
+    "logoUrl": "partner_ritzo.png"
+  },
+  {
     "name": "lcb.org",
     "type": "media",
     "top": false,
