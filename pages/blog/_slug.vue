@@ -178,6 +178,9 @@ import PrevNext from '~/components/PrevNext'
   .smaller p {
     font-size: 95%
   }
+  .text-center {
+    text-align: center;
+  }
 }
 .nuxt-content {
   a {
