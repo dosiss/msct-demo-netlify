@@ -190,7 +190,7 @@ export default {
 .left-column {
   border-right: 7px solid #464646;
   position: relative;
-   padding-top: 130px; /* add in case of even qty of events */
+   padding-top: 75px; /* add in case of even qty of events */
   .block {
     margin-right: 30px;
     &:before {
