@@ -16,7 +16,7 @@
     </div>
 
     <SharingButtons />
-    <AdBannerCBSmalta />
+    <AdBannerIceLondon />
     <MainFooter />
   </div>
 </template>

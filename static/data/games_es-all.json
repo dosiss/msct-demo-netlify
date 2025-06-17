@@ -60,20 +60,20 @@
   {
     "name": "Anksunamun Deluxe",
     "slug": "anksunamun-deluxe",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/anksunamun_deluxe",
     "theme": "video slot",
     "type": null,
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-06-26",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_anksunamundlx.jpeg",
+    "thumbUrl": "game_anksunamundlx2.jpeg",
     "heroUrl": "hero_anksunamundlx.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -85,13 +85,14 @@
     "stats": {
       "reels": 5,
       "rows": 3,
-      "volatility": null,
+      "volatility": "High",
       "paylines": 10,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
+    "category": [ "egypt" ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -121,7 +122,7 @@
     ],
     "meta": {
       "title": "Anksunamun Deluxe, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "The fierce Queen returns with Free Spins, Gold Wild Symbols and Risk'n'Buy!"
     },
     "rockways": false
   },

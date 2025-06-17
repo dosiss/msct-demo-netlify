@@ -45,7 +45,7 @@
       </div>
     </div>
     <SharingButtons />
-    <AdBannerCBSmalta />
+    <AdBannerIceLondon />
     <MainFooter />
     <ContactModalPartner v-show="showModal" @close-modal="showModal = false"/>
 
@@ -124,38 +124,12 @@ export default {
         return allPartners.filter((partner) => partner.promo === true && partner.type === "promopartner")
       },
   },
-  methods: {
-    handleFilterChange(filterKey) {
-      const allowedFilters = ['all', 'top', 'media', 'casino', 'platform', 'streamers', 'promo'];
-
-      if (!allowedFilters.includes(filterKey)) {
-  //      console.warn('Invalid filter key:', filterKey);
-        return;
-      }
-
-      const sanitizedFilterKey = encodeURIComponent(filterKey);
-
-      this.partnerFilterKey = sanitizedFilterKey;
-
-      this.$nextTick(async () => {
-        try {
-          if (sanitizedFilterKey === 'all') {
-            await this.$router.push({ query: {} });
-          } else {
-            await this.$router.push({ query: { type: sanitizedFilterKey } });
-          }
-        } catch (error) {
-  //        console.error('Error while updating the router:', error);
-        }
-      });
-    },
-    initializeFilterFromQuery() {
-      const queryType = this.$route.query.type;
-      if (queryType && ['top', 'media', 'casino', 'platform', 'streamers', 'promo'].includes(queryType)) {
-        this.partnerFilterKey = queryType;
-      } else {
-        this.partnerFilterKey = 'all';
-      }
+  watch: {
+    '$route.query': {
+      handler(newQuery) {
+        this.initializeFilterFromQuery();
+      },
+      deep: true
     }
   },
   mounted() {
@@ -189,14 +163,41 @@ export default {
         // };
 
   },
-  watch: {
-    '$route.query': {
-      handler(newQuery) {
-        this.initializeFilterFromQuery();
-      },
-      deep: true
+  methods: {
+    handleFilterChange(filterKey) {
+      const allowedFilters = ['all', 'top', 'media', 'casino', 'platform', 'streamers', 'promo'];
+
+      if (!allowedFilters.includes(filterKey)) {
+  //      console.warn('Invalid filter key:', filterKey);
+        return;
+      }
+
+      const sanitizedFilterKey = encodeURIComponent(filterKey);
+
+      this.partnerFilterKey = sanitizedFilterKey;
+
+      this.$nextTick(async () => {
+        try {
+          if (sanitizedFilterKey === 'all') {
+            await this.$router.push({ query: {} });
+          } else {
+            await this.$router.push({ query: { type: sanitizedFilterKey } });
+          }
+        } catch (error) {
+  //        console.error('Error while updating the router:', error);
+        }
+      });
+    },
+    initializeFilterFromQuery() {
+      const queryType = this.$route.query.type;
+      if (queryType && ['top', 'media', 'casino', 'platform', 'streamers', 'promo'].includes(queryType)) {
+        this.partnerFilterKey = queryType;
+      } else {
+        this.partnerFilterKey = 'all';
+      }
     }
   }
+
 }
 
 </script>

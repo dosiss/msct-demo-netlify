@@ -18,7 +18,7 @@
     </section>
       <BlogArticles />
       <LazySharingButtons />
-      <vue-lazy-load><AdBannerCBSmalta /></vue-lazy-load>
+      <vue-lazy-load><AdBannerIceLondon /></vue-lazy-load>
       <LazyMainFooter />
       <AgeCheck v-show="showAgeCheck" @age-verified="ageVerified()" />
   </div>
