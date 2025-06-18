@@ -693,6 +693,17 @@
     "logoUrl": "partner_biggame.png"
   },
   {
+    "name": "Blokotech",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": true,
+    "promo": false,
+    "promoText": null,
+    "url": "https://blokotech.com/",
+    "logoUrl": "partner_blokotech.png"
+  },
+  {
     "name": "7bit",
     "type": "partner",
     "top": true,
