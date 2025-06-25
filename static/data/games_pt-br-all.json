@@ -1,5 +1,485 @@
 [
   {
+    "name": "Overheat",
+    "slug": "overheat",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-09-25",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_overheat.jpeg",
+    "heroUrl": "hero_overheat2.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_overheat.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_overheat.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Crash Game",
+        "descr": "The win multiplier continuously grows, and the player must cash out their bet before the explosion",
+        "imgUrl": "img-feat_overheat-0.jpg"
+      },
+      {
+        "name": "Controlled Growth",
+        "descr": "The multiplier only grows while the player keeps their finger on the screen. Release too late and risk an explosion!",
+        "imgUrl": "img-feat_overheat-1.jpg"
+      },
+      {
+        "name": "Growing Multiplier",
+        "descr": "A dynamic multiplier that can reach up to x10 000",
+        "imgUrl": "img-feat_overheat-2.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization elements and avatars",
+        "imgUrl": "img-feat_overheat-3.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their liking using customization options",
+        "imgUrl": "img-feat_overheat-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Overheat, a video game TTT Games",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "European Roulette",
+    "slug": "european-roulette",
+    "linkToDemo": " ",
+    "theme": "table/cards",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": true,
+    "releaseDate": "2025-10-09",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_euroulette.jpeg",
+    "heroUrl": "hero_euroulette.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_euroulette.jpg",
+    "logoUrl": "logo_euroulette.png",
+    "backUrl": "back_euroulette.jpg",
+    "detailsImgUrl": "details_euroulette.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "European Classic Format",
+        "descr": "A traditional European Roulette featuring 36 numbers and a single zero",
+        "imgUrl": "img-feat_euroulette-0.jpg"
+      },
+      {
+        "name": "Betting Options",
+        "descr": "Includes inside, outside, and special betting options",
+        "imgUrl": "img-feat_euroulette-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "European Roulette, a video table game by Mascot Gaming",
+      "descr": " "
+    }
+  },
+  {
+    "name": "Wild Spirit Deluxe",
+    "slug": "wild-spirit-deluxe",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-09-18",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_wildspiritdlx.jpeg",
+    "heroUrl": "hero_wildspiritdlx.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_wildspiritdlx.jpg",
+    "logoUrl": "logo_wildspiritdlx.png",
+    "backUrl": "back_wildspiritdlx.jpg",
+    "detailsImgUrl": "details_wildspiritdlx.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Take a chance with the Risk Game – gamble your winnings for a chance to multiply them",
+        "imgUrl": "img-feat_wildspiritdlx-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_wildspiritdlx-1.jpg"
+      },
+      {
+        "name": "Free Spins with Additional Free Spins",
+        "descr": "Wild symbol stacks expand in height during Free Spins",
+        "imgUrl": "img-feat_wildspiritdlx-2.jpg"
+      },
+      {
+        "name": "Massive Pays Feature",
+        "descr": "Get up to x5 to your total win per spin when the reels are filled with matching symbols",
+        "imgUrl": "img-feat_wildspiritdlx-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Wild Spirit Deluxe, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Scratch the Bank",
+    "slug": "scratch-the-bank",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-09-04",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_scratchbank.jpeg",
+    "heroUrl": "hero_scratchbank.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_scratchbank.jpg",
+    "logoUrl": "logo_scratchbank.png",
+    "backUrl": "back_scratchbank.jpg",
+    "detailsImgUrl": "details_scratchbank.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Take a chance with the Risk Game – gamble your winnings for a chance to multiply them",
+        "imgUrl": "img-feat_scratchbank-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_scratchbank-1.jpg"
+      },
+      {
+        "name": "Bonus Game",
+        "descr": "Crack the safes and uncover your reward",
+        "imgUrl": "img-feat_scratchbank-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Scratch the Bank, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Princess and Dwarfs Deluxe",
+    "slug": "princess-and-dwarfs-deluxe",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-08-28",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_dwarfsdlx.jpeg",
+    "heroUrl": "hero_dwarfsdlx.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_dwarfsdlx.jpg",
+    "logoUrl": "logo_dwarfsdlx.png",
+    "backUrl": "back_dwarfsdlx.jpg",
+    "detailsImgUrl": "details_dwarfsdlx.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Take a chance with the Risk Game – gamble your winnings for a chance to multiply them",
+        "imgUrl": "img-feat_dwarfsdlx-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_dwarfsdlx-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "All Wilds in Free Spins become sticky and remain in place until the end of the feature",
+        "imgUrl": "img-feat_dwarfsdlx-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Princess and Dwarfs Deluxe, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Lucky Fruity Coin",
+    "slug": "lucky-fruity-coin",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-08-14",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_fruitycoin.jpeg",
+    "heroUrl": "hero_fruitycoin.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fruitycoin.jpg",
+    "logoUrl": "logo_fruitycoin.png",
+    "backUrl": "back_fruitycoin.jpg",
+    "detailsImgUrl": "details_fruitycoin.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Bonus Game",
+        "descr": "All Bonus symbols become sticky and reset the free spins counter",
+        "imgUrl": "img-feat_fruitycoin-0.jpg"
+      },
+      {
+        "name": "Jackpot Prizes",
+        "descr": "Win one of three Jackpot prizes in the Bonus Game by collecting the highest number of sticky Bonus symbols",
+        "imgUrl": "img-feat_fruitycoin-1.jpg"
+      },
+      {
+        "name": "Both directions payouts",
+        "descr": "Winning combinations pay both ways",
+        "imgUrl": "img-feat_fruitycoin-2.jpg"
+      },
+      {
+        "name": "Risk Game",
+        "descr": "Take a chance with the Risk Game – gamble your winnings for a chance to multiply them",
+        "imgUrl": "img-feat_fruitycoin-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Lucky Fruity Coin, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Plinball Machine",
+    "slug": "plinball-machine",
+    "linkToDemo": " ",
+    "theme": " ",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-08-07",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_plinball.jpeg",
+    "heroUrl": "hero_plinball.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_plinball.jpg",
+    "logoUrl": "logo_plinball.png",
+    "backUrl": "back_plinball.jpg",
+    "detailsImgUrl": "details_plinball.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Plinko",
+        "descr": "Launch the ball and watch it land in a prize slot with a bet multiplier",
+        "imgUrl": "img-feat_plinball-0.jpg"
+      },
+      {
+        "name": "Free Balls",
+        "descr": "Win free bonus balls",
+        "imgUrl": "img-feat_plinball-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Plinball Machine, a video game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Friar Tuck`s Inn",
+    "slug": "friar-tucks-inn",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-07-21",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_friar.jpeg",
+    "heroUrl": "hero_friar.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_friar.jpg",
+    "logoUrl": "logo_friar.png",
+    "backUrl": "back_friar.jpg",
+    "detailsImgUrl": "details_friar.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Take a chance with the Risk Game – gamble your winnings for a chance to multiply them",
+        "imgUrl": "img-feat_friar-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_friar-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "All Wilds in Free Spins become sticky and remain in place until the end of the feature",
+        "imgUrl": "img-feat_friar-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Friar Tuck`s Inn, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
     "name": "Evil Bet: Shoot Them All!",
     "slug": "evil-bet-shoot-them-all",
     "linkToDemo": " ",
@@ -337,15 +817,15 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_skyrocket2.jpeg",
-    "heroUrl": "hero_skyrocket.jpg",
+    "thumbUrl": "game_skyrocket3.jpeg",
+    "heroUrl": "hero_skyrocket3.jpg",
     "blueButtn": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": " ",
     "logoUrl": "logo_skyrocket.png",
     "backUrl": " ",
-    "detailsImgUrl": "details_skyrocket.png",
+    "detailsImgUrl": "details_skyrocket3.png",
     "stats": {
       "reels": null,
       "rows": null,

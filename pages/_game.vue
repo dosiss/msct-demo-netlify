@@ -1044,6 +1044,9 @@ export default {
         position: absolute;
         bottom: 0;
         right: 0;
+        @media (min-width: 1700px) {
+          max-width: 250px
+        }
         @media (max-width: 1200px) {
           right: -35px
         }
