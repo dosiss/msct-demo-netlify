@@ -1,5 +1,27 @@
 [
   {
+  "name": "Crash Game Tournament",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Prize pool $3,000 \nGames: 10K Dice, Space Blaze, Mines Blast \nJune 23 - 30",
+  "url": "https://www.betarabia.com/en/promotions/crash-mascot",
+  "logoUrl": "partner_betarabia-tournament.jpg"
+  },
+  {
+  "name": "Jackpotter Tournament",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Deposit now and get 100 extra Free Spins with every deposit \nGame: Fruity x125 \nJune 23 - July 31",
+  "url": "https://jackpotter.com/promotions/summer-spin-fiesta-is-on-at-jackpotter",
+  "logoUrl": "partner_jackpotter-tournament.jpg"
+  },
+  {
     "name": "PariMatch",
     "type": "promopartner",
     "top": false,
