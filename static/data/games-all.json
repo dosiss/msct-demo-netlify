@@ -482,21 +482,21 @@
   {
     "name": "Evil Bet: Shoot Them All!",
     "slug": "evil-bet-shoot-them-all",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/evil_bet_shoot_them_all",
     "theme": "shooting",
     "type": null,
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
     "rockways": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-07-10",
     "featured": false,
     "topGame":false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_evilbetshoot.jpeg",
+    "thumbUrl": "game_evilbetshoot2.jpeg",
     "heroUrl": "hero_evilbetshoot.jpg",
     "blueButtn": true,
     "videoUrl": null,
@@ -508,13 +508,14 @@
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "Low",
       "paylines": null,
       "payways": null,
       "html5": true,
       "rtp": " ",
       "hitrate": " "
     },
+    "category": [ "halloween" ],
     "features": [
       {
         "name": "Different Bosses",
@@ -528,13 +529,13 @@
       },
       {
         "name": "Special Rewards",
-        "descr": "Receive extra rewards for destroying special symbols",
+        "descr": "Receive extra rewards for destroying special symbol",
         "imgUrl": "img-feat_evilbetshoot-2.jpg"
       }
     ],
     "meta": {
-      "title": "Evil Bet: Shoot the All!, a video shooting game by Mascot Gaming",
-      "descr": " "
+      "title": "Evil Bet: Shoot Them All, a video game by Mascot Gamingg",
+      "descr": "Shoot the undead and get Free Shots, special rewards and x1500"
     }
   },
   {
