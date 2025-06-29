@@ -41,6 +41,7 @@
                   <ul class="features-tools__item-text">
                     <li><span class="contains-bold">{{$t('100% in-house')}} {{$t('cycle of production')}}</span></li>
                     <li>{{$t('Captivating music')}}</li>
+                    <li id="image-li-element"><img src="/images/img_sound_award_features.png" class="tools-music-badge" alt="" /></li>
                     <li><span class="contains-bold">{{$t('Exceptional player experience')}}</span></li>
                   </ul>
                 </div>
@@ -1226,6 +1227,19 @@ html:lang(es) {
             strong {
               font-weight: 700;
               margin-right: 5px
+            }
+            &#image-li-element {
+              img {
+                max-width: 235px;
+                margin-left: 45px;
+                margin-top: -10px;
+                @media (max-width: 1024px) {
+                  max-width: 184px
+                }
+              }
+              &:before {
+                content: none
+              }
             }
           }
           @media (max-width: 650px) {

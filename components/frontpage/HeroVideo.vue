@@ -10,6 +10,7 @@
         <div class="static-background">
             <div class="container">
                 <div class="top-header__wrap">
+                  <img src="/images/img_sound-award-mobile.png" class="sound-badge-mobile" alt="" />
                       <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
                       <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl hero-buttn">{{ $t('Play our games') }}</a>
                 </div>
@@ -37,6 +38,7 @@
             </video>
           </div>
           <div class="container">
+            <img src="/images/img_sound-award-desktop.png" class="sound-badge-desktop" alt="" />
               <div class="top-header__wrap">
                 <div class="top-header__left">
                     <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
@@ -194,6 +196,23 @@ html:lang(pt){
     opacity: .6;
     z-index: -1
   }
+  .sound-badge-desktop {
+    position: absolute;
+    top: 50px;
+    right: 175px;
+    max-width: 330px;
+    height: auto;
+    @media (min-width: 1960px) {
+      right: 50%;
+      margin-right: -820px;
+    }
+    @media (max-width: 1460px) {
+      right: 120px
+    }
+    @media (max-width: 1200px) {
+      right: 35px
+    }
+  }
 }
 .top-header__wrap {
   padding: 280px 0 200px;
@@ -203,6 +222,11 @@ html:lang(pt){
   }
   @media (max-width: 650px) {
     padding: 335px 0 50px;
+  }
+  .sound-badge-mobile {
+    max-width: 96px;
+    height: auto;
+    margin-bottom: 7px
   }
 
   h1 {
@@ -230,7 +254,7 @@ html:lang(pt){
   }
 }
 /* Prize badge styles */
-.top-header__wrap {
+/*.top-header__wrap {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -292,6 +316,7 @@ html:lang(pt){
     }
   }
 }
+*/
 .vote-badge-mob {
   display: none;
   position: absolute;
