@@ -1,5 +1,16 @@
 [
   {
+  "name": "Fruity Fever",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Prize pool 540 000 RUB \n30.06. - 06.07",
+  "url": "https://bit.ly/fruity-fever",
+  "logoUrl": "partner_fruityfever-tournament.jpg"
+  },
+  {
   "name": "Crash Game Tournament",
   "type": "promopartner",
   "top": false,
