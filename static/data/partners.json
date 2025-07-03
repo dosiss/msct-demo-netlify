@@ -2343,6 +2343,72 @@
     "logoUrl": "partner_freebets.png"
   },
   {
+    "name": "Cacaniqueisonline",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.cacaniqueisonline.com/software/mascot-gaming/",
+    "logoUrl": "partner_cacaniqueis.png"
+  },
+  {
+    "name": "Slotjava.es",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.slotjava.es/software/mascot-gaming/",
+    "logoUrl": "partner_slotjavaes.png"
+  },
+  {
+    "name": "Casinopro.se",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.casinopro.se/spelutvecklare/mascot-gaming/",
+    "logoUrl": "partner_casinoprose.png"
+  },
+  {
+    "name": "Casinobonusar",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.casinobonusar.nu/spelutvecklare/mascot-gaming/",
+    "logoUrl": "casinobonusar.png"
+  },
+  {
+    "name": "Slotjava.it",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.slotjava.it/software/mascot-gaming/",
+    "logoUrl": "partner_slotjavait.png"
+  },
+  {
+    "name": "Nuovicasino",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.nuovicasino.it/software/mascot-gaming/",
+    "logoUrl": "partner_nuovicasino.png"
+  },
+  {
     "name": "Small Lui",
     "type": "streamers",
     "top": false,
