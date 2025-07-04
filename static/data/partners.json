@@ -1,5 +1,49 @@
 [
   {
+  "name": "21bit",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Deposit minimum €20 \nto get Free Spins \nUntil 31.07",
+  "url": "https://bit.ly/21-bit",
+  "logoUrl": "partner_21bit-tournament.jpg"
+  },
+  {
+  "name": "Wild fortune",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Deposit minimum €20 \nto get Free Spins \nUntil 31.07",
+  "url": "https://bit.ly/wild-fortune",
+  "logoUrl": "partner_wildfortune-tournament.jpg"
+  },
+  {
+  "name": "Casino Rocket",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Deposit minimum €20 \nto get Free Spins \nUntil 31.07",
+  "url": "https://bit.ly/casino-rocket",
+  "logoUrl": "partner_casinorocket-tournament.jpg"
+  },
+  {
+  "name": "Spin samurai",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Deposit minimum €20 \nto get Free Spins \nUntil 31.07",
+  "url": "https://bit.ly/spin-samurai",
+  "logoUrl": "partner_spinsamurai-tournament.jpg"
+  },
+  {
   "name": "Fruity Fever",
   "type": "promopartner",
   "top": false,
