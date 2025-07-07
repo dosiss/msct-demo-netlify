@@ -44,28 +44,6 @@
   "logoUrl": "partner_spinsamurai-tournament.jpg"
   },
   {
-  "name": "Fruity Fever",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Prize pool 540 000 RUB \n30.06. - 06.07",
-  "url": "https://bit.ly/fruity-fever",
-  "logoUrl": "partner_fruityfever-tournament.jpg"
-  },
-  {
-  "name": "Crash Game Tournament",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Prize pool $3,000 \nGames: 10K Dice, Space Blaze, Mines Blast \nJune 23 - 30",
-  "url": "https://www.betarabia.com/en/promotions/crash-mascot",
-  "logoUrl": "partner_betarabia-tournament.jpg"
-  },
-  {
   "name": "Jackpotter Tournament",
   "type": "promopartner",
   "top": false,
