@@ -423,20 +423,20 @@
   {
     "name": "Friar Tuck`s Inn",
     "slug": "friar-tucks-inn",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/friar_tucks_inn",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-07-21",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_friar.jpeg",
+    "thumbUrl": "game_friar2.jpeg",
     "heroUrl": "hero_friar.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -446,10 +446,10 @@
     "backUrl": "back_friar.jpg",
     "detailsImgUrl": "details_friar.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 4,
+      "volatility": "Med",
+      "paylines": 25,
       "payways": null,
       "html5": true,
       "rtp": null,
@@ -469,13 +469,13 @@
       },
       {
         "name": "Free Spins",
-        "descr": "All Wilds in Free Spins become sticky and remain in place until the end of the feature",
-        "imgUrl": "img-feat_friar-3.jpg"
+        "descr": "All Wilds become sticky and remain in place until the end of the feature",
+        "imgUrl": "img-feat_friar-2.jpg"
       }
     ],
     "meta": {
       "title": "Friar Tuck`s Inn, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Feast and fortune await! Enjoy Risk &  Buy feature and Free Spins with Sticky Wild Symbols."
     },
     "rockways": false
   },
@@ -623,7 +623,7 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_fruity125-2.jpeg",
+    "thumbUrl": "game_fruity125-3.svg",
     "heroUrl": "hero_fruity125.jpg",
     "blueButtn": false,
     "videoUrl": null,
