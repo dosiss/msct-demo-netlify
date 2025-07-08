@@ -291,9 +291,19 @@
         "imgUrl": "img-feat_dwarfsdlx-1.jpg"
       },
       {
-        "name": "Free Spins",
-        "descr": "All Wilds in Free Spins become sticky and remain in place until the end of the feature",
+        "name": "Rockfall Feature",
+        "descr": "All winning symbols disappear from the screen and are replaced with new ones",
         "imgUrl": "img-feat_dwarfsdlx-2.jpg"
+      },
+      {
+        "name": "Rockfall Multipliers",
+        "descr": "With each new Rockfall, the win multiplier increases — up to x5 in the base game and up to x15 during Free Spins",
+        "imgUrl": "img-feat_dwarfsdlx-3.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "During Free Spins, the mystery symbol transforms into a 6-symbol-high reel of Wilds",
+        "imgUrl": "img-feat_dwarfsdlx-4.jpg"
       }
     ],
     "meta": {
