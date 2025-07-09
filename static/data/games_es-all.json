@@ -528,23 +528,23 @@
     "category": [ "halloween" ],
     "features": [
       {
-        "name": "Different Bosses",
-        "descr": "A unique Boss appears at the end of each round",
+        "name": "Jefes diferentes",
+        "descr": "Un Jefe único aparece al final de cada ronda",
         "imgUrl": "img-feat_evilbetshoot-0.jpg"
       },
       {
-        "name": "Free Shots",
-        "descr": "Earn Free Shots by destroying special symbols",
+        "name": "Tiros gratis",
+        "descr": "Gana Tiros gratis destruyendo símbolos especiales",
         "imgUrl": "img-feat_evilbetshoot-1.jpg"
       },
       {
-        "name": "Special Rewards",
-        "descr": "Receive extra rewards for destroying special symbol",
+        "name": "Premios especiales",
+        "descr": "Recibe premios adicionales por destruir símbolos especiales",
         "imgUrl": "img-feat_evilbetshoot-2.jpg"
       }
     ],
     "meta": {
-      "title": "Evil Bet: Shoot Them All, a video game by Mascot Gamingg",
+      "title": "Evil Bet: Shoot the All!, un videojuego de disparos de Mascot Gaming",
       "descr": "Shoot the undead and get Free Shots, special rewards and x1500"
     }
   },
@@ -586,33 +586,33 @@
     "category": [ "egypt" ],
     "features": [
       {
-        "name": "Risk & Buy feature: Risk",
-        "descr": "Risk your winnings in the Risk Game for a chance to increase them with a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias en el Juego de riesgo para tener la oportunidad de aumentarlas con un multiplicador de ganancias",
         "imgUrl": "img-feat_anksunamundlx-0.jpg"
       },
       {
-        "name": "Risk & Buy feature: Buy",
-        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "name": "Función Risk & Buy: Compra",
+        "descr": "Compra Free Spins con las condiciones propuestas al precio sugerido. Hay una oferta especial después de cada partida",
         "imgUrl": "img-feat_anksunamundlx-1.jpg"
       },
       {
-        "name": "Gold Wild Symbol",
-        "descr": "Gold Wild Symbols substitute for all symbols, including Scatters, and multiply wins by 2",
+        "name": "Símbolo Gold Wild",
+        "descr": "Los símbolos Gold Wild sustituyen a todos los símbolos, incluidos los Scatters, y multiplican las ganancias por 2",
         "imgUrl": "img-feat_anksunamundlx-2.jpg"
       },
       {
         "name": "Free Spins",
-        "descr": "During Free Spins, Gold Wild Symbols become Sticky",
+        "descr": "Durante los Free Spins, los símbolos Gold Wild se convertirán en Sticky",
         "imgUrl": "img-feat_anksunamundlx-3.jpg"
       },
       {
-        "name": "Extra Free Spins",
-        "descr": "When reels 2, 3, and 4 are completely filled with Sticky Gold Wild Symbols, 3 Extra Free Spins are awarded",
+        "name": "Free Spins extra",
+        "descr": "Cuando los rodillos 2, 3 y 4 están completamente llenos de símbolos Sticky Gold Wild, se otorgan 3 Free Spins extra",
         "imgUrl": "img-feat_anksunamundlx-4.jpg"
       }
     ],
     "meta": {
-      "title": "Anksunamun Deluxe, a video slot game by Mascot Gaming",
+      "title": "Anksunamun Deluxe, una tragaperras en vídeo de Mascot Gaming",
       "descr": "The fierce Queen returns with Free Spins, Gold Wild Symbols and Risk'n'Buy!"
     },
     "rockways": false
@@ -655,24 +655,24 @@
     "category": [ "fruits" ],
     "features": [
       {
-        "name": "Wilds with Multipliers",
-        "descr": "3 different Wild Symbols with multipliers of x2, x3, and x5",
+        "name": "Wilds con multiplicadores",
+        "descr": "3 símbolos Wild diferentes con multiplicadores de x2, x3 y x5",
         "imgUrl": "img-feat_fruity125-0.jpg"
       },
       {
-        "name": "Sticky Wild Reels and Respins",
-        "descr": "Each Wild turns into a Sticky Wild Reel and triggers a Free Respin",
+        "name": "Sticky Wild Reels y Respins",
+        "descr": "Cada Wild se convierte en un Sticky Wild Reel y activa un Free Respin",
         "imgUrl": "img-feat_fruity125-1.jpg"
       },
       {
-        "name": "Risk Game",
-        "descr": "Risk your winnings in the Risk Game for a chance to increase them with a win multiplier",
+        "name": "Juego de riesgo",
+        "descr": "Arriesga tus ganancias en el Juego de riesgo para tener la oportunidad de aumentarlas con un multiplicador de ganancias",
         "imgUrl": "img-feat_fruity125-2.jpg"
       }
     ],
     "meta": {
-      "title": "Fruity x125, a video slot game by Mascot Gaming",
-      "descr": "Royal fruits, juicy rewards with Sticky Wild Reels and x25000."
+      "title": "Fruity x125, una tragaperras en vídeo de Mascot Gaming",
+      "descr": "Royal fruits, jugosas recompensas con los Sticky Wild Reels y x25 000."
     },
     "rockways": false
   },
@@ -715,23 +715,23 @@
     "features": [
       {
         "name": "Deuces Wild",
-        "descr": "In this game, 2s are Wilds and substitute for any card",
+        "descr": "En este juego, los 2 son Wilds y sustituyen a cualquier carta",
         "imgUrl": "img-feat_videopoker-0.jpg"
       },
       {
         "name": "Jacks or Better",
-        "descr": "In this game, the lowest paying combination is a pair of Jacks",
+        "descr": "En este juego, la combinación que menos paga es un par de Jotas",
         "imgUrl": "img-feat_videopoker-1.jpg"
       },
       {
         "name": "Joker Poker",
-        "descr": "In this game, The Joker card is Wild and substitutes for any card",
+        "descr": "En este juego, la carta Comodín es un Wild y sustituye a cualquier carta",
         "imgUrl": "img-feat_videopoker-2.jpg"
       }
     ],
     "meta": {
-      "title": "Videopoker 3in1, a video table game by Mascot Gaming",
-      "descr": "Enjoy three faces of poker in one elegant solution with Wild Cards, Jokers and x800"
+      "title": "Videopoker 3in1, juego de mesa en vídeo de Mascot Gaming",
+      "descr": "Disfruta de tres caras del póker en una elegante solución con cartas Wild, Comodines y x800"
     }
   },
   {
@@ -771,44 +771,44 @@
     },
     "features": [
       {
-        "name": "Step-by-Step Crash Game",
-        "descr": "A new twist on the classic Crash experience: with each step, the multiplier increases, and players must decide whether to cash out or risk advancing to the next step for higher rewards",
+        "name": "Juego de choque paso a paso",
+        "descr": "Un nuevo giro en la experiencia clásica de choque: con cada paso, el multiplicador aumenta y los jugadores deben decidir si retirar sus ganancias o arriesgar avanzando al siguiente paso para obtener mayores recompensas",
         "imgUrl": "img-feat_rooster-0.jpg"
       },
       {
-        "name": "3 Risk Levels",
-        "descr": "Players now choose between several risk levels, with the highest risk offering a multiplier of up to x10,000",
+        "name": "3 niveles de riesgo",
+        "descr": "Los jugadores ahora eligen entre varios niveles de riesgo, con un nivel de riesgo superior que ofrece un multiplicador de hasta x10 000",
         "imgUrl": "img-feat_rooster-1.jpg"
       },
       {
-        "name": "Step-by-Step Autoplay",
-        "descr": "The rooster automatically advances step by step toward the target multiplier, giving the player full control and the option to cash out at any moment",
+        "name": "Función de juego automático paso a paso",
+        "descr": "El gallo avanza paso a paso automáticamente hacia el multiplicador objetivo, lo que otorga al jugador un control completo y la opción de retirar sus ganancias en cualquier momento",
         "imgUrl": "img-feat_rooster-2.jpg"
       },
       {
-        "name": "Instant Autoplay",
-        "descr": "The rooster instantly leaps to the target multiplier if successful, or crashes at the failure point—enabling a much faster gameplay experience",
+        "name": "Función de juego automático inmediata",
+        "descr": "Si tiene éxito, el gallo brinca inmediatamente al multiplicador objetivo o, si no lo tiene, se choca en el punto fallido, lo que permite una experiencia de juego mucho más rápida",
         "imgUrl": null
       },
       {
-        "name": "Ranks",
-        "descr": "By placing bets, players advance through ranks, unlocking new customization elements and avatars",
+        "name": "Clasificaciones",
+        "descr": "Al realizar apuestas, los jugadores avanzan en las clasificaciones y desbloquean nuevas opciones de personalización y avatares",
         "imgUrl": null
       },
       {
-        "name": "Customization",
-        "descr": "Players can personalize the game area and interface elements to their liking using customization options",
+        "name": "Personalización",
+        "descr": "Los jugadores pueden personalizar el área de juego y los elementos de la interfaz en función de sus preferencias mediante las opciones de personalización",
         "imgUrl": "img-feat_rooster-5.jpg"
       },
       {
-        "name": "Live Leaderboard",
-        "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
+        "name": "Tabla de clasificación en directo",
+        "descr": "Una pantalla en línea que muestra a los jugadores de la ronda actual y las mayores ganancias de la historia del juego",
         "imgUrl": null
       }
     ],
     "meta": {
-      "title": "Rooster Run, a video game by TTT Games",
-      "descr": "Experience a cosmic adventure in this step-by-step crash game and get a multiplier up to x10000!"
+      "title": "Rooster Run, un videojuego de TTT Games",
+      "descr": "¡Experimenta una aventura cósmica en este juego de choque paso a paso y consigue un multiplicador de x10 000!"
     },
     "rockways": false
   },
@@ -849,38 +849,38 @@
     },
     "features": [
       {
-        "name": "Crash Game",
-        "descr": "The win multiplier continuously grows, and the player must cash out their bet before the rocket explodes",
+        "name": "Juego de choque",
+        "descr": "El multiplicador de ganancia crece de forma constante y el jugador debe retirar sus ganancias antes de que el cohete explote",
         "imgUrl": "img-feat_skyrocket-0.jpg"
       },
       {
-        "name": "Multiplayer",
-        "descr": "This game allows multiple players to participate in the same round",
+        "name": "Multijugador",
+        "descr": "Este modo permite participar a varios jugadores en la misma ronda",
         "imgUrl": "img-feat_skyrocket-1.jpg"
       },
       {
-        "name": "Growing Multiplier",
-        "descr": "A dynamic multiplier that can reach up to x10 000",
+        "name": "Multiplicador creciente",
+        "descr": "Un multiplicador dinámico que puede llegar hasta x10 000",
         "imgUrl": "img-feat_skyrocket-2.jpg"
       },
       {
-        "name": "Live Leaderboard",
-        "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
+        "name": "Tabla de clasificación en directo",
+        "descr": "Una pantalla en línea que muestra a los jugadores de la ronda actual y las mayores ganancias de la historia del juego",
         "imgUrl": "img-feat_skyrocket-3.jpg"
       },
       {
-        "name": "Ranks",
-        "descr": "By placing bets, players advance through ranks, unlocking new customization elements and avatars",
+        "name": "Clasificaciones",
+        "descr": "Al realizar apuestas, los jugadores avanzan en las clasificaciones y desbloquean nuevas opciones de personalización y avatares",
         "imgUrl": "img-feat_skyrocket-4.jpg"
       },
       {
-        "name": "Customization",
-        "descr": "Players can personalize the game area and interface elements to their liking using customization options",
+        "name": "Personalización",
+        "descr": "Los jugadores pueden personalizar el área de juego y los elementos de la interfaz en función de sus preferencias mediante las opciones de personalización",
         "imgUrl": "img-feat_skyrocket-5.jpg"
       }
     ],
     "meta": {
-      "title": "Skyrocket, a video crash game by TTT Games",
+      "title": "Skyrocket, un juego de choque en vídeo de TTT Games",
       "descr": " "
     },
     "rockways": false
@@ -924,28 +924,28 @@
     "features": [
       {
         "name": "Free Spins",
-        "descr": "During Free Spins, all winning symbol combinations pay out anywhere on the screen",
+        "descr": "Durante los Free Spins, todas las combinaciones de símbolos ganadores pagan en cualquier lugar de la pantalla",
         "imgUrl": "img-feat_wasteland-0.jpg"
       },
       {
-        "name": "Multiplier Symbol",
-        "descr": "Each Multiplier symbol on the screen multiplies the win for the current spin by 2",
+        "name": "Símbolo multiplicador",
+        "descr": "Cada símbolo multiplicador de la pantalla multiplica por 2 la ganancia para el giro en curso",
         "imgUrl": "img-feat_wasteland-1.jpg"
       },
       {
-        "name": "Risk & Buy feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
         "imgUrl": "img-feat_wasteland-2.jpg"
       },
       {
-        "name": "Risk & Buy feature: Buy",
-        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "name": "Función Risk & Buy: Compra",
+        "descr": "Compra Free Spins con las condiciones propuestas al precio sugerido. Hay una oferta especial después de cada partida",
         "imgUrl": "img-feat_wasteland-3.jpg"
       }
     ],
     "meta": {
-      "title": "Wasteland Riches, a video slot game by Mascot Gaming",
-      "descr": "Explore the post-apocalyptic world with Multiplayer symbols, Free Spins and Risk’n’Buy feature."
+      "title": "Wasteland Riches, tragaperras en vídeo de Mascot Gaming",
+      "descr": "Explora el mundo postapocalíptico con símbolos Multijugador, Free Spins y la función Risk’n’Buy."
     },
     "rockways": false
   },
@@ -989,24 +989,24 @@
     ],
     "features": [
       {
-        "name": "Up to 5 bets",
-        "descr": "Place 1 to 5 bets at the same time",
+        "name": "Hasta 5 apuestas",
+        "descr": "Realiza entre 1 y 5 apuestas simultáneamente",
         "imgUrl": "img-feat_gunman-0.jpg"
       },
       {
-        "name": "Growing win multiplier",
-        "descr": "Watch your winning multiplier grow and claim your winnings",
+        "name": "Multiplicador de ganancias creciente",
+        "descr": "Observa cómo aumenta tu multiplicador de ganancias y reclama tus recompensas",
         "imgUrl": "img-feat_gunman-1.jpg"
       },
       {
-        "name": "Fantastic prizes",
-        "descr": "Get Free Bets and winnings up to x10000",
+        "name": "Premios fantásticos",
+        "descr": "Consigue Apuestas gratis y ganancias de hasta x10 000",
         "imgUrl": "img-feat_gunman-2.jpg"
       }
     ],
     "meta": {
-      "title": "Gunman Crash!, a video game by Mascot Gaming",
-      "descr": "Incredible bets, fantastic prizes and x5000"
+      "title": "Gunman Crash!, un videojuego de Mascot Gaming",
+      "descr": "Apuestas increíbles, premios fantásticos y x5000"
     },
     "rockways": false
   },
@@ -1047,39 +1047,39 @@
     },
     "features": [
       {
-        "name": "Double",
-        "descr": "Players choose between red, black, or a special cell, and a spinning wheel determines the winning color and multiplier. Landing on the special cell brings the highest win",
+        "name": "Doblar",
+        "descr": "Los jugadores eligen entre rojo, negro, o una casilla especial y una rueda giratoria determina el color ganador y el multiplicador. Caer en las casillas especiales otorga la mayor ganancia",
         "imgUrl": null
       },
       {
-        "name": "Multiplayer",
-        "descr": "This game allows multiple players to participate in the same round",
+        "name": "Multijugador",
+        "descr": "Este modo permite participar a varios jugadores en la misma ronda",
         "imgUrl": "img-feat_doubleroulette-1.jpg"
       },
       {
-        "name": "Multiple Bets",
-        "descr": "Players can select more than one outcome per round, increasing their chances of winning",
+        "name": "Apuestas múltiples",
+        "descr": "Los jugadores pueden seleccionar más de un resultado por ronda, aumentando sus probabilidades de ganar",
         "imgUrl": "img-feat_doubleroulette-2.jpg"
       },
       {
-        "name": "Live Leaderboard",
-        "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
+        "name": "Tabla de clasificación en directo",
+        "descr": "Una pantalla en línea que muestra a los jugadores de la ronda actual y las mayores ganancias de la historia del juego",
         "imgUrl": null
       },
       {
-        "name": "Ranks",
-        "descr": "By placing bets, players progress through ranks, unlocking new customization options and avatars",
+        "name": "Clasificaciones",
+        "descr": "Al realizar apuestas, los jugadores avanzan en las clasificaciones y desbloquean opciones de personalización y avatares",
         "imgUrl": "img-feat_doubleroulette-4.jpg"
       },
       {
-        "name": "Customization",
-        "descr": "Players can personalize the game area and interface elements to suit their preferences through customization features",
+        "name": "Personalización",
+        "descr": "Los jugadores pueden personalizar el área de juego y los elementos de la interfaz en función de sus preferencias mediante las funciones de personalización",
         "imgUrl": "img-feat_doubleroulette-5.jpg"
       }
     ],
     "meta": {
-      "title": "Double Roulette, a video game by TTT Games",
-      "descr": "Take advantage of multiple bets and get the best rewards"
+      "title": "Double Roulette, un videojuego de TTT Games",
+      "descr": "Aprovecha las apuestas múltiples y consigue las mejores recompensas"
     },
     "rockways": false
   },
@@ -1123,34 +1123,34 @@
     ],
     "features": [
       {
-        "name": "Risk & Buy feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
         "imgUrl": "img-feat_tessa-0.jpg"
       },
       {
-        "name": "Risk & Buy feature: Buy",
-        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "name": "Función Risk & Buy: Compra",
+        "descr": "Compra Free Spins con las condiciones propuestas al precio sugerido. Hay una oferta especial después de cada partida",
         "imgUrl": "img-feat_tessa-1.jpg"
       },
       {
         "name": "Special Expanding Symbols",
-        "descr": "During each spin, Special Expanding Symbols are randomly selected and pay out even on non-adjacent reels",
+        "descr": "Durante cada giro, se seleccionan aleatoriamente Special Expanding Symbols y pagan incluso en rodillos no adyacentes",
         "imgUrl": "img-feat_tessa-2.jpg"
       },
       {
-        "name": "Mystery Symbol",
-        "descr": "The Mystery Symbol acts as both a Wild and a Scatter symbol",
+        "name": "Símbolo Mystery",
+        "descr": "El símbolo Mystery actúa tanto como un símbolo Wild como un Scatter",
         "imgUrl": "img-feat_tessa-3.jpg"
       },
       {
         "name": "Free Spins",
-        "descr": "During Free Spins, there are 3 Special Expanding Symbols that appear on each spin",
+        "descr": "Durante los Free Spins, hay 3 Special Expanding Symbols que aparecen en cada giro",
         "imgUrl": "img-feat_tessa-4.jpg"
       }
     ],
     "meta": {
-      "title": "Tessa Hunt and the Eye of Horus, a video slot game by Mascot Gaming",
-      "descr": "Adventure beings now with Free Spins, Risk and Buy, Special Symbols and x2250!"
+      "title": "Tessa Hunt and the Eye of Horus, tragaperras en vídeo de Mascot Gaming",
+      "descr": "¡La aventura comienza ahora con Free Spins, Risk and Buy, Símbolos especiales y x2250!"
     },
     "rockways": false
   },
@@ -1194,29 +1194,29 @@
     ],
     "features": [
       {
-        "name": "Risk & Buy feature: Risk",
-        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "name": "Función Risk & Buy: Riesgo",
+        "descr": "Arriesga tus ganancias jugando al Juego de riesgo. Puedes aumentar tus ganancias obteniendo un multiplicador de ganancias",
         "imgUrl": "img-feat_fortherealmdlx-0.jpg"
       },
       {
-        "name": "Risk & Buy feature: Buy",
-        "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "name": "Función Risk & Buy: Compra",
+        "descr": "Compra Free Spins con las condiciones propuestas al precio sugerido. Hay una oferta especial después de cada partida",
         "imgUrl": "img-feat_fortherealmdlx-1.jpg"
       },
       {
-        "name": "Free Spins with Sticky Wild Reels and Respins",
-        "descr": "Symbols transform into Wild Reels and trigger Free Respins",
+        "name": "Free Spins con Sticky Wild Reels y Respins",
+        "descr": "Los símbolos se transforman en Wild Reels y activan Free Respins",
         "imgUrl": "img-feat_fortherealmdlx-2.jpg"
       },
       {
-        "name": "Free Spins with Sticky Wilds",
-        "descr": "Symbols transform into Sticky Wilds until the end of the Free Spins series",
+        "name": "Free Spins con Sticky Wilds",
+        "descr": "Los símbolos se transforman en Sticky Wilds hasta el final de la serie de Free Spins",
         "imgUrl": "img-feat_fortherealmdlx-3.jpg"
       }
     ],
     "meta": {
-      "title": "For the Realm Deluxe, a video slot game by Mascot Gaming",
-      "descr": "Choose the winning side with two types of Free Spins and Risk & Buy feature!"
+      "title": "For the Realm Deluxe, una tragaperras en vídeo de Mascot Gaming",
+      "descr": "¡Elige el bando ganador con dos tipos de Free Spins y la función Risk & Buy!"
     },
     "rockways": false
   },
@@ -1258,38 +1258,38 @@
     "features": [
       {
         "name": "Keno",
-        "descr": "The player selects between 1 and 10 numbers out of 40. The server randomly generates 10 numbers out of 40. If the player's selections match the server's, the player wins the bet",
+        "descr": "El jugador selecciona entre 1 y 10 números de entre 40. El servidor genera aleatoriamente 10 números de 40. Si las selecciones del jugador son las mismas que las del servidor, el jugador gana la apuesta",
         "imgUrl": null
       },
       {
-        "name": "Multiplayer",
-        "descr": "This game allows multiple players to participate in the same round",
+        "name": "Multijugador",
+        "descr": "Este modo permite participar a varios jugadores en la misma ronda",
         "imgUrl": "img-feat_kenoparty-1.jpg"
       },
       {
-        "name": "Multiple Bets",
-        "descr": "Players can place between 1 and 5 bets per round",
+        "name": "Apuestas múltiples",
+        "descr": "Los jugadores pueden realizar entre 1 y 5 apuestas por ronda",
         "imgUrl": "img-feat_kenoparty-2.jpg"
       },
       {
-        "name": "Player Leaderboard",
-        "descr": "An online board showing players in the current round and the biggest wins in the game’s history",
+        "name": "Tabla de clasificación de jugadores",
+        "descr": "Una pantalla en línea que muestra a los jugadores de la ronda actual y las mayores ganancias de la historia del juego",
         "imgUrl": null
       },
       {
-        "name": "Ranks",
-        "descr": "By placing bets, players progress through ranks, unlocking new customization options and avatars",
+        "name": "Clasificaciones",
+        "descr": "Al realizar apuestas, los jugadores avanzan en las clasificaciones y desbloquean opciones de personalización y avatares",
         "imgUrl": "img-feat_kenoparty-4.jpg"
       },
       {
-        "name": "Customization",
-        "descr": "Players can personalize the game area and interface elements to suit their preferences through customization features",
+        "name": "Personalización",
+        "descr": "Los jugadores pueden personalizar el área de juego y los elementos de la interfaz en función de sus preferencias mediante las funciones de personalización",
         "imgUrl": "img-feat_kenoparty-5.jpg"
       }
     ],
     "meta": {
-      "title": "Keno Party, a video game by TTT Games",
-      "descr": "Powered by Mascot Gaming, Keno Party offers amazing features: multiplayer, live leaderboard, customization, ranks and x10000."
+      "title": "Keno Party, un videojuego de TTT Games",
+      "descr": "Desarrollado por Mascot Gaming, Keno Party ofrece funciones increíbles: multijugador, tabla de clasificación en directo, personalización, clasificaciones y x10 000."
     },
     "rockways": false
   },
@@ -1309,7 +1309,7 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_plinkopop3.jpeg",
+    "thumbUrl": "game_plinkopop4.svg",
     "heroUrl": "hero_plinkopop.jpg",
     "blueButtn": true,
     "videoUrl": null,

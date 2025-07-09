@@ -12,12 +12,12 @@
             <nuxt-link :to="localePath('/tic-tac-toe-games')" class="buttn buttn-blue buttn-m">{{$t('Learn more')}}</nuxt-link>
           </div>
           <div class="ttt-games__top-features">
-            <div class="feature-item">Crash games</div>
+            <div class="feature-item">{{$t('Crash games')}}</div>
             <div class="feature-item">Mines</div>
             <div class="feature-item">Plinko</div>
             <div class="feature-item">Double</div>
             <div class="feature-item">Dice</div>
-            <div class="feature-item">and more</div>
+            <div class="feature-item">{{$t('and more')}}</div>
           </div>
         </div>
       </div>

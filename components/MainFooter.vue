@@ -153,9 +153,32 @@
         <NuxtLink :to="localePath('/terms')" class="footer-bottom__link">{{ $t('Terms of use') }}</NuxtLink>
         <NuxtLink :to="localePath('/privacy')" class="footer-bottom__link">{{ $t('Privacy policy') }}</NuxtLink>
         <NuxtLink :to="localePath('/responsible-gaming')" class="footer-bottom__link">{{ $t('Responsible gaming') }}</NuxtLink>
-        <NuxtLink :to="localePath('/kyc')" class="footer-bottom__link">{{ $t('KYC') }}</NuxtLink>
-        <NuxtLink :to="localePath('/aml-policy')" class="footer-bottom__link">{{ $t('AML policy') }}</NuxtLink>
-
+        <!-- <NuxtLink :to="localePath('/kyc')" class="footer-bottom__link">{{ $t('KYC') }}</NuxtLink> -->
+        <NuxtLink
+          :to="
+            $i18n.locale === 'pt'
+              ? localePath('/kyc-pt')
+              : $i18n.locale === 'es'
+              ? localePath('/kyc-es')
+              : localePath('/kyc')
+          "
+          class="footer-bottom__link"
+        >
+          {{ $t('KYC') }}
+        </NuxtLink>
+        <!-- <NuxtLink :to="localePath('/aml-policy')" class="footer-bottom__link">{{ $t('AML policy') }}</NuxtLink> -->
+        <NuxtLink
+          :to="
+            $i18n.locale === 'pt'
+              ? localePath('/aml-policy-pt')
+              : $i18n.locale === 'es'
+              ? localePath('/aml-policy-es')
+              : localePath('/aml-policy')
+          "
+          class="footer-bottom__link"
+        >
+          {{ $t('AML policy') }}
+        </NuxtLink>
       </div>
       <div class="copyright text-muted">Mascot Gaming - {{ $t('All rights reserved') }} 2025</div>
     </div>
