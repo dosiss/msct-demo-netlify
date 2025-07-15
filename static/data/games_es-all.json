@@ -1119,7 +1119,7 @@
       "hitrate": null
     },
     "category": [
-      "adventure"
+      "adventure", "girls"
     ],
     "features": [
       {
@@ -1875,6 +1875,9 @@
       "rtp": 95.3,
       "hitrate": 20.9
     },
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Wilds con un multiplicador",
@@ -2253,7 +2256,7 @@
       "hitrate": "  "
     },
     "category": [
-      "fruits"
+      "fruits", "asia"
     ],
     "features": [
       {
@@ -2390,7 +2393,7 @@
       "hitrate": "  "
     },
     "category": [
-      "egypt"
+      "egypt", "girls"
     ],
     "features": [
       {
@@ -2655,6 +2658,9 @@
       "rtp": " ",
       "hitrate": " "
     },
+    "category": [
+      "girls"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -2784,6 +2790,9 @@
       "rtp": " ",
       "hitrate": " "
     },
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Wilds con Multiplicadores",
@@ -3999,6 +4008,9 @@
       "rtp": null,
       "hitrate": null
     },
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Juego de riesgo",
@@ -4333,7 +4345,7 @@
       "hitrate": null
     },
     "category": [
-      "egypt"
+      "egypt", "girls"
     ],
     "features": [
       {
@@ -4583,6 +4595,9 @@
       "rtp": 95.32,
       "hitrate": 28.9
     },
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": " ",
@@ -5617,6 +5632,9 @@
       "rtp": 95.2,
       "hitrate": 62.8
     },
+    "category": [
+      "girls"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -6610,6 +6628,9 @@
       "rtp": 95.7,
       "hitrate": 16.3
     },
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Función Lucky Number",
@@ -6867,7 +6888,7 @@
       "hitrate": 31.3
     },
     "category": [
-      "fantasy"
+      "fantasy", "girls"
     ],
     "features": [
       {
@@ -7139,6 +7160,9 @@
       "rtp": 96.7,
       "hitrate": 46.5
     },
+    "category": [
+      "girls"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -7481,6 +7505,9 @@
       "rtp": 95,
       "hitrate": 28.09
     },
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Free Spins con Special Expanding Symbol",
@@ -7623,7 +7650,7 @@
       "hitrate": 46.9
     },
     "category": [
-      "egypt"
+      "egypt", "girls"
     ],
     "features": [
       {
@@ -8068,6 +8095,9 @@
       "rtp": 95.1,
       "hitrate": 27.6
     },
+    "category": [
+      "girls"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -8213,7 +8243,7 @@
       "hitrate": 36.5
     },
     "category": [
-      "fruits"
+      "fruits", "asia"
     ],
     "features": [
       {
@@ -9263,6 +9293,9 @@
       "rtp": 97.2,
       "hitrate": 31.2
     },
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Juego en Bet Ways",
@@ -9321,6 +9354,9 @@
       "rtp": 96.7,
       "hitrate": 46.5
     },
+    "category": [
+      "girls"
+    ],
     "features": [
       {
         "name": "Función Wild Reels",
@@ -9443,7 +9479,7 @@
       "hitrate": 46.3
     },
     "category": [
-      "fantasy"
+      "fantasy", "girls"
     ],
     "features": [
       {
@@ -9632,6 +9668,9 @@
       "rtp": 95.8,
       "hitrate": 35.1
     },
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Free Spins con una función Special Expanding Symbol",

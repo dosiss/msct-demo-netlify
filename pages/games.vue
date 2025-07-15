@@ -43,6 +43,8 @@
             <button :class="{ active: gameFilterKey == 'halloween' }" class="buttn buttn-rounded buttn-sm buttn-halloween" @click="handleFilterChange('halloween')"><span>{{$t('Halloween')}}</span></button>
             <button :class="{ active: gameFilterKey == 'postap' }" class="buttn buttn-rounded buttn-sm buttn-postap" @click="handleFilterChange('postap')"><span>{{$t('Post Apocalyptic')}}</span></button>
             <button :class="{ active: gameFilterKey == 'space' }" class="buttn buttn-rounded buttn-sm buttn-space" @click="handleFilterChange('space')"><span>{{$t('Space')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'asia' }" class="buttn buttn-rounded buttn-sm buttn-asia" @click="handleFilterChange('asia')"><span>{{$t('Asia')}}</span></button>
+            <button :class="{ active: gameFilterKey == 'girls' }" class="buttn buttn-rounded buttn-sm buttn-girls" @click="handleFilterChange('girls')"><span>{{$t('Girls')}}</span></button>
           </div>
         </div>
       </div>
@@ -295,6 +297,16 @@ export default {
           Array.isArray(game.category) && game.category.includes("fruits")
         )
       },
+      asia() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("asia")
+        )
+      },
+      girls() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("girls")
+        )
+      },
       searchList() {
         return allGames.filter((game) => {
           return game.name.toLowerCase().includes(this.input.toLowerCase())
@@ -344,7 +356,7 @@ export default {
 
   methods: {
     handleFilterChange(filterKey) {
-      const allowedFilters = ['all', 'comingsoon', 'top', 'tictactoe', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'rockways', 'branded', 'custom', 'adventures', 'christmas', 'easter', 'fantasy', 'halloween', 'mythology', 'postap', 'space', 'egypt', 'fruits'];
+      const allowedFilters = ['all', 'comingsoon', 'top', 'tictactoe', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'rockways', 'branded', 'custom', 'adventures', 'christmas', 'easter', 'fantasy', 'halloween', 'mythology', 'postap', 'space', 'egypt', 'fruits', 'asia', 'girls'];
 
       if (!allowedFilters.includes(filterKey)) {
   //      console.warn('Invalid filter key:', filterKey);
@@ -526,6 +538,12 @@ export default {
           &.buttn-fruits:after {
             opacity: 1
           }
+          &.buttn-asia:after {
+            opacity: 1
+          }
+          &.buttn-girls:after {
+            opacity: 1
+          }
         }
       }
       &:before {
@@ -654,6 +672,28 @@ export default {
       &.buttn-fruits:after {
         opacity: 0;
         background: #27FF04;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
+      &.buttn-asia:before {
+        background: url("/images/img_filter-asia.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-asia:after {
+        opacity: 0;
+        background: #FFD230;
+        mix-blend-mode: screen;
+        filter: blur(6px);
+        background-size: contain;
+      }
+      &.buttn-girls:before {
+        background: url("/images/img_filter-girls.png") no-repeat;
+        background-size: contain;
+      }
+      &.buttn-girls:after {
+        opacity: 0;
+        background: #F98DC7;
         mix-blend-mode: screen;
         filter: blur(6px);
         background-size: contain;
