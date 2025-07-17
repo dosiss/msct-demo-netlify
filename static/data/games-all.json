@@ -431,6 +431,89 @@
     "rockways": false
   },
   {
+    "name": "Skyrocket",
+    "slug": "skyrocket",
+    "linkToDemo": "demo.mascot.games/run/skyrocket",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2025-07-24",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_skyrocket3.jpeg",
+    "heroUrl": "hero_skyrocket3.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_skyrocket.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_skyrocket3.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Multiplayer",
+        "descr": "This game allows multiple players to participate in the same round",
+        "imgUrl": "img-feat_skyrocket-0.jpg"
+      },
+      {
+        "name": "Live Leaderboard",
+        "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
+        "imgUrl": null
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization elements and avatars",
+        "imgUrl": null
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their liking using customization options",
+        "imgUrl": "img-feat_skyrocket-1.jpg"
+      },
+      {
+        "name": "Half-Cashout",
+        "descr": "Two plays in one — strategic risk management at its best",
+        "imgUrl": null
+      },
+      {
+        "name": "Advanced Social Features",
+        "descr": "See other players’ rockets in real-time and track who’s cashing out as the round unfolds",
+        "imgUrl": null
+      },
+      {
+        "name": "Infinite Space",
+        "descr": "Endless, randomly created space visuals make every moment feel fresh",
+        "imgUrl": null
+      },
+      {
+        "name": "Round Highlights",
+        "descr": "A quick summary of the most impressive players at the end of every round, reinforcing social presence and driving replayability through player recognition",
+        "imgUrl": null
+      }
+    ],
+    "meta": {
+      "title": "Skyrocket, a video game by TTT Games",
+      "descr": "Soar high with amazing features, x10000 and a brand new Half-Cashout feature."
+    },
+    "rockways": false
+  },
+  {
     "name": "Friar Tuck`s Inn",
     "slug": "friar-tucks-inn",
     "linkToDemo": "demo.mascot.games/run/friar_tucks_inn",
@@ -809,79 +892,6 @@
     "meta": {
       "title": "Rooster Run, a video game by TTT Games",
       "descr": "Experience a cosmic adventure in this step-by-step crash game and get a multiplier up to x10000!"
-    },
-    "rockways": false
-  },
-  {
-    "name": "Skyrocket",
-    "slug": "skyrocket",
-    "linkToDemo": " ",
-    "theme": "tictactoe",
-    "type": " ",
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "comingSoon": true,
-    "releaseDate": "2025-07-24",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_skyrocket3.jpeg",
-    "heroUrl": "hero_skyrocket3.jpg",
-    "blueButtn": true,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": " ",
-    "logoUrl": "logo_skyrocket.png",
-    "backUrl": " ",
-    "detailsImgUrl": "details_skyrocket3.png",
-    "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
-      "payways": null,
-      "html5": true,
-      "rtp": " ",
-      "hitrate": "  "
-    },
-    "features": [
-      {
-        "name": "Crash Game",
-        "descr": "The win multiplier continuously grows, and the player must cash out their bet before the rocket explodes",
-        "imgUrl": "img-feat_skyrocket-0.jpg"
-      },
-      {
-        "name": "Multiplayer",
-        "descr": "This game allows multiple players to participate in the same round",
-        "imgUrl": "img-feat_skyrocket-1.jpg"
-      },
-      {
-        "name": "Growing Multiplier",
-        "descr": "A dynamic multiplier that can reach up to x10 000",
-        "imgUrl": "img-feat_skyrocket-2.jpg"
-      },
-      {
-        "name": "Live Leaderboard",
-        "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
-        "imgUrl": "img-feat_skyrocket-3.jpg"
-      },
-      {
-        "name": "Ranks",
-        "descr": "By placing bets, players advance through ranks, unlocking new customization elements and avatars",
-        "imgUrl": "img-feat_skyrocket-4.jpg"
-      },
-      {
-        "name": "Customization",
-        "descr": "Players can personalize the game area and interface elements to their liking using customization options",
-        "imgUrl": "img-feat_skyrocket-5.jpg"
-      }
-    ],
-    "meta": {
-      "title": "Skyrocket, a video crash game by TTT Games",
-      "descr": " "
     },
     "rockways": false
   },
