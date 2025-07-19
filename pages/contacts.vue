@@ -230,6 +230,23 @@
              },
            })
            .then(response => {
+
+             if (typeof window !== 'undefined' && window.dataLayer) {
+               window.dataLayer.push({
+                 event: 'contact_form_submit',
+                 user_type: 'formSubmitter',
+                 form_name: 'contact_offer',
+                 user_category: this.usertype,
+                 page_location: window.location.href,
+                 page_referrer: document.referrer,
+                 traffic_source: this.getTrafficSource(),
+                 utm_source: this.getUrlParameter('utm_source'),
+                 utm_medium: this.getUrlParameter('utm_medium'),
+                 utm_campaign: this.getUrlParameter('utm_campaign'),
+                 original_referrer: sessionStorage.getItem('original_referrer') || document.referrer
+               });
+             }
+
                this.success = true
                this.errored =false
              })
@@ -245,6 +262,33 @@
            }
 
         },
+
+        // Add these helper methods here:
+        getUrlParameter(name) {
+          const urlParams = new URLSearchParams(window.location.search);
+          return urlParams.get(name) || '';
+        },
+
+        getTrafficSource() {
+          const referrer = document.referrer;
+          const currentDomain = window.location.hostname;
+
+          if (referrer && !referrer.includes(currentDomain)) {
+            try {
+              const domain = new URL(referrer).hostname;
+              return domain.replace('www.', '');
+            } catch (e) {
+              return 'External Site';
+            }
+          }
+
+          if (this.getUrlParameter('utm_source')) {
+            return 'UTM Campaign';
+          }
+
+          return referrer ? 'Internal' : 'Direct';
+        }
+
     // sendMessage() {
     //   let jsonrpcId = 0;
     //   this.loading = true;
