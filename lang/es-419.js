@@ -32,6 +32,7 @@ export default
     "View entire blog": "VER TODO EL BLOG",
     "Share your experience": "Comparte tu experiencia",
     "Subscribe to our newsletter!": "¡Suscríbete a nuestro boletín!",
+    "Subscribe to our newsletter": "Suscríbete a nuestro boletín",
     "Your email address": "Dirección de correo electrónico",
     "Subscribe": "Suscribirse",
     "Terms of use": "Términos y condiciones",

@@ -24,6 +24,13 @@
              <label for="user-message">{{$t('Message')}}</label>
              <textarea id="user-message" v-model="message" name="message"  class="form-item__field" rows="3" @focus="focusedMsg = true" @blur="focusedMsg = false"></textarea>
             </div>
+            <div class="form-item form-checkbox">
+              <input id="subscribe" v-model="subscribe" type="checkbox"  checked="" />
+              <label for="subscribe" class="checkbox-label">
+                <span class="checkbox-custom"></span>
+                {{$t('Subscribe to our newsletter')}}
+              </label>
+            </div>
             <div class="form-captcha__canvas">
               <div>
                 <canvas :ref="`captcha_${_uid}`" width="150" height="50"></canvas>
@@ -75,9 +82,11 @@
         email: "",
         phone: "",
         message: "",
+        usertype: "",
         ClientId: "GP6i6Jhflgf3CbuPYk2AcDssrN4W3h",
         captchacode: '',
-        captchaInput: ''
+        captchaInput: '',
+        subscribe: true,
       };
     },
 
@@ -151,59 +160,86 @@
         };
       },
 
-      sendMessage() {
-      if (this.captchaInput === this.captchaCode) {
+      async sendMessage() {
+        if (this.captchaInput.toLowerCase() !== this.captchaCode.toLowerCase()) {
+          alert('CAPTCHA is incorrect, please try again.');
+          this.generateCaptcha(); // Generate a new code
+          this.captchaInput = ''; // Clear the input
+          return;
+        }
+
         this.loading = true;
+        this.errored = false; // Reset error state on new submission
+
         const bodyFormData = new FormData();
         bodyFormData.append('name', this.name);
         bodyFormData.append('email', this.email);
         bodyFormData.append('phone', this.phone);
         bodyFormData.append('message', this.message);
+        bodyFormData.append('usertype', this.usertype);
 
         bodyFormData.append('template_id', 'template_t3rkppg');
 
         bodyFormData.append('service_id', 'service_tr5r6fw');
         bodyFormData.append('user_id', 'eE5PNrtIqLmZkFQ2r');
-           this.$axios
-             .post("https://api.emailjs.com/api/v1.0/email/send-form",
-             bodyFormData
-             , {
-               headers: {
-               "Content-Type": "multipart/form-data"
-             },
-           })
-           .then(response => {
 
-             if (typeof window !== 'undefined' && window.dataLayer) {
-               window.dataLayer.push({
-                 event: 'contact_form_submit',
-                 user_type: 'formSubmitter',
-                 form_name: 'contact_offer',
-                 user_category: this.usertype,
-                 page_location: window.location.href,
-                 page_referrer: document.referrer,
-                 traffic_source: this.getTrafficSource(),
-                 utm_source: this.getUrlParameter('utm_source'),
-                 utm_medium: this.getUrlParameter('utm_medium'),
-                 utm_campaign: this.getUrlParameter('utm_campaign'),
-                 original_referrer: sessionStorage.getItem('original_referrer') || document.referrer
-               });
-             }
+        try {
+          // 3. Send the email via EmailJS
+          await this.$axios.post("https://api.emailjs.com/api/v1.0/email/send-form", bodyFormData, {
+            headers: { "Content-Type": "multipart/form-data" },
+          });
 
-               this.success = true
-               this.errored =false
-             })
-             .catch(() => {
-               this.errored = true
-             })
-             .finally(() => {
-               this.loading = false
-             });
+          // 4. Handle successful email submission
+          this.success = true;
 
-           } else {
-              alert('CAPTCHA is incorrect, please try again.');
-           }
+          if (typeof window !== 'undefined' && window.dataLayer) {
+            window.dataLayer.push({
+              event: 'contact_form_submit',
+              user_type: 'formSubmitter',
+              form_name: 'contact_offer',
+              user_category: this.usertype,
+              page_location: window.location.href,
+              page_referrer: document.referrer,
+              traffic_source: this.getTrafficSource(),
+              utm_source: this.getUrlParameter('utm_source'),
+              utm_medium: this.getUrlParameter('utm_medium'),
+              utm_campaign: this.getUrlParameter('utm_campaign'),
+              original_referrer: sessionStorage.getItem('original_referrer') || document.referrer
+            });
+          }
 
+            if (this.subscribe) {
+              await this.sendToGoogleSheet();
+            }
+          } catch (error) {
+            // Handle errors from the EmailJS API call
+            this.errored = true;
+//            console.error("Error sending email:", error);
+          } finally {
+            // This block runs regardless of success or failure
+            this.loading = false;
+          }
+
+        },
+
+        async sendToGoogleSheet() {
+          const webhookData = {
+            name: this.name,
+            email: this.email,
+            phone: this.phone,
+            userType: this.usertype,
+            subscribedAt: new Date().toISOString(),
+          };
+
+          try {
+            const makeWebhookUrl = 'https://hook.eu2.make.com/l3p2nt59i1h0zusl5q3o62z4omsbl24m';
+
+            await this.$axios.post(makeWebhookUrl, webhookData);
+//            console.log('Successfully sent contact data to Make.com webhook.');
+
+          } catch (error) {
+//            console.error('Failed to send data to Make.com webhook:', error);
+          }
         },
 
         // Add these helper methods here:

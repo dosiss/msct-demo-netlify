@@ -31,6 +31,7 @@ export default {
   "View entire blog": "VER BLOG COMPLETO",
   "Share your experience": "Compartilhe sua experiência",
   "Subscribe to our newsletter!": "Assine a nossa newsletter!",
+  "Subscribe to our newsletter": "Assine a nossa newsletter",
   "Your email address": "Seu endereço de email",
   "Subscribe": "Assinar",
   "Terms of use": "Termos e condições",
