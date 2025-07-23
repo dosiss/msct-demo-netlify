@@ -1,21 +1,21 @@
 <template>
 <section id="ad-banner">
   <div class="ad-banner__wrap">
-    <a href="https://sigma.world/asia/" target="_blank" title="https://sigma.world/asia/">
+    <a href="https://sigma.world/europe/" target="_blank" title="https://sigma.world/europe/">
       <div class="ad-banner__inner">
-        <nuxt-img src="images/sigma-logo-new.png" class="ad-banner__logo-new"  alt="Sigma Asia" />
+        <nuxt-img src="images/sigma-logo-new.png" class="ad-banner__logo-new"  alt="Sigma Europe" />
         <div class="ad-banner__text">
           <div class="ad-banner__text-left">
             <div class="ad-banner__company">Mascot Gaming</div>
-            <div class="ad-banner__stand">Booth 2241</div>
+            <div class="ad-banner__stand">Booth 3237&nbsp;G</div>
           </div>
           <div class="ad-banner__text-right">
-            <div class="ad-banner__date">01 – 04 June 2025</div>
-            <div class="ad-banner__place">Manila, The&nbsp;Philippines</div>
+            <div class="ad-banner__date">3 – 6 Nov 2025</div>
+            <div class="ad-banner__place">Rome, Italy</div>
           </div>
         </div>
-        <nuxt-img src="images/img-adbanner-decor18-dsktop.png" sizes="sm:200px md:420px lg:450px" class="ad-banner__decor decor-african decor-mobile"  alt="" />
-        <nuxt-img src="images/img-adbanner-decor18-dsktop.png" sizes="sm:200px md:520px lg:450px" class="ad-banner__decor decor-african decor-dsktop"  alt="" />
+        <nuxt-img src="images/img-adbanner-decor22-dsktop.png" sizes="sm:250px md:420px lg:610px" class="ad-banner__decor decor-african decor-mobile"  alt="" />
+        <nuxt-img src="images/img-adbanner-decor22-dsktop.png" sizes="sm:200px md:610px lg:610px" class="ad-banner__decor decor-african decor-dsktop"  alt="" />
       </div>
     </a>
   </div>
@@ -124,11 +124,11 @@ export default {
               right: 0
             }
             @media (max-width: 650px) {
-              max-height: 200px
+              max-height: 250px
             }
             &.decor-african {
               &.decor-dsktop {
-                max-width: 450px;
+                max-width: 610px;
 
                 @media (max-width: 1840px) {
                   /* right: calc(50% - 834px); */
@@ -148,7 +148,7 @@ export default {
                 @media (max-width: 650px) {
                   bottom: 0;
                   max-height: fit-content;
-                  max-width: 200px
+                  max-width: 250px
                 }
               }
             }
