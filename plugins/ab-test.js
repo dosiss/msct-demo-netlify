@@ -37,10 +37,10 @@ export default class ABTestManager {
   trackEvent(testName, eventType, metadata = {}) {
     if (process.client && window.dataLayer) {
       const eventData = {
-        event: 'ab_test_click',
+        event: 'ab_test_event',
         ab_test_name: testName,
         ab_test_variant: this.tests[testName],
-        ab_test_event_type: eventType,
+        ab_test_event_type: 'click',
         ab_test_user_id: this.userId,
         ab_test_timestamp: Date.now(),
         ...metadata
@@ -49,7 +49,7 @@ export default class ABTestManager {
       window.dataLayer.push(eventData)
 
       // Also log for debugging
-      console.log('AB Test Event:', eventData)
+      console.log('Click Event:', eventData) // Debug log
     }
   }
 
