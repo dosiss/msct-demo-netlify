@@ -37,7 +37,7 @@ export default class ABTestManager {
   trackEvent(testName, eventType, metadata = {}) {
     if (process.client && window.dataLayer) {
       const eventData = {
-        event: 'ab_test_event',
+        event: 'ab_test_click',
         ab_test_name: testName,
         ab_test_variant: this.tests[testName],
         ab_test_event_type: eventType,
