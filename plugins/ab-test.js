@@ -3,6 +3,7 @@ export default class ABTestManager {
   constructor() {
     this.userId = this.getUserId()
     this.tests = {}
+    this.clickedTests = new Set() // Track which tests have been clicked
   }
 
   getUserId() {
@@ -34,38 +35,37 @@ export default class ABTestManager {
     return Math.abs(hash)
   }
 
-  trackEvent(testName, eventType, metadata = {}) {
-    if (process.client && window.dataLayer) {
-      const eventData = {
-        event: 'ab_test_event',
-        ab_test_name: testName,
-        ab_test_variant: this.tests[testName],
-        ab_test_event_type: 'click',
-        ab_test_user_id: this.userId,
-        ab_test_timestamp: Date.now(),
-        ...metadata
-      }
-
-      window.dataLayer.push(eventData)
-
-      // Also log for debugging
-      console.log('Click Event:', eventData) // Debug log
-    }
-  }
-
   runTest(testName, variants) {
     if (!process.client) return variants.variantA
 
+    // Only assign variant, don't track anything
     const variant = this.getVariant(testName)
     this.tests[testName] = variant
-
-    // Track assignment
-    this.trackEvent(testName, 'assignment')
 
     return variants[variant] || variants.variantA
   }
 
   trackClick(testName, metadata = {}) {
-    this.trackEvent(testName, 'click', metadata)
+    // Prevent duplicate clicks for the same test
+    if (this.clickedTests.has(testName)) {
+      console.log('Click already tracked for:', testName)
+      return
+    }
+
+    if (process.client && window.dataLayer) {
+      const eventData = {
+        event: 'ab_test_click',
+        test_name: testName,
+        variant: this.tests[testName],
+        user_id: this.userId,
+        timestamp: Date.now(),
+        ...metadata
+      }
+
+      window.dataLayer.push(eventData)
+      this.clickedTests.add(testName) // Mark as clicked
+
+      console.log('Click Event Tracked:', eventData)
+    }
   }
 }

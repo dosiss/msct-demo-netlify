@@ -186,7 +186,8 @@
         showDropdown: false,
         showModal: false,
         currentVariant: 'variantA',
-        testName: 'menu_item_test_2025'
+        testName: 'menu_item_test_2025',
+        testInitialized: false
       }
     },
 
@@ -204,7 +205,10 @@
       window.removeEventListener('scroll', this.handleScroll)
     },
     mounted() {
-      this.initializeTest()
+      // Initialize test only once
+      this.$nextTick(() => {
+        this.initializeTest()
+      })
     },
 
     methods: {
@@ -244,19 +248,22 @@
       },
 
       initializeTest() {
-        if (!this.$abTest) return
+        if (!this.$abTest || this.testInitialized) return
 
-        // Simplified - just get the variant name
         const variants = {
           variantA: 'variantA',
           variantB: 'variantB'
         }
 
-        // Run the test and store the variant name
+        // Only get variant assignment - no tracking
         this.currentVariant = this.$abTest.runTest(this.testName, variants)
+        this.testInitialized = true
+
+        console.log('Test initialized with variant:', this.currentVariant)
       },
 
       handleTestMenuClick(event) {
+        // Track click only - includes all metadata
         this.$abTest.trackClick(this.testName, {
           menu_text: this.$refs.testMenuItem?.textContent?.trim(),
           variant: this.currentVariant,
@@ -268,8 +275,6 @@
           }
         })
       }
-
-
     },
 
   }
