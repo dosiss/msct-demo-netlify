@@ -60,7 +60,7 @@ export default class ABTestManager {
     this.tests[testName] = variant
 
     // Track assignment
-    this.trackEvent(testName, 'assignment')
+//    this.trackEvent(testName, 'assignment')
 
     return variants[variant] || variants.variantA
   }
