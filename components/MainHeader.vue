@@ -2,7 +2,7 @@
   <div>
   <transition name="slide">
   <div v-if="showNav" id="main-header" :class="{'background-black': backgroundBlack == true}">
-    <div class="container-wide">
+    <div class="container-wide header-container">
       <div class="header__wrap">
         <NuxtLink :to="localePath('/')" class="logo-link">
           <svg id="mascot-logo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 30">
@@ -24,6 +24,29 @@
               <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
+              <li ref="testMenuItem" class="menu-item">
+                <!-- Variant A -->
+                <nuxt-link
+                  v-if="currentVariant === 'variantA'"
+                  to="/partners?type=promo"
+                  class="menu-link variant-a"
+                  @click.native="handleTestMenuClick"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 24"><path stroke="#DB001D" stroke-linejoin="round" stroke-width="2" d="M12.386 9V6a3 3 0 1 0-3 3h3Zm0 0V7a2 2 0 1 1 2 2h-2Zm-7 4v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7m-7-3v11m8-8v-3a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1v3h16Z"/></svg>
+                  <span>Casino Bonuses</span>
+                </nuxt-link>
+
+                <!-- Variant B -->
+                <nuxt-link
+                  v-else-if="currentVariant === 'variantB'"
+                  to="/partners?type=promo"
+                  class="menu-link variant-b"
+                  @click.native="handleTestMenuClick"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 24"><path stroke="#FFFFFF" stroke-linejoin="round" stroke-width="2" d="M12.386 9V6a3 3 0 1 0-3 3h3Zm0 0V7a2 2 0 1 1 2 2h-2Zm-7 4v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7m-7-3v11m8-8v-3a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1v3h16Z"/></svg>
+                  <span>Bonuses</span>
+                </nuxt-link>
+              </li>
             </ul>
           </nav>
           <div class="main-menu__right">
@@ -97,6 +120,29 @@
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
                   <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
+                  <!-- A/B Tested Menu Item -->
+                  <li ref="testMenuItem" class="menu-item">
+                    <!-- Variant A -->
+                    <nuxt-link
+                      v-if="currentVariant === 'variantA'"
+                      to="/partners?type=promo"
+                      class="menu-link variant-a"
+                      @click.native="handleTestMenuClick"
+                    >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 24"><path stroke="#DB001D" stroke-linejoin="round" stroke-width="2" d="M12.386 9V6a3 3 0 1 0-3 3h3Zm0 0V7a2 2 0 1 1 2 2h-2Zm-7 4v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7m-7-3v11m8-8v-3a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1v3h16Z"/></svg>                      <span>Casino Bonuses</span>
+                    </nuxt-link>
+
+                    <!-- Variant B -->
+                    <nuxt-link
+                      v-else-if="currentVariant === 'variantB'"
+                      to="/partners?type=promo"
+                      class="menu-link variant-b"
+                      @click.native="handleTestMenuClick"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 24"><path stroke="#FFFFFF" stroke-linejoin="round" stroke-width="2" d="M12.386 9V6a3 3 0 1 0-3 3h3Zm0 0V7a2 2 0 1 1 2 2h-2Zm-7 4v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7m-7-3v11m8-8v-3a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1v3h16Z"/></svg>
+                      <span>Bonuses</span>
+                    </nuxt-link>
+                  </li>
                   <li @click.capture="hideMobileMenu"><a href="https://client.mascot.games" target="_blank">{{ $t('Client Area') }}</a></li>
                 </ul>
               </nav>
@@ -138,7 +184,9 @@
         animateNav: false,
         startY: 0,
         showDropdown: false,
-        showModal: false
+        showModal: false,
+        currentVariant: 'variantA',
+        testName: 'menu_item_test_2025'
       }
     },
 
@@ -155,6 +203,10 @@
     beforeDestroy () {
       window.removeEventListener('scroll', this.handleScroll)
     },
+    mounted() {
+      this.initializeTest()
+    },
+
     methods: {
       handleScroll () {
 
@@ -189,7 +241,34 @@
       hideContactModal() {
         this.showModal = false;
         document.body.classList.remove("modal-open");
+      },
+
+      initializeTest() {
+        if (!this.$abTest) return
+
+        // Simplified - just get the variant name
+        const variants = {
+          variantA: 'variantA',
+          variantB: 'variantB'
+        }
+
+        // Run the test and store the variant name
+        this.currentVariant = this.$abTest.runTest(this.testName, variants)
+      },
+
+      handleTestMenuClick(event) {
+        this.$abTest.trackClick(this.testName, {
+          menu_text: this.$refs.testMenuItem?.textContent?.trim(),
+          variant: this.currentVariant,
+          page_url: this.$route.path,
+          destination_url: '/partners?type=promo',
+          click_coordinates: {
+            x: event.clientX,
+            y: event.clientY
+          }
+        })
       }
+
 
     },
 
@@ -254,24 +333,49 @@
         ul {
           display: flex;
           list-style: none;
+          align-items: center;
           li {
-            padding: 0 10px;
-            @media (max-width: 1480px) {
-              padding: 0 5px
+            a {
+              padding: 5px 10px;
+              @media (max-width: 1480px) {
+                padding: 0 5px
+              }
+            }
+          }
+          .menu-item {
+
+            .menu-link {
+              display: flex;
+              align-items: center;
+              svg {
+                width: 22px;
+                height: auto
+              }
+              span {
+                margin-left: 5px;
+              }
+              &.variant-b {
+                border: 2px solid #DB001D;
+                border-radius: 8px;
+              }
             }
           }
         }
         &.lang_es {
           ul {
             li {
-              padding: 0 5px
+              a {
+                padding: 5px
+              }
             }
           }
         }
         &.lang_pt {
           ul {
             li {
-              padding: 0 5px
+              a{
+                padding: 5px
+              }
             }
           }
         }
@@ -359,7 +463,7 @@
           text-align: center;
           margin: 40px 0 50px; /* 80px 0 50px */
           li {
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             &:first-child {
               background: url('../assets/img/mobile-menu-decor.png') no-repeat;
               background-size: contain;
@@ -378,6 +482,22 @@
             a {
               font-size: 1.4rem;
               font-weight: 700;
+              padding: 10px 12px;
+              &.menu-link {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-width: fit-content;
+                margin: 0 auto;
+                svg {
+                  width: 31px;
+                  height: auto
+                }
+                &.variant-b {
+                  border: 2px solid #DB001D;
+                  border-radius: 8px;
+                }
+              }
             }
           }
           .main-menu__locales {

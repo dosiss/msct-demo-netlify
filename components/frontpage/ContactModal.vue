@@ -258,7 +258,7 @@
             name: this.name,
             email: this.email,
             phone: this.phone,
-            userType: this.usertype,
+            usertype: this.usertype,
             subscribedAt: new Date().toISOString(),
           };
 
