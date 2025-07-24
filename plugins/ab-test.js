@@ -46,6 +46,10 @@ export default class ABTestManager {
   }
 
   trackClick(testName, metadata = {}) {
+    console.log('🎯 trackClick called with:', testName) // Add this line
+    console.log('Already clicked?', this.clickedTests.has(testName)) // Add this line
+    console.log('Process client?', process.client) // Add this line
+    console.log('DataLayer available?', !!(window.dataLayer)) // Add this line
     // Prevent duplicate clicks for the same test
     if (this.clickedTests.has(testName)) {
       console.log('Click already tracked for:', testName)
@@ -62,10 +66,13 @@ export default class ABTestManager {
         ...metadata
       }
 
+      console.log('📤 About to push to dataLayer:', eventData) // Add this line
       window.dataLayer.push(eventData)
       this.clickedTests.add(testName) // Mark as clicked
 
       console.log('Click Event Tracked:', eventData)
+    } else {
+      console.log('❌ Cannot track - client or dataLayer not available') // Add this line
     }
   }
 }

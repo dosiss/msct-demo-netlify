@@ -205,9 +205,14 @@
       window.removeEventListener('scroll', this.handleScroll)
     },
     mounted() {
-      // Initialize test only once
       this.$nextTick(() => {
         this.initializeTest()
+
+        // Debug dataLayer
+        console.log('DataLayer at mount:', window.dataLayer)
+        if (!window.dataLayer) {
+          console.error('❌ DataLayer not initialized!')
+        }
       })
     },
 
@@ -263,7 +268,11 @@
       },
 
       handleTestMenuClick(event) {
-        // Track click only - includes all metadata
+        console.log('🔥 Click handler fired!') // Add this line
+        console.log('Current variant:', this.currentVariant) // Add this line
+        console.log('Test name:', this.testName) // Add this line
+        console.log('$abTest available:', !!this.$abTest) // Add this line
+
         this.$abTest.trackClick(this.testName, {
           menu_text: this.$refs.testMenuItem?.textContent?.trim(),
           variant: this.currentVariant,
