@@ -28,7 +28,7 @@
                 <!-- Variant A -->
                 <nuxt-link
                   v-if="currentVariant === 'variantA'"
-                  to="/partners?type=promo"
+                  to="/bonuses"
                   class="menu-link variant-a"
                   @click.native.capture="handleTestMenuClick"
                 >
@@ -39,7 +39,7 @@
                 <!-- Variant B -->
                 <nuxt-link
                   v-else-if="currentVariant === 'variantB'"
-                  to="/partners?type=promo"
+                  to="/bonuses"
                   class="menu-link variant-b"
                   @click.native.capture="handleTestMenuClick"
                 >
@@ -125,7 +125,7 @@
                     <!-- Variant A -->
                     <nuxt-link
                       v-if="currentVariant === 'variantA'"
-                      to="/partners?type=promo"
+                      to="/bonuses"
                       class="menu-link variant-a"
                       @click.native.capture="handleTestMenuClick"
                     >
@@ -135,7 +135,7 @@
                     <!-- Variant B -->
                     <nuxt-link
                       v-else-if="currentVariant === 'variantB'"
-                      to="/partners?type=promo"
+                      to="/bonuses"
                       class="menu-link variant-b"
                       @click.native.capture="handleTestMenuClick"
                     >
@@ -209,9 +209,9 @@
         this.initializeTest()
 
         // Debug dataLayer
-        console.log('DataLayer at mount:', window.dataLayer)
+        // console.log('DataLayer at mount:', window.dataLayer)
         if (!window.dataLayer) {
-          console.error('❌ DataLayer not initialized!')
+          // console.error('❌ DataLayer not initialized!')
         }
       })
     },
@@ -264,20 +264,20 @@
         this.currentVariant = this.$abTest.runTest(this.testName, variants)
         this.testInitialized = true
 
-        console.log('Test initialized with variant:', this.currentVariant)
+        // console.log('Test initialized with variant:', this.currentVariant)
       },
 
       handleTestMenuClick(event) {
-        console.log('🔥 Click handler fired!') // Add this line
-        console.log('Current variant:', this.currentVariant) // Add this line
-        console.log('Test name:', this.testName) // Add this line
-        console.log('$abTest available:', !!this.$abTest) // Add this line
+        // console.log('🔥 Click handler fired!') // Add this line
+        // console.log('Current variant:', this.currentVariant) // Add this line
+        // console.log('Test name:', this.testName) // Add this line
+        // console.log('$abTest available:', !!this.$abTest) // Add this line
 
         this.$abTest.trackClick(this.testName, {
           menu_text: this.$refs.testMenuItem?.textContent?.trim(),
           variant: this.currentVariant,
           page_url: this.$route.path,
-//          destination_url: '/partners?type=promo',
+          destination_url: '/bonuses',
           click_coordinates: {
             x: event.clientX,
             y: event.clientY

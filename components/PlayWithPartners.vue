@@ -2,7 +2,7 @@
   <div v-if="hasPromoPartners" class="playpartners__wrap container">
     <div class="partners__head">
       <h2 class="partners__head-title game-subtitle">{{$t('Check out our Partners` offers')}}</h2>
-      <nuxt-link :to="localePath('/partners?type=promo')" class="inner-link link-yellow link-desktop">
+      <nuxt-link :to="localePath('/bonuses')" class="inner-link link-yellow link-desktop">
         <span>{{$t('Other casino offers')}}</span>
         <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-    <nuxt-link :to="localePath('/partners?type=promo')" class="inner-link link-yellow link-mobile">
+    <nuxt-link :to="localePath('/bonuses')" class="inner-link link-yellow link-mobile">
       <span>{{ $device.isMobile ? $t('Other casino offers') : $t('Other casino offers') }}</span>
       <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>

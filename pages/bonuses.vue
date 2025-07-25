@@ -5,36 +5,17 @@
     <div>
 
       <div class="container-outer">
-        <div class="container container-narrow">
+        <div class="container">
             <div class="partners__head">
-              <h1 class="partners__head-title">{{$t('Partners')}}</h1>
-              <a class="buttn buttn-primary buttn-m" @click="showModal = true">{{$t('Become a partner')}}</a>
+              <h1 class="partners__head-title">{{ pageTitle }}</h1>
             </div>
         </div>
-        <div class="container container-filter container-narrow">
-          <div class="partners-filter__outer">
-            <div class="partners-filter__wrap">
-              <button :class="{ active: partnerFilterKey == 'all' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('all')">{{$t('All')}}</button>
-              <button :class="{ active: partnerFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('top')">{{$t('Top')}}</button>
-              <button :class="{ active: partnerFilterKey == 'media' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('media')">{{$t('Media')}}</button>
-              <button :class="{ active: partnerFilterKey == 'casino' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('casino')">{{$t('Casinos')}}</button>
-              <button :class="{ active: partnerFilterKey == 'platform' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('platform')">{{$t('Platforms')}}</button>
-              <!-- <button :class="{ active: partnerFilterKey == 'streamers' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('streamers')">{{$t('Streamers')}}</button> -->
-              <!-- <button :class="{ active: partnerFilterKey == 'promo' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('promo')">{{$t('Promotions')}}</button> -->
-            </div>
-          </div>
-        </div>
-
-
       </div>
       <div class="container ">
         <div class="all-partners">
             <div class="all-partners__content">
-              <div v-for="(partner, idx) in partnersFilter" :key="idx" :class="{ promopartner: partnerFilterKey == 'promo' }" class="partner__wrap">
-                <a v-if="partnerFilterKey !== 'promo'" :href="`${partner.url}`" target="_blank" :rel="(`${partner.type}` == 'media') ? 'dofollow' : 'nofollow noreferrer'">
-                    <v-lazy-image :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" loading="lazy" />
-                </a>
-                <div v-else class="partners-card">
+              <div v-for="(partner, idx) in promo" :key="idx" class="promopartner partner__wrap">
+                <div class="partners-card">
                   <div class="partner-logo"><img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" loading="lazy" /></div>
                   <div class="partner-offer">{{partner.promoText}}</div>
                   <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm" target="_blank">{{ `${partner.name}` == 'Gama' ? "Claim bonus" : $t('More info') }}</a>
@@ -54,7 +35,7 @@
 </template>
 
 <script>
-import VLazyImage from "v-lazy-image/v2";
+
 
 import allPartners from '../static/data/partners.json';
 import ContactModalPartner from '~/components/frontpage/ContactModalPartner'
@@ -64,7 +45,6 @@ import ContactModalPartner from '~/components/frontpage/ContactModalPartner'
 export default {
 
   components: {
-    VLazyImage,
     ContactModalPartner
   },
 
@@ -74,9 +54,8 @@ export default {
     return {
       title: '',
       description: '',
-      partnersList: allPartners,
-      partnerFilterKey: 'all',
-      showModal: false
+      showModal: false,
+      pageTitle: ' '
 
 
     }
@@ -98,104 +77,25 @@ export default {
   },
 
   computed: {
-
-      partnersFilter() {
-    	  return this[this.partnerFilterKey]
-     },
-      all() {
-        return allPartners.filter((partner) => partner.promo === false && partner.type !== "promopartner")
-      },
-      top() {
-        return allPartners.filter((partner) => partner.top === true)
-      },
-      media() {
-        return allPartners.filter((partner) => partner.type === "media")
-      },
-      casino() {
-        return allPartners.filter((partner) => partner.casino === true)
-      },
-      platform() {
-        return allPartners.filter((partner) => partner.platform === true)
-      },
-      // streamers() {
-      //   return allPartners.filter((partner) => partner.type === "streamers")
-      // },
       promo() {
         return allPartners.filter((partner) => partner.promo === true && partner.type === "promopartner")
       },
   },
-  watch: {
-    '$route.query': {
-      handler(newQuery) {
-        this.initializeFilterFromQuery();
-      },
-      deep: true
-    }
-  },
   mounted() {
-    this.title = this.$t('Partners')
+    this.title = this.$t('Bonuses')
     this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
 
-    this.initializeFilterFromQuery();
-        // if(this.$route.query.type === "trafficgames") {
-        //   this.partnerFilterKey = "traffic"
-        // };
-        // if(this.$route.query.type === "profitgames") {
-        //   this.partnerFilterKey = "profit"
-        // };
-        // if(this.$route.query.type === "promo") {
-        //   this.partnerFilterKey = "promo"
-        // };
-        // if(this.$route.query.type === "top") {
-        //   this.partnerFilterKey = "top"
-        // };
-        // if(this.$route.query.type === "media") {
-        //   this.partnerFilterKey = "media"
-        // };
-        // if(this.$route.query.type === "casino") {
-        //   this.partnerFilterKey = "casino"
-        // };
-        // if(this.$route.query.type === "platform") {
-        //   this.partnerFilterKey = "platform"
-        // };
-        // if(this.$route.query.type === "streamers") {
-        //   this.partnerFilterKey = "streamers"
-        // };
+    const menuVariant = sessionStorage.getItem('ab_test_menu_item_test_2025_variant');
+    // console.log('selected variant:', menuVariant);
+    if (menuVariant && menuVariant === 'variantA') {
+      this.pageTitle = this.$t('Casino Bonuses');
+    } else {
+      this.pageTitle = this.$t('Bonuses');
+    }
 
   },
   methods: {
-    handleFilterChange(filterKey) {
-      const allowedFilters = ['all', 'top', 'media', 'casino', 'platform', 'streamers', 'promo'];
 
-      if (!allowedFilters.includes(filterKey)) {
-  //      console.warn('Invalid filter key:', filterKey);
-        return;
-      }
-
-      const sanitizedFilterKey = encodeURIComponent(filterKey);
-
-      this.partnerFilterKey = sanitizedFilterKey;
-
-      this.$nextTick(async () => {
-        try {
-          if (sanitizedFilterKey === 'all') {
-            await this.$router.push({ query: {} });
-          } else {
-            await this.$router.push({ query: { type: sanitizedFilterKey } });
-          }
-        } catch (error) {
-  //        console.error('Error while updating the router:', error);
-        }
-      });
-    },
-    initializeFilterFromQuery() {
-      const queryType = this.$route.query.type;
-      if (queryType && ['top', 'media', 'casino', 'platform', 'streamers', 'promo'].includes(queryType)) {
-        this.partnerFilterKey = queryType;
-      } else {
-        this.partnerFilterKey = 'all';
-      }
-    }
   }
 
 }

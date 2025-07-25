@@ -409,7 +409,7 @@
             display: flex;
             li {
               a {
-                margin-right: 15px
+                margin-right: 8px
               }
             }
           }
@@ -626,7 +626,10 @@
         display: flex;
         align-items: center;
         @media (max-width: 650px) {
-          justify-content: space-between;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 5px;
+          margin-bottom: 10px
         }
       }
       .footer-bottom__link {
