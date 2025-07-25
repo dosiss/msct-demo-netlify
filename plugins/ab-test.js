@@ -39,19 +39,49 @@ export default class ABTestManager {
     if (!process.client) return variants.variantA
 
     // Only assign variant, don't track anything
-    const variant = this.getVariant(testName)
+  //  const variant = this.getVariant(testName)
+  // Check if we already have a stored variant for this test
+    const storedVariant = sessionStorage.getItem(`ab_test_${testName}_variant`)
+
+    let variant
+    if (storedVariant && variants[storedVariant]) {
+      // Use stored variant
+      variant = storedVariant
+    } else {
+      // Assign new variant and store it
+      variant = this.getVariant(testName)
+      sessionStorage.setItem(`ab_test_${testName}_variant`, variant)
+    }
+
     this.tests[testName] = variant
+
+    console.log(`Test ${testName} assigned variant: ${variant}`) // Debug log
 
     return variants[variant] || variants.variantA
   }
 
   trackClick(testName, metadata = {}) {
     console.log('🎯 trackClick called with:', testName) // Add this line
+    console.log('Variant from this.tests:', this.tests[testName]) // Debug log
     console.log('Already clicked?', this.clickedTests.has(testName)) // Add this line
     console.log('Process client?', process.client) // Add this line
     console.log('DataLayer available?', !!(window.dataLayer)) // Add this line
+
+    // If variant is missing from memory, try to get it from storage
+    if (!this.tests[testName]) {
+      const storedVariant = sessionStorage.getItem(`ab_test_${testName}_variant`)
+      if (storedVariant) {
+        this.tests[testName] = storedVariant
+        console.log('Restored variant from storage:', storedVariant)
+      } else {
+        console.error('❌ No variant found for test:', testName)
+        return
+      }
+    }
+
     // Prevent duplicate clicks for the same test
-    if (this.clickedTests.has(testName)) {
+    const clickKey = `ab_test_${testName}_clicked`
+    if (sessionStorage.getItem(clickKey)) {
       console.log('Click already tracked for:', testName)
       return
     }
@@ -68,7 +98,9 @@ export default class ABTestManager {
 
       console.log('📤 About to push to dataLayer:', eventData) // Add this line
       window.dataLayer.push(eventData)
-      this.clickedTests.add(testName) // Mark as clicked
+//      this.clickedTests.add(testName) // Mark as clicked
+      sessionStorage.setItem(clickKey, 'true') // Mark as clicked
+
 
       console.log('Click Event Tracked:', eventData)
     } else {

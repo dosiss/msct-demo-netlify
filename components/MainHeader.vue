@@ -30,7 +30,7 @@
                   v-if="currentVariant === 'variantA'"
                   to="/partners?type=promo"
                   class="menu-link variant-a"
-                  @click.native="handleTestMenuClick"
+                  @click.native.capture="handleTestMenuClick"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 24"><path stroke="#DB001D" stroke-linejoin="round" stroke-width="2" d="M12.386 9V6a3 3 0 1 0-3 3h3Zm0 0V7a2 2 0 1 1 2 2h-2Zm-7 4v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7m-7-3v11m8-8v-3a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1v3h16Z"/></svg>
                   <span>Casino Bonuses</span>
@@ -41,7 +41,7 @@
                   v-else-if="currentVariant === 'variantB'"
                   to="/partners?type=promo"
                   class="menu-link variant-b"
-                  @click.native="handleTestMenuClick"
+                  @click.native.capture="handleTestMenuClick"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 24"><path stroke="#FFFFFF" stroke-linejoin="round" stroke-width="2" d="M12.386 9V6a3 3 0 1 0-3 3h3Zm0 0V7a2 2 0 1 1 2 2h-2Zm-7 4v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7m-7-3v11m8-8v-3a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1v3h16Z"/></svg>
                   <span>Bonuses</span>
@@ -127,7 +127,7 @@
                       v-if="currentVariant === 'variantA'"
                       to="/partners?type=promo"
                       class="menu-link variant-a"
-                      @click.native="handleTestMenuClick"
+                      @click.native.capture="handleTestMenuClick"
                     >
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 24"><path stroke="#DB001D" stroke-linejoin="round" stroke-width="2" d="M12.386 9V6a3 3 0 1 0-3 3h3Zm0 0V7a2 2 0 1 1 2 2h-2Zm-7 4v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7m-7-3v11m8-8v-3a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1v3h16Z"/></svg>                      <span>Casino Bonuses</span>
                     </nuxt-link>
@@ -137,7 +137,7 @@
                       v-else-if="currentVariant === 'variantB'"
                       to="/partners?type=promo"
                       class="menu-link variant-b"
-                      @click.native="handleTestMenuClick"
+                      @click.native.capture="handleTestMenuClick"
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 24"><path stroke="#FFFFFF" stroke-linejoin="round" stroke-width="2" d="M12.386 9V6a3 3 0 1 0-3 3h3Zm0 0V7a2 2 0 1 1 2 2h-2Zm-7 4v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7m-7-3v11m8-8v-3a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1v3h16Z"/></svg>
                       <span>Bonuses</span>
@@ -277,7 +277,7 @@
           menu_text: this.$refs.testMenuItem?.textContent?.trim(),
           variant: this.currentVariant,
           page_url: this.$route.path,
-          destination_url: '/partners?type=promo',
+//          destination_url: '/partners?type=promo',
           click_coordinates: {
             x: event.clientX,
             y: event.clientY
