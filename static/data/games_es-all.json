@@ -379,13 +379,13 @@
   {
     "name": "Plinball Machine",
     "slug": "plinball-machine",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/plinball_machine",
     "theme": " ",
-    "type": null,
+    "type": "traffic",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-08-14",
     "featured": false,
     "topGame": false,
@@ -404,7 +404,7 @@
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "Med",
       "paylines": null,
       "payways": null,
       "html5": true,
@@ -426,7 +426,7 @@
     ],
     "meta": {
       "title": "Plinball Machine, a video game by Mascot Gaming",
-      "descr": " "
+      "descr": "Lights, luck, and lavish wins await! Enjoy multiple balls launch and Free Balls feature."
     },
     "rockways": false
   },
