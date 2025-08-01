@@ -1,13 +1,24 @@
 [
   {
+  "name": "Bonanzagame24",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Deposit now and grab up to 160 Low Wager Free Spins \nOngoing weekend promo",
+  "url": "https://bit.ly/weekend-bonus",
+  "logoUrl": "partner_bonanzagame_tournament2.jpg"
+  },
+  {
   "name": "21bit",
   "type": "promopartner",
   "top": false,
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Deposit minimum €20 \nto get Free Spins \nUntil 31.07",
-  "url": "https://bit.ly/21-bit",
+  "promoText": "Deposit minimum €20 \nand get Free Spins now! \nUntil 31.08",
+  "url": "https://bit.ly/21bit-summer",
   "logoUrl": "partner_21bit-tournament.jpg"
   },
   {
@@ -17,8 +28,8 @@
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Deposit minimum €20 \nto get Free Spins \nUntil 31.07",
-  "url": "https://bit.ly/wild-fortune",
+  "promoText": "Deposit minimum €20 \nand get Free Spins now! \nUntil 31.08",
+  "url": "https://bit.ly/wildfotrune-summer",
   "logoUrl": "partner_wildfortune-tournament.jpg"
   },
   {
@@ -28,8 +39,8 @@
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Deposit minimum €20 \nto get Free Spins \nUntil 31.07",
-  "url": "https://bit.ly/casino-rocket",
+  "promoText": "Deposit minimum €20 \nand get Free Spins now! \nUntil 31.08",
+  "url": "https://bit.ly/rocket-summer",
   "logoUrl": "partner_casinorocket-tournament.jpg"
   },
   {
@@ -39,20 +50,9 @@
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Deposit minimum €20 \nto get Free Spins \nUntil 31.07",
-  "url": "https://bit.ly/spin-samurai",
+  "promoText": "Deposit minimum €20 \nand get Free Spins now! \nUntil 31.08",
+  "url": "https://bit.ly/summer-spins",
   "logoUrl": "partner_spinsamurai-tournament.jpg"
-  },
-  {
-  "name": "Jackpotter Tournament",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Deposit now and get 100 extra Free Spins with every deposit \nGame: Fruity x125 \nJune 23 - July 31",
-  "url": "https://bit.ly/summer-spin-fiesta",
-  "logoUrl": "partner_jackpotter-tournament.jpg"
   },
   {
     "name": "PariMatch",
@@ -2429,5 +2429,27 @@
     "promoText": null,
     "url": "https://www.nuovicasino.it/software/mascot-gaming/",
     "logoUrl": "partner_nuovicasino.png"
+  },
+  {
+    "name": "Gamblizard CA",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://gamblizard.ca/slots-provider/mascot-gaming/",
+    "logoUrl": "partner_gamblizardca.png"
+  },
+  {
+    "name": "Vistagamble",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://vistagamble.com/game-provider/mascot-gaming",
+    "logoUrl": "partner_vistagamble.png"
   }
 ]
