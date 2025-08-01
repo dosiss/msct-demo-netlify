@@ -17,7 +17,7 @@
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Deposit minimum €20 \nand get Free Spins now! \nUntil 31.08",
+  "promoText": "Deposit minimum €20 \nand get up to 550 Free Spins now! \nUntil 31.08",
   "url": "https://bit.ly/21bit-summer",
   "logoUrl": "partner_21bit-tournament.jpg"
   },
@@ -28,7 +28,7 @@
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Deposit minimum €20 \nand get Free Spins now! \nUntil 31.08",
+  "promoText": "Deposit minimum €20 \nand get up to 550 Free Spins now! \nUntil 31.08",
   "url": "https://bit.ly/wildfotrune-summer",
   "logoUrl": "partner_wildfortune-tournament.jpg"
   },
@@ -39,7 +39,7 @@
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Deposit minimum €20 \nand get Free Spins now! \nUntil 31.08",
+  "promoText": "Deposit minimum €20 \nand get up to 550 Free Spins now! \nUntil 31.08",
   "url": "https://bit.ly/rocket-summer",
   "logoUrl": "partner_casinorocket-tournament.jpg"
   },
@@ -50,7 +50,7 @@
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Deposit minimum €20 \nand get Free Spins now! \nUntil 31.08",
+  "promoText": "Deposit minimum €20 \nand get up to 550 Free Spins now! \nUntil 31.08",
   "url": "https://bit.ly/summer-spins",
   "logoUrl": "partner_spinsamurai-tournament.jpg"
   },
@@ -2451,5 +2451,16 @@
     "promoText": null,
     "url": "https://vistagamble.com/game-provider/mascot-gaming",
     "logoUrl": "partner_vistagamble.png"
+  },
+  {
+    "name": "OCR",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.onlinecasinoreports.com/software/mascot-gaming.php",
+    "logoUrl": "partners_ocr.png"
   }
 ]
