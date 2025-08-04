@@ -110,6 +110,17 @@
     "logoUrl": "partner_softswiss.png"
   },
   {
+    "name": "Jackpotter",
+    "type": "partner",
+    "top": true,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://jackpotter.com/casino/providers/mascot",
+    "logoUrl": "partner_jackpotter.png"
+  },
+  {
     "name": "1X BET",
     "type": "partner",
     "top": true,
@@ -757,6 +768,17 @@
     "promoText": null,
     "url": "https://blokotech.com/",
     "logoUrl": "partner_blokotech.png"
+  },
+  {
+    "name": "1 stake",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": true,
+    "promo": false,
+    "promoText": null,
+    "url": "https://1stake.app/",
+    "logoUrl": "partner_1stake.png"
   },
   {
     "name": "7bit",
