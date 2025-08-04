@@ -128,7 +128,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               { src: '~/plugins/lightgallery', mode: 'client' },
               { src: '~/plugins/lgvideo', mode: 'client' },
               { src: '~/plugins/vue-cookies-consent.js', mode:'client'},
-              { src: '~/plugins/ab-test-client.js', mode:'client'},              
+              { src: '~/plugins/ab-test-client.js', mode:'client'},
 //              { src: '~/plugins/gsap.js', mode: 'client' }
 
 
@@ -195,8 +195,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     ],
     langDir: 'lang/',
     defaultLocale: 'en',
+    fallbackLocale: 'en',
     lazy: true,
     silentTranslationWarn: true,
+    silentFallbackWarn: true,
 
     differentDomains: false,
     strategy: 'prefix_except_default',

@@ -90,7 +90,7 @@ export default {
     if (menuVariant && menuVariant === 'variantA') {
       this.pageTitle = this.$t('Casino Bonuses');
     } else {
-      this.pageTitle = this.$t('Bonuses');
+      this.pageTitle = this.$t('Player Bonuses');
     }
 
   },
@@ -280,7 +280,8 @@ export default {
               align-items: center;
               img {
                 width: 100%;
-                border-radius: 8px
+                border-radius: 8px;
+                max-height: 126px
               }
             }
             .partner-offer {

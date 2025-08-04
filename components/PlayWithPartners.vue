@@ -150,7 +150,8 @@
         align-items: center;
         img {
           width: 100%;
-          border-radius: 8px
+          border-radius: 8px;
+          max-height: 126px
         }
       }
       .partner-offer {
