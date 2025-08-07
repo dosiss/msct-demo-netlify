@@ -315,13 +315,13 @@
   {
     "name": "Lucky Fruity Coin",
     "slug": "lucky-fruity-coin",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/lucky_fruity_coin",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-08-20",
     "featured": false,
     "topGame": false,
@@ -338,20 +338,20 @@
     "backUrl": "back_fruitycoin.jpg",
     "detailsImgUrl": "details_fruitycoin.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 15,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": ["fruits", "asia"],
     "features": [
       {
         "name": "Bonus Game",
-        "descr": "All Bonus symbols become sticky and reset the free spins counter",
+        "descr": "All Bonus symbols become sticky and reset the Free Spins counter",
         "imgUrl": "img-feat_fruitycoin-0.jpg"
       },
       {
@@ -372,7 +372,7 @@
     ],
     "meta": {
       "title": "Lucky Fruity Coin, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Dive into the fruit explosion with Bonus Game, Risk Game, and x5000"
     },
     "rockways": false
   },
@@ -1131,27 +1131,27 @@
       {
         "name": "Risk & Buy feature: Risk",
         "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
-        "imgUrl": "img-feat_tessa-0.jpg"
+        "imgUrl": "img-feat_tessa-02.jpg"
       },
       {
         "name": "Risk & Buy feature: Buy",
         "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
-        "imgUrl": "img-feat_tessa-1.jpg"
+        "imgUrl": "img-feat_tessa-12.jpg"
       },
       {
         "name": "Special Expanding Symbols",
         "descr": "During each spin, Special Expanding Symbols are randomly selected and pay out even on non-adjacent reels",
-        "imgUrl": "img-feat_tessa-2.jpg"
+        "imgUrl": "img-feat_tessa-22.jpg"
       },
       {
         "name": "Mystery Symbol",
         "descr": "The Mystery Symbol acts as both a Wild and a Scatter symbol",
-        "imgUrl": "img-feat_tessa-3.jpg"
+        "imgUrl": "img-feat_tessa-32.jpg"
       },
       {
         "name": "Free Spins",
         "descr": "During Free Spins, there are 3 Special Expanding Symbols that appear on each spin",
-        "imgUrl": "img-feat_tessa-4.jpg"
+        "imgUrl": "img-feat_tessa-42.jpg"
       }
     ],
     "meta": {
