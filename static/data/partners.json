@@ -1,5 +1,16 @@
 [
   {
+  "name": "Pelican casino",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "TOURNAMENT \nPRIZE POOL: 10000 FREE SPINS \nNUMBER OF PRIZES: 50 \n6.08.-16.08",
+  "url": "https://bit.ly/pelican-casino-tournament",
+  "logoUrl": "partner_pelican_tournament.svg"
+  },
+  {
   "name": "Bonanzagame24",
   "type": "promopartner",
   "top": false,
