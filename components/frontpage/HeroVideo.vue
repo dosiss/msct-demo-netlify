@@ -32,8 +32,7 @@
         <div class="video-background">
           <div class="vid">
             <video id="bgvideo" playsinline autoplay muted loop poster="/images/head_3Q2025_video.jpg"  width="1920" height="1080">
-              <source id="video-src" src="https://minio-api.mascot.games/mascot-videos/headvideo_mix5_2.mp4"  type="video/mp4">
-              <!-- <source id="video-src" src="https://minio-api.mascot.games/mascot-videos/website_header_3Q25-3.mp4"  type="video/mp4"> -->
+              <source id="video-src" src="https://minio-api.mascot.games/mascot-videos/website_header_3Q25-4.mp4"  type="video/mp4">
               <!-- <source id="video-src" src="https://s03.devdog.space/headvideo_mix5_2.mp4"  type="video/mp4"> -->
             </video>
           </div>
