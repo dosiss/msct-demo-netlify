@@ -461,6 +461,16 @@
         .form-group {
           .form-item {
             flex: 0 1 47%;
+            max-width: 250px;
+            @media (max-width: 650px) {
+              max-width: 100%
+            }
+            &:nth-child(2) {
+              // margin-left: 20px;
+              @media (max-width: 650px) {
+                margin-left: 0
+              }
+            }
           }
         }
         .form-item {

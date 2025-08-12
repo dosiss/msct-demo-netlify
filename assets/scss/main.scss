@@ -422,6 +422,7 @@ p {
     }
     .form-item {
       flex: 0 1 47%;
+      max-width: 250px;
       @media (max-width: 650px) {
         max-width: 100%
       }
