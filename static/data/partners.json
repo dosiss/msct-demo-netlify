@@ -18,7 +18,7 @@
   "platform": false,
   "promo": true,
   "promoText": "Deposit now and grab up to 160 Low Wager Free Spins \nOngoing weekend promo",
-  "url": "https://bit.ly/weekend-bonus",
+  "url": "https://bit.ly/bonanza-weekend-15",
   "logoUrl": "partner_bonanzagame_tournament2.jpg"
   },
   {
@@ -790,6 +790,17 @@
     "promoText": null,
     "url": "https://1stake.app/",
     "logoUrl": "partner_1stake.png"
+  },
+  {
+    "name": "GMG",
+    "type": "partner",
+    "top": false,
+    "casino": false,
+    "platform": true,
+    "promo": false,
+    "promoText": null,
+    "url": "https://goldenmatrix.com/",
+    "logoUrl": "partner_gmg.png"
   },
   {
     "name": "7bit",
