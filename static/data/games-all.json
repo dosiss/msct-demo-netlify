@@ -694,6 +694,13 @@
         "imgUrl": "img-feat_anksunamundlx-4.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Return of the Golden Queen: Anksunamun Deluxe Review",
+        "link": "https://mascot.games/blog/return-of-the-golden-queen-anksunamun-deluxe-review",
+        "image": "img_blog_anksunamundlx-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Anksunamun Deluxe, a video slot game by Mascot Gaming",
       "descr": "The fierce Queen returns with Free Spins, Gold Wild Symbols and Risk'n'Buy!"
@@ -751,6 +758,13 @@
         "name": "Risk Game",
         "descr": "Risk your winnings in the Risk Game for a chance to increase them with a win multiplier",
         "imgUrl": "img-feat_fruity125-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "A Royal Garden of Rewards: Fruity x125 Review",
+        "link": "https://mascot.games/blog/a-royal-garden-of-rewards-fruity-x125-review",
+        "image": "img_blog_fruity125-main.jpg"
       }
     ],
     "meta": {
@@ -951,6 +965,13 @@
         "name": "Risk & Buy feature: Buy",
         "descr": "Purchase Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
         "imgUrl": "img-feat_wasteland-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Fortune Among the Ruins: Wasteland Riches Review",
+        "link": "https://mascot.games/blog/fortune-among-the-ruins-wasteland-riches-review",
+        "image": "img_blog_wasteland-main.jpg"
       }
     ],
     "meta": {
