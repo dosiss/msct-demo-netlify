@@ -244,15 +244,84 @@
     "rockways": false
   },
   {
-    "name": "Princess and Dwarfs Deluxe",
-    "slug": "princess-and-dwarfs-deluxe",
-    "linkToDemo": " ",
+    "name": "1Win Zeus the Thunderer Deluxe",
+    "slug": "1win-zeus-the-thunderer-deluxe",
+    "linkToDemo": "demo.mascot.games/run/1win_zeus_the_thunderer_deluxe",
     "theme": "video slot",
-    "type": null,
+    "type": "traffic",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2025-08-26",
+    "featured": false,
+    "topGame": false,
+    "branded": true,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_1winzeusdeluxe.jpeg",
+    "heroUrl": "hero_1winzeusdeluxe.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_1winzeusdeluxe.jpg",
+    "logoUrl": "logo_1winzeusdeluxe.png",
+    "backUrl": "back_1winzeusdeluxe.jpg",
+    "detailsImgUrl": "details_1winzeusdeluxe.png",
+    "stats": {
+      "reels": 5,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": 20,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.0,
+      "hitrate": 53.2
+    },
+    "category": [ "mythology" ],
+    "features": [
+      {
+        "name": "Risk & Buy Feature: Risk",
+        "descr": "Risk your winnings by playing the Risk game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_1winzeusdeluxe-0.jpg"
+      },
+      {
+        "name": "Risk & Buy Feature: Buy",
+        "descr": "Buy a certain number of Free Spins with the proposed conditions and at the suggested price. There is a special Buy offer after each spin",
+        "imgUrl": "img-feat_1winzeusdeluxe-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "In the main game only, a winning combination of 3 or more Olympian symbols gives 1 of 3 types of Free Spins",
+        "imgUrl": "img-feat_1winzeusdeluxe-2.jpg"
+      },
+      {
+        "name": "Additional Free Spins",
+        "descr": "During Free Spins, each Scatter Symbol grants an additional Free Spin",
+        "imgUrl": "img-feat_1winzeusdeluxe-3.jpg"
+      },
+      {
+        "name": "Sticky Symbols",
+        "descr": "In all types of Free Spins, the symbols of the main character become sticky",
+        "imgUrl": "img-feat_1winzeusdeluxe-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "1Win Zeus the Thunderer Deluxe: video slot game by Mascot Gaming",
+      "descr": " "
+    }
+  },
+  {
+    "name": "Princess and Dwarfs Deluxe",
+    "slug": "princess-and-dwarfs-deluxe",
+    "linkToDemo": "demo.mascot.games/run/princess_and_dwarfs_deluxe",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": false,
     "releaseDate": "2025-08-28",
     "featured": false,
     "topGame": false,
@@ -269,16 +338,16 @@
     "backUrl": "back_dwarfsdlx.jpg",
     "detailsImgUrl": "details_dwarfsdlx.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
+      "reels": 6,
+      "rows": 6,
+      "volatility": "High",
       "paylines": null,
-      "payways": null,
+      "payways": "64 - 46656",
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": [ "fantasy" ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -291,8 +360,8 @@
         "imgUrl": "img-feat_dwarfsdlx-1.jpg"
       },
       {
-        "name": "Rockfall Feature",
-        "descr": "All winning symbols disappear from the screen and are replaced with new ones",
+        "name": "Rockfall & Rockways Features",
+        "descr": "With Rockfall, winning symbols disappear and are replaced with new ones. Rockways changes reel heights on every spin, offering from 64 up to 46656 ways to win",
         "imgUrl": "img-feat_dwarfsdlx-2.jpg"
       },
       {
@@ -308,9 +377,9 @@
     ],
     "meta": {
       "title": "Princess and Dwarfs Deluxe, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Step into the enchanted mines with  up to 46656 ways to win!"
     },
-    "rockways": false
+    "rockways": true
   },
   {
     "name": "Lucky Fruity Coin",

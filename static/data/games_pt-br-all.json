@@ -246,13 +246,13 @@
   {
     "name": "Princess and Dwarfs Deluxe",
     "slug": "princess-and-dwarfs-deluxe",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/princess_and_dwarfs_deluxe",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-08-28",
     "featured": false,
     "topGame": false,
@@ -269,16 +269,16 @@
     "backUrl": "back_dwarfsdlx.jpg",
     "detailsImgUrl": "details_dwarfsdlx.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
+      "reels": 6,
+      "rows": 6,
+      "volatility": "High",
       "paylines": null,
-      "payways": null,
+      "payways": "64 - 46656",
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": [ "fantasy" ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -291,8 +291,8 @@
         "imgUrl": "img-feat_dwarfsdlx-1.jpg"
       },
       {
-        "name": "Rockfall Feature",
-        "descr": "All winning symbols disappear from the screen and are replaced with new ones",
+        "name": "Rockfall & Rockways Features",
+        "descr": "With Rockfall, winning symbols disappear and are replaced with new ones. Rockways changes reel heights on every spin, offering from 64 up to 46656 ways to win",
         "imgUrl": "img-feat_dwarfsdlx-2.jpg"
       },
       {
@@ -308,9 +308,9 @@
     ],
     "meta": {
       "title": "Princess and Dwarfs Deluxe, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Step into the enchanted mines with  up to 46656 ways to win!"
     },
-    "rockways": false
+    "rockways": true
   },
   {
     "name": "Lucky Fruity Coin",
