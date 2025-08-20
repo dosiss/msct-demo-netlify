@@ -1,5 +1,16 @@
 [
   {
+  "name": "Bspin",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "TTT Games Tournament \nKeno Party, Plinko Pop, Space Blaze \nScore the highest multiplier in each game. \nPrize pool per game \n1st place: 400.00 €; \n2nd place: 250.00 €; \n3rd place: 150.00 €; \n4th place: 120.00 €; \n5th place: 80.00 € \n18th August – 31st August",
+  "url": "https://bit.ly/bitcoin-mascot-tournament",
+  "logoUrl": "partner_bspin.png"
+  },
+  {
   "name": "Bonanzagame24",
   "type": "promopartner",
   "top": false,
