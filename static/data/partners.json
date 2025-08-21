@@ -1,12 +1,23 @@
 [
   {
+  "name": "7Bit tournament",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Deposit €25 and get 45 Free Spins \nGame: Lucky Fruity Coin \nAugust 20th-26th",
+  "url": "https://bit.ly/7bitcasino-lucky-fruity-coin",
+  "logoUrl": "partner_7bit_tournament.jpg"
+  },
+  {
   "name": "Bspin",
   "type": "promopartner",
   "top": false,
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "TTT Games Tournament \nKeno Party, Plinko Pop, Space Blaze \nScore the highest multiplier in each game. \nPrize pool per game \n1st place: 400.00 €; \n2nd place: 250.00 €; \n3rd place: 150.00 €; \n4th place: 120.00 €; \n5th place: 80.00 € \n18th August – 31st August",
+  "promoText": "TTT Games Tournament \nKeno Party, Plinko Pop, Space Blaze \nScore the highest multiplier in each game. \nPrize pool: €1000 per game \n18th August – 31st August",
   "url": "https://bit.ly/bitcoin-mascot-tournament",
   "logoUrl": "partner_bspin.png"
   },
