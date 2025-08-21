@@ -117,7 +117,7 @@
   .partners__content {
     display: grid;
     justify-items: start;
-    grid-template-columns: repeat(4, 23.5%);
+    grid-template-columns: repeat(3, 32.5%);
     grid-gap: 20px;
     gap: 20px;
     justify-content: center;
@@ -145,13 +145,12 @@
         justify-self: stretch;
       }
       .partner-logo {
-        height: 120px;
+        max-height: 230px;
         display: flex;
         align-items: center;
         img {
           width: 100%;
           border-radius: 8px;
-          max-height: 126px
         }
       }
       .partner-offer {

@@ -5,13 +5,13 @@
     <div>
 
       <div class="container-outer">
-        <div class="container">
+        <div class="container-wide">
             <div class="partners__head">
               <h1 class="partners__head-title">{{ pageTitle }}</h1>
             </div>
         </div>
       </div>
-      <div class="container ">
+      <div class="container-wide">
         <div class="all-partners">
             <div class="all-partners__content">
               <div v-for="(partner, idx) in promo" :key="idx" class="promopartner partner__wrap">
@@ -90,7 +90,7 @@ export default {
     if (menuVariant && menuVariant === 'variantA') {
       this.pageTitle = this.$t('Casino Bonuses');
     } else {
-      this.pageTitle = this.$t('Player Bonuses');
+      this.pageTitle = this.$t('Casino Bonuses');
     }
 
   },
@@ -254,7 +254,7 @@ export default {
         }
         &.promopartner {
           margin: 10px;
-          width: 23%;
+          width: 31%;
           @media (max-width: 850px) {
             width: 45%
           }
@@ -275,13 +275,12 @@ export default {
               justify-self: stretch;
             }
             .partner-logo {
-              height: 120px;
+              max-height: 230px;
               display: flex;
               align-items: center;
               img {
                 width: 100%;
                 border-radius: 8px;
-                max-height: 126px
               }
             }
             .partner-offer {
