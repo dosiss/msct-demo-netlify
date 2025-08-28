@@ -2539,5 +2539,49 @@
     "promoText": null,
     "url": "https://www.onlinecasinoreports.com/software/mascot-gaming.php",
     "logoUrl": "partners_ocr.png"
+  },
+  {
+    "name": "Newslotgames",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://newslotgames.net/mascot-gaming.html",
+    "logoUrl": "partner_newslotgames.png"
+  },
+  {
+    "name": "Jeuxdecasino",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://jeuxdecasino.net/mascot-gaming-developpeur.html",
+    "logoUrl": "partner_jeuxdecasino.png"
+  },
+  {
+    "name": "Spielautomaten",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://spielautomatenguru.com/mascot-gaming-spielentwickler.html",
+    "logoUrl": "partner_spielautomaten.png"
+  },
+  {
+    "name": "Onlineslotsjp",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://onlineslotsjp.com/mascot-gaming-purobaida.html",
+    "logoUrl": "partner_onlineslotsjp.png"
   }
 ]
