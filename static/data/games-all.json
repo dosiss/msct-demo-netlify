@@ -187,14 +187,14 @@
   {
     "name": "Scratch the Bank",
     "slug": "scratch-the-bank",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/scratch_the_bank",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
-    "releaseDate": "2025-09-04",
+    "comingSoon": false,
+    "releaseDate": "2025-09-10",
     "featured": false,
     "topGame": false,
     "branded": false,
@@ -210,11 +210,11 @@
     "backUrl": "back_scratchbank.jpg",
     "detailsImgUrl": "details_scratchbank.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
       "paylines": null,
-      "payways": null,
+      "payways": 243,
       "html5": true,
       "rtp": null,
       "hitrate": null
@@ -228,7 +228,7 @@
       },
       {
         "name": "Risk & Buy feature: Buy",
-        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "descr": "Buy Bonus Game with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
         "imgUrl": "img-feat_scratchbank-1.jpg"
       },
       {
@@ -239,7 +239,7 @@
     ],
     "meta": {
       "title": "Scratch the Bank, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Sneak into the vault with Bonus Game, Risk & Buy and x1000!"
     },
     "rockways": false
   },

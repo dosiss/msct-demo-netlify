@@ -480,7 +480,7 @@
           text-align: center;
           margin: 40px 0 50px; /* 80px 0 50px */
           li {
-            margin-bottom: 30px;
+            margin-bottom: 15px;
             &:first-child {
               background: url('../assets/img/mobile-menu-decor.png') no-repeat;
               background-size: contain;
@@ -489,7 +489,7 @@
               @media (max-width: 850px) {
                 background: url('../assets/img/tablet-menu-decor.png') no-repeat;
                 background-size: 100%;
-                margin-bottom: 10px;
+                margin-bottom: 0;
               }
               @media (max-width: 650px) {
                 background: url('../assets/img/mobile-menu-decor.png') no-repeat;

@@ -1,5 +1,16 @@
 [
   {
+  "name": "Rippercasino tournament",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Zeus the Invincible \n100 Free Spins + 50 Extra FS \n150% Bonus \nUse promocodes \n Until September 2nd",
+  "url": "https://bit.ly/ripper-zeus",
+  "logoUrl": "partner_rippercasino.png"
+  },
+  {
   "name": "Rocknrolla tournament",
   "type": "promopartner",
   "top": false,
