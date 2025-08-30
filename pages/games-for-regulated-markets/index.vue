@@ -79,9 +79,19 @@ import regulatedMarketsListPT from '../../static/data/regulated-markets_pt-br.js
   #regMarkets {
     padding-top: 120px;
     padding-bottom: 0;
+    background: url('/images/img_back_regulated_markets2.jpg');
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    @media (max-width: 850px) {
+      padding-top: 80px;
+      background-size: 120%;
+      background-position-y: 100px
+    }
     @media (max-width: 650px) {
-      padding-top: 80px
-
+      padding-top: 80px;
+      background-size: 250%;
+      background-position-y: 115px
     }
     h1 {
       font-size: 2rem;
