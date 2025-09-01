@@ -1,5 +1,16 @@
 ﻿[
   {
+    "name": "Brazil",
+    "link": "brazil",
+    "title": "Games for Brazilian market",
+    "bodytext": "Mascot Gaming is now proud to be active in the Brazilian market, operating in full accordance with local regulations! Our Business Development experts, well-versed in Brasilia's regulatory landscape, are ready to boost your iGaming project with Mascot Gaming’s slots, crash games, and more. Check out our slot demos and other game types on our demo page. Integration is fast and seamless via our user-friendly API or any top-tier iGaming platform. Get in touch — we’ll get everything set up in no time!",
+    "sliderTitle": "Brazilian market games",
+    "meta": {
+      "title": "Mascot Gaming Offerings for Brazil",
+      "descr": "Premium slots with seamless API integration, specifically chosen for the Brazilian market."
+    }
+  },  
+  {
     "name": "Romania",
     "link": "romania",
     "title": "Juegos para el mercado rumano",
@@ -141,16 +152,5 @@
       "title": "Ofertas de Mascot Gaming para España",
       "descr": "Las mejores tragaperras con una integración API fluida, seleccionadas específicamente para el mercado español."
     }
-  },
-  {
-    "name": "Brazil",
-    "link": "brazil",
-    "title": "Games for Brazilian market",
-    "bodytext": "Mascot Gaming is now proud to be active in the Brazilian market, operating in full accordance with local regulations! Our Business Development experts, well-versed in Brasilia's regulatory landscape, are ready to boost your iGaming project with Mascot Gaming’s slots, crash games, and more. Check out our slot demos and other game types on our demo page. Integration is fast and seamless via our user-friendly API or any top-tier iGaming platform. Get in touch — we’ll get everything set up in no time!",
-    "sliderTitle": "Brazilian market games",
-    "meta": {
-      "title": "Mascot Gaming Offerings for Brazil",
-      "descr": "Premium slots with seamless API integration, specifically chosen for the Brazilian market."
-    }
-  }  
+  }
 ]

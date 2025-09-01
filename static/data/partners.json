@@ -22,17 +22,6 @@
   "logoUrl": "partner_rocknrolla_tournament.jpg"
   },
   {
-  "name": "Bspin",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "TTT Games Tournament \nKeno Party, Plinko Pop, Space Blaze \nScore the highest multiplier in each game. \nPrize pool: €1000 per game \n18th August – 31st August",
-  "url": "https://bit.ly/bitcoin-mascot-tournament",
-  "logoUrl": "partner_bspin.png"
-  },
-  {
   "name": "Bonanzagame24",
   "type": "promopartner",
   "top": false,
@@ -42,50 +31,6 @@
   "promoText": "Deposit now and grab up to 160 Low Wager Free Spins \nOngoing weekend promo",
   "url": "https://bit.ly/bonanza-weekend-15",
   "logoUrl": "partner_bonanzagame_tournament2.jpg"
-  },
-  {
-  "name": "21bit",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Deposit minimum €20 \nand get up to 550 Free Spins now! \nUntil 31.08",
-  "url": "https://bit.ly/21bit-summer",
-  "logoUrl": "partner_21bit-tournament.jpg"
-  },
-  {
-  "name": "Wild fortune",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Deposit minimum €20 \nand get up to 550 Free Spins now! \nUntil 31.08",
-  "url": "https://bit.ly/wildfotrune-summer",
-  "logoUrl": "partner_wildfortune-tournament.jpg"
-  },
-  {
-  "name": "Casino Rocket",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Deposit minimum €20 \nand get up to 550 Free Spins now! \nUntil 31.08",
-  "url": "https://bit.ly/rocket-summer",
-  "logoUrl": "partner_casinorocket-tournament.jpg"
-  },
-  {
-  "name": "Spin samurai",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Deposit minimum €20 \nand get up to 550 Free Spins now! \nUntil 31.08",
-  "url": "https://bit.ly/summer-spins",
-  "logoUrl": "partner_spinsamurai-tournament.jpg"
   },
   {
     "name": "PariMatch",
