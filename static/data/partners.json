@@ -1,5 +1,27 @@
 [
   {
+  "name": "Jackpotter tournament",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "50FS for lvl 3 verification \nMascot’s games only \nUntil September 30th",
+  "url": "https://bit.ly/jackpotter-verification-bonus",
+  "logoUrl": "partner_jackpotter-tournament2.jpg"
+  },
+  {
+  "name": "Ripperpokies tournament",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Lucky Fruity Coin \nUp to 30 FS \nUp to 150% deposit bonus \nUntil September 30th",
+  "url": "https://bit.ly/ripperpokies-september",
+  "logoUrl": "partner_ripperpokies.jpg"
+  },
+  {
   "name": "Rocknrolla tournament",
   "type": "promopartner",
   "top": false,
