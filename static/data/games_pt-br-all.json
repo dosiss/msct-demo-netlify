@@ -123,13 +123,13 @@
   {
     "name": "Wild Spirit Deluxe",
     "slug": "wild-spirit-deluxe",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/wild_spirit_deluxe",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-09-18",
     "featured": false,
     "topGame": false,
@@ -146,20 +146,20 @@
     "backUrl": "back_wildspiritdlx.jpg",
     "detailsImgUrl": "details_wildspiritdlx.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": 40,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": [ "adventure" ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
-        "descr": "Take a chance with the Risk Game – gamble your winnings for a chance to multiply them",
+        "descr": "Take a chance with the Risk Game – risk your winnings for a chance to multiply them",
         "imgUrl": "img-feat_wildspiritdlx-0.jpg"
       },
       {
@@ -169,18 +169,13 @@
       },
       {
         "name": "Free Spins with Additional Free Spins",
-        "descr": "Wild symbol stacks expand in height during Free Spins",
+        "descr": "Free Spins with a 3x multiplier, expanding Wild stacks, and the chance to get additional Free Spins",
         "imgUrl": "img-feat_wildspiritdlx-2.jpg"
-      },
-      {
-        "name": "Massive Pays Feature",
-        "descr": "Get up to x5 to your total win per spin when the reels are filled with matching symbols",
-        "imgUrl": "img-feat_wildspiritdlx-3.jpg"
       }
     ],
     "meta": {
       "title": "Wild Spirit Deluxe, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "The drums are calling: Risk & Buy, Free Spins and Stacks of Wild Symbols are awaiting for you!"
     },
     "rockways": false
   },
@@ -9678,6 +9673,7 @@
       "rtp": 96.1,
       "hitrate": 30.1
     },
+    "category": [ "halloween" ],    
     "features": [
       {
         "name": "Símbolos empilhados",

@@ -123,13 +123,13 @@
   {
     "name": "Wild Spirit Deluxe",
     "slug": "wild-spirit-deluxe",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/wild_spirit_deluxe",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-09-18",
     "featured": false,
     "topGame": false,
@@ -146,20 +146,20 @@
     "backUrl": "back_wildspiritdlx.jpg",
     "detailsImgUrl": "details_wildspiritdlx.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 4,
+      "volatility": "High",
+      "paylines": 40,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": [ "adventure" ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
-        "descr": "Take a chance with the Risk Game – gamble your winnings for a chance to multiply them",
+        "descr": "Take a chance with the Risk Game – risk your winnings for a chance to multiply them",
         "imgUrl": "img-feat_wildspiritdlx-0.jpg"
       },
       {
@@ -169,18 +169,13 @@
       },
       {
         "name": "Free Spins with Additional Free Spins",
-        "descr": "Wild symbol stacks expand in height during Free Spins",
+        "descr": "Free Spins with a 3x multiplier, expanding Wild stacks, and the chance to get additional Free Spins",
         "imgUrl": "img-feat_wildspiritdlx-2.jpg"
-      },
-      {
-        "name": "Massive Pays Feature",
-        "descr": "Get up to x5 to your total win per spin when the reels are filled with matching symbols",
-        "imgUrl": "img-feat_wildspiritdlx-3.jpg"
       }
     ],
     "meta": {
       "title": "Wild Spirit Deluxe, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "The drums are calling: Risk & Buy, Free Spins and Stacks of Wild Symbols are awaiting for you!"
     },
     "rockways": false
   },
@@ -583,6 +578,28 @@
         "imgUrl": null
       }
     ],
+    "articles": [
+      {
+        "title": "Nonstopbonus.com: Skyrocket Review",
+        "link": "https://www.nonstopbonus.com/games/mascot-gaming/skyrocket",
+        "image": "img_blog_skyrocket-nonstopbonus.jpg"
+      },
+      {
+        "title": "Newslotgames.net: Skyrocket by TTT Games",
+        "link": "https://newslotgames.net/mascot-gaming/skyrocket.html",
+        "image": "img_blog_skyrocket-newslotgames.jpg"
+      },
+      {
+        "title": "Slotsmate: Skyrocket by TTT Games",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/skyrocket",
+        "image": "img_blog_skyrocket-slotsmate.jpg"
+      },
+      {
+        "title": "Slotcatalog.com: Skyrocket by TTT Games Review",
+        "link": "https://slotcatalog.com/en/slots/sky-rocket",
+        "image": "img_blog_skyrocket-slotcatalog.jpg"
+      }
+    ],
     "meta": {
       "title": "Skyrocket, a video game by TTT Games",
       "descr": "Soar high with amazing features, x10000 and a brand new Half-Cashout feature."
@@ -640,6 +657,33 @@
         "name": "Free Spins",
         "descr": "All Wilds become sticky and remain in place until the end of the feature",
         "imgUrl": "img-feat_friar-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Newslotgames.net: Friar Tuck's Inn Review",
+        "link": "https://newslotgames.net/mascot-gaming/friar-tucks-inn.html",
+        "image": "img_blog_friar-newslotgames.jpg"
+      },
+      {
+        "title": "Casinolandia: Friar Tuck's Inn Review",
+        "link": "https://casinolandia.com/slots/friar-tucks-inn/",
+        "image": "img_blog_friar-casinolandia.jpg"
+      },
+      {
+        "title": "Slotcatalog.com: Friar Tuck's Inn by Mascot Gaming",
+        "link": "https://slotcatalog.com/en/slots/friar-tuck-s-inn",
+        "image": "img_blog_friar-slotcatalog.jpg"
+      },
+      {
+        "title": "Demoslot.com: Friar Tuck's Inn Review",
+        "link": "https://www.demoslot.com/free-slots/friar-tucks-inn-mascot-gaming/",
+        "image": "img_blog_friar-demoslot.jpg"
+      },
+      {
+        "title": "A Toast to Sticky Wins: Friar Tuck`s Inn Review",
+        "link": "https://mascot.games/blog/a-toast-to-sticky-wins-friar-tucks-inn-review",
+        "image": "img_blog-friar.jpg"
       }
     ],
     "meta": {
@@ -700,6 +744,28 @@
         "name": "Special Rewards",
         "descr": "Receive extra rewards for destroying special symbol",
         "imgUrl": "img-feat_evilbetshoot-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Slotcatalog.com: Evil Bet Shoot Them All Review",
+        "link": "https://slotcatalog.com/en/slots/evil-bet-shoot-them-all",
+        "image": "img_blog_evilbetshoot-slotcatalog.jpg"
+      },
+      {
+        "title": "Casinolandia: Evil Bet Shoot Them All",
+        "link": "https://casinolandia.com/slots/evil-bet-shoot-them-all/",
+        "image": "img_blog_evilbetshoot-casinolandia.jpg"
+      },
+      {
+        "title": "Newslotgames.net: Evil Bet Shoot Them All by Mascot Gaming",
+        "link": "https://newslotgames.net/mascot-gaming/evil-bet-shoot-them-all.html",
+        "image": "img_blog_evilbetshoot-newslotgames.jpg"
+      },
+      {
+        "title": "Slotsmate:Evil Bet Shoot Them All Review",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/evil-bet-shoot-them-all",
+        "image": "img_blog_evilbetshoot-slotsmate.jpg"
       }
     ],
     "meta": {
@@ -772,6 +838,21 @@
     ],
     "articles": [
       {
+        "title": "Newslotgames.net:  Ansunamun Deluxe Review",
+        "link": "https://newslotgames.net/mascot-gaming/anksunamun-deluxe.html",
+        "image": "img_blog_anksunamundlx-newslotgames.jpg"
+      },
+      {
+        "title": "Slotsmate: Anksunamun Deluxe",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/anksunamun-deluxe",
+        "image": "img_blog_anksunamundlx-slotsmate.jpg"
+      },
+      {
+        "title": "Slotcatalog.com: Anksunamun Deluxe by Masacot Gaming",
+        "link": "https://slotcatalog.com/en/slots/anksunamun-deluxe",
+        "image": "img_blog_anksunamundlx-slotcatalog.jpg"
+      },
+      {
         "title": "Return of the Golden Queen: Anksunamun Deluxe Review",
         "link": "https://mascot.games/blog/return-of-the-golden-queen-anksunamun-deluxe-review",
         "image": "img_blog_anksunamundlx-main.jpg"
@@ -837,6 +918,26 @@
       }
     ],
     "articles": [
+      {
+        "title": "Slotsmate: Fruity x125 ",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/fruity-x125",
+        "image": "img_blog_fruity125-slotsmate.jpg"
+      },
+      {
+        "title": "Slotcatalog.com: Fruity x125 Review",
+        "link": "https://slotcatalog.com/en/slots/fruity-x125",
+        "image": "img_blog_fruity125-slotcatalog.jpg"
+      },
+      {
+        "title": "Newslotgames.net: Fruity x125 by Mascot Gaming",
+        "link": "https://newslotgames.net/mascot-gaming/fruity-x125.html",
+        "image": "img_blog_fruity125-newslotgames.jpg"
+      },
+      {
+        "title": "Casinolandia: Fruity x125 Review",
+        "link": "https://casinolandia.com/slots/fruity-x125/",
+        "image": "img_blog_fruity125-casinolandia.jpg"
+      },
       {
         "title": "A Royal Garden of Rewards: Fruity x125 Review",
         "link": "https://mascot.games/blog/a-royal-garden-of-rewards-fruity-x125-review",
@@ -979,6 +1080,28 @@
         "imgUrl": null
       }
     ],
+    "articles": [
+      {
+        "title": "Slotsmate: Rooster Run Review",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/rooster-run",
+        "image": "img_blog_rooster-slotsmate.jpg"
+      },
+      {
+        "title": "Nonstopbonus.com: Rooster Run by TTT Games",
+        "link": "https://www.nonstopbonus.com/games/mascot-gaming/rooster-run",
+        "image": "img_blog_rooster-nonstopbonus.jpg"
+      },
+      {
+        "title": "Slotslaunch: Rooster Run Review",
+        "link": "https://slotslaunch.com/mascot-gaming/rooster-run",
+        "image": "img_blog_rooster-slotslaunch.jpg"
+      },
+      {
+        "title": "Slotcatalog.com: Rooster Run by TTT Games",
+        "link": "https://slotcatalog.com/en/slots/rooster-run",
+        "image": "img_blog_rooster-slotcatalog.jpg"
+      }
+    ],
     "meta": {
       "title": "Rooster Run, a video game by TTT Games",
       "descr": "Experience a cosmic adventure in this step-by-step crash game and get a multiplier up to x10000!"
@@ -1044,6 +1167,31 @@
       }
     ],
     "articles": [
+      {
+        "title": "Slots-777.com - Wasteland Riches by Mascot Gaming - Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/wasteland-riches",
+        "image": "img_blog_wasteland-slots777.jpg"
+      },
+      {
+        "title": "Wasteland Riches Slot – Post-Apocalyptic Wins Await",
+        "link": "https://casinodaddy.com/news/wasteland-riches-slot-post-apocalyptic-wins-await/",
+        "image": "img_blog_wasteland-casinodaddy.jpg"
+      },
+      {
+        "title": "Casinolandia: Wasteland Riches Review",
+        "link": "https://casinolandia.com/slots/wasteland-riches/",
+        "image": "img_blog_wasteland-casinolandia.jpg"
+      },
+      {
+        "title": "Slotcatalog.com: Wasteland Riches by Mascot Gaming",
+        "link": "https://slotcatalog.com/en/slots/wasteland-riches",
+        "image": "img_blog_wasteland-slotcatalog.jpg"
+      },
+      {
+        "title": "Clashofslots.com: Wasteland Riches Review",
+        "link": "https://clashofslots.com/slots/mascot-gaming/wasteland-riches/",
+        "image": "img_blog_wasteland-clashofslots.jpg"
+      },
       {
         "title": "Fortune Among the Ruins: Wasteland Riches Review",
         "link": "https://mascot.games/blog/fortune-among-the-ruins-wasteland-riches-review",
@@ -1123,6 +1271,28 @@
         "imgUrl": "img-feat_doubleroulette-5.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Casinofreak.com: Play Double Roulette",
+        "link": "https://www.casinofreak.com/games/play-double-roulette",
+        "image": "img_blog_doubleroulette-casinofreak.jpg"
+      },
+      {
+        "title": "Chipy: Double Roulette Review",
+        "link": "https://chipy.com/games/mascot-gaming/double-roulette",
+        "image": "img_blog_doubleroulette-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.com: Double Roulette Review",
+        "link": "https://www.casinoslists.com/play/double-roulette",
+        "image": "img_blog_doubleroulette-casinolists.jpg"
+      },
+      {
+        "title": "Slotsmate: Double Roulette by TTT Games",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/double-roulette",
+        "image": "img_blog_doubleroulette-slotsmate.jpg"
+      }
+    ],
     "meta": {
       "title": "Double Roulette, a video game by TTT Games",
       "descr": "Take advantage of multiple bets and get the best rewards"
@@ -1180,6 +1350,28 @@
         "name": "Fantastic prizes",
         "descr": "Get Free Bets and winnings up to x10000",
         "imgUrl": "img-feat_gunman-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Slots-777.com - Gunman Crash by Mascot Gaming - Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/gunman-crash",
+        "image": "img_blog_gunman-slots777.jpg"
+      },
+      {
+        "title": "Casinofreak.com: Play Gunman Crash",
+        "link": "https://www.casinofreak.com/games/play-gunman-crash",
+        "image": "img_blog_gunman-casinofreak.jpg"
+      },
+      {
+        "title": "Chipy: Gunman Crash Review",
+        "link": "https://www.casinoslists.com/play/gunman-crash",
+        "image": "img_blog_gunman-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.com: Gunman Crash Review",
+        "link": "https://www.casinoslists.com/play/gunman-crash",
+        "image": "img_blog_gunman-casinolists.jpg"
       }
     ],
     "meta": {
@@ -1315,6 +1507,33 @@
         "imgUrl": "img-feat_fortherealmdlx-3.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Casinolandia: For the Realm Deluxe Review",
+        "link": "https://casinolandia.com/slots/for-the-realm-deluxe/",
+        "image": "img_blog_fortherealmdlx-casinolandia.jpg"
+      },
+      {
+        "title": "Casinofreak.com: Play For the Realm Deluxe",
+        "link": "https://www.casinofreak.com/games/play-for-the-realm-deluxe",
+        "image": "img_blog_fortherealmdlx-casinofreak.jpg"
+      },
+      {
+        "title": "Chipy: For the Realm Deluxe Review",
+        "link": "https://chipy.com/games/mascot-gaming/for-the-realm-deluxe",
+        "image": "img_blog_fortherealmdlx-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.com: For the Realm Deluxe Review",
+        "link": "https://www.casinoslists.com/play/for-the-realm-deluxe",
+        "image": "img_blog_fortherealmdlx-casinolists.jpg"
+      },
+      {
+        "title": "Slotsmate: For The Realm Deluxe by Mascot Gaming",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/for-the-realm-deluxe",
+        "image": "img_blog_fortherealmdlx-slotsmate.jpg"
+      }
+    ],
     "meta": {
       "title": "For the Realm Deluxe, a video slot game by Mascot Gaming",
       "descr": "Choose the winning side with two types of Free Spins and Risk & Buy feature!"
@@ -1388,6 +1607,18 @@
         "imgUrl": "img-feat_kenoparty-5.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Chipy: Keno Party Review",
+        "link": "https://chipy.com/games/mascot-gaming/keno-party",
+        "image": "img_blog_kenoparty-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.con: Keno Party by TTT Games",
+        "link": "https://www.casinoslists.com/play/keno-party",
+        "image": "img_blog_kenoparty-casinolists.jpg"
+      }
+    ],
     "meta": {
       "title": "Keno Party, a video game by TTT Games",
       "descr": "Powered by Mascot Gaming, Keno Party offers amazing features: multiplayer, live leaderboard, customization, ranks and x10000."
@@ -1454,6 +1685,31 @@
       }
     ],
     "articles": [
+      {
+        "title": "Casinolandia: Zeus the Invincible by Mascot Gaming",
+        "link": "https://casinolandia.com/slots/zeus-the-invincible/",
+        "image": "img_blog_zeusinvincible-casinolandia.jpg"
+      },
+      {
+        "title": "Casinofreak.com: Zeus the Invincible Review",
+        "link": "https://www.casinofreak.com/games/play-zeus-the-invincible",
+        "image": "img_blog_zeusinvincible-casinofreak.jpg"
+      },
+      {
+        "title": "Chipy: Zeus the Invincible Review",
+        "link": "https://chipy.com/games/mascot-gaming/zeus-the-invincible",
+        "image": "img_blog_zeusinvincible-chipy.jpg"
+      },
+      {
+        "title": "Slotsmate: Zeus the Invincible Review",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/zeus-the-invincible",
+        "image": "img_blog_zeusinvincible-slotsmate.jpg"
+      },
+      {
+        "title": "Zeus the Invincible Review by machineslotonline.it",
+        "link": "https://www.machineslotonline.it/slot/mascot-gaming/zeus-the-invincible",
+        "image": "img_blog_zeusinvincible-machineslots.jpg"
+      },
       {
         "title": "The Gods Are Watching: Zeus the Invincible Review",
         "link": "https://mascot.games/blog/the-gods-are-watching-zeus-the-invincible-review",
@@ -1534,6 +1790,21 @@
     ],
     "articles": [
       {
+        "title": "Casinofreak.com: Play Plinko Pop",
+        "link": "https://www.casinofreak.com/games/play-plinko-pop",
+        "image": "img_blog_plinko-casinofreak.jpg"
+      },
+      {
+        "title": "Chipy: Plinko Pop Review",
+        "link": "https://chipy.com/games/mascot-gaming/plinko-pop",
+        "image": "img_blog_plinko-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.com - Plinko Pop",
+        "link": "https://www.casinoslists.com/play/plinko-pop",
+        "image": "img_blog_plinko-casinolists.jpg"
+      },
+      {
         "title": "A Calculated Drop: Plinko Pop Review",
         "link": "https://mascot.games/blog/a-calculated-drop-plinko-pop-review",
         "image": "img_blog_plinko-main.jpg"
@@ -1600,6 +1871,21 @@
       }
     ],
     "articles": [
+      {
+        "title": "Casinofreak.com: Play Shooting Galaxy",
+        "link": "https://www.casinofreak.com/games/play-shooting-galaxy",
+        "image": "img_blog_shootinggalaxy-casinofreak.jpg"
+      },
+      {
+        "title": "Chipy: Shooting Galaxy by Mascot Gaming",
+        "link": "https://chipy.com/games/mascot-gaming/shooting-galaxy",
+        "image": "img_blog_shootinggalaxy-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.com - Shooting Galaxy",
+        "link": "https://www.casinoslists.com/play/shooting-galaxy",
+        "image": "img_blog_shootinggalaxy-casinolists.jpg"
+      },
       {
         "title": "Take Aim at the Cosmos: Shooting Galaxy Review",
         "link": "https://mascot.games/blog/take-aim-at-the-cosmos-shooting-galaxy-review",
@@ -1675,6 +1961,21 @@
     ],
     "articles": [
       {
+        "title": "Casinofreak.com: Play 10K Dice",
+        "link": "https://www.casinofreak.com/games/play-10k-dice",
+        "image": "img_blog_10kdice-casinofreak.jpg"
+      },
+      {
+        "title": "Chipy: 10K Dice by TTT Games",
+        "link": "https://chipy.com/games/mascot-gaming/10k-dice",
+        "image": "img_blog_10kdice-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.com - 10K Dice",
+        "link": "https://www.casinoslists.com/play/10k-dice",
+        "image": "img_blog_10kdice-casinolists.jpg"
+      },
+      {
         "title": "Mascot Gaming introduces Tic Tac Toe Games",
         "link": "https://mascot.games/blog/mascot-gaming-introduces-tic-tac-toe-games",
         "image": "img_blog_tttintro-main.jpg"
@@ -1749,6 +2050,11 @@
       }
     ],
     "articles": [
+      {
+        "title": "Slotcatalog.com: Mines Blast Review",
+        "link": "https://slotcatalog.com/en/slots/mines-blast",
+        "image": "img_blog_minesblast-slotctlg.jpg"
+      },
       {
         "title": "Mascot Gaming introduces Tic Tac Toe Games",
         "link": "https://mascot.games/blog/mascot-gaming-introduces-tic-tac-toe-games",
@@ -10773,6 +11079,7 @@
       "rtp": 96.1,
       "hitrate": 30.1
     },
+    "category": [ "halloween" ],
     "features": [
       {
         "name": "Stacked Symbols",
