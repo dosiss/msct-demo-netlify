@@ -1,5 +1,532 @@
 [
   {
+    "name": "Marble Bounce",
+    "slug": "marble-bounce",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-12-18",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_marblebounce.jpeg",
+    "heroUrl": "hero_marblebounce.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_marblebounce.jpg",
+    "logoUrl": "logo_marblebounce.png",
+    "backUrl": "back_marblebounce.jpg",
+    "detailsImgUrl": "details_marblebounce.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Unique Game Mode",
+        "descr": "The setting and physics of the bouncing ball create a gameplay experience unseen in iGaming, placing players in a truly original environment",
+        "imgUrl": "img-feat_marblebounce-0.jpg"
+      },
+      {
+        "name": "Physics-Based Gameplay",
+        "descr": "A refined engine simulates ball movement with lifelike accuracy, enhancing the realism and enjoyment of the experience",
+        "imgUrl": "img-feat_marblebounce-1.jpg"
+      },
+      {
+        "name": "Engaging Visual Effects",
+        "descr": "Carefully designed visuals amplify the satisfaction of every bounce, using color, motion, and glow to captivate the player’s attention",
+        "imgUrl": "img-feat_marblebounce-2.jpg"
+      },
+      {
+        "name": "Live Leaderboard",
+        "descr": "The online board shows players in the current round, as well as the biggest wins in the game's history",
+        "imgUrl": "img-feat_marblebounce-3.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization elements and avatars",
+        "imgUrl": "img-feat_marblebounce-4.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their liking using customization options",
+        "imgUrl": "img-feat_marblebounce-5.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Marble Bounce, a video game by TTT Games",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Fruit Machine: Mega X",
+    "slug": "fruit-machine-mega-x",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-12-18",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_fruitmegax.jpeg",
+    "heroUrl": "hero_fruitmegax.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fruitmegax.jpg",
+    "logoUrl": "logo_fruitmegax.png",
+    "backUrl": "back_fruitmegax.jpg",
+    "detailsImgUrl": "details_fruitmegax.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Risk Game",
+        "descr": "Risk your winnings by playing the Risk Game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_fruitmegax-0.jpg"
+      },
+      {
+        "name": "Pays Anywhere",
+        "descr": "Winning combinations can appear anywhere on the screen",
+        "imgUrl": "img-feat_fruitmegax-1.jpg"
+      },
+      {
+        "name": "Rockfall Feature",
+        "descr": "All winning symbols are removed from the screen and replaced with new ones",
+        "imgUrl": "img-feat_fruitmegax-2.jpg"
+      },
+      {
+        "name": "Multipliers",
+        "descr": "3+ multipliers activate the multiplier feature. All active multipliers are summed and applied to the total win",
+        "imgUrl": "img-feat_fruitmegax-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Fruit Machine: Mega X, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "The Myth Deluxe",
+    "slug": "the-myth-deluxe",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-12-11",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_mythdlx.jpeg",
+    "heroUrl": "hero_mythdlx.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_mythdlx.jpg",
+    "logoUrl": "logo_mythdlx.png",
+    "backUrl": "back_mythdlx.jpg",
+    "detailsImgUrl": "details_mythdlx.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Risk your winnings by playing the Risk Game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_mythdlx-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_mythdlx-1.jpg"
+      },
+      {
+        "name": "Special Wilds",
+        "descr": "Viking Wild transforms all adjacent symbols into Wilds. Skadi Wild turns into a Wild Reel",
+        "imgUrl": "img-feat_mythdlx-2.jpg"
+      },
+      {
+        "name": "Free Spins with Win Multiplier",
+        "descr": "Free Spins with x3 multiplier and a chance to win additional Free Spins",
+        "imgUrl": "img-feat_mythdlx-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "The Myth Deluxe, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Gryphon`s Castle Deluxe",
+    "slug": "gryphons-castle-deluxe",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-11-27",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_gryphondlx.jpeg",
+    "heroUrl": "hero_gryphondlx.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_gryphondlx.jpg",
+    "logoUrl": "logo_gryphondlx.png",
+    "backUrl": "back_gryphondlx.jpg",
+    "detailsImgUrl": "details_gryphondlx.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Risk your winnings by playing the Risk Game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_gryphondlx-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price",
+        "imgUrl": "img-feat_gryphondlx-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Free Spins with x3 multiplier",
+        "imgUrl": "img-feat_gryphondlx-2.jpg"
+      },
+      {
+        "name": "Expanding Wild",
+        "descr": "Wild on the 3rd reel expands and covers the entire reel",
+        "imgUrl": "img-feat_gryphondlx-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Gryphon`s Castle Deluxe, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Pin Plinko",
+    "slug": "pin-plinko",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2025-11-20",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_pinplinko.jpeg",
+    "heroUrl": "hero_pinplinko.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_pinplinko.jpg",
+    "logoUrl": "logo_pinplinko.png",
+    "backUrl": "back_pinplinko.jpg",
+    "detailsImgUrl": "details_pinplinko.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Plinko",
+        "descr": "A ball drops from the top and bounces off pegs arranged in a pyramid shape as it falls. At the bottom, it lands in a multiplier slot, determining the player’s winnings based on the multiplier",
+        "imgUrl": "img-feat_pinplinko-0.jpg"
+      },
+      {
+        "name": "Adjustable Pin Rows",
+        "descr": "Players can modify the number of horizontal rows, creating a personalized board layout and tailoring their Plinko experience",
+        "imgUrl": "img-feat_pinplinko-1.jpg"
+      },
+      {
+        "name": "Multi-Ball Release",
+        "descr": "Instead of dropping one ball at a time, players can release multiple balls simultaneously, speeding up gameplay and increasing excitement",
+        "imgUrl": "img-feat_pinplinko-2.jpg"
+      },
+      {
+        "name": "3 Risk Levels",
+        "descr": "Choose between low, medium, and high risk. The level of risk determines the minimum and maximum multipliers the ball can land on",
+        "imgUrl": "img-feat_pinplinko-3.jpg"
+      },
+      {
+        "name": "Realistic Physics Model",
+        "descr": "Balls fall and bounce off the pegs with precision, following an accurate physics model",
+        "imgUrl": "img-feat_pinplinko-4.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization options and avatars",
+        "imgUrl": "img-feat_pinplinko-5.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their preferences using customization features",
+        "imgUrl": "img-feat_pinplinko-6.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Pin Plinko, a video game by TTT Games",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "The Dawn is coming!",
+    "slug": "the-dawn-is-coming",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-11-06",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_dawncoming.jpeg",
+    "heroUrl": "hero_dawncoming.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_dawncoming.jpg",
+    "logoUrl": "logo_dawncoming.png",
+    "backUrl": "back_dawncoming.jpg",
+    "detailsImgUrl": "details_dawncoming.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Risk your winnings by playing the Risk Game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_dawncoming-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_dawncoming-1.jpg"
+      },
+      {
+        "name": "Wild Multipliers",
+        "descr": "Wilds with multipliers x2, x3, x5. In winning combinations, multipliers multiply each other and can reach up to x125",
+        "imgUrl": "img-feat_dawncoming-2.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "During Free Spins all Wilds become Wild Reels",
+        "imgUrl": "img-feat_dawncoming-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "The Dawn is coming!, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Bamboo Bear Deluxe",
+    "slug": "bamboo-bear-deluxe",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-10-28",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_bamboodlx.jpeg",
+    "heroUrl": "hero_bamboodlx.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_bamboodlx.jpg",
+    "logoUrl": "logo_bamboodlx.png",
+    "backUrl": "back_bamboodlx.jpg",
+    "detailsImgUrl": "details_bamboodlx.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Risk your winnings by playing the Risk Game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_bamboodlx-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_bamboodlx-1.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Free Spins with x3 win multiplier and a chance to win additional Free Spins",
+        "imgUrl": "img-feat_bamboodlx-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Bamboo Bear Deluxe, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Tessa Hunt and the Warrior Tomb",
+    "slug": "tessa-hunt-and-the-warrior-tomb",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2025-10-23",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_tessatomb.jpeg",
+    "heroUrl": "hero_tessatomb.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_tessatomb.jpg",
+    "logoUrl": "logo_tessatomb.png",
+    "backUrl": "back_tessatomb.jpg",
+    "detailsImgUrl": "details_tessatomb.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ "adventure", "girls" ],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Risk your winnings by playing the Risk Game. You can increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_tessatomb-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "imgUrl": "img-feat_tessatomb-1.jpg"
+      },
+      {
+        "name": "Free Spins with Win Multiplier",
+        "descr": "3 types of Free Spins: with x2, x5 or x10 win multipliers",
+        "imgUrl": "img-feat_tessatomb-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Tessa Hunt and the Warrior Tomb, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
     "name": "Overheat",
     "slug": "overheat",
     "linkToDemo": " ",

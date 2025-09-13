@@ -9,7 +9,7 @@
                 <div class="game-hero__outer" :style="{ backgroundImage: `url(/images/${game.heroUrl})` }">
                   <div class="game-hero__inner">
                     <NuxtLink :to="`${game.slug}`">
-                      <img :src="`/images/${game.logoUrl}`" class="game-logo" :alt="`${game.name}`" />
+                      <img v-if="game.logoUrl !== null" :src="`/images/${game.logoUrl}`" class="game-logo" :alt="`${game.name}`" />
                     </NuxtLink>
                     <a :href="`https://${game.linkToDemo}`" class="buttn buttn-blue buttn-wide buttn-m">{{ $t('Play demo') }}</a>
                 </div>
@@ -29,7 +29,7 @@
               <div class="featured-header__wrap" :class="`game_${backgroundGameData.slug}`">
                 <div class="featured-header__content">
                   <NuxtLink :to="`${backgroundGameData.slug}`">
-                    <img :src="`/images/${backgroundGameData.logoUrl}`" class="game-logo" :alt="`${backgroundGameData.name}`" />
+                    <img v-if="backgroundGameData.logoUrl !== null" :src="`/images/${backgroundGameData.logoUrl}`" class="game-logo" :alt="`${backgroundGameData.name}`" />
                     <p class="game-description">{{ backgroundGameData.descr }}</p>
                   </NuxtLink>
                 </div>
@@ -148,7 +148,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
 
         const gameOrder = ['space-blaze', 'mines-blast', '10k-dice', 'plinko-pop', 'keno-party'];
 
-        const filteredGames = this.gamesList.filter(val => val.theme === 'tictactoe');
+        const filteredGames = this.gamesList.filter(val => (val.theme === 'tictactoe' && val.comingSoon !== true));
 
         return filteredGames.sort((a, b) => {
           const indexA = gameOrder.indexOf(a.slug);
