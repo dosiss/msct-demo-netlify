@@ -3,7 +3,7 @@
   <div>
     <MainHeader />
     <div id="contacts">
-    <div class="container container-narrow">
+    <div class="container">
       <h1>{{$t('Contacts')}}</h1>
       <div class="contacts__wrap">
         <div class="contact-info">

@@ -16,15 +16,69 @@
         </NuxtLink>
         <div class="main-menu">
           <nav :class="`lang_${$i18n.locale}`" class="main-menu__pages">
-            <ul>
-              <li><NuxtLink :to="localePath('/games')">{{ $t('Games') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/tic-tac-toe-games')">{{ $t('TTT games') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
-              <li ref="testMenuItem" class="menu-item">
+            <ul class="main-menu__pages-top">
+              <li><NuxtLink :to="localePath('/games')" class="main-menu__item">{{ $t('Games') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/tic-tac-toe-games')" class="main-menu__item">{{ $t('TTT games') }}</NuxtLink></li>
+              <!-- <li><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li> -->
+              <!-- <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li> -->
+              <li
+                class="dropdown-menu"
+                @mouseenter="showItemDropdown('promo')"
+                @mouseleave="hideItemDropdown('promo')"
+              >
+                <NuxtLink :to="localePath('/marketing-tools')" class="dropdown-toggle main-menu__item">
+                  {{ $t('Promo') }}
+                  <span class="dropdown-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" fill="none" viewBox="0 0 8 5"><path fill="#fff" fill-rule="evenodd" d="M4.708 4.536a1 1 0 0 1-1.414 0L.464 1.707A1 1 0 0 1 1.174 0h5.656a1 1 0 0 1 .708 1.707l-2.83 2.829Z" clip-rule="evenodd"/></svg>
+                  </span>
+                </NuxtLink>
+
+                <!-- Dropdown Submenu -->
+                <ul
+                  v-show="activeDropdown === 'promo'"
+                  class="dropdown-submenu"
+                  @mouseenter="showItemDropdown('promo')"
+                  @mouseleave="hideItemDropdown('promo')"
+                >
+                  <li><NuxtLink :to="localePath('/marketing-tools#freeRounds')">{{ $t('Free Rounds') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools#preReleases')">{{ $t('Pre-Releases') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools#seasonalEvents')">{{ $t('Seasonal Events') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools#brandedGames')">{{ $t('Branded Games') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools#trafficBasedCampaigns')">{{ $t('Traffic-based Campaigns') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools#networkingTournaments')" class="highlight">{{ $t('Networking Tournaments') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools#retentionTools')">{{ $t('Retention Tools') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools#marketingSupport')">{{ $t('Marketing Support') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools#bigWinCampaigns')">{{ $t('Big Win Campaigns') }}</NuxtLink></li>
+                </ul>
+              </li>
+              <li><NuxtLink :to="localePath('/partners')" class="main-menu__item">{{ $t('Partners') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/games-for-regulated-markets')" class="main-menu__item">{{ $t('Markets') }}</NuxtLink></li>
+              <li
+                class="dropdown-menu"
+                @mouseenter="showItemDropdown('info')"
+                @mouseleave="hideItemDropdown('info')"
+              >
+                <div class="dropdown-toggle menu-no-link">
+                  {{ $t('Info') }}
+                  <span class="dropdown-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" fill="none" viewBox="0 0 8 5"><path fill="#fff" fill-rule="evenodd" d="M4.708 4.536a1 1 0 0 1-1.414 0L.464 1.707A1 1 0 0 1 1.174 0h5.656a1 1 0 0 1 .708 1.707l-2.83 2.829Z" clip-rule="evenodd"/></svg>
+                  </span>
+                </div>
+
+                <!-- Dropdown Submenu -->
+                <ul
+                  v-show="activeDropdown === 'info'"
+                  class="dropdown-submenu dropdown-narrow"
+                  @mouseenter="showItemDropdown('info')"
+                  @mouseleave="hideItemDropdown('info')"
+                >
+                  <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/blog')">{{ $t('Blog') }}</NuxtLink></li>
+                </ul>
+              </li>
+              <li ref="testMenuItem" class="test-menu-item">
                 <!-- Variant A -->
                 <nuxt-link
                   v-if="currentVariant === 'variantA'"
@@ -58,12 +112,40 @@
                 <span>{{ $t('Contact') }}</span>
               </button>
             </div>
-            <div class="main-menu__locales">
+            <!-- <div class="main-menu__locales">
               <NuxtLink
                 v-for="locale in availableLocales"
                 :key="locale.code"
                 :to="switchLocalePath(locale.code)">{{ locale.name }}
               </NuxtLink>
+            </div> -->
+            <div
+              class="main-menu__lang dropdown-menu"
+              @mouseenter="showItemDropdown('lang')"
+              @mouseleave="hideItemDropdown('lang')"
+            >
+              <div class="dropdown-toggle menu-no-link">
+                {{ $i18n.locale }}
+                <span class="dropdown-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" fill="none" viewBox="0 0 8 5"><path fill="#fff" fill-rule="evenodd" d="M4.708 4.536a1 1 0 0 1-1.414 0L.464 1.707A1 1 0 0 1 1.174 0h5.656a1 1 0 0 1 .708 1.707l-2.83 2.829Z" clip-rule="evenodd"/></svg>
+                </span>
+              </div>
+
+              <!-- Dropdown Submenu -->
+              <ul
+                v-show="activeDropdown === 'lang'"
+                class="dropdown-submenu"
+                @mouseenter="showItemDropdown('lang')"
+                @mouseleave="hideItemDropdown('lang')"
+              >
+                <li
+                  v-for="locale in availableLocales"
+                  :key="locale.code">
+                  <NuxtLink
+                    :to="switchLocalePath(locale.code)">{{ locale.name }}
+                  </NuxtLink>
+                </li>
+              </ul>
             </div>
             <div class="main-menu__clientarea">
               <a href="https://client.mascot.games" target="_blank" class="buttn buttn-primary buttn-clientarea">
@@ -113,15 +195,49 @@
               </div>
               <nav class="mobile-menu__pages">
                 <ul>
-                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/games')">{{ $t('Games') }}</NuxtLink></li>
-                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/tic-tac-toe-games')">{{ $t('TTT games') }}</NuxtLink></li>
-                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
-                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
-                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
-                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
-                  <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
+                  <li class="mobile-menu__item menu-decor" @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/games')">{{ $t('Games') }}</NuxtLink></li>
+                  <li class="mobile-menu__item" @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/tic-tac-toe-games')">{{ $t('TTT games') }}</NuxtLink></li>
+                  <li class="mobile-submenu-item">
+                    <div class="mobile-menu-toggle" @click="toggleMobileSubmenu('promo')">
+                      <NuxtLink :to="localePath('/marketing-tools')" @click.stop="navigateAndClose('/marketing-tools')">{{ $t('Promo') }}</NuxtLink>
+                      <button class="mobile-submenu-arrow" :class="{ 'active': activeMobileSubmenu === 'promo' }">
+                        <svg width="12" height="8" viewBox="0 0 12 8" fill="none">
+                          <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </button>
+                    </div>
+                    <ul v-show="activeMobileSubmenu === 'promo'" class="mobile-submenu">
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#freeRounds')">{{ $t('Free Rounds') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#preReleases')">{{ $t('Pre-Releases') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#seasonalEvents')">{{ $t('Seasonal Events') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#brandedGames')">{{ $t('Branded Games') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#trafficBasedCampaigns')">{{ $t('Traffic-based Campaigns') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#networkingTournaments')" class="highlight">{{ $t('Networking Tournaments') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#retentionTools')">{{ $t('Retention Tools') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#marketingSupport')">{{ $t('Marketing Support') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#bigWinCampaigns')">{{ $t('Big Win Campaigns') }}</NuxtLink></li>
+                    </ul>
+                  </li>
+                  <li class="mobile-menu__item" @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
+                  <li class="mobile-menu__item" @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
+                  <li class="mobile-submenu-item">
+                    <div class="mobile-menu-toggle" @click="toggleMobileSubmenu('info')">
+                      <div class="menu-no-link">{{ $t('Info') }}</div>
+                      <button class="mobile-submenu-arrow" :class="{ 'active': activeMobileSubmenu === 'info' }">
+                        <svg width="12" height="8" viewBox="0 0 12 8" fill="none">
+                          <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </button>
+                    </div>
+                    <ul v-show="activeMobileSubmenu === 'info'" class="mobile-submenu">
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
+
+                    </ul>
+                  </li>
                   <!-- A/B Tested Menu Item -->
-                  <li ref="testMenuItem" class="menu-item">
+                  <li ref="testMenuItem" class="test-menu-item mobile-menu__item">
                     <!-- Variant A -->
                     <nuxt-link
                       v-if="currentVariant === 'variantA'"
@@ -143,7 +259,7 @@
                     <span>Casino Bonuses</span>
                     </nuxt-link>
                   </li>
-                  <li @click.capture="hideMobileMenu"><a href="https://client.mascot.games" target="_blank">{{ $t('Client Area') }}</a></li>
+                  <li class="mobile-menu__item" @click.capture="hideMobileMenu"><a href="https://client.mascot.games" target="_blank">{{ $t('Client Area') }}</a></li>
                 </ul>
               </nav>
             </div>
@@ -187,7 +303,10 @@
         showModal: false,
         currentVariant: 'variantA',
         testName: 'menu_item_test_2025',
-        testInitialized: false
+        testInitialized: false,
+        activeDropdown: null,
+        dropdownTimeout: null,
+        activeMobileSubmenu: null
       }
     },
 
@@ -202,7 +321,10 @@
       window.addEventListener('scroll', this.handleScroll)
     },
     beforeDestroy () {
-      window.removeEventListener('scroll', this.handleScroll)
+      window.removeEventListener('scroll', this.handleScroll);
+      if (this.dropdownTimeout) {
+        clearTimeout(this.dropdownTimeout)
+      }
     },
     mounted() {
       this.$nextTick(() => {
@@ -217,18 +339,63 @@
     },
 
     methods: {
-      handleScroll () {
+      showItemDropdown(menuKey) {
+        // Clear any existing timeout
+        if (this.dropdownTimeout) {
+          clearTimeout(this.dropdownTimeout)
+          this.dropdownTimeout = null
+        }
 
+        // Set the active dropdown
+        this.activeDropdown = menuKey
+      },
+
+      hideItemDropdown(menuKey) {
+        // Only hide if this is the currently active dropdown
+        if (this.activeDropdown === menuKey) {
+          // Add small delay to prevent flickering when moving between menu and submenu
+          this.dropdownTimeout = setTimeout(() => {
+            this.activeDropdown = null
+          }, 100)
+        }
+      },
+
+      closeAllDropdowns() {
+        // Utility method to close all dropdowns
+        this.activeDropdown = null
+        if (this.dropdownTimeout) {
+          clearTimeout(this.dropdownTimeout)
+          this.dropdownTimeout = null
+        }
+      },
+
+      // handleScroll () {
+      //
+      //   const windowY = window.scrollY;
+      //
+      //   if (windowY > 100) {
+      //     if (windowY < this.startY) {
+      //       this.showNav = true
+      //     } else {
+      //       this.showNav = false
+      //     }
+      //
+      // this.startY = windowY;
+      //   }
+      // },
+
+      handleScroll() {
         const windowY = window.scrollY;
+        const isMobile = window.innerWidth <= 1480;
 
         if (windowY > 100) {
           if (windowY < this.startY) {
-            this.showNav = true
-          } else {
-            this.showNav = false
+            this.showNav = true;
+          } else if (!isMobile) {
+            // Only hide nav on larger screens, keep it visible on mobile
+            this.showNav = false;
           }
-
-      this.startY = windowY;
+          this.startY = windowY;
         }
       },
 
@@ -239,7 +406,18 @@
 
       hideMobileMenu() {
         this.showDropdown = false;
+        this.activeMobileSubmenu = null; // Reset submenu state
         document.body.classList.remove("modal-open");
+      },
+
+      toggleMobileSubmenu(submenuKey) {
+        // Toggle the submenu - close if already open, open if closed
+        this.activeMobileSubmenu = this.activeMobileSubmenu === submenuKey ? null : submenuKey;
+      },
+      navigateAndClose(path) {
+        // Navigate to main menu item and close mobile menu
+        this.$router.push(this.localePath(path));
+        this.hideMobileMenu();
       },
 
       showContactModal() {
@@ -343,21 +521,28 @@
         display: flex
       }
       .main-menu__pages {
-
-        ul {
+        position: relative;
+        .main-menu__pages-top {
           display: flex;
           list-style: none;
           align-items: center;
           li {
-            a {
+            .main-menu__item {
+              padding: 5px 10px;
+              @media (max-width: 1480px) {
+                padding: 0 5px
+              }
+            }
+            .menu-no-link {
               padding: 5px 10px;
               @media (max-width: 1480px) {
                 padding: 0 5px
               }
             }
           }
-          .menu-item {
-
+          .test-menu-item {
+            padding: 0 10px;
+            margin-left: 20px;
             .menu-link {
               display: flex;
               align-items: center;
@@ -416,6 +601,22 @@
           }
         }
       }
+      .main-menu__lang {
+        margin-left: 20px;
+        text-transform: uppercase;
+        .dropdown-submenu {
+          min-width: 50px;
+          left: -10px;
+          a {
+            text-align: center;
+          }
+          li {
+            &:hover > a {
+                color: #bfbfbf
+            }
+          }
+        }
+      }
       .main-menu__right {
         display: flex;
         align-items: center;
@@ -441,7 +642,97 @@
           }
         }
       }
+      .dropdown-menu {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        cursor: pointer;
+      }
+
+      .dropdown-arrow {
+        font-size: 0.8em;
+        transition: transform 0.3s ease;
+
+      }
+
+      .dropdown-menu {
+        &:hover {
+          .dropdown-toggle {
+            color: #DB001D
+          }
+          .dropdown-arrow {
+            transform: rotate(180deg) translateY(-2px);
+            svg {
+              path {
+                fill: #DB001D
+              }
+            }
+          }
+        }
+      }
+
+      .dropdown-submenu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        // background: #000;
+        border-radius: 8px;
+        min-width: 200px;
+        z-index: 1000;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        transform: translateY(-3px);
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        &.dropdown-narrow {
+          min-width: 100px
+        }
+        .highlight {
+          background: linear-gradient(180deg, rgba(23, 35, 104, 0.8) 2.88%, rgba(226, 73, 175, 0.8) 100%), #000000;
+        }
+        li {
+          &:hover > a {
+              color: #bfbfbf
+          }
+        }
+      }
+
+      .dropdown-menu:hover .dropdown-submenu,
+      .dropdown-submenu:hover {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+
+      .dropdown-submenu a {
+        border: 1px solid #1f1f1f;
+        border-radius: 8px;
+        display: block;
+        background-color: #000;
+        padding: 12px 16px;
+        text-decoration: none;
+        color: #FFF;
+        transition: background-color 0.2s ease;
+        white-space: nowrap;
+      }
+
+      // .dropdown-submenu a:hover {
+      //   background: linear-gradient(180deg, rgba(23, 35, 104, 0.8) 2.88%, rgba(226, 73, 175, 0.8) 100%), #000000;
+      // }
+
+      .dropdown-submenu a.nuxt-link-active {
+        background-color: #000000;
+
+      }
     }
+
     .mobile-menu {
       .mobile-menu__dropdown {
         position: absolute;
@@ -479,9 +770,11 @@
         .mobile-menu__dropdown-main {
           text-align: center;
           margin: 40px 0 50px; /* 80px 0 50px */
-          li {
+          height: calc(100vh - 150px);
+          overflow-y: scroll;
+          .mobile-menu__item {
             margin-bottom: 15px;
-            &:first-child {
+            &.menu-decor {
               background: url('../assets/img/mobile-menu-decor.png') no-repeat;
               background-size: contain;
               padding: 26px 0 46px;
@@ -496,10 +789,10 @@
                 background-size: contain;
               }
             }
-            a {
+            > a {
               font-size: 1.4rem;
               font-weight: 700;
-              padding: 10px 12px;
+              padding: 0 12px;
               text-transform: uppercase;
               &.menu-link {
                 display: flex;
@@ -520,6 +813,12 @@
                 }
               }
             }
+            .menu-no-link{
+              font-size: 1.4rem;
+              font-weight: 700;
+              padding: 0 12px;
+              text-transform: uppercase;
+            }
           }
           .main-menu__locales {
             margin-bottom: 40px;
@@ -537,6 +836,108 @@
           display: none
         }
       }
+    }
+
+    .mobile-menu-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      cursor: pointer;
+      margin-bottom: 15px
+    }
+
+    .mobile-menu-toggle a {
+      font-size: 1.4rem;
+      font-weight: 700;
+      padding: 0 12px;
+      text-transform: uppercase;
+    }
+
+    .mobile-menu-toggle > div {
+      font-size: 1.4rem;
+      font-weight: 700;
+      padding: 0 12px;
+      text-transform: uppercase;
+    }
+
+    .mobile-submenu-arrow {
+      background: none;
+      border: none;
+      color: inherit;
+      padding: 15px 10px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mobile-submenu-arrow.active {
+      transform: rotate(180deg);
+    }
+
+    .mobile-submenu-arrow svg {
+      width: 12px;
+      height: 8px;
+    }
+
+    .mobile-submenu {
+      background: rgba(0, 0, 0, 0.1);
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+      animation: slideDown 0.3s ease-out;
+      margin-bottom: 15px
+    }
+
+    .mobile-submenu li {
+      background: #3d3d3d;
+    }
+
+    .mobile-submenu li:last-child {
+      border-bottom: none;
+    }
+
+    .mobile-submenu a {
+      display: block;
+      padding: 12px 20px;
+      padding-left: 30px; /* Indent submenu items */
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 0.9em;
+      transition: all 0.2s ease;
+    }
+
+    .mobile-submenu a:hover,
+    .mobile-submenu a:focus {
+      background: rgba(255, 255, 255, 0.1);
+      color: white;
+    }
+
+    .mobile-submenu a.nuxt-link-active {
+      background: rgba(255, 255, 255, 0.15);
+      color: white;
+      font-weight: 500;
+    }
+
+    /* Slide down animation */
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        max-height: 0;
+      }
+      to {
+        opacity: 1;
+        max-height: 300px;
+      }
+    }
+
+    /* Ensure smooth transitions */
+    .mobile-submenu {
+      overflow: hidden;
+      transition: all 0.3s ease;
     }
   }
 }

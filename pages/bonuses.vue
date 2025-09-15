@@ -16,8 +16,10 @@
             <div class="all-partners__content">
               <div v-for="(partner, idx) in promo" :key="idx" class="promopartner partner__wrap">
                 <div class="partners-card">
-                  <div class="partner-logo"><img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" loading="lazy" /></div>
-                  <div class="partner-offer">{{partner.promoText}}</div>
+                  <div class="partner-content">
+                    <div class="partner-logo"><img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" loading="lazy" /></div>
+                    <div class="partner-offer">{{partner.promoText}}</div>
+                  </div>
                   <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm" target="_blank">{{ `${partner.name}` == 'Gama' ? "Claim bonus" : $t('Claim Bonus!') }}</a>
                 </div>
               </div>
@@ -254,7 +256,7 @@ export default {
         }
         &.promopartner {
           margin: 10px;
-          width: 31%;
+          width: 30%;
           @media (max-width: 850px) {
             width: 45%
           }
@@ -262,11 +264,12 @@ export default {
             width: 100%
           }
           .partners-card {
-
-            background: #fff;
-            border-radius: 7px;
+            // background: #fff;
+            // border-radius: 7px;
+            background: #000;
             text-align: center;
-            padding: 15px 15px 25px;
+            // padding: 15px 15px 25px;
+            padding: 0 0 30px 0;
             height: 100%;
             display: flex;
             flex-direction: column;
@@ -275,28 +278,42 @@ export default {
               justify-self: stretch;
             }
             .partner-logo {
-              max-height: 230px;
+              // max-height: 230px;
+              height: 182px;
+              background: url('/images/img_bonuses-back.png') no-repeat;
+              background-size: cover;
               display: flex;
               align-items: center;
+              border: 2px solid #DB001D;
+              border-radius: 8px;
               img {
-                width: 100%;
+                // width: 100%;
                 border-radius: 8px;
+                display: block;
+                max-height: 178px;
+                margin: 2px auto;
               }
             }
             .partner-offer {
-              font-size: 1.12rem;
-              line-height: 25px;
-              margin-top: 40px;
-              margin-bottom: 20px;
-              color: #000;
+              // font-size: 1.12rem;
+              // line-height: 25px;
+              // margin-top: 40px;
+              // margin-bottom: 20px;
+              // color: #000;
+              font-size: .88rem;
+              line-height: 1.4;
+              color: #fff;
+              margin: 30px 0 15px;
+              padding: 0;
               white-space: pre-wrap
             }
             .buttn-sm {
               padding: 15px;
-              max-width: 200px;
-              font-size: 1.05rem;
+              // max-width: 200px;
+              width: 152px;
+              font-size: .88rem;
               margin: 0 auto;
-              width: 200px
+              // width: 200px
             }
           }
         }
