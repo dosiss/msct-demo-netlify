@@ -1,5 +1,16 @@
 [
   {
+  "name": "Jackpotter tournament boxes",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "From 5 to 2000+ Free Spins \nAnd other amazing bonuses \nUntil September 30th",
+  "url": "https://bit.ly/jackpotter-boxes",
+  "logoUrl": "partner_jackpotter.png"
+  },
+  {
   "name": "Jackpotter tournament",
   "type": "promopartner",
   "top": false,
