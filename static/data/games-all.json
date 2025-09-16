@@ -1022,6 +1022,13 @@
         "imgUrl": "img-feat_plinball-1.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Bounce, Land, Win: Plinball Machine Review",
+        "link": "https://mascot.games/blog/bounce-land-win-plinball-machine-review",
+        "image": "img_blog_plinball-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Plinball Machine, a video game by Mascot Gaming",
       "descr": "Lights, luck, and lavish wins await! Enjoy multiple balls launch and Free Balls feature."
