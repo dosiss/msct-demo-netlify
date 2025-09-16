@@ -424,15 +424,15 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_bamboodlx.jpeg",
-    "heroUrl": "hero_bamboodlx.jpg",
+    "thumbUrl": "game_bamboodlx2.jpeg",
+    "heroUrl": "hero_bamboodlx2.jpg",
     "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_bamboodlx.jpg",
     "logoUrl": "logo_bamboodlx.png",
     "backUrl": "back_bamboodlx.jpg",
-    "detailsImgUrl": "details_bamboodlx.png",
+    "detailsImgUrl": "details_bamboodlx2.png",
     "stats": {
       "reels": null,
       "rows": null,
@@ -525,7 +525,7 @@
       "descr": " "
     },
     "rockways": false
-  },  
+  },
   {
     "name": "Overheat",
     "slug": "overheat",
