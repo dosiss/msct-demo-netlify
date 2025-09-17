@@ -2550,5 +2550,71 @@
     "promoText": null,
     "url": "https://onlineslotsjp.com/mascot-gaming-purobaida.html",
     "logoUrl": "partner_onlineslotsjp.png"
+  },
+  {
+    "name": "Gamble instructor",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://gambleinstructor.com/mascot-gaming/",
+    "logoUrl": "partner_gambleinstructor2.jpg"
+  },
+  {
+    "name": "Casino sicuri",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casinosicuristranieri.com/provider-slot/mascot-gaming/",
+    "logoUrl": "partner_casinosicuri.jpg"
+  },
+  {
+    "name": "Casino strider it",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casinostrider.it/vendor/provider-mascotgames/",
+    "logoUrl": "partner_casinostriderit.jpg"
+  },
+  {
+    "name": "Casino strider hu",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casinostrider-hu.com/vendor/provider-mascotgames/",
+    "logoUrl": "partner_casinostriderhu.jpg"
+  },
+  {
+    "name": "Casino strider sk",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casinostrider.sk/provider-mascotgames/",
+    "logoUrl": "partner_casinostridersk.jpg"
+  },
+  {
+    "name": "Casino slot spelen",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casinoslotsspelen.nl/gokkasten/?sl-provider=mascot-gaming",
+    "logoUrl": "partner_spelen.jpg"
   }
 ]
