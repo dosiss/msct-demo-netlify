@@ -10,6 +10,7 @@
         <div class="static-background">
             <div class="container">
                 <div class="top-header__wrap">
+                  <img src="/images/img_10years-mobile.png" class="years-badge-mobile" alt="" />
                   <img src="/images/img_sound-award-mobile.png" class="sound-badge-mobile" alt="" />
                       <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
                       <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl hero-buttn">{{ $t('Play our games') }}</a>
@@ -38,6 +39,7 @@
           </div>
           <div class="container">
             <img src="/images/img_sound-award-desktop.png" class="sound-badge-desktop" alt="" />
+            <img src="/images/img_10years-desktop.png" class="years-badge-desktop" alt="" />
               <div class="top-header__wrap">
                 <div class="top-header__left">
                     <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
@@ -212,6 +214,23 @@ html:lang(pt){
       right: 35px
     }
   }
+  .years-badge-desktop {
+    position: absolute;
+    top: 188px;
+    right: 175px;
+    max-width: 288px;
+    height: auto;
+    @media (min-width: 1960px) {
+      right: 50%;
+      margin-right: -820px;
+    }
+    @media (max-width: 1460px) {
+      right: 120px
+    }
+    @media (max-width: 1200px) {
+      right: 35px
+    }
+  }
 }
 .top-header__wrap {
   padding: 280px 0 200px;
@@ -225,7 +244,14 @@ html:lang(pt){
   .sound-badge-mobile {
     max-width: 96px;
     height: auto;
-    margin-bottom: 7px
+    margin-bottom: 7px;
+    display: block;
+  }
+  .years-badge-mobile {
+    max-width: 96px;
+    height: auto;
+    margin-bottom: 0;
+    display: block;
   }
 
   h1 {
