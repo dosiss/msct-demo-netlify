@@ -529,32 +529,32 @@
   {
     "name": "Overheat",
     "slug": "overheat",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/overheat",
     "theme": "tictactoe",
-    "type": " ",
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-09-25",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_overheat.jpeg",
-    "heroUrl": "hero_overheat2.jpg",
+    "thumbUrl": "game_overheat3.jpeg",
+    "heroUrl": "hero_overheat3.jpg",
     "blueButtn": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": " ",
     "logoUrl": "logo_overheat.png",
-    "backUrl": " ",
-    "detailsImgUrl": "details_overheat.png",
+    "backUrl": "back_overheat.jpg",
+    "detailsImgUrl": "details_overheat3.png",
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
@@ -565,7 +565,7 @@
       {
         "name": "Crash Game",
         "descr": "The win multiplier continuously grows, and the player must cash out their bet before the explosion",
-        "imgUrl": "img-feat_overheat-0.jpg"
+        "imgUrl": null
       },
       {
         "name": "Controlled Growth",
@@ -575,6 +575,11 @@
       {
         "name": "Growing Multiplier",
         "descr": "A dynamic multiplier that can reach up to x10 000",
+        "imgUrl": null
+      },
+      {
+        "name": "Live Leaderboard",
+        "descr": "The online board shows recent bets and the biggest wins in the game’s history",
         "imgUrl": "img-feat_overheat-2.jpg"
       },
       {
@@ -585,12 +590,12 @@
       {
         "name": "Customization",
         "descr": "Players can personalize the game area and interface elements to their liking using customization options",
-        "imgUrl": "img-feat_overheat-5.jpg"
+        "imgUrl": "img-feat_overheat-4.jpg"
       }
     ],
     "meta": {
-      "title": "Overheat, a video game TTT Games",
-      "descr": " "
+      "title": "Overheat, a video crash game by TTT Games",
+      "descr": "Ride the waves with x10000, amazing social features and controlled growth."
     },
     "rockways": false
   },
