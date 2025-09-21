@@ -3,7 +3,7 @@
     <div class="partners__head">
       <h2 class="partners__head-title game-subtitle">{{$t('Check out our Partners` offers')}}</h2>
       <nuxt-link :to="localePath('/bonuses')" class="inner-link link-yellow link-desktop">
-        <span>{{$t('Other casino offers')}}</span>
+        <span>{{$t('Other casino bonuses')}}</span>
         <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
         </svg>
@@ -13,15 +13,17 @@
       <div class="partners__content">
         <div v-for="(partner, idx) in promoPartners" :key="idx" class="partner__wrap promopartner">
           <div class="partners-card">
-            <div class="partner-logo"><img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" /></div>
-            <div class="partner-offer">{{partner.promoText}}</div>
+            <div class="partner-content">
+              <div class="partner-logo"><img :src="`/images/${partner.logoUrl}`" :alt="`${partner.name}`" /></div>
+              <div class="partner-offer">{{partner.promoText}}</div>
+            </div>
             <a :href="`${partner.url}`" class="buttn buttn-primary buttn-sm" target="_blank">{{ `${partner.name}` == 'Gama' ? "Claim bonus" : $t('Claim Bonus!') }}</a>
           </div>
         </div>
       </div>
     </div>
     <nuxt-link :to="localePath('/bonuses')" class="inner-link link-yellow link-mobile">
-      <span>{{ $device.isMobile ? $t('Other casino offers') : $t('Other casino offers') }}</span>
+      <span>{{ $device.isMobile ? $t('Other casino bonuses') : $t('Other casino bonuses') }}</span>
       <svg width="12" height="19" viewBox="0 0 12 19" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M2 2L9.5 9.5L2 17"  stroke-width="3" stroke-linecap="round"/>
       </svg>
@@ -132,11 +134,11 @@
       justify-items: center
     }
     .partners-card {
-
       background: #fff;
-      border-radius: 7px;
+      padding: 12px 12px 20px;
+      border: 1px solid #db001d;
+      border-radius: 5px;
       text-align: center;
-      padding: 15px 15px 25px;
       height: 100%;
       display: flex;
       flex-direction: column;
@@ -145,28 +147,43 @@
         justify-self: stretch;
       }
       .partner-logo {
-        max-height: 230px;
+        // max-height: 230px;
+        height: 182px;
+        background: url('/images/img_bonuses-back.png'), #000;
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         align-items: center;
+        border: 1px solid #DB001D;
+        border-radius: 5px;
         img {
-          width: 100%;
-          border-radius: 8px;
+          // width: 100%;
+          border-radius: 5px;
+          display: block;
+          max-height: 178px;
+          margin: 2px auto;
         }
       }
       .partner-offer {
-        font-size: 1.12rem;
-        line-height: 25px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-        color: #000;
+        // font-size: 1.12rem;
+        // line-height: 25px;
+        // margin-top: 40px;
+        // margin-bottom: 20px;
+        // color: #000;
+        font-size: .88rem;
+        line-height: 1.4;
+        color: #121212;
+        margin: 25px 0 15px;
+        padding: 0;
         white-space: pre-wrap
       }
       .buttn-sm {
         padding: 15px;
-        max-width: 200px;
-        font-size: 1.05rem;
+        // max-width: 200px;
+        width: 152px;
+        font-size: .88rem;
         margin: 0 auto;
-        width: 200px
+        // width: 200px
       }
     }
   }

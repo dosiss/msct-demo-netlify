@@ -218,6 +218,8 @@
         bodyFormData.append('message', this.message);
         bodyFormData.append('usertype', this.usertype);
         bodyFormData.append('contacttype', this.contacttype);
+        bodyFormData.append('source', window.location.href);
+
         if (this.usertype === 'Online Casino' || this.usertype === 'Platform') {
           bodyFormData.append('template_id', 'template_j7x74aq');
         } else if (this.usertype === 'Media') {
@@ -268,7 +270,7 @@
             this.loading = false;
           }
 
-        },      
+        },
 
       async sendToGoogleSheet() {
         const webhookData = {

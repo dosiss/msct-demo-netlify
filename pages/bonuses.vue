@@ -264,12 +264,11 @@ export default {
             width: 100%
           }
           .partners-card {
-            // background: #fff;
-            // border-radius: 7px;
-            background: #000;
+            background: #fff;
+            padding: 12px 12px 20px;
+            border: 1px solid #db001d;
+            border-radius: 5px;
             text-align: center;
-            // padding: 15px 15px 25px;
-            padding: 0 0 30px 0;
             height: 100%;
             display: flex;
             flex-direction: column;
@@ -280,15 +279,16 @@ export default {
             .partner-logo {
               // max-height: 230px;
               height: 182px;
-              background: url('/images/img_bonuses-back.png') no-repeat;
+              background: url('/images/img_bonuses-back.png'), #000;
+              background-repeat: no-repeat;
               background-size: cover;
               display: flex;
               align-items: center;
-              border: 2px solid #DB001D;
-              border-radius: 8px;
+              border: 1px solid #DB001D;
+              border-radius: 5px;
               img {
                 // width: 100%;
-                border-radius: 8px;
+                border-radius: 5px;
                 display: block;
                 max-height: 178px;
                 margin: 2px auto;
@@ -302,8 +302,8 @@ export default {
               // color: #000;
               font-size: .88rem;
               line-height: 1.4;
-              color: #fff;
-              margin: 30px 0 15px;
+              color: #121212;
+              margin: 25px 0 15px;
               padding: 0;
               white-space: pre-wrap
             }
