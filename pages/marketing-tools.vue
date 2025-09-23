@@ -384,6 +384,9 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
   }
 </script>
 <style lang="scss" scoped>
+  html {
+    scroll-snap-type: y mandatory;
+  }
   #promo {
     overflow-x: hidden;
     .promo__top {
@@ -670,7 +673,11 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
         }
       }
     }
+    
     .promo__feature {
+      min-height: 100vh;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
       padding-top: 60px;
       @media (max-width: 650px) {
         padding-top: 20px
