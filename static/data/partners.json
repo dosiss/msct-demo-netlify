@@ -2616,5 +2616,16 @@
     "promoText": null,
     "url": "https://casinoslotsspelen.nl/gokkasten/?sl-provider=mascot-gaming",
     "logoUrl": "partner_spelen.jpg"
+  },
+  {
+    "name": "Casinologia",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casinologia.com/slot-providers/mascot-gaming/",
+    "logoUrl": "partner_casinologia.png"
   }
 ]

@@ -20,10 +20,14 @@
             <ul class="footer-menu">
               <li><NuxtLink :to="localePath('/games')">{{ $t('Games') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/tic-tac-toe-games')">{{ $t('TTT games') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/marketing-tools')">{{ $t('Promo') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
+              <li><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
+
+              <li><NuxtLink :to="localePath('/bonuses')">{{ $t('Casino Bonuses') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
               <li><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
-              <li><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
               <!-- <li><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li> -->
               <li><a href="https://client.mascot.games" target="_blank" class="footer-menu__clientarea">{{ $t('Client Area') }}</a></li>
             </ul>
@@ -368,18 +372,26 @@
             }
 
           }
+          .site-name {
+            white-space: nowrap;
+          }
           .footer-menu {
             display: flex;
+            flex-wrap: wrap;
             width: 490px;
             margin-bottom: 35px;
-            justify-content: space-between;
+            justify-content: flex-start;
             font-size: .9rem;
             @media (max-width: 850px) {
               width: 425px;
               margin-bottom: 20px;
             }
-            @media (max-width: 650px) {
+            @media (max-width: 767px) {
               display: none;
+            }
+            li {
+              margin-right: 18px;
+              margin-bottom: 10px
             }
           }
           .footer-content__social-title {
