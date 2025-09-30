@@ -527,6 +527,59 @@
     "rockways": false
   },
   {
+    "name": "European Roulette",
+    "slug": "european-roulette",
+    "linkToDemo": "demo.mascot.games/run/european_roulette",
+    "theme": "table/cards",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2025-10-09",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_euroulette2.jpeg",
+    "heroUrl": "hero_euroulette2.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_euroulette.jpg",
+    "logoUrl": "logo_euroulette.png",
+    "backUrl": "back_euroulette.jpg",
+    "detailsImgUrl": "details_euroulette.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "Low",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": "European Classic Format",
+        "descr": "A traditional European Roulette featuring 36 numbers and a single zero",
+        "imgUrl": "img-feat_euroulette-0.jpg"
+      },
+      {
+        "name": "Betting Options",
+        "descr": "Includes inside, outside, and special betting options",
+        "imgUrl": "img-feat_euroulette-1.jpg"
+      }
+    ],
+    "meta": {
+      "title": "European Roulette, a video table game by Mascot Gaming",
+      "descr": "This polished release follows the classic European format — 36 numbers and just one zero — capturing the pure essence of roulette with every spin."
+    }
+  },
+  {
     "name": "Overheat",
     "slug": "overheat",
     "linkToDemo": "demo.mascot.games/run/overheat",
@@ -598,59 +651,6 @@
       "descr": "Ride the waves with x10000, amazing social features and controlled growth."
     },
     "rockways": false
-  },
-  {
-    "name": "European Roulette",
-    "slug": "european-roulette",
-    "linkToDemo": " ",
-    "theme": "table/cards",
-    "type": null,
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "rockways": false,
-    "comingSoon": true,
-    "releaseDate": "2025-10-09",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_euroulette.jpeg",
-    "heroUrl": "hero_euroulette.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_euroulette.jpg",
-    "logoUrl": "logo_euroulette.png",
-    "backUrl": "back_euroulette.jpg",
-    "detailsImgUrl": "details_euroulette.png",
-    "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
-      "payways": null,
-      "html5": true,
-      "rtp": null,
-      "hitrate": null
-    },
-    "features": [
-      {
-        "name": "European Classic Format",
-        "descr": "A traditional European Roulette featuring 36 numbers and a single zero",
-        "imgUrl": "img-feat_euroulette-0.jpg"
-      },
-      {
-        "name": "Betting Options",
-        "descr": "Includes inside, outside, and special betting options",
-        "imgUrl": "img-feat_euroulette-1.jpg"
-      }
-    ],
-    "meta": {
-      "title": "European Roulette, a video table game by Mascot Gaming",
-      "descr": " "
-    }
   },
   {
     "name": "Wild Spirit Deluxe",
