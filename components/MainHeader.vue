@@ -385,6 +385,12 @@
       // },
 
       handleScroll() {
+        const isMarketingToolsPage = this.$route.path.includes('marketing-tools');
+        // Always show nav on marketing-tools pages
+        if (isMarketingToolsPage) {
+          this.showNav = true;
+          return;
+        }
         const windowY = window.scrollY;
         const isMobile = window.innerWidth <= 1480;
 

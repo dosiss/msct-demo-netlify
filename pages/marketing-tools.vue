@@ -8,7 +8,10 @@
             <div class="promo__top-content">
               <h1 class="promo__top-title">{{$t('Marketing tools')}}</h1>
               <div class="promo__top-description">
-                <p>{{$t('To help operators boost engagement and drive revenue, we offer a full spectrum of flexible promo tools — from branded campaigns and creative assets to advanced bonus mechanics and exclusive deals. Every promo is tailored to your goals, market, and platform to deliver maximum impact.')}}</p>
+                <p>{{$t('To help operators boost engagement and drive revenue, we offer a full spectrum of')}}
+                   <nuxt-link to="https://mascot.games/" target="_blank">{{$t('iGaming solutions')}}</nuxt-link>
+                   {{$t(' and promo tools — from branded campaigns and creative assets to advanced bonus mechanics and exclusive deals. Every promo is tailored to your goals, market, and platform to deliver maximum impact.')}}
+                </p>
               </div>
               <div class="promo__top-buttn">
                 <a class="buttn buttn-yellow buttn-m" @click="showModalOffer = true">{{$t('Get Promo Offer')}}</a>
@@ -252,7 +255,7 @@
         <div class="container">
           <div class="promo__feature-inner">
             <div class="feature__img">
-              <nuxt-img  src="/images/img_promo_support3.png" alt="" />
+              <nuxt-img  src="/images/img_promo_support4.png" alt="" />
             </div>
             <div class="feature__text">
               <!-- <h2 class="feature__text-title">{{$t('Marketing Support')}}</h2> -->
@@ -279,7 +282,7 @@
         <div class="container">
           <div class="promo__feature-inner">
             <div class="feature__img">
-              <nuxt-img  src="/images/img_promo_bigwin.png" alt="" />
+              <nuxt-img  src="/images/img_promo_bigwin2.png" alt="" />
             </div>
             <div class="feature__text">
               <!-- <h2 class="feature__text-title">{{$t('Marketing Support')}}</h2> -->
@@ -312,6 +315,10 @@
               <h2 class="feature__text-title">{{$t('See our games in action')}}</h2>
               <div class="feature__text-content">
                 <p>{{$t('Would you like to start conversation with Mascot Gaming in any field? Drop us a line!')}}</p>
+                <p>{{$t('Mascot Gaming offers')}}
+                  <nuxt-link to="https://mascot-games" target="_blank">{{$t('iGaming Solutions')}}</nuxt-link>
+                  {{$t(' tailored for operators worldwide.')}}
+                </p>
                 <div class="feature__img">
                   <nuxt-img src="/images/img_promo_joker.png" alt="" />
                 </div>
@@ -643,7 +650,7 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
       }
     }
     #marketingSupport {
-      padding-top: 0;
+      padding-top: 30px;
       @media (max-width: 850px) {
         padding-top: 30px
       }
@@ -657,6 +664,7 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
       }
     }
     #bigWinCampaigns {
+      padding-top: 80px;
       @media (max-width: 650px) {
         padding-top: 50px
       }
@@ -673,7 +681,7 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
         }
       }
     }
-    
+
     .promo__feature {
       min-height: 100vh;
       scroll-snap-align: start;
@@ -867,6 +875,11 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
       }
       @media (max-width: 850px) {
         padding-top: 40px
+      }
+    }
+    p {
+      a {
+        text-decoration: underline;
       }
     }
   }
