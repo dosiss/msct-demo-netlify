@@ -9,7 +9,7 @@
               <h1 class="promo__top-title">{{$t('Marketing tools')}}</h1>
               <div class="promo__top-description">
                 <p>{{$t('To help operators boost engagement and drive revenue, we offer a full spectrum of')}}
-                   <nuxt-link to="https://mascot.games/" target="_blank">{{$t('iGaming solutions')}}</nuxt-link>
+                   <nuxt-link :to="localePath('/')" target="_blank">{{$t('iGaming solutions')}}</nuxt-link>
                    {{$t(' and promo tools — from branded campaigns and creative assets to advanced bonus mechanics and exclusive deals. Every promo is tailored to your goals, market, and platform to deliver maximum impact.')}}
                 </p>
               </div>
@@ -316,7 +316,7 @@
               <div class="feature__text-content">
                 <p>{{$t('Would you like to start conversation with Mascot Gaming in any field? Drop us a line!')}}</p>
                 <p>{{$t('Mascot Gaming offers')}}
-                  <nuxt-link to="https://mascot-games" target="_blank">{{$t('iGaming Solutions')}}</nuxt-link>
+                  <nuxt-link :to="localePath('/')" target="_blank">{{$t('iGaming Solutions')}}</nuxt-link>
                   {{$t(' tailored for operators worldwide.')}}
                 </p>
                 <div class="feature__img">
