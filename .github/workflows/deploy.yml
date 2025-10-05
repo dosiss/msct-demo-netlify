@@ -1,0 +1,68 @@
+name: Deploy Main Site to VPS
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.19.0'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        run: npm run generate
+        env:
+          NODE_ENV: production
+          # Add your environment variables here
+          # NUXT_ENV_API_URL: https://my-domain.com/api
+
+      - name: Deploy to VPS
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USERNAME }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_PORT }}
+          source: "dist/*"
+          target: "/var/www/mascot.games/frontends/mascot-main-temp"
+          strip_components: 1
+
+      - name: Activate new deployment
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USERNAME }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_PORT }}
+          script: |
+            # Backup current deployment
+            if [ -d /var/www/mascot.games/frontends/mascot-main-backup ]; then
+              rm -rf /var/www/mascot.games/frontends/mascot-main-backup
+            fi
+            if [ -d /var/www/mascot.games/frontends/mascot-main ]; then
+              mv /var/www/mascot.games/frontends/mascot-main /var/www/mascot.games/frontends/mascot-main-backup
+            fi
+
+            # Move new deployment to production
+            mv /var/www/mascot.games/frontends/mascot-main-temp /var/www/mascot.games/frontends/mascot-main
+
+            # Set proper permissions
+            chmod -R 755 /var/www/mascot.games/frontends/mascot-main
+
+            # Reload Nginx
+            sudo service nginx reload
+
+            echo "Main site deployment completed successfully!"
