@@ -146,7 +146,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     computed: {
       gamesFeatured() {
 
-        const gameOrder = ['space-blaze', 'mines-blast', '10k-dice', 'plinko-pop', 'keno-party'];
+        const gameOrder = ['overheat', 'plinko-pop', 'skyrocket', 'space-blaze', 'mines-blast', '10k-dice', 'keno-party'];
 
         const filteredGames = this.gamesList.filter(val => (val.theme === 'tictactoe' && val.comingSoon !== true));
 
@@ -259,7 +259,16 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
 
   }
 }
+.buttn {
+  &.buttn-blue {
+    background: linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%), #3BAEFF;
+    @media (max-width: 650px) {
+      padding-top: 19px;
+      padding-bottom: 19px
 
+    }
+  }
+}
 .featured-static__wrap {
   .featured-static__background {
     transition: all .5s;
@@ -278,20 +287,23 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
       background-position: center;
     }
     .buttn-custom {
-      padding: 10px 12px;
-      border: 1px solid #4382FF;
-      max-width: fit-content;
+      width: 200px;
+      text-align: center;
+      padding: 16px 12px;
+      background: linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%), #3BAEFF;
       margin: 0 auto;
-      color: #4382FF;
+      color: #fff;
       border-radius: 8px;
+      font-size: 1.1rem;
       font-weight: 700;
+      text-transform: uppercase;
       line-height: 1;
       cursor: pointer;
-      font-size: .92rem;
     }
+
   }
   .featured-header__wrap {
-    height: 270px;
+    height: 250px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -301,7 +313,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     @media (max-width: 850px) {
       flex-direction: column;
       align-items: center;
-      height: 270px;
+      height: 250px;
       position: relative;
       z-index: 1;
       /* only christmas theme: */
