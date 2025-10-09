@@ -7,7 +7,7 @@
             <div class="swiper-wrapper">
               <div v-for="(game, idx) in gamesFeatured" :key="idx"  :class="{ 'selected': idx === 0 }" class="swiper-slide game-hero" :data-name="`${game.slug}`" @click="toggleGame" >
                 <div class="game-hero__outer" :style="{ backgroundImage: `url(/images/${game.heroUrl})` }">
-                  <div class="game-hero__inner">
+                  <div class="game-hero__inner" :class="`game_${game.slug}`">
                     <NuxtLink :to="`${game.slug}`">
                       <img v-if="game.logoUrl !== null" :src="`/images/${game.logoUrl}`" class="game-logo" :alt="`${game.name}`" />
                     </NuxtLink>
@@ -24,7 +24,7 @@
 
   <div v-else class="featured-static__wrap">
 
-      <div class="featured-static__background" :style="{ backgroundImage: `url(/images/${backgroundGameData.backgroundUrl})` }"> <!-- :style="{ backgroundImage: `url(${backgroundUrl})` }" -->
+      <div class="featured-static__background" :class="`game_${backgroundGameData.slug}`" :style="{ backgroundImage: `url(/images/${backgroundGameData.backgroundUrl})` }"> <!-- :style="{ backgroundImage: `url(${backgroundUrl})` }" -->
           <div class="container">
               <div class="featured-header__wrap" :class="`game_${backgroundGameData.slug}`">
                 <div class="featured-header__content">
@@ -268,6 +268,165 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
 
     }
   }
+  &.buttn-custom {
+    width: 200px;
+    text-align: center;
+    padding: 16px 12px;
+    background: linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%), #3BAEFF;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    cursor: pointer;
+  }
+}
+
+.game_overheat {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%);
+    }
+  }
+}
+.game_plinko-pop {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.98deg, #59CEFF 0%, #23B3EF 100%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.98deg, #59CEFF 0%, #23B3EF 100%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.98deg, #59CEFF 0%, #23B3EF 100%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.98deg, #59CEFF 0%, #23B3EF 100%);
+    }
+  }
+}
+.game_skyrocket {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.98deg, #FFB74E 0%, #F39E22 100%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.98deg, #FFB74E 0%, #F39E22 100%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.98deg, #FFB74E 0%, #F39E22 100%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.98deg, #FFB74E 0%, #F39E22 100%);
+    }
+  }
+}
+.game_space-blaze {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.98deg, #80BBF7 0%, #5796F5 100%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.98deg, #80BBF7 0%, #5796F5 100%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.98deg, #80BBF7 0%, #5796F5 100%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.98deg, #80BBF7 0%, #5796F5 100%);
+    }
+  }
+}
+.game_mines-blast {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.02deg, #FDA067 -0.08%, #FE8A43 99.92%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.02deg, #FDA067 -0.08%, #FE8A43 99.92%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.02deg, #FDA067 -0.08%, #FE8A43 99.92%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.02deg, #FDA067 -0.08%, #FE8A43 99.92%);
+    }
+  }
+}
+.game_10k-dice {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.02deg, #C69BFF -0.08%, #AF6EFF 99.92%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.02deg, #C69BFF -0.08%, #AF6EFF 99.92%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.02deg, #C69BFF -0.08%, #AF6EFF 99.92%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.02deg, #C69BFF -0.08%, #AF6EFF 99.92%);
+    }
+  }
+}
+.game_keno-party {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+  }
+}
+.game_rooster-run {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.02deg, #DE9BE8 -0.08%, #B36FD6 99.92%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.02deg, #DE9BE8 -0.08%, #B36FD6 99.92%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.02deg, #DE9BE8 -0.08%, #B36FD6 99.92%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.02deg, #DE9BE8 -0.08%, #B36FD6 99.92%);
+    }
+  }
+}
+.game_double-roulette {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.02deg, #FDA4A4 -0.08%, #FE6868 99.92%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.02deg, #FDA4A4 -0.08%, #FE6868 99.92%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.02deg, #FA9B9B -0.08%, #FE6868 99.92%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.02deg, #FA9B9B -0.08%, #FE6868 99.92%);
+    }
+  }
 }
 .featured-static__wrap {
   .featured-static__background {
@@ -285,20 +444,6 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
       height: 700px;
       padding-top: 100px;
       background-position: center;
-    }
-    .buttn-custom {
-      width: 200px;
-      text-align: center;
-      padding: 16px 12px;
-      background: linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%), #3BAEFF;
-      margin: 0 auto;
-      color: #fff;
-      border-radius: 8px;
-      font-size: 1.1rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      line-height: 1;
-      cursor: pointer;
     }
 
   }

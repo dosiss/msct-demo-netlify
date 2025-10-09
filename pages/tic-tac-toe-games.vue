@@ -124,13 +124,13 @@
   #ttt-games {
     .ttt-games__top {
       padding: 160px 0 100px;
-      background: url('/images/img_ttt-games-top2.jpg') no-repeat;
+      background: url('/images/img_ttt-games-top3.jpg') no-repeat;
       background-size: cover;
       background-position: top center;
       @media (max-width: 650px) {
         padding: 100px 0 60px;
-        background: url('/images/img_ttt-games-top2-mob.jpg') no-repeat;
-        background-size: cover;
+        background: url('/images/img_ttt-games-top3-mob.jpg') no-repeat;
+        background-size: 100%;
         background-position-y: bottom;
       }
       .ttt-games__top-buttn {
@@ -144,7 +144,7 @@
           width: 285px;
           margin-right: 15px;
           font-size: 1.13rem;
-          background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%), #38A5EE;
+          background: radial-gradient(18.6% 42.59% at 8.95% 23.21%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%), #38A5EE;
           @media (max-width: 650px) {
             width: 100%;
             margin-right: 0;
@@ -155,6 +155,12 @@
               padding-top: 19px;
               padding-bottom: 19px;
             }
+          }
+          &:hover {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), radial-gradient(18.6% 42.59% at 8.95% 23.21%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%), #38A5EE;
+          }
+          &:active {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), radial-gradient(18.6% 42.59% at 8.95% 23.21%, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%), #38A5EE;
           }
         }
         .buttn-white {
@@ -171,6 +177,12 @@
               padding-top: 19px;
               padding-bottom: 19px;
             }
+          }
+          &:hover {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), rgba(184, 201, 251, 0.25);
+          }
+          &:active {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), rgba(184, 201, 251, 0.25);
           }
         }
       }
