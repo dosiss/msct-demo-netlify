@@ -202,7 +202,7 @@
         <div class="container">
           <div class="promo__feature-inner">
             <div class="feature__img">
-              <nuxt-img  src="/images/img_promo_tournaments.png" alt="" />
+              <nuxt-img  src="/images/img_promo_tournaments2.png" alt="" />
             </div>
             <div class="feature__text">
               <div class="coming-soon-badge">{{$t('Coming soon')}}</div>

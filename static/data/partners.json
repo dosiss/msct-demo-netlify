@@ -1,16 +1,5 @@
 [
   {
-  "name": "Ripperpokies tournament",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Bastet and Cats Deluxe \nCode: QUEENROO \n100% up to $1,000 \n20 Free Spins \nUntil October 7th",
-  "url": "https://bit.ly/ripperpokies-halloween-costume-hunt",
-  "logoUrl": "partner_ripperpokies_tournament.jpg"
-  },
-  {
     "name": "PariMatch",
     "type": "promopartner",
     "top": false,
