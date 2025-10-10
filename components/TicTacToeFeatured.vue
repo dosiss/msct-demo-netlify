@@ -47,9 +47,6 @@
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
                   <img :src="`/images/${game.thumbUrl}`" :alt="`${game.name}`" />
-                  <div class="game-content__wrap" >
-
-                  </div>
                 </div>
               </div>
               </div>
@@ -146,7 +143,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     computed: {
       gamesFeatured() {
 
-        const gameOrder = ['overheat', 'plinko-pop', 'skyrocket', 'space-blaze', 'mines-blast', '10k-dice', 'keno-party'];
+        const gameOrder = ['overheat', 'plinko-pop', 'skyrocket', 'space-blaze', 'rooster-run', 'mines-blast', '10k-dice', 'double-roulette', 'keno-party'];
 
         const filteredGames = this.gamesList.filter(val => (val.theme === 'tictactoe' && val.comingSoon !== true));
 
@@ -434,9 +431,12 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     background-repeat: no-repeat;
     /* padding-top: 170px; Non-christmas theme */
     padding-top: 100px;
-    height: 820px;
+    height: 940px;
     background-size: cover;
     background-position: top center;
+    @media (max-width: 2100px) {
+      height: 820px
+    }
     @media (max-width: 1600px) {
       height: 760px
     }
@@ -512,7 +512,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
   .video-wrapper {
     position: relative;
     width: 100%;
-    height: 820px;
+    height: 940px;
     padding-top: 170px;
     overflow: hidden;
     #bgvideo {
@@ -555,6 +555,8 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
 }
 
 .slider-outer {
+  margin-top: 0;
+  margin-bottom: 0;
   // padding-bottom: 160px;
   padding-bottom: 0;
   position: relative;
@@ -630,18 +632,32 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     padding-left: 0
   }
   .swiper-wrapper {
-    padding-bottom: 0;
+    padding-bottom: 40px;
     @media (max-width: 1024px) {
-      padding-bottom: 20px
+      padding-bottom: 50px;
+    }
+    @media (max-width: 650px) {
+      padding-bottom: 0
     }
   }
   .swiper-pagination {
-    @media (min-width: 1024px) {
+
+    @media (min-width: 1025px) {
       display: none;
+    }
+    @media (max-width: 1024px) {
+    bottom: 0
+    }
+    @media (max-width: 850px) {
+    bottom: 19px
+    }
+    @media (max-width: 650px) {
+    bottom: 20px
     }
   }
 }
 .swiper-slide {
+  max-width: 560px;
   &.game-thumbnail {
     .game-thumbnail__outer {
       padding: 8px 0;
@@ -652,7 +668,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     }
 
     &:not(.selected) {
-      .game-content__wrap {
+      .game-thumbnail__inner {
           &:before {
             content: '';
             position: absolute;
@@ -660,7 +676,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
             right: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,.5);
+            background: #1C254073;
             border-radius: 12px
           }
 
@@ -669,7 +685,8 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     }
   }
     img {
-      border-radius: 10px;
+      border-radius: 12px;
+      display: block;
     }
 }
 .swiper-slide {
@@ -684,7 +701,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
       justify-content: center;
       &:before {
         position: absolute;
-        content: '';
+        content: none;
         top: 0;
         right: 0;
         width: 100%;
@@ -698,7 +715,8 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
         right: 0;
         width: 100%;
         height: 75px;
-        background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        // background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(180deg, rgba(7, 14, 29, 0) 0%, rgba(0, 0, 0, 0) 90%, #000000 100%)
 
       }
       @media (max-width: 650px) {
@@ -716,13 +734,17 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
           display: block;
           margin-bottom: 30px;
           @media (max-width: 850px) {
-            margin-bottom: 35px;
+            margin-bottom: 55px;
           }
           @media (max-width: 650px) {
             width: 100%;
           }
           img {
             max-width: 250px;
+            @media (max-width: 650px) {
+              max-width: 100%;
+              margin: 0 auto;
+            }
 
           }
         }

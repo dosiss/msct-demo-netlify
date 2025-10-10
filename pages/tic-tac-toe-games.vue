@@ -358,7 +358,7 @@
       overflow-x: hidden;
       position: relative;
       z-index: 0;
-      padding: 100px 0;
+      padding: 80px 0;
       border-bottom: 1px solid #ffffff40;
       background: #151826;
       @media (max-width: 650px) {
