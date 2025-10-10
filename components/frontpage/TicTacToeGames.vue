@@ -67,7 +67,7 @@
         }
       }
       .ttt-games__top-description {
-        max-width: 700px;
+        max-width: 663px;
         padding: 30px 0 45px;
         color: #E7EDFE;
         p {
@@ -83,6 +83,10 @@
         display: flex;
         column-gap: 60px;
         align-items: center;
+        justify-content: space-between;
+        @media (min-width: 1800px) {
+          justify-content: center;
+        }
         .ttt-games__top-left {
           .ttt-logo__wrap {
             position: relative;
