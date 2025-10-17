@@ -470,20 +470,20 @@
   {
     "name": "Tessa Hunt and the Warrior Tomb",
     "slug": "tessa-hunt-and-the-warrior-tomb",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/tessa_hunt_and_the_warrior_tomb",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-10-23",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_tessatomb.jpeg",
+    "thumbUrl": "game_tessatomb2.jpeg",
     "heroUrl": "hero_tessatomb.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -493,16 +493,16 @@
     "backUrl": "back_tessatomb.jpg",
     "detailsImgUrl": "details_tessatomb.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 15,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "adventure", "girls" ],
+    "category": [ "adventure" ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -517,12 +517,12 @@
       {
         "name": "Free Spins with Win Multiplier",
         "descr": "3 types of Free Spins: with x2, x5 or x10 win multipliers",
-        "imgUrl": "img-feat_tessatomb-2.jpg"
+        "imgUrl": "img-feat_tessatomb-21.jpg"
       }
     ],
     "meta": {
       "title": "Tessa Hunt and the Warrior Tomb, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Embark on a new adventure with Tessa and her companions: x3000, Risk & Buy ,and Free Spins with different multipliers."
     },
     "rockways": false
   },
@@ -668,7 +668,7 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_wildspiritdlx.jpeg",
+    "thumbUrl": "game_wildspiritdlx.svg",
     "heroUrl": "hero_wildspiritdlx.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -727,7 +727,7 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_scratchbank.jpeg",
+    "thumbUrl": "game_scratchbank.svg",
     "heroUrl": "hero_scratchbank.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -9814,7 +9814,7 @@
     "branded": false,
     "custom": false,
     "descr": "La hija de Nefertiti, la bella reina Anksunamun, te ayudará a resolver los misterios de la tumba del faraón. ¿Estás preparado para una aventura única? ¡Grandes tesoros, dioses, faraones y pirámides te esperan en el impresionante mundo del Antiguo Egipto!",
-    "thumbUrl": "game_anksunamun.jpeg",
+    "thumbUrl": "game_anksunamun.svg",
     "heroUrl": "hero_anksunamun.jpg",
     "blueButtn": false,
     "videoUrl": "video_anksunamun.mp4",

@@ -1,14 +1,25 @@
 [
   {
-  "name": "Ripperpokies tournament",
+  "name": "Ripperpokies tournament boxes",
   "type": "promopartner",
   "top": false,
   "casino": false,
   "platform": false,
   "promo": true,
-  "promoText": "Bastet and Cats Deluxe \nCode: QUEENROO \n100% up to $1,000 \n20 Free Spins \nUntil October 7th",
-  "url": "https://bit.ly/ripperpokies-halloween-costume-hunt",
-  "logoUrl": "partner_ripperpokies_tournament.jpg"
+  "promoText": "Deposit $25 and get 100 Free Spins \nCode: MY100FS \nUntil October 31st",
+  "url": "https://bit.ly/ripperpokies-100fs",
+  "logoUrl": "partner_ripperpokies-oct.jpg"
+  },
+  {
+  "name": "Adrenaline tournament boxes",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "100 Free Spins \nCode: MASCOT100 \nNo Deposit Required \n ONGOING",
+  "url": "https://bit.ly/casinoadrenaline-mascot-ongoing",
+  "logoUrl": "partner_adrenaline-oct.png"
   },
   {
     "name": "PariMatch",
