@@ -7,7 +7,7 @@
             <div class="swiper-wrapper">
               <div v-for="(game, idx) in gamesFeatured" :key="idx"  :class="{ 'selected': idx === 0 }" class="swiper-slide game-hero" :data-name="`${game.slug}`" @click="toggleGame" >
                 <div class="game-hero__outer" :style="{ backgroundImage: `url(/images/${game.heroUrl})` }">
-                  <div class="game-hero__inner">
+                  <div class="game-hero__inner" :class="`game_${game.slug}`">
                     <NuxtLink :to="`${game.slug}`">
                       <img v-if="game.logoUrl !== null" :src="`/images/${game.logoUrl}`" class="game-logo" :alt="`${game.name}`" />
                     </NuxtLink>
@@ -24,7 +24,7 @@
 
   <div v-else class="featured-static__wrap">
 
-      <div class="featured-static__background" :style="{ backgroundImage: `url(/images/${backgroundGameData.backgroundUrl})` }"> <!-- :style="{ backgroundImage: `url(${backgroundUrl})` }" -->
+      <div class="featured-static__background" :class="`game_${backgroundGameData.slug}`" :style="{ backgroundImage: `url(/images/${backgroundGameData.backgroundUrl})` }"> <!-- :style="{ backgroundImage: `url(${backgroundUrl})` }" -->
           <div class="container">
               <div class="featured-header__wrap" :class="`game_${backgroundGameData.slug}`">
                 <div class="featured-header__content">
@@ -47,9 +47,6 @@
                 <div class="game-thumbnail__outer">
                   <div class="game-thumbnail__inner">
                   <img :src="`/images/${game.thumbUrl}`" :alt="`${game.name}`" />
-                  <div class="game-content__wrap" >
-
-                  </div>
                 </div>
               </div>
               </div>
@@ -146,7 +143,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     computed: {
       gamesFeatured() {
 
-        const gameOrder = ['space-blaze', 'mines-blast', '10k-dice', 'plinko-pop', 'keno-party'];
+        const gameOrder = ['overheat', 'plinko-pop', 'skyrocket', 'space-blaze', 'rooster-run', 'mines-blast', '10k-dice', 'double-roulette', 'keno-party'];
 
         const filteredGames = this.gamesList.filter(val => (val.theme === 'tictactoe' && val.comingSoon !== true));
 
@@ -259,16 +256,187 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
 
   }
 }
+.buttn {
+  &.buttn-blue {
+    background: linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%), #3BAEFF;
+    @media (max-width: 650px) {
+      padding-top: 19px;
+      padding-bottom: 19px
 
+    }
+  }
+  &.buttn-custom {
+    width: 200px;
+    text-align: center;
+    padding: 16px 12px;
+    background: linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%), #3BAEFF;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    cursor: pointer;
+  }
+}
+
+.game_overheat {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(95.85deg, #FFCA58 -0.19%, #FF9C4C 108.45%);
+    }
+  }
+}
+.game_plinko-pop {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.98deg, #59CEFF 0%, #23B3EF 100%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.98deg, #59CEFF 0%, #23B3EF 100%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.98deg, #59CEFF 0%, #23B3EF 100%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.98deg, #59CEFF 0%, #23B3EF 100%);
+    }
+  }
+}
+.game_skyrocket {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.98deg, #FFB74E 0%, #F39E22 100%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.98deg, #FFB74E 0%, #F39E22 100%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.98deg, #FFB74E 0%, #F39E22 100%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.98deg, #FFB74E 0%, #F39E22 100%);
+    }
+  }
+}
+.game_space-blaze {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.98deg, #80BBF7 0%, #5796F5 100%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.98deg, #80BBF7 0%, #5796F5 100%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.98deg, #80BBF7 0%, #5796F5 100%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.98deg, #80BBF7 0%, #5796F5 100%);
+    }
+  }
+}
+.game_mines-blast {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.02deg, #FDA067 -0.08%, #FE8A43 99.92%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.02deg, #FDA067 -0.08%, #FE8A43 99.92%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.02deg, #FDA067 -0.08%, #FE8A43 99.92%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.02deg, #FDA067 -0.08%, #FE8A43 99.92%);
+    }
+  }
+}
+.game_10k-dice {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.02deg, #C69BFF -0.08%, #AF6EFF 99.92%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.02deg, #C69BFF -0.08%, #AF6EFF 99.92%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.02deg, #C69BFF -0.08%, #AF6EFF 99.92%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.02deg, #C69BFF -0.08%, #AF6EFF 99.92%);
+    }
+  }
+}
+.game_keno-party {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+  }
+}
+.game_rooster-run {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.02deg, #DE9BE8 -0.08%, #B36FD6 99.92%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.02deg, #DE9BE8 -0.08%, #B36FD6 99.92%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.02deg, #DE9BE8 -0.08%, #B36FD6 99.92%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.02deg, #DE9BE8 -0.08%, #B36FD6 99.92%);
+    }
+  }
+}
+.game_double-roulette {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.02deg, #FDA4A4 -0.08%, #FE6868 99.92%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.02deg, #FDA4A4 -0.08%, #FE6868 99.92%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.02deg, #FA9B9B -0.08%, #FE6868 99.92%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.02deg, #FA9B9B -0.08%, #FE6868 99.92%);
+    }
+  }
+}
 .featured-static__wrap {
   .featured-static__background {
     transition: all .5s;
     background-repeat: no-repeat;
     /* padding-top: 170px; Non-christmas theme */
     padding-top: 100px;
-    height: 820px;
+    height: 940px;
     background-size: cover;
     background-position: top center;
+    @media (max-width: 2100px) {
+      height: 820px
+    }
     @media (max-width: 1600px) {
       height: 760px
     }
@@ -277,21 +445,10 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
       padding-top: 100px;
       background-position: center;
     }
-    .buttn-custom {
-      padding: 10px 12px;
-      border: 1px solid #4382FF;
-      max-width: fit-content;
-      margin: 0 auto;
-      color: #4382FF;
-      border-radius: 8px;
-      font-weight: 700;
-      line-height: 1;
-      cursor: pointer;
-      font-size: .92rem;
-    }
+
   }
   .featured-header__wrap {
-    height: 270px;
+    height: 250px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -301,7 +458,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     @media (max-width: 850px) {
       flex-direction: column;
       align-items: center;
-      height: 270px;
+      height: 250px;
       position: relative;
       z-index: 1;
       /* only christmas theme: */
@@ -355,7 +512,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
   .video-wrapper {
     position: relative;
     width: 100%;
-    height: 820px;
+    height: 940px;
     padding-top: 170px;
     overflow: hidden;
     #bgvideo {
@@ -398,6 +555,8 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
 }
 
 .slider-outer {
+  margin-top: 0;
+  margin-bottom: 0;
   // padding-bottom: 160px;
   padding-bottom: 0;
   position: relative;
@@ -473,18 +632,32 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     padding-left: 0
   }
   .swiper-wrapper {
-    padding-bottom: 0;
+    padding-bottom: 40px;
     @media (max-width: 1024px) {
-      padding-bottom: 20px
+      padding-bottom: 50px;
+    }
+    @media (max-width: 650px) {
+      padding-bottom: 0
     }
   }
   .swiper-pagination {
-    @media (min-width: 1024px) {
+
+    @media (min-width: 1025px) {
       display: none;
+    }
+    @media (max-width: 1024px) {
+    bottom: 0
+    }
+    @media (max-width: 850px) {
+    bottom: 19px
+    }
+    @media (max-width: 650px) {
+    bottom: 20px
     }
   }
 }
 .swiper-slide {
+  max-width: 560px;
   &.game-thumbnail {
     .game-thumbnail__outer {
       padding: 8px 0;
@@ -495,7 +668,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     }
 
     &:not(.selected) {
-      .game-content__wrap {
+      .game-thumbnail__inner {
           &:before {
             content: '';
             position: absolute;
@@ -503,7 +676,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
             right: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,.5);
+            background: #1C254073;
             border-radius: 12px
           }
 
@@ -512,7 +685,8 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     }
   }
     img {
-      border-radius: 10px;
+      border-radius: 12px;
+      display: block;
     }
 }
 .swiper-slide {
@@ -527,7 +701,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
       justify-content: center;
       &:before {
         position: absolute;
-        content: '';
+        content: none;
         top: 0;
         right: 0;
         width: 100%;
@@ -541,7 +715,8 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
         right: 0;
         width: 100%;
         height: 75px;
-        background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        // background: linear-gradient(0, #000000 0%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(180deg, rgba(7, 14, 29, 0) 0%, rgba(0, 0, 0, 0) 90%, #000000 100%)
 
       }
       @media (max-width: 650px) {
@@ -559,13 +734,17 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
           display: block;
           margin-bottom: 30px;
           @media (max-width: 850px) {
-            margin-bottom: 35px;
+            margin-bottom: 55px;
           }
           @media (max-width: 650px) {
             width: 100%;
           }
           img {
             max-width: 250px;
+            @media (max-width: 650px) {
+              max-width: 100%;
+              margin: 0 auto;
+            }
 
           }
         }
