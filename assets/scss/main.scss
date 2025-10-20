@@ -583,7 +583,11 @@ p {
 }
 .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
   margin-right: 20px;
-  margin-left: 20px
+  margin-left: 20px;
+  @media (max-width: 650px) {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
 
 .lg-actions {

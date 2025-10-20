@@ -184,7 +184,7 @@
           </div>
           <div v-else class="cert-info__inner">
             <img src="/images/img_mga-logo.png" srcset="/images/img_mga-logo@2x.png 2x" alt="mga logo" />
-            <span>{{$t('Will soon be licensed by the')}} <strong>MGA</strong></span>
+            <span>{{$t('Will soon be certified by the')}} <strong>MGA</strong></span>
           </div>
         </div>
       </div>
