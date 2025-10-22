@@ -18,7 +18,7 @@
               </div>
             </div>
             <div class="promo__top-image">
-              <nuxt-img id="promoHero" src="/images/img_promo_hero.png" alt="" />
+              <nuxt-img id="promoHero" src="/images/img_promo_hero2.png" alt="" />
             </div>
           </div>
         </div>
@@ -201,25 +201,27 @@
       <section id="networkingTournaments" class="promo__feature">
         <div class="container">
           <div class="promo__feature-inner">
-            <div class="feature__img">
-              <nuxt-img  src="/images/img_promo_tournaments2.png" alt="" />
-            </div>
-            <div class="feature__text">
-              <div class="coming-soon-badge">{{$t('Coming soon')}}</div>
-              <!-- <h2 class="feature__text-title">{{$t('Networking Tournaments')}}</h2> -->
-              <CopyableHeader
-                class="feature__text-title"
-                unique-id="networkingTournaments"
-                :title="$t('Networking Tournaments')"
-                @copy-success="onCopySuccess"
-              />
-              <div class="feature__text-content">
-                <p>{{$t('Multi-operator tournaments designed to connect players across different casinos, increase engagement, and boost game visibility. Operators benefit from shared prize pools, cross-promotion, and heightened competition that drives activity.')}}</p>
-                <ul>
-                  <li>{{$t('Offered across our full release pipeline')}}</li>
-                  <li>{{$t('Delivered with complete promo materials')}}</li>
-                  <li>{{$t('Available on negotiated basis before general launch')}}</li>
-                </ul>
+            <div class="inner-custom">
+              <div class="feature__img">
+                <nuxt-img  src="/images/img_promo_tournaments2.png" alt="" />
+              </div>
+              <div class="feature__text">
+                <div class="coming-soon-badge">{{$t('Coming soon')}}</div>
+                <!-- <h2 class="feature__text-title">{{$t('Networking Tournaments')}}</h2> -->
+                <CopyableHeader
+                  class="feature__text-title"
+                  unique-id="networkingTournaments"
+                  :title="$t('Networking Tournaments')"
+                  @copy-success="onCopySuccess"
+                />
+                <div class="feature__text-content">
+                  <p>{{$t('Multi-operator tournaments designed to connect players across different casinos, increase engagement, and boost game visibility. Operators benefit from shared prize pools, cross-promotion, and heightened competition that drives activity.')}}</p>
+                  <ul>
+                    <li>{{$t('Offered across our full release pipeline')}}</li>
+                    <li>{{$t('Delivered with complete promo materials')}}</li>
+                    <li>{{$t('Available on negotiated basis before general launch')}}</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -377,6 +379,26 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
     mounted() {
       this.title = this.$t('Mascot Gaming - Marketing Tools')
       this.description = this.$t('To help operators boost engagement and drive revenue, we offer a full spectrum of flexible promo tools — from branded campaigns and creative assets to advanced bonus mechanics and exclusive deals.')
+
+      // Force enable scroll every 100ms
+      const interval = setInterval(() => {
+        document.documentElement.style.overflow = 'auto';
+        document.body.style.overflow = 'auto';
+        document.documentElement.style.height = 'auto';
+        document.body.style.height = 'auto';
+
+        // Remove any transforms that might block scroll
+        document.documentElement.style.transform = 'none';
+        document.body.style.transform = 'none';
+
+        // Reset touch-action
+        document.documentElement.style.touchAction = 'auto';
+        document.body.style.touchAction = 'auto';
+      }, 100);
+
+      this.$once('hook:beforeDestroy', () => {
+        clearInterval(interval);
+      });
     },
     methods: {
       onCopySuccess(url) {
@@ -392,10 +414,10 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
 </script>
 <style lang="scss" scoped>
   html {
-    scroll-snap-type: y mandatory;
+    // scroll-snap-type: y mandatory;
   }
   #promo {
-    overflow-x: hidden;
+//    overflow-x: hidden;
     .promo__top {
       position: relative;
       padding: 80px 0 0;
@@ -601,6 +623,7 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
     }
     #trafficBasedCampaigns {
       padding-top: 80px;
+      // padding-bottom: 30px;
       @media (max-width: 650px) {
         padding-top: 20px
       }
@@ -612,14 +635,21 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
       }
     }
     #networkingTournaments {
-      .promo__feature-inner {
+      padding-top: 60px;
+      .inner-custom {
         background: linear-gradient(135deg, #172368 2.88%, #E249AF 100%), linear-gradient(225.4deg, #FEDC2A 0%, #DD5789 48.12%, #7A2C9E 93.59%), linear-gradient(132.33deg, #D24074 -0.67%, #6518B4 102.54%), linear-gradient(135deg, #B65FC4 2.88%, #DB6E4E 100%), linear-gradient(135deg, #FBDA61 2.88%, #F76B1C 98.13%), linear-gradient(228.26deg, #7E35B2 6.93%, #36174C 87.48%), #FFFFFF;
         border-radius: 10px;
         padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         @media (max-width: 850px) {
           background: none;
           border-radius: 0;
           padding: 0 0 30px 0;
+        }
+        @media (max-width: 650px) {
+          flex-direction: column;
         }
         .feature__text {
           .feature__text-title {
@@ -639,6 +669,7 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
       }
     }
     #retentionTools {
+      padding-top: 40px;
       .feature__text {
         order: -1;
         @media (max-width: 650px) {
@@ -683,10 +714,10 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
     }
 
     .promo__feature {
-      min-height: 100vh;
-      scroll-snap-align: start;
-      scroll-snap-stop: always;
-      padding-top: 60px;
+      // min-height: 100vh;
+      // scroll-snap-align: start;
+      // scroll-snap-stop: always;
+      // padding-top: 60px;
       @media (max-width: 650px) {
         padding-top: 20px
       }
@@ -694,6 +725,7 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
         display: flex;
         justify-content: space-between;
         align-items: center;
+        // min-height: 100vh;
         @media (max-width: 650px) {
           flex-direction: column;
         }

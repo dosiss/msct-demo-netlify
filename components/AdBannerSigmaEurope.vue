@@ -27,7 +27,7 @@
 export default {
 
   mounted() {
-    this.animateOnScrollBanner()
+//    this.animateOnScrollBanner()
 
   },
 

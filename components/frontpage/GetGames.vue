@@ -193,7 +193,7 @@
     <div class="container-wide">
       <div class="partnership">
         <div class="partnership-title">
-          <div class="partners-number">500+</div>
+          <div class="partners-number">1500+</div>
           <div class="partners-descr">{{$t('Partners & Media')}}</div>
           <nuxt-link :to="localePath('partners')" class="inner-link link-yellow">
             <span>{{ $device.isMobile ? $t('See all') : $t('See all partners & media') }}</span>
@@ -243,10 +243,9 @@ export default {
   },
 
   mounted() {
-    this.animateOnScrollGetGames()
-    this.animateOnScrollFeatures()
-    this.animateOnScrollGetOffer()
-//    this.animateOnScrollProfitTraffic()
+    // this.animateOnScrollGetGames()
+    // this.animateOnScrollFeatures()
+    // this.animateOnScrollGetOffer()
     this.animateOnScrollPartners()
   },
   methods: {
