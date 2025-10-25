@@ -132,8 +132,8 @@
     // page component definitions
     data() {
       return {
-        title: '',
-        description: '',
+        // title: '',
+        // description: '',
 
         focusedName: false,
         focusedPhone: false,
@@ -156,7 +156,7 @@
 
     head() {
       return {
-        title: this.title,
+        title: this.$t('Mascot Gaming Contacts'),
         htmlAttrs: {
             lang: this.$i18n.locale
         },
@@ -164,7 +164,7 @@
           {
             hid: 'description',
             name: 'description',
-            content: this.description
+            content: this.$t('We are open for partnership! Feel free to contact us.')
           },
           { property: 'og:title', hid: "og:title", content: this.title },
           { property: 'og:description', hid: 'og:description', content: this.description },
@@ -182,8 +182,8 @@
 
     mounted() {
       this.generateCaptcha();
-      this.title = this.$t('Mascot Gaming Contacts')
-      this.description = this.$t('We are open for partnership! Feel free to contact us.')
+      // this.title = this.$t('Mascot Gaming Contacts')
+      // this.description = this.$t('We are open for partnership! Feel free to contact us.')
     },
 
     methods: {

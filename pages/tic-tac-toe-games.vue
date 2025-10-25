@@ -93,15 +93,15 @@
      },
     data() {
       return {
-        title: '',
-        description: '',
+        // title: '',
+        // description: '',
         showModal: false,
 
       }
     },
     head() {
       return {
-        title: this.title,
+        title: this.$t('Mascot Gaming - Tic Tac Toe games'),
         htmlAttrs: {
             lang: this.$i18n.locale
         },
@@ -109,15 +109,25 @@
           {
             hid: 'description',
             name: 'description',
-            content: this.description
-          }
+            content: this.$t('Fast, stylish, and endlessly engaging — TTT Games by Mascot Gaming redefines iGaming for the modern player')
+          },
+          { property: 'og:title', hid: "og:title", content: this.$t('Mascot Gaming - Tic Tac Toe games') },
+          { property: 'og:description', hid: 'og:description', content: this.$t('Fast, stylish, and endlessly engaging — TTT Games by Mascot Gaming redefines iGaming for the modern player') },
+          { property: 'og:url', hid:'og:url', content: `https://mascot.games` },
+          { property: 'og:image', hid:'og:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
+          { name: 'twitter:card', hid: 'twitter:card', content: 'summary_large_image' },
+          { name: 'twitter:title', hid:'twitter:title', content: this.$t('Mascot Gaming - Tic Tac Toe games') },
+          { name: 'twitter:description', hid:'twitter:description', content: this.$t('Fast, stylish, and endlessly engaging — TTT Games by Mascot Gaming redefines iGaming for the modern player') },
+          { name: 'twitter:image', hid:'twitter:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
         ]
       }
     },
-    mounted() {
-      this.title = this.$t('Mascot Gaming - Tic Tac Toe games')
-      this.description = this.$t('Fast, stylish, and endlessly engaging — TTT Games by Mascot Gaming redefines iGaming for the modern player')
-    }
+    // mounted() {
+    //   this.title = this.$t('Mascot Gaming - Tic Tac Toe games')
+    //   this.description = this.$t('Fast, stylish, and endlessly engaging — TTT Games by Mascot Gaming redefines iGaming for the modern player')
+    // }
   }
 </script>
 <style lang="scss" scoped>

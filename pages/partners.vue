@@ -72,8 +72,8 @@ export default {
 
 
     return {
-      title: '',
-      description: '',
+      // title: '',
+      // description: '',
       partnersList: allPartners,
       partnerFilterKey: 'all',
       showModal: false
@@ -83,7 +83,7 @@ export default {
   },
   head() {
     return {
-      title: this.title,
+      title: this.$t('Partners'),
       htmlAttrs: {
           lang: this.$i18n.locale
       },
@@ -91,7 +91,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.description
+          content: this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
         }
       ]
     }
@@ -133,8 +133,8 @@ export default {
     }
   },
   mounted() {
-    this.title = this.$t('Partners')
-    this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
+    // this.title = this.$t('Partners')
+    // this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
 
     this.initializeFilterFromQuery();
         // if(this.$route.query.type === "trafficgames") {

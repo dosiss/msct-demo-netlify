@@ -154,8 +154,8 @@ export default {
 
   data() {
     return {
-      title: '',
-      description: '',
+      // title: '',
+      // description: '',
 
       gamesList: allGames,
       gameFilterKey: 'all',
@@ -170,7 +170,7 @@ export default {
   },
   head() {
     return {
-      title: this.title,
+      title: this.$t('Exciting games for online casino. Feel the gaming thrill'),
       htmlAttrs: {
           lang: this.$i18n.locale
       },
@@ -178,16 +178,16 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.description
+          content: this.$t('Explore a wide selection of our casino games. Play Demo Now!')
         },
-        { property: 'og:title', hid: "og:title", content: this.title },
-        { property: 'og:description', hid: 'og:description', content: this.description },
+        { property: 'og:title', hid: "og:title", content: this.$t('Exciting games for online casino. Feel the gaming thrill') },
+        { property: 'og:description', hid: 'og:description', content: this.$t('Explore a wide selection of our casino games. Play Demo Now!') },
         { property: 'og:url', hid:'og:url', content: `https://mascot.games/games` },
         { property: 'og:image', hid:'og:image', content: `https://mascot.games/images/img_share_bg.jpg` },
 
         { name: 'twitter:card', hid: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', hid:'twitter:title', content: this.title },
-        { name: 'twitter:description', hid:'twitter:description', content: this.description },
+        { name: 'twitter:title', hid:'twitter:title', content: this.$t('Exciting games for online casino. Feel the gaming thrill') },
+        { name: 'twitter:description', hid:'twitter:description', content: this.$t('Explore a wide selection of our casino games. Play Demo Now!') },
         { name: 'twitter:image', hid:'twitter:image', content: `https://mascot.games/images/img_share_bg.jpg` },
 
       ]
@@ -349,8 +349,8 @@ export default {
           this.locPath = '';
         }
 
-        this.title = this.$t('Exciting games for online casino. Feel the gaming thrill')
-        this.description = this.$t('Explore a wide selection of our casino games. Play Demo Now!')
+        // this.title = this.$t('Exciting games for online casino. Feel the gaming thrill')
+        // this.description = this.$t('Explore a wide selection of our casino games. Play Demo Now!')
 
   },
 

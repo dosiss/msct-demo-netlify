@@ -34,15 +34,15 @@ import regulatedMarketsListPT from '../../static/data/regulated-markets_pt-br.js
     // page component definitions
     data() {
       return {
-        title: '',
-        description: '',
+        // title: '',
+        // description: '',
         regulatedMarkets: regulatedMarketsList,
         locPath: '',
       }
     },
     head() {
       return {
-        title: this.title,
+        title: this.$t('Mascot Gaming Offerings for Regulated Markets'),
         htmlAttrs: {
             lang: this.$i18n.locale
         },
@@ -50,14 +50,14 @@ import regulatedMarketsListPT from '../../static/data/regulated-markets_pt-br.js
           {
             hid: 'description',
             name: 'description',
-            content: this.description
+            content: this.$t('Discover high-performing slots with easy API integration for online casinos in regulated markets.')
           }
         ]
       }
     },
     mounted() {
-      this.title = this.$t('Mascot Gaming Offerings for Regulated Markets')
-      this.description = this.$t('Discover high-performing slots with easy API integration for online casinos in regulated markets.')
+      // this.title = this.$t('Mascot Gaming Offerings for Regulated Markets')
+      // this.description = this.$t('Discover high-performing slots with easy API integration for online casinos in regulated markets.')
 
       switch (this.$i18n.locale) {
         case "es":

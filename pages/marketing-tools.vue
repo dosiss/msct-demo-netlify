@@ -354,8 +354,8 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
      },
     data() {
       return {
-        title: '',
-        description: '',
+        // title: '',
+        // description: '',
         showModalOffer: false,
         showToast: false,
         toastMessage: ''
@@ -363,7 +363,7 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
     },
     head() {
       return {
-        title: this.title,
+        title: this.$t('Mascot Gaming - Marketing Tools'),
         htmlAttrs: {
             lang: this.$i18n.locale
         },
@@ -371,14 +371,24 @@ import ContactModalOffer from '~/components/frontpage/ContactModalOffer'
           {
             hid: 'description',
             name: 'description',
-            content: this.description
-          }
+            content: this.$t('To help operators boost engagement and drive revenue, we offer a full spectrum of flexible promo tools — from branded campaigns and creative assets to advanced bonus mechanics and exclusive deals.')
+          },
+          { property: 'og:title', hid: "og:title", content: this.$t('Mascot Gaming - Marketing Tools') },
+          { property: 'og:description', hid: 'og:description', content: this.$t('To help operators boost engagement and drive revenue, we offer a full spectrum of flexible promo tools — from branded campaigns and creative assets to advanced bonus mechanics and exclusive deals.') },
+          { property: 'og:url', hid:'og:url', content: `https://mascot.games` },
+          { property: 'og:image', hid:'og:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
+          { name: 'twitter:card', hid: 'twitter:card', content: 'summary_large_image' },
+          { name: 'twitter:title', hid:'twitter:title', content:this.$t('Mascot Gaming - Marketing Tools') },
+          { name: 'twitter:description', hid:'twitter:description', content: this.$t('To help operators boost engagement and drive revenue, we offer a full spectrum of flexible promo tools — from branded campaigns and creative assets to advanced bonus mechanics and exclusive deals.') },
+          { name: 'twitter:image', hid:'twitter:image', content: `https://mascot.games/images/img_share_bg.jpg` },
+
         ]
       }
     },
     mounted() {
-      this.title = this.$t('Mascot Gaming - Marketing Tools')
-      this.description = this.$t('To help operators boost engagement and drive revenue, we offer a full spectrum of flexible promo tools — from branded campaigns and creative assets to advanced bonus mechanics and exclusive deals.')
+      // this.title = this.$t('Mascot Gaming - Marketing Tools')
+      // this.description = this.$t('To help operators boost engagement and drive revenue, we offer a full spectrum of flexible promo tools — from branded campaigns and creative assets to advanced bonus mechanics and exclusive deals.')
 
       // Force enable scroll every 100ms
       const interval = setInterval(() => {
