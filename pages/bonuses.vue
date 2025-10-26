@@ -53,8 +53,8 @@ export default {
 
 
     return {
-      title: '',
-      description: '',
+      // title: '',
+      // description: '',
       showModal: false,
       pageTitle: ' '
 
@@ -63,7 +63,7 @@ export default {
   },
   head() {
     return {
-      title: this.title,
+      title: this.$t('Bonuses'),
       htmlAttrs: {
           lang: this.$i18n.locale
       },
@@ -71,7 +71,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: this.description
+          content: this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
         }
       ]
     }
@@ -83,8 +83,8 @@ export default {
       },
   },
   mounted() {
-    this.title = this.$t('Bonuses')
-    this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
+    // this.title = this.$t('Bonuses')
+    // this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
 
     const menuVariant = sessionStorage.getItem('ab_test_menu_item_test_2025_variant');
     // console.log('selected variant:', menuVariant);

@@ -4326,6 +4326,11 @@
     ],
     "articles": [
       {
+        "title": "Slotsmate: Wood Luck",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/wood-luck",
+        "image": "img_blog_woodluck-slotsmate.jpg"
+      },
+      {
         "title": "Explore magical forest: Wood Luck Review",
         "link": "https://mascot.games/blog/explore-magical-forest-wood-luck-review",
         "image": "img_blog_woodluck-main.jpg"
@@ -4491,6 +4496,11 @@
       }
     ],
     "articles": [
+      {
+        "title": "Slotsmate: Reel Eldorado",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/reel-eldorado",
+        "image": "img_blog_reeleldo-slotsmate.jpg"
+      },
       {
         "title": "Explore the City of Gold: Reel Eldorado Review",
         "link": "https://mascot.games/blog/explore-the-city-of-gold-reel-eldorado-review",
@@ -6899,6 +6909,11 @@
       }
     ],
     "articles": [
+      {
+        "title": "Slotsmate: Ben Gunn Robinson",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/ben-gunn-robinson",
+        "image": "img_blog_bengunn-slotsmate.jpg"
+      },
       {
         "title": "Ben Gunn Robinson by Mascot Gaming is the Slot Game of July 2023",
         "link": "https://mascot.games/blog/ben-gunn-robinson-is-the-slot-game-of-july-2023",
@@ -10372,6 +10387,11 @@
     ],
     "articles": [
       {
+        "title": "Slotsmate: Re Kill",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/re-kill",
+        "image": "img_blog_rekill-slotsmate.jpg"
+      },
+      {
         "title": "Updating Our iGaming Software: A New Life of Re_Kill",
         "link": "https://mascot.games/blog/new-life-of-rekill",
         "image": "img_blog_rekill-main.jpg"
@@ -10648,6 +10668,11 @@
       }
     ],
     "articles": [
+      {
+        "title": "Slotsmate: Riot",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/riot",
+        "image": "img_blog_riot-slotsmate.jpg"
+      },
       {
         "title": "New Release on Spotify: RIOT",
         "link": "https://mascot.games/blog/new-release-on-spotify-riot",
@@ -11201,6 +11226,13 @@
         "imgUrl": "img-feat_wildspirit-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Slotsmate: Wild Spirit",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/wild-spirit",
+        "image": "img_blog_wildspirit-slotsmate.jpg"
+      }
+    ],
     "meta": {
       "title": "WILD SPIRIT: video slot game from Mascot Gaming",
       "descr": "WILD SPIRIT is our new mysterious video slot. Open your mind to the wild spirit of beautiful savage lands"
@@ -11316,6 +11348,13 @@
         "name": "Expanding Wilds feature",
         "descr": "During free games Wild turns into Expanding Wild and always covers the entire reel",
         "imgUrl": "img-feat_merlin-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Slotsmate: Merlin's Tower",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/merlins-tower",
+        "image": "img_blog_merlin-slotsmate.jpg"
       }
     ],
     "meta": {
@@ -11513,6 +11552,13 @@
         "imgUrl": "img-feat_venetian-1.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Slotsmate: Venetian Magic",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/venetian-magic",
+        "image": "img_blog_venetian-slotsmate.jpg"
+      }
+    ],
     "meta": {
       "title": "VENETIAN MAGIC, video slot game from Mascot Gaming",
       "descr": "VENETIAN MAGIC is a beautiful atmospheric video slot from Mascot Gaming. Join the magnificent Venice carnival!"
@@ -11577,6 +11623,13 @@
         "imgUrl": "img-feat_tomb-3.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Slotsmate: The Tomb",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/the-tomb",
+        "image": "img_blog_tomb-slotsmate.jpg"
+      }
+    ],
     "meta": {
       "title": "THE TOMB: DRAGON EMPEROR'S TREASURE, video slot game from Mascot Gaming",
       "descr": "Take your treasures with this video slot from Mascot Gaming: 5 reels, 3 rows, 10 paylines. Who is brave enough to unravel the riddle of Emperors' tomb?"
@@ -11639,6 +11692,13 @@
         "name": "Additional Free Spins",
         "descr": "Extra free games can be won as often as its initial combination appear",
         "imgUrl": "img-feat_rite-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Slotsmate: The Rite",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/the-rite",
+        "image": "img_blog_rite-slotsmate.jpg"
       }
     ],
     "meta": {
@@ -11822,6 +11882,13 @@
         "imgUrl": "img-feat_lionspride-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Slotsmate: Lion's Pride",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/lions-pride",
+        "image": "img_blog_lionspride-slotsmate.jpg"
+      }
+    ],
     "meta": {
       "title": "LION'S PRIDE, video slot game from Mascot Gaming",
       "descr": "Enjoy colourful jungle! LION'S PRIDE from Mascot Gaming is a video slot with beautiful graphics. 5 reels, 4 rows, as many as 40 pay lines."
@@ -11879,6 +11946,13 @@
         "name": "Additional free spins",
         "descr": "Extra free games can be won as often as their initial combinations appear",
         "imgUrl": "img-feat_bamboo-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Slotsmate: Bamboo Bear",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/bamboo-bear",
+        "image": "img_blog_bamboo-slotsmate.jpg"
       }
     ],
     "meta": {
@@ -11943,6 +12017,13 @@
         "name": "3 Extra Free Spins with guaranteed winnings",
         "descr": "3 middle reels of identical Gold Wild symbols promise big winnings for additional free games",
         "imgUrl": "img-feat_anksunamun-3.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Slotsmate: Anksunamun the Queen of Egypt",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/anksunamun",
+        "image": "img_blog_anksunamun-slotsmate.jpg"
       }
     ],
     "meta": {

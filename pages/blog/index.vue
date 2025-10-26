@@ -57,14 +57,14 @@
 
     data() {
       return {
-        title: '',
-        description: ''
+        // title: '',
+        // description: ''
       }
     },
 
     head() {
       return {
-        title: this.title,
+        title: this.$t('Mascot Gaming Blog'),
         htmlAttrs: {
             lang: this.$i18n.locale
         },
@@ -72,16 +72,16 @@
           {
             hid: 'description',
             name: 'description',
-            content: this.description
+            content: this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
           },
-          { property: 'og:title', hid: "og:title", content: this.title },
-          { property: 'og:description', hid: 'og:description', content: this.description },
+          { property: 'og:title', hid: "og:title", content: this.$t('Mascot Gaming Blog') },
+          { property: 'og:description', hid: 'og:description', content: this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!') },
           { property: 'og:url', hid:'og:url', content: `https://mascot.games` },
           { property: 'og:image', hid:'og:image', content: `https://mascot.games/images/img_share_bg.jpg` },
 
           { name: 'twitter:card', hid: 'twitter:card', content: 'summary_large_image' },
-          { name: 'twitter:title', hid:'twitter:title', content: this.title },
-          { name: 'twitter:description', hid:'twitter:description', content: this.description },
+          { name: 'twitter:title', hid:'twitter:title', content: this.$t('Mascot Gaming Blog') },
+          { name: 'twitter:description', hid:'twitter:description', content: this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!') },
           { name: 'twitter:image', hid:'twitter:image', content: `https://mascot.games/images/img_share_bg.jpg` },
 
         ]
@@ -94,10 +94,10 @@
        }
      },
 
-     mounted() {
-       this.title = this.$t('Mascot Gaming Blog')
-       this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
-    },
+    //  mounted() {
+    //    this.title = this.$t('Mascot Gaming Blog')
+    //    this.description = this.$t('Mascot Gaming is a provider of online casino games and services. Professional casino software. Feel the gaming thrill!')
+    // },
 
     methods: {
 

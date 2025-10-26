@@ -124,7 +124,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   css: [ '@/assets/scss/main.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [ { src: '~/plugins/swiper', mode: 'client' },
+  plugins: [
+              { src: '~/plugins/swiper', mode: 'client' },
               { src: '~/plugins/lightgallery', mode: 'client' },
               { src: '~/plugins/lgvideo', mode: 'client' },
               { src: '~/plugins/vue-cookies-consent.js', mode:'client'},

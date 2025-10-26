@@ -265,7 +265,7 @@
               </ul>
               <ul class="details-list"></ul>
             </div>
-            <nuxt-img :src="`images/${currentGame.detailsImgUrl}`" alt="" />
+            <img :src="`images/${currentGame.detailsImgUrl}`" alt="" />
           </div>
         </div>
       </div>

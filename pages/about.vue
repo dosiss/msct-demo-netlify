@@ -27,8 +27,8 @@
     components: { AboutTimeline },
     data() {
       return {
-        title: '',
-        description: '',
+        // title: '',
+        // description: '',
         blocks: [
         { month: this.$t('October'), year: '2025', title: this.$t('SiGMA Europe Awards Shortlist'), description: this.$t('Nominated for <strong>Best Slot Game Provider</strong> and <strong>Best Casino Game</strong> for <strong>Tessa Hunt and the Temple of Horus</strong>.'), image: 'img_about-item45.png', backImage: 'img_about-back23.jpg', decorImage: '', soonTag: false },
         { month: this.$t('September'), year: '2025', title: this.$t('SBC Awards Nominations'), description: this.$t('Nominated in 3 categories: Best Crash Game of the Year, Innovation in Casino Entertainment, Casino Slots Developer of the Year.'), image: 'img_about-item44.png', backImage: 'img_about-back22.jpg', decorImage: '', soonTag: false },
@@ -82,7 +82,7 @@
     },
     head() {
       return {
-        title: this.title,
+        title: this.$t('About Mascot Gaming'),
         htmlAttrs: {
             lang: this.$i18n.locale
         },
@@ -90,15 +90,15 @@
           {
             hid: 'description',
             name: 'description',
-            content: this.description
+            content:  this.$t('Mascot Gaming is among top creative gambling software developers, delivers innovative, engaging games with stunning visuals and exciting features worldwide.')
           }
         ]
       }
     },
-    mounted() {
-      this.title = this.$t('About Mascot Gaming')
-      this.description = this.$t('Mascot Gaming is among top creative gambling software developers, delivers innovative, engaging games with stunning visuals and exciting features worldwide.')
-    }
+    // mounted() {
+    //   this.title = this.$t('About Mascot Gaming')
+    //   this.description = this.$t('Mascot Gaming is among top creative gambling software developers, delivers innovative, engaging games with stunning visuals and exciting features worldwide.')
+    // }
   }
 </script>
 <style lang="scss" scoped>

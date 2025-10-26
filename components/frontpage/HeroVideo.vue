@@ -95,7 +95,7 @@ export default {
       this.locPath = '';
     }
 
-    await this.animateElements();
+//    await this.animateElements();
 
   },
 
