@@ -24,8 +24,8 @@
           <div v-if="index % 2 === 0" :key="index" class="block">
             <div class="block-inner" :style="{ backgroundImage: `url(/images/${block.backImage})` }">
               <div v-if="block.soonTag === true" class="block-tag-soon">Soon</div>
-              <nuxt-img v-if="block.decorImage" :src="`/images/${block.decorImage}`" class="block-decor" :style="{top: `${block.posTop}`, bottom: `${block.posBottom}`, right:`${block.posRight}`, left: `${block.posLeft}`}" alt="" />
-              <nuxt-img v-if="block.decorImage2" :src="`/images/${block.decorImage2}`" class="block-decor" :style="{top: `${block.posTop2}`, bottom: `${block.posBottom2}`, right:`${block.posRight2}`, left: `${block.posLeft2}`}" alt="" />
+              <img v-if="block.decorImage" :src="`/images/${block.decorImage}`" class="block-decor" :style="{top: `${block.posTop}`, bottom: `${block.posBottom}`, right:`${block.posRight}`, left: `${block.posLeft}`}" alt="" />
+              <img v-if="block.decorImage2" :src="`/images/${block.decorImage2}`" class="block-decor" :style="{top: `${block.posTop2}`, bottom: `${block.posBottom2}`, right:`${block.posRight2}`, left: `${block.posLeft2}`}" alt="" />
               <div class="block-date">{{ block.month }} {{ block.year }}</div>
               <div class="block-content">
                 <img :src="`/images/${block.image}`" alt="" />
@@ -44,8 +44,8 @@
           <div v-if="index % 2 !== 0" :key="index" class="block">
             <div class="block-inner" :style="{ backgroundImage: `url(/images/${block.backImage})` }">
               <div v-if="block.soonTag === true" class="block-tag-soon">Soon</div>
-              <nuxt-img v-if="block.decorImage" :src="`/images/${block.decorImage}`" class="block-decor" :style="{top: `${block.posTop}`, bottom: `${block.posBottom}`, right:`${block.posRight}`, left: `${block.posLeft}`}" alt="" />
-              <nuxt-img v-if="block.decorImage2" :src="`/images/${block.decorImage2}`" class="block-decor" :style="{top: `${block.posTop2}`, bottom: `${block.posBottom2}`, right:`${block.posRight2}`, left: `${block.posLeft2}`}" alt="" />
+              <img v-if="block.decorImage" :src="`/images/${block.decorImage}`" class="block-decor" :style="{top: `${block.posTop}`, bottom: `${block.posBottom}`, right:`${block.posRight}`, left: `${block.posLeft}`}" alt="" />
+              <img v-if="block.decorImage2" :src="`/images/${block.decorImage2}`" class="block-decor" :style="{top: `${block.posTop2}`, bottom: `${block.posBottom2}`, right:`${block.posRight2}`, left: `${block.posLeft2}`}" alt="" />
               <div class="block-date">{{ block.month }} {{ block.year }}</div>
               <div class="block-content">
                 <img :src="`/images/${block.image}`" alt="" />

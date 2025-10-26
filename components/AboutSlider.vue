@@ -6,7 +6,7 @@
           <div class="about-slide__inner" :style="{ backgroundImage: `url(/images/${person.backImage})` }">
             <div class="about-slide__content">
               <div class="about-slide__content-title">
-                <nuxt-img :src="`/images/${person.avatar}`" alt="" />
+                <img :src="`/images/${person.avatar}`" alt="" />
                 <div class="about-name__group">
                   <div class="about-name__group-name">{{person.name}}</div>
                   <div class="about-name__group-position">{{person.position}}</div>
@@ -16,7 +16,7 @@
             </div>
           </div>
         </div>
-        <nuxt-img :src="`/images/${person.decorImage}`" class="about-slide__decor" alt="" />
+        <img :src="`/images/${person.decorImage}`" class="about-slide__decor" alt="" />
       </swiper-slide>
       <div slot="pagination" class="swiper-pagination"></div>
     </swiper>

@@ -18,7 +18,7 @@
               </div>
             </div>
             <div class="promo__top-image">
-              <nuxt-img id="promoHero" src="/images/img_promo_hero2.png" alt="" />
+              <img id="promoHero" src="/images/img_promo_hero2.png" alt="" />
             </div>
           </div>
         </div>
@@ -27,22 +27,22 @@
         <div class="container">
           <div class="top-features__wrap">
             <div class="feature-item">
-              <div class="feature-item__img"><nuxt-img  src="/images/img_promo_feat-1.png" alt="" /></div>
+              <div class="feature-item__img"><img  src="/images/img_promo_feat-1.png" alt="" /></div>
               <div class="feature-item__title">{{$t('Wide Range of Promo Tools')}}</div>
               <div class="feature-item__text">{{$t('From ready-to-launch kits to fully customizable campaigns.')}}</div>
             </div>
             <div class="feature-item">
-              <div class="feature-item__img"><nuxt-img  src="/images/img_promo_feat-2.png" alt="" /></div>
+              <div class="feature-item__img"><img  src="/images/img_promo_feat-2.png" alt="" /></div>
               <div class="feature-item__title">{{$t('Discount on Key Games')}}</div>
               <div class="feature-item__text">{{$t('Stand out with unbeatable launch offers that drive instant results.')}}</div>
             </div>
             <div class="feature-item">
-              <div class="feature-item__img"><nuxt-img  src="/images/img_promo_feat-3.png" alt="" /></div>
+              <div class="feature-item__img"><img  src="/images/img_promo_feat-3.png" alt="" /></div>
               <div class="feature-item__title">{{$t('No GGR Charges on Free Rounds')}}</div>
               <div class="feature-item__text">{{$t('Maximize promo impact without extra costs.')}}</div>
             </div>
             <div class="feature-item">
-              <div class="feature-item__img"><nuxt-img  src="/images/img_promo_feat-4.png" alt="" /></div>
+              <div class="feature-item__img"><img  src="/images/img_promo_feat-4.png" alt="" /></div>
               <div class="feature-item__title">{{$t('Tailored Market Approach')}}</div>
               <div class="feature-item__text">{{$t('Promotions built around your audience, platform, and goals.')}}</div>
             </div>
@@ -53,7 +53,7 @@
         <div class="container">
           <div class="promo__feature-inner">
             <div class="feature__img">
-              <nuxt-img  src="/images/img_promo_rounds2.png" alt="" />
+              <img  src="/images/img_promo_rounds2.png" alt="" />
             </div>
             <div class="feature__text">
               <!-- <h2 class="feature__text-title">{{$t('Free Rounds')}}</h2> -->
@@ -81,7 +81,7 @@
         <div class="container">
           <div class="promo__feature-inner">
             <div class="feature__img">
-              <nuxt-img  src="/images/img_promo_prereleases.png" alt="" />
+              <img  src="/images/img_promo_prereleases.png" alt="" />
             </div>
             <div class="feature__text">
               <!-- <h2 class="feature__text-title">{{$t('Pre-Releases')}}</h2> -->
@@ -107,7 +107,7 @@
         <div class="container">
           <div class="promo__feature-inner">
             <div class="feature__img">
-              <nuxt-img  src="/images/img_promo-events.png" alt="" />
+              <img  src="/images/img_promo-events.png" alt="" />
             </div>
             <div class="feature__text">
               <!-- <h2 class="feature__text-title">{{$t('Seasonal events')}}</h2> -->
@@ -133,7 +133,7 @@
         <div class="container">
           <div class="promo__feature-inner">
             <div class="feature__img">
-              <nuxt-img  src="/images/img_promo_branded.png" alt="" />
+              <img  src="/images/img_promo_branded.png" alt="" />
             </div>
             <div class="feature__text">
               <!-- <h2 class="feature__text-title">{{$t('Branded games')}}</h2> -->
@@ -173,7 +173,7 @@
         <div class="container">
           <div class="promo__feature-inner">
             <div class="feature__img">
-              <nuxt-img  src="/images/img_promo_campaigns2.png" alt="" />
+              <img  src="/images/img_promo_campaigns2.png" alt="" />
             </div>
             <div class="feature__text">
               <!-- <h2 class="feature__text-title">{{$t('Traffic-based campaigns')}}</h2> -->
@@ -203,7 +203,7 @@
           <div class="promo__feature-inner">
             <div class="inner-custom">
               <div class="feature__img">
-                <nuxt-img  src="/images/img_promo_tournaments2.png" alt="" />
+                <img  src="/images/img_promo_tournaments2.png" alt="" />
               </div>
               <div class="feature__text">
                 <div class="coming-soon-badge">{{$t('Coming soon')}}</div>
@@ -231,7 +231,7 @@
         <div class="container">
           <div class="promo__feature-inner">
             <div class="feature__img">
-              <nuxt-img  src="/images/img_promo_retention.png" alt="" />
+              <img  src="/images/img_promo_retention.png" alt="" />
             </div>
             <div class="feature__text">
               <!-- <h2 class="feature__text-title">{{$t('Retention Tools')}}</h2> -->
@@ -257,7 +257,7 @@
         <div class="container">
           <div class="promo__feature-inner">
             <div class="feature__img">
-              <nuxt-img  src="/images/img_promo_support4.png" alt="" />
+              <img  src="/images/img_promo_support4.png" alt="" />
             </div>
             <div class="feature__text">
               <!-- <h2 class="feature__text-title">{{$t('Marketing Support')}}</h2> -->
@@ -284,7 +284,7 @@
         <div class="container">
           <div class="promo__feature-inner">
             <div class="feature__img">
-              <nuxt-img  src="/images/img_promo_bigwin2.png" alt="" />
+              <img  src="/images/img_promo_bigwin2.png" alt="" />
             </div>
             <div class="feature__text">
               <!-- <h2 class="feature__text-title">{{$t('Marketing Support')}}</h2> -->
@@ -322,7 +322,7 @@
                   {{$t(' tailored for operators worldwide.')}}
                 </p>
                 <div class="feature__img">
-                  <nuxt-img src="/images/img_promo_joker.png" alt="" />
+                  <img src="/images/img_promo_joker.png" alt="" />
                 </div>
                 <div class="promo__top-buttn">
                   <a class="buttn buttn-yellow buttn-m" @click="showModalOffer = true">{{$t('Get Promo Offer')}}</a>

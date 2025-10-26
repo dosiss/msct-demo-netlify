@@ -24,15 +24,15 @@
                 </div>
             </div>
               <div class="ttt-games__top-games">
-                <NuxtLink to="/overheat" class="game-item"><nuxt-img src="/images/game_overheat3.jpeg" alt="" /></NuxtLink>
-                <NuxtLink to="/plinko-pop" class="game-item"><nuxt-img src="/images/game_plinkopop3.jpeg" alt="" /></NuxtLink>
-                <NuxtLink to="/skyrocket" class="game-item"><nuxt-img src="/images/game_skyrocket3.jpeg" alt="" /></NuxtLink>
-                <NuxtLink to="/space-blaze" class="game-item"><nuxt-img src="/images/game_spaceblaze3.jpeg" alt="" /></NuxtLink>
-                <NuxtLink to="/rooster-run" class="game-item"><nuxt-img src="/images/game_rooster.jpeg" alt="" /></NuxtLink>
-                <NuxtLink to="/mines-blast" class="game-item"><nuxt-img src="/images/game_minesblast3.jpeg" alt="" /></NuxtLink>
-                <NuxtLink to="/10k-dice" class="game-item"><nuxt-img src="/images/game_10kdice3.jpeg" alt="" /></NuxtLink>
-                <NuxtLink to="/double-roulette" class="game-item"><nuxt-img src="/images/game_doubleroulette2.jpeg" alt="" /></NuxtLink>
-                <NuxtLink to="/keno-party" class="game-item"><nuxt-img src="/images/game_kenoparty3.jpeg" alt="" /></NuxtLink>
+                <NuxtLink to="/overheat" class="game-item"><img src="/images/game_overheat3.jpeg" alt="" /></NuxtLink>
+                <NuxtLink to="/plinko-pop" class="game-item"><img src="/images/game_plinkopop3.jpeg" alt="" /></NuxtLink>
+                <NuxtLink to="/skyrocket" class="game-item"><img src="/images/game_skyrocket3.jpeg" alt="" /></NuxtLink>
+                <NuxtLink to="/space-blaze" class="game-item"><img src="/images/game_spaceblaze3.jpeg" alt="" /></NuxtLink>
+                <NuxtLink to="/rooster-run" class="game-item"><img src="/images/game_rooster.jpeg" alt="" /></NuxtLink>
+                <NuxtLink to="/mines-blast" class="game-item"><img src="/images/game_minesblast3.jpeg" alt="" /></NuxtLink>
+                <NuxtLink to="/10k-dice" class="game-item"><img src="/images/game_10kdice3.jpeg" alt="" /></NuxtLink>
+                <NuxtLink to="/double-roulette" class="game-item"><img src="/images/game_doubleroulette2.jpeg" alt="" /></NuxtLink>
+                <NuxtLink to="/keno-party" class="game-item"><img src="/images/game_kenoparty3.jpeg" alt="" /></NuxtLink>
               </div>
               <div class="ttt-games__top-buttn">
                 <nuxt-link :to="localePath('/tic-tac-toe-games')" class="buttn buttn-blue buttn-m">{{$t('Explore TTT Games')}}</nuxt-link>
