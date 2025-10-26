@@ -26,11 +26,7 @@ jobs:
         run: npm run generate
         env:
           NODE_ENV: production
-<<<<<<< HEAD
 
-=======
-          
->>>>>>> master
           # Add your environment variables here
           # NUXT_ENV_API_URL: https://my-domain.com/api
 
