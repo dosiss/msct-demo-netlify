@@ -764,6 +764,13 @@
         "imgUrl": "img-feat_scratchbank-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "The Art of the Perfect Heist: Scratch the Bank Review",
+        "link": "https://mascot.games/blog/the-art-of-the-perfect-heist-scratch-the-bank-review",
+        "image": "img_blog_scratchbank-main.jpg"
+      }
+    ],
     "meta": {
       "title": "Scratch the Bank, a video slot game by Mascot Gaming",
       "descr": "Sneak into the vault with Bonus Game, Risk & Buy and x1000!"
@@ -907,6 +914,13 @@
         "name": "Free Spins",
         "descr": "During Free Spins, the mystery symbol transforms into a 6-symbol-high reel of Wilds",
         "imgUrl": "img-feat_dwarfsdlx-4.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Treasures Beneath the Surface: Princess and Dwarfs Deluxe Review",
+        "link": "https://mascot.games/blog/treasures-beneath-the-surface-princess-and-dwarfs-deluxe-review",
+        "image": "img_blog_princessdwarfs-main.jpg"
       }
     ],
     "meta": {

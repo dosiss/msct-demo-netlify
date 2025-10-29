@@ -30,6 +30,7 @@
         // title: '',
         // description: '',
         blocks: [
+        { month: this.$t('October'), year: '2025', title: this.$t('Game of the Month'), description: this.$t('SlotsMate selects Scratch the Bank as October’s Game of the Month'), image: 'img_about-item46.png', backImage: 'img_about-back24.jpg', decorImage: '', soonTag: false },
         { month: this.$t('October'), year: '2025', title: this.$t('SiGMA Europe Awards Shortlist'), description: this.$t('Nominated for <strong>Best Slot Game Provider</strong> and <strong>Best Casino Game</strong> for <strong>Tessa Hunt and the Temple of Horus</strong>.'), image: 'img_about-item45.png', backImage: 'img_about-back23.jpg', decorImage: '', soonTag: false },
         { month: this.$t('September'), year: '2025', title: this.$t('SBC Awards Nominations'), description: this.$t('Nominated in 3 categories: Best Crash Game of the Year, Innovation in Casino Entertainment, Casino Slots Developer of the Year.'), image: 'img_about-item44.png', backImage: 'img_about-back22.jpg', decorImage: '', soonTag: false },
         { month: this.$t('August'), year: '2025', title: this.$t('Best Game Studio Nomination'), description: this.$t('Nominated as <strong>Best Game Studio</strong> at SiGMA Euro-Med.'), image: 'img_about-item43.png', backImage: 'img_about-back21.jpg', decorImage: '', soonTag: false },
