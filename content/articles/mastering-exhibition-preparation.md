@@ -1,7 +1,7 @@
 ---
 title: 'Mastering Exhibition Preparation'
 description: 'Essential steps to ensure a successful showcasing experience.'
-img: img_blog-exhibition-prep.jpg
+img: img_blog-exhibition-prep4.jpg
 heading: 'Mastering Exhibition Preparation: A Guide for Slot Game Developers'
 shortDescr: 'From determining booth specifications and assembling the perfect team to generating excitement with unique designs and engaging activities, Mascot Gaming shares essential steps to captivate visitors and leave a lasting impression.'
 archiveDate: 2023-07-11
