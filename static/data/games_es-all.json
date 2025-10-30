@@ -347,20 +347,20 @@
   {
     "name": "The Dawn is coming!",
     "slug": "the-dawn-is-coming",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/the_dawn_is_coming",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
-    "releaseDate": "2025-11-06",
+    "comingSoon": false,
+    "releaseDate": "2025-11-13",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_dawncoming2.jpeg",
+    "thumbUrl": "game_dawncoming3.jpeg",
     "heroUrl": "hero_dawncoming.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -370,16 +370,16 @@
     "backUrl": "back_dawncoming.jpg",
     "detailsImgUrl": "details_dawncoming.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 10,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": ["halloween"],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -403,8 +403,8 @@
       }
     ],
     "meta": {
-      "title": "The Dawn is coming!, a video slot game by Mascot Gaming",
-      "descr": " "
+      "title": "The Dawn is Coming!, a video slot game by Mascot Gaming",
+      "descr": "The cauldron’s bubbling, the giants are hungry, and fortune is simmering on the edge of dawn - enjoy Wilds with Multipliers, Free Spins and x12000!"
     },
     "rockways": false
   },
