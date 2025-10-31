@@ -22,7 +22,7 @@
                             <li>{{$t('Reverse integration')}}:<div class="features-tools__item-descr">{{$t('Allowing for swift and seamless setup through our expertise in handling API-based integrations on our end.')}}</div></li>
                             <li>{{$t('Boost Local Tournaments')}}:<div class="features-tools__item-descr">{{$t('Enhance player activity with our sponsored tournaments.')}}</div></li>
                             <li>{{$t('Customized Promotion')}}:<div class="features-tools__item-descr">{{$t('Receive an offer tailored just for you.')}}</div></li>
-                            <li>{{$t('Strong B2C')}}:<div class="features-tools__item-descr">{{$t('Promo for players through streams and social networks.')}}</div></li>
+                            <li>{{$t('Strong B2C')}}<div class="features-tools__item-descr">{{$t('Promo for players through streams and social networks.')}}</div></li>
                           </ul>
                         </div>
                       </div>
