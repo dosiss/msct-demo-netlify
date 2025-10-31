@@ -67,3 +67,6 @@ jobs:
             sudo service nginx reload
 
             echo "Main site deployment completed successfully!"
+
+      - name: Purge Cloudflare Cache
+        run: ${{ secrets.CLOUDFLARE_PURGE_COMMAND }}
