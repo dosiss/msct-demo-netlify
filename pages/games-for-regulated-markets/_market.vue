@@ -63,7 +63,7 @@
       return {
         id: this.$route.params.market,
         regulatedMarkets: regulatedMarketsList,
-        demoUrl: '',
+        demoUrl: 'https://play.mascot.games',
         locPath: '',
         showModal: false,
 
@@ -104,14 +104,14 @@
      }
 
     },
-
-    async mounted() {
-      try {
-        await  this.$axios.get("/config.json")
-          .then(response => {this.demoUrl = response.data.demoURL})
-      } catch(ex) {
-        this.demoUrl = this.$config.demositeURL
-      }
+    mounted() {
+    // async mounted() {
+    //   try {
+    //     await  this.$axios.get("/config.json")
+    //       .then(response => {this.demoUrl = response.data.demoURL})
+    //   } catch(ex) {
+    //     this.demoUrl = this.$config.demositeURL
+    //   }
 
       switch (this.$i18n.locale) {
         case "es":
