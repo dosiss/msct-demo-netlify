@@ -64,7 +64,7 @@ import allGames from '../../static/data/games-all.json'
 
         gamesList: allGames,
 
-        demoUrl: '',
+        demoUrl: 'https://play.mascot.games',
 
         locPath: '',
 
@@ -118,15 +118,15 @@ import allGames from '../../static/data/games-all.json'
     }
 
     },
-
-    async mounted() {
-
-      try {
-        await  this.$axios.get("/config.json")
-          .then(response => {this.demoUrl = response.data.demoURL})
-      } catch(ex) {
-        this.demoUrl = this.$config.demositeURL
-      }
+    mounted() {
+    // async mounted() {
+    //
+    //   try {
+    //     await  this.$axios.get("/config.json")
+    //       .then(response => {this.demoUrl = response.data.demoURL})
+    //   } catch(ex) {
+    //     this.demoUrl = this.$config.demositeURL
+    //   }
 
       switch (this.$i18n.locale) {
         case "es":
