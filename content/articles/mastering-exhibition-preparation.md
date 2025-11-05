@@ -8,8 +8,6 @@ archiveDate: 2023-07-11
 ---
 In our last article we spoke about 5 reasons why, as a slot game provider, you should participate in shows. Here are essential steps to ensure a successful showcasing experience.
 
-![](../../images/img_blog-exhibition-prep2.jpg)
-
 
 **Determining Booth Specifications and Design**
 
