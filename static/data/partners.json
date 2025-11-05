@@ -1,16 +1,5 @@
 [
   {
-  "name": "Ripperpokies tournament boxes",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Deposit $25 and get 100 Free Spins \nCode: MY100FS \nUntil October 31st",
-  "url": "https://bit.ly/ripperpokies-100fs",
-  "logoUrl": "partner_ripperpokies-oct.jpg"
-  },
-  {
   "name": "Adrenaline tournament boxes",
   "type": "promopartner",
   "top": false,
