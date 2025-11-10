@@ -1,12 +1,13 @@
 ---
 title: 'Mastering Exhibition Preparation'
 description: 'Essential steps to ensure a successful showcasing experience.'
-img: img_blog-exhibition-prep4.jpg
+img: img_blog-exhibition-prep.jpg
 heading: 'Mastering Exhibition Preparation: A Guide for Slot Game Developers'
 shortDescr: 'From determining booth specifications and assembling the perfect team to generating excitement with unique designs and engaging activities, Mascot Gaming shares essential steps to captivate visitors and leave a lasting impression.'
 archiveDate: 2023-07-11
 ---
 In our last article we spoke about 5 reasons why, as a slot game provider, you should participate in shows. Here are essential steps to ensure a successful showcasing experience.
+
 
 
 **Determining Booth Specifications and Design**
