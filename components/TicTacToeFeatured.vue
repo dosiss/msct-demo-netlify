@@ -143,7 +143,7 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     computed: {
       gamesFeatured() {
 
-        const gameOrder = ['overheat', 'plinko-pop', 'skyrocket', 'space-blaze', 'rooster-run', 'mines-blast', '10k-dice', 'double-roulette', 'keno-party'];
+        const gameOrder = ['pin-plinko', 'overheat', 'plinko-pop', 'skyrocket', 'space-blaze', 'rooster-run', 'mines-blast', '10k-dice', 'double-roulette', 'keno-party'];
 
         const filteredGames = this.gamesList.filter(val => (val.theme === 'tictactoe' && val.comingSoon !== true));
 
@@ -281,7 +281,22 @@ import allGamesPT from '../static/data/games_pt-br-all.json'
     cursor: pointer;
   }
 }
-
+.game_pin-plinko {
+  .buttn {
+    &.buttn-blue {
+      background: linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+    &.buttn-custom {
+      background: linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+    &:hover {
+      background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+    &:active {
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.09)), linear-gradient(91.02deg, #B5AEFC -0.08%, #9289F9 99.92%);
+    }
+  }
+}
 .game_overheat {
   .buttn {
     &.buttn-blue {

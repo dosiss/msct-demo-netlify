@@ -2583,5 +2583,16 @@
     "promoText": null,
     "url": "https://casinologia.com/slot-providers/mascot-gaming/",
     "logoUrl": "partner_casinologia.png"
+  },
+  {
+    "name": "Mejores casinos",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.mejorescasinos.com/tragamonedas/mascot-gaming/",
+    "logoUrl": "partner_mejorescasinos.png"
   }
 ]

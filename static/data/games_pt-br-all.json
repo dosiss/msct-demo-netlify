@@ -268,32 +268,32 @@
   {
     "name": "Pin Plinko",
     "slug": "pin-plinko",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/pin_plinko",
     "theme": "tictactoe",
     "type": null,
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-11-20",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_pinplinko.jpeg",
-    "heroUrl": "hero_pinplinko.jpg",
+    "descr": "Where every bounce matters",
+    "thumbUrl": "game_pinplinko2.jpeg",
+    "heroUrl": "hero_pinplinko2.jpg",
     "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_pinplinko.jpg",
-    "logoUrl": "logo_pinplinko.png",
+    "logoUrl": "logo_pinplinko2.png",
     "backUrl": "back_pinplinko.jpg",
     "detailsImgUrl": "details_pinplinko.png",
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
@@ -305,7 +305,7 @@
       {
         "name": "Plinko",
         "descr": "A ball drops from the top and bounces off pegs arranged in a pyramid shape as it falls. At the bottom, it lands in a multiplier slot, determining the player’s winnings based on the multiplier",
-        "imgUrl": "img-feat_pinplinko-0.jpg"
+        "imgUrl": null
       },
       {
         "name": "Adjustable Pin Rows",
@@ -320,7 +320,7 @@
       {
         "name": "3 Risk Levels",
         "descr": "Choose between low, medium, and high risk. The level of risk determines the minimum and maximum multipliers the ball can land on",
-        "imgUrl": "img-feat_pinplinko-3.jpg"
+        "imgUrl": null
       },
       {
         "name": "Realistic Physics Model",
@@ -335,12 +335,12 @@
       {
         "name": "Customization",
         "descr": "Players can personalize the game area and interface elements to their preferences using customization features",
-        "imgUrl": "img-feat_pinplinko-6.jpg"
+        "imgUrl": null
       }
     ],
     "meta": {
       "title": "Pin Plinko, a video game by TTT Games",
-      "descr": " "
+      "descr": "Bounce once again with realistic physics model, different risk levels and x1000"
     },
     "rockways": false
   },
