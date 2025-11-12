@@ -2594,5 +2594,16 @@
     "promoText": null,
     "url": "https://www.mejorescasinos.com/tragamonedas/mascot-gaming/",
     "logoUrl": "partner_mejorescasinos.png"
+  },
+  {
+    "name": "Traga perra",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://tragaperragratis.com/provider-tragaperras/mascot-gaming/",
+    "logoUrl": "partner_tragaperra.png"
   }
 ]
