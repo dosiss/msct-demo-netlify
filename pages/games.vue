@@ -66,8 +66,9 @@
                   <div class="game-thumbnail__inner">
                   <v-lazy-image :src="`/images/${game.thumbUrl}`" :src-placeholder="`/images/lowres/${game.thumbUrl.substring(0, game.thumbUrl.lastIndexOf('.'))}.jpeg`" :alt="`${game.name}`" class="game-thumbnail__img" loading="lazy" />
                   <div class="game-content__wrap">
-                    <div class="game-content__buttns">
-                      <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? $t('More') : $t('Learn more') }}</NuxtLink>
+                    <div class="game-content__buttns aa">
+                      <a  :href="`/${game.slug}`" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? $t('More') : $t('Learn more') }}</a>
+                      <!-- <NuxtLink :to="game.slug" class="buttn buttn-secondary buttn-sm">{{ $device.isMobile ? $t('More') : $t('Learn more') }}</NuxtLink> -->
                       <div v-if="game.comingSoon === true" class="buttn buttn-secondary buttn-disabled buttn-sm">{{ $t('Coming soon') }}</div>
                       <div v-else>
                         <a v-if="$device.isMobile" :href="`https://${game.linkToDemo}`" class="buttn buttn-colored buttn-m buttn-icon">
