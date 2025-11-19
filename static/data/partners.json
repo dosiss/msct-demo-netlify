@@ -2605,5 +2605,16 @@
     "promoText": null,
     "url": "https://tragaperragratis.com/provider-tragaperras/mascot-gaming/",
     "logoUrl": "partner_tragaperra.png"
+  },
+  {
+    "name": "Onlineslottop",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://onlineslottop.com/providers/mascot-gaming/",
+    "logoUrl": "partner_onlineslottop.png"
   }
 ]
