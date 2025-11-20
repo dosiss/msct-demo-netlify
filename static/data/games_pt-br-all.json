@@ -204,20 +204,20 @@
   {
     "name": "Gryphon`s Castle Deluxe",
     "slug": "gryphons-castle-deluxe",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/gryphons_castle_deluxe",
     "theme": "video slot",
     "type": null,
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-11-27",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_gryphondlx.jpeg",
+    "thumbUrl": "game_gryphondlx2.jpeg",
     "heroUrl": "hero_gryphondlx.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -225,18 +225,18 @@
     "placeholderUrl": "video_gryphondlx.jpg",
     "logoUrl": "logo_gryphondlx.png",
     "backUrl": "back_gryphondlx.jpg",
-    "detailsImgUrl": "details_gryphondlx.png",
+    "detailsImgUrl": "details_gryphondlx2.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 20,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": [ "fantasy" ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -244,13 +244,13 @@
         "imgUrl": "img-feat_gryphondlx-0.jpg"
       },
       {
-        "name": "Risk & Buy feature: Buy",
-        "descr": "Buy Free Spins with the proposed conditions and at the suggested price",
+        "name": "Free Spins",
+        "descr": "At least 3 Scatter symbols trigger Free Spins with x3 multiplier",
         "imgUrl": "img-feat_gryphondlx-1.jpg"
       },
       {
-        "name": "Free Spins",
-        "descr": "Free Spins with x3 multiplier",
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price",
         "imgUrl": "img-feat_gryphondlx-2.jpg"
       },
       {
@@ -261,7 +261,7 @@
     ],
     "meta": {
       "title": "Gryphon`s Castle Deluxe, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Enter the legendary stronghold of riches with Risk & Buy, Free Spins, Expanding Wilds and x1000!"
     },
     "rockways": false
   },
