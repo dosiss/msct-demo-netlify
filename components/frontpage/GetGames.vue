@@ -237,7 +237,7 @@ export default {
       showModal: false,
       showModalOffer: false,
 
-      countriesList: ['ro', 'mt', 'ru', 'gb', 'es', 'tr', 'jp', 'im', 'cn', 'de', 'fr', 'it', 'ua', 'ge', 'bg', 'cw', 'pt'],
+      countriesList: ['ro', 'mt', 'ru', 'gb', 'ua', 'es', 'tr', 'jp', 'srb', 'bg', 'cn', 'de', 'fr', 'it', 'pt'],
 
     }
   },
