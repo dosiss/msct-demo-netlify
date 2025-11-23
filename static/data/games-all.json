@@ -204,20 +204,20 @@
   {
     "name": "Gryphon`s Castle Deluxe",
     "slug": "gryphons-castle-deluxe",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/gryphons_castle_deluxe",
     "theme": "video slot",
     "type": null,
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-11-27",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_gryphondlx.jpeg",
+    "thumbUrl": "game_gryphondlx2.jpeg",
     "heroUrl": "hero_gryphondlx.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -225,18 +225,18 @@
     "placeholderUrl": "video_gryphondlx.jpg",
     "logoUrl": "logo_gryphondlx.png",
     "backUrl": "back_gryphondlx.jpg",
-    "detailsImgUrl": "details_gryphondlx.png",
+    "detailsImgUrl": "details_gryphondlx2.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 20,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": [ "fantasy" ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -244,13 +244,13 @@
         "imgUrl": "img-feat_gryphondlx-0.jpg"
       },
       {
-        "name": "Risk & Buy feature: Buy",
-        "descr": "Buy Free Spins with the proposed conditions and at the suggested price",
+        "name": "Free Spins",
+        "descr": "At least 3 Scatter symbols trigger Free Spins with x3 multiplier",
         "imgUrl": "img-feat_gryphondlx-1.jpg"
       },
       {
-        "name": "Free Spins",
-        "descr": "Free Spins with x3 multiplier",
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price",
         "imgUrl": "img-feat_gryphondlx-2.jpg"
       },
       {
@@ -261,7 +261,7 @@
     ],
     "meta": {
       "title": "Gryphon`s Castle Deluxe, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Enter the legendary stronghold of riches with Risk & Buy, Free Spins, Expanding Wilds and x1000!"
     },
     "rockways": false
   },
@@ -402,6 +402,28 @@
         "imgUrl": "img-feat_dawncoming-3.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Gamblenexus.com reviews The Dawn is Coming",
+        "link": "https://gamblenexus.com/slots/the-dawn-is-coming/",
+        "image": "img_blog_dawncoming-gamblenexus.jpg"
+      },
+      {
+        "title": "Allfreechips.com reviews The Dawn is Coming",
+        "link": "https://www.allfreechips.com/slots/the-dawn-is-coming",
+        "image": "img_blog_dawncoming-allfreechips.jpg"
+      },
+      {
+        "title": "Casinotreasure.com reviews The Dawn is Coming",
+        "link": "https://casinotreasure.com/free-play-demo-slots/the-dawn-is-coming/",
+        "image": "img_blog_dawncoming-casinotreasure.jpg"
+      },
+      {
+        "title": "Slotcatalog.com reviews The Dawn is Coming",
+        "link": "https://slotcatalog.com/en/slots/the-dawn-is-coming?cISO=SE#play-demo",
+        "image": "img_blog_dawncoming-slotcatalog.jpg"
+      }
+    ],
     "meta": {
       "title": "The Dawn is Coming!, a video slot game by Mascot Gaming",
       "descr": "The cauldron’s bubbling, the giants are hungry, and fortune is simmering on the edge of dawn - enjoy Wilds with Multipliers, Free Spins and x12000!"
@@ -461,6 +483,33 @@
         "imgUrl": "img-feat_bamboodlx-2.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Casinotreasure.com reviews Bamboo Bear Deluxe",
+        "link": "https://casinotreasure.com/free-play-demo-slots/bamboo-bear-deluxe/",
+        "image": "img_blog_bamboodlx-casinotreasure.jpg"
+      },
+      {
+        "title": "Slotslaunch.com reviews Bamboo Bear Deluxe",
+        "link": "https://slotslaunch.com/mascot-gaming/bamboo-bear-deluxe",
+        "image": "img_blog_bamboodlx-slotslaunch.jpg"
+      },
+      {
+        "title": "Respinix.com reviews Bamboo Bear Deluxe",
+        "link": "https://respinix.com/demo/bamboo-bear-deluxe/",
+        "image": "img_blog_bamboodlx-respinix.jpg"
+      },
+      {
+        "title": "Allfreechips.com reviews Bamboo Bear Deluxe",
+        "link": "https://www.allfreechips.com/slots/bamboo-bear-deluxe#freeslotdemo",
+        "image": "img_blog_bamboodlx-allfreechips.jpg"
+      },
+      {
+        "title": "Slotcatalog.com reviews Bamboo Bear Deluxe",
+        "link": "https://slotcatalog.com/en/slots/bamboo-bear-deluxe",
+        "image": "img_blog_bamboodlx-slotcatalog.jpg"
+      }
+    ],
     "meta": {
       "title": "Bamboo Bear Deluxe, a video slot game by Mascot Gaming",
       "descr": "The panda returns — embrace the calm and fortune with up to 25 Free Spins and x2500."
@@ -483,7 +532,7 @@
     "branded": false,
     "custom": false,
     "descr": "Adventure continues: join Tessa in her new quest with three types of Free Spins with x2, x5, or x10 multipliers and the powerful Risk & Buy feature.",
-    "thumbUrl": "game_tessatomb2.jpeg",
+    "thumbUrl": "game_tessatomb3.svg",
     "heroUrl": "hero_tessatomb.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -518,6 +567,38 @@
         "name": "Free Spins with Win Multiplier",
         "descr": "3 types of Free Spins: with x2, x5 or x10 win multipliers",
         "imgUrl": "img-feat_tessatomb-21.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Casinotreasure.com reviews Tessa Hunt and the Warrior Tomb",
+        "link": "https://casinotreasure.com/free-play-demo-slots/tessa-hunt-and-the-warrior-tomb/",
+        "image": "img_blog_tessatomb-casinotreasure.jpg"
+      },
+      {
+        "title": "LCB.org reviews Tessa Hunt and the Warrior Tomb",
+        "link": "https://lcb.org/news/mascot-gaming-launches-tessa-hunt-and-the-warrior-tomb",
+        "image": "img_blog_tessatomb-lcb.jpg"
+      },
+      {
+        "title": "Respinix.com reviews Tessa Hunt and the Warrior Tomb",
+        "link": "https://respinix.com/demo/tessa-hunt-and-the-warrior-tomb/",
+        "image": "img_blog_tessatomb-respinix.jpg"
+      },
+      {
+        "title": "Slotcatalog.com reviews Tessa Hunt and the Warrior Tomb",
+        "link": "https://slotcatalog.com/en/slots/tessa-hunt-and-the-warrior-tomb",
+        "image": "img_blog_tessatomb-slotcatalog.jpg"
+      },
+      {
+        "title": "Slotslaunch.com reviews Tessa Hunt and the Warrior Tomb",
+        "link": "https://slotslaunch.com/mascot-gaming/tessa-hunt-and-the-warrior-tomb",
+        "image": "img_blog_tessatomb-slotslaunch.jpg"
+      },
+      {
+        "title": "Allfreechips.com reviews Tessa Hunt and the Warrior Tomb",
+        "link": "https://www.allfreechips.com/slots/tessa-hunt-and-the-warrior-tomb",
+        "image": "img_blog_tessatomb-allfreechips.jpg"
       }
     ],
     "meta": {
@@ -646,6 +727,23 @@
         "imgUrl": "img-feat_overheat-4.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Gamblenexus.com reviews Overheat",
+        "link": "https://gamblenexus.com/slots/overheat/",
+        "image": "img_blog_overheat-gamblenexus.jpg"
+      },
+      {
+        "title": "Casinotreasure.com reviews Overheat",
+        "link": "https://casinotreasure.com/free-play-demo-slots/overheat/",
+        "image": "img_blog_overheat-casinotreasure.jpg"
+      },
+      {
+        "title": "Slotcatalog.com reviews Overheat",
+        "link": "https://slotcatalog.com/en/slots/overheat?cISO=SE#play-demo",
+        "image": "img_blog_overheat-slotcatalog.jpg"
+      }
+    ],
     "meta": {
       "title": "Overheat, a video crash game by TTT Games",
       "descr": "Ride the waves with x10000, amazing social features and controlled growth."
@@ -703,6 +801,33 @@
         "name": "Free Spins with Additional Free Spins",
         "descr": "Free Spins with a 3x multiplier, expanding Wild stacks, and the chance to get additional Free Spins",
         "imgUrl": "img-feat_wildspiritdlx-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Casinodaddy,com reviews Wild Spirit Deluxe",
+        "link": "https://casinodaddy.com/news/wild-spirit-deluxe-review-mascot-gamings-western-adventure/",
+        "image": "img_blog_wildspiritdlx-casinodaddy.jpg"
+      },
+      {
+        "title": "Gamblenexus.com reviews Wild Spirit Deluxe",
+        "link": "https://gamblenexus.com/slots/wild-spirit-deluxe/",
+        "image": "img_blog_wildspiritdlx-gamblenexus.jpg"
+      },
+      {
+        "title": "Casinologia.com reviews Wild Spirit Deluxe",
+        "link": "https://casinologia.com/slot-reviews/wild-spirit-deluxe/",
+        "image": "img_blog_wildspiritdlx-casinologia.jpg"
+      },
+      {
+        "title": "Slotcatalog.com reviews Wild Spirit Deluxe",
+        "link": "https://slotcatalog.com/en/slots/wild-spirit-deluxe?cISO=SE#play-demo",
+        "image": "img_blog_wildspiritdlx-slotcatalog.jpg"
+      },
+      {
+        "title": "Casinolandia.com reviews Wild Spirit Deluxe",
+        "link": "https://casinolandia.com/slots/wild-spirit-deluxe/",
+        "image": "img_blog_wildspiritdlx-casinolandia.jpg"
       }
     ],
     "meta": {
@@ -765,6 +890,31 @@
       }
     ],
     "articles": [
+      {
+        "title": "Casinologia.com reviews Scratch the Bank",
+        "link": "https://casinologia.com/slot-reviews/scratch-the-bank/",
+        "image": "img_blog_scratchbank-casinologia.jpg"
+      },
+      {
+        "title": "Slotcatalog.com reviews Scratch the Bank",
+        "link": "https://slotcatalog.com/en/slots/scratch-the-bank?cISO=SE#play-demo",
+        "image": "img_blog_scratchbank-slotcatalog.jpg"
+      },
+      {
+        "title": "Slotsmate.com reviews Scratch the Bank",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/scratch-the-bank",
+        "image": "img_blog_scratchbank-slotsmate.jpg"
+      },
+      {
+        "title": "Casinolandia.com reviews Scratch the Bank",
+        "link": "https://casinolandia.com/slots/scratch-the-bank/",
+        "image": "img_blog_scratchbank-casinolandia.jpg"
+      },
+      {
+        "title": "Casinofreak.com reviews Scratch the Bank",
+        "link": "https://casinologia.com/slot-reviews/princess-and-dwarfs-deluxe/",
+        "image": "img_blog_scratchbank-casinofreak.jpg"
+      },
       {
         "title": "The Art of the Perfect Heist: Scratch the Bank Review",
         "link": "https://mascot.games/blog/the-art-of-the-perfect-heist-scratch-the-bank-review",
@@ -918,6 +1068,31 @@
     ],
     "articles": [
       {
+        "title": "Casinologia.com reviews Princess and Dwarfs Deluxe",
+        "link": "https://casinologia.com/slot-reviews/princess-and-dwarfs-deluxe/",
+        "image": "img_blog_princessdwarfs-casinologia.jpg"
+      },
+      {
+        "title": "Slotcatalog.com reviews Princess and Dwarfs Deluxe",
+        "link": "https://slotcatalog.com/en/slots/princess-dwarfs-deluxe?cISO=SE#play-demo",
+        "image": "img_blog_princessdwarfs-slotcatalog.jpg"
+      },
+      {
+        "title": "Slotsmate.com reviews Princess and Dwarfs Deluxe",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/princess-and-dwarfs-deluxe",
+        "image": "img_blog_princessdwarfs-slotsmate.jpg"
+      },
+      {
+        "title": "Casinolandia.com reviews Princess and Dwarfs Deluxe",
+        "link": "https://casinolandia.com/slots/princess-and-dwarfs-deluxe/",
+        "image": "img_blog_princessdwarfs-casinolandia.jpg"
+      },
+      {
+        "title": "Casinofreak.com reviews Princess and Dwarfs Deluxe",
+        "link": "https://www.casinofreak.com/games/play-princess-and-dwarfs-deluxe",
+        "image": "img_blog_princessdwarfs-casinofreak.jpg"
+      },
+      {
         "title": "Treasures Beneath the Surface: Princess and Dwarfs Deluxe Review",
         "link": "https://mascot.games/blog/treasures-beneath-the-surface-princess-and-dwarfs-deluxe-review",
         "image": "img_blog_princessdwarfs-main.jpg"
@@ -987,6 +1162,33 @@
         "imgUrl": "img-feat_fruitycoin-3.jpg"
       }
     ],
+    "articles": [
+      {
+        "title": "Casinologia.com reviews Lucky Fruity Coin",
+        "link": "https://casinologia.com/slot-reviews/lucky-fruity-coin/",
+        "image": "img_blog_fruitycoin-casinologia.jpg"
+      },
+      {
+        "title": "Slotcatalog.com reviews Lucky Fruith Coin",
+        "link": "https://slotcatalog.com/en/slots/lucky-fruity-coin?cISO=SE#play-demo",
+        "image": "img_blog_fruitycoin-slotcatalog.jpg"
+      },
+      {
+        "title": "Slotsmate.com reviews Lucky Fruity Coin",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/lucky-fruity-coin",
+        "image": "img_blog_fruitycoin-slotsmate.jpg"
+      },
+      {
+        "title": "Casinolandia.com reviews Lucky Fruity Coin",
+        "link": "https://casinolandia.com/slots/lucky-fruity-coin/",
+        "image": "img_blog_fruitycoin-casinolandia.jpg"
+      },
+      {
+        "title": "Casinofreak.com reviews Lucky Fruity Coin",
+        "link": "https://www.casinofreak.com/games/play-lucky-fruity-coin",
+        "image": "img_blog_fruitycoin-casinofreak.jpg"
+      }
+    ],
     "meta": {
       "title": "Lucky Fruity Coin, a video slot game by Mascot Gaming",
       "descr": "Dive into the fruit explosion with Bonus Game, Risk Game, and x5000"
@@ -1042,6 +1244,31 @@
       }
     ],
     "articles": [
+      {
+        "title": "Chipy.com reviews Plinball Machine",
+        "link": "https://chipy.com/games/mascot-gaming/plinball-machine",
+        "image": "img_blog_plinball-chipy.jpg"
+      },
+      {
+        "title": "Casinologia.com reviews Plinball Machine",
+        "link": "https://casinologia.com/slot-reviews/plinball-machine/",
+        "image": "img_blog_plinball-casinologia.jpg"
+      },
+      {
+        "title": "Slotcatalog.com reviews Plinball Machine",
+        "link": "https://slotcatalog.com/en/slots/plinball-machine?cISO=SE#play-demo",
+        "image": "img_blog_plinball-slotcatalog.jpg"
+      },
+      {
+        "title": "Slotslaunch.com reviews Plinball Machine",
+        "link": "https://slotslaunch.com/mascot-gaming/plinball-machine",
+        "image": "img_blog_plinball-slotslaunch.jpg"
+      },
+      {
+        "title": "Casinofreak.com reviews Plinball Machine",
+        "link": "https://www.casinofreak.com/games/play-plinball-machine",
+        "image": "img_blog_plinball-casinofreak.jpg"
+      },
       {
         "title": "Bounce, Land, Win: Plinball Machine Review",
         "link": "https://mascot.games/blog/bounce-land-win-plinball-machine-review",
@@ -1132,6 +1359,31 @@
       }
     ],
     "articles": [
+      {
+        "title": "Casinotreasure.com reviews Skyrocket",
+        "link": "https://casinotreasure.com/free-play-demo-slots/skyrocket/",
+        "image": "img_blog_skyrocket-casinotreasure.jpg"
+      },
+      {
+        "title": "Chipy.com review SkyRocket",
+        "link": "https://chipy.com/games/mascot-gaming/skyrocket",
+        "image": "img_blog_skyrocket-chipy.jpg"
+      },
+      {
+        "title": "Casinologia.com reviews SkyRocket",
+        "link": "https://casinologia.com/slot-reviews/skyrocket/",
+        "image": "img_blog_skyrocket-casinoliga.jpg"
+      },
+      {
+        "title": "Slotcatalog.com reviews SkyRocket",
+        "link": "https://slotcatalog.com/en/slots/sky-rocket",
+        "image": "img_blog_skyrocket-slotcatalog2.jpg"
+      },
+      {
+        "title": "Casinofreak.com reviews SkyRocket",
+        "link": "https://www.casinofreak.com/games/play-skyrocket",
+        "image": "img_blog_skyrocket-casinofreak.jpg"
+      },
       {
         "title": "Nonstopbonus.com: Skyrocket Review",
         "link": "https://www.nonstopbonus.com/games/mascot-gaming/skyrocket",
@@ -8697,7 +8949,7 @@
     "branded": false,
     "custom": false,
     "descr": "Famous lottery game, popular from the ancient time.",
-    "thumbUrl": "game_keno.jpeg",
+    "thumbUrl": "game_keno2.svg",
     "heroUrl": "hero_keno.jpg",
     "blueButtn": false,
     "videoUrl": null,
