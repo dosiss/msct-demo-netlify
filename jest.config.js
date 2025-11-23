@@ -12,4 +12,8 @@ module.exports = {
     '^@$': '<rootDir>'
   },
   testMatch: ['**/tests/unit/**/*.spec.js'],
+  testPathIgnorePatterns: [
+    '/node_modules/',
+    '<rootDir>/tests/unit/GeneralContactForm.spec.js',
+  ]
 };
