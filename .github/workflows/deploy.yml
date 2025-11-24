@@ -1,14 +1,11 @@
 name: Deploy Main Site to VPS
-
 on:
   push:
     branches:
       - master
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -17,21 +14,29 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.19.0'
-          cache: 'npm'
+          # cache: 'npm'  # TEMPORARILY COMMENTED OUT
+
+      - name: Debug - Check package-lock.json
+        run: |
+          echo "=== Checking for buffer in package-lock.json ==="
+          grep -i "buffer" package-lock.json || echo "No buffer found in package-lock.json"
+          echo ""
+          echo "=== package.json dependencies ==="
+          cat package.json | grep -A 50 '"dependencies"'
+          echo ""
+          echo "=== package-lock.json first 100 lines ==="
+          head -n 100 package-lock.json
 
       - name: Install dependencies
         run: npm ci
 
       - name: Run unit tests
-        run: npm test        
+        run: npm test
 
       - name: Build static site
         run: npm run generate
         env:
           NODE_ENV: production
-
-          # Add your environment variables here
-          # NUXT_ENV_API_URL: https://my-domain.com/api
 
       - name: Deploy to VPS
         uses: appleboy/scp-action@master
@@ -59,16 +64,12 @@ jobs:
             if [ -d /var/www/mascot.games/frontends/mascot-main ]; then
               mv /var/www/mascot.games/frontends/mascot-main /var/www/mascot.games/frontends/mascot-main-backup
             fi
-
             # Move new deployment to production
             mv /var/www/mascot.games/frontends/mascot-main-temp /var/www/mascot.games/frontends/mascot-main
-
             # Set proper permissions
             chmod -R 755 /var/www/mascot.games/frontends/mascot-main
-
             # Reload Nginx
             sudo service nginx reload
-
             echo "Main site deployment completed successfully!"
 
       - name: Purge Cloudflare Cache
