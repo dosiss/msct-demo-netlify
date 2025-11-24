@@ -36,6 +36,7 @@
     "@babel/core": "^7.28.5",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-env": "^7.28.5",
+    "@csstools/css-tokenizer": "^2.4.1",
     "@nuxt/image": "^0.7.1",
     "@nuxtjs/device": "^2.1.0",
     "@nuxtjs/eslint-config": "^11.0.0",
