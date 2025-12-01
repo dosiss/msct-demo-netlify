@@ -101,14 +101,14 @@ export default {
           }
           .ad-banner__logo-new {
             position: absolute;
-            top: 100px;
+            top: 70px;
             left: 150px;
             max-width: 300px;
             @media (max-width: 1200px) {
               left: 35px
             }
             @media (max-width: 850px) {
-              max-width: 130px;
+              max-width: 100px;
               top: 20px
             }
             @media (max-width: 650px) {
