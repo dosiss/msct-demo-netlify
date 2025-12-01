@@ -15,7 +15,7 @@ const createWrapper = ({ isMobile = false } = {}) => {
       NuxtLink: NuxtLinkStub,
       MainHeader: true,
       SharingButtons: true,
-      AdBannerSigmaEurope: true,
+      AdBanner: true,
       MainFooter: true,
       VLazyImage: true,
       VueLazyLoad: true,

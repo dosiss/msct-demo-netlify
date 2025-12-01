@@ -27,7 +27,7 @@
       </div>
     </div>
     <SharingButtons />
-    <AdBannerSigmaEurope />
+    <AdBanner />
     <MainFooter />
     <ContactModalPartner v-show="showModal" @close-modal="showModal = false"/>
 

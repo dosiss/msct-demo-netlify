@@ -73,7 +73,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 #ad-banner::-webkit-scrollbar { /* WebKit */
   width: 0;
   height: 0;
