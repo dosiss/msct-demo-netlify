@@ -140,13 +140,13 @@
   {
     "name": "The Myth Deluxe",
     "slug": "the-myth-deluxe",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/the_myth_deluxe",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-12-11",
     "featured": false,
     "topGame": false,
@@ -163,16 +163,16 @@
     "backUrl": "back_mythdlx.jpg",
     "detailsImgUrl": "details_mythdlx.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 15,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": [ "mythology" ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -181,7 +181,7 @@
       },
       {
         "name": "Risk & Buy feature: Buy",
-        "descr": "Buy Free Spins with the proposed conditions and at the suggested price. There is a special buy offer after each spin",
+        "descr": "Buy Free Spins with the proposed conditions and at the suggested price",
         "imgUrl": "img-feat_mythdlx-1.jpg"
       },
       {
@@ -197,7 +197,7 @@
     ],
     "meta": {
       "title": "The Myth Deluxe, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Enter the realm of fire and frost with Special Wilds, Free Spins and x4500!"
     },
     "rockways": false
   },
