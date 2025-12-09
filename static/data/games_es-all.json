@@ -244,14 +244,14 @@
         "imgUrl": "img-feat_gryphondlx-0.jpg"
       },
       {
-        "name": "Free Spins",
-        "descr": "At least 3 Scatter symbols trigger Free Spins with x3 multiplier",
-        "imgUrl": "img-feat_gryphondlx-1.jpg"
-      },
-      {
         "name": "Risk & Buy feature: Buy",
         "descr": "Buy Free Spins with the proposed conditions and at the suggested price",
         "imgUrl": "img-feat_gryphondlx-2.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "At least 3 Scatter symbols trigger Free Spins with x3 multiplier",
+        "imgUrl": "img-feat_gryphondlx-1.jpg"
       },
       {
         "name": "Expanding Wild",

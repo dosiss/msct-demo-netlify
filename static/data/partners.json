@@ -1,5 +1,16 @@
 [
   {
+  "name": "Cobra tournament",
+  "type": "promopartner",
+  "top": false,
+  "casino": false,
+  "platform": false,
+  "promo": true,
+  "promoText": "Mascot Tournament \n€3000 Prize Pool \nDecember 9 -13",
+  "url": "https://bit.ly/cobracasino-december2025",
+  "logoUrl": "partner_cobra-tournament.jpg"
+  },
+  {
   "name": "Adrenaline tournament boxes",
   "type": "promopartner",
   "top": false,
