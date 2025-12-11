@@ -13,6 +13,7 @@ let dynamicRoutesFromMarkets = () => {
   })
 }
 
+
 // import data from './static/data/games-all.json'
 // let dynamicRoutes = () => {
 //   return new Promise(resolve => {
