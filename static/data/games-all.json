@@ -2,7 +2,7 @@
   {
     "name": "Marble Bounce",
     "slug": "marble-bounce",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/marble_bounce",
     "theme": "tictactoe",
     "type": null,
     "mgacertified": false,
@@ -27,7 +27,7 @@
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
@@ -44,7 +44,7 @@
       {
         "name": "Physics-Based Gameplay",
         "descr": "A refined engine simulates ball movement with lifelike accuracy, enhancing the realism and enjoyment of the experience",
-        "imgUrl": "img-feat_marblebounce-1.jpg"
+        "imgUrl": null
       },
       {
         "name": "Engaging Visual Effects",
@@ -64,32 +64,32 @@
       {
         "name": "Customization",
         "descr": "Players can personalize the game area and interface elements to their liking using customization options",
-        "imgUrl": "img-feat_marblebounce-5.jpg"
+        "imgUrl": null
       }
     ],
     "meta": {
       "title": "Marble Bounce, a video game by TTT Games",
-      "descr": " "
+      "descr": "Bounce once more with realistic physics model, enhanced animation, adjustable pin rows and x10000!"
     },
     "rockways": false
   },
   {
     "name": "Fruit Machine: Mega X",
     "slug": "fruit-machine-mega-x",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/fruit_machine_mega_x",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2025-12-25",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_fruitmegax.jpeg",
+    "thumbUrl": "game_fruitmegax2.jpeg",
     "heroUrl": "hero_fruitmegax.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -99,16 +99,16 @@
     "backUrl": "back_fruitmegax.jpg",
     "detailsImgUrl": "details_fruitmegax.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
+      "reels": 6,
+      "rows": 5,
+      "volatility": "Low",
       "paylines": null,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": [ "fruits" ],
     "features": [
       {
         "name": "Risk Game",
@@ -133,7 +133,7 @@
     ],
     "meta": {
       "title": "Fruit Machine: Mega X, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Taste the timeless thrill of classic reels with Risk Game, Rockfall Fwature and x3000."
     },
     "rockways": false
   },
