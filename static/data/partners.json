@@ -1,16 +1,5 @@
 [
   {
-  "name": "Cobra tournament",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "Mascot Tournament \n€3000 Prize Pool \nDecember 9 -13",
-  "url": "https://bit.ly/cobracasino-december2025",
-  "logoUrl": "partner_cobra-tournament.jpg"
-  },
-  {
   "name": "Adrenaline tournament boxes",
   "type": "promopartner",
   "top": false,
@@ -2638,5 +2627,38 @@
     "promoText": null,
     "url": "https://onlineslottop.com/providers/mascot-gaming/",
     "logoUrl": "partner_onlineslottop.png"
+  },
+  {
+    "name": "Casino GamesOnNet",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casinogamesonnet.com/?slots=mascot-gaming",
+    "logoUrl": "partner_gamesonnet.png"
+  },
+  {
+    "name": "Casino slots guru",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.casinoslotsguru.com/slots/software/mascot-gaming/",
+    "logoUrl": "partner_casinoslotsguru.png"
+  },
+  {
+    "name": "GamesOnNet",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://casinogamesguru.com/free-slots?software=mascot-gaming",
+    "logoUrl": "partner_casinogamesonnet.png"
   }
 ]
