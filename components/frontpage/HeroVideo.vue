@@ -10,8 +10,9 @@
         <div class="static-background">
             <div class="container">
                 <div class="top-header__wrap">
-                  <img src="/images/img_10years-mobile.png" class="years-badge-mobile" alt="" />
                   <img src="/images/img_sound-award-mobile.png" class="sound-badge-mobile" alt="" />
+                  <img src="/images/img_10years-mobile.png" class="years-badge-mobile" alt="" />
+                  <img src="/images/img_bege-mobile.png" class="bege-badge-mobile" alt="" />
                       <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
                       <a :href="`${demoUrl}${locPath}`" class="buttn buttn-primary buttn-xl hero-buttn">{{ $t('Play our games') }}</a>
                 </div>
@@ -40,6 +41,7 @@
           <div class="container">
             <img src="/images/img_sound-award-desktop.png" class="sound-badge-desktop" alt="" />
             <img src="/images/img_10years-desktop.png" class="years-badge-desktop" alt="" />
+            <img src="/images/img_bege-desktop.png" class="bege-badge-desktop" alt="" />
               <div class="top-header__wrap">
                 <div class="top-header__left">
                     <h1 class="top-header__title">{{ $t('Feel the') }}<br />{{ $t('Gaming Thrill') }}</h1>
@@ -216,7 +218,24 @@ html:lang(pt){
   }
   .years-badge-desktop {
     position: absolute;
-    top: 188px;
+    top: 181px;
+    right: 175px;
+    max-width: 288px;
+    height: auto;
+    @media (min-width: 1960px) {
+      right: 50%;
+      margin-right: -820px;
+    }
+    @media (max-width: 1460px) {
+      right: 120px
+    }
+    @media (max-width: 1200px) {
+      right: 35px
+    }
+  }
+  .bege-badge-desktop {
+    position: absolute;
+    top: 271px;
     right: 175px;
     max-width: 288px;
     height: auto;
@@ -241,10 +260,16 @@ html:lang(pt){
   @media (max-width: 650px) {
     padding: 335px 0 50px;
   }
-  .sound-badge-mobile {
+  .bege-badge-mobile {
     max-width: 96px;
     height: auto;
     margin-bottom: 7px;
+    display: block;
+  }
+  .sound-badge-mobile {
+    max-width: 96px;
+    height: auto;
+    margin-bottom: 0;
     display: block;
   }
   .years-badge-mobile {
