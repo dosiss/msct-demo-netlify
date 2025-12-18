@@ -1,5 +1,409 @@
 [
   {
+    "name": "Plinko Builder",
+    "slug": "plinko-builder",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": true,
+    "releaseDate": "2026-02-12",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_plinkobuilder.jpeg",
+    "heroUrl": "hero_plinkobuilder.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_plinkobuilder.jpg",
+    "logoUrl": "logo_plinkobuilder.png",
+    "backUrl": "back_plinkobuilder.jpg",
+    "detailsImgUrl": "details_plinkobuilder.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [],
+    "features": [
+      {
+        "name": "Plinko Board Builder",
+        "descr": "Beyond standard pin layouts, players select from multiple board presets with added structures that reshape the ball’s path and diversify each round",
+        "imgUrl": null
+      },
+      {
+        "name": "Adjustable Pin Rows",
+        "descr": "Players can modify the number of horizontal rows, creating a personalized board layout and tailoring their Plinko experience",
+        "imgUrl": "img-feat_plinkobuilder-1.jpg"
+      },
+      {
+        "name": "Multi-Ball Release",
+        "descr": "Instead of dropping one ball at a time, players can release multiple balls simultaneously, speeding up gameplay and increasing excitement",
+        "imgUrl": "img-feat_plinkobuilder-2.jpg"
+      },
+      {
+        "name": "3 Risk Levels",
+        "descr": "Choose between low, medium, and high risk. The level of risk determines the minimum and maximum multipliers the ball can land on",
+        "imgUrl": null
+      },
+      {
+        "name": "Realistic Physics Model",
+        "descr": "Balls fall and bounce off the pegs with precision, following an accurate physics model",
+        "imgUrl": "img-feat_plinkobuilder-4.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization options and avatars",
+        "imgUrl": "img-feat_plinkobuilder-5.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their preferences using customization features",
+        "imgUrl": null
+      }
+    ],
+    "meta": {
+      "title": "Plinko Builder, a plinko game by TTT Games",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Riot: Urban Wilds",
+    "slug": "riot-urban-wilds",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-03-19",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_rioturban.jpeg",
+    "heroUrl": "hero_rioturban.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_rioturban.jpg",
+    "logoUrl": "logo_rioturban.png",
+    "backUrl": "back_rioturban.jpg",
+    "detailsImgUrl": "details_rioturban.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Gamble your winnings for a chance to multiply them",
+        "imgUrl": "img-feat_rioturban-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Rounds with the proposed conditions and at the suggested price",
+        "imgUrl": "img-feat_rioturban-1.jpg"
+      },
+      {
+        "name": "Boost Feature",
+        "descr": "Activate Boost to increase win multipliers",
+        "imgUrl": "img-feat_rioturban-2.jpg"
+      },
+      {
+        "name": "Rockways",
+        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "imgUrl": "img-feat_rioturban-3.jpg"
+      },
+      {
+        "name": "Win Multipliers",
+        "descr": "Three levels of win multipliers on rotating wheels",
+        "imgUrl": "img-feat_rioturban-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Riot: Urban Wilds, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },
+  {
+    "name": "Shining Wilds",
+    "slug": "shining-wilds",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-03-05",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_shiningwilds.jpeg",
+    "heroUrl": "hero_shiningwilds.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_shiningwilds.jpg",
+    "logoUrl": "logo_shiningwilds.png",
+    "backUrl": "back_shiningwilds.jpg",
+    "detailsImgUrl": "details_shiningwilds.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Spin the Risk Wheel to gamble your winnings for a chance to increase them",
+        "imgUrl": "img-feat_shiningwilds-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Rounds with the proposed conditions and at the suggested price",
+        "imgUrl": "img-feat_shiningwilds-1.jpg"
+      },
+      {
+        "name": "Random Wilds",
+        "descr": "On every spin, 2 to 4 symbols randomly transform into Wilds",
+        "imgUrl": "img-feat_shiningwilds-2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Shining Wilds, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Tessa Hunt and the Mission Monte Carlo",
+    "slug": "tessa-hunt-and-the-mission-monte-carlo",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-02-19",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_tessamontecarlo.jpeg",
+    "heroUrl": "hero_tessamontecarlo.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_tessamontecarlo.jpg",
+    "logoUrl": "logo_tessamontecarlo.png",
+    "backUrl": "back_tessamontecarlo.jpg",
+    "detailsImgUrl": "details_tessamontecarlo.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_tessamontecarlo-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins or Free Rounds with the proposed conditions and at the suggested price",
+        "imgUrl": "img-feat_tessamontecarlo-1.jpg"
+      },
+      {
+        "name": "Boost Feature",
+        "descr": "Activate Boost to increase the chance of triggering Free Spins",
+        "imgUrl": "img-feat_tessamontecarlo-2.jpg"
+      },
+      {
+        "name": "Multiplier Symbols",
+        "descr": "Each Multiplier symbol on the screen doubles the total win for the current spin",
+        "imgUrl": "img-feat_tessamontecarlo-3.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "All winning symbol combinations in Free Spins are paid anywhere on the screen, regardless of position",
+        "imgUrl": "img-feat_tessamontecarlo-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Tessa Hunt and the Mission Monte Carlo, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "The Epic Win x125",
+    "slug": "the-epic-win-x125",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-02-05",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_epicwin125.jpeg",
+    "heroUrl": "hero_epicwin125.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_epicwin125.jpg",
+    "logoUrl": "logo_epicwin125.png",
+    "backUrl": "back_epicwin125.jpg",
+    "detailsImgUrl": "details_epicwin125.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Take a risk and gamble your winnings for a chance to increase them with a multiplier",
+        "imgUrl": "img-feat_epicwin125-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Rounds with the proposed conditions and at the suggested price",
+        "imgUrl": "img-feat_epicwin125-1.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "Each non-winning spin increases the Win Multiplier, which can reach up to x125",
+        "imgUrl": "img-feat_epicwin125-2.jpg"
+      },
+      {
+        "name": "Any Reel Payouts",
+        "descr": "Winning combinations can start from any reel, increasing the number of possible wins",
+        "imgUrl": "img-feat_epicwin125-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "The Epic Win x125, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },
+  {
+    "name": "Secrets of Papyrus",
+    "slug": "secrets-of-papyrus",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-01-21",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_papyrus.jpeg",
+    "heroUrl": "hero_papyrus.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_papyrus.jpg",
+    "logoUrl": "logo_papyrus.png",
+    "backUrl": "back_papyrus.jpg",
+    "detailsImgUrl": "details_papyrus.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk & Buy feature: Risk",
+        "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
+        "imgUrl": "img-feat_papyrus-0.jpg"
+      },
+      {
+        "name": "Risk & Buy feature: Buy",
+        "descr": "Buy Free Spins or Free Rounds with the proposed conditions and at the suggested price",
+        "imgUrl": "img-feat_papyrus-1.jpg"
+      },
+      {
+        "name": "Boost Feature",
+        "descr": "Activate Boost to increase the chance of triggering Free Spins",
+        "imgUrl": "img-feat_papyrus-2.jpg"
+      },
+      {
+        "name": "Free Spins",
+        "descr": "During Free Spins, Mystery symbols become sticky and remain in place. When reels 2, 3, and 4 are completely filled with sticky Mystery symbols, 3 Extra Free Spins are awarded",
+        "imgUrl": "img-feat_papyrus-3.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Secrets of Papyrus, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": false
+  },  
+  {
     "name": "Marble Bounce",
     "slug": "marble-bounce",
     "linkToDemo": "demo.mascot.games/run/marble_bounce",

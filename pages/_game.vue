@@ -576,6 +576,13 @@ export default {
   .game_catch-the-win {
     @include no-meta
   }
+  .game_fruit-machine-mega-x {
+      @media (max-width: 650px) {
+        .game-title {
+          max-width: 270px
+        }
+      }
+  }
   .top-img {
     background-size: cover;
     background-repeat: no-repeat;
