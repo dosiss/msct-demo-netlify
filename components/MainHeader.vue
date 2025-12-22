@@ -80,7 +80,7 @@
               </li>
               <li ref="testMenuItem" class="test-menu-item">
                 <!-- Variant A -->
-                <nuxt-link
+                <!-- <nuxt-link
                   v-if="currentVariant === 'variantA'"
                   to="/bonuses"
                   class="menu-link variant-a"
@@ -88,18 +88,18 @@
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 24"><path stroke="#DB001D" stroke-linejoin="round" stroke-width="2" d="M12.386 9V6a3 3 0 1 0-3 3h3Zm0 0V7a2 2 0 1 1 2 2h-2Zm-7 4v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7m-7-3v11m8-8v-3a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1v3h16Z"/></svg>
                   <span>Casino Bonuses</span>
-                </nuxt-link>
+                </nuxt-link> -->
 
                 <!-- Variant B -->
-                <nuxt-link
+                <!-- <nuxt-link
                   v-else-if="currentVariant === 'variantB'"
                   to="/bonuses"
                   class="menu-link variant-b"
                   @click.native.capture="handleTestMenuClick"
-                >
+                > -->
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 34 32"><path fill="#DB001D" fill-rule="evenodd" d="M15.583 11.333h-8.5c-1.336 0-2.003 0-2.418.415-.415.416-.415 1.083-.415 2.419v1.416c0 1.336 0 2.004.415 2.419.415.415 1.082.415 2.418.415h8.5v-7.084ZM8.5 21.25v5.667c0 1.336 0 2.003.415 2.418.415.415 1.082.415 2.418.415h4.25v-8.5H8.5Zm9.917 8.5h4.25c1.336 0 2.003 0 2.418-.415.415-.415.415-1.082.415-2.418V21.25h-7.083v8.5ZM25.5 18.417h1.417c1.336 0 2.003 0 2.418-.415.415-.415.415-1.083.415-2.419v-1.416c0-1.336 0-2.003-.415-2.419-.415-.415-1.082-.415-2.418-.415h-8.5v7.084H25.5Z" clip-rule="evenodd"/><path fill="#DB001D" d="M26.917 6.562v-.258a2.501 2.501 0 0 0-3.294-2.373 13.742 13.742 0 0 0-5.376 3.322L17 8.5v1.417h5.206c.305 0 .608-.05.897-.146l1.976-.659a2.692 2.692 0 0 0 1.838-2.55Zm-19.834 0v-.258a2.502 2.502 0 0 1 3.294-2.373 13.742 13.742 0 0 1 5.377 3.322L17 8.5v1.417h-5.206c-.305 0-.608-.05-.897-.146l-1.976-.659a2.692 2.692 0 0 1-1.837-2.55Z"/></svg> -->
-                <span>Casino Bonuses</span>
-                </nuxt-link>
+                <!-- <span>Casino Bonuses</span>
+                </nuxt-link> -->
               </li>
             </ul>
           </nav>
@@ -239,25 +239,25 @@
                   <!-- A/B Tested Menu Item -->
                   <li ref="testMenuItem" class="test-menu-item mobile-menu__item">
                     <!-- Variant A -->
-                    <nuxt-link
+                    <!-- <nuxt-link
                       v-if="currentVariant === 'variantA'"
                       to="/bonuses"
                       class="menu-link variant-a"
                       @click.native.capture="handleTestMenuClick"
                     >
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 25 24"><path stroke="#DB001D" stroke-linejoin="round" stroke-width="2" d="M12.386 9V6a3 3 0 1 0-3 3h3Zm0 0V7a2 2 0 1 1 2 2h-2Zm-7 4v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7m-7-3v11m8-8v-3a1 1 0 0 0-1-1h-14a1 1 0 0 0-1 1v3h16Z"/></svg>                      <span>Casino Bonuses</span>
-                    </nuxt-link>
+                    </nuxt-link> -->
 
                     <!-- Variant B -->
-                    <nuxt-link
+                    <!-- <nuxt-link
                       v-else-if="currentVariant === 'variantB'"
                       to="/bonuses"
                       class="menu-link variant-b"
                       @click.native.capture="handleTestMenuClick"
-                    >
+                    > -->
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 34 32"><path fill="#DB001D" fill-rule="evenodd" d="M15.583 11.333h-8.5c-1.336 0-2.003 0-2.418.415-.415.416-.415 1.083-.415 2.419v1.416c0 1.336 0 2.004.415 2.419.415.415 1.082.415 2.418.415h8.5v-7.084ZM8.5 21.25v5.667c0 1.336 0 2.003.415 2.418.415.415 1.082.415 2.418.415h4.25v-8.5H8.5Zm9.917 8.5h4.25c1.336 0 2.003 0 2.418-.415.415-.415.415-1.082.415-2.418V21.25h-7.083v8.5ZM25.5 18.417h1.417c1.336 0 2.003 0 2.418-.415.415-.415.415-1.083.415-2.419v-1.416c0-1.336 0-2.003-.415-2.419-.415-.415-1.082-.415-2.418-.415h-8.5v7.084H25.5Z" clip-rule="evenodd"/><path fill="#DB001D" d="M26.917 6.562v-.258a2.501 2.501 0 0 0-3.294-2.373 13.742 13.742 0 0 0-5.376 3.322L17 8.5v1.417h5.206c.305 0 .608-.05.897-.146l1.976-.659a2.692 2.692 0 0 0 1.838-2.55Zm-19.834 0v-.258a2.502 2.502 0 0 1 3.294-2.373 13.742 13.742 0 0 1 5.377 3.322L17 8.5v1.417h-5.206c-.305 0-.608-.05-.897-.146l-1.976-.659a2.692 2.692 0 0 1-1.837-2.55Z"/></svg> -->
-                    <span>Casino Bonuses</span>
-                    </nuxt-link>
+                    <!-- <span>Casino Bonuses</span>
+                    </nuxt-link> -->
                   </li>
                   <li class="mobile-menu__item" @click.capture="hideMobileMenu"><a href="https://client.mascot.games" target="_blank">{{ $t('Client Area') }}</a></li>
                 </ul>

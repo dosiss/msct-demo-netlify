@@ -1,16 +1,5 @@
 [
   {
-  "name": "Adrenaline tournament boxes",
-  "type": "promopartner",
-  "top": false,
-  "casino": false,
-  "platform": false,
-  "promo": true,
-  "promoText": "100 Free Spins \nCode: MASCOT100 \nNo Deposit Required \n ONGOING",
-  "url": "https://bit.ly/casinoadrenaline-mascot-ongoing",
-  "logoUrl": "partner_adrenaline-oct.png"
-  },
-  {
     "name": "PariMatch",
     "type": "promopartner",
     "top": false,

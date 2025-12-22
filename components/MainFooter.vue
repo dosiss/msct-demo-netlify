@@ -24,7 +24,7 @@
               <li><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/games-for-regulated-markets')">{{ $t('Markets') }}</NuxtLink></li>
 
-              <li><NuxtLink :to="localePath('/bonuses')">{{ $t('Casino Bonuses') }}</NuxtLink></li>
+              <!-- <li><NuxtLink :to="localePath('/bonuses')">{{ $t('Casino Bonuses') }}</NuxtLink></li> -->
               <li><NuxtLink :to="localePath('/blog')">Blog</NuxtLink></li>
               <li><NuxtLink :to="localePath('/contacts')">{{ $t('Contacts') }}</NuxtLink></li>
               <li><NuxtLink :to="localePath('/about')">{{ $t('About Us') }}</NuxtLink></li>
