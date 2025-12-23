@@ -254,6 +254,7 @@ routes: async () => {
 //   },
 
   generate: {
+    fallback: '404.html',
     routes: async () => {
       const routesFromGames = await dynamicRoutesFromGames()
       const routesFromMarkets = await dynamicRoutesFromMarkets()

@@ -330,6 +330,10 @@ export default {
     this.initializeFilterFromQuery();
   },
   mounted() {
+    // Force scroll to top as backup
+    this.$nextTick(() => {
+      window.scrollTo(0, 0)
+    });
   // async mounted() {
   //
   //       try {
