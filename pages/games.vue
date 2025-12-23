@@ -330,10 +330,33 @@ export default {
     this.initializeFilterFromQuery();
   },
   mounted() {
-    // Force scroll to top as backup
-    this.$nextTick(() => {
+    // Only scroll if coming from external (check if this is initial page load)
+    // console.log('🎮 Games page mounted')
+    // console.log('📍 Initial scroll position:', window.scrollY)
+    // console.log('🔍 Navigation context:', {
+    //   from: this.$nuxt.context.from,
+    //   fromName: this.$nuxt.context.from?.name
+    // })
+
+    // Only scroll if coming from external
+    if (!this.$nuxt.context.from || !this.$nuxt.context.from.name) {
+      // console.log('✅ External navigation detected in component - forcing scroll')
+
       window.scrollTo(0, 0)
-    });
+      // console.log('📍 After first scrollTo:', window.scrollY)
+
+      this.$nextTick(() => {
+        window.scrollTo(0, 0)
+        // console.log('📍 After nextTick scrollTo:', window.scrollY)
+      })
+
+      setTimeout(() => {
+        window.scrollTo(0, 0)
+        // console.log('📍 After 200ms scrollTo:', window.scrollY)
+      }, 200)
+    } else {
+      // console.log('ℹ️ Internal navigation - skipping scroll intervention')
+    }
   // async mounted() {
   //
   //       try {
