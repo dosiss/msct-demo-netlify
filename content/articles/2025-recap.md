@@ -18,12 +18,16 @@ And all of this happened in the year Mascot Gaming turned 10. A big milestone, a
 
 A heartfelt thank you to our team, our partners, and our players for your trust, support, and energy. We couldn’t have done it without you. 💛
 
-<iframe
-  width="640"
-  height="480"
-  src="https://youtu.be/CfkDvZgTVZI?si=4rqoHAzeBtD68VsE"
-  frameborder="0"
-  allow="autoplay; encrypted-media"
-  allowfullscreen
->
-</iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.youtube.com/embed/CfkDvZgTVZI"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+  >
+  </iframe>
+</div>
+&nbsp;
+&nbsp;
+&nbsp;
