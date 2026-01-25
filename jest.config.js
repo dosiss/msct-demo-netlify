@@ -18,7 +18,7 @@ module.exports = {
   testPathIgnorePatterns: [
     '/node_modules/',
     '<rootDir>/tests/unit/GeneralContactForm.spec.js',
-    '<rootDir>/tests/unit/GamesPage.spec.js',
+    // '<rootDir>/tests/unit/GamesPage.spec.js',
   ],
   collectCoverage: false,
   collectCoverageFrom: [

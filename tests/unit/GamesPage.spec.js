@@ -26,7 +26,12 @@ const createWrapper = ({ isMobile = false } = {}) => {
       $i18n: { locale: 'en' },
       $device: { isMobile },
       $router: { push: jest.fn() },
-      $route: { path: '/games', query: {} }
+      $route: { path: '/games', query: {} },
+      $nuxt: {
+        context: {
+          from: { name: 'some-previous-route' }
+        }
+      }
     }
   });
 };
