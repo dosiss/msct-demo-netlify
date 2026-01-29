@@ -278,20 +278,20 @@
   {
     "name": "The Epic Win x125",
     "slug": "the-epic-win-x125",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/the_epic_win_x125",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
-    "releaseDate": "2026-02-05",
+    "comingSoon": false,
+    "releaseDate": "2026-02-12",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_epicwin125.jpeg",
+    "thumbUrl": "game_epicwin125-2.jpeg",
     "heroUrl": "hero_epicwin125.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -301,41 +301,41 @@
     "backUrl": "back_epicwin125.jpg",
     "detailsImgUrl": "details_epicwin125.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 5,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [ "fruits" ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
         "descr": "Take a risk and gamble your winnings for a chance to increase them with a multiplier",
-        "imgUrl": "img-feat_epicwin125-0.jpg"
+        "imgUrl": null
       },
       {
         "name": "Risk & Buy feature: Buy",
         "descr": "Buy Free Rounds with the proposed conditions and at the suggested price",
-        "imgUrl": "img-feat_epicwin125-1.jpg"
+        "imgUrl": null
       },
       {
         "name": "Win Multiplier",
         "descr": "Each non-winning spin increases the Win Multiplier, which can reach up to x125",
-        "imgUrl": "img-feat_epicwin125-2.jpg"
+        "imgUrl": null
       },
       {
-        "name": "Pay Anywhere",
-        "descr": "Winning combinations can start from any reel, increasing the number of possible wins",
-        "imgUrl": "img-feat_epicwin125-3.jpg"
+        "name": "Adjacent Pays",
+        "descr": "Winning combinations can start on any reel but must go from left to right on consecutive reels",
+        "imgUrl": null
       }
     ],
     "meta": {
       "title": "The Epic Win x125, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Win big with Mascot Gaming's unique Free Rounds feature, Risk and Buy and x10000!"
     },
     "rockways": false
   },
