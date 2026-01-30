@@ -313,12 +313,12 @@
     "category": [ "fruits" ],
     "features": [
       {
-        "name": "Risk & Buy feature: Risk",
+        "name": "Risk Gamble",
         "descr": "Take a risk and gamble your winnings for a chance to increase them with a multiplier",
         "imgUrl": null
       },
       {
-        "name": "Risk & Buy feature: Buy",
+        "name": "Buy Free Rounds",
         "descr": "Buy Free Rounds with the proposed conditions and at the suggested price",
         "imgUrl": null
       },
