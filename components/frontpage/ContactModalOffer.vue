@@ -10,15 +10,18 @@
             <div class="form-item" :class="{ 'focused': focusedName }">
               <label for="user-name">{{$t('Your Name*')}}</label>
               <input id="user-name" v-model="name"  required name="name" type="text" class="form-item__field" @focus="focusedName = true" @blur="focusedName = false" />
+              <span v-if="nameError" class="error-msg">{{ nameError }}</span>
              </div>
              <div class="form-item" :class="{ 'focused': focusedPhone }">
                <label for="user-phone">{{$t('Phone number*')}}</label>
                <input id="user-phone" v-model="phone"  required name="phone" type="text" class="form-item__field" @focus="focusedPhone = true" @blur="focusedPhone = false" />
+               <span v-if="phoneError" class="error-msg">{{ phoneError }}</span>
               </div>
           </div>
           <div class="form-item" :class="{ 'focused': focusedEmail }">
             <label for="user-email">{{$t('Email address')}}</label>
             <input id="user-email" v-model="email" name="email" type="email" class="form-item__field" @focus="focusedEmail = true" @blur="focusedEmail = false" />
+            <span v-if="emailError" class="error-msg">{{ emailError }}</span>
            </div>
            <div class="form-item" :class="{ 'focused': focusedMsg }">
              <label for="user-message">{{$t('Message')}}</label>
@@ -79,8 +82,11 @@
         success: false,
         errored: false,
         name: "",
+        nameError: "",
         email: "",
+        emailError: "",
         phone: "",
+        phoneError: "",
         message: "",
         usertype: "",
         ClientId: "GP6i6Jhflgf3CbuPYk2AcDssrN4W3h",
@@ -97,6 +103,66 @@
 
 
     methods: {
+      validateName() {
+        const nameRegex = /^[a-zA-Z0-9\s]*$/;
+        const trimmedName = this.name.trim();
+
+        if (!trimmedName) {
+          this.nameError = this.$t('Name is required.');
+          return false;
+        } else if (!nameRegex.test(this.name)) {
+          this.nameError = this.$t('Name can only contain alphanumeric characters and spaces.');
+          return false;
+        }
+        this.nameError = '';
+        return true;
+      },
+      validatePhone() {
+        const phoneRegex = /^[0-9\s\-()+]*$/;
+        if (!this.phone) {
+          this.phoneError = this.$t('Phone number is required.');
+          return false;
+        } else if (!phoneRegex.test(this.phone)) {
+          this.phoneError = this.$t('Please enter a valid phone number.');
+          return false;
+        }
+        this.phoneError = '';
+        return true;
+      },
+      validateEmail() {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // A simple email regex
+        if (!this.email) {
+          this.emailError = ''; // No error if empty
+          return true;
+        } else if (!emailRegex.test(this.email)) {
+          this.emailError = this.$t('Please enter a valid email address.');
+          return false;
+        }
+        this.emailError = '';
+        return true;
+      },
+      
+      validateForm() {
+        // Reset all errors first
+        this.nameError = '';
+        this.phoneError = '';
+        this.emailError = '';
+
+        let isValid = true;
+
+        // Validate each field
+        if (!this.validateName()) {
+          isValid = false;
+        }
+        if (!this.validatePhone()) {
+          isValid = false;
+        }
+        if (!this.validateEmail()) {
+          isValid = false;
+        }
+
+        return isValid;
+      },
     // sendMessage() {
     //   let jsonrpcId = 0;
     //   this.loading = true;
@@ -161,6 +227,9 @@
       },
 
       async sendMessage() {
+        if (!this.validateForm()) {
+          return; // Stop if form is not valid
+        }
         if (this.captchaInput.toLowerCase() !== this.captchaCode.toLowerCase()) {
           alert('CAPTCHA is incorrect, please try again.');
           this.generateCaptcha(); // Generate a new code
