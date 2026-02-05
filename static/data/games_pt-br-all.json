@@ -2,32 +2,32 @@
   {
     "name": "Plinko Builder",
     "slug": "plinko-builder",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/plinko_builder",
     "theme": "tictactoe",
     "type": null,
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": false,
-    "comingSoon": true,
-    "releaseDate": "2026-02-12",
+    "comingSoon": false,
+    "releaseDate": "2026-03-05",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_plinkobuilder.jpeg",
-    "heroUrl": "hero_plinkobuilder.jpg",
+    "thumbUrl": "game_plinkobuilder2.jpeg",
+    "heroUrl": "hero_plinkobuilder2.jpg",
     "blueButtn": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_plinkobuilder.jpg",
-    "logoUrl": "logo_plinkobuilder.png",
-    "backUrl": "back_plinkobuilder.jpg",
+    "logoUrl": "logo_plinkobuilder2.png",
+    "backUrl": "back_plinkobuilder2.jpg",
     "detailsImgUrl": "details_plinkobuilder.png",
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
@@ -44,12 +44,12 @@
       {
         "name": "Adjustable Pin Rows",
         "descr": "Players can modify the number of horizontal rows, creating a personalized board layout and tailoring their Plinko experience",
-        "imgUrl": "img-feat_plinkobuilder-1.jpg"
+        "imgUrl": null
       },
       {
         "name": "Multi-Ball Release",
         "descr": "Instead of dropping one ball at a time, players can release multiple balls simultaneously, speeding up gameplay and increasing excitement",
-        "imgUrl": "img-feat_plinkobuilder-2.jpg"
+        "imgUrl": null
       },
       {
         "name": "3 Risk Levels",
@@ -59,12 +59,12 @@
       {
         "name": "Realistic Physics Model",
         "descr": "Balls fall and bounce off the pegs with precision, following an accurate physics model",
-        "imgUrl": "img-feat_plinkobuilder-4.jpg"
+        "imgUrl": null
       },
       {
         "name": "Ranks",
         "descr": "By placing bets, players advance through ranks, unlocking new customization options and avatars",
-        "imgUrl": "img-feat_plinkobuilder-5.jpg"
+        "imgUrl": null
       },
       {
         "name": "Customization",
@@ -73,8 +73,8 @@
       }
     ],
     "meta": {
-      "title": "Plinko Builder, a plinko game by TTT Games",
-      "descr": " "
+      "title": "Plinko Builder, a video game by TTT Games",
+      "descr": "Build every bounce with exciting new features and x1000!"
     },
     "rockways": false
   },
