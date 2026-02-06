@@ -187,6 +187,17 @@
     "logoUrl": "partner_fortunejack.png"
   },
   {
+    "name": "Betfury",
+    "type": "partner",
+    "top": true,
+    "casino": true,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://betfury.com/casino",
+    "logoUrl": "partner_betfury.png"
+  },
+  {
     "name": "Mostbet",
     "type": "partner",
     "top": true,
@@ -2088,17 +2099,6 @@
     "promoText": null,
     "url": "https://metaspins.com",
     "logoUrl": "partner_metaspins.png"
-  },
-  {
-    "name": "Betfury",
-    "type": "partner",
-    "top": false,
-    "casino": true,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "https://betfury.com/casino",
-    "logoUrl": "partner_betfury.png"
   },
   {
     "name": "Wolfbet",
