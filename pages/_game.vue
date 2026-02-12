@@ -1,7 +1,46 @@
 <template>
   <div :class="`game_${currentGame.slug}`">
     <MainHeader />
-    <header v-if="$device.isMobile" class="header-area">
+    <header v-if="isVerticalScreenshots" class="header-area header--vertical-layout">
+      <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.heroUrl})` }">
+      <!-- Placeholder for the new vertical layout header content -->
+      <!-- Add your specific HTML structure for vertical screenshots header here -->
+      <div class="game-title__wrap container">
+        <div class="game-title__left">
+          <div class="game-logo__wrap">
+            <img v-if="currentGame.logoUrl !== null" :src="`/images/${currentGame.logoUrl}`" class="game-logo" :alt="`${currentGame.name}`" />
+            <h1 v-else class="game-title">{{ currentGame.name }}</h1>
+          </div>
+          <div class="game-title__right-content">
+            <div v-if="currentGame.comingSoon === false" class="button-wrap">
+              <a :href="`${demoUrl}${locPath}/${currentGame.slug}`" class="buttn buttn-colored buttn-xl buttn-vertical-layout">{{$t('Play demo')}}</a>
+            </div>
+            <div v-else class="button-wrap">
+              <div class="buttn buttn-colored buttn-disabled buttn-xl">{{$t('Coming Soon')}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="game-title__right">
+          <div class="screenshots-carousel__wrap">
+            <div v-swiper:mySwiper3="swiperOption">
+              <div id="lightgallery" class="swiper-wrapper">
+
+                <div v-for="(feature, idx) in currentGame.features" :key="idx"  class="swiper-slide game-thumbnail slide-static" :data-src="`/images/${feature.imgUrl}`" :data-sub-html="`${feature.name}`" >
+                    <nuxt-img :src="`/images/${feature.imgUrl}`" :alt="`${feature.name}`" sizes="sm:350px lg:440px" />
+                    <svg width="81" height="80" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x=".906" width="80" height="80" rx="40" fill="#FFCF24"/><path d="M40.823 56.583c9.205 0 16.667-7.462 16.667-16.666 0-9.205-7.462-16.667-16.667-16.667-9.205 0-16.667 7.462-16.667 16.667 0 9.204 7.462 16.666 16.667 16.666ZM61.656 60.75l-9.062-9.063M40.822 33.666v12.5M34.572 39.916h12.5" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <div class="game-content__wrap" >
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div slot="button-prev" class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 23 1 12 12 1"/></svg></div>
+            <div slot="button-next" class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 11 11L1 23"/></svg></div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </header>
+    <header v-else-if="$device.isMobile" class="header-area">
       <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.heroUrl})` }"></div>
       <div class="game-title__wrap container">
         <div class="game-title__left">
@@ -69,7 +108,13 @@
     </header>
 
     <div class="main">
-      <div v-if="currentGame.comingSoon === false" class="screenshots-carousel__wrap">
+      <div v-if="currentGame.comingSoon === false && isVerticalScreenshots" class="screenshots-carousel__wrap screenshots-carousel__wrap--vertical">
+        <!-- Placeholder for the new vertical carousel content -->
+        <!-- Add your specific HTML structure for vertical screenshots carousel here -->
+
+        <!-- End of placeholder for vertical carousel content -->
+      </div>
+      <div v-else-if="currentGame.comingSoon === false" class="screenshots-carousel__wrap">
 
         <div v-swiper:mySwiper3="swiperOption">
           <div id="lightgallery" class="swiper-wrapper">
@@ -408,6 +453,10 @@ export default {
 
   relatedArticles() {
     return this.articles.slice(0, 2)
+  },
+
+  isVerticalScreenshots() {
+    return this.currentGame && this.currentGame.verticalScreenshots === true;
   }
 
  },
@@ -1143,5 +1192,59 @@ export default {
   }
 footer {
   border-top: 1px solid rgba(255,255,255,.25)
+}
+
+.header--vertical-layout {
+  .top-img {
+    background-position: top left;
+  }
+  .game-title__wrap {
+    align-items: flex-end;
+    text-align: center;
+
+    .game-title__left {
+      flex: 1 0 40%;
+      .game-logo__wrap {
+        max-width: 370px;
+      }
+      .game-title__right-content {
+        max-width: 370px;
+        .buttn.buttn-colored {
+          justify-content: center;
+        }
+        .buttn-vertical-layout {
+          background-color: #fff;
+          border: 2px solid #000;
+          border-radius: 15px;
+        }
+      }
+    }
+    .game-title__right {
+      width: 100%;
+      margin-top: 30px;
+      .swiper-container {
+        padding-left: 0;
+        .game-thumbnail {
+          img {
+            border-radius: 30px;
+          }
+        }
+      }
+      .buttn {
+        justify-content: center;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.screenshots-carousel__wrap--vertical {
+  // Add your specific styles for the vertical screenshots carousel wrapper here
+ 
+}
+
+.vertical-carousel-placeholder {
+  // Styles for the placeholder div inside the vertical carousel
+  
 }
 </style>
