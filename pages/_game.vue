@@ -5,7 +5,7 @@
       <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.heroUrl})` }">
       <!-- Placeholder for the new vertical layout header content -->
       <!-- Add your specific HTML structure for vertical screenshots header here -->
-      <div class="game-title__wrap container">
+      <div class="game-title__wrap">
         <div class="game-title__left">
           <div class="game-logo__wrap">
             <img v-if="currentGame.logoUrl !== null" :src="`/images/${currentGame.logoUrl}`" class="game-logo" :alt="`${currentGame.name}`" />
@@ -22,7 +22,7 @@
         </div>
         <div class="game-title__right">
           <div class="screenshots-carousel__wrap">
-            <div v-swiper:mySwiper3="swiperOption">
+            <div v-swiper:mySwiperVertical="verticalSwiperOption">
               <div id="lightgallery" class="swiper-wrapper">
 
                 <div v-for="(feature, idx) in currentGame.features" :key="idx"  class="swiper-slide game-thumbnail slide-static" :data-src="`/images/${feature.imgUrl}`" :data-sub-html="`${feature.name}`" >
@@ -33,15 +33,15 @@
                 </div>
               </div>
             </div>
-            <div slot="button-prev" class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 23 1 12 12 1"/></svg></div>
-            <div slot="button-next" class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 11 11L1 23"/></svg></div>
+            <!-- <div slot="button-prev" class="swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 23 1 12 12 1"/></svg></div>
+            <div slot="button-next" class="swiper-button-next"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 13 24"><path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 11 11L1 23"/></svg></div> -->
           </div>
         </div>
       </div>
       </div>
     </header>
     <header v-else-if="$device.isMobile" class="header-area">
-      <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.heroUrl})` }"></div>
+      <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.heroUrl})` }">
       <div class="game-title__wrap container">
         <div class="game-title__left">
           <h1 class="game-title">{{ currentGame.name }}</h1>
@@ -56,6 +56,7 @@
             </div>
           </div>
         </div>
+      </div>
       </div>
     </header>
     <header v-else class="header-area">
@@ -399,6 +400,45 @@ export default {
                 prevEl: '.swiper-button-prev'
               },
             },
+          }
+        },
+        verticalSwiperOption: { // New swiper option for vertical layout
+          mousewheel: true,
+          preventClicks: false,
+          followFinger: false,
+          preventClicksPropagation: false,
+          spaceBetween: 10,
+          slidesPerView: 1.2,
+          a11y: false,
+          breakpoints: {
+            '640': {
+              slidesPerView: 1.2,
+              spaceBetween: 10,
+            },
+            '768': {
+              slidesPerView: 2.5,
+              spaceBetween: 17,
+            },
+            '1024': {
+              slidesPerView: 3,
+              spaceBetween: 17,
+              // navigation: {
+              //   nextEl: '.swiper-button-next',
+              //   prevEl: '.swiper-button-prev'
+              // },
+            },
+            '1290': {
+              slidesPerView: 3,
+              spaceBetween: 17,
+            },
+            '1440': {
+              slidesPerView: 3.5,
+              spaceBetween: 17,
+            },
+            '1920': {
+              slidesPerView: 4,
+              spaceBetween: 17,
+            }
           }
         }
       };
@@ -1197,15 +1237,17 @@ footer {
 .header--vertical-layout {
   .top-img {
     background-position: top left;
+    // overflow-x: hidden;
   }
   .game-title__wrap {
+    justify-content: center;
     align-items: flex-end;
     text-align: center;
 
     .game-title__left {
-      flex: 1 0 40%;
+       flex: 0 1 40%;
       .game-logo__wrap {
-        max-width: 370px;
+        width: 370px;
       }
       .game-title__right-content {
         max-width: 370px;
@@ -1220,8 +1262,7 @@ footer {
       }
     }
     .game-title__right {
-      width: 100%;
-      margin-top: 30px;
+       flex: 0 1 60%;
       .swiper-container {
         padding-left: 0;
         .game-thumbnail {
