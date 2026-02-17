@@ -2660,5 +2660,16 @@
     "promoText": null,
     "url": "https://casinogamesguru.com/free-slots?software=mascot-gaming",
     "logoUrl": "partner_casinogamesonnet.png"
+  },
+    {
+    "name": "SlotsBuzz",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://www.slotsbuzz.io/partner/61464",
+    "logoUrl": "partner_slotbuzz.png"
   }
 ]
