@@ -1,84 +1,5 @@
 [
   {
-    "name": "Plinko Builder",
-    "slug": "plinko-builder",
-    "linkToDemo": "demo.mascot.games/run/plinko_builder",
-    "theme": "tictactoe",
-    "type": null,
-    "mgacertified": false,
-    "mganotice": false,
-    "risknbuy": false,
-    "comingSoon": false,
-    "releaseDate": "2026-03-05",
-    "featured": false,
-    "topGame": false,
-    "branded": false,
-    "custom": false,
-    "descr": " ",
-    "thumbUrl": "game_plinkobuilder2.jpeg",
-    "heroUrl": "hero_plinkobuilder2.jpg",
-    "blueButtn": false,
-    "videoUrl": null,
-    "videoEnabled": false,
-    "placeholderUrl": "video_plinkobuilder.jpg",
-    "logoUrl": "logo_plinkobuilder2.png",
-    "backUrl": "back_plinkobuilder2.jpg",
-    "detailsImgUrl": "details_plinkobuilder.png",
-    "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": "High",
-      "paylines": null,
-      "payways": null,
-      "html5": true,
-      "rtp": null,
-      "hitrate": null
-    },
-    "category": [],
-    "features": [
-      {
-        "name": "Plinko Board Builder",
-        "descr": "Beyond standard pin layouts, players select from multiple board presets with added structures that reshape the ball’s path and diversify each round",
-        "imgUrl": null
-      },
-      {
-        "name": "Adjustable Pin Rows",
-        "descr": "Players can modify the number of horizontal rows, creating a personalized board layout and tailoring their Plinko experience",
-        "imgUrl": null
-      },
-      {
-        "name": "Multi-Ball Release",
-        "descr": "Instead of dropping one ball at a time, players can release multiple balls simultaneously, speeding up gameplay and increasing excitement",
-        "imgUrl": null
-      },
-      {
-        "name": "3 Risk Levels",
-        "descr": "Choose between low, medium, and high risk. The level of risk determines the minimum and maximum multipliers the ball can land on",
-        "imgUrl": null
-      },
-      {
-        "name": "Realistic Physics Model",
-        "descr": "Balls fall and bounce off the pegs with precision, following an accurate physics model",
-        "imgUrl": null
-      },
-      {
-        "name": "Ranks",
-        "descr": "By placing bets, players advance through ranks, unlocking new customization options and avatars",
-        "imgUrl": null
-      },
-      {
-        "name": "Customization",
-        "descr": "Players can personalize the game area and interface elements to their preferences using customization features",
-        "imgUrl": null
-      }
-    ],
-    "meta": {
-      "title": "Plinko Builder, a video game by TTT Games",
-      "descr": "Build every bounce with exciting new features and x1000!"
-    },
-    "rockways": false
-  },
-  {
     "name": "Riot: Urban Wilds",
     "slug": "riot-urban-wilds",
     "linkToDemo": " ",
@@ -209,20 +130,20 @@
   {
     "name": "Tessa Hunt and the Mission Monte Carlo",
     "slug": "tessa-hunt-and-the-mission-monte-carlo",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/th_and_the_mission_monte_carlo",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2026-02-19",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_tessamontecarlo.jpeg",
+    "thumbUrl": "game_tessamontecarlo2.jpeg",
     "heroUrl": "hero_tessamontecarlo.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -232,49 +153,133 @@
     "backUrl": "back_tessamontecarlo.jpg",
     "detailsImgUrl": "details_tessamontecarlo.png",
     "stats": {
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": null,
+      "payways": 243,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ "adventure", "girls" ],
+    "features": [
+      {
+        "name": "Risk Wheel",
+        "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
+        "imgUrl": null
+      },
+      {
+        "name": "Buy Feature",
+        "descr": "Buy Free Spins or Free Rounds with the proposed conditions and at the suggested price",
+        "imgUrl": null
+      },
+      {
+        "name": "Boost Feature",
+        "descr": "Activate Boost to increase the chance of triggering Free Spins",
+        "imgUrl": null
+      },
+      {
+        "name": "Multiplier Symbols",
+        "descr": "Each Multiplier symbol on the screen doubles the total win for the current spin",
+        "imgUrl": null
+      },
+      {
+        "name": "Free Spins",
+        "descr": "At least 3 Scatter Symbols trigger 10 Free Spins",
+        "imgUrl": null
+      },
+      {
+        "name": "Pay Anywhere",
+        "descr": "During Free Spins, all winning symbol combinations are paid anywhere on the screen, regardless of position",
+        "imgUrl": null
+      }
+    ],
+    "meta": {
+      "title": "Tessa Hunt and the Mission Monte Carlo, a video slot game by Mascot Gaming",
+      "descr": "The fearless adventurer returns with set of exciting features: Free Spins, Free Rounds, Boost, Risk and Buy, and x2000!"
+    },
+    "rockways": false
+  },
+  {
+    "name": "Plinko Builder",
+    "slug": "plinko-builder",
+    "linkToDemo": "demo.mascot.games/run/plinko_builder",
+    "theme": "tictactoe",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2026-03-05",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_plinkobuilder2.jpeg",
+    "heroUrl": "hero_plinkobuilder2.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_plinkobuilder.jpg",
+    "logoUrl": "logo_plinkobuilder2.png",
+    "backUrl": "back_plinkobuilder2.jpg",
+    "detailsImgUrl": "details_plinkobuilder.png",
+    "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [],
     "features": [
       {
-        "name": "Risk & Buy feature: Risk",
-        "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
-        "imgUrl": "img-feat_tessamontecarlo-0.jpg"
+        "name": "Plinko Board Builder",
+        "descr": "Beyond standard pin layouts, players select from multiple board presets with added structures that reshape the ball’s path and diversify each round",
+        "imgUrl": null
       },
       {
-        "name": "Risk & Buy feature: Buy",
-        "descr": "Buy Free Spins or Free Rounds with the proposed conditions and at the suggested price",
-        "imgUrl": "img-feat_tessamontecarlo-1.jpg"
+        "name": "Adjustable Pin Rows",
+        "descr": "Players can modify the number of horizontal rows, creating a personalized board layout and tailoring their Plinko experience",
+        "imgUrl": null
       },
       {
-        "name": "Boost Feature",
-        "descr": "Activate Boost to increase the chance of triggering Free Spins",
-        "imgUrl": "img-feat_tessamontecarlo-2.jpg"
+        "name": "Multi-Ball Release",
+        "descr": "Instead of dropping one ball at a time, players can release multiple balls simultaneously, speeding up gameplay and increasing excitement",
+        "imgUrl": null
       },
       {
-        "name": "Multiplier Symbols",
-        "descr": "Each Multiplier symbol on the screen doubles the total win for the current spin",
-        "imgUrl": "img-feat_tessamontecarlo-3.jpg"
+        "name": "3 Risk Levels",
+        "descr": "Choose between low, medium, and high risk. The level of risk determines the minimum and maximum multipliers the ball can land on",
+        "imgUrl": null
       },
       {
-        "name": "Free Spins",
-        "descr": "All winning symbol combinations in Free Spins are paid anywhere on the screen, regardless of position",
-        "imgUrl": "img-feat_tessamontecarlo-4.jpg"
+        "name": "Realistic Physics Model",
+        "descr": "Balls fall and bounce off the pegs with precision, following an accurate physics model",
+        "imgUrl": null
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization options and avatars",
+        "imgUrl": null
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their preferences using customization features",
+        "imgUrl": null
       }
     ],
     "meta": {
-      "title": "Tessa Hunt and the Mission Monte Carlo, a video slot game by Mascot Gaming",
-      "descr": " "
+      "title": "Plinko Builder, a video game by TTT Games",
+      "descr": "Build every bounce with exciting new features and x1000!"
     },
     "rockways": false
-  },
+  },  
   {
     "name": "The Epic Win x125",
     "slug": "the-epic-win-x125",
