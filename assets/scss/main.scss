@@ -638,3 +638,31 @@ p {
 .page-leave-to {
   opacity: 0;
 }
+.vertical-lightbox {
+  &.lg-outer {
+    .lg-image {
+      max-height: 75%;
+      @media (max-width: 650px) {
+        max-width: 80%;
+      }
+    }
+    .lg-actions {
+      .lg-prev {
+        @media (max-width: 650px) {
+          top: 50%
+        }
+      }
+      .lg-next {
+        @media (max-width: 650px) {
+          top: 50%
+        }
+      }
+      
+    }
+    .lg-sub-html {
+      @media (max-width: 650px) {
+        bottom: 7vh
+      }
+    }
+  }
+}

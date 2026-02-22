@@ -2,23 +2,25 @@
   <div :class="`game_${currentGame.slug}`">
     <MainHeader />
     <header v-if="isVerticalScreenshots" class="header-area header--vertical-layout">
-      <div class="top-img" :style="{ backgroundImage: `url(/images/${currentGame.heroUrl})` }">
+      <div class="top-img" :style="{ backgroundImage: `url(/images/${$device.isMobile ? currentGame.heroUrlMobile : currentGame.heroUrl})` }">
       <!-- Placeholder for the new vertical layout header content -->
       <!-- Add your specific HTML structure for vertical screenshots header here -->
       <div class="game-title__wrap">
         <div class="game-title__left">
-          <div class="game-logo__wrap">
-            <img v-if="currentGame.logoUrl !== null" :src="`/images/${currentGame.logoUrl}`" class="game-logo" :alt="`${currentGame.name}`" />
-            <h1 v-else class="game-title">{{ currentGame.name }}</h1>
-          </div>
-          <div class="game-title__right-content">
-            <div v-if="currentGame.comingSoon === false" class="button-wrap">
-              <a :href="`${demoUrl}${locPath}/${currentGame.slug}`" class="buttn buttn-colored buttn-xl buttn-vertical-layout">{{$t('Play demo')}}</a>
+          <h1 class="game-title">{{ currentGame.name }}</h1>
+          <div class="game-title__img-group">  
+            <div class="game-logo__wrap">
+              <img v-if="currentGame.logoUrl !== null" :src="`/images/${currentGame.logoUrl}`" class="game-logo" :alt="`${currentGame.name}`" />           
             </div>
-            <div v-else class="button-wrap">
-              <div class="buttn buttn-colored buttn-disabled buttn-xl">{{$t('Coming Soon')}}</div>
+            <div class="game-title__right-content">
+              <div v-if="currentGame.comingSoon === false" class="button-wrap">
+                <a :href="`${demoUrl}${locPath}/${currentGame.slug}`" class="buttn buttn-colored buttn-xl buttn-vertical-layout">{{$t('Play demo')}}</a>
+              </div>
+              <div v-else class="button-wrap">
+                <div class="buttn buttn-colored buttn-disabled buttn-xl">{{$t('Coming Soon')}}</div>
+              </div>
             </div>
-          </div>
+          </div>  
         </div>
         <div class="game-title__right">
           <div class="screenshots-carousel__wrap">
@@ -408,19 +410,23 @@ export default {
           followFinger: false,
           preventClicksPropagation: false,
           spaceBetween: 10,
-          slidesPerView: 1.2,
+          slidesPerView: 1.5,
           a11y: false,
           breakpoints: {
+            // '350': {
+            //   slidesPerView: 1.2,
+            //   spaceBetween: 10,
+            // },
             '640': {
-              slidesPerView: 1.2,
+              slidesPerView: 1.5,
               spaceBetween: 10,
             },
             '768': {
               slidesPerView: 2.5,
-              spaceBetween: 17,
+              spaceBetween: 20,
             },
             '1024': {
-              slidesPerView: 3,
+              slidesPerView: 2.7,
               spaceBetween: 17,
               // navigation: {
               //   nextEl: '.swiper-button-next',
@@ -428,7 +434,7 @@ export default {
               // },
             },
             '1290': {
-              slidesPerView: 3,
+              slidesPerView: 2.7,
               spaceBetween: 17,
             },
             '1440': {
@@ -532,12 +538,17 @@ export default {
      this.locPath = '';
    }
 
+   const lightGalleryOptions = {
+      selector: '.game-thumbnail',
+      download: false
+   };
+
+   if (this.isVerticalScreenshots) {
+      lightGalleryOptions.addClass = 'vertical-lightbox';
+   }
+
    const el = document.getElementById('lightgallery')
-   window.lightGallery(el, {
-    selector: '.game-thumbnail',
-    download: false,
-//    plugins: [lgVideo],
-  });
+   window.lightGallery(el, lightGalleryOptions);
   //   console.log('output:', test)
    // this.mySwiper.slideTo(3, 1000, false)
  },
@@ -1235,19 +1246,72 @@ footer {
 }
 
 .header--vertical-layout {
+  padding-bottom: 0;
   .top-img {
     background-position: top left;
+    height: unset;
     // overflow-x: hidden;
+    @media (max-width: 850px) {
+      overflow-x: hidden;
+    }
+    @media (max-width: 650px) {
+      background-size: contain;
+      background-position: top center;
+    }
   }
   .game-title__wrap {
     justify-content: center;
     align-items: flex-end;
     text-align: center;
-
+    @media (max-width: 850px) {
+      align-items: flex-start;
+      height: unset;
+    }
     .game-title__left {
-       flex: 0 1 40%;
+      flex: 0 0 40%; // Prevent from growing beyond 40%
+      padding-left: 245px;
+      padding-right: 120px;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+      height: 88%;
+      @media (max-width: 1460px) {
+        padding-left: 120px;
+      }
+      @media (max-width: 1200px) {
+        padding-left: 35px;
+        padding-right: 35px;
+      }
+      @media (max-width: 850px) {
+        flex-basis: auto;
+        align-items: center;
+        text-align: center;
+        height: unset;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .game-title {
+        font-size: 1.75rem;
+        opacity: .4;
+        @media (min-width: 1920px) {
+          text-align: left;
+        }
+        @media (max-width: 850px) {
+          margin-top: 100px;
+          margin-bottom: 50px;
+        }
+        @media (max-width: 650px) {
+          margin-top: 15px;
+          margin-bottom: 180px;
+          font-size: 1rem;
+        }
+      }
       .game-logo__wrap {
         width: 370px;
+          @media (max-width: 650px) {
+            width: 80%;
+            justify-self: center;
+          }
       }
       .game-title__right-content {
         max-width: 370px;
@@ -1262,7 +1326,11 @@ footer {
       }
     }
     .game-title__right {
-       flex: 0 1 60%;
+      flex: 1; // Take remaining space
+      overflow: hidden; // Clip content that overflows this container
+      .screenshots-carousel__wrap {
+        overflow: hidden; // Ensure carousel content is clipped within this wrap
+      }
       .swiper-container {
         padding-left: 0;
         .game-thumbnail {
@@ -1270,6 +1338,16 @@ footer {
             border-radius: 30px;
           }
         }
+        .swiper-wrapper { 
+          .swiper-slide {
+            @media (max-width: 768px) {
+            &:nth-child(1) {
+              margin-left: 25px;
+            }
+          }
+          }          
+
+          }
       }
       .buttn {
         justify-content: center;
@@ -1277,15 +1355,5 @@ footer {
       }
     }
   }
-}
-
-.screenshots-carousel__wrap--vertical {
-  // Add your specific styles for the vertical screenshots carousel wrapper here
- 
-}
-
-.vertical-carousel-placeholder {
-  // Styles for the placeholder div inside the vertical carousel
-  
 }
 </style>
