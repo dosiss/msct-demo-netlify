@@ -24,7 +24,12 @@
         </div>
         <div class="game-title__right">
           <div class="screenshots-carousel__wrap">
-            <div v-swiper:mySwiperVertical="verticalSwiperOption">
+            <div 
+            v-swiper:mySwiperVertical="verticalSwiperOption"
+            @mousedown="onDragStart"
+            @mousemove="onDragMove"
+            @mouseup="onDragEnd"
+            >
               <div id="lightgallery" class="swiper-wrapper">
 
                 <div v-for="(feature, idx) in currentGame.features" :key="idx"  class="swiper-slide game-thumbnail slide-static" :data-src="`/images/${feature.imgUrl}`" :data-sub-html="`${feature.name}`" >
@@ -376,6 +381,8 @@ export default {
 
         articles: [],
 
+        isDragging: false,
+
         swiperOption: {
           mousewheel: true,
           preventClicks: false,
@@ -405,7 +412,10 @@ export default {
           }
         },
         verticalSwiperOption: { // New swiper option for vertical layout
-          mousewheel: true,
+          mousewheel: {
+            releaseOnEdges: true,
+            passive: false,
+          },
           preventClicks: false,
           followFinger: false,
           preventClicksPropagation: false,
@@ -562,7 +572,25 @@ export default {
     } else {
       return 'coming soon'
     }
-  }
+  },
+
+    onDragStart() {
+      this.isDragging = false;
+    },
+    onDragMove() {
+      this.isDragging = true;
+    },
+    onDragEnd(event) {
+      if (this.isDragging) {
+        event.preventDefault(); // Prevent accidental click
+      }
+      this.isDragging = false;
+    },
+    handleClick(event) {
+      if (this.isDragging) {
+        event.preventDefault(); // Prevent the click event
+      }
+    },
 },
 
 //  currentGame() {
@@ -903,7 +931,7 @@ export default {
         position: absolute;
         top: 50%;
         right: 50%;
-        transform: translate(20px, -40px);
+        transform: translate(40px, -40px);
         cursor: pointer;
       }
       &:hover {
