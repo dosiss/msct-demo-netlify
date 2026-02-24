@@ -1286,14 +1286,22 @@ footer {
       background-size: contain;
       background-position: top center;
     }
+    &:before {
+      content: none
+    }
+    &:after {
+      content: none
+    }
   }
   .game-title__wrap {
     justify-content: center;
     align-items: flex-end;
     text-align: center;
+    padding-bottom: 80px;
     @media (max-width: 850px) {
       align-items: flex-start;
       height: unset;
+      padding-bottom: 0;
     }
     .game-title__left {
       flex: 0 0 40%; // Prevent from growing beyond 40%
