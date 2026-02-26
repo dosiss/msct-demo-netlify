@@ -297,8 +297,10 @@
     "custom": false,
     "descr": " ",
     "thumbUrl": "game_epicwin125-2.jpeg",
-    "heroUrl": "hero_epicwin125.jpg",
+    "heroUrl": "hero_epicwin125-2.jpg",
+    "heroUrlMobile": "hero_mob__epicwin125.jpg",
     "blueButtn": false,
+    "verticalScreenshots": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_epicwin125.jpg",
@@ -320,22 +322,22 @@
       {
         "name": "Risk Gamble",
         "descr": "Take a risk and gamble your winnings for a chance to increase them with a multiplier",
-        "imgUrl": null
+        "imgUrl": "img-feat_epicwin125-0.webp"
       },
       {
         "name": "Buy Free Rounds",
         "descr": "Buy Free Rounds with the proposed conditions and at the suggested price",
-        "imgUrl": null
+        "imgUrl": "img-feat_epicwin125-1.webp"
       },
       {
         "name": "Win Multiplier",
         "descr": "Each non-winning spin increases the Win Multiplier, which can reach up to x125",
-        "imgUrl": null
+        "imgUrl": "img-feat_epicwin125-2.webp"
       },
       {
         "name": "Adjacent Pays",
         "descr": "Winning combinations can start on any reel but must go from left to right on consecutive reels",
-        "imgUrl": null
+        "imgUrl": "img-feat_epicwin125-3.webp"
       }
     ],
     "meta": {
@@ -361,8 +363,10 @@
     "custom": false,
     "descr": " ",
     "thumbUrl": "game_papyrus2.jpeg",
-    "heroUrl": "hero_papyrus.jpg",
+    "heroUrl": "hero_papyrus2.jpg",
+    "heroUrlMobile": "hero_mob__papyrus.jpg",
     "blueButtn": false,
+    "verticalScreenshots": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_papyrus.jpg",
@@ -384,22 +388,22 @@
       {
         "name": "Risk & Buy feature: Risk",
         "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
-        "imgUrl": null
+        "imgUrl": "img-feat_papyrus-0.webp"
       },
       {
         "name": "Risk & Buy feature: Buy",
         "descr": "Buy Free Spins or Free Rounds with the proposed conditions and at the suggested price",
-        "imgUrl": null
+        "imgUrl": "img-feat_papyrus-1.webp"
       },
       {
         "name": "Boost Feature",
         "descr": "Activate Boost to increase the chance of triggering Free Spins",
-        "imgUrl": null
+        "imgUrl": "img-feat_papyrus-2.webp"
       },
       {
         "name": "Free Spins",
         "descr": "During Free Spins, Mystery symbols become sticky and remain in place. When reels 2, 3, and 4 are completely filled with sticky Mystery symbols, 3 Extra Free Spins are awarded",
-        "imgUrl": null
+        "imgUrl": "img-feat_papyrus-3.webp"
       }
     ],
     "meta": {
