@@ -71,20 +71,20 @@
   {
     "name": "Shining Wilds",
     "slug": "shining-wilds",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/shining_wilds",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
-    "releaseDate": "2026-03-05",
+    "comingSoon": false,
+    "releaseDate": "2026-03-19",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_shiningwilds.jpeg",
+    "thumbUrl": "game_shiningwilds2.jpeg",
     "heroUrl": "hero_shiningwilds.jpg",
     "blueButtn": false,
     "videoUrl": null,
@@ -94,36 +94,36 @@
     "backUrl": "back_shiningwilds.jpg",
     "detailsImgUrl": "details_shiningwilds.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "Med",
+      "paylines": 10,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [ "fruits"],
     "features": [
       {
-        "name": "Risk & Buy feature: Risk",
-        "descr": "Spin the Risk Wheel to gamble your winnings for a chance to increase them",
-        "imgUrl": "img-feat_shiningwilds-0.jpg"
+        "name": "Risk Wheel",
+        "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
+        "imgUrl": null
       },
       {
-        "name": "Risk & Buy feature: Buy",
+        "name": "Buy Free Rounds",
         "descr": "Buy Free Rounds with the proposed conditions and at the suggested price",
-        "imgUrl": "img-feat_shiningwilds-1.jpg"
+        "imgUrl": null
       },
       {
         "name": "Random Wilds",
-        "descr": "On every spin, 2 to 4 symbols randomly transform into Wilds",
-        "imgUrl": "img-feat_shiningwilds-2.jpg"
+        "descr": "On every spin, 2 to 4 symbols randomly transform into Wild",
+        "imgUrl": null
       }
     ],
     "meta": {
       "title": "Shining Wilds, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Shining Wilds is a bright and energetic slot game with Free Rounds - a unique feature from Mascot Gaming, Random Wilds and the Risk Wheel for extra multipliers."
     },
     "rockways": false
   },
