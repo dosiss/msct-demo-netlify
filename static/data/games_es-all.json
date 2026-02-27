@@ -85,14 +85,16 @@
     "custom": false,
     "descr": " ",
     "thumbUrl": "game_shiningwilds2.jpeg",
-    "heroUrl": "hero_shiningwilds.jpg",
+    "heroUrl": "hero_shiningwilds2.jpg",
+    "heroUrlMobile": "hero_mob__shiningwilds2.jpg",
     "blueButtn": false,
+    "verticalScreenshots": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_shiningwilds.jpg",
-    "logoUrl": "logo_shiningwilds.png",
+    "logoUrl": "logo_shiningwilds2.png",
     "backUrl": "back_shiningwilds.jpg",
-    "detailsImgUrl": "details_shiningwilds.png",
+    "detailsImgUrl": "details_shiningwilds2.png",
     "stats": {
       "reels": 5,
       "rows": 3,
@@ -108,17 +110,17 @@
       {
         "name": "Risk Wheel",
         "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
-        "imgUrl": null
+        "imgUrl": "img-feat_shiningwilds-0.webp"
       },
       {
         "name": "Buy Free Rounds",
         "descr": "Buy Free Rounds with the proposed conditions and at the suggested price",
-        "imgUrl": null
+        "imgUrl": "img-feat_shiningwilds-1.webp"
       },
       {
         "name": "Random Wilds",
         "descr": "On every spin, 2 to 4 symbols randomly transform into Wild",
-        "imgUrl": null
+        "imgUrl": "img-feat_shiningwilds-2.webp"
       }
     ],
     "meta": {
@@ -144,8 +146,10 @@
     "custom": false,
     "descr": " ",
     "thumbUrl": "game_tessamontecarlo2.jpeg",
-    "heroUrl": "hero_tessamontecarlo.jpg",
+    "heroUrl": "hero_tessamontecarlo2.jpg",
+    "heroUrlMobile": "hero_mob__tessamontecarlo2.jpg",
     "blueButtn": false,
+    "verticalScreenshots": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_tessamontecarlo.jpg",
@@ -167,32 +171,32 @@
       {
         "name": "Risk Wheel",
         "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
-        "imgUrl": null
+        "imgUrl": "img-feat_tessamontecarlo-0.webp"
       },
       {
         "name": "Buy Feature",
         "descr": "Buy Free Spins or Free Rounds with the proposed conditions and at the suggested price",
-        "imgUrl": null
+        "imgUrl": "img-feat_tessamontecarlo-1.webp"
       },
       {
         "name": "Boost Feature",
         "descr": "Activate Boost to increase the chance of triggering Free Spins",
-        "imgUrl": null
+        "imgUrl": "img-feat_tessamontecarlo-2.webp"
       },
       {
         "name": "Multiplier Symbols",
         "descr": "Each Multiplier symbol on the screen doubles the total win for the current spin",
-        "imgUrl": null
+        "imgUrl": "img-feat_tessamontecarlo-3.webp"
       },
       {
         "name": "Free Spins",
         "descr": "At least 3 Scatter Symbols trigger 10 Free Spins",
-        "imgUrl": null
+        "imgUrl": "img-feat_tessamontecarlo-4.webp"
       },
       {
         "name": "Pay Anywhere",
         "descr": "During Free Spins, all winning symbol combinations are paid anywhere on the screen, regardless of position",
-        "imgUrl": null
+        "imgUrl": "img-feat_tessamontecarlo-5.webp"
       }
     ],
     "meta": {
