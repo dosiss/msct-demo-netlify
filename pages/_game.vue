@@ -248,7 +248,12 @@
           <div class="features__content-wrap">
             <div class="features__content">
               <div v-for="(feature, idx) in currentGame.features" :key="idx" class="features-card">
-                <h3 :class="`features-title lang-${$i18n.locale}`">{{feature.name}}</h3>
+                <div class="features-card__head">
+                  <div v-if="feature.icon" class="feature-icon">
+                    <img :src="`/images/icons/${feature.icon}`" :alt="feature.name" />
+                  </div>
+                  <h3 :class="`features-title lang-${$i18n.locale}`">{{feature.name}}</h3>
+                  </div>
                 <p class="features-description">{{feature.descr}}</p>
               </div>
           </div>
@@ -1079,6 +1084,18 @@ export default {
           min-width: 100%;
           @media (max-width: 550px) {
             justify-self: stretch;
+          }
+          .features-card__head {
+            display: flex;
+            align-items: flex-start;
+            .feature-icon {
+              margin-right: 7px;
+              margin-top: -3px;
+              img {
+                height: 38px;
+                width: auto;
+              }
+            }
           }
           .features-title {
             font-size: 1.75rem;
