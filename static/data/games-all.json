@@ -406,25 +406,25 @@
         "name": "Risk & Buy feature: Risk",
         "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
         "imgUrl": "img-feat_papyrus-0.webp",
-        "icon": "icon_risk_gamble.avif"
+        "icon": "icon_risk_gamble2.avif"
       },
       {
         "name": "Risk & Buy feature: Buy",
         "descr": "Buy Free Spins or Free Rounds with the proposed conditions and at the suggested price",
         "imgUrl": "img-feat_papyrus-1.webp",
-        "icon": "icon_buy_free_rounds.avif"
+        "icon": "icon_buy_free_rounds2.avif"
       },
       {
         "name": "Boost Feature",
         "descr": "Activate Boost to increase the chance of triggering Free Spins",
         "imgUrl": "img-feat_papyrus-2.webp",
-        "icon": "icon_boost_feature.avif"
+        "icon": "icon_boost_feature2.avif"
       },
       {
         "name": "Free Spins",
         "descr": "During Free Spins, Mystery symbols become sticky and remain in place. When reels 2, 3, and 4 are completely filled with sticky Mystery symbols, 3 Extra Free Spins are awarded",
         "imgUrl": "img-feat_papyrus-3.webp",
-        "icon": "icon_free_spins.avif"
+        "icon": "icon_free_spins2.avif"
       }
     ],
     "meta": {

@@ -1091,6 +1091,8 @@ export default {
             .feature-icon {
               margin-right: 7px;
               margin-top: -3px;
+              flex: 1 0 auto;
+              max-width: fit-content;
               img {
                 height: 38px;
                 width: auto;
