@@ -111,19 +111,19 @@
         "name": "Risk Wheel",
         "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
         "imgUrl": "img-feat_shiningwilds-0.webp",
-        "icon": "icon_risk_wheel.svg"
+        "icon": "icon_risk_wheel.avif"
       },
       {
         "name": "Buy Free Rounds",
         "descr": "Buy Free Rounds with the proposed conditions and at the suggested price",
         "imgUrl": "img-feat_shiningwilds-1.webp",
-        "icon": "icon_buy_free_rounds.svg"
+        "icon": "icon_buy_free_rounds.avif"
       },
       {
         "name": "Random Wilds",
         "descr": "On every spin, 2 to 4 symbols randomly transform into Wild",
         "imgUrl": "img-feat_shiningwilds-2.webp",
-        "icon": "icon_random_wilds.svg"
+        "icon": "icon_random_wilds.avif"
       }
     ],
     "meta": {
