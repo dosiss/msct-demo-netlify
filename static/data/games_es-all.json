@@ -85,8 +85,10 @@
     "custom": true,
     "descr": " ",
     "thumbUrl": "game_ganamosmegax.jpeg",
-    "heroUrl": "hero_ganamosmegax.jpg",
+    "heroUrl": "hero_ganamosmegax2.jpg",
+    "heroUrlMobile": "hero_mob__ganamosmegax.jpg",
     "blueButtn": true,
+    "verticalScreenshots": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_ganamosmegax.jpg",
@@ -108,22 +110,22 @@
       {
         "name": "Risk Game",
         "descr": "Risk your winnings by playing the Risk Game. You can increase your winnings by getting a win multiplier",
-        "imgUrl": null
+        "imgUrl": "img-feat_ganamosmegax-3.webp"
       },
       {
         "name": "Pays Anywhere",
         "descr": "Winning combinations can appear anywhere on the screen",
-        "imgUrl": null
+        "imgUrl": "img-feat_ganamosmegax-2.webp"
       },
       {
         "name": "Rockfall Feature",
         "descr": "All winning symbols are removed from the screen and replaced with new ones",
-        "imgUrl": null
+        "imgUrl": "img-feat_ganamosmegax-1.webp"
       },
       {
         "name": "Multipliers",
         "descr": "3+ multipliers activate the multiplier feature. All active multipliers are summed and applied to the total win",
-        "imgUrl": null
+        "imgUrl": "img-feat_ganamosmegax-0.webp"
       }
     ],
     "meta": {
