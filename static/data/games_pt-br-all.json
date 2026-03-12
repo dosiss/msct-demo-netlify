@@ -2,69 +2,71 @@
   {
     "name": "Riot: Urban Wilds",
     "slug": "riot-urban-wilds",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/riot_urban_wilds",
     "theme": "video slot",
-    "type": null,
+    "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
-    "releaseDate": "2026-03-19",
+    "comingSoon": false,
+    "releaseDate": "2026-03-26",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_rioturban.jpeg",
-    "heroUrl": "hero_rioturban.jpg",
+    "thumbUrl": "game_rioturban2.jpeg",
+    "heroUrl": "hero_rioturban2.jpg",
+    "heroUrlMobile": "hero_mob__rioturban.jpg",
     "blueButtn": false,
+    "verticalScreenshots": true,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": "video_rioturban.jpg",
     "logoUrl": "logo_rioturban.png",
     "backUrl": "back_rioturban.jpg",
-    "detailsImgUrl": "details_rioturban.png",
+    "detailsImgUrl": "details_rioturban2.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
+      "reels": 5,
+      "rows": 1,
+      "volatility": "Med",
       "paylines": null,
-      "payways": null,
+      "payways": 243,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [ "postap" ],
     "features": [
       {
-        "name": "Risk & Buy feature: Risk",
+        "name": "Risk Gamble",
         "descr": "Gamble your winnings for a chance to multiply them",
-        "imgUrl": "img-feat_rioturban-0.jpg"
-      },
-      {
-        "name": "Risk & Buy feature: Buy",
-        "descr": "Buy Free Rounds with the proposed conditions and at the suggested price",
-        "imgUrl": "img-feat_rioturban-1.jpg"
+        "imgUrl": "img-feat_rioturban-0.webp"
       },
       {
         "name": "Boost Feature",
         "descr": "Activate Boost to increase win multipliers",
-        "imgUrl": "img-feat_rioturban-2.jpg"
+        "imgUrl": "img-feat_rioturban-1.webp"
       },
       {
         "name": "Rockways",
         "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
-        "imgUrl": "img-feat_rioturban-3.jpg"
+        "imgUrl": "img-feat_rioturban-2.webp"
       },
       {
         "name": "Win Multipliers",
-        "descr": "Three levels of win multipliers on rotating wheels",
-        "imgUrl": "img-feat_rioturban-4.jpg"
+        "descr": "An additional multiplier reel spins together with the main reels",
+        "imgUrl": "img-feat_rioturban-3.webp"
+      },
+      {
+        "name": "Ways Anywhere",
+        "descr": "Winning combinations can start from any reel, and the reels do not need to be adjacent",
+        "imgUrl": "img-feat_rioturban-4.webp"
       }
     ],
     "meta": {
       "title": "Riot: Urban Wilds, a video slot game by Mascot Gaming",
-      "descr": " "
+      "descr": "Return to the wild and claim your treasures with Boost Features, Win Multipliers, 243 payways and x5000!"
     },
     "rockways": true
   },
