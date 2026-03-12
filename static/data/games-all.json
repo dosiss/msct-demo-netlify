@@ -41,27 +41,32 @@
       {
         "name": "Risk Gamble",
         "descr": "Gamble your winnings for a chance to multiply them",
-        "imgUrl": "img-feat_rioturban-0.webp"
+        "imgUrl": "img-feat_rioturban-0.webp",
+        "icon": "icon_risk_gamble.avif"
       },
       {
         "name": "Boost Feature",
         "descr": "Activate Boost to increase win multipliers",
-        "imgUrl": "img-feat_rioturban-1.webp"
+        "imgUrl": "img-feat_rioturban-1.webp",
+        "icon": "icon_boost_feature2.avif"
       },
       {
         "name": "Rockways",
         "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
-        "imgUrl": "img-feat_rioturban-2.webp"
+        "imgUrl": "img-feat_rioturban-2.webp",
+        "icon": "icon_rockways.avif"
       },
       {
         "name": "Win Multipliers",
         "descr": "An additional multiplier reel spins together with the main reels",
-        "imgUrl": "img-feat_rioturban-3.webp"
+        "imgUrl": "img-feat_rioturban-3.webp",
+        "icon": "icon_win_multiplier.avif"
       },
       {
         "name": "Ways Anywhere",
         "descr": "Winning combinations can start from any reel, and the reels do not need to be adjacent",
-        "imgUrl": "img-feat_rioturban-4.webp"
+        "imgUrl": "img-feat_rioturban-4.webp",
+        "icon": "icon_ways_anywhere.avif"
       }
     ],
     "meta": {
