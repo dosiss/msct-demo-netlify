@@ -2661,7 +2661,7 @@
     "url": "https://casinogamesguru.com/free-slots?software=mascot-gaming",
     "logoUrl": "partner_casinogamesonnet.png"
   },
-    {
+  {
     "name": "SlotsBuzz",
     "type": "media",
     "top": false,
@@ -2671,5 +2671,16 @@
     "promoText": null,
     "url": "https://www.slotsbuzz.io/partner/61464",
     "logoUrl": "partner_slotbuzz.png"
+  },
+  {
+    "name": "OC24",
+    "type": "media",
+    "top": false,
+    "casino": false,
+    "platform": false,
+    "promo": false,
+    "promoText": null,
+    "url": "https://oc24.ltd/",
+    "logoUrl": "partner_oc24.png"
   }
 ]
