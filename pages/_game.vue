@@ -17,13 +17,13 @@
                 <a :href="`${demoUrl}${locPath}/${currentGame.slug}`" class="buttn buttn-colored buttn-xl buttn-vertical-layout">{{$t('Play demo')}}</a>
               </div>
               <div v-else class="button-wrap">
-                <div class="buttn buttn-colored buttn-disabled buttn-xl">{{$t('Coming Soon')}}</div>
+                <div class="buttn buttn-colored buttn-xl buttn-vertical-layout buttn-comingsoon">{{$t('Coming Soon')}}</div>
               </div>
             </div>
           </div>  
         </div>
         <div class="game-title__right">
-          <div class="screenshots-carousel__wrap">
+          <div v-if="currentGame.comingSoon === false" class="screenshots-carousel__wrap">
             <div 
             v-swiper:mySwiperVertical="verticalSwiperOption"
             @mousedown="onDragStart"
@@ -1194,12 +1194,12 @@ export default {
         }
       }
       img {
-        max-width: 27%; /* 390px */
+        max-width: 24%; /* 390px */
         position: absolute;
         bottom: 0;
         right: 0;
         @media (min-width: 1700px) {
-          max-width: 250px
+          max-width: 220px
         }
         @media (max-width: 1200px) {
           right: -35px
@@ -1302,7 +1302,7 @@ footer {
       overflow-x: hidden;
     }
     @media (max-width: 650px) {
-      background-size: contain;
+      background-size: 100%;
       background-position: top center;
     }
     &:before {
@@ -1377,6 +1377,9 @@ footer {
           background-color: #fff;
           border: 2px solid #000;
           border-radius: 15px;
+        }
+        .buttn-comingsoon {
+          pointer-events: none;
         }
       }
     }

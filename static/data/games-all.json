@@ -1,10 +1,394 @@
 [
   {
+    "name": "Zeus and Giants Gold Hold and Win",
+    "slug": "zeus-and-giants-gold-hold-and-win",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-03-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_zeusgiants.jpeg",
+    "heroUrl": "hero_zeusgiants.jpg",
+    "heroUrlMobile": "hero_mob__zeusgiants.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_zeusgiants.png",
+    "backUrl": "back_zeusgiants.jpg",
+    "detailsImgUrl": "details_zeusgiants.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk Gamble",
+        "descr": "Gamble your winnings for a chance to multiply them",
+        "imgUrl": null,
+        "icon": "icon_risk_gamble.avif"
+      },
+      {
+        "name": "Boost Feature",
+        "descr": "Activate Boost to increase win multipliers",
+        "imgUrl": null,
+        "icon": "icon_boost_feature2.avif"
+      },
+      {
+        "name": "Rockways",
+        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "imgUrl": null,
+        "icon": "icon_rockways.avif"
+      }
+    ],
+    "meta": {
+      "title": "Zeus and Giants Gold Hold and Win, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },   
+  {
+    "name": "Tessa Hunt: Sands of Assassins Hold and Win",
+    "slug": "tessa-hunt-sands-of-assassins-hold-and-win",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-03-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_tessasands.jpeg",
+    "heroUrl": "hero_tessasands.jpg",
+    "heroUrlMobile": "hero_mob__tessasands.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_tessasands.png",
+    "backUrl": "back_tessasands.jpg",
+    "detailsImgUrl": "details_tessasands.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk Gamble",
+        "descr": "Gamble your winnings for a chance to multiply them",
+        "imgUrl": null,
+        "icon": "icon_risk_gamble.avif"
+      },
+      {
+        "name": "Boost Feature",
+        "descr": "Activate Boost to increase win multipliers",
+        "imgUrl": null,
+        "icon": "icon_boost_feature2.avif"
+      },
+      {
+        "name": "Rockways",
+        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "imgUrl": null,
+        "icon": "icon_rockways.avif"
+      }
+    ],
+    "meta": {
+      "title": "Tessa Hunt: Sands of Assassins Hold and Win, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },  
+  {
+    "name": "Origami Quest",
+    "slug": "origami-quest",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-03-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_origamiquest.jpeg",
+    "heroUrl": "hero_origamiquest.jpg",
+    "heroUrlMobile": "hero_mob__origamiquest.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_origamiquest.png",
+    "backUrl": "back_origamiquest.jpg",
+    "detailsImgUrl": "details_origamiquest.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk Gamble",
+        "descr": "Gamble your winnings for a chance to multiply them",
+        "imgUrl": null,
+        "icon": "icon_risk_gamble.avif"
+      },
+      {
+        "name": "Boost Feature",
+        "descr": "Activate Boost to increase win multipliers",
+        "imgUrl": null,
+        "icon": "icon_boost_feature2.avif"
+      },
+      {
+        "name": "Rockways",
+        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "imgUrl": null,
+        "icon": "icon_rockways.avif"
+      }
+    ],
+    "meta": {
+      "title": "Origami Quest, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },  
+  {
+    "name": "For the Realm: Battle Loot Hold and Win",
+    "slug": "for-the-realm-battle-loot-hold-and-win",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-03-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_fortherealmbattle.jpeg",
+    "heroUrl": "hero_fortherealmbattle.jpg",
+    "heroUrlMobile": "hero_mob__fortherealmbattle.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_fortherealmbattle.png",
+    "backUrl": "back_fortherealmbattle.jpg",
+    "detailsImgUrl": "details_fortherealmbattle.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk Gamble",
+        "descr": "Gamble your winnings for a chance to multiply them",
+        "imgUrl": null,
+        "icon": "icon_risk_gamble.avif"
+      },
+      {
+        "name": "Boost Feature",
+        "descr": "Activate Boost to increase win multipliers",
+        "imgUrl": null,
+        "icon": "icon_boost_feature2.avif"
+      },
+      {
+        "name": "Rockways",
+        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "imgUrl": null,
+        "icon": "icon_rockways.avif"
+      }
+    ],
+    "meta": {
+      "title": "For the Realm: Battle Loot Hold and Win, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },  
+  {
+    "name": "Jewel Boost",
+    "slug": "jewel-boost",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-03-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_jewelboost.jpeg",
+    "heroUrl": "hero_jewelboost.jpg",
+    "heroUrlMobile": "hero_mob__jewelboost.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_jewelboost.png",
+    "backUrl": "back_jewelboost.jpg",
+    "detailsImgUrl": "details_jewelboost.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk Gamble",
+        "descr": "Gamble your winnings for a chance to multiply them",
+        "imgUrl": null,
+        "icon": "icon_risk_gamble.avif"
+      },
+      {
+        "name": "Boost Feature",
+        "descr": "Activate Boost to increase win multipliers",
+        "imgUrl": null,
+        "icon": "icon_boost_feature2.avif"
+      },
+      {
+        "name": "Rockways",
+        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "imgUrl": null,
+        "icon": "icon_rockways.avif"
+      }
+    ],
+    "meta": {
+      "title": "Jewel Boost, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },  
+  {
+    "name": "Rice and Riches Hold and Win",
+    "slug": "rice-and-riches-hold-and-win",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-03-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_riceriches.jpeg",
+    "heroUrl": "hero_riceriches.jpg",
+    "heroUrlMobile": "hero_mob__riceriches.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_riceriches.png",
+    "backUrl": "back_riceriches.jpg",
+    "detailsImgUrl": "details_riceriches.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk Gamble",
+        "descr": "Gamble your winnings for a chance to multiply them",
+        "imgUrl": null,
+        "icon": "icon_risk_gamble.avif"
+      },
+      {
+        "name": "Boost Feature",
+        "descr": "Activate Boost to increase win multipliers",
+        "imgUrl": null,
+        "icon": "icon_boost_feature2.avif"
+      },
+      {
+        "name": "Rockways",
+        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "imgUrl": null,
+        "icon": "icon_rockways.avif"
+      }
+    ],
+    "meta": {
+      "title": "Rice and Riches Hold and Win, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },  
+  {
     "name": "Riot: Urban Wilds",
     "slug": "riot-urban-wilds",
     "linkToDemo": "demo.mascot.games/run/riot_urban_wilds",
     "theme": "video slot",
-    "type": "profit",
+    "type": null,
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
