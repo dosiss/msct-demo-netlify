@@ -1,6 +1,6 @@
 [
   {
-    "name": "Zeus and Giants Gold Hold and Win",
+    "name": "Zeus and Giants' Gold. Hold and Win",
     "slug": "zeus-and-giants-gold-hold-and-win",
     "linkToDemo": " ",
     "theme": "video slot",
@@ -9,7 +9,7 @@
     "mganotice": false,
     "risknbuy": true,
     "comingSoon": true,
-    "releaseDate": "2026-03-26",
+    "releaseDate": "2026-06-18",
     "featured": false,
     "topGame": false,
     "branded": false,
@@ -39,32 +39,50 @@
     "category": [ ],
     "features": [
       {
-        "name": "Risk Gamble",
-        "descr": "Gamble your winnings for a chance to multiply them",
+        "name": "Risk and Buy: Risk",
+        "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
         "imgUrl": null,
-        "icon": "icon_risk_gamble.avif"
+        "icon": null
       },
       {
-        "name": "Boost Feature",
-        "descr": "Activate Boost to increase win multipliers",
+        "name": "Risk and Buy: Buy",
+        "descr": "Buy Free Spins or Hold and Win with the proposed conditions and at the suggested price",
         "imgUrl": null,
-        "icon": "icon_boost_feature2.avif"
+        "icon": null
       },
       {
-        "name": "Rockways",
-        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "name": "Wild Reels",
+        "descr": "Trigger up to 3 Wild Reels with win multipliers",
         "imgUrl": null,
-        "icon": "icon_rockways.avif"
+        "icon": null
+      },
+      {
+        "name": "Nudge",
+        "descr": "Each partially visible Wild nudges into view and increases the multiplier",
+        "imgUrl": null,
+        "icon": null
+      },            
+      {
+        "name": "Hold and Win",
+        "descr": "Respins with accumulating wins and a chance to win a Jackpot prize",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Jackpot",
+        "descr": "Three types of jackpot prizes available in the game",
+        "imgUrl": null,
+        "icon": null
       }
     ],
     "meta": {
-      "title": "Zeus and Giants Gold Hold and Win, a video slot game by Mascot Gaming",
+      "title": "Zeus and Giants' Gold Hold and Win, a video slot game by Mascot Gaming",
       "descr": " "
     },
     "rockways": true
   },   
   {
-    "name": "Tessa Hunt: Sands of Assassins Hold and Win",
+    "name": "Tessa Hunt: Sands of Assassins. Hold and Win",
     "slug": "tessa-hunt-sands-of-assassins-hold-and-win",
     "linkToDemo": " ",
     "theme": "video slot",
@@ -73,7 +91,7 @@
     "mganotice": false,
     "risknbuy": true,
     "comingSoon": true,
-    "releaseDate": "2026-03-26",
+    "releaseDate": "2026-06-04",
     "featured": false,
     "topGame": false,
     "branded": false,
@@ -103,22 +121,34 @@
     "category": [ ],
     "features": [
       {
-        "name": "Risk Gamble",
-        "descr": "Gamble your winnings for a chance to multiply them",
+        "name": "Risk and Buy: Risk",
+        "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
         "imgUrl": null,
-        "icon": "icon_risk_gamble.avif"
+        "icon": null
       },
       {
-        "name": "Boost Feature",
-        "descr": "Activate Boost to increase win multipliers",
+        "name": "Risk and Buy: Buy",
+        "descr": "Buy Free Spins or Hold and Win with the proposed conditions and at the suggested price",
         "imgUrl": null,
-        "icon": "icon_boost_feature2.avif"
+        "icon": null
       },
       {
-        "name": "Rockways",
-        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "name": "Hold and Win",
+        "descr": "Respins with accumulating wins and a chance to win a Jackpot prize",
         "imgUrl": null,
-        "icon": "icon_rockways.avif"
+        "icon": null
+      },
+      {
+        "name": "Jackpot",
+        "descr": "Three types of jackpot prizes available in the game",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Up to 25 Free Spins with a chance to win additional Free Spins",
+        "imgUrl": null,
+        "icon": null
       }
     ],
     "meta": {
@@ -137,7 +167,7 @@
     "mganotice": false,
     "risknbuy": true,
     "comingSoon": true,
-    "releaseDate": "2026-03-26",
+    "releaseDate": "2026-05-21",
     "featured": false,
     "topGame": false,
     "branded": false,
@@ -168,21 +198,27 @@
     "features": [
       {
         "name": "Risk Gamble",
-        "descr": "Gamble your winnings for a chance to multiply them",
+        "descr": "Gamble your winnings on a 5x3 field for a chance to increase them with a win multiplier",
         "imgUrl": null,
-        "icon": "icon_risk_gamble.avif"
+        "icon": null
       },
       {
-        "name": "Boost Feature",
-        "descr": "Activate Boost to increase win multipliers",
+        "name": "Boost",
+        "descr": "Activate Boost to increase the chance of triggering Free Respins",
         "imgUrl": null,
-        "icon": "icon_boost_feature2.avif"
+        "icon": null
       },
       {
-        "name": "Rockways",
-        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "name": "Wild Reels",
+        "descr": "Wild symbols transform into sticky Wild Reels",
         "imgUrl": null,
-        "icon": "icon_rockways.avif"
+        "icon": null
+      },
+      {
+        "name": "Free Respins",
+        "descr": "Each sticky Wild Reel grants 1 Free Respin",
+        "imgUrl": null,
+        "icon": null
       }
     ],
     "meta": {
@@ -192,7 +228,7 @@
     "rockways": true
   },  
   {
-    "name": "For the Realm: Battle Loot Hold and Win",
+    "name": "For the Realm: Battle Loot. Hold and Win",
     "slug": "for-the-realm-battle-loot-hold-and-win",
     "linkToDemo": " ",
     "theme": "video slot",
@@ -201,7 +237,7 @@
     "mganotice": false,
     "risknbuy": true,
     "comingSoon": true,
-    "releaseDate": "2026-03-26",
+    "releaseDate": "2026-05-05",
     "featured": false,
     "topGame": false,
     "branded": false,
@@ -231,23 +267,35 @@
     "category": [ ],
     "features": [
       {
-        "name": "Risk Gamble",
-        "descr": "Gamble your winnings for a chance to multiply them",
+        "name": "Risk and Buy: Risk",
+        "descr": "Gamble your winnings for a chance to increase them with a win multiplier",
         "imgUrl": null,
-        "icon": "icon_risk_gamble.avif"
+        "icon": null
       },
       {
-        "name": "Boost Feature",
-        "descr": "Activate Boost to increase win multipliers",
+        "name": "Risk and Buy: Buy",
+        "descr": "Buy Free Spins or Hold and Win with the proposed conditions and at the suggested price",
         "imgUrl": null,
-        "icon": "icon_boost_feature2.avif"
+        "icon": null
       },
       {
-        "name": "Rockways",
-        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "name": "Hold and Win",
+        "descr": "Respins with accumulating wins and a chance to win a Jackpot prize",
         "imgUrl": null,
-        "icon": "icon_rockways.avif"
-      }
+        "icon": null
+      },
+      {
+        "name": "Jackpot",
+        "descr": "Three types of jackpot prizes available in the game",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Infinite Free Spins",
+        "descr": "Infinite Free Spins, which will last until 2 Scatter Symbols appear on the screen",
+        "imgUrl": null,
+        "icon": null
+      }       
     ],
     "meta": {
       "title": "For the Realm: Battle Loot Hold and Win, a video slot game by Mascot Gaming",
@@ -265,7 +313,7 @@
     "mganotice": false,
     "risknbuy": true,
     "comingSoon": true,
-    "releaseDate": "2026-03-26",
+    "releaseDate": "2026-04-23",
     "featured": false,
     "topGame": false,
     "branded": false,
@@ -296,21 +344,27 @@
     "features": [
       {
         "name": "Risk Gamble",
-        "descr": "Gamble your winnings for a chance to multiply them",
+        "descr": "Gamble your winnings on a 5x3 field for a chance to increase them with a win multiplier",
         "imgUrl": null,
-        "icon": "icon_risk_gamble.avif"
+        "icon": null
       },
       {
-        "name": "Boost Feature",
-        "descr": "Activate Boost to increase win multipliers",
+        "name": "Boost",
+        "descr": "Activate Boost to increase the chance of triggering Free Respins",
         "imgUrl": null,
-        "icon": "icon_boost_feature2.avif"
+        "icon": null
       },
       {
-        "name": "Rockways",
-        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "name": "Wild Reels",
+        "descr": "Wild symbols transform into sticky Wild Reels",
         "imgUrl": null,
-        "icon": "icon_rockways.avif"
+        "icon": null
+      },
+      {
+        "name": "Free Respins",
+        "descr": "Each sticky Wild Reel grants 1 Free Respin",
+        "imgUrl": null,
+        "icon": null
       }
     ],
     "meta": {
@@ -320,7 +374,7 @@
     "rockways": true
   },  
   {
-    "name": "Rice and Riches Hold and Win",
+    "name": "Rice and Riches. Hold and Win",
     "slug": "rice-and-riches-hold-and-win",
     "linkToDemo": " ",
     "theme": "video slot",
@@ -329,7 +383,7 @@
     "mganotice": false,
     "risknbuy": true,
     "comingSoon": true,
-    "releaseDate": "2026-03-26",
+    "releaseDate": "2026-04-16",
     "featured": false,
     "topGame": false,
     "branded": false,
@@ -359,23 +413,41 @@
     "category": [ ],
     "features": [
       {
-        "name": "Risk Gamble",
-        "descr": "Gamble your winnings for a chance to multiply them",
+        "name": "Risk and Buy: Risk",
+        "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
         "imgUrl": null,
-        "icon": "icon_risk_gamble.avif"
+        "icon": null
       },
       {
-        "name": "Boost Feature",
-        "descr": "Activate Boost to increase win multipliers",
+        "name": "Risk and Buy: Buy",
+        "descr": "Buy Free Spins or Hold and Win with the proposed conditions and at the suggested price",
         "imgUrl": null,
-        "icon": "icon_boost_feature2.avif"
+        "icon": null
       },
       {
-        "name": "Rockways",
-        "descr": "During each spin, each reel can display 1 to 3 symbols, changing payouts from 1 up to 243 ways",
+        "name": "Hold and Win",
+        "descr": "Respins with accumulating wins and a chance to win a Jackpot prize",
         "imgUrl": null,
-        "icon": "icon_rockways.avif"
-      }
+        "icon": null
+      },
+      {
+        "name": "Jackpot",
+        "descr": "Three types of jackpot prizes available in the game",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Free Spins",
+        "descr": "10 Free Spins with a chance to win additional Free Spins",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Pays on any Payline",
+        "descr": "Wins are paid on paylines, but the combination can appear anywhere along the payline",
+        "imgUrl": null,
+        "icon": null
+      }  
     ],
     "meta": {
       "title": "Rice and Riches Hold and Win, a video slot game by Mascot Gaming",

@@ -1,5 +1,461 @@
 [
   {
+    "name": "Zeus and Giants' Gold. Hold and Win",
+    "slug": "zeus-and-giants-gold-hold-and-win",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-06-18",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_zeusgiants.jpeg",
+    "heroUrl": "hero_zeusgiants.jpg",
+    "heroUrlMobile": "hero_mob__zeusgiants.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_zeusgiants.png",
+    "backUrl": "back_zeusgiants.jpg",
+    "detailsImgUrl": "details_zeusgiants.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk and Buy: Risk",
+        "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Risk and Buy: Buy",
+        "descr": "Buy Free Spins or Hold and Win with the proposed conditions and at the suggested price",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Wild Reels",
+        "descr": "Trigger up to 3 Wild Reels with win multipliers",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Nudge",
+        "descr": "Each partially visible Wild nudges into view and increases the multiplier",
+        "imgUrl": null,
+        "icon": null
+      },            
+      {
+        "name": "Hold and Win",
+        "descr": "Respins with accumulating wins and a chance to win a Jackpot prize",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Jackpot",
+        "descr": "Three types of jackpot prizes available in the game",
+        "imgUrl": null,
+        "icon": null
+      }
+    ],
+    "meta": {
+      "title": "Zeus and Giants' Gold Hold and Win, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },   
+  {
+    "name": "Tessa Hunt: Sands of Assassins. Hold and Win",
+    "slug": "tessa-hunt-sands-of-assassins-hold-and-win",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-06-04",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_tessasands.jpeg",
+    "heroUrl": "hero_tessasands.jpg",
+    "heroUrlMobile": "hero_mob__tessasands.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_tessasands.png",
+    "backUrl": "back_tessasands.jpg",
+    "detailsImgUrl": "details_tessasands.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk and Buy: Risk",
+        "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Risk and Buy: Buy",
+        "descr": "Buy Free Spins or Hold and Win with the proposed conditions and at the suggested price",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Hold and Win",
+        "descr": "Respins with accumulating wins and a chance to win a Jackpot prize",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Jackpot",
+        "descr": "Three types of jackpot prizes available in the game",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Free Spins",
+        "descr": "Up to 25 Free Spins with a chance to win additional Free Spins",
+        "imgUrl": null,
+        "icon": null
+      }
+    ],
+    "meta": {
+      "title": "Tessa Hunt: Sands of Assassins Hold and Win, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },  
+  {
+    "name": "Origami Quest",
+    "slug": "origami-quest",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-05-21",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_origamiquest.jpeg",
+    "heroUrl": "hero_origamiquest.jpg",
+    "heroUrlMobile": "hero_mob__origamiquest.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_origamiquest.png",
+    "backUrl": "back_origamiquest.jpg",
+    "detailsImgUrl": "details_origamiquest.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk Gamble",
+        "descr": "Gamble your winnings on a 5x3 field for a chance to increase them with a win multiplier",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Boost",
+        "descr": "Activate Boost to increase the chance of triggering Free Respins",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Wild Reels",
+        "descr": "Wild symbols transform into sticky Wild Reels",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Free Respins",
+        "descr": "Each sticky Wild Reel grants 1 Free Respin",
+        "imgUrl": null,
+        "icon": null
+      }
+    ],
+    "meta": {
+      "title": "Origami Quest, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },  
+  {
+    "name": "For the Realm: Battle Loot. Hold and Win",
+    "slug": "for-the-realm-battle-loot-hold-and-win",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-05-05",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_fortherealmbattle.jpeg",
+    "heroUrl": "hero_fortherealmbattle.jpg",
+    "heroUrlMobile": "hero_mob__fortherealmbattle.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_fortherealmbattle.png",
+    "backUrl": "back_fortherealmbattle.jpg",
+    "detailsImgUrl": "details_fortherealmbattle.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk and Buy: Risk",
+        "descr": "Gamble your winnings for a chance to increase them with a win multiplier",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Risk and Buy: Buy",
+        "descr": "Buy Free Spins or Hold and Win with the proposed conditions and at the suggested price",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Hold and Win",
+        "descr": "Respins with accumulating wins and a chance to win a Jackpot prize",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Jackpot",
+        "descr": "Three types of jackpot prizes available in the game",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Infinite Free Spins",
+        "descr": "Infinite Free Spins, which will last until 2 Scatter Symbols appear on the screen",
+        "imgUrl": null,
+        "icon": null
+      }       
+    ],
+    "meta": {
+      "title": "For the Realm: Battle Loot Hold and Win, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },  
+  {
+    "name": "Jewel Boost",
+    "slug": "jewel-boost",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-04-23",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_jewelboost.jpeg",
+    "heroUrl": "hero_jewelboost.jpg",
+    "heroUrlMobile": "hero_mob__jewelboost.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_jewelboost.png",
+    "backUrl": "back_jewelboost.jpg",
+    "detailsImgUrl": "details_jewelboost.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk Gamble",
+        "descr": "Gamble your winnings on a 5x3 field for a chance to increase them with a win multiplier",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Boost",
+        "descr": "Activate Boost to increase the chance of triggering Free Respins",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Wild Reels",
+        "descr": "Wild symbols transform into sticky Wild Reels",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Free Respins",
+        "descr": "Each sticky Wild Reel grants 1 Free Respin",
+        "imgUrl": null,
+        "icon": null
+      }
+    ],
+    "meta": {
+      "title": "Jewel Boost, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  },  
+  {
+    "name": "Rice and Riches. Hold and Win",
+    "slug": "rice-and-riches-hold-and-win",
+    "linkToDemo": " ",
+    "theme": "video slot",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-04-16",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_riceriches.jpeg",
+    "heroUrl": "hero_riceriches.jpg",
+    "heroUrlMobile": "hero_mob__riceriches.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_riceriches.png",
+    "backUrl": "back_riceriches.jpg",
+    "detailsImgUrl": "details_riceriches.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Risk and Buy: Risk",
+        "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Risk and Buy: Buy",
+        "descr": "Buy Free Spins or Hold and Win with the proposed conditions and at the suggested price",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Hold and Win",
+        "descr": "Respins with accumulating wins and a chance to win a Jackpot prize",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Jackpot",
+        "descr": "Three types of jackpot prizes available in the game",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Free Spins",
+        "descr": "10 Free Spins with a chance to win additional Free Spins",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Pays on any Payline",
+        "descr": "Wins are paid on paylines, but the combination can appear anywhere along the payline",
+        "imgUrl": null,
+        "icon": null
+      }  
+    ],
+    "meta": {
+      "title": "Rice and Riches Hold and Win, a video slot game by Mascot Gaming",
+      "descr": " "
+    },
+    "rockways": true
+  }, 
+  {
     "name": "Riot: Urban Wilds",
     "slug": "riot-urban-wilds",
     "linkToDemo": "demo.mascot.games/run/riot_urban_wilds",
