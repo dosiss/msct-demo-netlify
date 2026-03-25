@@ -41,15 +41,15 @@
                   @mouseenter="showItemDropdown('promo')"
                   @mouseleave="hideItemDropdown('promo')"
                 >
-                  <li><NuxtLink :to="localePath('/marketing-tools#freeRounds')">{{ $t('Free Rounds') }}</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/marketing-tools#preReleases')">{{ $t('Pre-Releases') }}</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/marketing-tools#seasonalEvents')">{{ $t('Seasonal Events') }}</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/marketing-tools#brandedGames')">{{ $t('Branded Games') }}</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/marketing-tools#trafficBasedCampaigns')">{{ $t('Traffic-based Campaigns') }}</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/marketing-tools#networkingTournaments')" class="highlight">{{ $t('Networking Tournaments') }}</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/marketing-tools#retentionTools')">{{ $t('Retention Tools') }}</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/marketing-tools#marketingSupport')">{{ $t('Marketing Support') }}</NuxtLink></li>
-                  <li><NuxtLink :to="localePath('/marketing-tools#bigWinCampaigns')">{{ $t('Big Win Campaigns') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools/#freeRounds')">{{ $t('Free Rounds') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools/#preReleases')">{{ $t('Pre-Releases') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools/#seasonalEvents')">{{ $t('Seasonal Events') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools/#brandedGames')">{{ $t('Branded Games') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools/#trafficBasedCampaigns')">{{ $t('Traffic-based Campaigns') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools/#networkingTournaments')" class="highlight">{{ $t('Networking Tournaments') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools/#retentionTools')">{{ $t('Retention Tools') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools/#marketingSupport')">{{ $t('Marketing Support') }}</NuxtLink></li>
+                  <li><NuxtLink :to="localePath('/marketing-tools/#bigWinCampaigns')">{{ $t('Big Win Campaigns') }}</NuxtLink></li>
                 </ul>
               </li>
               <li><NuxtLink :to="localePath('/partners')" class="main-menu__item">{{ $t('Partners') }}</NuxtLink></li>
@@ -207,15 +207,15 @@
                       </button>
                     </div>
                     <ul v-show="activeMobileSubmenu === 'promo'" class="mobile-submenu">
-                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#freeRounds')">{{ $t('Free Rounds') }}</NuxtLink></li>
-                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#preReleases')">{{ $t('Pre-Releases') }}</NuxtLink></li>
-                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#seasonalEvents')">{{ $t('Seasonal Events') }}</NuxtLink></li>
-                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#brandedGames')">{{ $t('Branded Games') }}</NuxtLink></li>
-                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#trafficBasedCampaigns')">{{ $t('Traffic-based Campaigns') }}</NuxtLink></li>
-                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#networkingTournaments')" class="highlight">{{ $t('Networking Tournaments') }}</NuxtLink></li>
-                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#retentionTools')">{{ $t('Retention Tools') }}</NuxtLink></li>
-                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#marketingSupport')">{{ $t('Marketing Support') }}</NuxtLink></li>
-                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools#bigWinCampaigns')">{{ $t('Big Win Campaigns') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools/#freeRounds')">{{ $t('Free Rounds') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools/#preReleases')">{{ $t('Pre-Releases') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools/#seasonalEvents')">{{ $t('Seasonal Events') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools/#brandedGames')">{{ $t('Branded Games') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools/#trafficBasedCampaigns')">{{ $t('Traffic-based Campaigns') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools/#networkingTournaments')" class="highlight">{{ $t('Networking Tournaments') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools/#retentionTools')">{{ $t('Retention Tools') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools/#marketingSupport')">{{ $t('Marketing Support') }}</NuxtLink></li>
+                      <li @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/marketing-tools/#bigWinCampaigns')">{{ $t('Big Win Campaigns') }}</NuxtLink></li>
                     </ul>
                   </li>
                   <li class="mobile-menu__item" @click.capture="hideMobileMenu"><NuxtLink :to="localePath('/partners')">{{ $t('Partners') }}</NuxtLink></li>

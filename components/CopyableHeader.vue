@@ -26,7 +26,7 @@ export default {
   },
   methods: {
     async copyToClipboard() {
-      const url = `${this.$config.currURL}/marketing-tools#${this.uniqueId}`;
+      const url = `${this.$config.currURL}/marketing-tools/#${this.uniqueId}`;
 
       try {
         await navigator.clipboard.writeText(url);
