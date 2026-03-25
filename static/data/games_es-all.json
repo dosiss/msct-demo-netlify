@@ -1,5 +1,81 @@
 [
   {
+    "name": "Lightning Path",
+    "slug": "lightning-path",
+    "linkToDemo": " ",
+    "theme": "tictactoe",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": true,
+    "comingSoon": true,
+    "releaseDate": "2026-04-09",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_lightningpath.jpeg",
+    "heroUrl": "hero_lightningpath.jpg",
+    "heroUrlMobile": "hero_mob__lightningpath.jpg",
+    "blueButtn": false,
+    "verticalScreenshots": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": null,
+    "logoUrl": "logo_lightningpath.png",
+    "backUrl": "back_lightningpath.jpg",
+    "detailsImgUrl": "details_lightningpath.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ ],
+    "features": [
+      {
+        "name": "Step-by-Step Crash Game",
+        "descr": "A new twist on the classic crash experience",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "3 Risk Levels",
+        "descr": "Several risk levels, with the highest risk offering a multiplier of up to x10,000",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Visual Progression",
+        "descr": "As players advance, environments and enemies evolve in color and design, while a mini-map provides a clear overview of the path ahead, reinforcing progression and encouraging forward movement",
+        "imgUrl": null,
+        "icon": null
+      },
+      {
+        "name": "Instant Dash Autoplay",
+        "descr": "A fast autoplay mode allows automated rounds, while instant dash lets players reach target multipliers without delay",
+        "imgUrl": null,
+        "icon": null
+      },            
+      {
+        "name": "Ranking System",
+        "descr": "By placing bets, players progress through ranks, unlocking new profile pictures and reflecting their activity and achievements in the game",
+        "imgUrl": null,
+        "icon": null
+      }
+    ],
+    "meta": {
+      "title": "Lightning Path, a video game by TTT Games",
+      "descr": " "
+    },
+    "rockways": true
+  },   
+  {
     "name": "Zeus and Giants' Gold. Hold and Win",
     "slug": "zeus-and-giants-gold-hold-and-win",
     "linkToDemo": " ",

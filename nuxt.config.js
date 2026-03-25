@@ -49,7 +49,8 @@ export default {
 //      dev: false
 //   },
   router: {
-    middleware: ['validateUrl']
+    middleware: ['validateUrl'],
+    trailingSlash: false
   },
   axios: {
     baseURL: '/'

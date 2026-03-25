@@ -781,9 +781,9 @@ export default {
       @media (max-width: 650px) {
         width: 100%
       }
-      .buttn {
+      // .buttn {
 
-      }
+      // }
     }
   }
   .game-title {
@@ -1178,9 +1178,9 @@ export default {
               width: 30px;
               height: auto;
             }
-            .details-value {
+            // .details-value {
 
-            }
+            // }
             &.item-no-icon {
               .details-name {
                 margin-left: 0;
