@@ -14,7 +14,8 @@
             </div>
             <div class="game-title__right-content">
               <div v-if="currentGame.comingSoon === false" class="button-wrap">
-                <a :href="`${demoUrl}${locPath}/${currentGame.slug}`" class="buttn buttn-colored buttn-xl buttn-vertical-layout">{{$t('Play demo')}}</a>
+                <a v-if="!$device.isMobile" :href="`${demoUrl}${locPath}/${currentGame.slug}`" class="buttn buttn-colored buttn-xl buttn-vertical-layout">{{$t('Play demo')}}</a>
+                <a v-else :href="`https://${currentGame.linkToDemo}`" class="buttn buttn-colored buttn-xl buttn-vertical-layout">{{$t('Play demo')}}</a>
               </div>
               <div v-else class="button-wrap">
                 <div class="buttn buttn-colored buttn-xl buttn-vertical-layout buttn-comingsoon">{{$t('Coming Soon')}}</div>
