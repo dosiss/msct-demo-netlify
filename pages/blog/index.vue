@@ -6,7 +6,7 @@
       <h1>Mascot Blog</h1>
       <ul>
         <li v-for="article of visibleArticles" :key="article.slug">
-          <NuxtLink :to="`/blog/${article.slug}`">
+          <NuxtLink :to="`/blog/${article.slug}/`">
             <!-- <div v-if="$device.isMobile" class="article-date date-mobile">{{ formatDate(article.archiveDate) }}</div> -->
             <div class="article-img">
               <nuxt-img :src="`../../images/${article.img}`" :alt="`${article.heading}`" sizes="sm:400px lg:450px" placeholder="../../images/img_blog_placeholder.jpg" />
