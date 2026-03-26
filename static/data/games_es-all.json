@@ -451,14 +451,14 @@
   },  
   {
     "name": "Rice and Riches. Hold and Win",
-    "slug": "rice-and-riches-hold-and-win",
-    "linkToDemo": " ",
+    "slug": "rice-and-riches",
+    "linkToDemo": "demo.mascot.games/run/rice_and_riches",
     "theme": "video slot",
     "type": "profit",
     "mgacertified": false,
     "mganotice": false,
     "risknbuy": true,
-    "comingSoon": true,
+    "comingSoon": false,
     "releaseDate": "2026-04-16",
     "featured": false,
     "topGame": false,
@@ -477,60 +477,60 @@
     "backUrl": "back_riceriches.jpg",
     "detailsImgUrl": "details_riceriches.png",
     "stats": {
-      "reels": null,
-      "rows": null,
-      "volatility": null,
-      "paylines": null,
+      "reels": 5,
+      "rows": 3,
+      "volatility": "High",
+      "paylines": 10,
       "payways": null,
       "html5": true,
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [ "asia" ],
     "features": [
       {
         "name": "Risk and Buy: Risk",
         "descr": "Spin the Risk Wheel for a chance to increase your winnings by getting a win multiplier",
-        "imgUrl": null,
+        "imgUrl": "img-feat_riceriches-0.webp",
         "icon": null
       },
       {
         "name": "Risk and Buy: Buy",
         "descr": "Buy Free Spins or Hold and Win with the proposed conditions and at the suggested price",
-        "imgUrl": null,
+        "imgUrl": "img-feat_riceriches-1.webp",
         "icon": null
       },
       {
         "name": "Hold and Win",
         "descr": "Respins with accumulating wins and a chance to win a Jackpot prize",
-        "imgUrl": null,
+        "imgUrl": "img-feat_riceriches-2.webp",
         "icon": null
       },
       {
         "name": "Jackpot",
         "descr": "Three types of jackpot prizes available in the game",
-        "imgUrl": null,
+        "imgUrl": "img-feat_riceriches-3.webp",
         "icon": null
       },
       {
         "name": "Free Spins",
         "descr": "10 Free Spins with a chance to win additional Free Spins",
-        "imgUrl": null,
+        "imgUrl": "img-feat_riceriches-4.webp",
         "icon": null
       },
       {
         "name": "Pays on any Payline",
         "descr": "Wins are paid on paylines, but the combination can appear anywhere along the payline",
-        "imgUrl": null,
+        "imgUrl": "img-feat_riceriches-5.webp",
         "icon": null
       }  
     ],
     "meta": {
-      "title": "Rice and Riches Hold and Win, a video slot game by Mascot Gaming",
-      "descr": " "
+      "title": "Rice and Riches. Hold and Win, a video slot game by Mascot Gaming",
+      "descr": "Colorful Asian slot featuring Coin mechanics, Free Spins, Hold and Win, 3 types of Jackpot and x1000!"
     },
     "rockways": true
-  }, 
+  },
   {
     "name": "Riot: Urban Wilds",
     "slug": "riot-urban-wilds",

@@ -9,7 +9,7 @@
         <div class="regmarkets__wrap">
             <div v-for="(market, idx) in regulatedMarkets" :key="idx" class="regmarkets-item">
               <div class="regmarkets-item-inner" :style="{ backgroundImage: `url(/images/img_min_3_${market.name}.png)` }">
-                <nuxt-link :to="`${locPath}/games-for-regulated-markets/${market.link}`">
+                <nuxt-link :to="`${locPath}/games-for-regulated-markets/${market.link}/`">
                   <h2 class="regmarkets-item__title">{{$t(`${market.title}`)}}</h2>
                 </nuxt-link>
               </div>

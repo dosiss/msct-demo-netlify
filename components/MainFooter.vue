@@ -184,7 +184,7 @@
           {{ $t('AML policy') }}
         </NuxtLink>
       </div>
-      <div class="copyright text-muted">Mascot Gaming - {{ $t('All rights reserved') }} 2025</div>
+      <div class="copyright text-muted">Mascot Gaming - {{ $t('All rights reserved') }} 2026</div>
     </div>
   </div>
   <client-only>
