@@ -122,7 +122,7 @@
     </div>
   </div>
   <SharingButtons />
-    <AdBanner />
+    <!-- <AdBanner /> -->
     <MainFooter />
   </div>
 </template>

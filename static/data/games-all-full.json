@@ -3047,6 +3047,182 @@
     "rockways": false
   },
   {
+    "name": "Double Roulette",
+    "slug": "double-roulette",
+    "linkToDemo": "demo.mascot.games/run/double_roulette",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2025-04-24",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": "Double stakes, double excitement",
+    "thumbUrl": "game_doubleroulette2.jpeg",
+    "heroUrl": "hero_doubleroulette5.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_doubleroulette.png",
+    "backUrl": "back_doubleroulette.jpg",
+    "detailsImgUrl": "details_doubleroulette.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "High",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Double",
+        "descr": "Players choose between red, black, or a special cell, and a spinning wheel determines the winning color and multiplier. Landing on the special cell brings the highest win",
+        "imgUrl": null
+      },
+      {
+        "name": "Multiplayer",
+        "descr": "This game allows multiple players to participate in the same round",
+        "imgUrl": "img-feat_doubleroulette-1.jpg"
+      },
+      {
+        "name": "Multiple Bets",
+        "descr": "Players can select more than one outcome per round, increasing their chances of winning",
+        "imgUrl": "img-feat_doubleroulette-2.jpg"
+      },
+      {
+        "name": "Live Leaderboard",
+        "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
+        "imgUrl": null
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players progress through ranks, unlocking new customization options and avatars",
+        "imgUrl": "img-feat_doubleroulette-4.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to suit their preferences through customization features",
+        "imgUrl": "img-feat_doubleroulette-5.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Casinofreak.com: Play Double Roulette",
+        "link": "https://www.casinofreak.com/games/play-double-roulette",
+        "image": "img_blog_doubleroulette-casinofreak.jpg"
+      },
+      {
+        "title": "Chipy: Double Roulette Review",
+        "link": "https://chipy.com/games/mascot-gaming/double-roulette",
+        "image": "img_blog_doubleroulette-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.com: Double Roulette Review",
+        "link": "https://www.casinoslists.com/play/double-roulette",
+        "image": "img_blog_doubleroulette-casinolists.jpg"
+      },
+      {
+        "title": "Slotsmate: Double Roulette by TTT Games",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/double-roulette",
+        "image": "img_blog_doubleroulette-slotsmate.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Double Roulette, a video game by TTT Games",
+      "descr": "Take advantage of multiple bets and get the best rewards"
+    },
+    "rockways": false
+  },
+  {
+    "name": "Gunman Crash!",
+    "slug": "gunman-crash",
+    "linkToDemo": "demo.mascot.games/run/gunman_crash",
+    "theme": "crash",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2025-05-08",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_gunman2.jpeg",
+    "heroUrl": "hero_gunman.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_gunman.jpg",
+    "logoUrl": "logo_gunman.png",
+    "backUrl": "back_gunman.jpg",
+    "detailsImgUrl": "details_gunman.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ "adventure" ],
+    "features": [
+      {
+        "name": "Up to 5 bets",
+        "descr": "Place 1 to 5 bets at the same time",
+        "imgUrl": "img-feat_gunman-0.jpg"
+      },
+      {
+        "name": "Growing win multiplier",
+        "descr": "Watch your winning multiplier grow and claim your winnings",
+        "imgUrl": "img-feat_gunman-1.jpg"
+      },
+      {
+        "name": "Fantastic prizes",
+        "descr": "Get Free Bets and winnings up to x10000",
+        "imgUrl": "img-feat_gunman-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Slots-777.com - Gunman Crash by Mascot Gaming - Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/gunman-crash",
+        "image": "img_blog_gunman-slots777.jpg"
+      },
+      {
+        "title": "Casinofreak.com: Play Gunman Crash",
+        "link": "https://www.casinofreak.com/games/play-gunman-crash",
+        "image": "img_blog_gunman-casinofreak.jpg"
+      },
+      {
+        "title": "Chipy: Gunman Crash Review",
+        "link": "https://www.casinoslists.com/play/gunman-crash",
+        "image": "img_blog_gunman-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.com: Gunman Crash Review",
+        "link": "https://www.casinoslists.com/play/gunman-crash",
+        "image": "img_blog_gunman-casinolists.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Gunman Crash!, a video game by Mascot Gaming",
+      "descr": "Incredible bets, fantastic prizes and x5000"
+    },
+    "rockways": false
+  },
+  {
     "name": "Tessa Hunt and the Temple of Horus",
     "slug": "tessa-hunt-and-the-temple-of-horus",
     "linkToDemo": "demo.mascot.games/run/tessa_hunt_and_the_eye_of_horus",
@@ -3203,6 +3379,91 @@
     "meta": {
       "title": "For the Realm Deluxe, a video slot game by Mascot Gaming",
       "descr": "Choose the winning side with two types of Free Spins and Risk & Buy feature!"
+    },
+    "rockways": false
+  },
+  {
+    "name": "Keno party",
+    "slug": "keno-party",
+    "linkToDemo": "demo.mascot.games/run/keno_party",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2025-04-03",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": "Multiplayer keno, reinvented",
+    "thumbUrl": "game_kenoparty3.jpeg",
+    "heroUrl": "hero_kenoparty5.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_kenoparty3.png",
+    "backUrl": " ",
+    "detailsImgUrl": "details_kenoparty.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Keno",
+        "descr": "The player selects between 1 and 10 numbers out of 40. The server randomly generates 10 numbers out of 40. If the player's selections match the server's, the player wins the bet",
+        "imgUrl": null
+      },
+      {
+        "name": "Multiplayer",
+        "descr": "This game allows multiple players to participate in the same round",
+        "imgUrl": "img-feat_kenoparty-1.jpg"
+      },
+      {
+        "name": "Multiple Bets",
+        "descr": "Players can place between 1 and 5 bets per round",
+        "imgUrl": "img-feat_kenoparty-2.jpg"
+      },
+      {
+        "name": "Player Leaderboard",
+        "descr": "An online board showing players in the current round and the biggest wins in the game’s history",
+        "imgUrl": null
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players progress through ranks, unlocking new customization options and avatars",
+        "imgUrl": "img-feat_kenoparty-4.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to suit their preferences through customization features",
+        "imgUrl": "img-feat_kenoparty-5.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Chipy: Keno Party Review",
+        "link": "https://chipy.com/games/mascot-gaming/keno-party",
+        "image": "img_blog_kenoparty-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.con: Keno Party by TTT Games",
+        "link": "https://www.casinoslists.com/play/keno-party",
+        "image": "img_blog_kenoparty-casinolists.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Keno Party, a video game by TTT Games",
+      "descr": "Powered by Mascot Gaming, Keno Party offers amazing features: multiplayer, live leaderboard, customization, ranks and x10000."
     },
     "rockways": false
   },
@@ -3396,6 +3657,87 @@
       "descr": "Bounce to big wins with exciting features, fast gameplay and x1000."
     },
     "rockways": false
+  },
+  {
+    "name": "Shooting Galaxy",
+    "slug": "shooting-galaxy",
+    "linkToDemo": "demo.mascot.games/run/shooting_galaxy",
+    "theme": "shooting",
+    "type": "traffic",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2025-03-13",
+    "featured": false,
+    "topGame":false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_shootinggalaxy3.jpeg",
+    "heroUrl": "hero_shootinggalaxy.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_shootinggalaxy.jpg",
+    "logoUrl": "logo_shootinggalaxy.png",
+    "backUrl": "back_shootinggalaxy.jpg",
+    "detailsImgUrl": "details_shootinggalaxy2.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "Low",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "category": [ "space" ],
+    "features": [
+      {
+        "name": "Bonus Games",
+        "descr": "Two types of Bonus Games with different bosses",
+        "imgUrl": "img-feat_shootinggalaxy-0.jpg"
+      },
+      {
+        "name": "Free Shots",
+        "descr": "Free Shots for capturing special symbols",
+        "imgUrl": "img-feat_shootinggalaxy-1.jpg"
+      },
+      {
+        "name": "Special Rewards",
+        "descr": "Additional rewards for capturing special symbols",
+        "imgUrl": "img-feat_shootinggalaxy-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Casinofreak.com: Play Shooting Galaxy",
+        "link": "https://www.casinofreak.com/games/play-shooting-galaxy",
+        "image": "img_blog_shootinggalaxy-casinofreak.jpg"
+      },
+      {
+        "title": "Chipy: Shooting Galaxy by Mascot Gaming",
+        "link": "https://chipy.com/games/mascot-gaming/shooting-galaxy",
+        "image": "img_blog_shootinggalaxy-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.com - Shooting Galaxy",
+        "link": "https://www.casinoslists.com/play/shooting-galaxy",
+        "image": "img_blog_shootinggalaxy-casinolists.jpg"
+      },
+      {
+        "title": "Take Aim at the Cosmos: Shooting Galaxy Review",
+        "link": "https://mascot.games/blog/take-aim-at-the-cosmos-shooting-galaxy-review",
+        "image": "img_blog_shootinggalaxy-main.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Shooting Galaxy, a video game by Mascot Gaming",
+      "descr": "Lock and load your weapons with x555 and two Bonus Games, Free Shots and special rewards."
+    }
   },
   {
     "name": "10K Dice",
@@ -3713,6 +4055,106 @@
     "meta": {
       "title": "The Biggest Win x50, a video slot game by Mascot Gaming",
       "descr": "Golden light, juicy wins and multiplier that keep growing!"
+    },
+    "rockways": false
+  },
+  {
+    "name": "Space Blaze",
+    "slug": "space-blaze",
+    "linkToDemo": "demo.mascot.games/run/space_blaze",
+    "theme": "tictactoe",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2025-01-30",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": "Exciting space crash journey",
+    "thumbUrl": "game_spaceblaze3.jpeg",
+    "heroUrl": "hero_spaceblaze5.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": " ",
+    "logoUrl": "logo_spaceblaze3.png",
+    "backUrl": "back_spaceblaze.jpg",
+    "detailsImgUrl": "details_spaceblaze.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "High",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.0,
+      "hitrate": "  "
+    },
+    "features": [
+      {
+        "name": "Crash Game",
+        "descr": "The win multiplier continuously grows, and the player must cash out their bet before the rocket explodes",
+        "imgUrl": null
+      },
+      {
+        "name": "Multiplayer",
+        "descr": "This game allows multiple players to participate in the same round",
+        "imgUrl": null
+      },
+      {
+        "name": "3 Bet Controllers",
+        "descr": "Players can place between 1 and 3 bets in a single round",
+        "imgUrl": "img-feat_spaceblaze-2.jpg"
+      },
+      {
+        "name": "Growing Multiplier",
+        "descr": "A dynamic multiplier that can reach up to x10 000",
+        "imgUrl": null
+      },
+      {
+        "name": "Live Leaderboard",
+        "descr": "The online board shows players in the current round, as well as the biggest wins in the game’s history",
+        "imgUrl": "img-feat_spaceblaze-4.jpg"
+      },
+      {
+        "name": "Ranks",
+        "descr": "By placing bets, players advance through ranks, unlocking new customization elements and avatars",
+        "imgUrl": "img-feat_spaceblaze-5.jpg"
+      },
+      {
+        "name": "Customization",
+        "descr": "Players can personalize the game area and interface elements to their liking using customization options",
+        "imgUrl": "img-feat_spaceblaze-6.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Mascot Gaming introduces Tic Tac Toe Games",
+        "link": "https://mascot.games/blog/mascot-gaming-introduces-tic-tac-toe-games",
+        "image": "img_blog_tttintro-main.jpg"
+      },
+      {
+        "title": "Slotsoo.com: Space Blaze",
+        "link": "https://slotsoo.com/games/space-blaze/",
+        "image": "mg_blog_spaceblaze-slotsoo.jpg"
+      },
+      {
+        "title": "CasinoGuru: Space Blaze Review",
+        "link": "https://casinoguru-int.com/en/space-blaze-play-free",
+        "image": "img_blog_spaceblaze-casinoguru.jpg"
+      },
+      {
+        "title": "Casinotreasure.com: Space Blaze Review",
+        "link": "https://casinotreasure.com/free-play-demo-slots/space-blaze/",
+        "image": "img_blog_spaceblaze-casinotreasure.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Space Blaze, a video game by TTT Games",
+      "descr": "Powered by Mascot Gaming, Space Blaze offers incredible multipliers up to x10000 and fantastic features like multiplayer and customization."
     },
     "rockways": false
   },
@@ -4125,6 +4567,81 @@
       "descr": "Enter this magical time of year with Rockfall feature, Risk Game and x12500!"
     },
     "rockways": false
+  },
+  {
+    "name": "Catch the Win",
+    "slug": "catch-the-win",
+    "linkToDemo": "demo.mascot.games/run/catch_the_win",
+    "theme": "shooting",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2024-11-28",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_catchwin2.jpeg",
+    "heroUrl": "hero_catchwin.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_catchwin.jpg",
+    "logoUrl": "logo_catchwin.png",
+    "backUrl": "back_catchwin.jpg",
+    "detailsImgUrl": "details_catchwin.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": false,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Bonus Games",
+        "descr": "Two types of Bonus Games with different bosses and high-value symbols",
+        "imgUrl": "img-feat_catchwin-0.jpg"
+      },
+      {
+        "name": "Free Shots",
+        "descr": "Free Shots for capturing a special symbol",
+        "imgUrl": "img-feat_catchwin-1.jpg"
+      },
+      {
+        "name": "Special Rewards",
+        "descr": "Additional rewards for capturing special symbols",
+        "imgUrl": "img-feat_catchwin-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Clasfofslots.com: Catch the Win Review",
+        "link": "https://clashofslots.com/crash-games/mascot-gaming/catch-the-win/",
+        "image": "img_blog_catchwin-clash.jpg"
+      },
+      {
+        "title": "Slotslaunch: Catch the Win Review",
+        "link": "https://slotslaunch.com/mascot-gaming/catch-the-win",
+        "image": "img_blog_catchwin-slotslaunch.jpg"
+      },
+      {
+        "title": "Slotsmate: 243 Fruity Zen Review",
+        "link": "https://www.slotsmate.com/software/mascot-gaming/243-fruity-zen",
+        "image": "img_blog_243fruity-slotsmate.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Catch the Win, a video shooting game by Mascot Gaming",
+      "descr": "Dive into the blue and enjoy Free Bets and two types of Bonus Game."
+    }
   },
   {
     "name": "243 Fruity Zen",
@@ -4864,6 +5381,81 @@
     "meta": {
       "title": "The Incredible X Fu Hero, a video slot game by Mascot Gaming",
       "descr": "Sticky Wilds Reels and Free Respins will help you on your journey to amazing rewards!"
+    },
+    "rockways": false
+  },
+  {
+    "name": "Kite Festival Crash Game",
+    "slug": "kite-festival-crash-game",
+    "linkToDemo": "demo.mascot.games/run/kite_festival_crash_game",
+    "theme": "crash",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2024-09-05",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_kitefest2.jpeg",
+    "heroUrl": "hero_kitefest2.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_kitefest.jpg",
+    "logoUrl": "logo_kitefest.png",
+    "backUrl": "back_kitefest.jpg",
+    "detailsImgUrl": "details_kitefest.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "High",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.32,
+      "hitrate": 28.9
+    },
+    "features": [
+      {
+        "name": "Multiple Bets",
+        "descr": "Place from 1 to 5 bets simultaneously",
+        "imgUrl": "img-feat_kitefest-0.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "Increasing win multiplier up to x5000",
+        "imgUrl": "img-feat_kitefest-1.jpg"
+      },
+      {
+        "name": "Free Bets",
+        "descr": "Up to 5 Free Bets in each launch",
+        "imgUrl": "img-feat_kitefest-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Chase the Winds of Fortune: Kite Festival Crash Game Review",
+        "link": "https://mascot.games/blog/chase-the-winds-of-fortune-kite-festival-crash-game-review",
+        "image": "img_blog_kitefest-main.jpg"
+      },
+      {
+        "title": "Kite Festival Crash Game by Mascot Games - Exclusive First Review",
+        "link": "https://crashgambler.io/kite-festival-by-mascot-gaming/",
+        "image": "img_blog_kitefest-crashgambler.jpg"
+      },
+      {
+        "title": "LCB.org: Kite Festival Crash Game Review",
+        "link": "https://lcb.org/games/kite-festival",
+        "image": "img_blog_kitefest-lcb.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Kite Festival Crash Game, a video game by Mascot Gaming",
+      "descr": "Fly high with up to 5 bets simultaneously and x5000 multiplier. Collect Free Bets along the way."
     },
     "rockways": false
   },
@@ -6173,6 +6765,106 @@
     }
   },
   {
+    "name": "CRASH, HAMSTER, CRASH!",
+    "slug": "crash-hamster-crash",
+    "linkToDemo": "demo.mascot.games/run/crash_hamster_crash",
+    "theme": "crash",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2024-02-13",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_hamster.jpeg",
+    "heroUrl": "hero_hamster.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_hamster.jpg",
+    "logoUrl": "logo_hamster.png",
+    "backUrl": "back_hamster.jpg",
+    "detailsImgUrl": "details_hamster.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": " ",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Up to 3 hamsters on screen",
+        "descr": "Place 1 to 3 bets at the same time",
+        "imgUrl": "img-feat_hamster-0.jpg"
+      },
+      {
+        "name": "Growing win rate",
+        "descr": "Watch your winning rates grow and claim your winnings",
+        "imgUrl": "img-feat_hamster-1.jpg"
+      },
+      {
+        "name": "Fantastic prizes",
+        "descr": "Get winnings up to x5000",
+        "imgUrl": "img-feat_hamster-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Crash, Hamster, Crash! wins the Best Designed Crash Game award",
+        "link": "https://mascot.games/blog/crash-hamster-crash-wins-the-best-designed-crash-game-award",
+        "image": "img_blog_hamster-win-main.jpg"
+      },
+      {
+        "title": "Hamsters, Ufo And Mascot Gaming: “Crash, Hamster, Crash” Review.",
+        "link": "https://mascot.games/blog/crash-hamster-crash-review",
+        "image": "img_blog_hamster-main.jpg"
+      },
+      {
+        "title": "Demoslot.com reviewed Crash, Hamster, Crash and Dragon`s Lucky 25",
+        "link": "https://mascot.games/blog/Demoslot-com-reviewed-crash-hamster-crash-and-dragons-lucky-25",
+        "image": "img_blog-www-demoslot-crash.jpg"
+      },
+      {
+        "title": "Mascot Gaming Proudly Presents Dragon`s Lucky 25 & Crash Hamster, Crash",
+        "link": "https://lcb.org/news/mascot-gaming-proudly-presents-dragons-lucky-25-crash-hamster-crash",
+        "image": "img_blog_hamster-lcb.jpg"
+      },
+      {
+        "title": "Slots-777: Crash, Hamster, Crash Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/crash-hamster-crash",
+        "image": "img_blog_hamster-slots777.jpg"
+      },
+      {
+        "title": "Casinolandia: Crash, Hamster Crash Review",
+        "link": "https://casinolandia.com/slots/crash-hamster-crash/",
+        "image": "img_blog_hamster-casinolandia.jpg"
+      },
+      {
+        "title": "SlotsJudge: Crash, Hamster, Crash Review",
+        "link": "https://slotsjudge.com/online-slots/crash-hamster-crash/",
+        "image": "img_blog_hamster-slotsjudge.jpg"
+      },
+      {
+        "title": "CryptoLists.com: Crash, Hamster, Crash Review",
+        "link": "https://www.cryptolists.com/games/crashhamster/",
+        "image": "img_blog_hamster-cryptolists.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Crash, Hamster, Crash!, a crash game by Mascot Gaming",
+      "descr": "Save adorable hamsters from aliens. Place from one to three bets and collect your winnings before the crash."
+    }
+  },
+  {
     "name": "Dreamshock: Jackpot X",
     "slug": "dreamshock-jackpot-x",
     "linkToDemo": "demo.mascot.games/run/dreamshock_jackpot_x",
@@ -7006,6 +7698,92 @@
     }
   },
   {
+    "name": "Paper Lanterns Crash Game",
+    "slug": "paper-lanterns-crash-game",
+    "linkToDemo": "demo.mascot.games/run/paper_lanterns_crash_game",
+    "theme": "crash",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2023-09-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_lantern.jpeg",
+    "heroUrl": "hero_lantern.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_lantern.jpg",
+    "logoUrl": "logo_lantern.png",
+    "backUrl": "back_lantern.jpg",
+    "detailsImgUrl": "details_lantern.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "High",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.32,
+      "hitrate": 28.9
+    },
+    "category": [ "asia" ],
+    "features": [
+      {
+        "name": " ",
+        "descr": "From 1 to 5 bets simultaneously",
+        "imgUrl": "img-feat_lantern-0.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Increasing winning coefficient up to 5,000",
+        "imgUrl": "img-feat_lantern-1.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Up to 5 free bets with each launch",
+        "imgUrl": "img-feat_lantern-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Mascot Gaming Lights the Way: Paper Lanterns Crash Game Review",
+        "link": "https://mascot.games/blog/mascot-gaming-lights-the-way-paper-lanterns-crash-game-review",
+        "image": "img_blog_lanterns-main.jpg"
+      },
+      {
+        "title": "Paper Lanterns Crash Game: a detailed review by GamblersConnect.com",
+        "link": "https://mascot.games/blog/paper-lanterns-crash-game-a-detailed-review-by-gamblersconnect-com",
+        "image": "img_blog_paperlanterns.jpg"
+      },
+      {
+        "title": "Slots-777: Paper Lanterns Crash Game Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/paper-lanterns-crash-game",
+        "image": "img_blog_paperlanterns-slots777.jpg"
+      },
+      {
+        "title": "MASCOT GAMING EXCLUSIVE INTERVIEW ABOUT NEW CRASH GAME PAPER LANTERNS",
+        "link": "https://slotsjudge.com/casino-news/mascot-exclusive-interview-about-new-crash-game-paper-lanterns/",
+        "image": "img_blog_paperlanterns-slotsjudge.jpg"
+      },
+      {
+        "title": "SlotsJudge: Paper Lanterns Crash Game",
+        "link": "https://slotsjudge.com/online-slots/paper-lanterns/",
+        "image": "img_blog_paperlanterns-slotsjudge2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Paper Lanterns Crash Game is a first crash game by Mascot Gaming",
+      "descr": "Paper Lanterns Crash Game by Mascot Gaming is crash game that allows players to launch several paper lanterns, therefor making from 1 to 5 bets simultaneously."
+    }
+  },
+  {
     "name": "Zeus the Thunderer Deluxe",
     "slug": "zeus-the-thunderer-deluxe",
     "linkToDemo": "demo.mascot.games/run/zeus_the_thunderer_deluxe",
@@ -7453,6 +8231,74 @@
     "meta": {
       "title": "Ben Gunn Robinson: video slot game by Mascot Gaming",
       "descr": "Ben Gunn Robinson is a new Mascot Gaming slot with Super Bonus and Gamble features."
+    }
+  },
+  {
+    "name": "Hook Up! Fishing Wars",
+    "slug": "hook-up-fishing-wars",
+    "linkToDemo": "demo.mascot.games/run/hook_up_fishing_wars",
+    "theme": "shooting",
+    "type": null,
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2023-06-06",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": "In Hook Up! Fishing Wars, the ocean is your game, Cast your line, shoot with aim!",
+    "thumbUrl": "game_fishing.jpeg",
+    "heroUrl": "hero_fishing.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_fishing.jpg",
+    "logoUrl": "logo_fishing.png",
+    "backUrl": "back_fishing.jpg",
+    "detailsImgUrl": "details_fishing.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": false,
+      "rtp": 0.955,
+      "hitrate": null
+    },
+    "features": [
+      {
+        "name": " ",
+        "descr": "Freezing and Free Shots for killing special characters",
+        "imgUrl": "img-feat_fishing-0.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Free Shots for catching the Cannon symbol",
+        "imgUrl": "img-feat_fishing-1.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Two bosses with huge winnings",
+        "imgUrl": "img-feat_fishing-2.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Chests with big winnings and special symbols",
+        "imgUrl": "img-feat_fishing-3.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Bonus game with expensive fish",
+        "imgUrl": "img-feat_fishing-4.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Hook Up! Fishing Wars is a first action game by Mascot Gaming",
+      "descr": "Hook Up! Fishing Wars by Mascot Gaming is a shooting game, that combines arcade and casino gameplay mechanics"
     }
   },
   {
