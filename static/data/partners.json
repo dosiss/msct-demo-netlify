@@ -1397,17 +1397,6 @@
     "logoUrl": "partner_xcasinoclub.png"
   },
   {
-    "name": "Joycasino1",
-    "type": "partner",
-    "top": false,
-    "casino": true,
-    "platform": false,
-    "promo": false,
-    "promoText": null,
-    "url": "http://joycasino1.com.ua/",
-    "logoUrl": "partner_joycasino1.png"
-  },
-  {
     "name": "Goldenreels",
     "type": "partner",
     "top": false,
@@ -2119,7 +2108,7 @@
     "platform": false,
     "promo": false,
     "promoText": null,
-    "url": "https://www.casinoadrenaline.com/games/all/mascot",
+    "url": "https://www.casinoadrenaline.com/providers/mascot-gaming",
     "logoUrl": "partner_casinoadrenaline.png"
   },  
   {
