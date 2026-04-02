@@ -2,34 +2,34 @@
   {
     "name": "Lightning Path",
     "slug": "lightning-path",
-    "linkToDemo": " ",
+    "linkToDemo": "demo.mascot.games/run/lightning_path",
     "theme": "tictactoe",
     "type": null,
     "mgacertified": false,
     "mganotice": false,
-    "risknbuy": true,
-    "comingSoon": true,
+    "risknbuy": false,
+    "comingSoon": false,
     "releaseDate": "2026-04-09",
     "featured": false,
     "topGame": false,
     "branded": false,
     "custom": false,
-    "descr": " ",
+    "descr": "Leave nothing standing on your path",
     "thumbUrl": "game_lightningpath.jpeg",
-    "heroUrl": "hero_lightningpath.jpg",
-    "heroUrlMobile": "hero_mob__lightningpath.jpg",
+    "heroUrl": "hero_lightningpath2.jpg",
+    "heroUrlMobile": null,
     "blueButtn": false,
-    "verticalScreenshots": true,
+    "verticalScreenshots": false,
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": null,
-    "logoUrl": "logo_lightningpath.png",
+    "logoUrl": "logo_lightningpath2.png",
     "backUrl": "back_lightningpath.jpg",
     "detailsImgUrl": "details_lightningpath.png",
     "stats": {
       "reels": null,
       "rows": null,
-      "volatility": null,
+      "volatility": "High",
       "paylines": null,
       "payways": null,
       "html5": true,
@@ -41,25 +41,25 @@
       {
         "name": "Step-by-Step Crash Game",
         "descr": "A new twist on the classic crash experience",
-        "imgUrl": null,
+        "imgUrl": "img-feat_lightningpath-0.webp",
         "icon": null
       },
       {
         "name": "3 Risk Levels",
-        "descr": "Several risk levels, with the highest risk offering a multiplier of up to x10,000",
-        "imgUrl": null,
+        "descr": "Several risk levels, with the highest risk offering a multiplier of up to x10000",
+        "imgUrl": "img-feat_lightningpath-1.webp",
         "icon": null
       },
       {
         "name": "Visual Progression",
         "descr": "As players advance, environments and enemies evolve in color and design, while a mini-map provides a clear overview of the path ahead, reinforcing progression and encouraging forward movement",
-        "imgUrl": null,
+        "imgUrl": "img-feat_lightningpath-2.webp",
         "icon": null
       },
       {
         "name": "Instant Dash Autoplay",
         "descr": "A fast autoplay mode allows automated rounds, while instant dash lets players reach target multipliers without delay",
-        "imgUrl": null,
+        "imgUrl": "img-feat_lightningpath-3.webp",
         "icon": null
       },            
       {
@@ -70,10 +70,10 @@
       }
     ],
     "meta": {
-      "title": "Lightning Path, a video game by TTT Games",
-      "descr": " "
+      "title": "Lightning Path, a crash game by TTT Games",
+      "descr": "Explore the world of ancient gods in this liner crash game filled with exciting features and x10000!"
     },
-    "rockways": true
+    "rockways": false
   },   
   {
     "name": "Zeus and Giants' Gold. Hold and Win",
