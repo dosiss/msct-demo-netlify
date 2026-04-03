@@ -76,8 +76,8 @@
     "rockways": false
   },   
   {
-    "name": "Zeus and Giants' Gold. Hold and Win",
-    "slug": "zeus-and-giants-gold-hold-and-win",
+    "name": "Zeus: Titan Fury",
+    "slug": "zeus-titan-fury",
     "linkToDemo": " ",
     "theme": "video slot",
     "type": null,
@@ -91,7 +91,7 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_zeusgiants.jpeg",
+    "thumbUrl": "game_zeusgiants2.jpeg",
     "heroUrl": "hero_zeusgiants.jpg",
     "heroUrlMobile": "hero_mob__zeusgiants.jpg",
     "blueButtn": false,
@@ -99,7 +99,7 @@
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": null,
-    "logoUrl": "logo_zeusgiants.png",
+    "logoUrl": "logo_zeusgiants2.png",
     "backUrl": "back_zeusgiants.jpg",
     "detailsImgUrl": "details_zeusgiants.png",
     "stats": {
@@ -158,8 +158,8 @@
     "rockways": true
   },   
   {
-    "name": "Tessa Hunt: Sands of Assassins. Hold and Win",
-    "slug": "tessa-hunt-sands-of-assassins-hold-and-win",
+    "name": "Tessa Hunt and the Golden Sands",
+    "slug": "th-and-the-golden-sands",
     "linkToDemo": " ",
     "theme": "video slot",
     "type": null,
@@ -173,7 +173,7 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_tessasands.jpeg",
+    "thumbUrl": "game_tessasands2.jpeg",
     "heroUrl": "hero_tessasands.jpg",
     "heroUrlMobile": "hero_mob__tessasands.jpg",
     "blueButtn": false,
@@ -181,7 +181,7 @@
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": null,
-    "logoUrl": "logo_tessasands.png",
+    "logoUrl": "logo_tessasands2.png",
     "backUrl": "back_tessasands.jpg",
     "detailsImgUrl": "details_tessasands.png",
     "stats": {
@@ -304,8 +304,8 @@
     "rockways": true
   },  
   {
-    "name": "For the Realm: Battle Loot. Hold and Win",
-    "slug": "for-the-realm-battle-loot-hold-and-win",
+    "name": "Battle Loot: Hold and Win",
+    "slug": "battle-loot-hnw",
     "linkToDemo": " ",
     "theme": "video slot",
     "type": null,
@@ -319,7 +319,7 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_fortherealmbattle.jpeg",
+    "thumbUrl": "game_fortherealmbattle2.jpeg",
     "heroUrl": "hero_fortherealmbattle.jpg",
     "heroUrlMobile": "hero_mob__fortherealmbattle.jpg",
     "blueButtn": false,
@@ -327,7 +327,7 @@
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": null,
-    "logoUrl": "logo_fortherealmbattle.png",
+    "logoUrl": "logo_fortherealmbattle2.png",
     "backUrl": "back_fortherealmbattle.jpg",
     "detailsImgUrl": "details_fortherealmbattle.png",
     "stats": {
@@ -380,8 +380,8 @@
     "rockways": true
   },  
   {
-    "name": "Jewel Boost",
-    "slug": "jewel-boost",
+    "name": "Jewel Boost Reels",
+    "slug": "jewel-boost-reels",
     "linkToDemo": " ",
     "theme": "video slot",
     "type": null,
@@ -395,7 +395,7 @@
     "branded": false,
     "custom": false,
     "descr": " ",
-    "thumbUrl": "game_jewelboost.jpeg",
+    "thumbUrl": "game_jewelboost2.jpeg",
     "heroUrl": "hero_jewelboost.jpg",
     "heroUrlMobile": "hero_mob__jewelboost.jpg",
     "blueButtn": false,
@@ -403,7 +403,7 @@
     "videoUrl": null,
     "videoEnabled": false,
     "placeholderUrl": null,
-    "logoUrl": "logo_jewelboost.png",
+    "logoUrl": "logo_jewelboost2.png",
     "backUrl": "back_jewelboost.jpg",
     "detailsImgUrl": "details_jewelboost.png",
     "stats": {
@@ -450,8 +450,8 @@
     "rockways": true
   },  
   {
-    "name": "Rice and Riches. Hold and Win",
-    "slug": "rice-and-riches",
+    "name": "Rice & Riches: Hold and Win",
+    "slug": "rice-and-riches-hnw",
     "linkToDemo": "demo.mascot.games/run/rice_and_riches",
     "theme": "video slot",
     "type": "profit",
@@ -2729,6 +2729,87 @@
     "rockways": false
   },
   {
+    "name": "Gunman Crash!",
+    "slug": "gunman-crash",
+    "linkToDemo": "demo.mascot.games/run/gunman_crash",
+    "theme": "crash",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2025-05-08",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_gunman2.jpeg",
+    "heroUrl": "hero_gunman.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_gunman.jpg",
+    "logoUrl": "logo_gunman.png",
+    "backUrl": "back_gunman.jpg",
+    "detailsImgUrl": "details_gunman.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": null,
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": null,
+      "hitrate": null
+    },
+    "category": [ "adventure" ],
+    "features": [
+      {
+        "name": "Up to 5 bets",
+        "descr": "Place 1 to 5 bets at the same time",
+        "imgUrl": "img-feat_gunman-0.jpg"
+      },
+      {
+        "name": "Growing win multiplier",
+        "descr": "Watch your winning multiplier grow and claim your winnings",
+        "imgUrl": "img-feat_gunman-1.jpg"
+      },
+      {
+        "name": "Fantastic prizes",
+        "descr": "Get Free Bets and winnings up to x10000",
+        "imgUrl": "img-feat_gunman-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Slots-777.com - Gunman Crash by Mascot Gaming - Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/gunman-crash",
+        "image": "img_blog_gunman-slots777.jpg"
+      },
+      {
+        "title": "Casinofreak.com: Play Gunman Crash",
+        "link": "https://www.casinofreak.com/games/play-gunman-crash",
+        "image": "img_blog_gunman-casinofreak.jpg"
+      },
+      {
+        "title": "Chipy: Gunman Crash Review",
+        "link": "https://www.casinoslists.com/play/gunman-crash",
+        "image": "img_blog_gunman-chipy.jpg"
+      },
+      {
+        "title": "Casinolists.com: Gunman Crash Review",
+        "link": "https://www.casinoslists.com/play/gunman-crash",
+        "image": "img_blog_gunman-casinolists.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Gunman Crash!, a video game by Mascot Gaming",
+      "descr": "Incredible bets, fantastic prizes and x5000"
+    },
+    "rockways": false
+  },  
+  {
     "name": "Tessa Hunt and the Temple of Horus",
     "slug": "tessa-hunt-and-the-temple-of-horus",
     "linkToDemo": "demo.mascot.games/run/tessa_hunt_and_the_eye_of_horus",
@@ -4520,6 +4601,81 @@
     "rockways": false
   },
   {
+    "name": "Kite Festival Crash Game",
+    "slug": "kite-festival-crash-game",
+    "linkToDemo": "demo.mascot.games/run/kite_festival_crash_game",
+    "theme": "crash",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "comingSoon": false,
+    "releaseDate": "2024-09-05",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_kitefest2.jpeg",
+    "heroUrl": "hero_kitefest2.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_kitefest.jpg",
+    "logoUrl": "logo_kitefest.png",
+    "backUrl": "back_kitefest.jpg",
+    "detailsImgUrl": "details_kitefest.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "High",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.32,
+      "hitrate": 28.9
+    },
+    "features": [
+      {
+        "name": "Multiple Bets",
+        "descr": "Place from 1 to 5 bets simultaneously",
+        "imgUrl": "img-feat_kitefest-0.jpg"
+      },
+      {
+        "name": "Win Multiplier",
+        "descr": "Increasing win multiplier up to x5000",
+        "imgUrl": "img-feat_kitefest-1.jpg"
+      },
+      {
+        "name": "Free Bets",
+        "descr": "Up to 5 Free Bets in each launch",
+        "imgUrl": "img-feat_kitefest-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Chase the Winds of Fortune: Kite Festival Crash Game Review",
+        "link": "https://mascot.games/blog/chase-the-winds-of-fortune-kite-festival-crash-game-review",
+        "image": "img_blog_kitefest-main.jpg"
+      },
+      {
+        "title": "Kite Festival Crash Game by Mascot Games - Exclusive First Review",
+        "link": "https://crashgambler.io/kite-festival-by-mascot-gaming/",
+        "image": "img_blog_kitefest-crashgambler.jpg"
+      },
+      {
+        "title": "LCB.org: Kite Festival Crash Game Review",
+        "link": "https://lcb.org/games/kite-festival",
+        "image": "img_blog_kitefest-lcb.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Kite Festival Crash Game, a video game by Mascot Gaming",
+      "descr": "Fly high with up to 5 bets simultaneously and x5000 multiplier. Collect Free Bets along the way."
+    },
+    "rockways": false
+  },  
+  {
     "name": "Riot Ultimate",
     "slug": "riot-ultimate",
     "linkToDemo": "demo.mascot.games/run/riot_ultimate",
@@ -5474,6 +5630,106 @@
     ]
   },
   {
+    "name": "CRASH, HAMSTER, CRASH!",
+    "slug": "crash-hamster-crash",
+    "linkToDemo": "demo.mascot.games/run/crash_hamster_crash",
+    "theme": "crash",
+    "type": " ",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2024-02-13",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_hamster.jpeg",
+    "heroUrl": "hero_hamster.jpg",
+    "blueButtn": false,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_hamster.jpg",
+    "logoUrl": "logo_hamster.png",
+    "backUrl": "back_hamster.jpg",
+    "detailsImgUrl": "details_hamster.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": " ",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": " ",
+      "hitrate": " "
+    },
+    "features": [
+      {
+        "name": "Up to 3 hamsters on screen",
+        "descr": "Place 1 to 3 bets at the same time",
+        "imgUrl": "img-feat_hamster-0.jpg"
+      },
+      {
+        "name": "Growing win rate",
+        "descr": "Watch your winning rates grow and claim your winnings",
+        "imgUrl": "img-feat_hamster-1.jpg"
+      },
+      {
+        "name": "Fantastic prizes",
+        "descr": "Get winnings up to x5000",
+        "imgUrl": "img-feat_hamster-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Crash, Hamster, Crash! wins the Best Designed Crash Game award",
+        "link": "https://mascot.games/blog/crash-hamster-crash-wins-the-best-designed-crash-game-award",
+        "image": "img_blog_hamster-win-main.jpg"
+      },
+      {
+        "title": "Hamsters, Ufo And Mascot Gaming: “Crash, Hamster, Crash” Review.",
+        "link": "https://mascot.games/blog/crash-hamster-crash-review",
+        "image": "img_blog_hamster-main.jpg"
+      },
+      {
+        "title": "Demoslot.com reviewed Crash, Hamster, Crash and Dragon`s Lucky 25",
+        "link": "https://mascot.games/blog/Demoslot-com-reviewed-crash-hamster-crash-and-dragons-lucky-25",
+        "image": "img_blog-www-demoslot-crash.jpg"
+      },
+      {
+        "title": "Mascot Gaming Proudly Presents Dragon`s Lucky 25 & Crash Hamster, Crash",
+        "link": "https://lcb.org/news/mascot-gaming-proudly-presents-dragons-lucky-25-crash-hamster-crash",
+        "image": "img_blog_hamster-lcb.jpg"
+      },
+      {
+        "title": "Slots-777: Crash, Hamster, Crash Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/crash-hamster-crash",
+        "image": "img_blog_hamster-slots777.jpg"
+      },
+      {
+        "title": "Casinolandia: Crash, Hamster Crash Review",
+        "link": "https://casinolandia.com/slots/crash-hamster-crash/",
+        "image": "img_blog_hamster-casinolandia.jpg"
+      },
+      {
+        "title": "SlotsJudge: Crash, Hamster, Crash Review",
+        "link": "https://slotsjudge.com/online-slots/crash-hamster-crash/",
+        "image": "img_blog_hamster-slotsjudge.jpg"
+      },
+      {
+        "title": "CryptoLists.com: Crash, Hamster, Crash Review",
+        "link": "https://www.cryptolists.com/games/crashhamster/",
+        "image": "img_blog_hamster-cryptolists.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Crash, Hamster, Crash!, a crash game by Mascot Gaming",
+      "descr": "Save adorable hamsters from aliens. Place from one to three bets and collect your winnings before the crash."
+    }
+  },  
+  {
     "name": "Dreamshock: Jackpot X",
     "slug": "dreamshock-jackpot-x",
     "linkToDemo": "demo.mascot.games/run/dreamshock_jackpot_x",
@@ -6266,6 +6522,92 @@
     },
     "rockways": false
   },
+  {
+    "name": "Paper Lanterns Crash Game",
+    "slug": "paper-lanterns-crash-game",
+    "linkToDemo": "demo.mascot.games/run/paper_lanterns_crash_game",
+    "theme": "crash",
+    "type": "profit",
+    "mgacertified": false,
+    "mganotice": false,
+    "risknbuy": false,
+    "rockways": false,
+    "comingSoon": false,
+    "releaseDate": "2023-09-26",
+    "featured": false,
+    "topGame": false,
+    "branded": false,
+    "custom": false,
+    "descr": " ",
+    "thumbUrl": "game_lantern.jpeg",
+    "heroUrl": "hero_lantern.jpg",
+    "blueButtn": true,
+    "videoUrl": null,
+    "videoEnabled": false,
+    "placeholderUrl": "video_lantern.jpg",
+    "logoUrl": "logo_lantern.png",
+    "backUrl": "back_lantern.jpg",
+    "detailsImgUrl": "details_lantern.png",
+    "stats": {
+      "reels": null,
+      "rows": null,
+      "volatility": "High",
+      "paylines": null,
+      "payways": null,
+      "html5": true,
+      "rtp": 95.32,
+      "hitrate": 28.9
+    },
+    "category": [ "asia" ],
+    "features": [
+      {
+        "name": " ",
+        "descr": "From 1 to 5 bets simultaneously",
+        "imgUrl": "img-feat_lantern-0.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Increasing winning coefficient up to 5,000",
+        "imgUrl": "img-feat_lantern-1.jpg"
+      },
+      {
+        "name": " ",
+        "descr": "Up to 5 free bets with each launch",
+        "imgUrl": "img-feat_lantern-2.jpg"
+      }
+    ],
+    "articles": [
+      {
+        "title": "Mascot Gaming Lights the Way: Paper Lanterns Crash Game Review",
+        "link": "https://mascot.games/blog/mascot-gaming-lights-the-way-paper-lanterns-crash-game-review",
+        "image": "img_blog_lanterns-main.jpg"
+      },
+      {
+        "title": "Paper Lanterns Crash Game: a detailed review by GamblersConnect.com",
+        "link": "https://mascot.games/blog/paper-lanterns-crash-game-a-detailed-review-by-gamblersconnect-com",
+        "image": "img_blog_paperlanterns.jpg"
+      },
+      {
+        "title": "Slots-777: Paper Lanterns Crash Game Review",
+        "link": "https://www.slots-777.com/games/slot/mascot-gaming/paper-lanterns-crash-game",
+        "image": "img_blog_paperlanterns-slots777.jpg"
+      },
+      {
+        "title": "MASCOT GAMING EXCLUSIVE INTERVIEW ABOUT NEW CRASH GAME PAPER LANTERNS",
+        "link": "https://slotsjudge.com/casino-news/mascot-exclusive-interview-about-new-crash-game-paper-lanterns/",
+        "image": "img_blog_paperlanterns-slotsjudge.jpg"
+      },
+      {
+        "title": "SlotsJudge: Paper Lanterns Crash Game",
+        "link": "https://slotsjudge.com/online-slots/paper-lanterns/",
+        "image": "img_blog_paperlanterns-slotsjudge2.jpg"
+      }
+    ],
+    "meta": {
+      "title": "Paper Lanterns Crash Game is a first crash game by Mascot Gaming",
+      "descr": "Paper Lanterns Crash Game by Mascot Gaming is crash game that allows players to launch several paper lanterns, therefor making from 1 to 5 bets simultaneously."
+    }
+  },  
   {
     "name": "Zeus the Thunderer Deluxe",
     "slug": "zeus-the-thunderer-deluxe",
