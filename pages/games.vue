@@ -17,7 +17,7 @@
               <div class="dropdown-filter" @mouseenter="isTestDropdownOpen = true" @mouseleave="isTestDropdownOpen = false">
                 <button class="buttn buttn-rounded buttn-sm dropdown-trigger buttn-features"><span>{{$t('Commercial Features')}}</span></button>
                 <div v-show="isTestDropdownOpen" class="dropdown-menu">
-                  <button class="dropdown-item" @click="handleFilterChange('all')">Filter item 1</button>
+                  <button class="dropdown-item buttn-" @click="handleFilterChange('all')">Filter item 1</button>
                   <button class="dropdown-item" @click="handleFilterChange('all')">Filter item 2</button>
                   <button class="dropdown-item" @click="handleFilterChange('all')">Filter item 3</button>
                 </div>
