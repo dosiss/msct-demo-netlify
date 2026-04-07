@@ -1,6 +1,4 @@
-
 <template>
-
   <div>
     <MainHeader />
     <div :class="`lang-${$i18n.locale}`">
@@ -16,6 +14,14 @@
               <button :class="{ active: gameFilterKey == 'comingsoon' }" class="buttn buttn-rounded buttn-sm buttn-comingsoon" @click="handleFilterChange('comingsoon')"><span>{{$t('Coming Soon')}}</span></button>
               <button :class="{ active: gameFilterKey == 'top' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('top')">{{$t('Тор games')}} - {{gamesCountItem("topGame")}}</button>
               <button :class="{ active: gameFilterKey == 'tictactoe' }" class="buttn buttn-rounded buttn-sm buttn-tictactoe" @click="handleFilterChange('tictactoe')"><span>{{$t('TTT games')}}</span></button>
+              <div class="dropdown-filter" @mouseenter="isTestDropdownOpen = true" @mouseleave="isTestDropdownOpen = false">
+                <button class="buttn buttn-rounded buttn-sm dropdown-trigger buttn-features"><span>{{$t('Commercial Features')}}</span></button>
+                <div v-show="isTestDropdownOpen" class="dropdown-menu">
+                  <button class="dropdown-item" @click="handleFilterChange('all')">Filter item 1</button>
+                  <button class="dropdown-item" @click="handleFilterChange('all')">Filter item 2</button>
+                  <button class="dropdown-item" @click="handleFilterChange('all')">Filter item 3</button>
+                </div>
+              </div>              
               <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('traffic')">{{$t('Traffic-generating games')}} - {{gamesCountType("traffic")}}</button>
               <button :class="{ active: gameFilterKey == 'profit' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('profit')">{{$t('Profit-making games')}} - {{gamesCountType("profit")}}</button>
               <button :class="{ active: gameFilterKey == 'videoslots' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('videoslots')">{{$t('Video slots')}} - {{gamesCountTheme("video slot")}}</button>
@@ -143,7 +149,7 @@
 <script>
 import VLazyImage from "v-lazy-image/v2";
 
-import VueLazyLoad from '@voorhoede/vue-lazy-load';
+// import VueLazyLoad from '@voorhoede/vue-lazy-load';
 
 import allGames from '../static/data/games-all.json'
 
@@ -151,7 +157,7 @@ export default {
 
   components: {
     VLazyImage,
-    VueLazyLoad
+//    VueLazyLoad
   },
 
   data() {
@@ -161,6 +167,7 @@ export default {
 
       gamesList: allGames,
       gameFilterKey: 'all',
+      isTestDropdownOpen: false,
 
       searchPanel: false,
       input: '',
@@ -385,6 +392,7 @@ export default {
 
   methods: {
     handleFilterChange(filterKey) {
+      this.isTestDropdownOpen = false;
       const allowedFilters = ['all', 'comingsoon', 'top', 'tictactoe', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'rockways', 'branded', 'custom', 'adventures', 'christmas', 'easter', 'fantasy', 'halloween', 'mythology', 'postap', 'space', 'egypt', 'fruits', 'asia', 'girls'];
 
       if (!allowedFilters.includes(filterKey)) {
@@ -418,6 +426,7 @@ export default {
     },
 
     showSearchPanel() {
+      this.isTestDropdownOpen = false;
       this.gameFilterKey = "search"
       this.searchPanel = true;
       this.$nextTick(() => {
@@ -473,9 +482,6 @@ export default {
   flex-direction: column;
   margin-top: 120px;
   overflow-x: scroll;
-  overflow-y: hidden;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
   @media (max-width: 850px) {
     margin-top: 100px;
   }
@@ -733,12 +739,9 @@ export default {
     }
   }
   .games-filter__outer {
-
+    padding-bottom: 200px;
     @media (max-width: 3000px) {
       overflow-x: scroll;
-      overflow-y: hidden;
-      -ms-overflow-style: none;  /* IE and Edge */
-      scrollbar-width: none;  /* Firefox */
     }
   }
 }
@@ -894,6 +897,21 @@ export default {
           }
         }
       }
+      &.buttn-features {
+        &:before {
+          content: '';
+          position: absolute;
+          height: 57px;
+          width: 60px;
+          top: -9px;
+          right: -6px;
+          background: url('/images/img_filter-features.png')no-repeat;
+          background-size: contain;
+        }
+        span {
+          padding-right: 35px;
+        }
+      }
     }
     .buttn {
       .lang-es & {
@@ -916,6 +934,62 @@ export default {
     }
     .lang-pt & {
       width: 2340px
+    }
+  }
+  .dropdown-filter {
+    position: relative;
+    &:hover {
+      .dropdown-trigger {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-color: #5f5f5f;
+    }
+    }
+    .dropdown-trigger {
+      height: stretch;
+      // &:hover {
+      //     border-bottom-left-radius: 0;
+      //     border-bottom-right-radius: 0;
+      //     border-top-left-radius: 20px;
+      //     border-top-right-radius: 20px;
+      //   }
+    }
+    .dropdown-menu {
+      position: absolute;
+      bottom: auto;
+      top: 50px;
+      left: 0;
+      background: #000;
+      border: 1px solid #5f5f5f;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      z-index: 10;
+      display: flex;
+      flex-direction: column;
+      min-width: 150px;
+      width: calc(100% - 10px);
+      .dropdown-item {
+        background: transparent;
+        border-bottom: 1px solid #5f5f5f;
+        color: #fff;
+        padding: 8px 12px;
+        text-align: left;
+        cursor: pointer;
+        font-size: 0.8rem;
+        &:last-child {
+          border-bottom: none;
+        }
+        &:hover {
+          font-weight: 600;
+        }
+        &.active {
+          background: #FFCF24;
+          color: #000;
+          font-weight: 600;
+        }
+      }
     }
   }
   .search__wrap {

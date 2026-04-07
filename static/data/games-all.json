@@ -34,9 +34,10 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
-    "category": [ ],
+    "category": [],
     "features": [
       {
         "name": "Step-by-Step Crash Game",
@@ -61,7 +62,7 @@
         "descr": "A fast autoplay mode allows automated rounds, while instant dash lets players reach target multipliers without delay",
         "imgUrl": "img-feat_lightningpath-3.webp",
         "icon": null
-      },            
+      },
       {
         "name": "Ranking System",
         "descr": "By placing bets, players progress through ranks, unlocking new profile pictures and reflecting their activity and achievements in the game",
@@ -74,7 +75,7 @@
       "descr": "Explore the world of ancient gods in this liner crash game filled with exciting features and x10000!"
     },
     "rockways": false
-  },  
+  },
   {
     "name": "Zeus: Titan Fury",
     "slug": "zeus-titan-fury",
@@ -110,9 +111,10 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
-    "category": [ ],
+    "category": [],
     "features": [
       {
         "name": "Risk and Buy: Risk",
@@ -137,7 +139,7 @@
         "descr": "Each partially visible Wild nudges into view and increases the multiplier",
         "imgUrl": null,
         "icon": null
-      },            
+      },
       {
         "name": "Hold and Win",
         "descr": "Respins with accumulating wins and a chance to win a Jackpot prize",
@@ -156,7 +158,7 @@
       "descr": " "
     },
     "rockways": true
-  },   
+  },
   {
     "name": "Tessa Hunt and the Golden Sands",
     "slug": "th-and-the-golden-sands",
@@ -192,9 +194,10 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
-    "category": [ ],
+    "category": [],
     "features": [
       {
         "name": "Risk and Buy: Risk",
@@ -232,7 +235,7 @@
       "descr": " "
     },
     "rockways": true
-  },  
+  },
   {
     "name": "Origami Quest",
     "slug": "origami-quest",
@@ -268,9 +271,10 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
-    "category": [ ],
+    "category": [],
     "features": [
       {
         "name": "Risk Gamble",
@@ -302,7 +306,7 @@
       "descr": " "
     },
     "rockways": true
-  },  
+  },
   {
     "name": "Battle Loot: Hold and Win",
     "slug": "battle-loot-hnw",
@@ -338,9 +342,10 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
-    "category": [ ],
+    "category": [],
     "features": [
       {
         "name": "Risk and Buy: Risk",
@@ -371,14 +376,14 @@
         "descr": "Infinite Free Spins, which will last until 2 Scatter Symbols appear on the screen",
         "imgUrl": null,
         "icon": null
-      }       
+      }
     ],
     "meta": {
       "title": "For the Realm: Battle Loot Hold and Win, a video slot game by Mascot Gaming",
       "descr": " "
     },
     "rockways": true
-  },  
+  },
   {
     "name": "Jewel Boost Reels",
     "slug": "jewel-boost-reels",
@@ -414,9 +419,10 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [ "boost"]
     },
-    "category": [ ],
+    "category": [],
     "features": [
       {
         "name": "Risk Gamble",
@@ -448,7 +454,7 @@
       "descr": " "
     },
     "rockways": true
-  },  
+  },
   {
     "name": "Rice & Riches: Hold and Win",
     "slug": "rice-and-riches-hnw",
@@ -484,9 +490,12 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
-    "category": [ "asia" ],
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Risk and Buy: Risk",
@@ -523,14 +532,14 @@
         "descr": "Wins are paid on paylines, but the combination can appear anywhere along the payline",
         "imgUrl": "img-feat_riceriches-5.webp",
         "icon": null
-      }  
+      }
     ],
     "meta": {
       "title": "Rice and Riches. Hold and Win, a video slot game by Mascot Gaming",
       "descr": "Colorful Asian slot featuring Coin mechanics, Free Spins, Hold and Win, 3 types of Jackpot and x1000!"
     },
     "rockways": true
-  },   
+  },
   {
     "name": "Riot: Urban Wilds",
     "slug": "riot-urban-wilds",
@@ -566,9 +575,14 @@
       "payways": 243,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "rockways", "boost"
+      ]
     },
-    "category": [ "postap" ],
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Risk Gamble",
@@ -640,9 +654,12 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "rockfall"
+      ]
     },
-    "category": [ ],
+    "category": [],
     "features": [
       {
         "name": "Risk Game",
@@ -670,7 +687,7 @@
       "descr": "Enjoy the unique experience with exciting features and x3000!"
     },
     "rockways": false
-  },  
+  },
   {
     "name": "Shining Wilds",
     "slug": "shining-wilds",
@@ -706,9 +723,14 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "buyfreerounds"
+      ]
     },
-    "category": [ "fruits"],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Risk Wheel",
@@ -770,9 +792,13 @@
       "payways": 243,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [ "boost" ]
     },
-    "category": [ "adventure", "girls" ],
+    "category": [
+      "adventure",
+      "girls"
+    ],
     "features": [
       {
         "name": "Risk Wheel",
@@ -850,7 +876,8 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
     "category": [],
     "features": [
@@ -895,7 +922,7 @@
       "descr": "Build every bounce with exciting new features and x1000!"
     },
     "rockways": false
-  },  
+  },
   {
     "name": "The Epic Win x125",
     "slug": "the-epic-win-x125",
@@ -931,9 +958,14 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "buyfreerounds"
+      ]
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Risk Gamble",
@@ -1001,9 +1033,14 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy", "boost"
+      ]
     },
-    "category": [ "egypt" ],
+    "category": [
+      "egypt"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1069,7 +1106,8 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
     "category": [],
     "features": [
@@ -1143,9 +1181,14 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "rockfall"
+      ]
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Risk Game",
@@ -1207,9 +1250,14 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "mythology" ],
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1271,9 +1319,14 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1335,7 +1388,8 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
     "category": [],
     "features": [
@@ -1414,9 +1468,14 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": ["halloween"],
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1500,9 +1559,15 @@
       "payways": 243,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": ["asia", "fruits"],
+    "category": [
+      "asia",
+      "fruits"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1586,9 +1651,14 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1678,7 +1748,8 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -1730,7 +1801,8 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -1820,9 +1892,14 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1906,7 +1983,10 @@
       "payways": 243,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
     "category": [],
     "features": [
@@ -1998,9 +2078,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 53.2
+      "hitrate": 53.2,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "mythology" ],
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -2073,9 +2158,16 @@
       "payways": "64 - 46656",
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy",
+        "rockways",
+        "rockfall"
+      ]
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -2174,9 +2266,13 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
-    "category": ["fruits", "asia"],
+    "category": [
+      "fruits",
+      "asia"
+    ],
     "features": [
       {
         "name": "Bonus Game",
@@ -2265,7 +2361,8 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
     "category": [],
     "features": [
@@ -2351,7 +2448,8 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -2481,7 +2579,10 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
     "category": [],
     "features": [
@@ -2547,7 +2648,7 @@
     "comingSoon": false,
     "releaseDate": "2025-07-10",
     "featured": false,
-    "topGame":false,
+    "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
@@ -2568,9 +2669,12 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
-    "category": [ "halloween" ],
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Different Bosses",
@@ -2648,9 +2752,14 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "egypt" ],
+    "category": [
+      "egypt"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -2739,9 +2848,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.1,
-      "hitrate": 26.9
+      "hitrate": 26.9,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Wilds with Multipliers",
@@ -2826,7 +2938,8 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -2883,7 +2996,8 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -2983,9 +3097,14 @@
       "payways": 243,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "postap" ],
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Free Spins",
@@ -3079,9 +3198,12 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Up to 5 bets",
@@ -3126,7 +3248,7 @@
       "descr": "Incredible bets, fantastic prizes and x5000"
     },
     "rockways": false
-  },  
+  },
   {
     "name": "Tessa Hunt and the Temple of Horus",
     "slug": "tessa-hunt-and-the-temple-of-horus",
@@ -3160,9 +3282,15 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "adventure", "girls" ],
+    "category": [
+      "adventure",
+      "girls"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -3229,9 +3357,14 @@
       "payways": null,
       "html5": true,
       "rtp": null,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -3321,9 +3454,14 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "mythology" ],
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -3416,7 +3554,8 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -3511,7 +3650,8 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -3601,7 +3741,8 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -3681,7 +3822,8 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -3739,9 +3881,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.21,
-      "hitrate": 76.3
+      "hitrate": 76.3,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Win Multiplier",
@@ -3830,9 +3975,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.3,
-      "hitrate": 20.9
+      "hitrate": 20.9,
+      "commercialFeatures": []
     },
-    "category": [ "asia" ],
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Wild with a Multiplier",
@@ -3849,7 +3997,6 @@
         "descr": "Risk your winnings to get a win multiplier",
         "imgUrl": "img-feat_luckyyear-2.jpg"
       }
-
     ],
     "articles": [
       {
@@ -3912,7 +4059,10 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": [
+        "rockfall"
+      ]
     },
     "features": [
       {
@@ -3997,9 +4147,12 @@
       "payways": 243,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": []
     },
-    "category": [ "postap" ],
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Gamble Feature",
@@ -4083,9 +4236,14 @@
       "payways": null,
       "html5": true,
       "rtp": 94.9,
-      "hitrate": 28.2
+      "hitrate": 28.2,
+      "commercialFeatures": [
+        "rockfall"
+      ]
     },
-    "category": [ "space" ],
+    "category": [
+      "space"
+    ],
     "features": [
       {
         "name": "Risk game",
@@ -4164,9 +4322,14 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": [
+        "rockfall"
+      ]
     },
-    "category": [ "christmas" ],
+    "category": [
+      "christmas"
+    ],
     "features": [
       {
         "name": "Risk game",
@@ -4240,9 +4403,15 @@
       "payways": 243,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "fruits", "asia" ],
+    "category": [
+      "fruits",
+      "asia"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -4321,9 +4490,14 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "postap" ],
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -4407,7 +4581,10 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 19.2
+      "hitrate": 19.2,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
     "features": [
       {
@@ -4475,9 +4652,16 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": [
+        "risknbuy",
+        "rockfall"
+      ]
     },
-    "category": [ "egypt", "girls" ],
+    "category": [
+      "egypt",
+      "girls"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -4551,9 +4735,14 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -4642,9 +4831,12 @@
       "payways": null,
       "html5": true,
       "rtp": 94.5,
-      "hitrate": 28.4
+      "hitrate": 28.4,
+      "commercialFeatures": []
     },
-    "category": [ "halloween" ],
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Gamble",
@@ -4733,9 +4925,14 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": "  "
+      "hitrate": "  ",
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "girls" ],
+    "category": [
+      "girls"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -4819,9 +5016,12 @@
       "payways": null,
       "html5": true,
       "rtp": 94.5,
-      "hitrate": 22.1
+      "hitrate": 22.1,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Wild Reels with Multipliers",
@@ -4900,9 +5100,12 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
-    "category": [ "asia" ],
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Wilds with Multipliers",
@@ -4981,7 +5184,8 @@
       "payways": null,
       "html5": true,
       "rtp": 95.32,
-      "hitrate": 28.9
+      "hitrate": 28.9,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -5022,7 +5226,7 @@
       "descr": "Fly high with up to 5 bets simultaneously and x5000 multiplier. Collect Free Bets along the way."
     },
     "rockways": false
-  },  
+  },
   {
     "name": "Riot Ultimate",
     "slug": "riot-ultimate",
@@ -5056,9 +5260,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 19.2
+      "hitrate": 19.2,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "postap" ],
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -5157,7 +5366,12 @@
       "payways": "64 - 46656",
       "html5": true,
       "rtp": 95.15,
-      "hitrate": 23.4
+      "hitrate": 23.4,
+      "commercialFeatures": [
+        "risknbuy",
+        "rockways",
+        "rockfall"
+      ]
     },
     "features": [
       {
@@ -5267,7 +5481,8 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -5337,9 +5552,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 17.2
+      "hitrate": 17.2,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -5438,9 +5658,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.2,
-      "hitrate": 8.38
+      "hitrate": 8.38,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Sticky Respins",
@@ -5534,9 +5757,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.15,
-      "hitrate": 17.5
+      "hitrate": 17.5,
+      "commercialFeatures": []
     },
-    "category": [ "space" ],
+    "category": [
+      "space"
+    ],
     "features": [
       {
         "name": "Guess the balls",
@@ -5595,7 +5821,10 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
     "features": [
       {
@@ -5665,9 +5894,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.18,
-      "hitrate": 36.0
+      "hitrate": 36.0,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Win Multiplier",
@@ -5761,9 +5993,15 @@
       "payways": 3125,
       "html5": true,
       "rtp": 95.05,
-      "hitrate": 23.8
+      "hitrate": 23.8,
+      "commercialFeatures": [
+        "risknbuy",
+        "rockfall"
+      ]
     },
-    "category": [ "easter" ],
+    "category": [
+      "easter"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -5872,9 +6110,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.33,
-      "hitrate": 75.2
+      "hitrate": 75.2,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Risk Game",
@@ -5963,9 +6204,12 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Wild Reels",
@@ -6055,7 +6299,11 @@
       "payways": 15625,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": [
+        "risknbuy",
+        "rockfall"
+      ]
     },
     "features": [
       {
@@ -6154,7 +6402,8 @@
       "payways": null,
       "html5": true,
       "rtp": 95.3,
-      "hitrate": 20.9
+      "hitrate": 20.9,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -6212,7 +6461,8 @@
       "payways": null,
       "html5": true,
       "rtp": 95.3,
-      "hitrate": 20.9
+      "hitrate": 20.9,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -6271,9 +6521,12 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Transformed Wilds",
@@ -6362,7 +6615,8 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -6427,7 +6681,7 @@
       "title": "Crash, Hamster, Crash!, a crash game by Mascot Gaming",
       "descr": "Save adorable hamsters from aliens. Place from one to three bets and collect your winnings before the crash."
     }
-  },  
+  },
   {
     "name": "Dreamshock: Jackpot X",
     "slug": "dreamshock-jackpot-x",
@@ -6462,7 +6716,8 @@
       "payways": 243,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -6557,9 +6812,12 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
-    "category": [ "asia" ],
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Risk Game",
@@ -6648,9 +6906,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.4,
-      "hitrate": 32.2
+      "hitrate": 32.2,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "postap" ],
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -6734,7 +6997,8 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -6819,9 +7083,12 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Rush Bet",
@@ -6883,9 +7150,12 @@
       "payways": null,
       "html5": true,
       "rtp": 94.7,
-      "hitrate": 30.5
+      "hitrate": 30.5,
+      "commercialFeatures": []
     },
-    "category": [ "christmas" ],
+    "category": [
+      "christmas"
+    ],
     "features": [
       {
         "name": "Risk feature",
@@ -6969,9 +7239,17 @@
       "payways": "32 - 3125",
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": [
+        "risknbuy",
+        "rockways",
+        "rockfall"
+      ]
     },
-    "category": [ "egypt", "girls" ],
+    "category": [
+      "egypt",
+      "girls"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -7065,9 +7343,14 @@
       "payways": null,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -7156,7 +7439,8 @@
       "payways": 1024,
       "html5": true,
       "rtp": " ",
-      "hitrate": " "
+      "hitrate": " ",
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -7204,9 +7488,14 @@
       "payways": 243,
       "html5": true,
       "rtp": 97.2,
-      "hitrate": 31.2
+      "hitrate": 31.2,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "halloween" ],
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -7295,9 +7584,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.32,
-      "hitrate": 28.9
+      "hitrate": 28.9,
+      "commercialFeatures": []
     },
-    "category": [ "asia" ],
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": " ",
@@ -7346,7 +7638,7 @@
       "title": "Paper Lanterns Crash Game is a first crash game by Mascot Gaming",
       "descr": "Paper Lanterns Crash Game by Mascot Gaming is crash game that allows players to launch several paper lanterns, therefor making from 1 to 5 bets simultaneously."
     }
-  },  
+  },
   {
     "name": "Zeus the Thunderer Deluxe",
     "slug": "zeus-the-thunderer-deluxe",
@@ -7381,9 +7673,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 53.2
+      "hitrate": 53.2,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "mythology" ],
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -7472,9 +7769,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.16,
-      "hitrate": 21.5
+      "hitrate": 21.5,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "mythology" ],
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -7573,9 +7875,14 @@
       "payways": null,
       "html5": true,
       "rtp": 96.1,
-      "hitrate": 31.1
+      "hitrate": 31.1,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -7669,9 +7976,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.37,
-      "hitrate": 38.1
+      "hitrate": 38.1,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Buy",
@@ -7755,9 +8067,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.06,
-      "hitrate": 34.5
+      "hitrate": 34.5,
+      "commercialFeatures": []
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Bonus & Super Bonus games",
@@ -7831,9 +8146,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.33,
-      "hitrate": 37.9
+      "hitrate": 37.9,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Adjacent pays",
@@ -7901,7 +8219,8 @@
       "payways": 3600,
       "html5": true,
       "rtp": 95.2,
-      "hitrate": 23.4
+      "hitrate": 23.4,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -7959,7 +8278,8 @@
       "payways": null,
       "html5": true,
       "rtp": 95.42,
-      "hitrate": 23.3
+      "hitrate": 23.3,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -8017,7 +8337,8 @@
       "payways": 1024,
       "html5": true,
       "rtp": 95.5,
-      "hitrate": 39.2
+      "hitrate": 39.2,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -8071,7 +8392,8 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 46.3
+      "hitrate": 46.3,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -8124,7 +8446,8 @@
       "payways": null,
       "html5": true,
       "rtp": 96.1,
-      "hitrate": 22.8
+      "hitrate": 22.8,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -8182,7 +8505,8 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 46.3
+      "hitrate": 46.3,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -8236,9 +8560,12 @@
       "payways": 243,
       "html5": true,
       "rtp": 95.19,
-      "hitrate": 42.3
+      "hitrate": 42.3,
+      "commercialFeatures": []
     },
-    "category": [ "space" ],
+    "category": [
+      "space"
+    ],
     "features": [
       {
         "name": "Scatter Feature",
@@ -8302,9 +8629,12 @@
       "payways": 3600,
       "html5": true,
       "rtp": 95.2,
-      "hitrate": 23.4
+      "hitrate": 23.4,
+      "commercialFeatures": []
     },
-    "category": [ "easter" ],
+    "category": [
+      "easter"
+    ],
     "features": [
       {
         "name": "3600 Pay Ways",
@@ -8367,9 +8697,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.3,
-      "hitrate": 20.9
+      "hitrate": 20.9,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Wild Symbol with Multiplier",
@@ -8433,9 +8766,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.2,
-      "hitrate": 62.8
+      "hitrate": 62.8,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "girls" ],
+    "category": [
+      "girls"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -8502,9 +8840,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 28.5
+      "hitrate": 28.5,
+      "commercialFeatures": []
     },
-    "category": [ "egypt" ],
+    "category": [
+      "egypt"
+    ],
     "features": [
       {
         "name": " ",
@@ -8563,9 +8904,16 @@
       "payways": "64 to 46,656",
       "html5": true,
       "rtp": 95.08,
-      "hitrate": 32.2
+      "hitrate": 32.2,
+      "commercialFeatures": [
+        "risknbuy",
+        "rockways",
+        "rockfall"
+      ]
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -8644,7 +8992,8 @@
       "payways": null,
       "html5": true,
       "rtp": 95.15,
-      "hitrate": 17.5
+      "hitrate": 17.5,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -8697,9 +9046,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.22,
-      "hitrate": 43.4
+      "hitrate": 43.4,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "halloween" ],
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -8768,7 +9122,10 @@
       "payways": 1024,
       "html5": true,
       "rtp": 95.4,
-      "hitrate": 34.1
+      "hitrate": 34.1,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
     "features": [
       {
@@ -8838,9 +9195,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.19,
-      "hitrate": 40.1
+      "hitrate": 40.1,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -8909,7 +9271,8 @@
       "payways": null,
       "html5": true,
       "rtp": 96.1,
-      "hitrate": 22.8
+      "hitrate": 22.8,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -8967,9 +9330,15 @@
       "payways": null,
       "html5": true,
       "rtp": 95.23,
-      "hitrate": 31.4
+      "hitrate": 31.4,
+      "commercialFeatures": [
+        "risknbuy",
+        "rockfall"
+      ]
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -9048,9 +9417,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.02,
-      "hitrate": 38.8
+      "hitrate": 38.8,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Bonus Game",
@@ -9119,9 +9493,16 @@
       "payways": "from 64 to 46656",
       "html5": true,
       "rtp": 95.19,
-      "hitrate": 32.2
+      "hitrate": 32.2,
+      "commercialFeatures": [
+        "risknbuy",
+        "rockways",
+        "rockfall"
+      ]
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Rockways Feature",
@@ -9205,9 +9586,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.42,
-      "hitrate": 23.3
+      "hitrate": 23.3,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -9271,9 +9655,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.23,
-      "hitrate": 54.7
+      "hitrate": 54.7,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -9337,9 +9724,15 @@
       "payways": null,
       "html5": true,
       "rtp": 95.38,
-      "hitrate": 43.1
+      "hitrate": 43.1,
+      "commercialFeatures": [
+        "risknbuy",
+        "rockfall"
+      ]
     },
-    "category": [ "postap" ],
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Rockfall Feature",
@@ -9423,9 +9816,14 @@
       "payways": null,
       "html5": true,
       "rtp": 94.9,
-      "hitrate": 38.2
+      "hitrate": 38.2,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "space" ],
+    "category": [
+      "space"
+    ],
     "features": [
       {
         "name": "Guaranteed Free Spins",
@@ -9499,9 +9897,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.7,
-      "hitrate": 16.3
+      "hitrate": 16.3,
+      "commercialFeatures": []
     },
-    "category": [ "asia" ],
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Lucky Number feature",
@@ -9553,9 +9954,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.4,
-      "hitrate": 31.3
+      "hitrate": 31.3,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Freedom Alliance Feature",
@@ -9629,9 +10035,16 @@
       "payways": "from 64 to 46656",
       "html5": true,
       "rtp": 95.1,
-      "hitrate": 20.1
+      "hitrate": 20.1,
+      "commercialFeatures": [
+        "risknbuy",
+        "rockways",
+        "rockfall"
+      ]
     },
-    "category": [ "egypt" ],
+    "category": [
+      "egypt"
+    ],
     "features": [
       {
         "name": "Rockways Feature",
@@ -9710,9 +10123,12 @@
       "payways": 1024,
       "html5": true,
       "rtp": 95.5,
-      "hitrate": 39.2
+      "hitrate": 39.2,
+      "commercialFeatures": []
     },
-    "category": [ "christmas" ],
+    "category": [
+      "christmas"
+    ],
     "features": [
       {
         "name": "1024 Pay Ways feature",
@@ -9771,9 +10187,15 @@
       "payways": null,
       "html5": true,
       "rtp": 95.4,
-      "hitrate": 31.3
+      "hitrate": 31.3,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "fantasy", "girls" ],
+    "category": [
+      "fantasy",
+      "girls"
+    ],
     "features": [
       {
         "name": "Aerial Magic Feature",
@@ -9847,7 +10269,12 @@
       "payways": "from 64 to 46656",
       "html5": true,
       "rtp": 95.27,
-      "hitrate": 33.2
+      "hitrate": 33.2,
+      "commercialFeatures": [
+        "risknbuy",
+        "rockways",
+        "rockfall"
+      ]
     },
     "features": [
       {
@@ -9927,7 +10354,8 @@
       "payways": 3600,
       "html5": true,
       "rtp": 95.2,
-      "hitrate": 23.4
+      "hitrate": 23.4,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -9992,9 +10420,14 @@
       "payways": null,
       "html5": true,
       "rtp": 96.5,
-      "hitrate": 35.6
+      "hitrate": 35.6,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "halloween" ],
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Game Modifiers",
@@ -10068,9 +10501,14 @@
       "payways": null,
       "html5": true,
       "rtp": 96.7,
-      "hitrate": 46.5
+      "hitrate": 46.5,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "girls" ],
+    "category": [
+      "girls"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -10149,9 +10587,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.2,
-      "hitrate": 27.3
+      "hitrate": 27.3,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -10235,9 +10678,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 46.3
+      "hitrate": 46.3,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Two Way Pays",
@@ -10296,9 +10742,12 @@
       "payways": 1024,
       "html5": true,
       "rtp": 95.5,
-      "hitrate": 39.2
+      "hitrate": 39.2,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "1024 Pay Ways feature",
@@ -10357,9 +10806,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.3,
-      "hitrate": 46.06
+      "hitrate": 46.06,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "mythology" ],
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -10438,9 +10892,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 28.09
+      "hitrate": 28.09,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "asia" ],
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Free Spins with Special Expanding Symbol",
@@ -10514,7 +10973,12 @@
       "payways": "from 64 to 46656",
       "html5": true,
       "rtp": 95.1,
-      "hitrate": 20.1
+      "hitrate": 20.1,
+      "commercialFeatures": [
+        "risknbuy",
+        "rockways",
+        "rockfall"
+      ]
     },
     "features": [
       {
@@ -10594,9 +11058,16 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 46.9
+      "hitrate": 46.9,
+      "commercialFeatures": [
+        "risknbuy",
+        "rockfall"
+      ]
     },
-    "category": [ "egypt", "girls" ],
+    "category": [
+      "egypt",
+      "girls"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -10680,9 +11151,14 @@
       "payways": null,
       "html5": true,
       "rtp": 94.8,
-      "hitrate": 25.8
+      "hitrate": 25.8,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "mythology" ],
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -10761,9 +11237,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.3,
-      "hitrate": 32.7
+      "hitrate": 32.7,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "halloween" ],
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Vampire Hunt Free Spins feature",
@@ -10832,9 +11313,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.1,
-      "hitrate": 20.1
+      "hitrate": 20.1,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -10913,9 +11399,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.2,
-      "hitrate": 27.3
+      "hitrate": 27.3,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "christmas" ],
+    "category": [
+      "christmas"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -11004,9 +11495,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.5,
-      "hitrate": 37.8
+      "hitrate": 37.8,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "The Treasure Map bonus feature",
@@ -11080,9 +11576,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.1,
-      "hitrate": 27.6
+      "hitrate": 27.6,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "girls" ],
+    "category": [
+      "girls"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -11154,9 +11655,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.9,
-      "hitrate": 30.8
+      "hitrate": 30.8,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "postap" ],
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -11235,9 +11741,13 @@
       "payways": null,
       "html5": true,
       "rtp": 95.0,
-      "hitrate": 36.5
+      "hitrate": 36.5,
+      "commercialFeatures": []
     },
-    "category": [ "fruits", "asia" ],
+    "category": [
+      "fruits",
+      "asia"
+    ],
     "features": [
       {
         "name": "Adjacent Pays",
@@ -11301,9 +11811,12 @@
       "payways": null,
       "html5": true,
       "rtp": 95.45,
-      "hitrate": 34.7
+      "hitrate": 34.7,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Free Spins with up to x5 Wild multiplier",
@@ -11367,9 +11880,14 @@
       "payways": null,
       "html5": true,
       "rtp": 96.1,
-      "hitrate": 31.1
+      "hitrate": 31.1,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -11436,9 +11954,14 @@
       "payways": null,
       "html5": true,
       "rtp": 96.7,
-      "hitrate": 31.9
+      "hitrate": 31.9,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "postap" ],
+    "category": [
+      "postap"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -11522,9 +12045,12 @@
       "payways": null,
       "html5": true,
       "rtp": 96.5,
-      "hitrate": 35.6
+      "hitrate": 35.6,
+      "commercialFeatures": []
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Game modifiers",
@@ -11581,7 +12107,8 @@
       "payways": 3125,
       "html5": true,
       "rtp": 96.7,
-      "hitrate": 46.1
+      "hitrate": 46.1,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -11644,7 +12171,8 @@
       "payways": null,
       "html5": true,
       "rtp": 99.3,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -11697,7 +12225,8 @@
       "payways": null,
       "html5": true,
       "rtp": 98.9,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -11750,7 +12279,10 @@
       "payways": null,
       "html5": true,
       "rtp": 96.4,
-      "hitrate": 32.2
+      "hitrate": 32.2,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
     "features": [
       {
@@ -11823,7 +12355,10 @@
       "payways": null,
       "html5": true,
       "rtp": 96.0,
-      "hitrate": 46.3
+      "hitrate": 46.3,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
     "features": [
       {
@@ -11886,7 +12421,8 @@
       "payways": null,
       "html5": true,
       "rtp": 95.4,
-      "hitrate": null
+      "hitrate": null,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -11939,9 +12475,12 @@
       "payways": null,
       "html5": true,
       "rtp": 96.1,
-      "hitrate": 22.8
+      "hitrate": 22.8,
+      "commercialFeatures": []
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Both Way Pays",
@@ -12005,9 +12544,12 @@
       "payways": null,
       "html5": true,
       "rtp": 97.0,
-      "hitrate": 31.2
+      "hitrate": 31.2,
+      "commercialFeatures": []
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -12071,7 +12613,8 @@
       "payways": null,
       "html5": true,
       "rtp": 96.1,
-      "hitrate": 22.8
+      "hitrate": 22.8,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -12129,9 +12672,12 @@
       "payways": null,
       "html5": true,
       "rtp": 96.9,
-      "hitrate": 31.2
+      "hitrate": 31.2,
+      "commercialFeatures": []
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -12195,9 +12741,12 @@
       "payways": null,
       "html5": true,
       "rtp": 96.6,
-      "hitrate": 27.2
+      "hitrate": 27.2,
+      "commercialFeatures": []
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy"
+    ],
     "features": [
       {
         "name": "Gryphon's wild & wild reel Symbols",
@@ -12266,9 +12815,12 @@
       "payways": null,
       "html5": true,
       "rtp": 96.7,
-      "hitrate": 46.5
+      "hitrate": 46.5,
+      "commercialFeatures": []
     },
-    "category": [ "girls" ],
+    "category": [
+      "girls"
+    ],
     "features": [
       {
         "name": "Wild Reels feature",
@@ -12337,7 +12889,8 @@
       "payways": null,
       "html5": true,
       "rtp": 95.7,
-      "hitrate": 52.4
+      "hitrate": 52.4,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -12397,9 +12950,14 @@
       "payways": null,
       "html5": true,
       "rtp": 95.8,
-      "hitrate": 35.1
+      "hitrate": 35.1,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "asia" ],
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Free Spins with Special Expanding Symbol feature",
@@ -12468,9 +13026,12 @@
       "payways": null,
       "html5": true,
       "rtp": 96.1,
-      "hitrate": 30.1
+      "hitrate": 30.1,
+      "commercialFeatures": []
     },
-    "category": [ "halloween" ],
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -12539,9 +13100,12 @@
       "payways": null,
       "html5": true,
       "rtp": 96.9,
-      "hitrate": 31.2
+      "hitrate": 31.2,
+      "commercialFeatures": []
     },
-    "category": [ "christmas" ],
+    "category": [
+      "christmas"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -12598,9 +13162,15 @@
       "payways": null,
       "html5": true,
       "rtp": 96.0,
-      "hitrate": 46.3
+      "hitrate": 46.3,
+      "commercialFeatures": [
+        "risknbuy"
+      ]
     },
-    "category": [ "fantasy", "girls" ],
+    "category": [
+      "fantasy",
+      "girls"
+    ],
     "features": [
       {
         "name": "Wild Symbols with 3 Mermaid's Wilds features",
@@ -12662,7 +13232,8 @@
       "payways": null,
       "html5": true,
       "rtp": 97.0,
-      "hitrate": 31.2
+      "hitrate": 31.2,
+      "commercialFeatures": []
     },
     "features": [
       {
@@ -12727,9 +13298,12 @@
       "payways": 243,
       "html5": true,
       "rtp": 97.2,
-      "hitrate": 31.2
+      "hitrate": 31.2,
+      "commercialFeatures": []
     },
-    "category": [ "asia" ],
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": "Game on Bet Ways",
@@ -12793,9 +13367,12 @@
       "payways": null,
       "html5": true,
       "rtp": 96.6,
-      "hitrate": 21.5
+      "hitrate": 21.5,
+      "commercialFeatures": []
     },
-    "category": [ "egypt" ],
+    "category": [
+      "egypt"
+    ],
     "features": [
       {
         "name": "2 Wild Symbols",
