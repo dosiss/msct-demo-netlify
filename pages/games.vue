@@ -17,9 +17,14 @@
               <div class="dropdown-filter" @mouseenter="isTestDropdownOpen = true" @mouseleave="isTestDropdownOpen = false">
                 <button class="buttn buttn-rounded buttn-sm dropdown-trigger buttn-features"><span>{{$t('Commercial Features')}}</span></button>
                 <div v-show="isTestDropdownOpen" class="dropdown-menu">
-                  <button class="dropdown-item buttn-" @click="handleFilterChange('all')">Filter item 1</button>
-                  <button class="dropdown-item" @click="handleFilterChange('all')">Filter item 2</button>
-                  <button class="dropdown-item" @click="handleFilterChange('all')">Filter item 3</button>
+                  <button class="dropdown-item buttn-feature-risknbuy" @click="handleFilterChange('all')">{{$t('Risk and Buy')}}</button>
+                  <button class="dropdown-item buttn-feature-holdnwin" @click="handleFilterChange('all')">{{$t('Hold and Win')}}</button>
+                  <button class="dropdown-item buttn-feature-jackpot" @click="handleFilterChange('all')">{{$t('Jackpot')}}</button>
+                  <button class="dropdown-item buttn-feature-rockways" @click="handleFilterChange('all')">{{$t('Rockways')}}</button>                  
+                  <button class="dropdown-item buttn-feature-rockfall" @click="handleFilterChange('all')">{{$t('Rockfall')}}</button>
+                  <button class="dropdown-item buttn-feature-boost" @click="handleFilterChange('all')">{{$t('Boost')}}</button>
+                  <button class="dropdown-item buttn-feature-nudge" @click="handleFilterChange('all')">{{$t('Nudge')}}</button>
+                  <button class="dropdown-item buttn-feature-buyfreerounds" @click="handleFilterChange('all')">{{$t('Buy Free Rounds')}}</button>                
                 </div>
               </div>              
               <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('traffic')">{{$t('Traffic-generating games')}} - {{gamesCountType("traffic")}}</button>
@@ -974,7 +979,7 @@ export default {
         background: transparent;
         border-bottom: 1px solid #5f5f5f;
         color: #fff;
-        padding: 8px 12px;
+        padding: 11px 12px 11px 40px;
         text-align: left;
         cursor: pointer;
         font-size: 0.8rem;
@@ -988,6 +993,18 @@ export default {
           background: #FFCF24;
           color: #000;
           font-weight: 600;
+        }
+        &.buttn-feature-risknbuy {
+          &:before {
+            content: '';
+            position: absolute;
+            height: 24px;
+            width: 24px;
+            top: 7px;
+            left: 7px;
+            background: url('/images/img_filter-risknbuy.png')no-repeat;
+            background-size: contain;
+          }
         }
       }
     }
