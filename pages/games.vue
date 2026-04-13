@@ -723,8 +723,8 @@ export default {
       width: max-content;
       white-space: nowrap;
       margin-right: 10px;
-      margin-top: 5px;
-      margin-bottom: 5px;
+      // margin-top: 5px;
+      // margin-bottom: 5px;
       &:not(:first-child) {
         width: fit-content
       }
@@ -855,7 +855,7 @@ export default {
           position: absolute;
           height: 40px;
           width: 60px;
-          top: 8px;
+          top: 3px;
           right: 20px;
           background: url('/images/img_filter-features.png')no-repeat;
           background-size: contain;
@@ -880,7 +880,7 @@ export default {
           position: absolute;
           height: 35px;
           width: 60px;
-          top: 8px;
+          top: 5px;
           right: 20px;
           background: url('/images/img_filter-swords.png')no-repeat;
           background-size: contain;
@@ -936,7 +936,8 @@ export default {
       }
     }
     .dropdown-trigger {
-      height: stretch;
+      height: 100%
+      // height: stretch;
       // &:hover {
       //     border-bottom-left-radius: 0;
       //     border-bottom-right-radius: 0;
@@ -952,7 +953,7 @@ export default {
     .dropdown-menu {
       position: absolute;
       bottom: auto;
-      top: 50px;
+      top: 44px;
       left: 0;
       background: #000;
       border: 1px solid #5f5f5f;
@@ -1509,10 +1510,12 @@ export default {
             .game-thumbnail__img {
               border-radius: 12px;
               -webkit-mask-image: -webkit-radial-gradient(white, black);
+              mask-image: radial-gradient(white, black);
 
               img {
                 border-radius: 12px;
                 -webkit-mask-image: -webkit-radial-gradient(white, black);
+                mask-image: radial-gradient(white, black);
               }
               &.v-lazy-image {
                 filter: blur(10px);
