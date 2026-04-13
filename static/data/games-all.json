@@ -422,7 +422,7 @@
       "hitrate": null,
       "commercialFeatures": [ "boost"]
     },
-    "category": [],
+    "category": [ "jewels"],
     "features": [
       {
         "name": "Risk Gamble",
@@ -491,7 +491,7 @@
       "html5": true,
       "rtp": null,
       "hitrate": null,
-      "commercialFeatures": []
+      "commercialFeatures": [ "holdnwin", "risknbuy", "jackpot" ]
     },
     "category": [
       "asia"
@@ -581,7 +581,7 @@
       ]
     },
     "category": [
-      "postap"
+      "postap", "riot"
     ],
     "features": [
       {
@@ -797,7 +797,8 @@
     },
     "category": [
       "adventure",
-      "girls"
+      "girls",
+      "tessahunt"
     ],
     "features": [
       {
@@ -1657,7 +1658,7 @@
       ]
     },
     "category": [
-      "adventure"
+      "adventure", "tessahunt"
     ],
     "features": [
       {
@@ -3289,7 +3290,8 @@
     },
     "category": [
       "adventure",
-      "girls"
+      "girls",
+      "tessahunt"
     ],
     "features": [
       {
@@ -4151,7 +4153,7 @@
       "commercialFeatures": []
     },
     "category": [
-      "postap"
+      "postap", "riot"
     ],
     "features": [
       {
@@ -5266,7 +5268,7 @@
       ]
     },
     "category": [
-      "postap"
+      "postap", "riot"
     ],
     "features": [
       {
@@ -6717,7 +6719,7 @@
       "html5": true,
       "rtp": " ",
       "hitrate": " ",
-      "commercialFeatures": []
+      "commercialFeatures": [ "jackpot"]
     },
     "features": [
       {
@@ -7679,7 +7681,7 @@
       ]
     },
     "category": [
-      "mythology"
+      "mythology", "zeus"
     ],
     "features": [
       {
@@ -9731,7 +9733,7 @@
       ]
     },
     "category": [
-      "postap"
+      "postap", "riot"
     ],
     "features": [
       {
@@ -10812,7 +10814,7 @@
       ]
     },
     "category": [
-      "mythology"
+      "mythology", "zeus"
     ],
     "features": [
       {
@@ -11960,7 +11962,7 @@
       ]
     },
     "category": [
-      "postap"
+      "postap", "riot"
     ],
     "features": [
       {
