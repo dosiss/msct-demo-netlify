@@ -58,7 +58,7 @@
                   <button :class="{ active: gameFilterKey == 'fantasy' }" class="dropdown-item buttn-fantasy" @click="handleFilterChange('fantasy')"><span>{{$t('Fantasy')}}</span></button>
                   <button :class="{ active: gameFilterKey == 'asia' }" class="dropdown-item buttn-asia" @click="handleFilterChange('asia')"><span>{{$t('Asia')}}</span></button>
                   <button :class="{ active: gameFilterKey == 'girls' }" class="dropdown-item buttn-girls" @click="handleFilterChange('girls')"><span>{{$t('Girls')}}</span></button>
-                  <button :class="{ active: gameFilterKey == 'mythology' }" class="dropdown-item buttn-mythology" @click="handleFilterChange('mythology')"><span>{{$t('Mythology')}}</span></button>
+                  <!-- <button :class="{ active: gameFilterKey == 'mythology' }" class="dropdown-item buttn-mythology" @click="handleFilterChange('mythology')"><span>{{$t('Mythology')}}</span></button> -->
                   <button :class="{ active: gameFilterKey == 'christmas' }" class="dropdown-item buttn-christmas" @click="handleFilterChange('christmas')"><span>{{$t('Christmas')}}</span></button>
                   <button :class="{ active: gameFilterKey == 'easter' }" class="dropdown-item buttn-easter" @click="handleFilterChange('easter')"><span>{{$t('Easter')}}</span></button>
                   <button :class="{ active: gameFilterKey == 'halloween' }" class="dropdown-item buttn-halloween" @click="handleFilterChange('halloween')"><span>{{$t('Halloween')}}</span></button>
@@ -78,7 +78,7 @@
                   <button :class="{ active: gameFilterKey == 'zeus' }" class="dropdown-item buttn-universe-zeus" @click="handleFilterChange('zeus')"><span>{{$t('Zeus')}}</span></button>
                   <button :class="{ active: gameFilterKey == 'tessahunt' }" class="dropdown-item buttn-universe-tessahunt" @click="handleFilterChange('tessahunt')"><span>{{$t('Tessa Hunt')}}</span></button>
                   <button :class="{ active: gameFilterKey == 'huntress' }" class="dropdown-item buttn-universe-huntress" @click="handleFilterChange('huntress')"><span>{{$t('Huntress')}}</span></button>
-                  <button :class="{ active: gameFilterKey == 'joker' }" class="dropdown-item buttn-universe-joker" @click="handleFilterChange('joker')"><span>{{$t('Joker')}}</span></button>
+                  <!-- <button :class="{ active: gameFilterKey == 'joker' }" class="dropdown-item buttn-universe-joker" @click="handleFilterChange('joker')"><span>{{$t('Joker')}}</span></button> -->
                 </div>
               </div>                                        
               <!-- <button :class="{ active: gameFilterKey == 'traffic' }" class="buttn buttn-rounded buttn-sm" @click="handleFilterChange('traffic')">{{$t('Traffic-generating games')}} - {{gamesCountType("traffic")}}</button>
@@ -319,11 +319,11 @@ export default {
           Array.isArray(game.category) && game.category.includes("halloween")
         )
       },
-      mythology() {
-        return this.gamesList.filter((game) =>
-          Array.isArray(game.category) && game.category.includes("mythology")
-        )
-      },
+      // mythology() {
+      //   return this.gamesList.filter((game) =>
+      //     Array.isArray(game.category) && game.category.includes("mythology")
+      //   )
+      // },
       // postap() {
       //   return this.gamesList.filter((game) =>
       //     Array.isArray(game.category) && game.category.includes("postap")
@@ -386,42 +386,42 @@ export default {
       },    
       riskandbuy() {
         return this.gamesList.filter((game) =>
-          Array.isArray(game.stats.commercialFeatures) && game.stats.commercialFeatures.includes("risknbuy")
+          Array.isArray(game.category) && game.category.includes("risknbuy")
         )
       },
       holdnwin() {
         return this.gamesList.filter((game) =>
-          Array.isArray(game.stats.commercialFeatures) && game.stats.commercialFeatures.includes("holdnwin")
+          Array.isArray(game.category) && game.category.includes("holdnwin")
         )
       },
       jackpot() {
         return this.gamesList.filter((game) =>
-          Array.isArray(game.stats.commercialFeatures) && game.stats.commercialFeatures.includes("jackpot")
+          Array.isArray(game.category) && game.category.includes("jackpot")
         )
       },
       rockways() {
         return this.gamesList.filter((game) =>
-          Array.isArray(game.stats.commercialFeatures) && game.stats.commercialFeatures.includes("rockways")
+          Array.isArray(game.category) && game.category.includes("rockways")
         )
       },
       rockfall() {
         return this.gamesList.filter((game) =>
-          Array.isArray(game.stats.commercialFeatures) && game.stats.commercialFeatures.includes("rockfall")
+          Array.isArray(game.category) && game.category.includes("rockfall")
         )
       },
       boost() {
         return this.gamesList.filter((game) =>
-          Array.isArray(game.stats.commercialFeatures) && game.stats.commercialFeatures.includes("boost")
+          Array.isArray(game.category) && game.category.includes("boost")
         )
       },
       nudge() {
         return this.gamesList.filter((game) =>
-          Array.isArray(game.stats.commercialFeatures) && game.stats.commercialFeatures.includes("nudge")
+          Array.isArray(game.category) && game.category.includes("nudge")
         )
       },    
       buyfreerounds() {
         return this.gamesList.filter((game) =>
-          Array.isArray(game.stats.commercialFeatures) && game.stats.commercialFeatures.includes("buyfreerounds")
+          Array.isArray(game.category) && game.category.includes("buyfreerounds")
         )
       },
       searchList() {
@@ -505,7 +505,7 @@ export default {
       this.isCatDropdownOpen = false;
       this.isUniverseDropdownOpen = false;
 
-      const allowedFilters = ['all', 'comingsoon', 'top', 'tictactoe', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'branded', 'custom', 'adventures', 'christmas', 'easter', 'fantasy', 'halloween', 'mythology', 'space', 'jewels', 'egypt', 'fruits', 'asia', 'girls', 'riot', 'zeus', 'tessahunt', 'huntress', 'joker', 'riskandbuy', 'holdnwin', 'jackpot', 'rockways', 'rockfall', 'boost', 'nudge', 'buyfreerounds'];
+      const allowedFilters = ['all', 'comingsoon', 'top', 'tictactoe', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'branded', 'custom', 'adventures', 'christmas', 'easter', 'fantasy', 'halloween', 'space', 'jewels', 'egypt', 'fruits', 'asia', 'girls', 'riot', 'zeus', 'tessahunt', 'huntress', 'joker', 'riskandbuy', 'holdnwin', 'jackpot', 'rockways', 'rockfall', 'boost', 'nudge', 'buyfreerounds'];
 
       if (!allowedFilters.includes(filterKey)) {
   //      console.warn('Invalid filter key:', filterKey);
@@ -895,25 +895,25 @@ export default {
     }
     .buttn {
       .lang-es & {
-        width: 170px;
+        width: auto;
         &:not(:first-child) {
           width: fit-content
         }
       }
     }
     .lang-es & {
-      width: 2470px
+      width: 1600px
     }
     .buttn {
       .lang-pt & {
-        width: 152px;
+        width: auto;
         &:not(:first-child) {
           width: fit-content
         }
       }
     }
     .lang-pt & {
-      width: 2340px
+      width: 1600px
     }
   }
   .dropdown-filter {

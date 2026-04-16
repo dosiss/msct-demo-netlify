@@ -36,7 +36,7 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [],
     "features": [
       {
         "name": "Step-by-Step Crash Game",
@@ -61,7 +61,7 @@
         "descr": "A fast autoplay mode allows automated rounds, while instant dash lets players reach target multipliers without delay",
         "imgUrl": "img-feat_lightningpath-3.webp",
         "icon": null
-      },            
+      },
       {
         "name": "Ranking System",
         "descr": "By placing bets, players progress through ranks, unlocking new profile pictures and reflecting their activity and achievements in the game",
@@ -74,7 +74,7 @@
       "descr": "Explore the world of ancient gods in this liner crash game filled with exciting features and x10000!"
     },
     "rockways": false
-  },   
+  },
   {
     "name": "Zeus: Titan Fury",
     "slug": "zeus-titan-fury",
@@ -112,7 +112,13 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [
+      "holdnwin",
+      "jackpot",
+      "nudge",
+      "risknbuy",
+      "zeus"
+    ],
     "features": [
       {
         "name": "Risk and Buy: Risk",
@@ -137,7 +143,7 @@
         "descr": "Each partially visible Wild nudges into view and increases the multiplier",
         "imgUrl": null,
         "icon": null
-      },            
+      },
       {
         "name": "Hold and Win",
         "descr": "Respins with accumulating wins and a chance to win a Jackpot prize",
@@ -156,7 +162,7 @@
       "descr": " "
     },
     "rockways": true
-  },   
+  },
   {
     "name": "Tessa Hunt and the Golden Sands",
     "slug": "th-and-the-golden-sands",
@@ -194,7 +200,12 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [
+      "holdnwin",
+      "jackpot",
+      "risknbuy",
+      "tessahunt"
+    ],
     "features": [
       {
         "name": "Risk and Buy: Risk",
@@ -232,7 +243,7 @@
       "descr": " "
     },
     "rockways": true
-  },   
+  },
   {
     "name": "Origami Quest",
     "slug": "origami-quest",
@@ -270,7 +281,11 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [
+      "asia",
+      "boost",
+      "fruits"
+    ],
     "features": [
       {
         "name": "Risk Gamble",
@@ -302,7 +317,7 @@
       "descr": " "
     },
     "rockways": true
-  },  
+  },
   {
     "name": "Battle Loot: Hold and Win",
     "slug": "battle-loot-hnw",
@@ -340,7 +355,12 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [
+      "fortherealm",
+      "holdnwin",
+      "jackpot",
+      "risknbuy"
+    ],
     "features": [
       {
         "name": "Risk and Buy: Risk",
@@ -371,14 +391,14 @@
         "descr": "Infinite Free Spins, which will last until 2 Scatter Symbols appear on the screen",
         "imgUrl": null,
         "icon": null
-      }       
+      }
     ],
     "meta": {
       "title": "For the Realm: Battle Loot Hold and Win, a video slot game by Mascot Gaming",
       "descr": " "
     },
     "rockways": true
-  },  
+  },
   {
     "name": "Jewel Boost Reels",
     "slug": "jewel-boost-reels",
@@ -416,7 +436,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [
+      "boost",
+      "jewels"
+    ],
     "features": [
       {
         "name": "Risk Gamble",
@@ -448,7 +471,7 @@
       "descr": " "
     },
     "rockways": true
-  },  
+  },
   {
     "name": "Rice & Riches: Hold and Win",
     "slug": "rice-and-riches-hnw",
@@ -486,7 +509,12 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "asia" ],
+    "category": [
+      "asia",
+      "holdnwin",
+      "jackpot",
+      "risknbuy"
+    ],
     "features": [
       {
         "name": "Risk and Buy: Risk",
@@ -523,7 +551,7 @@
         "descr": "Wins are paid on paylines, but the combination can appear anywhere along the payline",
         "imgUrl": "img-feat_riceriches-5.webp",
         "icon": null
-      }  
+      }
     ],
     "meta": {
       "title": "Rice and Riches. Hold and Win, a video slot game by Mascot Gaming",
@@ -568,7 +596,11 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "postap" ],
+    "category": [
+      "boost",
+      "riot",
+      "rockways"
+    ],
     "features": [
       {
         "name": "Risk Gamble",
@@ -644,7 +676,7 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ ],
+    "category": [],
     "features": [
       {
         "name": "Risk Game",
@@ -672,7 +704,7 @@
       "descr": "Enjoy the unique experience with exciting features and x3000!"
     },
     "rockways": false
-  },  
+  },
   {
     "name": "Shining Wilds",
     "slug": "shining-wilds",
@@ -710,7 +742,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "fruits"],
+    "category": [
+      "buyfreerounds",
+      "fruits"
+    ],
     "features": [
       {
         "name": "Risk Wheel",
@@ -774,7 +809,12 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "adventure", "girls" ],
+    "category": [
+      "boost",
+      "buyfreerounds",
+      "risknbuy",
+      "tessahunt"
+    ],
     "features": [
       {
         "name": "Risk Wheel",
@@ -897,7 +937,7 @@
       "descr": "Build every bounce with exciting new features and x1000!"
     },
     "rockways": false
-  },  
+  },
   {
     "name": "The Epic Win x125",
     "slug": "the-epic-win-x125",
@@ -935,7 +975,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "fruits" ],
+    "category": [
+      "buyfreerounds",
+      "fruits"
+    ],
     "features": [
       {
         "name": "Risk Gamble",
@@ -1005,7 +1048,12 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "egypt" ],
+    "category": [
+      "boost",
+      "buyfreerounds",
+      "egypt",
+      "risknbuy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1147,7 +1195,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits",
+      "rockfall"
+    ],
     "features": [
       {
         "name": "Risk Game",
@@ -1211,7 +1262,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "mythology" ],
+    "category": [
+      "risknbuy",
+      "zeus"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1275,7 +1329,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "huntress",
+      "risknbuy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1418,7 +1475,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": ["halloween"],
+    "category": [
+      "halloween",
+      "risknbuy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1482,7 +1542,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": ["asia", "fruits"],
+    "category": [
+      "asia",
+      "risknbuy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1541,7 +1604,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "adventure" ],
+    "category": [
+      "risknbuy",
+      "tessahunt"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1726,7 +1792,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure",
+      "risknbuy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1785,7 +1854,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": [
+      "adventure",
+      "risknbuy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1842,10 +1914,12 @@
       "paylines": 20,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 53.2
     },
-    "category": [ "mythology" ],
+    "category": [
+      "mythology"
+    ],
     "features": [
       {
         "name": "Risk & Buy Feature: Risk",
@@ -1913,7 +1987,13 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "fantasy" ],
+    "category": [
+      "fantasy",
+      "girls",
+      "risknbuy",
+      "rockfall",
+      "rockways"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -1982,7 +2062,11 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": [
+      "asia",
+      "fruits",
+      "jackpot"
+    ],
     "features": [
       {
         "name": "Bonus Game",
@@ -2183,7 +2267,9 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [],
+    "category": [
+      "risknbuy"
+    ],
     "features": [
       {
         "name": "Risk & Buy feature: Risk",
@@ -2220,7 +2306,7 @@
     "comingSoon": false,
     "releaseDate": "2025-07-10",
     "featured": false,
-    "topGame":false,
+    "topGame": false,
     "branded": false,
     "custom": false,
     "descr": " ",
@@ -2243,7 +2329,9 @@
       "rtp": " ",
       "hitrate": " "
     },
-    "category": [ "halloween" ],
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Jefes diferentes",
@@ -2301,7 +2389,11 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "egypt" ],
+    "category": [
+      "egypt",
+      "girls",
+      "risknbuy"
+    ],
     "features": [
       {
         "name": "Función Risk & Buy: Riesgo",
@@ -2370,7 +2462,9 @@
       "rtp": 95.1,
       "hitrate": 26.9
     },
-    "category": [ "fruits" ],
+    "category": [
+      "fruits"
+    ],
     "features": [
       {
         "name": "Wilds con multiplicadores",
@@ -2565,7 +2659,10 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "postap" ],
+    "category": [
+      "adventure",
+      "risknbuy"
+    ],
     "features": [
       {
         "name": "Free Spins",
@@ -2763,7 +2860,9 @@
       "rtp": null,
       "hitrate": null
     },
-    "category": [ "adventure" ],
+    "category": [
+      "adventure"
+    ],
     "features": [
       {
         "name": "Up to 5 bets",
@@ -2808,7 +2907,7 @@
       "descr": "Incredible bets, fantastic prizes and x5000"
     },
     "rockways": false
-  },  
+  },
   {
     "name": "Tessa Hunt and the Temple of Horus",
     "slug": "tessa-hunt-and-the-temple-of-horus",
@@ -2845,7 +2944,8 @@
       "hitrate": null
     },
     "category": [
-      "adventure", "girls"
+      "risknbuy",
+      "tessahunt"
     ],
     "features": [
       {
@@ -2916,7 +3016,9 @@
       "hitrate": null
     },
     "category": [
-      "fantasy"
+      "fantasy",
+      "fortherealm",
+      "risknbuy"
     ],
     "features": [
       {
@@ -3129,7 +3231,8 @@
       "hitrate": " "
     },
     "category": [
-      "mythology"
+      "risknbuy",
+      "zeus"
     ],
     "features": [
       {
@@ -3520,7 +3623,7 @@
       "paylines": null,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": "  "
     },
     "features": [
@@ -3688,7 +3791,10 @@
       "title": "Spicy Candies Rockblocks: videojuego de Mascot Gaming",
       "descr": "Desata el sabor con Rockfall con un multiplicador de ganancia, la Función Coin y la partida Rick."
     },
-    "rockways": false
+    "rockways": false,
+    "category": [
+      "rockfall"
+    ]
   },
   {
     "name": "Space Gems. Rockblocks",
@@ -3726,6 +3832,7 @@
       "hitrate": 28.2
     },
     "category": [
+      "rockfall",
       "space"
     ],
     "features": [
@@ -3797,7 +3904,7 @@
       "hitrate": "  "
     },
     "category": [
-      "postap"
+      "riot"
     ],
     "features": [
       {
@@ -3863,7 +3970,8 @@
       "hitrate": "  "
     },
     "category": [
-      "christmas"
+      "christmas",
+      "rockfall"
     ],
     "features": [
       {
@@ -3982,7 +4090,9 @@
       "hitrate": "  "
     },
     "category": [
-      "fruits", "asia"
+      "asia",
+      "fruits",
+      "risknbuy"
     ],
     "features": [
       {
@@ -4048,7 +4158,8 @@
       "hitrate": "  "
     },
     "category": [
-      "postap"
+      "adventure",
+      "risknbuy"
     ],
     "features": [
       {
@@ -4119,7 +4230,10 @@
       "hitrate": "  "
     },
     "category": [
-      "egypt", "girls"
+      "egypt",
+      "girls",
+      "risknbuy",
+      "rockfall"
     ],
     "features": [
       {
@@ -4181,7 +4295,7 @@
       "paylines": 15,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 19.2
     },
     "features": [
@@ -4253,7 +4367,8 @@
       "hitrate": "  "
     },
     "category": [
-      "fruits"
+      "fruits",
+      "risknbuy"
     ],
     "features": [
       {
@@ -4319,7 +4434,8 @@
       "hitrate": 28.4
     },
     "category": [
-      "halloween"
+      "halloween",
+      "risknbuy"
     ],
     "features": [
       {
@@ -4385,7 +4501,8 @@
       "hitrate": " "
     },
     "category": [
-      "girls"
+      "girls",
+      "risknbuy"
     ],
     "features": [
       {
@@ -4598,7 +4715,10 @@
       "title": "Kite Festival Crash Game: tragaperras en vídeo de Mascot Gaming",
       "descr": "Un montón de cometas llena el cielo de colores, donde la emoción de un festival tradicional de cometas se une a un juego emocionante."
     },
-    "rockways": false
+    "rockways": false,
+    "category": [
+      "asia"
+    ]
   },
   {
     "name": "Kite Festival Crash Game",
@@ -4673,8 +4793,11 @@
       "title": "Kite Festival Crash Game, a video game by Mascot Gaming",
       "descr": "Fly high with up to 5 bets simultaneously and x5000 multiplier. Collect Free Bets along the way."
     },
-    "rockways": false
-  },  
+    "rockways": false,
+    "category": [
+      "asia"
+    ]
+  },
   {
     "name": "Riot Ultimate",
     "slug": "riot-ultimate",
@@ -4707,11 +4830,12 @@
       "paylines": 15,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 19.2
     },
     "category": [
-      "postap"
+      "riot",
+      "risknbuy"
     ],
     "features": [
       {
@@ -4817,7 +4941,12 @@
       "title": "Wood Luck!: tragaperras en vídeo de Mascot Gaming",
       "descr": "Viaja a través de un bosque mágico con funciones increíbles y multiplicadores de hasta x25000."
     },
-    "rockways": true
+    "rockways": true,
+    "category": [
+      "risknbuy",
+      "rockfall",
+      "rockways"
+    ]
   },
   {
     "name": "Mayan Riches: Bingo!",
@@ -4904,11 +5033,12 @@
       "paylines": 15,
       "payways": null,
       "html5": true,
-      "rtp": 95.0,
+      "rtp": 95,
       "hitrate": 17.2
     },
     "category": [
-      "adventure"
+      "adventure",
+      "risknbuy"
     ],
     "features": [
       {
@@ -5121,7 +5251,10 @@
       "title": "Ice Number One: tragaperras en vídeo de Mascot Gaming",
       "descr": "Asume el papel del capitán del equipo y juega con Risk and Buy, Free Spins y Side Bet."
     },
-    "rockways": false
+    "rockways": false,
+    "category": [
+      "risknbuy"
+    ]
   },
   {
     "name": "Hot Fruit x15",
@@ -5156,7 +5289,7 @@
       "payways": null,
       "html5": true,
       "rtp": 95.18,
-      "hitrate": 36.0
+      "hitrate": 36
     },
     "category": [
       "fruits"
@@ -5220,7 +5353,9 @@
       "hitrate": 23.8
     },
     "category": [
-      "easter"
+      "easter",
+      "risknbuy",
+      "rockfall"
     ],
     "features": [
       {
@@ -5448,7 +5583,11 @@
       "title": "The Candy Slot: tragaperras en vídeo de Mascot Gaming",
       "descr": "Los dulces más deliciosos se sirven con las funciones Risk and Buy, Free Spins, aleatoria y Coin"
     },
-    "rockways": false
+    "rockways": false,
+    "category": [
+      "risknbuy",
+      "rockfall"
+    ]
   },
   {
     "name": "Admiral X Fruit Machine",
@@ -5728,7 +5867,7 @@
       "title": "Crash, Hamster, Crash!, a crash game by Mascot Gaming",
       "descr": "Save adorable hamsters from aliens. Place from one to three bets and collect your winnings before the crash."
     }
-  },  
+  },
   {
     "name": "Dreamshock: Jackpot X",
     "slug": "dreamshock-jackpot-x",
@@ -5802,6 +5941,9 @@
         "link": "https://mascot.games/blog/jackpot-x-review",
         "image": "img_blog_jackpotx-main.jpg"
       }
+    ],
+    "category": [
+      "jackpot"
     ]
   },
   {
@@ -5983,7 +6125,8 @@
       "hitrate": 32.2
     },
     "category": [
-      "postap"
+      "halloween",
+      "risknbuy"
     ],
     "features": [
       {
@@ -6119,7 +6262,9 @@
       "hitrate": null
     },
     "category": [
-      "fantasy"
+      "fantasy",
+      "huntress",
+      "jackpot"
     ],
     "features": [
       {
@@ -6246,7 +6391,11 @@
       "hitrate": null
     },
     "category": [
-      "egypt", "girls"
+      "egypt",
+      "girls",
+      "risknbuy",
+      "rockfall",
+      "rockways"
     ],
     "features": [
       {
@@ -6365,7 +6514,9 @@
       "hitrate": null
     },
     "category": [
-      "adventure"
+      "adventure",
+      "huntress",
+      "risknbuy"
     ],
     "features": [
       {
@@ -6436,7 +6587,8 @@
       "hitrate": 31.2
     },
     "category": [
-      "halloween"
+      "halloween",
+      "risknbuy"
     ],
     "features": [
       {
@@ -6558,7 +6710,9 @@
       "rtp": 95.32,
       "hitrate": 28.9
     },
-    "category": [ "asia" ],
+    "category": [
+      "asia"
+    ],
     "features": [
       {
         "name": " ",
@@ -6607,7 +6761,7 @@
       "title": "Paper Lanterns Crash Game is a first crash game by Mascot Gaming",
       "descr": "Paper Lanterns Crash Game by Mascot Gaming is crash game that allows players to launch several paper lanterns, therefor making from 1 to 5 bets simultaneously."
     }
-  },  
+  },
   {
     "name": "Zeus the Thunderer Deluxe",
     "slug": "zeus-the-thunderer-deluxe",
@@ -6644,7 +6798,7 @@
       "hitrate": 53.2
     },
     "category": [
-      "mythology"
+      "zeus"
     ],
     "features": [
       {
@@ -6715,7 +6869,8 @@
       "hitrate": 21.5
     },
     "category": [
-      "mythology"
+      "risknbuy",
+      "zeus"
     ],
     "features": [
       {
@@ -6781,7 +6936,8 @@
       "hitrate": 31.1
     },
     "category": [
-      "fantasy"
+      "fantasy",
+      "risknbuy"
     ],
     "features": [
       {
@@ -6847,7 +7003,9 @@
       "hitrate": 38.1
     },
     "category": [
-      "fantasy"
+      "fantasy",
+      "huntress",
+      "risknbuy"
     ],
     "features": [
       {
@@ -7341,7 +7499,10 @@
       "title": "DICE DISCO MEGA STACKS: tragaperras en vídeo de Mascot Gaming",
       "descr": "DICE DISCO MEGA STACKS es nuestra tragaperras nueva con la función Stacked Symbols."
     },
-    "rockways": false
+    "rockways": false,
+    "category": [
+      "fruits"
+    ]
   },
   {
     "name": "Aloha Tiki Bar Dice",
@@ -7437,6 +7598,7 @@
       "hitrate": 42.3
     },
     "category": [
+      "jackpot",
       "space"
     ],
     "features": [
@@ -7620,7 +7782,8 @@
       "hitrate": 62.8
     },
     "category": [
-      "girls"
+      "girls",
+      "risknbuy"
     ],
     "features": [
       {
@@ -7747,7 +7910,10 @@
       "hitrate": 32.2
     },
     "category": [
-      "fantasy"
+      "fantasy",
+      "risknbuy",
+      "rockfall",
+      "rockways"
     ],
     "features": [
       {
@@ -7876,7 +8042,8 @@
       "hitrate": 43.4
     },
     "category": [
-      "halloween"
+      "halloween",
+      "risknbuy"
     ],
     "features": [
       {
@@ -7967,7 +8134,10 @@
       "title": "Wildlife Riches: tragaperras en vídeo de Mascot Gaming",
       "descr": "Wildlife Riches, de Mascot Gaming es una tragaperras con función Risk&Buy."
     },
-    "rockways": false
+    "rockways": false,
+    "category": [
+      "risknbuy"
+    ]
   },
   {
     "name": "Hydra's Lair",
@@ -8005,7 +8175,9 @@
       "hitrate": 40.1
     },
     "category": [
-      "fantasy"
+      "fantasy",
+      "huntress",
+      "risknbuy"
     ],
     "features": [
       {
@@ -8129,7 +8301,9 @@
       "hitrate": 31.4
     },
     "category": [
-      "adventure"
+      "adventure",
+      "risknbuy",
+      "rockfall"
     ],
     "features": [
       {
@@ -8205,7 +8379,8 @@
       "hitrate": 38.8
     },
     "category": [
-      "adventure"
+      "adventure",
+      "risknbuy"
     ],
     "features": [
       {
@@ -8271,7 +8446,11 @@
       "hitrate": 32.2
     },
     "category": [
-      "fantasy"
+      "fantasy",
+      "girls",
+      "risknbuy",
+      "rockfall",
+      "rockways"
     ],
     "features": [
       {
@@ -8474,7 +8653,9 @@
       "hitrate": 43.1
     },
     "category": [
-      "postap"
+      "riot",
+      "risknbuy",
+      "rockfall"
     ],
     "features": [
       {
@@ -8550,6 +8731,7 @@
       "hitrate": 38.2
     },
     "category": [
+      "risknbuy",
       "space"
     ],
     "features": [
@@ -8662,7 +8844,9 @@
     "backUrl": "back_fortherealm.jpg",
     "detailsImgUrl": "details_fortherealm.png",
     "category": [
-      "fantasy"
+      "fantasy",
+      "fortherealm",
+      "risknbuy"
     ],
     "stats": {
       "reels": 5,
@@ -8875,7 +9059,9 @@
       "hitrate": 31.3
     },
     "category": [
-      "fantasy", "girls"
+      "fantasy",
+      "girls",
+      "risknbuy"
     ],
     "features": [
       {
@@ -8981,7 +9167,12 @@
       "title": "Apuesta Primal Rockways: tragaperras de Mascot Gaming",
       "descr": "Apuesta Primal Rockways, de Mascot Gaming, es una tragaperras con mecánica RockWays y Rockfall."
     },
-    "rockways": true
+    "rockways": true,
+    "category": [
+      "risknbuy",
+      "rockfall",
+      "rockways"
+    ]
   },
   {
     "name": "Aloha Tiki Bar",
@@ -9077,7 +9268,8 @@
       "hitrate": 35.6
     },
     "category": [
-      "halloween"
+      "halloween",
+      "risknbuy"
     ],
     "features": [
       {
@@ -9148,7 +9340,8 @@
       "hitrate": 46.5
     },
     "category": [
-      "girls"
+      "girls",
+      "risknbuy"
     ],
     "features": [
       {
@@ -9224,7 +9417,9 @@
       "hitrate": 27.3
     },
     "category": [
-      "fantasy"
+      "fantasy",
+      "huntress",
+      "risknbuy"
     ],
     "features": [
       {
@@ -9417,7 +9612,8 @@
       "hitrate": 46.06
     },
     "category": [
-      "mythology"
+      "risknbuy",
+      "zeus"
     ],
     "features": [
       {
@@ -9493,7 +9689,9 @@
       "hitrate": 28.09
     },
     "category": [
-      "asia"
+      "asia",
+      "girls",
+      "risknbuy"
     ],
     "features": [
       {
@@ -9599,7 +9797,12 @@
       "title": "MAYAN RICHES ROCKWAYS: tragaperras de Mascot Gaming",
       "descr": "MAYAN RICHES ROCKWAYS, de Mascot Gaming, es una tragaperras con mecánica RockWays y RockFall."
     },
-    "rockways": true
+    "rockways": true,
+    "category": [
+      "risknbuy",
+      "rockfall",
+      "rockways"
+    ]
   },
   {
     "name": "Bastet and Cats",
@@ -9637,7 +9840,10 @@
       "hitrate": 46.9
     },
     "category": [
-      "egypt", "girls"
+      "egypt",
+      "girls",
+      "risknbuy",
+      "rockfall"
     ],
     "features": [
       {
@@ -9713,7 +9919,8 @@
       "hitrate": 25.8
     },
     "category": [
-      "mythology"
+      "risknbuy",
+      "zeus"
     ],
     "features": [
       {
@@ -9789,7 +9996,8 @@
       "hitrate": 32.7
     },
     "category": [
-      "halloween"
+      "halloween",
+      "risknbuy"
     ],
     "features": [
       {
@@ -9855,7 +10063,8 @@
       "hitrate": 20.1
     },
     "category": [
-      "adventure"
+      "adventure",
+      "risknbuy"
     ],
     "features": [
       {
@@ -9931,7 +10140,8 @@
       "hitrate": 27.3
     },
     "category": [
-      "christmas"
+      "christmas",
+      "risknbuy"
     ],
     "features": [
       {
@@ -10012,7 +10222,8 @@
       "hitrate": 37.8
     },
     "category": [
-      "adventure"
+      "adventure",
+      "risknbuy"
     ],
     "features": [
       {
@@ -10083,7 +10294,8 @@
       "hitrate": 27.6
     },
     "category": [
-      "girls"
+      "girls",
+      "risknbuy"
     ],
     "features": [
       {
@@ -10159,7 +10371,8 @@
       "hitrate": 30.8
     },
     "category": [
-      "postap"
+      "halloween",
+      "risknbuy"
     ],
     "features": [
       {
@@ -10230,7 +10443,8 @@
       "hitrate": 36.5
     },
     "category": [
-      "fruits", "asia"
+      "asia",
+      "fruits"
     ],
     "features": [
       {
@@ -10352,7 +10566,8 @@
       "hitrate": 31.1
     },
     "category": [
-      "adventure"
+      "adventure",
+      "risknbuy"
     ],
     "features": [
       {
@@ -10423,7 +10638,8 @@
       "hitrate": 31.9
     },
     "category": [
-      "postap"
+      "riot",
+      "risknbuy"
     ],
     "features": [
       {
@@ -10759,7 +10975,10 @@
       "title": "BENNY'S THE BIGGEST GAME: tragaperras en vídeo de Mascot Gaming",
       "descr": "BENNY'S THE BIGGEST GAME, de Mascot Gaming, es una tragaperras muy divertida con bonitos gráficos de dibujos animados y funciones emocionantes."
     },
-    "rockways": false
+    "rockways": false,
+    "category": [
+      "risknbuy"
+    ]
   },
   {
     "name": "Blackjack",
@@ -10875,7 +11094,10 @@
       "title": "LEGIONER: tragaperras en vídeo de Mascot Gaming",
       "descr": "LEGIONER es una tragaperras muy emocionante basada en la historia de la Antigua Roma. ¡Únete al Legionario y consigue la victoria!"
     },
-    "rockways": false
+    "rockways": false,
+    "category": [
+      "risknbuy"
+    ]
   },
   {
     "name": "Fruit Vegas",
@@ -10974,7 +11196,8 @@
       "hitrate": 27.2
     },
     "category": [
-      "fantasy"
+      "fantasy",
+      "huntress"
     ],
     "features": [
       {
@@ -11215,7 +11438,8 @@
       "hitrate": 21.5
     },
     "category": [
-      "egypt"
+      "egypt",
+      "girls"
     ],
     "features": [
       {
@@ -11466,7 +11690,8 @@
       "hitrate": 46.3
     },
     "category": [
-      "fantasy", "girls"
+      "fantasy",
+      "risknbuy"
     ],
     "features": [
       {
@@ -11592,7 +11817,9 @@
       "rtp": 96.1,
       "hitrate": 30.1
     },
-    "category": [ "halloween" ],
+    "category": [
+      "halloween"
+    ],
     "features": [
       {
         "name": "Stacked Symbols",
@@ -11657,7 +11884,8 @@
       "hitrate": 35.1
     },
     "category": [
-      "asia"
+      "asia",
+      "risknbuy"
     ],
     "features": [
       {
