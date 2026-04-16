@@ -970,6 +970,7 @@ export default {
       flex-direction: column;
       width: calc(100% - 10px);
       .dropdown-item {
+        position: relative;
         background: transparent;
         border-bottom: 1px solid #5f5f5f;
         color: #fff;
@@ -983,6 +984,7 @@ export default {
             height: 24px;
             width: 24px;
             left: 9px;
+            bottom: 7px;
         }
         &:last-child {
           border-bottom: none;
@@ -1000,122 +1002,98 @@ export default {
           font-weight: 600;
         }
         &.buttn-feature-risknbuy {
-          position: relative;
           &:before {
             background: url('/images/img_filter-risknbuy.png')no-repeat;
             background-size: contain;
-            top: 7px;
           }
           &.active {
             &:before {
               background: url('/images/img_filter-risknbuy-black.png')no-repeat;
               background-size: contain;
-              top: 7px;
             }
           }
         }
         &.buttn-feature-holdnwin {
-          position: relative;
           &:before {
             background: url('/images/img_filter-holdnwin.png')no-repeat;
             background-size: contain;
-            top: 6px
           }
           &.active {
             &:before {
               background: url('/images/img_filter-holdnwin-black.png')no-repeat;
               background-size: contain;
-              top: 7px;
             }
           }          
         }
         &.buttn-feature-jackpot {
-          position: relative;
           &:before {
             background: url('/images/img_filter-jackpot.png')no-repeat;
             background-size: contain;
-            top: 6px
           }
           &.active {
             &:before {
               background: url('/images/img_filter-jackpot-black.png')no-repeat;
               background-size: contain;
-              top: 7px;
             }
           }          
         }
         &.buttn-feature-rockways {
-          position: relative;
           &:before {
             background: url('/images/img_filter-rockways.png')no-repeat;
             background-size: contain;
-            top: 6px
           }
           &.active {
             &:before {
               background: url('/images/img_filter-rockways-black.png')no-repeat;
               background-size: contain;
-              top: 7px;
             }
           }          
         }
         &.buttn-feature-rockfall {
-          position: relative;
           &:before {
             background: url('/images/img_filter-rockfall.png')no-repeat;
             background-size: contain;
-            top: 6px
           }
           &.active {
             &:before {
               background: url('/images/img_filter-rockfall-black.png')no-repeat;
               background-size: contain;
-              top: 7px;
             }
           }          
         } 
         &.buttn-feature-boost {
-          position: relative;
           &:before {
             background: url('/images/img_filter-boost.png')no-repeat;
             background-size: contain;
-            top: 6px
           }
           &.active {
             &:before {
               background: url('/images/img_filter-boost-black.png')no-repeat;
               background-size: contain;
-              top: 7px;
             }
           }          
         } 
         &.buttn-feature-nudge {
-          position: relative;
           &:before {
             background: url('/images/img_filter-nudge.png')no-repeat;
             background-size: contain;
-            top: 6px
           }
           &.active {
             &:before {
               background: url('/images/img_filter-nudge-black.png')no-repeat;
               background-size: contain;
-              top: 7px;
             }
           }          
         }
         &.buttn-feature-buyfreerounds {
-          position: relative;
           &:before {
             background: url('/images/img_filter-buyfreerounds.png')no-repeat;
             background-size: contain;
-            top: 6px
           }
           &.active {
             &:before {
               background: url('/images/img_filter-buyfreerounds-black.png')no-repeat;
               background-size: contain;
-              top: 7px;
             }
           }          
         }
