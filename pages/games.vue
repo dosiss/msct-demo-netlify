@@ -78,6 +78,7 @@
                   <button :class="{ active: gameFilterKey == 'zeus' }" class="dropdown-item buttn-universe-zeus" @click="handleFilterChange('zeus')"><span>{{$t('Zeus')}}</span></button>
                   <button :class="{ active: gameFilterKey == 'tessahunt' }" class="dropdown-item buttn-universe-tessahunt" @click="handleFilterChange('tessahunt')"><span>{{$t('Tessa Hunt')}}</span></button>
                   <button :class="{ active: gameFilterKey == 'huntress' }" class="dropdown-item buttn-universe-huntress" @click="handleFilterChange('huntress')"><span>{{$t('Huntress')}}</span></button>
+                  <button :class="{ active: gameFilterKey == 'fortherealm' }" class="dropdown-item buttn-universe-fortherealm" @click="handleFilterChange('fortherealm')"><span>{{$t('For the Realm')}}</span></button>
                   <!-- <button :class="{ active: gameFilterKey == 'joker' }" class="dropdown-item buttn-universe-joker" @click="handleFilterChange('joker')"><span>{{$t('Joker')}}</span></button> -->
                 </div>
               </div>                                        
@@ -379,6 +380,11 @@ export default {
           Array.isArray(game.category) && game.category.includes("huntress")
         )
       },
+      fortherealm() {
+        return this.gamesList.filter((game) =>
+          Array.isArray(game.category) && game.category.includes("fortherealm")
+        )
+      },      
       joker() {
         return this.gamesList.filter((game) =>
           Array.isArray(game.category) && game.category.includes("joker")
@@ -505,7 +511,7 @@ export default {
       this.isCatDropdownOpen = false;
       this.isUniverseDropdownOpen = false;
 
-      const allowedFilters = ['all', 'comingsoon', 'top', 'tictactoe', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'branded', 'custom', 'adventures', 'christmas', 'easter', 'fantasy', 'halloween', 'space', 'jewels', 'egypt', 'fruits', 'asia', 'girls', 'riot', 'zeus', 'tessahunt', 'huntress', 'joker', 'riskandbuy', 'holdnwin', 'jackpot', 'rockways', 'rockfall', 'boost', 'nudge', 'buyfreerounds'];
+      const allowedFilters = ['all', 'comingsoon', 'top', 'tictactoe', 'traffic', 'profit', 'videoslots', 'lotteries', 'tablegames', 'shooting', 'crashgames', 'risknbuy', 'branded', 'custom', 'adventures', 'christmas', 'easter', 'fantasy', 'halloween', 'space', 'jewels', 'egypt', 'fruits', 'asia', 'girls', 'riot', 'zeus', 'tessahunt', 'huntress', 'fortherealm', 'joker', 'riskandbuy', 'holdnwin', 'jackpot', 'rockways', 'rockfall', 'boost', 'nudge', 'buyfreerounds'];
 
       if (!allowedFilters.includes(filterKey)) {
   //      console.warn('Invalid filter key:', filterKey);
@@ -1266,6 +1272,10 @@ export default {
         }
         &.buttn-universe-huntress:before {
           background: url("/images/img_filter-huntress.png") no-repeat;
+          background-size: contain;
+        }
+        &.buttn-universe-fortherealm:before {
+          background: url("/images/img_filter-fortherealm.png") no-repeat;
           background-size: contain;
         }
         &.buttn-universe-joker:before {
