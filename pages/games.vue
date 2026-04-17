@@ -271,18 +271,6 @@ export default {
       tablegames() {
         return allGames.filter((game) => game.theme === "table/cards")
       },
-      // profit() {
-      //   return allGames.filter((game) => game.type === "profit")
-      // },
-      // traffic() {
-      //   return allGames.filter((game) => game.type === "traffic")
-      // },
-      // risknbuy() {
-      //   return allGames.filter((game) => game.risknbuy === true)
-      // },
-      // rockways() {
-      //   return allGames.filter((game) => game.rockways === true)
-      // },
       shooting() {
         return allGames.filter((game) => game.theme === "shooting")
       },
@@ -709,7 +697,7 @@ export default {
     margin-bottom: 0;
     justify-content: space-between;
     @media (min-width: 1980px) {
-      width: 2340px
+      width: 1690px
     }
     @media (max-width: 1979px) {
       padding-left: 35px;
@@ -1573,4 +1561,3 @@ export default {
     }
   }
 </style>
->
