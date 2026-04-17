@@ -46,7 +46,7 @@
                 </div>
               </div> 
               <div class="dropdown-filter" :class="{ 'is-open': isCatDropdownOpen }" @mouseenter="$device.isMobile ? null : isCatDropdownOpen = true" @mouseleave="$device.isMobile ? null : isCatDropdownOpen = false">
-                <button class="buttn buttn-rounded buttn-sm dropdown-trigger buttn-category" @click="isCatDropdownOpen = !isCatDropdownOpen"><span class="buttn-category-title">{{$t('Category')}}</span>
+                <button class="buttn buttn-rounded buttn-sm dropdown-trigger buttn-category" @click="isCatDropdownOpen = !isCatDropdownOpen"><span class="buttn-category-title">{{$t('GameTheme')}}</span>
                   <span class="dropdown-arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" fill="none" viewBox="0 0 8 5"><path fill="#fff" fill-rule="evenodd" d="M4.708 4.536a1 1 0 0 1-1.414 0L.464 1.707A1 1 0 0 1 1.174 0h5.656a1 1 0 0 1 .708 1.707l-2.83 2.829Z" clip-rule="evenodd"/></svg>
                   </span>

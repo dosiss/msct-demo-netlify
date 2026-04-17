@@ -113,6 +113,7 @@
       "hitrate": null
     },
     "category": [
+      "adventure",
       "holdnwin",
       "jackpot",
       "nudge",
@@ -201,6 +202,8 @@
       "hitrate": null
     },
     "category": [
+      "adventure",
+      "girls",
       "holdnwin",
       "jackpot",
       "risknbuy",
@@ -597,6 +600,7 @@
       "hitrate": null
     },
     "category": [
+      "adventure",
       "boost",
       "riot",
       "rockways"
@@ -810,8 +814,10 @@
       "hitrate": null
     },
     "category": [
+      "adventure",
       "boost",
       "buyfreerounds",
+      "girls",
       "risknbuy",
       "tessahunt"
     ],
@@ -1263,6 +1269,7 @@
       "hitrate": null
     },
     "category": [
+      "adventure",
       "risknbuy",
       "zeus"
     ],
@@ -1605,6 +1612,8 @@
       "hitrate": null
     },
     "category": [
+      "adventure",
+      "girls",
       "risknbuy",
       "tessahunt"
     ],
@@ -2944,6 +2953,8 @@
       "hitrate": null
     },
     "category": [
+      "adventure",
+      "girls",
       "risknbuy",
       "tessahunt"
     ],
@@ -3231,6 +3242,7 @@
       "hitrate": " "
     },
     "category": [
+      "adventure",
       "risknbuy",
       "zeus"
     ],
@@ -3904,6 +3916,7 @@
       "hitrate": "  "
     },
     "category": [
+      "adventure",
       "riot"
     ],
     "features": [
@@ -4834,6 +4847,7 @@
       "hitrate": 19.2
     },
     "category": [
+      "adventure",
       "riot",
       "risknbuy"
     ],
@@ -6798,6 +6812,7 @@
       "hitrate": 53.2
     },
     "category": [
+      "adventure",
       "zeus"
     ],
     "features": [
@@ -6869,6 +6884,7 @@
       "hitrate": 21.5
     },
     "category": [
+      "adventure",
       "risknbuy",
       "zeus"
     ],
@@ -8653,6 +8669,7 @@
       "hitrate": 43.1
     },
     "category": [
+      "adventure",
       "riot",
       "risknbuy",
       "rockfall"
@@ -9612,6 +9629,7 @@
       "hitrate": 46.06
     },
     "category": [
+      "adventure",
       "risknbuy",
       "zeus"
     ],
@@ -9919,6 +9937,7 @@
       "hitrate": 25.8
     },
     "category": [
+      "adventure",
       "risknbuy",
       "zeus"
     ],
@@ -10638,6 +10657,7 @@
       "hitrate": 31.9
     },
     "category": [
+      "adventure",
       "riot",
       "risknbuy"
     ],

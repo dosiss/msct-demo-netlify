@@ -115,6 +115,7 @@
       "commercialFeatures": []
     },
     "category": [
+      "adventure",
       "holdnwin",
       "jackpot",
       "nudge",
@@ -204,6 +205,8 @@
       "commercialFeatures": []
     },
     "category": [
+      "adventure",
+      "girls",
       "holdnwin",
       "jackpot",
       "risknbuy",
@@ -614,6 +617,7 @@
       ]
     },
     "category": [
+      "adventure",
       "boost",
       "riot",
       "rockways"
@@ -834,8 +838,10 @@
       ]
     },
     "category": [
+      "adventure",
       "boost",
       "buyfreerounds",
+      "girls",
       "risknbuy",
       "tessahunt"
     ],
@@ -1302,6 +1308,7 @@
       ]
     },
     "category": [
+      "adventure",
       "risknbuy",
       "zeus"
     ],
@@ -1706,6 +1713,8 @@
       ]
     },
     "category": [
+      "adventure",
+      "girls",
       "risknbuy",
       "tessahunt"
     ],
@@ -3352,6 +3361,8 @@
       ]
     },
     "category": [
+      "adventure",
+      "girls",
       "risknbuy",
       "tessahunt"
     ],
@@ -3526,6 +3537,7 @@
       ]
     },
     "category": [
+      "adventure",
       "risknbuy",
       "zeus"
     ],
@@ -4221,6 +4233,7 @@
       "commercialFeatures": []
     },
     "category": [
+      "adventure",
       "riot"
     ],
     "features": [
@@ -5348,6 +5361,7 @@
       ]
     },
     "category": [
+      "adventure",
       "riot",
       "risknbuy"
     ],
@@ -7791,6 +7805,7 @@
       ]
     },
     "category": [
+      "adventure",
       "zeus"
     ],
     "features": [
@@ -7887,6 +7902,7 @@
       ]
     },
     "category": [
+      "adventure",
       "risknbuy",
       "zeus"
     ],
@@ -9868,6 +9884,7 @@
       ]
     },
     "category": [
+      "adventure",
       "riot",
       "risknbuy",
       "rockfall"
@@ -10964,6 +10981,7 @@
       ]
     },
     "category": [
+      "adventure",
       "risknbuy",
       "zeus"
     ],
@@ -11319,6 +11337,7 @@
       ]
     },
     "category": [
+      "adventure",
       "risknbuy",
       "zeus"
     ],
@@ -12130,6 +12149,7 @@
       ]
     },
     "category": [
+      "adventure",
       "riot",
       "risknbuy"
     ],
